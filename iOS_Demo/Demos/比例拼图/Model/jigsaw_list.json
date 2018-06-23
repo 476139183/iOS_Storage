@@ -1,0 +1,37 @@
+{
+	"result": true,
+	"data": {
+		"category_sale": [ {
+			"name": "我是你的哥",
+			"sale_amount": 1,
+			"gross_margin_ratio": 0.22
+		}, {
+			"name": "不是亲哥哥",
+			"sale_amount": 4,
+			"gross_margin_ratio": 0
+		}, {
+			"name": "呵呵哒",
+			"sale_amount": 3,
+			"gross_margin_ratio": 0.19
+		}, {
+			"name": "因缺思厅",
+			"sale_amount": 2,
+			"gross_margin_ratio": 0.4
+		}, {
+			"name": "fdaa",
+			"sale_amount": 2,
+			"gross_margin_ratio": 0.4
+		}, {
+			"name": "asdf",
+			"sale_amount": 4,
+			"gross_margin_ratio": 0
+		}, {
+			"name": "efg",
+			"sale_amount": 3,
+			"gross_margin_ratio": 0.19
+		}]
+	},
+	"msg": "ok",
+	"code": 200,
+	"executed": "0.0320830345"
+}
