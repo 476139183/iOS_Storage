@@ -147,6 +147,8 @@ static NSString * const CQCategoryItemCellReuseID = @"CQCategoryItemCellReuseID"
             itemModel.width = itemModel.size / itemModel.height;
         }
     }
+    
+    [self.collectionView reloadData];
 }
 
 #pragma mark - UICollectionView DataSource && Delegate
