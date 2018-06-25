@@ -18,7 +18,6 @@
 		D92D69C420DE359C002BA9C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92D69C320DE359C002BA9C0 /* LaunchScreen.storyboard */; };
 		D92D69C620DE35B2002BA9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92D69C520DE35B2002BA9C0 /* Main.storyboard */; };
 		D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */; };
-		D92D69CD20DE3764002BA9C0 /* README.strings in Resources */ = {isa = PBXBuildFile; fileRef = D92D69CC20DE3764002BA9C0 /* README.strings */; };
 		D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */; };
 		D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AE0CE220DD02AC00A31D62 /* Assets.xcassets */; };
 		D9AE0CE920DD02AC00A31D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CE820DD02AC00A31D62 /* main.m */; };
@@ -30,6 +29,8 @@
 		62694235C607F9539E273644 /* Pods-iOS_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Demo/Pods-iOS_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		829987093C9DAEBEDBE87619 /* libPods-iOS_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3A02B8A8215154487B9BD3 /* Pods-iOS_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Demo/Pods-iOS_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		D91E20BD20E10C7500EBC74B /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		D91E20BF20E10CD200EBC74B /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		D92D69A420DE2DD0002BA9C0 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		D92D69A520DE2DD0002BA9C0 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		D92D69C520DE35B2002BA9C0 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D92D69C920DE36C8002BA9C0 /* UIView+FrameHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameHelper.h"; sourceTree = "<group>"; };
 		D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameHelper.m"; sourceTree = "<group>"; };
-		D92D69CC20DE3764002BA9C0 /* README.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = README.strings; sourceTree = "<group>"; };
 		D92D69CE20DE3A34002BA9C0 /* jigsaw_list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jigsaw_list.json; sourceTree = "<group>"; };
 		D9AE0CD620DD02AC00A31D62 /* iOS_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AE0CD920DD02AC00A31D62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +88,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */ = {
+			isa = PBXGroup;
+			children = (
+				D91E20BF20E10CD200EBC74B /* readme.md */,
+			);
+			path = "菜单栏+下拉列表";
+			sourceTree = "<group>";
+		};
 		D92D69A220DE2D95002BA9C0 /* 主页 */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +108,7 @@
 		D92D69A320DE2DAA002BA9C0 /* 比例拼图 */ = {
 			isa = PBXGroup;
 			children = (
-				D92D69CC20DE3764002BA9C0 /* README.strings */,
+				D91E20BD20E10C7500EBC74B /* readme.md */,
 				D92D69A920DE2EE5002BA9C0 /* Model */,
 				D92D69A820DE2EDC002BA9C0 /* View */,
 				D92D69A720DE2ED2002BA9C0 /* Controller */,
@@ -154,6 +162,7 @@
 			children = (
 				D9DC05E820DE43D900149124 /* Base */,
 				D92D69A320DE2DAA002BA9C0 /* 比例拼图 */,
+				D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -265,7 +274,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9DC05E720DE418A00149124 /* jigsaw_list.json in Resources */,
-				D92D69CD20DE3764002BA9C0 /* README.strings in Resources */,
 				D92D69C420DE359C002BA9C0 /* LaunchScreen.storyboard in Resources */,
 				D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */,
 				D92D69C620DE35B2002BA9C0 /* Main.storyboard in Resources */,
