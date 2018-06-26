@@ -2,31 +2,31 @@
 	"result": true,
 	"data": {
 		"category_sale": [ {
-			"name": "我是你的哥",
+			"name": "fade",
 			"sale_amount": 1,
 			"gross_margin_ratio": 0.22
 		}, {
-			"name": "不是亲哥哥",
+			"name": "反叛的鲁鲁修",
 			"sale_amount": 4,
 			"gross_margin_ratio": 0
 		}, {
-			"name": "呵呵哒",
+			"name": "进击的巨人",
 			"sale_amount": 3,
 			"gross_margin_ratio": 0.19
 		}, {
-			"name": "因缺思厅",
+			"name": "夏目友人帐",
 			"sale_amount": 2,
 			"gross_margin_ratio": 0.4
 		}, {
-			"name": "fdaa",
+			"name": "你的名字",
 			"sale_amount": 2,
 			"gross_margin_ratio": 0.4
 		}, {
-			"name": "asdf",
+			"name": "四月是你的谎言",
 			"sale_amount": 4,
 			"gross_margin_ratio": 0
 		}, {
-			"name": "efg",
+			"name": "未闻花名",
 			"sale_amount": 3,
 			"gross_margin_ratio": 0.19
 		}]

@@ -18,11 +18,24 @@
 		D92D69C420DE359C002BA9C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92D69C320DE359C002BA9C0 /* LaunchScreen.storyboard */; };
 		D92D69C620DE35B2002BA9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92D69C520DE35B2002BA9C0 /* Main.storyboard */; };
 		D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */; };
+		D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D948397C20E255FC00121FB6 /* IphoneListCell.m */; };
 		D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */; };
 		D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AE0CE220DD02AC00A31D62 /* Assets.xcassets */; };
 		D9AE0CE920DD02AC00A31D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CE820DD02AC00A31D62 /* main.m */; };
+		D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563ED20E240B7001AE9A0 /* IphoneMenuModel.m */; };
+		D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563F020E240CC001AE9A0 /* IphoneListModel.m */; };
+		D9B563F420E240F2001AE9A0 /* CQIphoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563F320E240F2001AE9A0 /* CQIphoneViewController.m */; };
+		D9B563F720E24A14001AE9A0 /* iphone_menu_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B563F520E24896001AE9A0 /* iphone_menu_data.json */; };
+		D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B563F620E249E3001AE9A0 /* iphone_list_data.json */; };
+		D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */; };
+		D9DA0E7A20E24F5E006CEA1C /* IphoneMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA0E7920E24F5E006CEA1C /* IphoneMenuView.m */; };
+		D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA0E7C20E24F77006CEA1C /* IphoneListView.m */; };
+		D9DA0E8220E2519D006CEA1C /* IphoneListItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA0E8120E2519D006CEA1C /* IphoneListItemModel.m */; };
+		D9DA0E8520E251C4006CEA1C /* IphoneMenuItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA0E8420E251C4006CEA1C /* IphoneMenuItemModel.m */; };
+		D9DA0E8920E25291006CEA1C /* CQIphoneRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA0E8820E25291006CEA1C /* CQIphoneRequest.m */; };
+		D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA5CEA20E27E120098EC68 /* IphoneMenuButton.m */; };
+		D9DA5CF020E291550098EC68 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA5CEF20E291550098EC68 /* UIView+Util.m */; };
 		D9DC05E720DE418A00149124 /* jigsaw_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D92D69CE20DE3A34002BA9C0 /* jigsaw_list.json */; };
-		D9DC05EB20DE43F400149124 /* CQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DC05EA20DE43F400149124 /* CQBaseModel.m */; };
 		D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E420E2322E00C3090D /* IrregularLabel.m */; };
 		D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */; };
 		D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4EB20E235D400C3090D /* ArrowLabel.m */; };
@@ -52,14 +65,39 @@
 		D92D69C920DE36C8002BA9C0 /* UIView+FrameHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameHelper.h"; sourceTree = "<group>"; };
 		D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameHelper.m"; sourceTree = "<group>"; };
 		D92D69CE20DE3A34002BA9C0 /* jigsaw_list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jigsaw_list.json; sourceTree = "<group>"; };
+		D948397B20E255FC00121FB6 /* IphoneListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneListCell.h; sourceTree = "<group>"; };
+		D948397C20E255FC00121FB6 /* IphoneListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneListCell.m; sourceTree = "<group>"; };
 		D9AE0CD620DD02AC00A31D62 /* iOS_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AE0CD920DD02AC00A31D62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D9AE0CE220DD02AC00A31D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9AE0CE720DD02AC00A31D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9AE0CE820DD02AC00A31D62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D9DC05E920DE43F400149124 /* CQBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQBaseModel.h; sourceTree = "<group>"; };
-		D9DC05EA20DE43F400149124 /* CQBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBaseModel.m; sourceTree = "<group>"; };
+		D9B563EC20E240B7001AE9A0 /* IphoneMenuModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneMenuModel.h; sourceTree = "<group>"; };
+		D9B563ED20E240B7001AE9A0 /* IphoneMenuModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneMenuModel.m; sourceTree = "<group>"; };
+		D9B563EF20E240CC001AE9A0 /* IphoneListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneListModel.h; sourceTree = "<group>"; };
+		D9B563F020E240CC001AE9A0 /* IphoneListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneListModel.m; sourceTree = "<group>"; };
+		D9B563F220E240F2001AE9A0 /* CQIphoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIphoneViewController.h; sourceTree = "<group>"; };
+		D9B563F320E240F2001AE9A0 /* CQIphoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQIphoneViewController.m; sourceTree = "<group>"; };
+		D9B563F520E24896001AE9A0 /* iphone_menu_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = iphone_menu_data.json; sourceTree = "<group>"; };
+		D9B563F620E249E3001AE9A0 /* iphone_list_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = iphone_list_data.json; sourceTree = "<group>"; };
+		D9B563F920E24B1F001AE9A0 /* CQIphoneDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIphoneDetailViewController.h; sourceTree = "<group>"; };
+		D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQIphoneDetailViewController.m; sourceTree = "<group>"; };
+		D9DA0E7820E24F5E006CEA1C /* IphoneMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneMenuView.h; sourceTree = "<group>"; };
+		D9DA0E7920E24F5E006CEA1C /* IphoneMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneMenuView.m; sourceTree = "<group>"; };
+		D9DA0E7B20E24F77006CEA1C /* IphoneListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneListView.h; sourceTree = "<group>"; };
+		D9DA0E7C20E24F77006CEA1C /* IphoneListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneListView.m; sourceTree = "<group>"; };
+		D9DA0E8020E2519D006CEA1C /* IphoneListItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneListItemModel.h; sourceTree = "<group>"; };
+		D9DA0E8120E2519D006CEA1C /* IphoneListItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneListItemModel.m; sourceTree = "<group>"; };
+		D9DA0E8320E251C4006CEA1C /* IphoneMenuItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneMenuItemModel.h; sourceTree = "<group>"; };
+		D9DA0E8420E251C4006CEA1C /* IphoneMenuItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneMenuItemModel.m; sourceTree = "<group>"; };
+		D9DA0E8720E25291006CEA1C /* CQIphoneRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIphoneRequest.h; sourceTree = "<group>"; };
+		D9DA0E8820E25291006CEA1C /* CQIphoneRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQIphoneRequest.m; sourceTree = "<group>"; };
+		D9DA5CE920E27E120098EC68 /* IphoneMenuButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneMenuButton.h; sourceTree = "<group>"; };
+		D9DA5CEA20E27E120098EC68 /* IphoneMenuButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneMenuButton.m; sourceTree = "<group>"; };
+		D9DA5CEC20E290D80098EC68 /* Categories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		D9DA5CEE20E291550098EC68 /* UIView+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
+		D9DA5CEF20E291550098EC68 /* UIView+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
 		D9E9F4E320E2322E00C3090D /* IrregularLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IrregularLabel.h; sourceTree = "<group>"; };
 		D9E9F4E420E2322E00C3090D /* IrregularLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularLabel.m; sourceTree = "<group>"; };
 		D9E9F4E620E232E200C3090D /* CQIrregularViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIrregularViewController.h; sourceTree = "<group>"; };
@@ -105,6 +143,7 @@
 				D9E9F4DF20E22E5200C3090D /* Model */,
 				D9E9F4DE20E22E4E00C3090D /* View */,
 				D9E9F4DD20E22E4300C3090D /* Controller */,
+				D9DA0E8620E25249006CEA1C /* Request */,
 			);
 			path = "菜单栏+下拉列表";
 			sourceTree = "<group>";
@@ -164,8 +203,7 @@
 		D92D69C720DE3606002BA9C0 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				D92D69C920DE36C8002BA9C0 /* UIView+FrameHelper.h */,
-				D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */,
+				D9DA5CED20E290E00098EC68 /* Categories */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -173,12 +211,33 @@
 		D92D69C820DE361E002BA9C0 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
-				D9DC05E820DE43D900149124 /* Base */,
 				D92D69A320DE2DAA002BA9C0 /* 比例拼图 */,
 				D9E9F4E020E2312900C3090D /* 不规格label */,
 				D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */,
 			);
 			path = Demos;
+			sourceTree = "<group>";
+		};
+		D948397620E2557F00121FB6 /* 菜单栏 */ = {
+			isa = PBXGroup;
+			children = (
+				D9DA0E7820E24F5E006CEA1C /* IphoneMenuView.h */,
+				D9DA0E7920E24F5E006CEA1C /* IphoneMenuView.m */,
+				D9DA5CE920E27E120098EC68 /* IphoneMenuButton.h */,
+				D9DA5CEA20E27E120098EC68 /* IphoneMenuButton.m */,
+			);
+			path = "菜单栏";
+			sourceTree = "<group>";
+		};
+		D948397720E2558C00121FB6 /* 下拉列表 */ = {
+			isa = PBXGroup;
+			children = (
+				D9DA0E7B20E24F77006CEA1C /* IphoneListView.h */,
+				D9DA0E7C20E24F77006CEA1C /* IphoneListView.m */,
+				D948397B20E255FC00121FB6 /* IphoneListCell.h */,
+				D948397C20E255FC00121FB6 /* IphoneListCell.m */,
+			);
+			path = "下拉列表";
 			sourceTree = "<group>";
 		};
 		D9AE0CCD20DD02AC00A31D62 = {
@@ -217,18 +276,56 @@
 			path = iOS_Demo;
 			sourceTree = "<group>";
 		};
-		D9DC05E820DE43D900149124 /* Base */ = {
+		D9DA0E7E20E25128006CEA1C /* 菜单栏 */ = {
 			isa = PBXGroup;
 			children = (
-				D9DC05E920DE43F400149124 /* CQBaseModel.h */,
-				D9DC05EA20DE43F400149124 /* CQBaseModel.m */,
+				D9B563EC20E240B7001AE9A0 /* IphoneMenuModel.h */,
+				D9B563ED20E240B7001AE9A0 /* IphoneMenuModel.m */,
+				D9DA0E8320E251C4006CEA1C /* IphoneMenuItemModel.h */,
+				D9DA0E8420E251C4006CEA1C /* IphoneMenuItemModel.m */,
 			);
-			path = Base;
+			path = "菜单栏";
+			sourceTree = "<group>";
+		};
+		D9DA0E7F20E25138006CEA1C /* 下拉列表 */ = {
+			isa = PBXGroup;
+			children = (
+				D9B563EF20E240CC001AE9A0 /* IphoneListModel.h */,
+				D9B563F020E240CC001AE9A0 /* IphoneListModel.m */,
+				D9DA0E8020E2519D006CEA1C /* IphoneListItemModel.h */,
+				D9DA0E8120E2519D006CEA1C /* IphoneListItemModel.m */,
+			);
+			path = "下拉列表";
+			sourceTree = "<group>";
+		};
+		D9DA0E8620E25249006CEA1C /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				D9DA0E8720E25291006CEA1C /* CQIphoneRequest.h */,
+				D9DA0E8820E25291006CEA1C /* CQIphoneRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		D9DA5CED20E290E00098EC68 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D9DA5CEC20E290D80098EC68 /* Categories.h */,
+				D92D69C920DE36C8002BA9C0 /* UIView+FrameHelper.h */,
+				D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */,
+				D9DA5CEE20E291550098EC68 /* UIView+Util.h */,
+				D9DA5CEF20E291550098EC68 /* UIView+Util.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		D9E9F4DD20E22E4300C3090D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D9B563F220E240F2001AE9A0 /* CQIphoneViewController.h */,
+				D9B563F320E240F2001AE9A0 /* CQIphoneViewController.m */,
+				D9B563F920E24B1F001AE9A0 /* CQIphoneDetailViewController.h */,
+				D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -236,6 +333,8 @@
 		D9E9F4DE20E22E4E00C3090D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D948397620E2557F00121FB6 /* 菜单栏 */,
+				D948397720E2558C00121FB6 /* 下拉列表 */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -243,6 +342,10 @@
 		D9E9F4DF20E22E5200C3090D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D9B563F520E24896001AE9A0 /* iphone_menu_data.json */,
+				D9B563F620E249E3001AE9A0 /* iphone_list_data.json */,
+				D9DA0E7E20E25128006CEA1C /* 菜单栏 */,
+				D9DA0E7F20E25138006CEA1C /* 下拉列表 */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -338,6 +441,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B563F720E24A14001AE9A0 /* iphone_menu_data.json in Resources */,
+				D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */,
 				D9DC05E720DE418A00149124 /* jigsaw_list.json in Resources */,
 				D92D69C420DE359C002BA9C0 /* LaunchScreen.storyboard in Resources */,
 				D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */,
@@ -400,20 +505,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DA0E7A20E24F5E006CEA1C /* IphoneMenuView.m in Sources */,
 				D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */,
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
+				D9DA0E8220E2519D006CEA1C /* IphoneListItemModel.m in Sources */,
 				D92D69BC20DE3295002BA9C0 /* CQCategoryView.m in Sources */,
-				D9DC05EB20DE43F400149124 /* CQBaseModel.m in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
+				D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */,
+				D9B563F420E240F2001AE9A0 /* CQIphoneViewController.m in Sources */,
+				D9DA0E8920E25291006CEA1C /* CQIphoneRequest.m in Sources */,
+				D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */,
 				D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */,
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
 				D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */,
 				D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */,
+				D9DA5CF020E291550098EC68 /* UIView+Util.m in Sources */,
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
+				D9DA0E8520E251C4006CEA1C /* IphoneMenuItemModel.m in Sources */,
+				D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */,
+				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
+				D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */,
 				D92D69A620DE2DD0002BA9C0 /* HomeViewController.m in Sources */,
+				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +651,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iOS_Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CaiQiang.iOS-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -553,7 +669,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iOS_Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CaiQiang.iOS-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";

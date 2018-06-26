@@ -10,7 +10,7 @@
 
 @protocol CQCategoryItemModel;
 
-@interface CQCategoryModel : CQBaseModel
+@interface CQCategoryModel : JSONModel
 
 @property (nonatomic, strong) NSArray <CQCategoryItemModel> *category_sale;
 

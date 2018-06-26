@@ -6,7 +6,7 @@
 //  Copyright © 2018年 蔡强. All rights reserved.
 //
 
-@interface CQCategoryItemModel : CQBaseModel
+@interface CQCategoryItemModel : JSONModel
 
 /** 品类名 */
 @property (nonatomic, copy) NSString *name;
