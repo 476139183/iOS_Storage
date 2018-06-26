@@ -33,6 +33,15 @@
     [self loadMenuDataSuccess:nil failure:nil];
 }
 
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    
+    if (self.listView) {
+        [self.listView removeFromSuperview];
+        self.listView = nil;
+    }
+}
+
 - (void)dealloc {
     
 }
