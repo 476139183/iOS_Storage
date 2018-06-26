@@ -21,8 +21,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.title = @"比例拼图";
-    
     self.categoryView = [[CQCategoryView alloc] init];
     [self.view addSubview:self.categoryView];
     self.categoryView.delegate = self;

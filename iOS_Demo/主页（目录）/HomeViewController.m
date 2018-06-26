@@ -61,6 +61,7 @@ static NSString * const HomeCellReuseID = @"HomeCellReuseID";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSDictionary *demoDict = self.dataArray[indexPath.row];
     UIViewController *vc = [[NSClassFromString(demoDict[@"controller_name"]) alloc] init];
+    vc.title = demoDict[@"demo_name"];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

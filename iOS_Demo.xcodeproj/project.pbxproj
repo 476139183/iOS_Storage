@@ -25,6 +25,7 @@
 		D9DC05EB20DE43F400149124 /* CQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DC05EA20DE43F400149124 /* CQBaseModel.m */; };
 		D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E420E2322E00C3090D /* IrregularLabel.m */; };
 		D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */; };
+		D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4EB20E235D400C3090D /* ArrowLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,8 @@
 		D9E9F4E620E232E200C3090D /* CQIrregularViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIrregularViewController.h; sourceTree = "<group>"; };
 		D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQIrregularViewController.m; sourceTree = "<group>"; };
 		D9E9F4E920E2340C00C3090D /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		D9E9F4EA20E235D400C3090D /* ArrowLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrowLabel.h; sourceTree = "<group>"; };
+		D9E9F4EB20E235D400C3090D /* ArrowLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrowLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,13 +109,13 @@
 			path = "菜单栏+下拉列表";
 			sourceTree = "<group>";
 		};
-		D92D69A220DE2D95002BA9C0 /* 主页 */ = {
+		D92D69A220DE2D95002BA9C0 /* 主页（目录） */ = {
 			isa = PBXGroup;
 			children = (
 				D92D69A420DE2DD0002BA9C0 /* HomeViewController.h */,
 				D92D69A520DE2DD0002BA9C0 /* HomeViewController.m */,
 			);
-			path = "主页";
+			path = "主页（目录）";
 			sourceTree = "<group>";
 		};
 		D92D69A320DE2DAA002BA9C0 /* 比例拼图 */ = {
@@ -199,7 +202,7 @@
 		D9AE0CD820DD02AC00A31D62 /* iOS_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				D92D69A220DE2D95002BA9C0 /* 主页 */,
+				D92D69A220DE2D95002BA9C0 /* 主页（目录） */,
 				D92D69C820DE361E002BA9C0 /* Demos */,
 				D92D69C720DE3606002BA9C0 /* Tool */,
 				D9AE0CD920DD02AC00A31D62 /* AppDelegate.h */,
@@ -268,6 +271,8 @@
 			children = (
 				D9E9F4E320E2322E00C3090D /* IrregularLabel.h */,
 				D9E9F4E420E2322E00C3090D /* IrregularLabel.m */,
+				D9E9F4EA20E235D400C3090D /* ArrowLabel.h */,
+				D9E9F4EB20E235D400C3090D /* ArrowLabel.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -403,6 +408,7 @@
 				D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */,
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
+				D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */,
 				D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */,
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,

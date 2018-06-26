@@ -8,6 +8,7 @@
 
 #import "CQIrregularViewController.h"
 #import "IrregularLabel.h"
+#import "ArrowLabel.h"
 
 @interface CQIrregularViewController ()
 
@@ -21,13 +22,25 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.label = [[IrregularLabel alloc] initWithFrame:CGRectMake(90, 200, 200, 40)];
+    self.label = [[IrregularLabel alloc] initWithFrame:CGRectMake(90, 100, 200, 40)];
     [self.view addSubview:self.label];
-    self.label.text = @"这是一个不规则label";
+    self.label.text = @"点击屏幕发生变化";
     self.label.textAlignment = NSTextAlignmentCenter;
     self.label.backgroundColor = [UIColor redColor];
     self.label.textColor = [UIColor whiteColor];
     self.label.font = [UIFont boldSystemFontOfSize:16];
+    
+    // 箭头label
+    ArrowLabel *arrowLabel = [[ArrowLabel alloc] initWithFrame:CGRectMake(150, 220, 80, 80)];
+    [self.view addSubview:arrowLabel];
+    arrowLabel.textAlignment = NSTextAlignmentCenter;
+    arrowLabel.font = [UIFont systemFontOfSize:14];
+    arrowLabel.text = @"箭头label";
+    arrowLabel.backgroundColor = [UIColor orangeColor];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    self.label.frame = CGRectMake(30, 120, 222, 70);
 }
 
 @end
