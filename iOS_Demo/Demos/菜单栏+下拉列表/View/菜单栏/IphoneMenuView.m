@@ -30,8 +30,6 @@ const NSInteger ButtonBeginTag = 1000;
     }
     
     [buttonArray mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:0 leadSpacing:0 tailSpacing:0];
-    
-    // 设置array的垂直方向的约束
     [buttonArray mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.bottom.mas_equalTo(self);
     }];
@@ -47,6 +45,7 @@ const NSInteger ButtonBeginTag = 1000;
     }
 }
 
+/** 重置按钮状态 */
 - (void)reset {
     for (int i = 0; i < self.model.menu_list.count; i++) {
         IphoneMenuButton *button = [self viewWithTag:(ButtonBeginTag+i)];
