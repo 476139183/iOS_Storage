@@ -29,20 +29,23 @@
 #pragma mark - UI搭建
 
 - (void)setupUI {
+    self.layer.borderWidth = 1;
+    self.layer.borderColor = [UIColor lightTextColor].CGColor;
+    
     self.nameLabel = [[UILabel alloc] init];
     [self addSubview:self.nameLabel];
     self.nameLabel.textAlignment = NSTextAlignmentCenter;
     [self.nameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.top.bottom.mas_offset(0);
-        make.right.mas_equalTo(-20);
+        make.centerX.top.bottom.mas_offset(0);
     }];
     
     self.arrowImageView = [[UIImageView alloc] init];
     [self addSubview:self.arrowImageView];
     self.arrowImageView.image = [UIImage imageNamed:@"triangle_red"];
     [self.arrowImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.size.mas_equalTo(CGSizeMake(20, 20));
-        make.centerY.right.mas_equalTo(self);
+        make.size.mas_equalTo(CGSizeMake(10, 10));
+        make.centerY.mas_equalTo(self);
+        make.left.mas_equalTo(self.nameLabel.mas_right);
     }];
 }
 
@@ -60,9 +63,11 @@
     [super setSelected:selected];
     
     if (selected) {
-        
+        self.backgroundColor = [UIColor lightGrayColor];
+        self.arrowImageView.transform = CGAffineTransformMakeRotation(M_PI);
     } else {
-        
+        self.backgroundColor = [UIColor whiteColor];
+        self.arrowImageView.transform = CGAffineTransformMakeRotation(0);
     }
 }
 

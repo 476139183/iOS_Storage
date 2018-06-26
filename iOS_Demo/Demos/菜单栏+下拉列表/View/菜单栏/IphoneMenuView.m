@@ -29,7 +29,12 @@ const NSInteger ButtonBeginTag = 1000;
         [buttonArray addObject:button];
     }
     
+    [buttonArray mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:0 leadSpacing:0 tailSpacing:0];
     
+    // 设置array的垂直方向的约束
+    [buttonArray mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.bottom.mas_equalTo(self);
+    }];
 }
 
 - (void)buttonClicked:(IphoneMenuButton *)sender {
@@ -39,6 +44,13 @@ const NSInteger ButtonBeginTag = 1000;
     }
     if ([self.delegate respondsToSelector:@selector(menuView:clickedButtonAtIndex:)]) {
         [self.delegate menuView:self clickedButtonAtIndex:(sender.tag-ButtonBeginTag)];
+    }
+}
+
+- (void)reset {
+    for (int i = 0; i < self.model.menu_list.count; i++) {
+        IphoneMenuButton *button = [self viewWithTag:(ButtonBeginTag+i)];
+        button.selected = NO;
     }
 }
 

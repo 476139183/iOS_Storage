@@ -22,4 +22,7 @@
 @property (nonatomic, strong) IphoneMenuModel *model;
 @property (nonatomic, weak) id <IphoneMenuViewDelegate> delegate;
 
+/** 重置按钮状态 */
+- (void)reset;
+
 @end

@@ -41,6 +41,7 @@ static NSString * const IphoneListCellReuseID = @"IphoneListCellReuseID";
     [self addSubview:self.tableView];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
+    self.tableView.rowHeight = 60;
     [self.tableView registerClass:[IphoneListCell class] forCellReuseIdentifier:IphoneListCellReuseID];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.mas_equalTo(self);
@@ -66,7 +67,8 @@ static NSString * const IphoneListCellReuseID = @"IphoneListCellReuseID";
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    !self.cellSelectedBlock ?: self.cellSelectedBlock();
+    !self.cellSelectedBlock ?: self.cellSelectedBlock(indexPath.row);
+    [self removeFromSuperview];
 }
 
 @end

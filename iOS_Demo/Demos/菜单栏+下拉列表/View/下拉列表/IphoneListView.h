@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "IphoneListModel.h"
 
-typedef void(^CellSelectedBlock)(void);
+typedef void(^CellSelectedBlock)(NSInteger selectedIndex);
 
 @interface IphoneListView : UIView
 

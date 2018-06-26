@@ -10,10 +10,12 @@
 #import "IphoneMenuView.h"
 #import "IphoneListView.h"
 #import "CQIphoneRequest.h"
+#import "CQIphoneDetailViewController.h"
 
 @interface CQIphoneViewController () <IphoneMenuViewDelegate>
 
 @property (nonatomic, strong) IphoneMenuView *menuView;
+@property (nonatomic, strong) IphoneListView *listView;
 
 @end
 
@@ -31,6 +33,10 @@
     [self loadMenuDataSuccess:nil failure:nil];
 }
 
+- (void)dealloc {
+    
+}
+
 #pragma mark - UI搭建
 
 - (void)setupUI {
@@ -40,7 +46,7 @@
     [self.menuView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.mas_equalTo(self.view);
         make.top.mas_equalTo(NAVIGATION_BAR_HEIGHT);
-        make.height.mas_equalTo(30);
+        make.height.mas_equalTo(60);
     }];
 }
 
@@ -58,11 +64,39 @@
     }];
 }
 
+#pragma mark - 页面跳转
+
+- (void)gotoDetailViewControllerWithModel:(IphoneListItemModel *)model {
+    CQIphoneDetailViewController *detailVC = [[CQIphoneDetailViewController alloc] initWithModel:model];
+    [self.navigationController pushViewController:detailVC animated:YES];
+}
+
 #pragma mark - Delegate - menuView
 
 // 菜单按钮点击
 - (void)menuView:(IphoneMenuView *)menuView clickedButtonAtIndex:(NSInteger)index {
-    
+    IphoneMenuItemModel *model = menuView.model.menu_list[index];
+    NSString *ID = [NSString stringWithFormat:@"%ld", (long)model.ID];
+    // 获取列表数据
+    [CQIphoneRequest loadListDataWithID:ID success:^(NSDictionary *dataDict) {
+        if (self.listView) {
+            [self.listView removeFromSuperview];
+            self.listView = nil;
+        }
+        NSError *error = nil;
+        IphoneListModel *listModel = [[IphoneListModel alloc] initWithDictionary:dataDict error:&error];
+        CGFloat width = SCREEN_WIDTH / listModel.detail_list.count;
+        __weak typeof(self) weakSelf = self;
+        // 展示列表
+        self.listView = [[IphoneListView alloc] initWithFrame:CGRectMake(index*width, NAVIGATION_BAR_HEIGHT+self.menuView.height, width, 60*listModel.detail_list.count) model:listModel cellSelectedBlock:^(NSInteger selectedIndex) {
+            __strong typeof(self) strongSelf = weakSelf;
+            [strongSelf gotoDetailViewControllerWithModel:listModel.detail_list[selectedIndex]];
+            [strongSelf.menuView reset];
+        }];
+        [self.listView show];
+    } failure:^(NSString *errorMessage) {
+        [SVProgressHUD showErrorWithStatus:errorMessage];
+    }];
 }
 
 @end

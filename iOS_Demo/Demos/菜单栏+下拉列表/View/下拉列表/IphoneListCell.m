@@ -18,8 +18,11 @@
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        self.backgroundColor = [UIColor orangeColor];
+        
         self.nameLabel = [[UILabel alloc] init];
         [self.contentView addSubview:self.nameLabel];
+        self.nameLabel.textAlignment = NSTextAlignmentCenter;
         [self.nameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.mas_equalTo(self.contentView);
         }];
