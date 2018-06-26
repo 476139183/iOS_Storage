@@ -22,7 +22,9 @@ static NSString * const HomeCellReuseID = @"HomeCellReuseID";
 
 - (NSArray *)dataArray {
     if (!_dataArray) {
-        _dataArray = @[@{@"demo_name" : @"比例拼图", @"controller_name" : @"CQJigsawViewController"}
+        _dataArray = @[
+                       @{@"demo_name" : @"比例拼图", @"controller_name" : @"CQJigsawViewController"},
+                       @{@"demo_name" : @"不规格label", @"controller_name" : @"CQIrregularViewController"}
                        ];
     }
     return _dataArray;

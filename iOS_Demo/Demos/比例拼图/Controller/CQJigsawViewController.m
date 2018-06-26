@@ -50,7 +50,7 @@
 
 // cell点击
 - (void)categoryView:(CQCategoryView *)categoryView clickedCellAtIndex:(NSInteger)index {
-    NSLog(@"点击第%ld个cell", index);
+    NSLog(@"点击第%ld个cell", (long)index);
 }
 
 @end

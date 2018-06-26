@@ -23,6 +23,8 @@
 		D9AE0CE920DD02AC00A31D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CE820DD02AC00A31D62 /* main.m */; };
 		D9DC05E720DE418A00149124 /* jigsaw_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D92D69CE20DE3A34002BA9C0 /* jigsaw_list.json */; };
 		D9DC05EB20DE43F400149124 /* CQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DC05EA20DE43F400149124 /* CQBaseModel.m */; };
+		D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E420E2322E00C3090D /* IrregularLabel.m */; };
+		D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,11 @@
 		D9AE0CE820DD02AC00A31D62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9DC05E920DE43F400149124 /* CQBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQBaseModel.h; sourceTree = "<group>"; };
 		D9DC05EA20DE43F400149124 /* CQBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBaseModel.m; sourceTree = "<group>"; };
+		D9E9F4E320E2322E00C3090D /* IrregularLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IrregularLabel.h; sourceTree = "<group>"; };
+		D9E9F4E420E2322E00C3090D /* IrregularLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularLabel.m; sourceTree = "<group>"; };
+		D9E9F4E620E232E200C3090D /* CQIrregularViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIrregularViewController.h; sourceTree = "<group>"; };
+		D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQIrregularViewController.m; sourceTree = "<group>"; };
+		D9E9F4E920E2340C00C3090D /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				D91E20BF20E10CD200EBC74B /* readme.md */,
+				D9E9F4DF20E22E5200C3090D /* Model */,
+				D9E9F4DE20E22E4E00C3090D /* View */,
+				D9E9F4DD20E22E4300C3090D /* Controller */,
 			);
 			path = "菜单栏+下拉列表";
 			sourceTree = "<group>";
@@ -162,6 +172,7 @@
 			children = (
 				D9DC05E820DE43D900149124 /* Base */,
 				D92D69A320DE2DAA002BA9C0 /* 比例拼图 */,
+				D9E9F4E020E2312900C3090D /* 不规格label */,
 				D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */,
 			);
 			path = Demos;
@@ -210,6 +221,55 @@
 				D9DC05EA20DE43F400149124 /* CQBaseModel.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		D9E9F4DD20E22E4300C3090D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9E9F4DE20E22E4E00C3090D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9E9F4DF20E22E5200C3090D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9E9F4E020E2312900C3090D /* 不规格label */ = {
+			isa = PBXGroup;
+			children = (
+				D9E9F4E920E2340C00C3090D /* readme.md */,
+				D9E9F4E220E2314B00C3090D /* View */,
+				D9E9F4E120E2314300C3090D /* Controller */,
+			);
+			path = "不规格label";
+			sourceTree = "<group>";
+		};
+		D9E9F4E120E2314300C3090D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9E9F4E620E232E200C3090D /* CQIrregularViewController.h */,
+				D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9E9F4E220E2314B00C3090D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9E9F4E320E2322E00C3090D /* IrregularLabel.h */,
+				D9E9F4E420E2322E00C3090D /* IrregularLabel.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,8 +399,10 @@
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
 				D92D69BC20DE3295002BA9C0 /* CQCategoryView.m in Sources */,
 				D9DC05EB20DE43F400149124 /* CQBaseModel.m in Sources */,
+				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
 				D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */,
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
+				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
 				D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */,
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
