@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CQIphoneViewController : UIViewController
+@interface CQIphoneViewController : CQBaseViewController
 
 @end

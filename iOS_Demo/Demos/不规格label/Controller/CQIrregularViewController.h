@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CQIrregularViewController : UIViewController
+@interface CQIrregularViewController : CQBaseViewController
 
 @end

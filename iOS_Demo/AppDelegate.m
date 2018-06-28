@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "HomeViewController.h"
+#import "CQContentsController.h"
 
 @interface AppDelegate ()
 
@@ -21,9 +21,15 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    HomeViewController *homeVC = [[HomeViewController alloc] init];
+    CQContentsController *homeVC = [[CQContentsController alloc] init];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:homeVC];
     [self.window makeKeyAndVisible];
+    
+    [SVProgressHUD setMinimumDismissTimeInterval:1];
+    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeCustom];
+    [SVProgressHUD setDefaultStyle:SVProgressHUDStyleCustom];
+    [SVProgressHUD setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0.7]];
+    [SVProgressHUD setForegroundColor:[UIColor whiteColor]];
     
     return YES;
 }

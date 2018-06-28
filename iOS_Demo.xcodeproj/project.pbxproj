@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C07AC59361A2725024588D4D /* libPods-iOS_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 829987093C9DAEBEDBE87619 /* libPods-iOS_Demo.a */; };
-		D92D69A620DE2DD0002BA9C0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69A520DE2DD0002BA9C0 /* HomeViewController.m */; };
+		D92D69A620DE2DD0002BA9C0 /* CQContentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69A520DE2DD0002BA9C0 /* CQContentsController.m */; };
 		D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */ = {isa = PBXBuildFile; fileRef = D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */; };
 		D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69B520DE312B002BA9C0 /* CQCategoryModel.m */; };
 		D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69B820DE3270002BA9C0 /* CQCategoryItemModel.m */; };
@@ -21,6 +21,9 @@
 		D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D948397C20E255FC00121FB6 /* IphoneListCell.m */; };
 		D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43620E48C690012C370 /* CQBaseModel.m */; };
 		D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43920E48C850012C370 /* CQBaseViewController.m */; };
+		D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43C20E4B3BC0012C370 /* CQContentModel.m */; };
+		D94BF43F20E4B6510012C370 /* cq_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D94BF43E20E4B6420012C370 /* cq_contents.plist */; };
+		D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */; };
 		D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */; };
 		D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AE0CE220DD02AC00A31D62 /* Assets.xcassets */; };
 		D9AE0CE920DD02AC00A31D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CE820DD02AC00A31D62 /* main.m */; };
@@ -52,8 +55,8 @@
 		9E3A02B8A8215154487B9BD3 /* Pods-iOS_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Demo/Pods-iOS_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		D91E20BD20E10C7500EBC74B /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		D91E20BF20E10CD200EBC74B /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
-		D92D69A420DE2DD0002BA9C0 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		D92D69A520DE2DD0002BA9C0 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D92D69A420DE2DD0002BA9C0 /* CQContentsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQContentsController.h; sourceTree = "<group>"; };
+		D92D69A520DE2DD0002BA9C0 /* CQContentsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQContentsController.m; sourceTree = "<group>"; };
 		D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D92D69B420DE312B002BA9C0 /* CQCategoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCategoryModel.h; sourceTree = "<group>"; };
 		D92D69B520DE312B002BA9C0 /* CQCategoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCategoryModel.m; sourceTree = "<group>"; };
@@ -76,6 +79,11 @@
 		D94BF43620E48C690012C370 /* CQBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBaseModel.m; sourceTree = "<group>"; };
 		D94BF43820E48C850012C370 /* CQBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQBaseViewController.h; sourceTree = "<group>"; };
 		D94BF43920E48C850012C370 /* CQBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBaseViewController.m; sourceTree = "<group>"; };
+		D94BF43B20E4B3BC0012C370 /* CQContentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQContentModel.h; sourceTree = "<group>"; };
+		D94BF43C20E4B3BC0012C370 /* CQContentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQContentModel.m; sourceTree = "<group>"; };
+		D94BF43E20E4B6420012C370 /* cq_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = cq_contents.plist; sourceTree = "<group>"; };
+		D94BF44020E4BCBF0012C370 /* CQDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQDetailViewController.h; sourceTree = "<group>"; };
+		D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQDetailViewController.m; sourceTree = "<group>"; };
 		D9AE0CD620DD02AC00A31D62 /* iOS_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AE0CD920DD02AC00A31D62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -164,13 +172,16 @@
 			path = "菜单栏+下拉列表";
 			sourceTree = "<group>";
 		};
-		D92D69A220DE2D95002BA9C0 /* 主页（目录） */ = {
+		D92D69A220DE2D95002BA9C0 /* Contents */ = {
 			isa = PBXGroup;
 			children = (
-				D92D69A420DE2DD0002BA9C0 /* HomeViewController.h */,
-				D92D69A520DE2DD0002BA9C0 /* HomeViewController.m */,
+				D94BF43E20E4B6420012C370 /* cq_contents.plist */,
+				D94BF43B20E4B3BC0012C370 /* CQContentModel.h */,
+				D94BF43C20E4B3BC0012C370 /* CQContentModel.m */,
+				D92D69A420DE2DD0002BA9C0 /* CQContentsController.h */,
+				D92D69A520DE2DD0002BA9C0 /* CQContentsController.m */,
 			);
-			path = "主页（目录）";
+			path = Contents;
 			sourceTree = "<group>";
 		};
 		D92D69A320DE2DAA002BA9C0 /* 比例拼图 */ = {
@@ -227,7 +238,6 @@
 		D92D69C820DE361E002BA9C0 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
-				D94BF43420E48C4E0012C370 /* Base */,
 				D92D69A320DE2DAA002BA9C0 /* 比例拼图 */,
 				D9E9F4E020E2312900C3090D /* 不规格label */,
 				D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */,
@@ -265,6 +275,8 @@
 				D94BF43620E48C690012C370 /* CQBaseModel.m */,
 				D94BF43820E48C850012C370 /* CQBaseViewController.h */,
 				D94BF43920E48C850012C370 /* CQBaseViewController.m */,
+				D94BF44020E4BCBF0012C370 /* CQDetailViewController.h */,
+				D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -290,7 +302,8 @@
 		D9AE0CD820DD02AC00A31D62 /* iOS_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				D92D69A220DE2D95002BA9C0 /* 主页（目录） */,
+				D94BF43420E48C4E0012C370 /* Base */,
+				D92D69A220DE2D95002BA9C0 /* Contents */,
 				D92D69C820DE361E002BA9C0 /* Demos */,
 				D92D69C720DE3606002BA9C0 /* Tool */,
 				D9AE0CD920DD02AC00A31D62 /* AppDelegate.h */,
@@ -508,6 +521,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D94BF43F20E4B6510012C370 /* cq_contents.plist in Resources */,
 				D9B563F720E24A14001AE9A0 /* iphone_menu_data.json in Resources */,
 				D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */,
 				D9DC05E720DE418A00149124 /* jigsaw_list.json in Resources */,
@@ -597,10 +611,12 @@
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
+				D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
 				D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */,
-				D92D69A620DE2DD0002BA9C0 /* HomeViewController.m in Sources */,
+				D92D69A620DE2DD0002BA9C0 /* CQContentsController.m in Sources */,
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,
+				D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */,
 				D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
