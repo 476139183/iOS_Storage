@@ -10,6 +10,13 @@
 
 @interface CQDetailViewController : UIViewController
 
+/**
+ 构造方法
+
+ @param title 标题
+ @param jianshuURL 简书链接
+ @return 简书详情页
+ */
 - (instancetype)initWithTitle:(NSString *)title jianshuURL:(NSString *)jianshuURL;
 
 @end

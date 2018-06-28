@@ -15,12 +15,16 @@
 
 @implementation CQBaseViewController
 
+#pragma mark - Life Circle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"详情" style:UIBarButtonItemStylePlain target:self action:@selector(detailButtonClicked)];
 }
+
+#pragma mark - 详情按钮点击
 
 - (void)detailButtonClicked {
     if ([self.jianshuURL isEqualToString:@""]) {
