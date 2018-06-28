@@ -10,10 +10,4 @@
 
 @implementation IphoneListModel
 
-- (void)setDetail_list:(NSArray<IphoneListItemModel> *)detail_list {
-    _detail_list = detail_list;
-    
-    
-}
-
 @end

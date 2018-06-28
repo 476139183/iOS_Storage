@@ -6,12 +6,12 @@
 //  Copyright © 2018年 蔡强. All rights reserved.
 //
 
-#import <JSONModel.h>
+#import "CQBaseModel.h"
 #import "IphoneListItemModel.h"
 
 @protocol IphoneListItemModel;
 
-@interface IphoneListModel : JSONModel
+@interface IphoneListModel : CQBaseModel
 
 @property (nonatomic, strong) NSArray <IphoneListItemModel> *detail_list;
 

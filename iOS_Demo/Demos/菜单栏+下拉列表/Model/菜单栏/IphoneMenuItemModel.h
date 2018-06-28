@@ -6,9 +6,9 @@
 //  Copyright © 2018年 蔡强. All rights reserved.
 //
 
-#import <JSONModel/JSONModel.h>
+#import "CQBaseModel.h"
 
-@interface IphoneMenuItemModel : JSONModel
+@interface IphoneMenuItemModel : CQBaseModel
 
 @property (nonatomic, assign) NSInteger ID;
 @property (nonatomic, copy) NSString *name;

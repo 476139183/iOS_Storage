@@ -19,6 +19,8 @@
 		D92D69C620DE35B2002BA9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92D69C520DE35B2002BA9C0 /* Main.storyboard */; };
 		D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */; };
 		D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D948397C20E255FC00121FB6 /* IphoneListCell.m */; };
+		D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43620E48C690012C370 /* CQBaseModel.m */; };
+		D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43920E48C850012C370 /* CQBaseViewController.m */; };
 		D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */; };
 		D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AE0CE220DD02AC00A31D62 /* Assets.xcassets */; };
 		D9AE0CE920DD02AC00A31D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CE820DD02AC00A31D62 /* main.m */; };
@@ -36,6 +38,9 @@
 		D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA5CEA20E27E120098EC68 /* IphoneMenuButton.m */; };
 		D9DA5CF020E291550098EC68 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA5CEF20E291550098EC68 /* UIView+Util.m */; };
 		D9DC05E720DE418A00149124 /* jigsaw_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D92D69CE20DE3A34002BA9C0 /* jigsaw_list.json */; };
+		D9DDA7CA20E48303008BD029 /* CQWaterfallController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDA7C920E48303008BD029 /* CQWaterfallController.m */; };
+		D9DDA7CD20E4831F008BD029 /* CQWaterfallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDA7CC20E4831F008BD029 /* CQWaterfallCell.m */; };
+		D9DDA7D020E48339008BD029 /* CQWaterfallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDA7CF20E48339008BD029 /* CQWaterfallModel.m */; };
 		D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E420E2322E00C3090D /* IrregularLabel.m */; };
 		D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */; };
 		D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4EB20E235D400C3090D /* ArrowLabel.m */; };
@@ -67,6 +72,10 @@
 		D92D69CE20DE3A34002BA9C0 /* jigsaw_list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jigsaw_list.json; sourceTree = "<group>"; };
 		D948397B20E255FC00121FB6 /* IphoneListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneListCell.h; sourceTree = "<group>"; };
 		D948397C20E255FC00121FB6 /* IphoneListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneListCell.m; sourceTree = "<group>"; };
+		D94BF43520E48C690012C370 /* CQBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQBaseModel.h; sourceTree = "<group>"; };
+		D94BF43620E48C690012C370 /* CQBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBaseModel.m; sourceTree = "<group>"; };
+		D94BF43820E48C850012C370 /* CQBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQBaseViewController.h; sourceTree = "<group>"; };
+		D94BF43920E48C850012C370 /* CQBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBaseViewController.m; sourceTree = "<group>"; };
 		D9AE0CD620DD02AC00A31D62 /* iOS_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AE0CD920DD02AC00A31D62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,6 +107,13 @@
 		D9DA5CEC20E290D80098EC68 /* Categories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
 		D9DA5CEE20E291550098EC68 /* UIView+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
 		D9DA5CEF20E291550098EC68 /* UIView+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
+		D9DDA7C720E48269008BD029 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		D9DDA7C820E48303008BD029 /* CQWaterfallController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWaterfallController.h; sourceTree = "<group>"; };
+		D9DDA7C920E48303008BD029 /* CQWaterfallController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWaterfallController.m; sourceTree = "<group>"; };
+		D9DDA7CB20E4831F008BD029 /* CQWaterfallCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWaterfallCell.h; sourceTree = "<group>"; };
+		D9DDA7CC20E4831F008BD029 /* CQWaterfallCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWaterfallCell.m; sourceTree = "<group>"; };
+		D9DDA7CE20E48339008BD029 /* CQWaterfallModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWaterfallModel.h; sourceTree = "<group>"; };
+		D9DDA7CF20E48339008BD029 /* CQWaterfallModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWaterfallModel.m; sourceTree = "<group>"; };
 		D9E9F4E320E2322E00C3090D /* IrregularLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IrregularLabel.h; sourceTree = "<group>"; };
 		D9E9F4E420E2322E00C3090D /* IrregularLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularLabel.m; sourceTree = "<group>"; };
 		D9E9F4E620E232E200C3090D /* CQIrregularViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIrregularViewController.h; sourceTree = "<group>"; };
@@ -211,9 +227,11 @@
 		D92D69C820DE361E002BA9C0 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				D94BF43420E48C4E0012C370 /* Base */,
 				D92D69A320DE2DAA002BA9C0 /* 比例拼图 */,
 				D9E9F4E020E2312900C3090D /* 不规格label */,
 				D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */,
+				D9DDA7C320E481E5008BD029 /* 局部瀑布流 */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -238,6 +256,17 @@
 				D948397C20E255FC00121FB6 /* IphoneListCell.m */,
 			);
 			path = "下拉列表";
+			sourceTree = "<group>";
+		};
+		D94BF43420E48C4E0012C370 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D94BF43520E48C690012C370 /* CQBaseModel.h */,
+				D94BF43620E48C690012C370 /* CQBaseModel.m */,
+				D94BF43820E48C850012C370 /* CQBaseViewController.h */,
+				D94BF43920E48C850012C370 /* CQBaseViewController.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		D9AE0CCD20DD02AC00A31D62 = {
@@ -317,6 +346,44 @@
 				D9DA5CEF20E291550098EC68 /* UIView+Util.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		D9DDA7C320E481E5008BD029 /* 局部瀑布流 */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDA7C720E48269008BD029 /* readme.md */,
+				D9DDA7C620E48238008BD029 /* Model */,
+				D9DDA7C520E48234008BD029 /* View */,
+				D9DDA7C420E4822F008BD029 /* Controller */,
+			);
+			path = "局部瀑布流";
+			sourceTree = "<group>";
+		};
+		D9DDA7C420E4822F008BD029 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDA7C820E48303008BD029 /* CQWaterfallController.h */,
+				D9DDA7C920E48303008BD029 /* CQWaterfallController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9DDA7C520E48234008BD029 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDA7CB20E4831F008BD029 /* CQWaterfallCell.h */,
+				D9DDA7CC20E4831F008BD029 /* CQWaterfallCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9DDA7C620E48238008BD029 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDA7CE20E48339008BD029 /* CQWaterfallModel.h */,
+				D9DDA7CF20E48339008BD029 /* CQWaterfallModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D9E9F4DD20E22E4300C3090D /* Controller */ = {
@@ -513,8 +580,11 @@
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
 				D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */,
 				D9B563F420E240F2001AE9A0 /* CQIphoneViewController.m in Sources */,
+				D9DDA7CA20E48303008BD029 /* CQWaterfallController.m in Sources */,
 				D9DA0E8920E25291006CEA1C /* CQIphoneRequest.m in Sources */,
 				D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */,
+				D9DDA7CD20E4831F008BD029 /* CQWaterfallCell.m in Sources */,
+				D9DDA7D020E48339008BD029 /* CQWaterfallModel.m in Sources */,
 				D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */,
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
@@ -524,12 +594,14 @@
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
 				D9DA0E8520E251C4006CEA1C /* IphoneMenuItemModel.m in Sources */,
 				D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */,
+				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
 				D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */,
 				D92D69A620DE2DD0002BA9C0 /* HomeViewController.m in Sources */,
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,
+				D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,8 +10,4 @@
 
 @implementation CQCategoryItemModel
 
-+ (BOOL)propertyIsOptional:(NSString *)propertyName{
-    return YES;
-}
-
 @end

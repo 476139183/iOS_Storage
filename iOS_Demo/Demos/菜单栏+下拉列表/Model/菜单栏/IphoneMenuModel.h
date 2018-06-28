@@ -6,12 +6,12 @@
 //  Copyright © 2018年 蔡强. All rights reserved.
 //
 
-#import <JSONModel.h>
+#import "CQBaseModel.h"
 #import "IphoneMenuItemModel.h"
 
 @protocol IphoneMenuItemModel;
 
-@interface IphoneMenuModel : JSONModel
+@interface IphoneMenuModel : CQBaseModel
 
 @property (nonatomic, strong) NSArray <IphoneMenuItemModel> *menu_list;
 

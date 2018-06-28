@@ -10,11 +10,4 @@
 
 @implementation IphoneMenuItemModel
 
-+ (JSONKeyMapper *)keyMapper
-{
-    return [[JSONKeyMapper alloc] initWithModelToJSONDictionary:@{
-                                                                  @"ID": @"id"
-                                                                  }];
-}
-
 @end

@@ -10,8 +10,4 @@
 
 @implementation IphoneMenuModel
 
-- (void)setMenu_list:(NSArray<IphoneMenuItemModel> *)menu_list {
-    _menu_list = menu_list;
-}
-
 @end

@@ -26,6 +26,7 @@ static NSString * const HomeCellReuseID = @"HomeCellReuseID";
                        @{@"demo_name" : @"比例拼图", @"controller_name" : @"CQJigsawViewController"},
                        @{@"demo_name" : @"不规格label", @"controller_name" : @"CQIrregularViewController"},
                        @{@"demo_name" : @"菜单栏+下拉列表", @"controller_name" : @"CQIphoneViewController"},
+                       @{@"demo_name" : @"局部瀑布流", @"controller_name" : @"CQWaterfallController"},
                        ];
     }
     return _dataArray;
