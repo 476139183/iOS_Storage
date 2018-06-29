@@ -34,5 +34,13 @@
 		<key>jianshu_url</key>
 		<string></string>
 	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>带警示效果的textField</string>
+		<key>controller_name</key>
+		<string>CQWarnTextFieldController</string>
+		<key>jianshu_url</key>
+		<string>https://www.jianshu.com/p/4c80f28f609e</string>
+	</dict>
 </array>
 </plist>

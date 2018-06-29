@@ -24,6 +24,7 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
 - (NSMutableArray *)dataArray {
     if (!_dataArray) {
         _dataArray = [NSMutableArray array];
+        // 加载本地数据
         NSString *catalogPath = [[NSBundle mainBundle] pathForResource:@"cq_contents" ofType:@"plist"];
         NSArray *catalogArray = [NSArray arrayWithContentsOfFile:catalogPath];
         for (NSDictionary *catalogDict in catalogArray) {

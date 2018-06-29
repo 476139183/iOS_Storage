@@ -24,6 +24,8 @@
 		D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43C20E4B3BC0012C370 /* CQContentModel.m */; };
 		D94BF43F20E4B6510012C370 /* cq_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D94BF43E20E4B6420012C370 /* cq_contents.plist */; };
 		D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */; };
+		D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */; };
+		D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC320E6388300F328F9 /* CQWarnTextField.m */; };
 		D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */; };
 		D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AE0CE220DD02AC00A31D62 /* Assets.xcassets */; };
 		D9AE0CE920DD02AC00A31D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CE820DD02AC00A31D62 /* main.m */; };
@@ -84,6 +86,11 @@
 		D94BF43E20E4B6420012C370 /* cq_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = cq_contents.plist; sourceTree = "<group>"; };
 		D94BF44020E4BCBF0012C370 /* CQDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQDetailViewController.h; sourceTree = "<group>"; };
 		D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQDetailViewController.m; sourceTree = "<group>"; };
+		D9920CBE20E6381900F328F9 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		D9920CBF20E6386800F328F9 /* CQWarnTextFieldController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextFieldController.h; sourceTree = "<group>"; };
+		D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWarnTextFieldController.m; sourceTree = "<group>"; };
+		D9920CC220E6388300F328F9 /* CQWarnTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextField.h; sourceTree = "<group>"; };
+		D9920CC320E6388300F328F9 /* CQWarnTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWarnTextField.m; sourceTree = "<group>"; };
 		D9AE0CD620DD02AC00A31D62 /* iOS_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AE0CD920DD02AC00A31D62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -242,6 +249,7 @@
 				D9E9F4E020E2312900C3090D /* 不规格label */,
 				D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */,
 				D9DDA7C320E481E5008BD029 /* 局部瀑布流 */,
+				D9920CBB20E6375E00F328F9 /* 带警示效果的textField */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -279,6 +287,34 @@
 				D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		D9920CBB20E6375E00F328F9 /* 带警示效果的textField */ = {
+			isa = PBXGroup;
+			children = (
+				D9920CBE20E6381900F328F9 /* readme.md */,
+				D9920CBD20E637B600F328F9 /* View */,
+				D9920CBC20E637AB00F328F9 /* Controller */,
+			);
+			path = "带警示效果的textField";
+			sourceTree = "<group>";
+		};
+		D9920CBC20E637AB00F328F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9920CBF20E6386800F328F9 /* CQWarnTextFieldController.h */,
+				D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9920CBD20E637B600F328F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9920CC220E6388300F328F9 /* CQWarnTextField.h */,
+				D9920CC320E6388300F328F9 /* CQWarnTextField.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D9AE0CCD20DD02AC00A31D62 = {
@@ -591,6 +627,7 @@
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
 				D9DA0E8220E2519D006CEA1C /* IphoneListItemModel.m in Sources */,
 				D92D69BC20DE3295002BA9C0 /* CQCategoryView.m in Sources */,
+				D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
 				D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */,
 				D9B563F420E240F2001AE9A0 /* CQIphoneViewController.m in Sources */,
@@ -611,6 +648,7 @@
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
+				D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */,
 				D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
 				D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */,
