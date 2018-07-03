@@ -6,18 +6,18 @@
 //  Copyright © 2018年 蔡强. All rights reserved.
 //
 
-#import "CQContentsController.h"
+#import "CQDemoController.h"
 #import "CQContentModel.h"
 
 static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
 
-@interface CQContentsController () <UITableViewDataSource, UITableViewDelegate>
+@interface CQDemoController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) NSMutableArray *dataArray;
 
 @end
 
-@implementation CQContentsController
+@implementation CQDemoController
 
 #pragma mark - Lazy Load
 
@@ -25,7 +25,7 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
     if (!_dataArray) {
         _dataArray = [NSMutableArray array];
         // 加载本地数据
-        NSString *catalogPath = [[NSBundle mainBundle] pathForResource:@"cq_contents" ofType:@"plist"];
+        NSString *catalogPath = [[NSBundle mainBundle] pathForResource:@"demo_contents" ofType:@"plist"];
         NSArray *catalogArray = [NSArray arrayWithContentsOfFile:catalogPath];
         for (NSDictionary *catalogDict in catalogArray) {
             NSError *error = nil;

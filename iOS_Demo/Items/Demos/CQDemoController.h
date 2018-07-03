@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CQContentsController : UIViewController
+@interface CQDemoController : UIViewController
 
 @end

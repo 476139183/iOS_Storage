@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C07AC59361A2725024588D4D /* libPods-iOS_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 829987093C9DAEBEDBE87619 /* libPods-iOS_Demo.a */; };
-		D92D69A620DE2DD0002BA9C0 /* CQContentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69A520DE2DD0002BA9C0 /* CQContentsController.m */; };
+		D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CED720EA63E100EE5C78 /* CQChartController.m */; };
+		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
+		D92D69A620DE2DD0002BA9C0 /* CQDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69A520DE2DD0002BA9C0 /* CQDemoController.m */; };
 		D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */ = {isa = PBXBuildFile; fileRef = D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */; };
 		D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69B520DE312B002BA9C0 /* CQCategoryModel.m */; };
 		D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69B820DE3270002BA9C0 /* CQCategoryItemModel.m */; };
@@ -22,7 +24,7 @@
 		D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43620E48C690012C370 /* CQBaseModel.m */; };
 		D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43920E48C850012C370 /* CQBaseViewController.m */; };
 		D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43C20E4B3BC0012C370 /* CQContentModel.m */; };
-		D94BF43F20E4B6510012C370 /* cq_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D94BF43E20E4B6420012C370 /* cq_contents.plist */; };
+		D94BF43F20E4B6510012C370 /* demo_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D94BF43E20E4B6420012C370 /* demo_contents.plist */; };
 		D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */; };
 		D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */; };
 		D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC320E6388300F328F9 /* CQWarnTextField.m */; };
@@ -35,6 +37,8 @@
 		D9B563F720E24A14001AE9A0 /* iphone_menu_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B563F520E24896001AE9A0 /* iphone_menu_data.json */; };
 		D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B563F620E249E3001AE9A0 /* iphone_list_data.json */; };
 		D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */; };
+		D9C3431C20EB1ACC0011578A /* CQArithmeticController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C3431B20EB1ACC0011578A /* CQArithmeticController.m */; };
+		D9C3432220EB1B1A0011578A /* CQInterviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C3432120EB1B1A0011578A /* CQInterviewController.m */; };
 		D9DA0E7A20E24F5E006CEA1C /* IphoneMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA0E7920E24F5E006CEA1C /* IphoneMenuView.m */; };
 		D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA0E7C20E24F77006CEA1C /* IphoneListView.m */; };
 		D9DA0E8220E2519D006CEA1C /* IphoneListItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA0E8120E2519D006CEA1C /* IphoneListItemModel.m */; };
@@ -49,6 +53,8 @@
 		D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E420E2322E00C3090D /* IrregularLabel.m */; };
 		D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */; };
 		D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4EB20E235D400C3090D /* ArrowLabel.m */; };
+		D9F7CC8820EB1A2700B3C9B9 /* CQLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F7CC8720EB1A2700B3C9B9 /* CQLibraryController.m */; };
+		D9F7CC8B20EB1A3E00B3C9B9 /* CQArchitectureController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F7CC8A20EB1A3E00B3C9B9 /* CQArchitectureController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,8 +63,12 @@
 		9E3A02B8A8215154487B9BD3 /* Pods-iOS_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Demo/Pods-iOS_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		D91E20BD20E10C7500EBC74B /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		D91E20BF20E10CD200EBC74B /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
-		D92D69A420DE2DD0002BA9C0 /* CQContentsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQContentsController.h; sourceTree = "<group>"; };
-		D92D69A520DE2DD0002BA9C0 /* CQContentsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQContentsController.m; sourceTree = "<group>"; };
+		D928CED620EA63E100EE5C78 /* CQChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChartController.h; sourceTree = "<group>"; };
+		D928CED720EA63E100EE5C78 /* CQChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQChartController.m; sourceTree = "<group>"; };
+		D928CEDA20EA663A00EE5C78 /* CQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTabBarController.h; sourceTree = "<group>"; };
+		D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTabBarController.m; sourceTree = "<group>"; };
+		D92D69A420DE2DD0002BA9C0 /* CQDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQDemoController.h; sourceTree = "<group>"; };
+		D92D69A520DE2DD0002BA9C0 /* CQDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQDemoController.m; sourceTree = "<group>"; };
 		D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D92D69B420DE312B002BA9C0 /* CQCategoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCategoryModel.h; sourceTree = "<group>"; };
 		D92D69B520DE312B002BA9C0 /* CQCategoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCategoryModel.m; sourceTree = "<group>"; };
@@ -83,7 +93,7 @@
 		D94BF43920E48C850012C370 /* CQBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBaseViewController.m; sourceTree = "<group>"; };
 		D94BF43B20E4B3BC0012C370 /* CQContentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQContentModel.h; sourceTree = "<group>"; };
 		D94BF43C20E4B3BC0012C370 /* CQContentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQContentModel.m; sourceTree = "<group>"; };
-		D94BF43E20E4B6420012C370 /* cq_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = cq_contents.plist; sourceTree = "<group>"; };
+		D94BF43E20E4B6420012C370 /* demo_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = demo_contents.plist; sourceTree = "<group>"; };
 		D94BF44020E4BCBF0012C370 /* CQDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQDetailViewController.h; sourceTree = "<group>"; };
 		D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQDetailViewController.m; sourceTree = "<group>"; };
 		D9920CBE20E6381900F328F9 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
@@ -107,6 +117,10 @@
 		D9B563F620E249E3001AE9A0 /* iphone_list_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = iphone_list_data.json; sourceTree = "<group>"; };
 		D9B563F920E24B1F001AE9A0 /* CQIphoneDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIphoneDetailViewController.h; sourceTree = "<group>"; };
 		D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQIphoneDetailViewController.m; sourceTree = "<group>"; };
+		D9C3431A20EB1ACC0011578A /* CQArithmeticController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQArithmeticController.h; sourceTree = "<group>"; };
+		D9C3431B20EB1ACC0011578A /* CQArithmeticController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQArithmeticController.m; sourceTree = "<group>"; };
+		D9C3432020EB1B1A0011578A /* CQInterviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQInterviewController.h; sourceTree = "<group>"; };
+		D9C3432120EB1B1A0011578A /* CQInterviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQInterviewController.m; sourceTree = "<group>"; };
 		D9DA0E7820E24F5E006CEA1C /* IphoneMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneMenuView.h; sourceTree = "<group>"; };
 		D9DA0E7920E24F5E006CEA1C /* IphoneMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneMenuView.m; sourceTree = "<group>"; };
 		D9DA0E7B20E24F77006CEA1C /* IphoneListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneListView.h; sourceTree = "<group>"; };
@@ -136,6 +150,10 @@
 		D9E9F4E920E2340C00C3090D /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		D9E9F4EA20E235D400C3090D /* ArrowLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrowLabel.h; sourceTree = "<group>"; };
 		D9E9F4EB20E235D400C3090D /* ArrowLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrowLabel.m; sourceTree = "<group>"; };
+		D9F7CC8620EB1A2700B3C9B9 /* CQLibraryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQLibraryController.h; sourceTree = "<group>"; };
+		D9F7CC8720EB1A2700B3C9B9 /* CQLibraryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQLibraryController.m; sourceTree = "<group>"; };
+		D9F7CC8920EB1A3E00B3C9B9 /* CQArchitectureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQArchitectureController.h; sourceTree = "<group>"; };
+		D9F7CC8A20EB1A3E00B3C9B9 /* CQArchitectureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQArchitectureController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,16 +197,55 @@
 			path = "菜单栏+下拉列表";
 			sourceTree = "<group>";
 		};
-		D92D69A220DE2D95002BA9C0 /* Contents */ = {
+		D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */ = {
 			isa = PBXGroup;
 			children = (
-				D94BF43E20E4B6420012C370 /* cq_contents.plist */,
-				D94BF43B20E4B3BC0012C370 /* CQContentModel.h */,
-				D94BF43C20E4B3BC0012C370 /* CQContentModel.m */,
-				D92D69A420DE2DD0002BA9C0 /* CQContentsController.h */,
-				D92D69A520DE2DD0002BA9C0 /* CQContentsController.m */,
+				D928CED520EA624700EE5C78 /* Model */,
+				D928CED420EA624200EE5C78 /* View */,
+				D928CED320EA623900EE5C78 /* Controller */,
 			);
-			path = Contents;
+			path = "PNChart与tableView的联动";
+			sourceTree = "<group>";
+		};
+		D928CED320EA623900EE5C78 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D928CED620EA63E100EE5C78 /* CQChartController.h */,
+				D928CED720EA63E100EE5C78 /* CQChartController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D928CED420EA624200EE5C78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D928CED520EA624700EE5C78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D928CED920EA65E500EE5C78 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				D928CEDA20EA663A00EE5C78 /* CQTabBarController.h */,
+				D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		D92D69A220DE2D95002BA9C0 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D9F7CC8620EB1A2700B3C9B9 /* CQLibraryController.h */,
+				D9F7CC8720EB1A2700B3C9B9 /* CQLibraryController.m */,
+			);
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 		D92D69A320DE2DAA002BA9C0 /* 比例拼图 */ = {
@@ -245,11 +302,15 @@
 		D92D69C820DE361E002BA9C0 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				D94BF43E20E4B6420012C370 /* demo_contents.plist */,
+				D92D69A420DE2DD0002BA9C0 /* CQDemoController.h */,
+				D92D69A520DE2DD0002BA9C0 /* CQDemoController.m */,
 				D92D69A320DE2DAA002BA9C0 /* 比例拼图 */,
 				D9E9F4E020E2312900C3090D /* 不规格label */,
 				D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */,
 				D9DDA7C320E481E5008BD029 /* 局部瀑布流 */,
 				D9920CBB20E6375E00F328F9 /* 带警示效果的textField */,
+				D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -283,6 +344,8 @@
 				D94BF43620E48C690012C370 /* CQBaseModel.m */,
 				D94BF43820E48C850012C370 /* CQBaseViewController.h */,
 				D94BF43920E48C850012C370 /* CQBaseViewController.m */,
+				D94BF43B20E4B3BC0012C370 /* CQContentModel.h */,
+				D94BF43C20E4B3BC0012C370 /* CQContentModel.m */,
 				D94BF44020E4BCBF0012C370 /* CQDetailViewController.h */,
 				D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */,
 			);
@@ -338,9 +401,9 @@
 		D9AE0CD820DD02AC00A31D62 /* iOS_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				D928CED920EA65E500EE5C78 /* TabBarController */,
+				D9F7CC8420EB191500B3C9B9 /* Items */,
 				D94BF43420E48C4E0012C370 /* Base */,
-				D92D69A220DE2D95002BA9C0 /* Contents */,
-				D92D69C820DE361E002BA9C0 /* Demos */,
 				D92D69C720DE3606002BA9C0 /* Tool */,
 				D9AE0CD920DD02AC00A31D62 /* AppDelegate.h */,
 				D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */,
@@ -496,6 +559,45 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D9F7CC8120EB16D800B3C9B9 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				D9F7CC8920EB1A3E00B3C9B9 /* CQArchitectureController.h */,
+				D9F7CC8A20EB1A3E00B3C9B9 /* CQArchitectureController.m */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		D9F7CC8220EB171600B3C9B9 /* Arithmetic */ = {
+			isa = PBXGroup;
+			children = (
+				D9C3431A20EB1ACC0011578A /* CQArithmeticController.h */,
+				D9C3431B20EB1ACC0011578A /* CQArithmeticController.m */,
+			);
+			path = Arithmetic;
+			sourceTree = "<group>";
+		};
+		D9F7CC8420EB191500B3C9B9 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				D92D69C820DE361E002BA9C0 /* Demos */,
+				D92D69A220DE2D95002BA9C0 /* Libraries */,
+				D9F7CC8120EB16D800B3C9B9 /* Architecture */,
+				D9F7CC8220EB171600B3C9B9 /* Arithmetic */,
+				D9F7CC8520EB19C700B3C9B9 /* Interview */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		D9F7CC8520EB19C700B3C9B9 /* Interview */ = {
+			isa = PBXGroup;
+			children = (
+				D9C3432020EB1B1A0011578A /* CQInterviewController.h */,
+				D9C3432120EB1B1A0011578A /* CQInterviewController.m */,
+			);
+			path = Interview;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -507,7 +609,6 @@
 				D9AE0CD220DD02AC00A31D62 /* Sources */,
 				D9AE0CD320DD02AC00A31D62 /* Frameworks */,
 				D9AE0CD420DD02AC00A31D62 /* Resources */,
-				1D25C41449917EE6BBDF5B46 /* [CP] Embed Pods Frameworks */,
 				27BF7A51FDC5C8699E3CC9B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -557,7 +658,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D94BF43F20E4B6510012C370 /* cq_contents.plist in Resources */,
+				D94BF43F20E4B6510012C370 /* demo_contents.plist in Resources */,
 				D9B563F720E24A14001AE9A0 /* iphone_menu_data.json in Resources */,
 				D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */,
 				D9DC05E720DE418A00149124 /* jigsaw_list.json in Resources */,
@@ -570,30 +671,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1D25C41449917EE6BBDF5B46 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS_Demo/Pods-iOS_Demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		27BF7A51FDC5C8699E3CC9B6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOS_Demo/Pods-iOS_Demo-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -606,13 +695,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_Demo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -626,6 +718,7 @@
 				D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */,
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
 				D9DA0E8220E2519D006CEA1C /* IphoneListItemModel.m in Sources */,
+				D9C3431C20EB1ACC0011578A /* CQArithmeticController.m in Sources */,
 				D92D69BC20DE3295002BA9C0 /* CQCategoryView.m in Sources */,
 				D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
@@ -634,25 +727,30 @@
 				D9DDA7CA20E48303008BD029 /* CQWaterfallController.m in Sources */,
 				D9DA0E8920E25291006CEA1C /* CQIphoneRequest.m in Sources */,
 				D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */,
+				D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */,
 				D9DDA7CD20E4831F008BD029 /* CQWaterfallCell.m in Sources */,
 				D9DDA7D020E48339008BD029 /* CQWaterfallModel.m in Sources */,
 				D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */,
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
 				D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */,
+				D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */,
 				D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */,
 				D9DA5CF020E291550098EC68 /* UIView+Util.m in Sources */,
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
 				D9DA0E8520E251C4006CEA1C /* IphoneMenuItemModel.m in Sources */,
 				D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */,
+				D9C3432220EB1B1A0011578A /* CQInterviewController.m in Sources */,
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
 				D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */,
 				D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */,
+				D9F7CC8B20EB1A3E00B3C9B9 /* CQArchitectureController.m in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
+				D9F7CC8820EB1A2700B3C9B9 /* CQLibraryController.m in Sources */,
 				D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */,
-				D92D69A620DE2DD0002BA9C0 /* CQContentsController.m in Sources */,
+				D92D69A620DE2DD0002BA9C0 /* CQDemoController.m in Sources */,
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,
 				D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */,
 				D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */,

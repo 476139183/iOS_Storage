@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "CQContentsController.h"
+#import "CQTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -21,8 +21,8 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    CQContentsController *homeVC = [[CQContentsController alloc] init];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:homeVC];
+    CQTabBarController *tabBarController = [[CQTabBarController alloc] init];
+    self.window.rootViewController = tabBarController;
     [self.window makeKeyAndVisible];
     
     [SVProgressHUD setMinimumDismissTimeInterval:1];
