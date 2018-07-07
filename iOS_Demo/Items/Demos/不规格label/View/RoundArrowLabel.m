@@ -41,12 +41,11 @@
     // 设置path起点
     [self.borderPath moveToPoint:CGPointMake(0, 10)];
     
-    // 圆角箭头
+    // 箭头
     [self.borderPath addLineToPoint:CGPointMake(self.bounds.size.width/2-5, 10)];
     [self.borderPath addLineToPoint:CGPointMake(self.bounds.size.width/2-2.5, 5)];
+    // 圆尖角
     [self.borderPath addQuadCurveToPoint:CGPointMake(self.bounds.size.width/2+2.5, 5) controlPoint:CGPointMake(self.bounds.size.width/2, 0)];
-    [self.borderPath addLineToPoint:CGPointMake(self.bounds.size.width/2, 0)];
-    [self.borderPath addLineToPoint:CGPointMake(self.bounds.size.width/2, 0)];
     [self.borderPath addLineToPoint:CGPointMake(self.bounds.size.width/2+5, 10)];
     
     // 到右上角
