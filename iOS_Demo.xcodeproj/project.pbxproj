@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C07AC59361A2725024588D4D /* libPods-iOS_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 829987093C9DAEBEDBE87619 /* libPods-iOS_Demo.a */; };
+		D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D90CDB1220F05EDA003B9617 /* RoundArrowLabel.m */; };
 		D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CED720EA63E100EE5C78 /* CQChartController.m */; };
 		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
 		D92D69A620DE2DD0002BA9C0 /* CQDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69A520DE2DD0002BA9C0 /* CQDemoController.m */; };
@@ -61,6 +62,8 @@
 		62694235C607F9539E273644 /* Pods-iOS_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Demo/Pods-iOS_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		829987093C9DAEBEDBE87619 /* libPods-iOS_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3A02B8A8215154487B9BD3 /* Pods-iOS_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Demo/Pods-iOS_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		D90CDB1120F05EDA003B9617 /* RoundArrowLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundArrowLabel.h; sourceTree = "<group>"; };
+		D90CDB1220F05EDA003B9617 /* RoundArrowLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundArrowLabel.m; sourceTree = "<group>"; };
 		D91E20BD20E10C7500EBC74B /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		D91E20BF20E10CD200EBC74B /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		D928CED620EA63E100EE5C78 /* CQChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChartController.h; sourceTree = "<group>"; };
@@ -183,6 +186,29 @@
 				829987093C9DAEBEDBE87619 /* libPods-iOS_Demo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D90CDB0E20F05DBF003B9617 /* 自定义button */ = {
+			isa = PBXGroup;
+			children = (
+				D90CDB1020F05DDE003B9617 /* View */,
+				D90CDB0F20F05DD5003B9617 /* Controller */,
+			);
+			path = "自定义button";
+			sourceTree = "<group>";
+		};
+		D90CDB0F20F05DD5003B9617 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D90CDB1020F05DDE003B9617 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */ = {
@@ -308,9 +334,10 @@
 				D92D69A320DE2DAA002BA9C0 /* 比例拼图 */,
 				D9E9F4E020E2312900C3090D /* 不规格label */,
 				D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */,
-				D9DDA7C320E481E5008BD029 /* 局部瀑布流 */,
+				D9DDA7C320E481E5008BD029 /* 多种layout的collectionView */,
 				D9920CBB20E6375E00F328F9 /* 带警示效果的textField */,
 				D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */,
+				D90CDB0E20F05DBF003B9617 /* 自定义button */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -417,6 +444,13 @@
 			path = iOS_Demo;
 			sourceTree = "<group>";
 		};
+		D9C3432320EB28870011578A /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
 		D9DA0E7E20E25128006CEA1C /* 菜单栏 */ = {
 			isa = PBXGroup;
 			children = (
@@ -460,15 +494,16 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		D9DDA7C320E481E5008BD029 /* 局部瀑布流 */ = {
+		D9DDA7C320E481E5008BD029 /* 多种layout的collectionView */ = {
 			isa = PBXGroup;
 			children = (
 				D9DDA7C720E48269008BD029 /* readme.md */,
 				D9DDA7C620E48238008BD029 /* Model */,
 				D9DDA7C520E48234008BD029 /* View */,
 				D9DDA7C420E4822F008BD029 /* Controller */,
+				D9C3432320EB28870011578A /* Layout */,
 			);
-			path = "局部瀑布流";
+			path = "多种layout的collectionView";
 			sourceTree = "<group>";
 		};
 		D9DDA7C420E4822F008BD029 /* Controller */ = {
@@ -555,6 +590,8 @@
 				D9E9F4E420E2322E00C3090D /* IrregularLabel.m */,
 				D9E9F4EA20E235D400C3090D /* ArrowLabel.h */,
 				D9E9F4EB20E235D400C3090D /* ArrowLabel.m */,
+				D90CDB1120F05EDA003B9617 /* RoundArrowLabel.h */,
+				D90CDB1220F05EDA003B9617 /* RoundArrowLabel.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -717,6 +754,7 @@
 				D9DA0E7A20E24F5E006CEA1C /* IphoneMenuView.m in Sources */,
 				D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */,
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
+				D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */,
 				D9DA0E8220E2519D006CEA1C /* IphoneListItemModel.m in Sources */,
 				D9C3431C20EB1ACC0011578A /* CQArithmeticController.m in Sources */,
 				D92D69BC20DE3295002BA9C0 /* CQCategoryView.m in Sources */,

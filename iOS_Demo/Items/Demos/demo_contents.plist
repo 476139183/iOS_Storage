@@ -28,7 +28,7 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>局部瀑布流</string>
+		<string>多种layout的collectionView</string>
 		<key>controller_name</key>
 		<string>CQWaterfallController</string>
 		<key>jianshu_url</key>

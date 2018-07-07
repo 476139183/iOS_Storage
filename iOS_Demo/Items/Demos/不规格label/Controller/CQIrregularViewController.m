@@ -9,6 +9,7 @@
 #import "CQIrregularViewController.h"
 #import "IrregularLabel.h"
 #import "ArrowLabel.h"
+#import "RoundArrowLabel.h"
 
 @interface CQIrregularViewController ()
 
@@ -37,6 +38,14 @@
     arrowLabel.font = [UIFont systemFontOfSize:14];
     arrowLabel.text = @"箭头label";
     arrowLabel.backgroundColor = [UIColor orangeColor];
+    
+    // 圆尖角label
+    RoundArrowLabel *roundArrowLabel = [[RoundArrowLabel alloc] initWithFrame:CGRectMake(80, 320, 100, 60)];
+    [self.view addSubview:roundArrowLabel];
+    roundArrowLabel.textAlignment = NSTextAlignmentCenter;
+    roundArrowLabel.font = [UIFont systemFontOfSize:15];
+    roundArrowLabel.text = @"圆尖角label";
+    roundArrowLabel.backgroundColor = [UIColor greenColor];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

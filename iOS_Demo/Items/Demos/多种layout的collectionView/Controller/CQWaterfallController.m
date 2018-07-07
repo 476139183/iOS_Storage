@@ -61,8 +61,6 @@ static NSString * const CQWaterfallCellReuseID = @"CQWaterfallCellReuseID";
 - (void)setupUI {
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
     self.collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
-    self.collectionView.collectionViewLayout = layout;
-    layout.scrollDirection = UICollectionViewScrollDirectionVertical;
     [self.view addSubview:self.collectionView];
     self.collectionView.backgroundColor = [UIColor whiteColor];
     [self.collectionView registerClass:[CQWaterfallCell class] forCellWithReuseIdentifier:CQWaterfallCellReuseID];
@@ -82,39 +80,19 @@ static NSString * const CQWaterfallCellReuseID = @"CQWaterfallCellReuseID";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     CQWaterfallCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CQWaterfallCellReuseID forIndexPath:indexPath];
-    
-    if (indexPath.section == 0) {
-        UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
-        layout.scrollDirection = UICollectionViewScrollDirectionVertical;
-        [collectionView setCollectionViewLayout:layout];
-    } else {
-        UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
-        layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-        [collectionView setCollectionViewLayout:layout];
-    }
-    
-//    NSInteger remainder=indexPath.row%3;
-//
-//    NSInteger currentRow=indexPath.row/3;
-//
-//    CGFloat   currentHeight=[self.heightArray[indexPath.row] floatValue];
-//
-//
-//    CGFloat positonX=100*remainder+10*(remainder+1);
-//    CGFloat positionY=(currentRow+1)*10;
-//    for (NSInteger i=0; i<currentRow; i++) {
-//
-//        NSInteger position=remainder+i*3;
-//
-//        positionY+=[self.heightArray[position] floatValue];
-//    }
-//    cell.frame = CGRectMake(positonX, positionY, 100, currentHeight) ;
-    
     return cell;
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
     return  CGSizeMake(100, 100);
+}
+
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section {
+    return 10;
+}
+
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section {
+    return 0;
 }
 
 @end
