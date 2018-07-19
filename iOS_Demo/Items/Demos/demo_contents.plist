@@ -48,7 +48,7 @@
 		<key>controller_name</key>
 		<string>CQChartController</string>
 		<key>jianshu_url</key>
-		<string></string>
+		<string>https://www.jianshu.com/p/759ea22a2a0f</string>
 	</dict>
 	<dict>
 		<key>demo_name</key>
@@ -56,7 +56,7 @@
 		<key>controller_name</key>
 		<string>CQFilterViewController</string>
 		<key>jianshu_url</key>
-		<string></string>
+		<string>https://www.jianshu.com/p/541a46d867f9</string>
 	</dict>
 </array>
 </plist>

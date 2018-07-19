@@ -366,8 +366,8 @@
 				D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */,
 				D9DDA7C320E481E5008BD029 /* 多种layout的collectionView */,
 				D9920CBB20E6375E00F328F9 /* 带警示效果的textField */,
-				D94F6A8820FEDCD9006BCC6B /* 模态Controller弹窗 */,
 				D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */,
+				D94F6A8820FEDCD9006BCC6B /* 模态Controller弹窗 */,
 				D90CDB0E20F05DBF003B9617 /* 自定义button */,
 			);
 			path = Demos;
