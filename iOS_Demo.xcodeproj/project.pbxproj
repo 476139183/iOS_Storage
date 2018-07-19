@@ -366,9 +366,9 @@
 				D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */,
 				D9DDA7C320E481E5008BD029 /* 多种layout的collectionView */,
 				D9920CBB20E6375E00F328F9 /* 带警示效果的textField */,
+				D94F6A8820FEDCD9006BCC6B /* 模态Controller弹窗 */,
 				D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */,
 				D90CDB0E20F05DBF003B9617 /* 自定义button */,
-				D94F6A8820FEDCD9006BCC6B /* Controller弹窗 */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -410,7 +410,7 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		D94F6A8820FEDCD9006BCC6B /* Controller弹窗 */ = {
+		D94F6A8820FEDCD9006BCC6B /* 模态Controller弹窗 */ = {
 			isa = PBXGroup;
 			children = (
 				D94F6A8C20FEE21A006BCC6B /* Model */,
@@ -419,7 +419,7 @@
 				D94F6A8920FEE205006BCC6B /* Request */,
 				D94F6A9020FEE34D006BCC6B /* Alert */,
 			);
-			path = "Controller弹窗";
+			path = "模态Controller弹窗";
 			sourceTree = "<group>";
 		};
 		D94F6A8920FEE205006BCC6B /* Request */ = {

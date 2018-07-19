@@ -99,7 +99,12 @@
 
 - (void)filterButtonClicked {
     // 弹窗
-    CQFilterAlertController *alertController = [CQFilterAlertController alertWithRegionID:_currentRegionID departmentID:_currentDepartmentID houseID:_currentHouseID filtrateCompletion:^(CQRegionModel *selectedRegionModel, CQDepartmentModel *selectedDepartmentModel, CQHouseModel *selectedHouseModel) {
+    CQFilterAlertController *alertController = [CQFilterAlertController
+                                                alertWithRegionID:_currentRegionID
+                                                departmentID:_currentDepartmentID
+                                                houseID:_currentHouseID
+                                                filtrateCompletion:^(CQRegionModel *selectedRegionModel, CQDepartmentModel *selectedDepartmentModel, CQHouseModel *selectedHouseModel)
+    {
         // 筛选完成的回调
         _currentRegionID     = selectedRegionModel.region_id;
         _currentDepartmentID = selectedDepartmentModel.department_id;
