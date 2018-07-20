@@ -29,7 +29,7 @@
     NSString *_currentHouseID;
 }
 
-#pragma mark - Life Circle
+#pragma mark - Life Cycle
 
 - (void)viewDidLoad {
     [super viewDidLoad];

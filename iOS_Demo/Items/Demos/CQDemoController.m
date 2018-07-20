@@ -36,7 +36,7 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
     return _dataArray;
 }
 
-#pragma mark - Life Circle
+#pragma mark - Life Cycle
 
 - (void)viewDidLoad {
     [super viewDidLoad];
