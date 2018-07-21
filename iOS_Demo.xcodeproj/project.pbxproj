@@ -24,6 +24,9 @@
 		D92D69C420DE359C002BA9C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92D69C320DE359C002BA9C0 /* LaunchScreen.storyboard */; };
 		D92D69C620DE35B2002BA9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92D69C520DE35B2002BA9C0 /* Main.storyboard */; };
 		D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */; };
+		D9402A892101E5B500BF792F /* interview_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9402A882101E50800BF792F /* interview_contents.plist */; };
+		D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */; };
+		D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A922101E7E400BF792F /* CQLockViewController.m */; };
 		D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D948397C20E255FC00121FB6 /* IphoneListCell.m */; };
 		D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43620E48C690012C370 /* CQBaseModel.m */; };
 		D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43920E48C850012C370 /* CQBaseViewController.m */; };
@@ -99,6 +102,11 @@
 		D92D69C920DE36C8002BA9C0 /* UIView+FrameHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameHelper.h"; sourceTree = "<group>"; };
 		D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameHelper.m"; sourceTree = "<group>"; };
 		D92D69CE20DE3A34002BA9C0 /* jigsaw_list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jigsaw_list.json; sourceTree = "<group>"; };
+		D9402A882101E50800BF792F /* interview_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = interview_contents.plist; sourceTree = "<group>"; };
+		D9402A8E2101E79D00BF792F /* CQMultiInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMultiInterfaceViewController.h; sourceTree = "<group>"; };
+		D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMultiInterfaceViewController.m; sourceTree = "<group>"; };
+		D9402A912101E7E400BF792F /* CQLockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQLockViewController.h; sourceTree = "<group>"; };
+		D9402A922101E7E400BF792F /* CQLockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQLockViewController.m; sourceTree = "<group>"; };
 		D948397B20E255FC00121FB6 /* IphoneListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneListCell.h; sourceTree = "<group>"; };
 		D948397C20E255FC00121FB6 /* IphoneListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneListCell.m; sourceTree = "<group>"; };
 		D94BF43520E48C690012C370 /* CQBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQBaseModel.h; sourceTree = "<group>"; };
@@ -371,6 +379,40 @@
 				D90CDB0E20F05DBF003B9617 /* 自定义button */,
 			);
 			path = Demos;
+			sourceTree = "<group>";
+		};
+		D9402A8A2101E5CB00BF792F /* 请求多个接口 */ = {
+			isa = PBXGroup;
+			children = (
+				D9402A8C2101E73300BF792F /* Controller */,
+			);
+			path = "请求多个接口";
+			sourceTree = "<group>";
+		};
+		D9402A8B2101E5EC00BF792F /* 锁 */ = {
+			isa = PBXGroup;
+			children = (
+				D9402A8D2101E73D00BF792F /* Controller */,
+			);
+			path = "锁";
+			sourceTree = "<group>";
+		};
+		D9402A8C2101E73300BF792F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9402A8E2101E79D00BF792F /* CQMultiInterfaceViewController.h */,
+				D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9402A8D2101E73D00BF792F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9402A912101E7E400BF792F /* CQLockViewController.h */,
+				D9402A922101E7E400BF792F /* CQLockViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		D948397620E2557F00121FB6 /* 菜单栏 */ = {
@@ -726,8 +768,11 @@
 		D9F7CC8520EB19C700B3C9B9 /* Interview */ = {
 			isa = PBXGroup;
 			children = (
+				D9402A882101E50800BF792F /* interview_contents.plist */,
 				D9C3432020EB1B1A0011578A /* CQInterviewController.h */,
 				D9C3432120EB1B1A0011578A /* CQInterviewController.m */,
+				D9402A8A2101E5CB00BF792F /* 请求多个接口 */,
+				D9402A8B2101E5EC00BF792F /* 锁 */,
 			);
 			path = Interview;
 			sourceTree = "<group>";
@@ -792,6 +837,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9402A892101E5B500BF792F /* interview_contents.plist in Resources */,
 				D921F97020FF640B00712042 /* region_list.json in Resources */,
 				D921F97120FF640B00712042 /* department_list.json in Resources */,
 				D921F97220FF640B00712042 /* house_list.json in Resources */,
@@ -854,6 +900,7 @@
 				D9DA0E7A20E24F5E006CEA1C /* IphoneMenuView.m in Sources */,
 				D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */,
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
+				D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */,
 				D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */,
 				D9DE6CC320FEE7CE00C8D4FE /* CQHouseModel.m in Sources */,
 				D9DA0E8220E2519D006CEA1C /* IphoneListItemModel.m in Sources */,
@@ -863,6 +910,7 @@
 				D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
 				D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */,
+				D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */,
 				D9B563F420E240F2001AE9A0 /* CQIphoneViewController.m in Sources */,
 				D9DDA7CA20E48303008BD029 /* CQWaterfallController.m in Sources */,
 				D9DA0E8920E25291006CEA1C /* CQIphoneRequest.m in Sources */,

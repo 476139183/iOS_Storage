@@ -149,10 +149,6 @@ static NSString * const CQFilterCellReuseID = @"CQFilterCellReuseID";
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         // 获取大区列表
         [CQFilterRequest loadRegionArraySuccess:^(NSArray *regionArray) {
-            if (++requestCount == totalCount) {
-                dispatch_semaphore_signal(sem);
-            }
-            
             for (NSDictionary *dict in regionArray) {
                 NSError *error = nil;
                 CQRegionModel *model = [[CQRegionModel alloc] initWithDictionary:dict error:&error];
@@ -164,16 +160,16 @@ static NSString * const CQFilterCellReuseID = @"CQFilterCellReuseID";
                 }
                 [self.regionArray addObject:model];
             }
+            
+            if (++requestCount == totalCount) {
+                dispatch_semaphore_signal(sem);
+            }
         } failure:^(NSString *errorMessage) {
             !failure ?: failure(errorMessage);
         }];
         
         // 获取部门列表
         [CQFilterRequest loadDepartmentArraySuccess:^(NSArray *departmentArray) {
-            if (++requestCount == totalCount) {
-                dispatch_semaphore_signal(sem);
-            }
-            
             for (NSDictionary *dict in departmentArray) {
                 NSError *error = nil;
                 CQDepartmentModel *model = [[CQDepartmentModel alloc] initWithDictionary:dict error:&error];
@@ -185,16 +181,16 @@ static NSString * const CQFilterCellReuseID = @"CQFilterCellReuseID";
                 }
                 [self.departmentArray addObject:model];
             }
+            
+            if (++requestCount == totalCount) {
+                dispatch_semaphore_signal(sem);
+            }
         } failure:^(NSString *errorMessage) {
             !failure ?: failure(errorMessage);
         }];
         
         // 获取门店列表
         [CQFilterRequest loadHouseArraySuccess:^(NSArray *houseArray) {
-            if (++requestCount == totalCount) {
-                dispatch_semaphore_signal(sem);
-            }
-            
             for (NSDictionary *dict in houseArray) {
                 NSError *error = nil;
                 CQHouseModel *model = [[CQHouseModel alloc] initWithDictionary:dict error:&error];
@@ -205,6 +201,10 @@ static NSString * const CQFilterCellReuseID = @"CQFilterCellReuseID";
                     model.selected = NO;
                 }
                 [self.houseArray addObject:model];
+            }
+            
+            if (++requestCount == totalCount) {
+                dispatch_semaphore_signal(sem);
             }
         } failure:^(NSString *errorMessage) {
             !failure ?: failure(errorMessage);
