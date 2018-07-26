@@ -1,5 +1,5 @@
 platform:ios,'8.0'
-target 'iOS_storage' do
+target 'iOS_Storage' do
 pod 'JSONModel'
 pod 'Masonry'
 pod 'SVProgressHUD'
