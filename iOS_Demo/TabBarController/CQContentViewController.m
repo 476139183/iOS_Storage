@@ -1,23 +1,25 @@
 //
-//  HomeViewController.m
+//  CQContentViewController.m
 //  iOS_Demo
 //
-//  Created by 蔡强 on 2018/6/23.
+//  Created by 蔡强 on 2018/7/26.
 //  Copyright © 2018年 蔡强. All rights reserved.
 //
 
-#import "CQDemoController.h"
+#import "CQContentViewController.h"
 #import "CQContentModel.h"
 
 static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
 
-@interface CQDemoController () <UITableViewDataSource, UITableViewDelegate>
+@interface CQContentViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) NSMutableArray *dataArray;
 
 @end
 
-@implementation CQDemoController
+@implementation CQContentViewController {
+    NSString *_content;
+}
 
 #pragma mark - Lazy Load
 
@@ -25,7 +27,7 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
     if (!_dataArray) {
         _dataArray = [NSMutableArray array];
         // 加载本地数据
-        NSString *catalogPath = [[NSBundle mainBundle] pathForResource:@"demo_contents" ofType:@"plist"];
+        NSString *catalogPath = [[NSBundle mainBundle] pathForResource:_content ofType:@"plist"];
         NSArray *catalogArray = [NSArray arrayWithContentsOfFile:catalogPath];
         for (NSDictionary *catalogDict in catalogArray) {
             NSError *error = nil;
@@ -36,13 +38,20 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
     return _dataArray;
 }
 
-#pragma mark - Life Cycle
+#pragma mark - 构造方法
+
+- (instancetype)initWithContent:(NSString *)content {
+    if (self = [super init]) {
+        _content = content;
+    }
+    return self;
+}
+
+#pragma mark - Life Circle
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
-    self.title = @"demos";
     
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:tableView];

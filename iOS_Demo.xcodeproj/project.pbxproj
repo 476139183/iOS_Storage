@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		C07AC59361A2725024588D4D /* libPods-iOS_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 829987093C9DAEBEDBE87619 /* libPods-iOS_Demo.a */; };
+		D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7821098B4D00C48E72 /* CQTransitionController.m */; };
+		D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7B21098C9800C48E72 /* CQChangeThemeController.m */; };
+		D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7E21098CBE00C48E72 /* CQCustomButtonController.m */; };
 		D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D90CDB1220F05EDA003B9617 /* RoundArrowLabel.m */; };
+		D913F93F2109C08200366887 /* CQContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D913F93E2109C08200366887 /* CQContentViewController.m */; };
+		D913F9422109CDD300366887 /* library_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9402109CA7F00366887 /* library_contents.plist */; };
+		D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9412109CDC400366887 /* architecture_contents.plist */; };
+		D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9442109CE0A00366887 /* arithmetic_contents.plist */; };
 		D921F97020FF640B00712042 /* region_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD220FF2F0B00C8D4FE /* region_list.json */; };
 		D921F97120FF640B00712042 /* department_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD020FF2F0A00C8D4FE /* department_list.json */; };
 		D921F97220FF640B00712042 /* house_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD120FF2F0A00C8D4FE /* house_list.json */; };
 		D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CED720EA63E100EE5C78 /* CQChartController.m */; };
 		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
-		D92D69A620DE2DD0002BA9C0 /* CQDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69A520DE2DD0002BA9C0 /* CQDemoController.m */; };
 		D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */ = {isa = PBXBuildFile; fileRef = D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */; };
 		D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69B520DE312B002BA9C0 /* CQCategoryModel.m */; };
 		D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69B820DE3270002BA9C0 /* CQCategoryItemModel.m */; };
@@ -24,7 +30,7 @@
 		D92D69C420DE359C002BA9C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92D69C320DE359C002BA9C0 /* LaunchScreen.storyboard */; };
 		D92D69C620DE35B2002BA9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92D69C520DE35B2002BA9C0 /* Main.storyboard */; };
 		D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */; };
-		D9402A892101E5B500BF792F /* interview_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9402A882101E50800BF792F /* interview_contents.plist */; };
+		D9402A892101E5B500BF792F /* tips_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9402A882101E50800BF792F /* tips_contents.plist */; };
 		D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */; };
 		D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A922101E7E400BF792F /* CQLockViewController.m */; };
 		D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D948397C20E255FC00121FB6 /* IphoneListCell.m */; };
@@ -46,8 +52,6 @@
 		D9B563F720E24A14001AE9A0 /* iphone_menu_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B563F520E24896001AE9A0 /* iphone_menu_data.json */; };
 		D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B563F620E249E3001AE9A0 /* iphone_list_data.json */; };
 		D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */; };
-		D9C3431C20EB1ACC0011578A /* CQArithmeticController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C3431B20EB1ACC0011578A /* CQArithmeticController.m */; };
-		D9C3432220EB1B1A0011578A /* CQInterviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C3432120EB1B1A0011578A /* CQInterviewController.m */; };
 		D9D64FD72105DDA300379FF2 /* CQThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D64FD62105DDA300379FF2 /* CQThreadViewController.m */; };
 		D9DA0E7A20E24F5E006CEA1C /* IphoneMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA0E7920E24F5E006CEA1C /* IphoneMenuView.m */; };
 		D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA0E7C20E24F77006CEA1C /* IphoneListView.m */; };
@@ -69,24 +73,31 @@
 		D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E420E2322E00C3090D /* IrregularLabel.m */; };
 		D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */; };
 		D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4EB20E235D400C3090D /* ArrowLabel.m */; };
-		D9F7CC8820EB1A2700B3C9B9 /* CQLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F7CC8720EB1A2700B3C9B9 /* CQLibraryController.m */; };
-		D9F7CC8B20EB1A3E00B3C9B9 /* CQArchitectureController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F7CC8A20EB1A3E00B3C9B9 /* CQArchitectureController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		62694235C607F9539E273644 /* Pods-iOS_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Demo/Pods-iOS_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		829987093C9DAEBEDBE87619 /* libPods-iOS_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3A02B8A8215154487B9BD3 /* Pods-iOS_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Demo/Pods-iOS_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		D90C4E7721098B4D00C48E72 /* CQTransitionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTransitionController.h; sourceTree = "<group>"; };
+		D90C4E7821098B4D00C48E72 /* CQTransitionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTransitionController.m; sourceTree = "<group>"; };
+		D90C4E7A21098C9800C48E72 /* CQChangeThemeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChangeThemeController.h; sourceTree = "<group>"; };
+		D90C4E7B21098C9800C48E72 /* CQChangeThemeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQChangeThemeController.m; sourceTree = "<group>"; };
+		D90C4E7D21098CBE00C48E72 /* CQCustomButtonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCustomButtonController.h; sourceTree = "<group>"; };
+		D90C4E7E21098CBE00C48E72 /* CQCustomButtonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCustomButtonController.m; sourceTree = "<group>"; };
 		D90CDB1120F05EDA003B9617 /* RoundArrowLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundArrowLabel.h; sourceTree = "<group>"; };
 		D90CDB1220F05EDA003B9617 /* RoundArrowLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundArrowLabel.m; sourceTree = "<group>"; };
+		D913F93D2109C08200366887 /* CQContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQContentViewController.h; sourceTree = "<group>"; };
+		D913F93E2109C08200366887 /* CQContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQContentViewController.m; sourceTree = "<group>"; };
+		D913F9402109CA7F00366887 /* library_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = library_contents.plist; sourceTree = "<group>"; };
+		D913F9412109CDC400366887 /* architecture_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = architecture_contents.plist; sourceTree = "<group>"; };
+		D913F9442109CE0A00366887 /* arithmetic_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = arithmetic_contents.plist; sourceTree = "<group>"; };
 		D91E20BD20E10C7500EBC74B /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		D91E20BF20E10CD200EBC74B /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		D928CED620EA63E100EE5C78 /* CQChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChartController.h; sourceTree = "<group>"; };
 		D928CED720EA63E100EE5C78 /* CQChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQChartController.m; sourceTree = "<group>"; };
 		D928CEDA20EA663A00EE5C78 /* CQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTabBarController.h; sourceTree = "<group>"; };
 		D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTabBarController.m; sourceTree = "<group>"; };
-		D92D69A420DE2DD0002BA9C0 /* CQDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQDemoController.h; sourceTree = "<group>"; };
-		D92D69A520DE2DD0002BA9C0 /* CQDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQDemoController.m; sourceTree = "<group>"; };
 		D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D92D69B420DE312B002BA9C0 /* CQCategoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCategoryModel.h; sourceTree = "<group>"; };
 		D92D69B520DE312B002BA9C0 /* CQCategoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCategoryModel.m; sourceTree = "<group>"; };
@@ -103,7 +114,7 @@
 		D92D69C920DE36C8002BA9C0 /* UIView+FrameHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameHelper.h"; sourceTree = "<group>"; };
 		D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameHelper.m"; sourceTree = "<group>"; };
 		D92D69CE20DE3A34002BA9C0 /* jigsaw_list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jigsaw_list.json; sourceTree = "<group>"; };
-		D9402A882101E50800BF792F /* interview_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = interview_contents.plist; sourceTree = "<group>"; };
+		D9402A882101E50800BF792F /* tips_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = tips_contents.plist; sourceTree = "<group>"; };
 		D9402A8E2101E79D00BF792F /* CQMultiInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMultiInterfaceViewController.h; sourceTree = "<group>"; };
 		D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMultiInterfaceViewController.m; sourceTree = "<group>"; };
 		D9402A912101E7E400BF792F /* CQLockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQLockViewController.h; sourceTree = "<group>"; };
@@ -144,10 +155,6 @@
 		D9B563F620E249E3001AE9A0 /* iphone_list_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = iphone_list_data.json; sourceTree = "<group>"; };
 		D9B563F920E24B1F001AE9A0 /* CQIphoneDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIphoneDetailViewController.h; sourceTree = "<group>"; };
 		D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQIphoneDetailViewController.m; sourceTree = "<group>"; };
-		D9C3431A20EB1ACC0011578A /* CQArithmeticController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQArithmeticController.h; sourceTree = "<group>"; };
-		D9C3431B20EB1ACC0011578A /* CQArithmeticController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQArithmeticController.m; sourceTree = "<group>"; };
-		D9C3432020EB1B1A0011578A /* CQInterviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQInterviewController.h; sourceTree = "<group>"; };
-		D9C3432120EB1B1A0011578A /* CQInterviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQInterviewController.m; sourceTree = "<group>"; };
 		D9D64FD52105DDA300379FF2 /* CQThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQThreadViewController.h; sourceTree = "<group>"; };
 		D9D64FD62105DDA300379FF2 /* CQThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQThreadViewController.m; sourceTree = "<group>"; };
 		D9DA0E7820E24F5E006CEA1C /* IphoneMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneMenuView.h; sourceTree = "<group>"; };
@@ -194,10 +201,6 @@
 		D9E9F4E920E2340C00C3090D /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		D9E9F4EA20E235D400C3090D /* ArrowLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrowLabel.h; sourceTree = "<group>"; };
 		D9E9F4EB20E235D400C3090D /* ArrowLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrowLabel.m; sourceTree = "<group>"; };
-		D9F7CC8620EB1A2700B3C9B9 /* CQLibraryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQLibraryController.h; sourceTree = "<group>"; };
-		D9F7CC8720EB1A2700B3C9B9 /* CQLibraryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQLibraryController.m; sourceTree = "<group>"; };
-		D9F7CC8920EB1A3E00B3C9B9 /* CQArchitectureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQArchitectureController.h; sourceTree = "<group>"; };
-		D9F7CC8A20EB1A3E00B3C9B9 /* CQArchitectureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQArchitectureController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +232,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D90C4E7521097C2800C48E72 /* CATransition动画 */ = {
+			isa = PBXGroup;
+			children = (
+				D90C4E7621097C6300C48E72 /* Controller */,
+			);
+			path = "CATransition动画";
+			sourceTree = "<group>";
+		};
+		D90C4E7621097C6300C48E72 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D90C4E7721098B4D00C48E72 /* CQTransitionController.h */,
+				D90C4E7821098B4D00C48E72 /* CQTransitionController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		D90CDB0E20F05DBF003B9617 /* 自定义button */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +261,8 @@
 		D90CDB0F20F05DD5003B9617 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D90C4E7D21098CBE00C48E72 /* CQCustomButtonController.h */,
+				D90C4E7E21098CBE00C48E72 /* CQCustomButtonController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -302,6 +324,10 @@
 			children = (
 				D928CEDA20EA663A00EE5C78 /* CQTabBarController.h */,
 				D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */,
+				D94BF43B20E4B3BC0012C370 /* CQContentModel.h */,
+				D94BF43C20E4B3BC0012C370 /* CQContentModel.m */,
+				D913F93D2109C08200366887 /* CQContentViewController.h */,
+				D913F93E2109C08200366887 /* CQContentViewController.m */,
 			);
 			path = TabBarController;
 			sourceTree = "<group>";
@@ -309,8 +335,7 @@
 		D92D69A220DE2D95002BA9C0 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				D9F7CC8620EB1A2700B3C9B9 /* CQLibraryController.h */,
-				D9F7CC8720EB1A2700B3C9B9 /* CQLibraryController.m */,
+				D913F9402109CA7F00366887 /* library_contents.plist */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -370,8 +395,6 @@
 			isa = PBXGroup;
 			children = (
 				D94BF43E20E4B6420012C370 /* demo_contents.plist */,
-				D92D69A420DE2DD0002BA9C0 /* CQDemoController.h */,
-				D92D69A520DE2DD0002BA9C0 /* CQDemoController.m */,
 				D92D69A320DE2DAA002BA9C0 /* 比例拼图 */,
 				D9E9F4E020E2312900C3090D /* 不规格label */,
 				D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */,
@@ -381,6 +404,7 @@
 				D94F6A8820FEDCD9006BCC6B /* 模态Controller弹窗 */,
 				D90CDB0E20F05DBF003B9617 /* 自定义button */,
 				D98925D42106C96A001B2377 /* 主题切换 */,
+				D90C4E7521097C2800C48E72 /* CATransition动画 */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -448,8 +472,6 @@
 				D94BF43620E48C690012C370 /* CQBaseModel.m */,
 				D94BF43820E48C850012C370 /* CQBaseViewController.h */,
 				D94BF43920E48C850012C370 /* CQBaseViewController.m */,
-				D94BF43B20E4B3BC0012C370 /* CQContentModel.h */,
-				D94BF43C20E4B3BC0012C370 /* CQContentModel.m */,
 				D94BF44020E4BCBF0012C370 /* CQDetailViewController.h */,
 				D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */,
 			);
@@ -533,6 +555,8 @@
 		D98925D52106C9AC001B2377 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D90C4E7A21098C9800C48E72 /* CQChangeThemeController.h */,
+				D90C4E7B21098C9800C48E72 /* CQChangeThemeController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -774,8 +798,7 @@
 		D9F7CC8120EB16D800B3C9B9 /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
-				D9F7CC8920EB1A3E00B3C9B9 /* CQArchitectureController.h */,
-				D9F7CC8A20EB1A3E00B3C9B9 /* CQArchitectureController.m */,
+				D913F9412109CDC400366887 /* architecture_contents.plist */,
 			);
 			path = Architecture;
 			sourceTree = "<group>";
@@ -783,8 +806,7 @@
 		D9F7CC8220EB171600B3C9B9 /* Arithmetic */ = {
 			isa = PBXGroup;
 			children = (
-				D9C3431A20EB1ACC0011578A /* CQArithmeticController.h */,
-				D9C3431B20EB1ACC0011578A /* CQArithmeticController.m */,
+				D913F9442109CE0A00366887 /* arithmetic_contents.plist */,
 			);
 			path = Arithmetic;
 			sourceTree = "<group>";
@@ -796,22 +818,20 @@
 				D92D69A220DE2D95002BA9C0 /* Libraries */,
 				D9F7CC8120EB16D800B3C9B9 /* Architecture */,
 				D9F7CC8220EB171600B3C9B9 /* Arithmetic */,
-				D9F7CC8520EB19C700B3C9B9 /* Interview */,
+				D9F7CC8520EB19C700B3C9B9 /* Tips */,
 			);
 			path = Items;
 			sourceTree = "<group>";
 		};
-		D9F7CC8520EB19C700B3C9B9 /* Interview */ = {
+		D9F7CC8520EB19C700B3C9B9 /* Tips */ = {
 			isa = PBXGroup;
 			children = (
-				D9402A882101E50800BF792F /* interview_contents.plist */,
-				D9C3432020EB1B1A0011578A /* CQInterviewController.h */,
-				D9C3432120EB1B1A0011578A /* CQInterviewController.m */,
+				D9402A882101E50800BF792F /* tips_contents.plist */,
 				D9402A8A2101E5CB00BF792F /* 请求多个接口 */,
 				D9402A8B2101E5EC00BF792F /* 锁 */,
 				D9D64FD32105DD4200379FF2 /* NSThread */,
 			);
-			path = Interview;
+			path = Tips;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -874,7 +894,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9402A892101E5B500BF792F /* interview_contents.plist in Resources */,
+				D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */,
+				D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */,
+				D913F9422109CDD300366887 /* library_contents.plist in Resources */,
+				D9402A892101E5B500BF792F /* tips_contents.plist in Resources */,
 				D921F97020FF640B00712042 /* region_list.json in Resources */,
 				D921F97120FF640B00712042 /* department_list.json in Resources */,
 				D921F97220FF640B00712042 /* house_list.json in Resources */,
@@ -940,8 +963,8 @@
 				D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */,
 				D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */,
 				D9DE6CC320FEE7CE00C8D4FE /* CQHouseModel.m in Sources */,
+				D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */,
 				D9DA0E8220E2519D006CEA1C /* IphoneListItemModel.m in Sources */,
-				D9C3431C20EB1ACC0011578A /* CQArithmeticController.m in Sources */,
 				D92D69BC20DE3295002BA9C0 /* CQCategoryView.m in Sources */,
 				D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */,
 				D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */,
@@ -957,11 +980,14 @@
 				D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */,
 				D9DDA7CD20E4831F008BD029 /* CQWaterfallCell.m in Sources */,
 				D9DDA7D020E48339008BD029 /* CQWaterfallModel.m in Sources */,
+				D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */,
 				D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */,
+				D913F93F2109C08200366887 /* CQContentViewController.m in Sources */,
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
 				D9DE6CC020FEE7A800C8D4FE /* CQDepartmentModel.m in Sources */,
 				D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */,
+				D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */,
 				D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */,
 				D9DE6CBD20FEE78100C8D4FE /* CQRegionModel.m in Sources */,
 				D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */,
@@ -970,19 +996,15 @@
 				D9DA0E8520E251C4006CEA1C /* IphoneMenuItemModel.m in Sources */,
 				D9D64FD72105DDA300379FF2 /* CQThreadViewController.m in Sources */,
 				D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */,
-				D9C3432220EB1B1A0011578A /* CQInterviewController.m in Sources */,
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
 				D9DE6CC920FEE9C000C8D4FE /* CQFilterCell.m in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
 				D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */,
 				D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */,
-				D9F7CC8B20EB1A3E00B3C9B9 /* CQArchitectureController.m in Sources */,
 				D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
-				D9F7CC8820EB1A2700B3C9B9 /* CQLibraryController.m in Sources */,
 				D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */,
-				D92D69A620DE2DD0002BA9C0 /* CQDemoController.m in Sources */,
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,
 				D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */,
 				D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */,
