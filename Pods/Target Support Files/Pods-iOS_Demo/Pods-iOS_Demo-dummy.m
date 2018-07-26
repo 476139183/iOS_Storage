@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_iOS_Demo : NSObject
+@interface PodsDummy_Pods_iOS_storage : NSObject
 @end
-@implementation PodsDummy_Pods_iOS_Demo
+@implementation PodsDummy_Pods_iOS_storage
 @end
