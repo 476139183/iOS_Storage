@@ -12,8 +12,8 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
 
 @interface CQMultiInterfaceViewController () <UITableViewDataSource, UITableViewDelegate>
 
-@property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *dataArray;
+@property (nonatomic, strong) UITableView *tableView;
 
 @end
 
@@ -22,9 +22,9 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
 #pragma mark - getter
 
 - (NSArray *)dataArray {
-    return @[@"使用GCD_GROUP请求多个接口",
-             @"使用信号量请求多个接口",
-             @"多个接口按顺序"];
+    return @[@"无序请求：使用GCD_GROUP请求多个接口",
+             @"无序请求：使用信号量请求多个接口",
+             @"有序请求：多个接口按顺序依次同步请求"];
 }
 
 #pragma mark - Life Cycle
@@ -45,48 +45,44 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
 - (void)useGCDGroupLoadDataSuccess:(void (^)(void))success failure:(void (^)(void))failure {
     NSLog(@"使用GCD_GROUP请求多个接口");
     
-    dispatch_group_t downloadGroup = dispatch_group_create();
+    dispatch_group_t requestGroup = dispatch_group_create();
     
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        
         // 请求接口1
-        dispatch_group_enter(downloadGroup);
+        dispatch_group_enter(requestGroup);
         [self loadData1Success:^{
-            dispatch_group_leave(downloadGroup);
+            dispatch_group_leave(requestGroup);
         } failure:^{
             
         }];
         
         // 请求接口2
-        dispatch_group_enter(downloadGroup);
+        dispatch_group_enter(requestGroup);
         [self loadData2Success:^{
-            dispatch_group_leave(downloadGroup);
+            dispatch_group_leave(requestGroup);
         } failure:^{
             
         }];
         
         // 请求接口3
-        dispatch_group_enter(downloadGroup);
+        dispatch_group_enter(requestGroup);
         [self loadData3Success:^{
-            dispatch_group_leave(downloadGroup);
+            dispatch_group_leave(requestGroup);
         } failure:^{
             
         }];
         
         // 所有接口请求完的回调
-        dispatch_group_notify(downloadGroup, dispatch_get_main_queue(), ^{
-            dispatch_async(dispatch_get_main_queue(), ^{
-                success();
-            });
+        dispatch_group_notify(requestGroup, dispatch_get_main_queue(), ^{
+            success();
         });
-        
     });
 }
 
 #pragma mark - 使用信号量请求多个接口
 
 - (void)useSemaphoreLoadDataSuccess:(void (^)(void))success failure:(void (^)(void))failure {
-    // 3个接口，全部请求成功后刷新tableView
+    // 总共3个接口
     NSInteger totalCount = 3;
     __block NSInteger requestCount = 0;
     
@@ -121,7 +117,41 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
 #pragma mark - 按顺序依次请求
 
 - (void)loadDataByOrderSuccess:(void (^)(void))success failure:(void (^)(void))failure {
-    
+    // first,load data1
+    NSBlockOperation * operation1 = [NSBlockOperation blockOperationWithBlock:^{
+        dispatch_semaphore_t sema = dispatch_semaphore_create(0);
+        [self loadData1Success:^{
+            dispatch_semaphore_signal(sema);
+        } failure:^{
+            !failure ?: failure();
+        }];
+        dispatch_semaphore_wait(sema, DISPATCH_TIME_FOREVER);
+    }];
+    // then,load data2
+    NSBlockOperation * operation2 = [NSBlockOperation blockOperationWithBlock:^{
+        dispatch_semaphore_t sema = dispatch_semaphore_create(0);
+        [self loadData2Success:^{
+            dispatch_semaphore_signal(sema);
+        } failure:^{
+            !failure ?: failure();
+        }];
+        dispatch_semaphore_wait(sema, DISPATCH_TIME_FOREVER);
+    }];
+    // finally,load data3
+    NSBlockOperation * operation3 = [NSBlockOperation blockOperationWithBlock:^{
+        dispatch_semaphore_t sema = dispatch_semaphore_create(0);
+        [self loadData3Success:^{
+            dispatch_semaphore_signal(sema);
+        } failure:^{
+            !failure ?: failure();
+        }];
+        dispatch_semaphore_wait(sema, DISPATCH_TIME_FOREVER);
+        !success ?: success();
+    }];
+    [operation2 addDependency:operation1];
+    [operation3 addDependency:operation2];
+    NSOperationQueue * queue = [[NSOperationQueue alloc] init];
+    [queue addOperations:@[operation1, operation2, operation3] waitUntilFinished:NO];
 }
 
 #pragma mark - 三个接口
@@ -129,7 +159,7 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
 // 接口1（耗时2秒）
 - (void)loadData1Success:(void (^)(void))success failure:(void (^)(void))failure {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self showInfo:@"接口1请求完毕"];
+        [self showInfo:@"接口1请求完毕，耗时2秒"];
         success();
     });
 }
@@ -137,7 +167,7 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
 // 接口2（耗时1秒）
 - (void)loadData2Success:(void (^)(void))success failure:(void (^)(void))failure {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self showInfo:@"接口2请求完毕"];
+        [self showInfo:@"接口2请求完毕，耗时1秒"];
         success();
     });
 }
@@ -145,7 +175,7 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
 // 接口3（耗时0.5秒）
 - (void)loadData3Success:(void (^)(void))success failure:(void (^)(void))failure {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self showInfo:@"接口3请求完毕"];
+        [self showInfo:@"接口3请求完毕，耗时0.5秒"];
         success();
     });
 }

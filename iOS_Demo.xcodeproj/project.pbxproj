@@ -48,6 +48,7 @@
 		D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */; };
 		D9C3431C20EB1ACC0011578A /* CQArithmeticController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C3431B20EB1ACC0011578A /* CQArithmeticController.m */; };
 		D9C3432220EB1B1A0011578A /* CQInterviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C3432120EB1B1A0011578A /* CQInterviewController.m */; };
+		D9D64FD72105DDA300379FF2 /* CQThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D64FD62105DDA300379FF2 /* CQThreadViewController.m */; };
 		D9DA0E7A20E24F5E006CEA1C /* IphoneMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA0E7920E24F5E006CEA1C /* IphoneMenuView.m */; };
 		D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA0E7C20E24F77006CEA1C /* IphoneListView.m */; };
 		D9DA0E8220E2519D006CEA1C /* IphoneListItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA0E8120E2519D006CEA1C /* IphoneListItemModel.m */; };
@@ -147,6 +148,8 @@
 		D9C3431B20EB1ACC0011578A /* CQArithmeticController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQArithmeticController.m; sourceTree = "<group>"; };
 		D9C3432020EB1B1A0011578A /* CQInterviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQInterviewController.h; sourceTree = "<group>"; };
 		D9C3432120EB1B1A0011578A /* CQInterviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQInterviewController.m; sourceTree = "<group>"; };
+		D9D64FD52105DDA300379FF2 /* CQThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQThreadViewController.h; sourceTree = "<group>"; };
+		D9D64FD62105DDA300379FF2 /* CQThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQThreadViewController.m; sourceTree = "<group>"; };
 		D9DA0E7820E24F5E006CEA1C /* IphoneMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneMenuView.h; sourceTree = "<group>"; };
 		D9DA0E7920E24F5E006CEA1C /* IphoneMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneMenuView.m; sourceTree = "<group>"; };
 		D9DA0E7B20E24F77006CEA1C /* IphoneListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneListView.h; sourceTree = "<group>"; };
@@ -377,6 +380,7 @@
 				D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */,
 				D94F6A8820FEDCD9006BCC6B /* 模态Controller弹窗 */,
 				D90CDB0E20F05DBF003B9617 /* 自定义button */,
+				D98925D42106C96A001B2377 /* 主题切换 */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -518,6 +522,21 @@
 			path = Alert;
 			sourceTree = "<group>";
 		};
+		D98925D42106C96A001B2377 /* 主题切换 */ = {
+			isa = PBXGroup;
+			children = (
+				D98925D52106C9AC001B2377 /* Controller */,
+			);
+			path = "主题切换";
+			sourceTree = "<group>";
+		};
+		D98925D52106C9AC001B2377 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		D9920CBB20E6375E00F328F9 /* 带警示效果的textField */ = {
 			isa = PBXGroup;
 			children = (
@@ -588,6 +607,23 @@
 			children = (
 			);
 			path = Layout;
+			sourceTree = "<group>";
+		};
+		D9D64FD32105DD4200379FF2 /* NSThread */ = {
+			isa = PBXGroup;
+			children = (
+				D9D64FD42105DD6E00379FF2 /* Controller */,
+			);
+			path = NSThread;
+			sourceTree = "<group>";
+		};
+		D9D64FD42105DD6E00379FF2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9D64FD52105DDA300379FF2 /* CQThreadViewController.h */,
+				D9D64FD62105DDA300379FF2 /* CQThreadViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		D9DA0E7E20E25128006CEA1C /* 菜单栏 */ = {
@@ -773,6 +809,7 @@
 				D9C3432120EB1B1A0011578A /* CQInterviewController.m */,
 				D9402A8A2101E5CB00BF792F /* 请求多个接口 */,
 				D9402A8B2101E5EC00BF792F /* 锁 */,
+				D9D64FD32105DD4200379FF2 /* NSThread */,
 			);
 			path = Interview;
 			sourceTree = "<group>";
@@ -931,6 +968,7 @@
 				D9DA5CF020E291550098EC68 /* UIView+Util.m in Sources */,
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
 				D9DA0E8520E251C4006CEA1C /* IphoneMenuItemModel.m in Sources */,
+				D9D64FD72105DDA300379FF2 /* CQThreadViewController.m in Sources */,
 				D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */,
 				D9C3432220EB1B1A0011578A /* CQInterviewController.m in Sources */,
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
