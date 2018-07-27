@@ -10,7 +10,7 @@
 
 @interface CQWarnTextField ()
 
-@property (nonatomic, strong) CAShapeLayer *warnLayer;;
+@property (nonatomic, strong) CAShapeLayer *warnLayer;
 
 @end
 

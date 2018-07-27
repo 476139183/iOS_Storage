@@ -10,7 +10,12 @@
 
 @interface CQContentViewController : UIViewController
 
-- (instancetype)init NS_UNAVAILABLE;
-- (instancetype)initWithContent:(NSString *)content NS_DESIGNATED_INITIALIZER;;
+/**
+ 构造方法
+
+ @param content 目录文件名称
+ @return 目录controller
+ */
+- (instancetype)initWithContent:(NSString *)content;
 
 @end

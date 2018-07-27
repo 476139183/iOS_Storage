@@ -21,7 +21,7 @@
     
     CQContentViewController *demoVC = [[CQContentViewController alloc] initWithContent:@"demo_contents"];
     UINavigationController *demoNavi = [[UINavigationController alloc] initWithRootViewController:demoVC];
-    demoVC.title = demoNavi.tabBarItem.title = @"demo";;
+    demoVC.title = demoNavi.tabBarItem.title = @"demo";
     
     CQContentViewController *libraryVC = [[CQContentViewController alloc] initWithContent:@"library_contents"];
     UINavigationController *libraryNavi = [[UINavigationController alloc] initWithRootViewController:libraryVC];
