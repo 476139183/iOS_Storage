@@ -73,6 +73,7 @@
 		D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E420E2322E00C3090D /* IrregularLabel.m */; };
 		D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */; };
 		D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4EB20E235D400C3090D /* ArrowLabel.m */; };
+		D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F2D46D210B178F0088FB90 /* CQGCDController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -201,6 +202,8 @@
 		D9E9F4E920E2340C00C3090D /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		D9E9F4EA20E235D400C3090D /* ArrowLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrowLabel.h; sourceTree = "<group>"; };
 		D9E9F4EB20E235D400C3090D /* ArrowLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrowLabel.m; sourceTree = "<group>"; };
+		D9F2D46C210B178F0088FB90 /* CQGCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGCDController.h; sourceTree = "<group>"; };
+		D9F2D46D210B178F0088FB90 /* CQGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGCDController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -795,6 +798,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D9F2D46A210B17080088FB90 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				D9F2D46B210B171E0088FB90 /* Controller */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		D9F2D46B210B171E0088FB90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9F2D46C210B178F0088FB90 /* CQGCDController.h */,
+				D9F2D46D210B178F0088FB90 /* CQGCDController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		D9F7CC8120EB16D800B3C9B9 /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
@@ -830,6 +850,7 @@
 				D9402A8A2101E5CB00BF792F /* 请求多个接口 */,
 				D9402A8B2101E5EC00BF792F /* 锁 */,
 				D9D64FD32105DD4200379FF2 /* NSThread */,
+				D9F2D46A210B17080088FB90 /* GCD */,
 			);
 			path = Tips;
 			sourceTree = "<group>";
@@ -987,6 +1008,7 @@
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
 				D9DE6CC020FEE7A800C8D4FE /* CQDepartmentModel.m in Sources */,
 				D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */,
+				D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */,
 				D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */,
 				D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */,
 				D9DE6CBD20FEE78100C8D4FE /* CQRegionModel.m in Sources */,
