@@ -18,7 +18,7 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Pods-iOS_Demo.xcscheme</key>
+		<key>Pods-iOS_Storage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
