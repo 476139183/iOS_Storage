@@ -48,7 +48,7 @@
 }
 
 - (void)dealloc {
-    
+    NSLog(@"释放");
 }
 
 #pragma mark - Load Data
@@ -88,7 +88,7 @@
     }];
 }
 
-#pragma mark - UITableView DataSource & Delegate
+#pragma mark - UITableView DataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.dataArray.count;
@@ -101,7 +101,7 @@
         // 类族模式
         cell = [CQClassClusterBaseCell cellWithType:model.type];
     }
-    cell.model = model;
+    [cell setModel:model];
     return cell;
 }
 

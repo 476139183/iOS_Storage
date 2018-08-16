@@ -44,8 +44,6 @@
 }
 
 - (void)setModel:(CQClassClusterModel *)model {
-    super.model = model;
-    
     self.leftLabel.text = model.title;
     self.rightImageView.image = [UIImage imageNamed:model.image];
 }

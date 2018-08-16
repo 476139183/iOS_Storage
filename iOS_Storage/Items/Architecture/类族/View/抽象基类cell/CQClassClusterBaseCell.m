@@ -18,25 +18,27 @@
     switch (type) {
         case CQClassClusterTypeA:
         {
-            CQClassClusterCellA *cell = [[CQClassClusterCellA alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CQClassClusterCellAReuseID];
-            return cell;
+            return [[CQClassClusterCellA alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CQClassClusterCellAReuseID];
         }
             break;
             
         case CQClassClusterTypeB:
         {
-            CQClassClusterCellB *cell = [[CQClassClusterCellB alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CQClassClusterCellBReuseID];
-            return cell;
+            return [[CQClassClusterCellB alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CQClassClusterCellBReuseID];
         }
             break;
             
         case CQClassClusterTypeC:
         {
-            CQClassClusterCellC *cell = [[CQClassClusterCellC alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CQClassClusterCellCReuseID];
-            return cell;
+            return [[CQClassClusterCellC alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CQClassClusterCellCReuseID];
         }
             break;
     }
+}
+
+// 不实现这个方法，有警告，很烦
+- (void)setModel:(CQClassClusterModel *)model {
+    // 子类重写
 }
 
 @end

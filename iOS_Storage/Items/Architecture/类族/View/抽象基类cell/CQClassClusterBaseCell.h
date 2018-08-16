@@ -11,9 +11,9 @@
 
 @interface CQClassClusterBaseCell : UITableViewCell
 
-/** 子类重写setModel */
-@property (nonatomic, strong) CQClassClusterModel *model;
-
 + (instancetype)cellWithType:(CQClassClusterType)type;
+
+/** 子类重写setModel */
+- (void)setModel:(CQClassClusterModel *)model;
 
 @end
