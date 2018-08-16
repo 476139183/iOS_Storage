@@ -16,6 +16,7 @@
 		D913F9422109CDD300366887 /* library_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9402109CA7F00366887 /* library_contents.plist */; };
 		D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9412109CDC400366887 /* architecture_contents.plist */; };
 		D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9442109CE0A00366887 /* arithmetic_contents.plist */; };
+		D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */; };
 		D921F97020FF640B00712042 /* region_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD220FF2F0B00C8D4FE /* region_list.json */; };
 		D921F97120FF640B00712042 /* department_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD020FF2F0A00C8D4FE /* department_list.json */; };
 		D921F97220FF640B00712042 /* house_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD120FF2F0A00C8D4FE /* house_list.json */; };
@@ -70,9 +71,16 @@
 		D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DE6CC520FEE97700C8D4FE /* CQFilterAlertController.m */; };
 		D9DE6CC920FEE9C000C8D4FE /* CQFilterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DE6CC820FEE9C000C8D4FE /* CQFilterCell.m */; };
 		D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DE6CCE20FEEB8700C8D4FE /* CQFilterBaseModel.m */; };
+		D9E21A7F210F478B00407599 /* CQClassClusterController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E21A7E210F478B00407599 /* CQClassClusterController.m */; };
+		D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E21A81210F47F800407599 /* CQClassClusterModel.m */; };
+		D9E21A85210FF7F500407599 /* CQClassClusterBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E21A84210FF7F500407599 /* CQClassClusterBaseCell.m */; };
+		D9E21A88210FF83D00407599 /* CQClassClusterCellA.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E21A87210FF83D00407599 /* CQClassClusterCellA.m */; };
+		D9E21A8B210FF91100407599 /* CQClassClusterCellB.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E21A8A210FF91100407599 /* CQClassClusterCellB.m */; };
+		D9E21A8E210FF92500407599 /* CQClassClusterCellC.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E21A8D210FF92500407599 /* CQClassClusterCellC.m */; };
 		D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E420E2322E00C3090D /* IrregularLabel.m */; };
 		D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */; };
 		D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4EB20E235D400C3090D /* ArrowLabel.m */; };
+		D9EF0EA72110396300755E11 /* class_cluster_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9EF0EA62110394E00755E11 /* class_cluster_data.json */; };
 		D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F2D46D210B178F0088FB90 /* CQGCDController.m */; };
 /* End PBXBuildFile section */
 
@@ -93,8 +101,8 @@
 		D913F9402109CA7F00366887 /* library_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = library_contents.plist; sourceTree = "<group>"; };
 		D913F9412109CDC400366887 /* architecture_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = architecture_contents.plist; sourceTree = "<group>"; };
 		D913F9442109CE0A00366887 /* arithmetic_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = arithmetic_contents.plist; sourceTree = "<group>"; };
-		D91E20BD20E10C7500EBC74B /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
-		D91E20BF20E10CD200EBC74B /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		D91EF56021100D2A000D0D43 /* CQClassClusterRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQClassClusterRequest.h; sourceTree = "<group>"; };
+		D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQClassClusterRequest.m; sourceTree = "<group>"; };
 		D928CED620EA63E100EE5C78 /* CQChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChartController.h; sourceTree = "<group>"; };
 		D928CED720EA63E100EE5C78 /* CQChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQChartController.m; sourceTree = "<group>"; };
 		D928CEDA20EA663A00EE5C78 /* CQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTabBarController.h; sourceTree = "<group>"; };
@@ -135,7 +143,6 @@
 		D94F6A8E20FEE337006BCC6B /* CQFilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFilterViewController.m; sourceTree = "<group>"; };
 		D94F6A9120FEE52E006BCC6B /* CQFilterRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQFilterRequest.h; sourceTree = "<group>"; };
 		D94F6A9220FEE52E006BCC6B /* CQFilterRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFilterRequest.m; sourceTree = "<group>"; };
-		D9920CBE20E6381900F328F9 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		D9920CBF20E6386800F328F9 /* CQWarnTextFieldController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextFieldController.h; sourceTree = "<group>"; };
 		D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWarnTextFieldController.m; sourceTree = "<group>"; };
 		D9920CC220E6388300F328F9 /* CQWarnTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextField.h; sourceTree = "<group>"; };
@@ -173,7 +180,6 @@
 		D9DA5CEC20E290D80098EC68 /* Categories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
 		D9DA5CEE20E291550098EC68 /* UIView+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
 		D9DA5CEF20E291550098EC68 /* UIView+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
-		D9DDA7C720E48269008BD029 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		D9DDA7C820E48303008BD029 /* CQWaterfallController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWaterfallController.h; sourceTree = "<group>"; };
 		D9DDA7C920E48303008BD029 /* CQWaterfallController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWaterfallController.m; sourceTree = "<group>"; };
 		D9DDA7CB20E4831F008BD029 /* CQWaterfallCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWaterfallCell.h; sourceTree = "<group>"; };
@@ -195,13 +201,25 @@
 		D9DE6CD020FF2F0A00C8D4FE /* department_list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = department_list.json; sourceTree = "<group>"; };
 		D9DE6CD120FF2F0A00C8D4FE /* house_list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = house_list.json; sourceTree = "<group>"; };
 		D9DE6CD220FF2F0B00C8D4FE /* region_list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = region_list.json; sourceTree = "<group>"; };
+		D9E21A7D210F478B00407599 /* CQClassClusterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQClassClusterController.h; sourceTree = "<group>"; };
+		D9E21A7E210F478B00407599 /* CQClassClusterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQClassClusterController.m; sourceTree = "<group>"; };
+		D9E21A80210F47F800407599 /* CQClassClusterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQClassClusterModel.h; sourceTree = "<group>"; };
+		D9E21A81210F47F800407599 /* CQClassClusterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQClassClusterModel.m; sourceTree = "<group>"; };
+		D9E21A83210FF7F500407599 /* CQClassClusterBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQClassClusterBaseCell.h; sourceTree = "<group>"; };
+		D9E21A84210FF7F500407599 /* CQClassClusterBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQClassClusterBaseCell.m; sourceTree = "<group>"; };
+		D9E21A86210FF83D00407599 /* CQClassClusterCellA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQClassClusterCellA.h; sourceTree = "<group>"; };
+		D9E21A87210FF83D00407599 /* CQClassClusterCellA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQClassClusterCellA.m; sourceTree = "<group>"; };
+		D9E21A89210FF91100407599 /* CQClassClusterCellB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQClassClusterCellB.h; sourceTree = "<group>"; };
+		D9E21A8A210FF91100407599 /* CQClassClusterCellB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQClassClusterCellB.m; sourceTree = "<group>"; };
+		D9E21A8C210FF92500407599 /* CQClassClusterCellC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQClassClusterCellC.h; sourceTree = "<group>"; };
+		D9E21A8D210FF92500407599 /* CQClassClusterCellC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQClassClusterCellC.m; sourceTree = "<group>"; };
 		D9E9F4E320E2322E00C3090D /* IrregularLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IrregularLabel.h; sourceTree = "<group>"; };
 		D9E9F4E420E2322E00C3090D /* IrregularLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularLabel.m; sourceTree = "<group>"; };
 		D9E9F4E620E232E200C3090D /* CQIrregularViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIrregularViewController.h; sourceTree = "<group>"; };
 		D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQIrregularViewController.m; sourceTree = "<group>"; };
-		D9E9F4E920E2340C00C3090D /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		D9E9F4EA20E235D400C3090D /* ArrowLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrowLabel.h; sourceTree = "<group>"; };
 		D9E9F4EB20E235D400C3090D /* ArrowLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrowLabel.m; sourceTree = "<group>"; };
+		D9EF0EA62110394E00755E11 /* class_cluster_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = class_cluster_data.json; sourceTree = "<group>"; };
 		D9F2D46C210B178F0088FB90 /* CQGCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGCDController.h; sourceTree = "<group>"; };
 		D9F2D46D210B178F0088FB90 /* CQGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGCDController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -255,7 +273,6 @@
 		D90CDB0E20F05DBF003B9617 /* 自定义button */ = {
 			isa = PBXGroup;
 			children = (
-				D90CDB1020F05DDE003B9617 /* View */,
 				D90CDB0F20F05DD5003B9617 /* Controller */,
 			);
 			path = "自定义button";
@@ -270,17 +287,9 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D90CDB1020F05DDE003B9617 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */ = {
 			isa = PBXGroup;
 			children = (
-				D91E20BF20E10CD200EBC74B /* readme.md */,
 				D9E9F4DF20E22E5200C3090D /* Model */,
 				D9E9F4DE20E22E4E00C3090D /* View */,
 				D9E9F4DD20E22E4300C3090D /* Controller */,
@@ -289,11 +298,55 @@
 			path = "菜单栏+下拉列表";
 			sourceTree = "<group>";
 		};
+		D91EF55B211008CC000D0D43 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				D9EF0EA62110394E00755E11 /* class_cluster_data.json */,
+				D91EF56021100D2A000D0D43 /* CQClassClusterRequest.h */,
+				D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		D91EF55C21100B77000D0D43 /* 抽象基类cell */ = {
+			isa = PBXGroup;
+			children = (
+				D9E21A83210FF7F500407599 /* CQClassClusterBaseCell.h */,
+				D9E21A84210FF7F500407599 /* CQClassClusterBaseCell.m */,
+			);
+			path = "抽象基类cell";
+			sourceTree = "<group>";
+		};
+		D91EF55D21100B8F000D0D43 /* 子类Cell A */ = {
+			isa = PBXGroup;
+			children = (
+				D9E21A86210FF83D00407599 /* CQClassClusterCellA.h */,
+				D9E21A87210FF83D00407599 /* CQClassClusterCellA.m */,
+			);
+			path = "子类Cell A";
+			sourceTree = "<group>";
+		};
+		D91EF55E21100B9B000D0D43 /* 子类Cell B */ = {
+			isa = PBXGroup;
+			children = (
+				D9E21A89210FF91100407599 /* CQClassClusterCellB.h */,
+				D9E21A8A210FF91100407599 /* CQClassClusterCellB.m */,
+			);
+			path = "子类Cell B";
+			sourceTree = "<group>";
+		};
+		D91EF55F21100BA2000D0D43 /* 子类Cell C */ = {
+			isa = PBXGroup;
+			children = (
+				D9E21A8C210FF92500407599 /* CQClassClusterCellC.h */,
+				D9E21A8D210FF92500407599 /* CQClassClusterCellC.m */,
+			);
+			path = "子类Cell C";
+			sourceTree = "<group>";
+		};
 		D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */ = {
 			isa = PBXGroup;
 			children = (
-				D928CED520EA624700EE5C78 /* Model */,
-				D928CED420EA624200EE5C78 /* View */,
 				D928CED320EA623900EE5C78 /* Controller */,
 			);
 			path = "PNChart与tableView的联动";
@@ -306,20 +359,6 @@
 				D928CED720EA63E100EE5C78 /* CQChartController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		D928CED420EA624200EE5C78 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		D928CED520EA624700EE5C78 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		D928CED920EA65E500EE5C78 /* Main */ = {
@@ -346,7 +385,6 @@
 		D92D69A320DE2DAA002BA9C0 /* 比例拼图 */ = {
 			isa = PBXGroup;
 			children = (
-				D91E20BD20E10C7500EBC74B /* readme.md */,
 				D92D69A920DE2EE5002BA9C0 /* Model */,
 				D92D69A820DE2EDC002BA9C0 /* View */,
 				D92D69A720DE2ED2002BA9C0 /* Controller */,
@@ -567,7 +605,6 @@
 		D9920CBB20E6375E00F328F9 /* 带警示效果的textField */ = {
 			isa = PBXGroup;
 			children = (
-				D9920CBE20E6381900F328F9 /* readme.md */,
 				D9920CBD20E637B600F328F9 /* View */,
 				D9920CBC20E637AB00F328F9 /* Controller */,
 			);
@@ -627,13 +664,6 @@
 				D92D69C320DE359C002BA9C0 /* LaunchScreen.storyboard */,
 			);
 			path = iOS_Storage;
-			sourceTree = "<group>";
-		};
-		D9C3432320EB28870011578A /* Layout */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Layout;
 			sourceTree = "<group>";
 		};
 		D9D64FD32105DD4200379FF2 /* NSThread */ = {
@@ -699,11 +729,9 @@
 		D9DDA7C320E481E5008BD029 /* 多种layout的collectionView */ = {
 			isa = PBXGroup;
 			children = (
-				D9DDA7C720E48269008BD029 /* readme.md */,
 				D9DDA7C620E48238008BD029 /* Model */,
 				D9DDA7C520E48234008BD029 /* View */,
 				D9DDA7C420E4822F008BD029 /* Controller */,
-				D9C3432320EB28870011578A /* Layout */,
 			);
 			path = "多种layout的collectionView";
 			sourceTree = "<group>";
@@ -731,6 +759,46 @@
 			children = (
 				D9DDA7CE20E48339008BD029 /* CQWaterfallModel.h */,
 				D9DDA7CF20E48339008BD029 /* CQWaterfallModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9E21A79210F469900407599 /* 类族 */ = {
+			isa = PBXGroup;
+			children = (
+				D9E21A7C210F473100407599 /* Model */,
+				D9E21A7B210F472D00407599 /* View */,
+				D9E21A7A210F472500407599 /* Controller */,
+				D91EF55B211008CC000D0D43 /* Request */,
+			);
+			path = "类族";
+			sourceTree = "<group>";
+		};
+		D9E21A7A210F472500407599 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9E21A7D210F478B00407599 /* CQClassClusterController.h */,
+				D9E21A7E210F478B00407599 /* CQClassClusterController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9E21A7B210F472D00407599 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D91EF55C21100B77000D0D43 /* 抽象基类cell */,
+				D91EF55D21100B8F000D0D43 /* 子类Cell A */,
+				D91EF55E21100B9B000D0D43 /* 子类Cell B */,
+				D91EF55F21100BA2000D0D43 /* 子类Cell C */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9E21A7C210F473100407599 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9E21A80210F47F800407599 /* CQClassClusterModel.h */,
+				D9E21A81210F47F800407599 /* CQClassClusterModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -769,7 +837,6 @@
 		D9E9F4E020E2312900C3090D /* 不规格label */ = {
 			isa = PBXGroup;
 			children = (
-				D9E9F4E920E2340C00C3090D /* readme.md */,
 				D9E9F4E220E2314B00C3090D /* View */,
 				D9E9F4E120E2314300C3090D /* Controller */,
 			);
@@ -819,6 +886,7 @@
 			isa = PBXGroup;
 			children = (
 				D913F9412109CDC400366887 /* architecture_contents.plist */,
+				D9E21A79210F469900407599 /* 类族 */,
 			);
 			path = Architecture;
 			sourceTree = "<group>";
@@ -888,7 +956,7 @@
 				TargetAttributes = {
 					D9AE0CD520DD02AC00A31D62 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -915,6 +983,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EF0EA72110396300755E11 /* class_cluster_data.json in Resources */,
 				D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */,
 				D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */,
 				D913F9422109CDD300366887 /* library_contents.plist in Resources */,
@@ -984,6 +1053,7 @@
 				D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */,
 				D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */,
 				D9DE6CC320FEE7CE00C8D4FE /* CQHouseModel.m in Sources */,
+				D9E21A8B210FF91100407599 /* CQClassClusterCellB.m in Sources */,
 				D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */,
 				D9DA0E8220E2519D006CEA1C /* IphoneListItemModel.m in Sources */,
 				D92D69BC20DE3295002BA9C0 /* CQCategoryView.m in Sources */,
@@ -997,12 +1067,15 @@
 				D9DA0E8920E25291006CEA1C /* CQIphoneRequest.m in Sources */,
 				D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */,
 				D94F6A8F20FEE337006BCC6B /* CQFilterViewController.m in Sources */,
+				D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */,
 				D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */,
 				D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */,
+				D9E21A88210FF83D00407599 /* CQClassClusterCellA.m in Sources */,
 				D9DDA7CD20E4831F008BD029 /* CQWaterfallCell.m in Sources */,
 				D9DDA7D020E48339008BD029 /* CQWaterfallModel.m in Sources */,
 				D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */,
 				D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */,
+				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
 				D913F93F2109C08200366887 /* CQContentViewController.m in Sources */,
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
@@ -1013,6 +1086,8 @@
 				D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */,
 				D9DE6CBD20FEE78100C8D4FE /* CQRegionModel.m in Sources */,
 				D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */,
+				D9E21A7F210F478B00407599 /* CQClassClusterController.m in Sources */,
+				D9E21A8E210FF92500407599 /* CQClassClusterCellC.m in Sources */,
 				D9DA5CF020E291550098EC68 /* UIView+Util.m in Sources */,
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
 				D9DA0E8520E251C4006CEA1C /* IphoneMenuItemModel.m in Sources */,
@@ -1021,6 +1096,7 @@
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
 				D9DE6CC920FEE9C000C8D4FE /* CQFilterCell.m in Sources */,
+				D9E21A85210FF7F500407599 /* CQClassClusterBaseCell.m in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
 				D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */,
 				D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */,
@@ -1148,8 +1224,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J5JWPJ294;
 				INFOPLIST_FILE = iOS_Storage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1166,8 +1243,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J5JWPJ294;
 				INFOPLIST_FILE = iOS_Storage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
