@@ -53,7 +53,7 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
         [self loadData1Success:^{
             dispatch_group_leave(requestGroup);
         } failure:^{
-            
+            failure();
         }];
         
         // 请求接口2
@@ -61,7 +61,7 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
         [self loadData2Success:^{
             dispatch_group_leave(requestGroup);
         } failure:^{
-            
+            failure();
         }];
         
         // 请求接口3
@@ -69,7 +69,7 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
         [self loadData3Success:^{
             dispatch_group_leave(requestGroup);
         } failure:^{
-            
+            failure();
         }];
         
         // 所有接口请求完的回调

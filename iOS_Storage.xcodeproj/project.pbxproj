@@ -31,6 +31,8 @@
 		D92D69C420DE359C002BA9C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92D69C320DE359C002BA9C0 /* LaunchScreen.storyboard */; };
 		D92D69C620DE35B2002BA9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92D69C520DE35B2002BA9C0 /* Main.storyboard */; };
 		D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */; };
+		D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93AB7162147A9F60024C76E /* CQSimpleFactoryViewController.m */; };
+		D93AB71B2147BE230024C76E /* CQCarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D93AB71A2147BE230024C76E /* CQCarFactory.m */; };
 		D9402A892101E5B500BF792F /* tips_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9402A882101E50800BF792F /* tips_contents.plist */; };
 		D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */; };
 		D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A922101E7E400BF792F /* CQLockViewController.m */; };
@@ -42,11 +44,14 @@
 		D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */; };
 		D94F6A8F20FEE337006BCC6B /* CQFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F6A8E20FEE337006BCC6B /* CQFilterViewController.m */; };
 		D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F6A9220FEE52E006BCC6B /* CQFilterRequest.m */; };
+		D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38A21490A13001B3021 /* CQCarBenz.m */; };
+		D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38D21490A29001B3021 /* CQCarBMW.m */; };
 		D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */; };
 		D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC320E6388300F328F9 /* CQWarnTextField.m */; };
 		D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */; };
 		D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AE0CE220DD02AC00A31D62 /* Assets.xcassets */; };
 		D9AE0CE920DD02AC00A31D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CE820DD02AC00A31D62 /* main.m */; };
+		D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4E3D72148EFBB00E895F1 /* CQCar.m */; };
 		D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563ED20E240B7001AE9A0 /* IphoneMenuModel.m */; };
 		D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563F020E240CC001AE9A0 /* IphoneListModel.m */; };
 		D9B563F420E240F2001AE9A0 /* CQIphoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563F320E240F2001AE9A0 /* CQIphoneViewController.m */; };
@@ -77,11 +82,16 @@
 		D9E21A88210FF83D00407599 /* CQClassClusterCellA.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E21A87210FF83D00407599 /* CQClassClusterCellA.m */; };
 		D9E21A8B210FF91100407599 /* CQClassClusterCellB.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E21A8A210FF91100407599 /* CQClassClusterCellB.m */; };
 		D9E21A8E210FF92500407599 /* CQClassClusterCellC.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E21A8D210FF92500407599 /* CQClassClusterCellC.m */; };
+		D9E42488212D0E9C00283CFC /* CQSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E42487212D0E9C00283CFC /* CQSortController.m */; };
+		D9E4248D212D4E3900283CFC /* CQSortModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E4248C212D4E3900283CFC /* CQSortModel.m */; };
 		D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E420E2322E00C3090D /* IrregularLabel.m */; };
 		D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */; };
 		D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4EB20E235D400C3090D /* ArrowLabel.m */; };
 		D9EF0EA72110396300755E11 /* class_cluster_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9EF0EA62110394E00755E11 /* class_cluster_data.json */; };
 		D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F2D46D210B178F0088FB90 /* CQGCDController.m */; };
+		D9FF65D4212AC0F200B06371 /* CQTimerCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF65D3212AC0F200B06371 /* CQTimerCellController.m */; };
+		D9FF65D9212AC39800B06371 /* CQTimerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF65D8212AC39800B06371 /* CQTimerModel.m */; };
+		D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF65DB212AC3FE00B06371 /* CQTimerCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +133,10 @@
 		D92D69C920DE36C8002BA9C0 /* UIView+FrameHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameHelper.h"; sourceTree = "<group>"; };
 		D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameHelper.m"; sourceTree = "<group>"; };
 		D92D69CE20DE3A34002BA9C0 /* jigsaw_list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jigsaw_list.json; sourceTree = "<group>"; };
+		D93AB7152147A9F60024C76E /* CQSimpleFactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSimpleFactoryViewController.h; sourceTree = "<group>"; };
+		D93AB7162147A9F60024C76E /* CQSimpleFactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSimpleFactoryViewController.m; sourceTree = "<group>"; };
+		D93AB7192147BE230024C76E /* CQCarFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarFactory.h; sourceTree = "<group>"; };
+		D93AB71A2147BE230024C76E /* CQCarFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCarFactory.m; sourceTree = "<group>"; };
 		D9402A882101E50800BF792F /* tips_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = tips_contents.plist; sourceTree = "<group>"; };
 		D9402A8E2101E79D00BF792F /* CQMultiInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMultiInterfaceViewController.h; sourceTree = "<group>"; };
 		D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMultiInterfaceViewController.m; sourceTree = "<group>"; };
@@ -143,6 +157,10 @@
 		D94F6A8E20FEE337006BCC6B /* CQFilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFilterViewController.m; sourceTree = "<group>"; };
 		D94F6A9120FEE52E006BCC6B /* CQFilterRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQFilterRequest.h; sourceTree = "<group>"; };
 		D94F6A9220FEE52E006BCC6B /* CQFilterRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFilterRequest.m; sourceTree = "<group>"; };
+		D963F38921490A13001B3021 /* CQCarBenz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarBenz.h; sourceTree = "<group>"; };
+		D963F38A21490A13001B3021 /* CQCarBenz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCarBenz.m; sourceTree = "<group>"; };
+		D963F38C21490A29001B3021 /* CQCarBMW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarBMW.h; sourceTree = "<group>"; };
+		D963F38D21490A29001B3021 /* CQCarBMW.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCarBMW.m; sourceTree = "<group>"; };
 		D9920CBF20E6386800F328F9 /* CQWarnTextFieldController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextFieldController.h; sourceTree = "<group>"; };
 		D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWarnTextFieldController.m; sourceTree = "<group>"; };
 		D9920CC220E6388300F328F9 /* CQWarnTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextField.h; sourceTree = "<group>"; };
@@ -153,6 +171,8 @@
 		D9AE0CE220DD02AC00A31D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9AE0CE720DD02AC00A31D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9AE0CE820DD02AC00A31D62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9B4E3D62148EFBB00E895F1 /* CQCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCar.h; sourceTree = "<group>"; };
+		D9B4E3D72148EFBB00E895F1 /* CQCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCar.m; sourceTree = "<group>"; };
 		D9B563EC20E240B7001AE9A0 /* IphoneMenuModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneMenuModel.h; sourceTree = "<group>"; };
 		D9B563ED20E240B7001AE9A0 /* IphoneMenuModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneMenuModel.m; sourceTree = "<group>"; };
 		D9B563EF20E240CC001AE9A0 /* IphoneListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneListModel.h; sourceTree = "<group>"; };
@@ -213,6 +233,10 @@
 		D9E21A8A210FF91100407599 /* CQClassClusterCellB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQClassClusterCellB.m; sourceTree = "<group>"; };
 		D9E21A8C210FF92500407599 /* CQClassClusterCellC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQClassClusterCellC.h; sourceTree = "<group>"; };
 		D9E21A8D210FF92500407599 /* CQClassClusterCellC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQClassClusterCellC.m; sourceTree = "<group>"; };
+		D9E42486212D0E9C00283CFC /* CQSortController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSortController.h; sourceTree = "<group>"; };
+		D9E42487212D0E9C00283CFC /* CQSortController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSortController.m; sourceTree = "<group>"; };
+		D9E4248B212D4E3900283CFC /* CQSortModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSortModel.h; sourceTree = "<group>"; };
+		D9E4248C212D4E3900283CFC /* CQSortModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSortModel.m; sourceTree = "<group>"; };
 		D9E9F4E320E2322E00C3090D /* IrregularLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IrregularLabel.h; sourceTree = "<group>"; };
 		D9E9F4E420E2322E00C3090D /* IrregularLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularLabel.m; sourceTree = "<group>"; };
 		D9E9F4E620E232E200C3090D /* CQIrregularViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIrregularViewController.h; sourceTree = "<group>"; };
@@ -222,6 +246,12 @@
 		D9EF0EA62110394E00755E11 /* class_cluster_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = class_cluster_data.json; sourceTree = "<group>"; };
 		D9F2D46C210B178F0088FB90 /* CQGCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGCDController.h; sourceTree = "<group>"; };
 		D9F2D46D210B178F0088FB90 /* CQGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGCDController.m; sourceTree = "<group>"; };
+		D9FF65D2212AC0F200B06371 /* CQTimerCellController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTimerCellController.h; sourceTree = "<group>"; };
+		D9FF65D3212AC0F200B06371 /* CQTimerCellController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTimerCellController.m; sourceTree = "<group>"; };
+		D9FF65D7212AC39800B06371 /* CQTimerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTimerModel.h; sourceTree = "<group>"; };
+		D9FF65D8212AC39800B06371 /* CQTimerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTimerModel.m; sourceTree = "<group>"; };
+		D9FF65DA212AC3FE00B06371 /* CQTimerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTimerCell.h; sourceTree = "<group>"; };
+		D9FF65DB212AC3FE00B06371 /* CQTimerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTimerCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -446,8 +476,24 @@
 				D90CDB0E20F05DBF003B9617 /* 自定义button */,
 				D98925D42106C96A001B2377 /* 主题切换 */,
 				D90C4E7521097C2800C48E72 /* CATransition动画 */,
+				D9FF65D0212AC09F00B06371 /* 含timer的cell */,
 			);
 			path = Demos;
+			sourceTree = "<group>";
+		};
+		D93AB7182147BCF20024C76E /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D93AB7192147BE230024C76E /* CQCarFactory.h */,
+				D93AB71A2147BE230024C76E /* CQCarFactory.m */,
+				D9B4E3D62148EFBB00E895F1 /* CQCar.h */,
+				D9B4E3D72148EFBB00E895F1 /* CQCar.m */,
+				D963F38921490A13001B3021 /* CQCarBenz.h */,
+				D963F38A21490A13001B3021 /* CQCarBenz.m */,
+				D963F38C21490A29001B3021 /* CQCarBMW.h */,
+				D963F38D21490A29001B3021 /* CQCarBMW.m */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 		D9402A8A2101E5CB00BF792F /* 请求多个接口 */ = {
@@ -666,6 +712,24 @@
 			path = iOS_Storage;
 			sourceTree = "<group>";
 		};
+		D9CEB3032130E41C00664EF3 /* 简单工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				D93AB7182147BCF20024C76E /* Factory */,
+				D9CEB3042130E42D00664EF3 /* Controller */,
+			);
+			path = "简单工厂";
+			sourceTree = "<group>";
+		};
+		D9CEB3042130E42D00664EF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D93AB7152147A9F60024C76E /* CQSimpleFactoryViewController.h */,
+				D93AB7162147A9F60024C76E /* CQSimpleFactoryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		D9D64FD32105DD4200379FF2 /* NSThread */ = {
 			isa = PBXGroup;
 			children = (
@@ -803,6 +867,48 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		D9E26ADD212A6E3300162567 /* 属性修饰符 */ = {
+			isa = PBXGroup;
+			children = (
+				D9E26ADE212A6E8B00162567 /* Controller */,
+			);
+			path = "属性修饰符";
+			sourceTree = "<group>";
+		};
+		D9E26ADE212A6E8B00162567 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9E42485212D0E5700283CFC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9E42486212D0E9C00283CFC /* CQSortController.h */,
+				D9E42487212D0E9C00283CFC /* CQSortController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9E42489212D0EA800283CFC /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				D9E4248A212D4E1800283CFC /* Model */,
+				D9E42485212D0E5700283CFC /* Controller */,
+			);
+			path = "排序";
+			sourceTree = "<group>";
+		};
+		D9E4248A212D4E1800283CFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9E4248B212D4E3900283CFC /* CQSortModel.h */,
+				D9E4248C212D4E3900283CFC /* CQSortModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D9E9F4DD20E22E4300C3090D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -887,6 +993,7 @@
 			children = (
 				D913F9412109CDC400366887 /* architecture_contents.plist */,
 				D9E21A79210F469900407599 /* 类族 */,
+				D9CEB3032130E41C00664EF3 /* 简单工厂 */,
 			);
 			path = Architecture;
 			sourceTree = "<group>";
@@ -895,6 +1002,7 @@
 			isa = PBXGroup;
 			children = (
 				D913F9442109CE0A00366887 /* arithmetic_contents.plist */,
+				D9E42489212D0EA800283CFC /* 排序 */,
 			);
 			path = Arithmetic;
 			sourceTree = "<group>";
@@ -919,8 +1027,46 @@
 				D9402A8B2101E5EC00BF792F /* 锁 */,
 				D9D64FD32105DD4200379FF2 /* NSThread */,
 				D9F2D46A210B17080088FB90 /* GCD */,
+				D9E26ADD212A6E3300162567 /* 属性修饰符 */,
 			);
 			path = Tips;
+			sourceTree = "<group>";
+		};
+		D9FF65D0212AC09F00B06371 /* 含timer的cell */ = {
+			isa = PBXGroup;
+			children = (
+				D9FF65D6212AC1AB00B06371 /* Model */,
+				D9FF65D5212AC1A600B06371 /* View */,
+				D9FF65D1212AC0BC00B06371 /* Controller */,
+			);
+			path = "含timer的cell";
+			sourceTree = "<group>";
+		};
+		D9FF65D1212AC0BC00B06371 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9FF65D2212AC0F200B06371 /* CQTimerCellController.h */,
+				D9FF65D3212AC0F200B06371 /* CQTimerCellController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9FF65D5212AC1A600B06371 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9FF65DA212AC3FE00B06371 /* CQTimerCell.h */,
+				D9FF65DB212AC3FE00B06371 /* CQTimerCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9FF65D6212AC1AB00B06371 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9FF65D7212AC39800B06371 /* CQTimerModel.h */,
+				D9FF65D8212AC39800B06371 /* CQTimerModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1052,14 +1198,17 @@
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
 				D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */,
 				D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */,
+				D93AB71B2147BE230024C76E /* CQCarFactory.m in Sources */,
 				D9DE6CC320FEE7CE00C8D4FE /* CQHouseModel.m in Sources */,
 				D9E21A8B210FF91100407599 /* CQClassClusterCellB.m in Sources */,
 				D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */,
 				D9DA0E8220E2519D006CEA1C /* IphoneListItemModel.m in Sources */,
+				D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */,
 				D92D69BC20DE3295002BA9C0 /* CQCategoryView.m in Sources */,
 				D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */,
 				D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
+				D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */,
 				D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */,
 				D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */,
 				D9B563F420E240F2001AE9A0 /* CQIphoneViewController.m in Sources */,
@@ -1067,9 +1216,11 @@
 				D9DA0E8920E25291006CEA1C /* CQIphoneRequest.m in Sources */,
 				D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */,
 				D94F6A8F20FEE337006BCC6B /* CQFilterViewController.m in Sources */,
+				D9E4248D212D4E3900283CFC /* CQSortModel.m in Sources */,
 				D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */,
 				D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */,
 				D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */,
+				D9FF65D4212AC0F200B06371 /* CQTimerCellController.m in Sources */,
 				D9E21A88210FF83D00407599 /* CQClassClusterCellA.m in Sources */,
 				D9DDA7CD20E4831F008BD029 /* CQWaterfallCell.m in Sources */,
 				D9DDA7D020E48339008BD029 /* CQWaterfallModel.m in Sources */,
@@ -1079,6 +1230,7 @@
 				D913F93F2109C08200366887 /* CQContentViewController.m in Sources */,
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
+				D9E42488212D0E9C00283CFC /* CQSortController.m in Sources */,
 				D9DE6CC020FEE7A800C8D4FE /* CQDepartmentModel.m in Sources */,
 				D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */,
 				D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */,
@@ -1090,17 +1242,21 @@
 				D9E21A8E210FF92500407599 /* CQClassClusterCellC.m in Sources */,
 				D9DA5CF020E291550098EC68 /* UIView+Util.m in Sources */,
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
+				D9FF65D9212AC39800B06371 /* CQTimerModel.m in Sources */,
 				D9DA0E8520E251C4006CEA1C /* IphoneMenuItemModel.m in Sources */,
 				D9D64FD72105DDA300379FF2 /* CQThreadViewController.m in Sources */,
 				D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */,
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
+				D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */,
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
 				D9DE6CC920FEE9C000C8D4FE /* CQFilterCell.m in Sources */,
 				D9E21A85210FF7F500407599 /* CQClassClusterBaseCell.m in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
 				D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */,
+				D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */,
 				D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */,
 				D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */,
+				D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
 				D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */,
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,
