@@ -6,9 +6,17 @@
 		<key>demo_name</key>
 		<string>通用占位图</string>
 		<key>controller_name</key>
-		<string>CQPlaceholderViewController</string>
+		<string>CQPlaceholderDemoViewController</string>
 		<key>jianshu_url</key>
 		<string>https://www.jianshu.com/p/beca3ac24031</string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>弹窗</string>
+		<key>controller_name</key>
+		<string></string>
+		<key>jianshu_url</key>
+		<string></string>
 	</dict>
 </array>
 </plist>

@@ -37,6 +37,7 @@
 		D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */; };
 		D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A922101E7E400BF792F /* CQLockViewController.m */; };
 		D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D948397C20E255FC00121FB6 /* IphoneListCell.m */; };
+		D94B650221537A0900F2FD84 /* CQPlaceholderDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94B650121537A0900F2FD84 /* CQPlaceholderDemoViewController.m */; };
 		D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43620E48C690012C370 /* CQBaseModel.m */; };
 		D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43920E48C850012C370 /* CQBaseViewController.m */; };
 		D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43C20E4B3BC0012C370 /* CQContentModel.m */; };
@@ -46,6 +47,8 @@
 		D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F6A9220FEE52E006BCC6B /* CQFilterRequest.m */; };
 		D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38A21490A13001B3021 /* CQCarBenz.m */; };
 		D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38D21490A29001B3021 /* CQCarBMW.m */; };
+		D984AD0F2154F05000610B27 /* CQSortButtonDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D984AD0E2154F05000610B27 /* CQSortButtonDemoController.m */; };
+		D984AD122154F06C00610B27 /* CQSortButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D984AD112154F06C00610B27 /* CQSortButton.m */; };
 		D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */; };
 		D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC320E6388300F328F9 /* CQWarnTextField.m */; };
 		D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */; };
@@ -144,6 +147,8 @@
 		D9402A922101E7E400BF792F /* CQLockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQLockViewController.m; sourceTree = "<group>"; };
 		D948397B20E255FC00121FB6 /* IphoneListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneListCell.h; sourceTree = "<group>"; };
 		D948397C20E255FC00121FB6 /* IphoneListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneListCell.m; sourceTree = "<group>"; };
+		D94B650021537A0900F2FD84 /* CQPlaceholderDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQPlaceholderDemoViewController.h; sourceTree = "<group>"; };
+		D94B650121537A0900F2FD84 /* CQPlaceholderDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQPlaceholderDemoViewController.m; sourceTree = "<group>"; };
 		D94BF43520E48C690012C370 /* CQBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQBaseModel.h; sourceTree = "<group>"; };
 		D94BF43620E48C690012C370 /* CQBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBaseModel.m; sourceTree = "<group>"; };
 		D94BF43820E48C850012C370 /* CQBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQBaseViewController.h; sourceTree = "<group>"; };
@@ -161,6 +166,10 @@
 		D963F38A21490A13001B3021 /* CQCarBenz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCarBenz.m; sourceTree = "<group>"; };
 		D963F38C21490A29001B3021 /* CQCarBMW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarBMW.h; sourceTree = "<group>"; };
 		D963F38D21490A29001B3021 /* CQCarBMW.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCarBMW.m; sourceTree = "<group>"; };
+		D984AD0D2154F05000610B27 /* CQSortButtonDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSortButtonDemoController.h; sourceTree = "<group>"; };
+		D984AD0E2154F05000610B27 /* CQSortButtonDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSortButtonDemoController.m; sourceTree = "<group>"; };
+		D984AD102154F06C00610B27 /* CQSortButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSortButton.h; sourceTree = "<group>"; };
+		D984AD112154F06C00610B27 /* CQSortButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSortButton.m; sourceTree = "<group>"; };
 		D9920CBF20E6386800F328F9 /* CQWarnTextFieldController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextFieldController.h; sourceTree = "<group>"; };
 		D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWarnTextFieldController.m; sourceTree = "<group>"; };
 		D9920CC220E6388300F328F9 /* CQWarnTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextField.h; sourceTree = "<group>"; };
@@ -408,6 +417,8 @@
 			isa = PBXGroup;
 			children = (
 				D913F9402109CA7F00366887 /* library_contents.plist */,
+				D94B64FC2153798300F2FD84 /* 通用占位图 */,
+				D94B64FD2153799000F2FD84 /* 弹窗 */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -477,6 +488,7 @@
 				D98925D42106C96A001B2377 /* 主题切换 */,
 				D90C4E7521097C2800C48E72 /* CATransition动画 */,
 				D9FF65D0212AC09F00B06371 /* 含timer的cell */,
+				D984AD0A2154EF5E00610B27 /* 排序button */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -550,6 +562,38 @@
 				D948397C20E255FC00121FB6 /* IphoneListCell.m */,
 			);
 			path = "下拉列表";
+			sourceTree = "<group>";
+		};
+		D94B64FC2153798300F2FD84 /* 通用占位图 */ = {
+			isa = PBXGroup;
+			children = (
+				D94B64FF215379F200F2FD84 /* View */,
+				D94B64FE215379EC00F2FD84 /* Controller */,
+			);
+			path = "通用占位图";
+			sourceTree = "<group>";
+		};
+		D94B64FD2153799000F2FD84 /* 弹窗 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "弹窗";
+			sourceTree = "<group>";
+		};
+		D94B64FE215379EC00F2FD84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D94B650021537A0900F2FD84 /* CQPlaceholderDemoViewController.h */,
+				D94B650121537A0900F2FD84 /* CQPlaceholderDemoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D94B64FF215379F200F2FD84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D94BF43420E48C4E0012C370 /* Base */ = {
@@ -629,6 +673,33 @@
 				D9DE6CC520FEE97700C8D4FE /* CQFilterAlertController.m */,
 			);
 			path = Alert;
+			sourceTree = "<group>";
+		};
+		D984AD0A2154EF5E00610B27 /* 排序button */ = {
+			isa = PBXGroup;
+			children = (
+				D984AD0C2154EFF500610B27 /* View */,
+				D984AD0B2154EFEE00610B27 /* Controller */,
+			);
+			path = "排序button";
+			sourceTree = "<group>";
+		};
+		D984AD0B2154EFEE00610B27 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D984AD0D2154F05000610B27 /* CQSortButtonDemoController.h */,
+				D984AD0E2154F05000610B27 /* CQSortButtonDemoController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D984AD0C2154EFF500610B27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D984AD102154F06C00610B27 /* CQSortButton.h */,
+				D984AD112154F06C00610B27 /* CQSortButton.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D98925D42106C96A001B2377 /* 主题切换 */ = {
@@ -1102,7 +1173,7 @@
 				TargetAttributes = {
 					D9AE0CD520DD02AC00A31D62 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1208,6 +1279,7 @@
 				D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */,
 				D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
+				D94B650221537A0900F2FD84 /* CQPlaceholderDemoViewController.m in Sources */,
 				D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */,
 				D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */,
 				D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */,
@@ -1225,6 +1297,7 @@
 				D9DDA7CD20E4831F008BD029 /* CQWaterfallCell.m in Sources */,
 				D9DDA7D020E48339008BD029 /* CQWaterfallModel.m in Sources */,
 				D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */,
+				D984AD122154F06C00610B27 /* CQSortButton.m in Sources */,
 				D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */,
 				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
 				D913F93F2109C08200366887 /* CQContentViewController.m in Sources */,
@@ -1249,6 +1322,7 @@
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
 				D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */,
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
+				D984AD0F2154F05000610B27 /* CQSortButtonDemoController.m in Sources */,
 				D9DE6CC920FEE9C000C8D4FE /* CQFilterCell.m in Sources */,
 				D9E21A85210FF7F500407599 /* CQClassClusterBaseCell.m in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
@@ -1381,8 +1455,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J5JWPJ294;
 				INFOPLIST_FILE = iOS_Storage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1400,8 +1474,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J5JWPJ294;
 				INFOPLIST_FILE = iOS_Storage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
