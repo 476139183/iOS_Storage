@@ -77,7 +77,21 @@
 #pragma mark 冒泡排序
 
 - (void)sortWithBubble {
-    
+    NSMutableArray *array = [NSMutableArray arrayWithArray:@[@1, @3, @2, @99, @33]];
+    NSLog(@"冒泡排序前：%@", array);
+    NSInteger count = 0;
+    for (NSUInteger i = array.count; i > 0; i--) {
+        // 比较相邻两个数，将大的那个数放在后面
+        // 每轮循环可以将最大的数放到末尾
+        for (NSUInteger j = 1; j < i; j++) {
+            count ++;
+            if (array[j-1] > array[j]) {
+                [array exchangeObjectAtIndex:j withObjectAtIndex:(j-1)];
+            }
+        }
+    }
+    NSLog(@"冒泡排序后：%@", array);
+    NSLog(@"运算次数：%ld", count);
 }
 
 #pragma mark 选择排序
