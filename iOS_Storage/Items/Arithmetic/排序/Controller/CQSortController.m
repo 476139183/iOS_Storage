@@ -53,13 +53,13 @@
     switch (type) {
         case CQSortTypeBubble: // 冒泡排序
         {
-            [self sortWithBubble];
+            [self bubbleSort];
         }
             break;
             
         case CQSortTypeSelection: // 选择排序
         {
-            
+            [self selectionSort];
         }
             break;
             
@@ -76,7 +76,7 @@
 
 #pragma mark 冒泡排序
 
-- (void)sortWithBubble {
+- (void)bubbleSort {
     NSMutableArray *array = [NSMutableArray arrayWithArray:@[@1, @3, @2, @99, @33]];
     NSLog(@"冒泡排序前：%@", array);
     NSInteger count = 0;
@@ -86,6 +86,7 @@
         for (NSUInteger j = 1; j < i; j++) {
             count ++;
             if (array[j-1] > array[j]) {
+                // 交换数组元素
                 [array exchangeObjectAtIndex:j withObjectAtIndex:(j-1)];
             }
         }
@@ -96,12 +97,28 @@
 
 #pragma mark 选择排序
 
+// 从第一个元素开始，分别跟后面的元素比较
+- (void)selectionSort {
+    NSMutableArray *array = [NSMutableArray arrayWithArray:@[@1, @3, @2, @99, @33]];
+    NSLog(@"选择排序前：%@", array);
+    NSInteger count = 0;
+    for (int i = 0; i < array.count-1; i++) {
+        // 每轮循环可以把最小的数放到最前面
+        for (int j = i+1; j < array.count; j++) {
+            count ++;
+            if (array[j] < array[i]) {
+                [array exchangeObjectAtIndex:i withObjectAtIndex:j];
+            }
+        }
+    }
+    NSLog(@"选择排序后：%@", array);
+    NSLog(@"运算次数：%ld", count);
+}
+
 #pragma mark 插入排序
 
-void printArray(int a[5]) {
-    for (int i = 0; i < 5; i ++) {
-        
-    }
+- (void)insertionSort {
+    
 }
 
 #pragma mark - UITableView DataSource & Delegate
