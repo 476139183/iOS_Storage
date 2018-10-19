@@ -35,7 +35,7 @@
     _shapeLayer = [CAShapeLayer layer];
     _shapeLayer.frame = CGRectMake(0, 200, 375, 150);
     [self.view.layer addSublayer:_shapeLayer];
-
+    
     _shapeLayer.fillColor = [UIColor greenColor].CGColor; // 没有这句代码，裁剪区域是黑色
     //_shapeLayer.borderColor = [UIColor blackColor].CGColor;
     // 小了白了兔，白了又了白

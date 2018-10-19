@@ -12,6 +12,7 @@
 		D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7B21098C9800C48E72 /* CQChangeThemeController.m */; };
 		D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7E21098CBE00C48E72 /* CQCustomButtonController.m */; };
 		D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D90CDB1220F05EDA003B9617 /* RoundArrowLabel.m */; };
+		D90F460C21797BCE00BB861E /* CQMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90F460B21797BCE00BB861E /* CQMaskViewController.m */; };
 		D913F93F2109C08200366887 /* CQContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D913F93E2109C08200366887 /* CQContentViewController.m */; };
 		D913F9422109CDD300366887 /* library_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9402109CA7F00366887 /* library_contents.plist */; };
 		D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9412109CDC400366887 /* architecture_contents.plist */; };
@@ -23,6 +24,7 @@
 		D921F97220FF640B00712042 /* house_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD120FF2F0A00C8D4FE /* house_list.json */; };
 		D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CED720EA63E100EE5C78 /* CQChartController.m */; };
 		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
+		D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */; };
 		D92D3062216B3D8700B57A2D /* CQRippleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D3061216B3D8700B57A2D /* CQRippleViewController.m */; };
 		D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */ = {isa = PBXBuildFile; fileRef = D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */; };
 		D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69B520DE312B002BA9C0 /* CQCategoryModel.m */; };
@@ -111,6 +113,8 @@
 		D90C4E7E21098CBE00C48E72 /* CQCustomButtonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCustomButtonController.m; sourceTree = "<group>"; };
 		D90CDB1120F05EDA003B9617 /* RoundArrowLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundArrowLabel.h; sourceTree = "<group>"; };
 		D90CDB1220F05EDA003B9617 /* RoundArrowLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundArrowLabel.m; sourceTree = "<group>"; };
+		D90F460A21797BCE00BB861E /* CQMaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMaskViewController.h; sourceTree = "<group>"; };
+		D90F460B21797BCE00BB861E /* CQMaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMaskViewController.m; sourceTree = "<group>"; };
 		D913F93D2109C08200366887 /* CQContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQContentViewController.h; sourceTree = "<group>"; };
 		D913F93E2109C08200366887 /* CQContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQContentViewController.m; sourceTree = "<group>"; };
 		D913F9402109CA7F00366887 /* library_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = library_contents.plist; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 		D928CED720EA63E100EE5C78 /* CQChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQChartController.m; sourceTree = "<group>"; };
 		D928CEDA20EA663A00EE5C78 /* CQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTabBarController.h; sourceTree = "<group>"; };
 		D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTabBarController.m; sourceTree = "<group>"; };
+		D92C8E9021788ABE005D7606 /* CQAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQAnimationViewController.h; sourceTree = "<group>"; };
+		D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQAnimationViewController.m; sourceTree = "<group>"; };
 		D92D3060216B3D8700B57A2D /* CQRippleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRippleViewController.h; sourceTree = "<group>"; };
 		D92D3061216B3D8700B57A2D /* CQRippleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRippleViewController.m; sourceTree = "<group>"; };
 		D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -332,6 +338,23 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		D90F460821797B6800BB861E /* 遮罩 */ = {
+			isa = PBXGroup;
+			children = (
+				D90F460921797B8500BB861E /* Controller */,
+			);
+			path = "遮罩";
+			sourceTree = "<group>";
+		};
+		D90F460921797B8500BB861E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D90F460A21797BCE00BB861E /* CQMaskViewController.h */,
+				D90F460B21797BCE00BB861E /* CQMaskViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		D91420A9216B4E2B0034ACEA /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -428,6 +451,23 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		D92C8E8E21788857005D7606 /* 显式动画与隐式动画 */ = {
+			isa = PBXGroup;
+			children = (
+				D92C8E8F21788966005D7606 /* Controller */,
+			);
+			path = "显式动画与隐式动画";
+			sourceTree = "<group>";
+		};
+		D92C8E8F21788966005D7606 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D92C8E9021788ABE005D7606 /* CQAnimationViewController.h */,
+				D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		D92D305E216B3C7200B57A2D /* 水波动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -446,14 +486,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D92D69A220DE2D95002BA9C0 /* Libraries */ = {
+		D92D69A220DE2D95002BA9C0 /* 框架和库 */ = {
 			isa = PBXGroup;
 			children = (
 				D913F9402109CA7F00366887 /* library_contents.plist */,
 				D94B64FC2153798300F2FD84 /* 通用占位图 */,
 				D94B64FD2153799000F2FD84 /* 弹窗 */,
 			);
-			path = Libraries;
+			path = "框架和库";
 			sourceTree = "<group>";
 		};
 		D92D69A320DE2DAA002BA9C0 /* 比例拼图 */ = {
@@ -801,9 +841,9 @@
 		D9AE0CD820DD02AC00A31D62 /* iOS_Storage */ = {
 			isa = PBXGroup;
 			children = (
+				D94BF43420E48C4E0012C370 /* Base */,
 				D928CED920EA65E500EE5C78 /* Main */,
 				D9F7CC8420EB191500B3C9B9 /* Items */,
-				D94BF43420E48C4E0012C370 /* Base */,
 				D92D69C720DE3606002BA9C0 /* Tool */,
 				D9AE0CD920DD02AC00A31D62 /* AppDelegate.h */,
 				D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */,
@@ -1093,32 +1133,32 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D9F7CC8120EB16D800B3C9B9 /* Architecture */ = {
+		D9F7CC8120EB16D800B3C9B9 /* 架构与设计模式 */ = {
 			isa = PBXGroup;
 			children = (
 				D913F9412109CDC400366887 /* architecture_contents.plist */,
 				D9E21A79210F469900407599 /* 类族 */,
 				D9CEB3032130E41C00664EF3 /* 简单工厂 */,
 			);
-			path = Architecture;
+			path = "架构与设计模式";
 			sourceTree = "<group>";
 		};
-		D9F7CC8220EB171600B3C9B9 /* Arithmetic */ = {
+		D9F7CC8220EB171600B3C9B9 /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
 				D913F9442109CE0A00366887 /* arithmetic_contents.plist */,
 				D9E42489212D0EA800283CFC /* 排序 */,
 			);
-			path = Arithmetic;
+			path = "算法";
 			sourceTree = "<group>";
 		};
 		D9F7CC8420EB191500B3C9B9 /* Items */ = {
 			isa = PBXGroup;
 			children = (
 				D92D69C820DE361E002BA9C0 /* Demos */,
-				D92D69A220DE2D95002BA9C0 /* Libraries */,
-				D9F7CC8120EB16D800B3C9B9 /* Architecture */,
-				D9F7CC8220EB171600B3C9B9 /* Arithmetic */,
+				D92D69A220DE2D95002BA9C0 /* 框架和库 */,
+				D9F7CC8120EB16D800B3C9B9 /* 架构与设计模式 */,
+				D9F7CC8220EB171600B3C9B9 /* 算法 */,
 				D9F7CC8520EB19C700B3C9B9 /* Tips */,
 			);
 			path = Items;
@@ -1133,6 +1173,8 @@
 				D9D64FD32105DD4200379FF2 /* NSThread */,
 				D9F2D46A210B17080088FB90 /* GCD */,
 				D9E26ADD212A6E3300162567 /* 属性修饰符 */,
+				D92C8E8E21788857005D7606 /* 显式动画与隐式动画 */,
+				D90F460821797B6800BB861E /* 遮罩 */,
 			);
 			path = Tips;
 			sourceTree = "<group>";
@@ -1318,8 +1360,10 @@
 				D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */,
 				D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */,
 				D9B563F420E240F2001AE9A0 /* CQIphoneViewController.m in Sources */,
+				D90F460C21797BCE00BB861E /* CQMaskViewController.m in Sources */,
 				D9DDA7CA20E48303008BD029 /* CQWaterfallController.m in Sources */,
 				D9DA0E8920E25291006CEA1C /* CQIphoneRequest.m in Sources */,
+				D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */,
 				D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */,
 				D94F6A8F20FEE337006BCC6B /* CQFilterViewController.m in Sources */,
 				D9E4248D212D4E3900283CFC /* CQSortModel.m in Sources */,
