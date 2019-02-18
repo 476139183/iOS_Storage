@@ -18,6 +18,8 @@
 		D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9412109CDC400366887 /* architecture_contents.plist */; };
 		D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9442109CE0A00366887 /* arithmetic_contents.plist */; };
 		D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D91420AB216B50DD0034ACEA /* CQRippleView.m */; };
+		D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E0221A90E400AC1DEA /* CQSearchController.m */; };
+		D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E3221A910500AC1DEA /* CQSearchModel.m */; };
 		D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */; };
 		D921F97020FF640B00712042 /* region_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD220FF2F0B00C8D4FE /* region_list.json */; };
 		D921F97120FF640B00712042 /* department_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD020FF2F0A00C8D4FE /* department_list.json */; };
@@ -122,6 +124,10 @@
 		D913F9442109CE0A00366887 /* arithmetic_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = arithmetic_contents.plist; sourceTree = "<group>"; };
 		D91420AA216B50DD0034ACEA /* CQRippleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRippleView.h; sourceTree = "<group>"; };
 		D91420AB216B50DD0034ACEA /* CQRippleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRippleView.m; sourceTree = "<group>"; };
+		D91E53DF221A90E400AC1DEA /* CQSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSearchController.h; sourceTree = "<group>"; };
+		D91E53E0221A90E400AC1DEA /* CQSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSearchController.m; sourceTree = "<group>"; };
+		D91E53E2221A910500AC1DEA /* CQSearchModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSearchModel.h; sourceTree = "<group>"; };
+		D91E53E3221A910500AC1DEA /* CQSearchModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSearchModel.m; sourceTree = "<group>"; };
 		D91EF56021100D2A000D0D43 /* CQClassClusterRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQClassClusterRequest.h; sourceTree = "<group>"; };
 		D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQClassClusterRequest.m; sourceTree = "<group>"; };
 		D928CED620EA63E100EE5C78 /* CQChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChartController.h; sourceTree = "<group>"; };
@@ -373,6 +379,33 @@
 				D9DA0E8620E25249006CEA1C /* Request */,
 			);
 			path = "菜单栏+下拉列表";
+			sourceTree = "<group>";
+		};
+		D91E53DC221A906400AC1DEA /* 查找 */ = {
+			isa = PBXGroup;
+			children = (
+				D91E53DE221A909300AC1DEA /* Model */,
+				D91E53DD221A908B00AC1DEA /* Controller */,
+			);
+			path = "查找";
+			sourceTree = "<group>";
+		};
+		D91E53DD221A908B00AC1DEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D91E53DF221A90E400AC1DEA /* CQSearchController.h */,
+				D91E53E0221A90E400AC1DEA /* CQSearchController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D91E53DE221A909300AC1DEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D91E53E2221A910500AC1DEA /* CQSearchModel.h */,
+				D91E53E3221A910500AC1DEA /* CQSearchModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D91EF55B211008CC000D0D43 /* Request */ = {
@@ -1148,6 +1181,7 @@
 			children = (
 				D913F9442109CE0A00366887 /* arithmetic_contents.plist */,
 				D9E42489212D0EA800283CFC /* 排序 */,
+				D91E53DC221A906400AC1DEA /* 查找 */,
 			);
 			path = "算法";
 			sourceTree = "<group>";
@@ -1249,7 +1283,7 @@
 				TargetAttributes = {
 					D9AE0CD520DD02AC00A31D62 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -1393,6 +1427,7 @@
 				D9E21A8E210FF92500407599 /* CQClassClusterCellC.m in Sources */,
 				D9DA5CF020E291550098EC68 /* UIView+Util.m in Sources */,
 				D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */,
+				D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */,
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
 				D9FF65D9212AC39800B06371 /* CQTimerModel.m in Sources */,
 				D9DA0E8520E251C4006CEA1C /* IphoneMenuItemModel.m in Sources */,
@@ -1414,6 +1449,7 @@
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
 				D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */,
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,
+				D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */,
 				D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */,
 				D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */,
 			);
@@ -1535,8 +1571,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4J5JWPJ294;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iOS_Storage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1554,8 +1590,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4J5JWPJ294;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iOS_Storage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
