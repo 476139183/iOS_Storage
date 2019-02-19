@@ -52,7 +52,7 @@
         case CQSearchTypeBinary: // 二分查找
         {
             NSArray *array = @[@1, @3, @5, @7, @9, @10, @20];
-            NSInteger theNum = 5;
+            NSInteger theNum = 1;
             NSInteger index = [self binarySearchIndexOfNum:theNum inArray:array];
             NSLog(@"二分查找：数字%ld在数组%@中的index是%ld", theNum, array, index);
         }
@@ -78,9 +78,9 @@
     
     while (num != midNum) {
         if (num < midNum) {
-            maxIndex = midIndex;
+            maxIndex = midIndex - 1;
         } else {
-            minIndex = midIndex;
+            minIndex = midIndex + 1;
         }
         midIndex = (minIndex + maxIndex) / 2;
         midNum = [array[midIndex] integerValue];

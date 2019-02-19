@@ -25,7 +25,8 @@
         _dataArray = [NSMutableArray array];
         NSArray *dictArray = @[@{@"name" : @"冒泡排序", @"type" : @(CQSortTypeBubble)},
                                @{@"name" : @"选择排序", @"type" : @(CQSortTypeSelection)},
-                               @{@"name" : @"插入排序", @"type" : @(CQSortTypeInsertion)}];
+                               @{@"name" : @"插入排序", @"type" : @(CQSortTypeInsertion)},
+                               @{@"name" : @"快速排序", @"type" : @(CQSortTypeQuick)}];
         for (NSDictionary *dict in dictArray) {
             NSError *error = nil;
             CQSortModel *model = [[CQSortModel alloc] initWithDictionary:dict error:&error];
@@ -68,6 +69,13 @@
             
         }
             break;
+            
+        case CQSortTypeQuick: // 快速排序
+        {
+            NSArray *array = @[@9, @3, @6, @7, @5, @1, @2];
+            NSArray *sortedArray = [self quickSortArray:array];
+            NSLog(@"快速排序前：%@ \n 快速排序后：%@", array, sortedArray);
+        }
             
         default:
             break;
@@ -118,7 +126,56 @@
 #pragma mark 插入排序
 
 - (void)insertionSort {
-    
+    NSLog(@"准备中。。。");
+}
+
+#pragma mark 快速排序
+/**
+ 快速排序
+
+ @param array 待排序的数组
+ @return 排序完成的数组
+ */
+- (NSArray *)quickSortArray:(NSArray *)array {
+    if (array.count < 2) { // 基线条件
+        return array;
+    } else {
+        // 将数组第一个元素设定为基线
+        NSInteger base = [array.firstObject integerValue];
+        
+        // 分成大小两个数组
+        NSMutableArray *smallArray = [NSMutableArray array];
+        NSMutableArray *bigArray = [NSMutableArray array];
+        
+        for (int i = 1; i < array.count; i++) {
+            NSInteger num = [array[i] integerValue];
+            if (num < base) {
+                // 左边部分是比基线小的元素组成的数组
+                [smallArray addObject:[NSNumber numberWithInteger:num]];
+            } else {
+                // 右边部分是比基线大的元素组成的数组
+                [bigArray addObject:[NSNumber numberWithInteger:num]];
+            }
+        }
+        
+        // 排列好的数组，包含三部分
+        NSMutableArray *sortedArray = [NSMutableArray array];
+        
+        // 对左边的数组进行快排（递归）
+        for (NSNumber *num in [self quickSortArray:smallArray]) {
+            [sortedArray addObject:num];
+        }
+        
+        // 中间部分是基线
+        [sortedArray addObject:@(base)];
+        
+        // 对右边的数组进行快排（递归）
+        for (NSNumber *num in [self quickSortArray:bigArray]) {
+            [sortedArray addObject:num];
+        }
+        
+        return sortedArray;
+    }
 }
 
 #pragma mark - UITableView DataSource & Delegate
