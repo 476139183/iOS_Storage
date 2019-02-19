@@ -66,7 +66,9 @@
             
         case CQSortTypeInsertion: // 插入排序
         {
-            
+            NSArray *array = @[@1, @8, @3, @6, @6, @6, @7, @5, @9, @2];
+            NSArray *sortedArray = [self insertionSortArray:array];
+            NSLog(@"插入排序前：%@ \n 插入排序后：%@", array, sortedArray);
         }
             break;
             
@@ -125,8 +127,31 @@
 
 #pragma mark 插入排序
 
-- (void)insertionSort {
-    NSLog(@"准备中。。。");
+- (NSArray *)insertionSortArray:(NSArray *)array {
+    // 这是排序好的数组
+    NSMutableArray *sortedArray = [NSMutableArray array];
+    // 先将待排序数组中的第一个元素加入排序好的数组
+    [sortedArray addObject:array.firstObject];
+    
+    // 依次取出剩下的待排序元素跟排序好的数组中的元素比较
+    for (int i = 1; i < array.count; i++) {
+        // 如果比最后一个元素大，说明这个待排序元素是最大的，直接加到数组末尾
+        if ([array[i] integerValue] > [sortedArray.lastObject integerValue]) {
+            // 插入
+            [sortedArray addObject:array[i]];
+            continue; // 结束此次循环
+        }
+        // 如果插入的这个元素不是最大的，跟排序好的数组中的元素一一比较
+        for (int j = 0; j < sortedArray.count; j++) {
+            if ([array[i] integerValue] <= [sortedArray[j] integerValue]) {
+                // 插入
+                [sortedArray insertObject:array[i] atIndex:j];
+                break; // 注意及时break这个for循环
+            }
+        }
+    }
+    
+    return sortedArray;
 }
 
 #pragma mark 快速排序
