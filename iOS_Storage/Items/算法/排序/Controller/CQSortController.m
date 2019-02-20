@@ -126,7 +126,12 @@
 }
 
 #pragma mark 插入排序
+/**
+ 插入排序
 
+ @param array 待排序的数组
+ @return 排好序的数组
+ */
 - (NSArray *)insertionSortArray:(NSArray *)array {
     // 这是排序好的数组
     NSMutableArray *sortedArray = [NSMutableArray array];
