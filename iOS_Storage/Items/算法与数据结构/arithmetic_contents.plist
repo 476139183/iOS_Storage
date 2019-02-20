@@ -4,17 +4,17 @@
 <array>
 	<dict>
 		<key>demo_name</key>
-		<string>排序</string>
+		<string>查找</string>
 		<key>controller_name</key>
-		<string>CQSortController</string>
+		<string>CQSearchController</string>
 		<key>jianshu_url</key>
 		<string></string>
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>查找</string>
+		<string>排序</string>
 		<key>controller_name</key>
-		<string>CQSearchController</string>
+		<string>CQSortController</string>
 		<key>jianshu_url</key>
 		<string></string>
 	</dict>

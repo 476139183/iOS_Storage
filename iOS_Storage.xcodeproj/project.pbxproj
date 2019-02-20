@@ -1176,14 +1176,14 @@
 			path = "架构与设计模式";
 			sourceTree = "<group>";
 		};
-		D9F7CC8220EB171600B3C9B9 /* 算法 */ = {
+		D9F7CC8220EB171600B3C9B9 /* 算法与数据结构 */ = {
 			isa = PBXGroup;
 			children = (
 				D913F9442109CE0A00366887 /* arithmetic_contents.plist */,
-				D9E42489212D0EA800283CFC /* 排序 */,
 				D91E53DC221A906400AC1DEA /* 查找 */,
+				D9E42489212D0EA800283CFC /* 排序 */,
 			);
-			path = "算法";
+			path = "算法与数据结构";
 			sourceTree = "<group>";
 		};
 		D9F7CC8420EB191500B3C9B9 /* Items */ = {
@@ -1192,7 +1192,7 @@
 				D92D69C820DE361E002BA9C0 /* Demos */,
 				D92D69A220DE2D95002BA9C0 /* 框架和库 */,
 				D9F7CC8120EB16D800B3C9B9 /* 架构与设计模式 */,
-				D9F7CC8220EB171600B3C9B9 /* 算法 */,
+				D9F7CC8220EB171600B3C9B9 /* 算法与数据结构 */,
 				D9F7CC8520EB19C700B3C9B9 /* Tips */,
 			);
 			path = Items;
