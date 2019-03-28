@@ -12,7 +12,8 @@ typedef NS_ENUM(NSUInteger, CQSortType) {
     CQSortTypeBubble,
     CQSortTypeSelection,
     CQSortTypeInsertion,
-    CQSortTypeQuick
+    CQSortTypeQuick,
+    CQSortTypeMerging
 };
 
 @interface CQSortModel : CQBaseModel

@@ -26,7 +26,8 @@
         NSArray *dictArray = @[@{@"name" : @"冒泡排序", @"type" : @(CQSortTypeBubble)},
                                @{@"name" : @"选择排序", @"type" : @(CQSortTypeSelection)},
                                @{@"name" : @"插入排序", @"type" : @(CQSortTypeInsertion)},
-                               @{@"name" : @"快速排序", @"type" : @(CQSortTypeQuick)}];
+                               @{@"name" : @"快速排序", @"type" : @(CQSortTypeQuick)},
+                               @{@"name" : @"归并排序", @"type" : @(CQSortTypeMerging)}];
         for (NSDictionary *dict in dictArray) {
             NSError *error = nil;
             CQSortModel *model = [[CQSortModel alloc] initWithDictionary:dict error:&error];
@@ -79,8 +80,10 @@
             NSLog(@"快速排序前：%@ \n 快速排序后：%@", array, sortedArray);
         }
             
-        default:
-            break;
+        case CQSortTypeMerging: // 归并排序
+        {
+            
+        }
     }
 }
 
@@ -206,6 +209,46 @@
         
         return sortedArray;
     }
+}
+
+#pragma mark 归并排序
+
+- (NSArray *)mergingSortWithArray:(NSMutableArray *)array {
+    if (array.count <= 1) {
+        return array;
+    } else if (array.count == 2) {
+        if ([array.firstObject integerValue] > [array.lastObject integerValue]) {
+            // 交换顺序
+            [array insertObject:array.lastObject atIndex:0];
+            [array removeLastObject];
+        }
+        return array;
+    } else {
+        NSMutableArray *leftArray = [NSMutableArray array];
+        NSMutableArray *rightArray = [NSMutableArray array];
+        for (int i = 0; i < array.count; i++) {
+            if (i < array.count/2) {
+                [leftArray addObject:array[i]];
+            } else {
+                [rightArray addObject:array[i]];
+            }
+        }
+        return leftArray;
+    }
+}
+
+#warning 未完
+
+- (NSArray *)mergingArray:(NSMutableArray *)leftArray withArray:(NSMutableArray *)rightArray {
+    if (leftArray.count == 1 && rightArray.count == 1) {
+        if ([leftArray.firstObject integerValue] > [rightArray.firstObject integerValue]) {
+            return @[rightArray.firstObject, leftArray.firstObject];
+        }
+        return @[leftArray.firstObject, rightArray.firstObject];
+    } else {
+        
+    }
+    return nil;
 }
 
 #pragma mark - UITableView DataSource & Delegate

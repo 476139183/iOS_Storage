@@ -24,7 +24,8 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
 - (NSArray *)dataArray {
     return @[@"无序请求：使用GCD_GROUP请求多个接口",
              @"无序请求：使用信号量请求多个接口",
-             @"有序请求：多个接口按顺序依次同步请求"];
+             @"有序请求：使用信号量顺序请求接口",
+             @"有序请求：使用局部block规避深层嵌套"];
 }
 
 #pragma mark - Life Cycle
@@ -114,7 +115,7 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
     });
 }
 
-#pragma mark - 按顺序依次请求
+#pragma mark - 使用信号量顺序依次请求
 
 - (void)loadDataByOrderSuccess:(void (^)(void))success failure:(void (^)(void))failure {
     // first,load data1
@@ -154,35 +155,65 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
     [queue addOperations:@[operation1, operation2, operation3] waitUntilFinished:NO];
 }
 
-#pragma mark - 三个接口
+#pragma mark - 使用局部block依次请求接口
 
-// 接口1（耗时2秒）
+- (void)useLocalBlockLoadDataByOrderSuccess:(void (^)(void))success failure:(void (^)(void))failure {
+    
+    // 接口2请求成功
+    void (^loadData2Success)(void) = ^{
+        // 请求接口3
+        [self loadData3Success:^{
+            // 所有接口请求成功
+            success();
+        } failure:^{
+            failure();
+        }];
+    };
+    
+    // 接口1请求成功
+    void (^loadData1Success)(void) = ^{
+        // 请求接口2
+        [self loadData2Success:^{
+            // 接口2请求成功
+            loadData2Success();
+        } failure:^{
+            failure();
+        }];
+    };
+    
+    // 请求接口1
+    [self loadData1Success:^{
+        // 接口1请求成功
+        loadData1Success();
+    } failure:^{
+        failure();
+    }];
+}
+
+#pragma mark - 三个接口 模拟数据请求
+
+// 接口1
 - (void)loadData1Success:(void (^)(void))success failure:(void (^)(void))failure {
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self showInfo:@"接口1请求完毕，耗时2秒"];
-        success();
-    });
-}
-
-// 接口2（耗时1秒）
-- (void)loadData2Success:(void (^)(void))success failure:(void (^)(void))failure {
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self showInfo:@"接口2请求完毕，耗时1秒"];
-        success();
-    });
-}
-
-// 接口3（耗时0.5秒）
-- (void)loadData3Success:(void (^)(void))success failure:(void (^)(void))failure {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self showInfo:@"接口3请求完毕，耗时0.5秒"];
+        NSLog(@"接口1请求完毕，耗时0.5秒");
         success();
     });
 }
 
-- (void)showInfo:(NSString *)info {
-    NSLog(@"%@", info);
-    [SVProgressHUD showSuccessWithStatus:info];
+// 接口2
+- (void)loadData2Success:(void (^)(void))success failure:(void (^)(void))failure {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        NSLog(@"接口2请求完毕，耗时0.1秒");
+        success();
+    });
+}
+
+// 接口3
+- (void)loadData3Success:(void (^)(void))success failure:(void (^)(void))failure {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        NSLog(@"接口3请求完毕，耗时0.2秒");
+        success();
+    });
 }
 
 #pragma mark - UITableView DataSource && Delegate
@@ -202,7 +233,7 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
         case 0:
         {
             [self useGCDGroupLoadDataSuccess:^{
-                [self showInfo:@"所有数据请求完毕"];
+                NSLog(@"所有数据请求完毕");
             } failure:nil];
         }
             break;
@@ -210,7 +241,7 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
         case 1:
         {
             [self useSemaphoreLoadDataSuccess:^{
-                [self showInfo:@"所有数据加载完成"];
+                NSLog(@"所有数据请求完毕");
             } failure:nil];
         }
             break;
@@ -218,12 +249,17 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
         case 2:
         {
             [self loadDataByOrderSuccess:^{
-                [self showInfo:@"所有数据加载完成"];
+                NSLog(@"所有数据请求完毕");
             } failure:nil];
         }
             break;
             
-        default:
+        case 3:
+        {
+            [self loadDataByOrderSuccess:^{
+                NSLog(@"所有数据请求完毕");
+            } failure:nil];
+        }
             break;
     }
 }
