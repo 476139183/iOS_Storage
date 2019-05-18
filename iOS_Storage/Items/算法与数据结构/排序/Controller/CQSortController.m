@@ -75,7 +75,7 @@
             
         case CQSortTypeQuick: // 快速排序
         {
-            NSArray *array = @[@9, @3, @6, @7, @5, @1, @2];
+            NSArray *array = @[@9, @3, @6, @7, @5, @1, @2, @9, @11, @0, @1];
             NSArray *sortedArray = [self quickSortArray:array];
             NSLog(@"快速排序前：%@ \n 快速排序后：%@", array, sortedArray);
         }

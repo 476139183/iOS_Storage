@@ -18,6 +18,10 @@ static NSString * const CQLockViewCellReuseID = @"CQLockViewCellReuseID";
 
 @property (nonatomic, strong) NSLock *lock;
 
+
+/** 用于测试多个线程操作的数组 */
+@property (nonatomic, strong) NSMutableArray *itemArray;
+
 @end
 
 @implementation CQLockViewController
@@ -28,7 +32,8 @@ static NSString * const CQLockViewCellReuseID = @"CQLockViewCellReuseID";
     if (!_dataArray) {
         _dataArray = @[@"无锁多线程访问",
                        @"NSLock加锁多线程访问",
-                       @"使用@synchronized加锁"];
+                       @"使用@synchronized加锁",
+                       @"两个线程同时操作同一个数组"];
     }
     return _dataArray;
 }
@@ -121,6 +126,43 @@ static NSString * const CQLockViewCellReuseID = @"CQLockViewCellReuseID";
     }
 }
 
+#pragma mark - 两个线程同时操作同一个数组
+
+- (void)handleArrayWithTwoThread {
+    self.itemArray = [NSMutableArray arrayWithObjects:@"1", @"2", @"3", nil];
+    // 这是一道面试题
+    // 用户上拉加载更多的同时左滑删除cell
+    // 需求就是不能两个线程同时操作数组
+    [self pullUpLoadMore];
+    [self deleteACell];
+}
+
+// 删除一个cell
+- (void)deleteACell {
+    // 注意加锁位置
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        @synchronized (self) {
+            [self.itemArray removeObjectAtIndex:1];
+            NSLog(@"删除一个cell后，数组count=%ld", self.itemArray.count);
+        }
+    });
+}
+
+// 上拉加载更多
+- (void)pullUpLoadMore {
+    // 不能卡顿
+    // 执行完了才能继续操作array
+    // 注意加锁位置
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        @synchronized (self) {
+            for (int i = 1; i <= 10000; i++) {
+                [self.itemArray addObject:@"0"];
+            }
+            NSLog(@"上拉加载更多后，数组count=%ld", self.itemArray.count);
+        }
+    });
+}
+
 #pragma mark - UITableView DataSource & Delegate
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -150,6 +192,12 @@ static NSString * const CQLockViewCellReuseID = @"CQLockViewCellReuseID";
         case 2: // 使用synchronized加锁
         {
             [self accessWithSynchronized];
+        }
+            break;
+            
+        case 3: // 同时操作一个数组
+        {
+            [self handleArrayWithTwoThread];
         }
             break;
             
