@@ -25,7 +25,8 @@
                        @"并行队列 ConcurrentQueue",
                        @"dispatch_set_target_queue",
                        @"栅栏函数 dispatch_barrier_async",
-                       @"dispatch_apply"];
+                       @"dispatch_apply",
+                       @"dispatch_suspend"];
     }
     return _dataArray;
 }
@@ -84,6 +85,12 @@
         case 4: // dispatch_apply
         {
             [self testDispatchApply];
+        }
+            break;
+            
+        case 5:
+        {
+            [self testDispatchSuspend];
         }
             break;
             
@@ -214,6 +221,36 @@
         NSLog(@"%ld", index);
     });
     NSLog(@"所有任务执行完毕");
+}
+
+#pragma mark - dispatch_suspend / dispatch_resume
+
+- (void)testDispatchSuspend {
+    // dispatch_suspend 函数挂起指定的 Dispatch Queue
+    // dispatch_resume 函数恢复指定的 Dispatch Queue
+    dispatch_queue_t queue = dispatch_queue_create("com.caiqiang.gcd.suspend", DISPATCH_QUEUE_SERIAL);
+    
+    dispatch_async(queue, ^{
+        NSLog(@"任务1");
+    });
+    dispatch_async(queue, ^{
+        NSLog(@"任务2");
+    });
+    
+    // 挂起队列
+    NSLog(@"suspend...");
+    dispatch_suspend(queue);
+    
+    // 任务3一定在resume之后执行
+    dispatch_async(queue, ^{
+        NSLog(@"任务3");
+    });
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        // 恢复队列
+        dispatch_resume(queue);
+        NSLog(@"resume...");
+    });
 }
 
 @end
