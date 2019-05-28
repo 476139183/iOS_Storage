@@ -4,6 +4,46 @@
 <array>
 	<dict>
 		<key>demo_name</key>
+		<string>runtime</string>
+		<key>controller_name</key>
+		<string>CQRuntimeController</string>
+		<key>jianshu_url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>runloop</string>
+		<key>controller_name</key>
+		<string>CQRunloopController</string>
+		<key>jianshu_url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>KVC</string>
+		<key>controller_name</key>
+		<string>CQKVCController</string>
+		<key>jianshu_url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>KVO</string>
+		<key>controller_name</key>
+		<string>CQKVOController</string>
+		<key>jianshu_url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>多线程</string>
+		<key>controller_name</key>
+		<string>MultiThreadController</string>
+		<key>jianshu_url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
 		<string>多个接口请求完成后回调</string>
 		<key>controller_name</key>
 		<string>CQMultiInterfaceViewController</string>

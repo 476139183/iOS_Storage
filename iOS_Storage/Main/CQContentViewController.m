@@ -80,6 +80,14 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     CQContentModel *model = self.dataArray[indexPath.row];
     CQBaseViewController *detailVC = [[NSClassFromString(model.controller_name) alloc] init];
+
+    // 如果是nil，说明是swift类
+    if (!detailVC) {
+        NSString *prefix = [[NSBundle mainBundle] infoDictionary][@"CFBundleExecutable"];
+        NSString *swiftClassName = [NSString stringWithFormat:@"%@.%@", prefix, model.controller_name];
+        detailVC = [[NSClassFromString(swiftClassName) alloc] init];
+    }
+    
     detailVC.title = model.demo_name;
     detailVC.jianshuURL = model.jianshu_url;
     [self.navigationController pushViewController:detailVC animated:YES];

@@ -50,6 +50,13 @@
 		D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */; };
 		D94F6A8F20FEE337006BCC6B /* CQFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F6A8E20FEE337006BCC6B /* CQFilterViewController.m */; };
 		D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F6A9220FEE52E006BCC6B /* CQFilterRequest.m */; };
+		D9545B27229306E2008B6355 /* CQRuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B26229306E2008B6355 /* CQRuntimeController.m */; };
+		D9545B2A229306FE008B6355 /* CQRunloopController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B29229306FE008B6355 /* CQRunloopController.m */; };
+		D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B2D229392CB008B6355 /* CQUnrecognizedSelectorController.m */; };
+		D9545B31229396D3008B6355 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B30229396D3008B6355 /* Cat.m */; };
+		D9545B382293AA4B008B6355 /* CQPermanentThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B372293AA4B008B6355 /* CQPermanentThreadController.m */; };
+		D9545B3B2293AB48008B6355 /* CQThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B3A2293AB48008B6355 /* CQThread.m */; };
+		D9545B3E2293B275008B6355 /* CQRunloopModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B3D2293B275008B6355 /* CQRunloopModeController.m */; };
 		D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38A21490A13001B3021 /* CQCarBenz.m */; };
 		D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38D21490A29001B3021 /* CQCarBMW.m */; };
 		D984AD0F2154F05000610B27 /* CQSortButtonDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D984AD0E2154F05000610B27 /* CQSortButtonDemoController.m */; };
@@ -66,6 +73,18 @@
 		D9B563F720E24A14001AE9A0 /* iphone_menu_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B563F520E24896001AE9A0 /* iphone_menu_data.json */; };
 		D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B563F620E249E3001AE9A0 /* iphone_list_data.json */; };
 		D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */; };
+		D9CFC803229CC9CA009B8399 /* CQMessageSendController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC802229CC9CA009B8399 /* CQMessageSendController.m */; };
+		D9CFC805229CCA0F009B8399 /* 消息发送.md in Resources */ = {isa = PBXBuildFile; fileRef = D9CFC804229CCA0E009B8399 /* 消息发送.md */; };
+		D9CFC807229CCAB7009B8399 /* 消息转发.md in Resources */ = {isa = PBXBuildFile; fileRef = D9CFC806229CCAB7009B8399 /* 消息转发.md */; };
+		D9CFC80A229CDB66009B8399 /* CQKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC809229CDB66009B8399 /* CQKVOController.m */; };
+		D9CFC80D229CE438009B8399 /* Cat2.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC80C229CE438009B8399 /* Cat2.m */; };
+		D9CFC81A229CE9F5009B8399 /* CQArchitectureController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC819229CE9F5009B8399 /* CQArchitectureController.m */; };
+		D9CFC81D229CEA15009B8399 /* CQDesignerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC81C229CEA15009B8399 /* CQDesignerController.m */; };
+		D9CFC821229CFF34009B8399 /* SwiftController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC820229CFF34009B8399 /* SwiftController.swift */; };
+		D9D1450D2298F1F5003B594C /* CQRunLoopLifeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D1450C2298F1F5003B594C /* CQRunLoopLifeController.m */; };
+		D9D14510229917ED003B594C /* CQRunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D1450F229917ED003B594C /* CQRunLoop.m */; };
+		D9D145122299205F003B594C /* KVC.md in Resources */ = {isa = PBXBuildFile; fileRef = D9D145112299205F003B594C /* KVC.md */; };
+		D9D14515229920CB003B594C /* CQKVCController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D14514229920CB003B594C /* CQKVCController.m */; };
 		D9D64FD72105DDA300379FF2 /* CQThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D64FD62105DDA300379FF2 /* CQThreadViewController.m */; };
 		D9DA0E7A20E24F5E006CEA1C /* IphoneMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA0E7920E24F5E006CEA1C /* IphoneMenuView.m */; };
 		D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA0E7C20E24F77006CEA1C /* IphoneListView.m */; };
@@ -97,6 +116,11 @@
 		D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4EB20E235D400C3090D /* ArrowLabel.m */; };
 		D9EF0EA72110396300755E11 /* class_cluster_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9EF0EA62110394E00755E11 /* class_cluster_data.json */; };
 		D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F2D46D210B178F0088FB90 /* CQGCDController.m */; };
+		D9F93367229D6BD000C7B2E0 /* 关联对象.md in Resources */ = {isa = PBXBuildFile; fileRef = D9F93366229D6BD000C7B2E0 /* 关联对象.md */; };
+		D9F93369229D787000C7B2E0 /* CQMultiThreadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F93368229D787000C7B2E0 /* CQMultiThreadController.swift */; };
+		D9F9336E229D7CEB00C7B2E0 /* CQPthreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F9336D229D7CEB00C7B2E0 /* CQPthreadController.m */; };
+		D9F93371229D7D2400C7B2E0 /* CQOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F93370229D7D2400C7B2E0 /* CQOperationController.m */; };
+		D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F93373229D811B00C7B2E0 /* MultiThreadController.swift */; };
 		D9FF65D4212AC0F200B06371 /* CQTimerCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF65D3212AC0F200B06371 /* CQTimerCellController.m */; };
 		D9FF65D9212AC39800B06371 /* CQTimerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF65D8212AC39800B06371 /* CQTimerModel.m */; };
 		D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF65DB212AC3FE00B06371 /* CQTimerCell.m */; };
@@ -177,6 +201,20 @@
 		D94F6A8E20FEE337006BCC6B /* CQFilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFilterViewController.m; sourceTree = "<group>"; };
 		D94F6A9120FEE52E006BCC6B /* CQFilterRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQFilterRequest.h; sourceTree = "<group>"; };
 		D94F6A9220FEE52E006BCC6B /* CQFilterRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFilterRequest.m; sourceTree = "<group>"; };
+		D9545B25229306E2008B6355 /* CQRuntimeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRuntimeController.h; sourceTree = "<group>"; };
+		D9545B26229306E2008B6355 /* CQRuntimeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRuntimeController.m; sourceTree = "<group>"; };
+		D9545B28229306FE008B6355 /* CQRunloopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRunloopController.h; sourceTree = "<group>"; };
+		D9545B29229306FE008B6355 /* CQRunloopController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRunloopController.m; sourceTree = "<group>"; };
+		D9545B2C229392CB008B6355 /* CQUnrecognizedSelectorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQUnrecognizedSelectorController.h; sourceTree = "<group>"; };
+		D9545B2D229392CB008B6355 /* CQUnrecognizedSelectorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQUnrecognizedSelectorController.m; sourceTree = "<group>"; };
+		D9545B2F229396D3008B6355 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		D9545B30229396D3008B6355 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		D9545B362293AA4B008B6355 /* CQPermanentThreadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQPermanentThreadController.h; sourceTree = "<group>"; };
+		D9545B372293AA4B008B6355 /* CQPermanentThreadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQPermanentThreadController.m; sourceTree = "<group>"; };
+		D9545B392293AB48008B6355 /* CQThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQThread.h; sourceTree = "<group>"; };
+		D9545B3A2293AB48008B6355 /* CQThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQThread.m; sourceTree = "<group>"; };
+		D9545B3C2293B275008B6355 /* CQRunloopModeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRunloopModeController.h; sourceTree = "<group>"; };
+		D9545B3D2293B275008B6355 /* CQRunloopModeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRunloopModeController.m; sourceTree = "<group>"; };
 		D963F38921490A13001B3021 /* CQCarBenz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarBenz.h; sourceTree = "<group>"; };
 		D963F38A21490A13001B3021 /* CQCarBenz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCarBenz.m; sourceTree = "<group>"; };
 		D963F38C21490A29001B3021 /* CQCarBMW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarBMW.h; sourceTree = "<group>"; };
@@ -207,6 +245,27 @@
 		D9B563F620E249E3001AE9A0 /* iphone_list_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = iphone_list_data.json; sourceTree = "<group>"; };
 		D9B563F920E24B1F001AE9A0 /* CQIphoneDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIphoneDetailViewController.h; sourceTree = "<group>"; };
 		D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQIphoneDetailViewController.m; sourceTree = "<group>"; };
+		D9CFC801229CC9CA009B8399 /* CQMessageSendController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMessageSendController.h; sourceTree = "<group>"; };
+		D9CFC802229CC9CA009B8399 /* CQMessageSendController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMessageSendController.m; sourceTree = "<group>"; };
+		D9CFC804229CCA0E009B8399 /* 消息发送.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "消息发送.md"; sourceTree = "<group>"; };
+		D9CFC806229CCAB7009B8399 /* 消息转发.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "消息转发.md"; sourceTree = "<group>"; };
+		D9CFC808229CDB66009B8399 /* CQKVOController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQKVOController.h; sourceTree = "<group>"; };
+		D9CFC809229CDB66009B8399 /* CQKVOController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQKVOController.m; sourceTree = "<group>"; };
+		D9CFC80B229CE438009B8399 /* Cat2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat2.h; sourceTree = "<group>"; };
+		D9CFC80C229CE438009B8399 /* Cat2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat2.m; sourceTree = "<group>"; };
+		D9CFC818229CE9F5009B8399 /* CQArchitectureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQArchitectureController.h; sourceTree = "<group>"; };
+		D9CFC819229CE9F5009B8399 /* CQArchitectureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQArchitectureController.m; sourceTree = "<group>"; };
+		D9CFC81B229CEA15009B8399 /* CQDesignerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQDesignerController.h; sourceTree = "<group>"; };
+		D9CFC81C229CEA15009B8399 /* CQDesignerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQDesignerController.m; sourceTree = "<group>"; };
+		D9CFC81F229CFF33009B8399 /* iOS_Storage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_Storage-Bridging-Header.h"; sourceTree = "<group>"; };
+		D9CFC820229CFF34009B8399 /* SwiftController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftController.swift; sourceTree = "<group>"; };
+		D9D1450B2298F1F5003B594C /* CQRunLoopLifeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRunLoopLifeController.h; sourceTree = "<group>"; };
+		D9D1450C2298F1F5003B594C /* CQRunLoopLifeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRunLoopLifeController.m; sourceTree = "<group>"; };
+		D9D1450E229917ED003B594C /* CQRunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRunLoop.h; sourceTree = "<group>"; };
+		D9D1450F229917ED003B594C /* CQRunLoop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRunLoop.m; sourceTree = "<group>"; };
+		D9D145112299205F003B594C /* KVC.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = KVC.md; sourceTree = "<group>"; };
+		D9D14513229920CB003B594C /* CQKVCController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQKVCController.h; sourceTree = "<group>"; };
+		D9D14514229920CB003B594C /* CQKVCController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQKVCController.m; sourceTree = "<group>"; };
 		D9D64FD52105DDA300379FF2 /* CQThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQThreadViewController.h; sourceTree = "<group>"; };
 		D9D64FD62105DDA300379FF2 /* CQThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQThreadViewController.m; sourceTree = "<group>"; };
 		D9DA0E7820E24F5E006CEA1C /* IphoneMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneMenuView.h; sourceTree = "<group>"; };
@@ -270,6 +329,13 @@
 		D9EF0EA62110394E00755E11 /* class_cluster_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = class_cluster_data.json; sourceTree = "<group>"; };
 		D9F2D46C210B178F0088FB90 /* CQGCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGCDController.h; sourceTree = "<group>"; };
 		D9F2D46D210B178F0088FB90 /* CQGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGCDController.m; sourceTree = "<group>"; };
+		D9F93366229D6BD000C7B2E0 /* 关联对象.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "关联对象.md"; sourceTree = "<group>"; };
+		D9F93368229D787000C7B2E0 /* CQMultiThreadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQMultiThreadController.swift; sourceTree = "<group>"; };
+		D9F9336C229D7CEB00C7B2E0 /* CQPthreadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQPthreadController.h; sourceTree = "<group>"; };
+		D9F9336D229D7CEB00C7B2E0 /* CQPthreadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQPthreadController.m; sourceTree = "<group>"; };
+		D9F9336F229D7D2400C7B2E0 /* CQOperationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQOperationController.h; sourceTree = "<group>"; };
+		D9F93370229D7D2400C7B2E0 /* CQOperationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQOperationController.m; sourceTree = "<group>"; };
+		D9F93373229D811B00C7B2E0 /* MultiThreadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiThreadController.swift; sourceTree = "<group>"; };
 		D9FF65D2212AC0F200B06371 /* CQTimerCellController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTimerCellController.h; sourceTree = "<group>"; };
 		D9FF65D3212AC0F200B06371 /* CQTimerCellController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTimerCellController.m; sourceTree = "<group>"; };
 		D9FF65D7212AC39800B06371 /* CQTimerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTimerModel.h; sourceTree = "<group>"; };
@@ -598,7 +664,8 @@
 		D9402A8A2101E5CB00BF792F /* 请求多个接口 */ = {
 			isa = PBXGroup;
 			children = (
-				D9402A8C2101E73300BF792F /* Controller */,
+				D9402A8E2101E79D00BF792F /* CQMultiInterfaceViewController.h */,
+				D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */,
 			);
 			path = "请求多个接口";
 			sourceTree = "<group>";
@@ -606,27 +673,10 @@
 		D9402A8B2101E5EC00BF792F /* 锁 */ = {
 			isa = PBXGroup;
 			children = (
-				D9402A8D2101E73D00BF792F /* Controller */,
-			);
-			path = "锁";
-			sourceTree = "<group>";
-		};
-		D9402A8C2101E73300BF792F /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				D9402A8E2101E79D00BF792F /* CQMultiInterfaceViewController.h */,
-				D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		D9402A8D2101E73D00BF792F /* Controller */ = {
-			isa = PBXGroup;
-			children = (
 				D9402A912101E7E400BF792F /* CQLockViewController.h */,
 				D9402A922101E7E400BF792F /* CQLockViewController.m */,
 			);
-			path = Controller;
+			path = "锁";
 			sourceTree = "<group>";
 		};
 		D948397620E2557F00121FB6 /* 菜单栏 */ = {
@@ -762,6 +812,97 @@
 			path = Alert;
 			sourceTree = "<group>";
 		};
+		D9545B2322930645008B6355 /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				D9545B25229306E2008B6355 /* CQRuntimeController.h */,
+				D9545B26229306E2008B6355 /* CQRuntimeController.m */,
+				D9CFC800229CC928009B8399 /* 消息发送 */,
+				D9545B2B22939155008B6355 /* 消息转发 */,
+				D9CFC80E229CE519009B8399 /* 关联对象 */,
+				D9CFC80F229CE525009B8399 /* MethodSwizzling */,
+				D9CFC811229CE55F009B8399 /* Aspect */,
+			);
+			path = runtime;
+			sourceTree = "<group>";
+		};
+		D9545B242293064E008B6355 /* runloop */ = {
+			isa = PBXGroup;
+			children = (
+				D9545B28229306FE008B6355 /* CQRunloopController.h */,
+				D9545B29229306FE008B6355 /* CQRunloopController.m */,
+				D9545B342293A910008B6355 /* 常驻线程 */,
+				D9545B352293A98A008B6355 /* mode切换 */,
+				D9545B3F229524F5008B6355 /* runloop生命周期 */,
+			);
+			path = runloop;
+			sourceTree = "<group>";
+		};
+		D9545B2B22939155008B6355 /* 消息转发 */ = {
+			isa = PBXGroup;
+			children = (
+				D9CFC806229CCAB7009B8399 /* 消息转发.md */,
+				D9545B2C229392CB008B6355 /* CQUnrecognizedSelectorController.h */,
+				D9545B2D229392CB008B6355 /* CQUnrecognizedSelectorController.m */,
+				D9545B2F229396D3008B6355 /* Cat.h */,
+				D9545B30229396D3008B6355 /* Cat.m */,
+				D9CFC80B229CE438009B8399 /* Cat2.h */,
+				D9CFC80C229CE438009B8399 /* Cat2.m */,
+			);
+			path = "消息转发";
+			sourceTree = "<group>";
+		};
+		D9545B322293A631008B6355 /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				D9D145112299205F003B594C /* KVC.md */,
+				D9D14513229920CB003B594C /* CQKVCController.h */,
+				D9D14514229920CB003B594C /* CQKVCController.m */,
+			);
+			path = KVC;
+			sourceTree = "<group>";
+		};
+		D9545B332293A8C5008B6355 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				D9CFC808229CDB66009B8399 /* CQKVOController.h */,
+				D9CFC809229CDB66009B8399 /* CQKVOController.m */,
+				D9CFC810229CE54A009B8399 /* KVOController */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		D9545B342293A910008B6355 /* 常驻线程 */ = {
+			isa = PBXGroup;
+			children = (
+				D9545B362293AA4B008B6355 /* CQPermanentThreadController.h */,
+				D9545B372293AA4B008B6355 /* CQPermanentThreadController.m */,
+				D9545B392293AB48008B6355 /* CQThread.h */,
+				D9545B3A2293AB48008B6355 /* CQThread.m */,
+			);
+			path = "常驻线程";
+			sourceTree = "<group>";
+		};
+		D9545B352293A98A008B6355 /* mode切换 */ = {
+			isa = PBXGroup;
+			children = (
+				D9545B3C2293B275008B6355 /* CQRunloopModeController.h */,
+				D9545B3D2293B275008B6355 /* CQRunloopModeController.m */,
+			);
+			path = "mode切换";
+			sourceTree = "<group>";
+		};
+		D9545B3F229524F5008B6355 /* runloop生命周期 */ = {
+			isa = PBXGroup;
+			children = (
+				D9D1450B2298F1F5003B594C /* CQRunLoopLifeController.h */,
+				D9D1450C2298F1F5003B594C /* CQRunLoopLifeController.m */,
+				D9D1450E229917ED003B594C /* CQRunLoop.h */,
+				D9D1450F229917ED003B594C /* CQRunLoop.m */,
+			);
+			path = "runloop生命周期";
+			sourceTree = "<group>";
+		};
 		D984AD0A2154EF5E00610B27 /* 排序button */ = {
 			isa = PBXGroup;
 			children = (
@@ -888,21 +1029,117 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D9D64FD32105DD4200379FF2 /* NSThread */ = {
+		D9CFC800229CC928009B8399 /* 消息发送 */ = {
 			isa = PBXGroup;
 			children = (
-				D9D64FD42105DD6E00379FF2 /* Controller */,
+				D9CFC804229CCA0E009B8399 /* 消息发送.md */,
+				D9CFC801229CC9CA009B8399 /* CQMessageSendController.h */,
+				D9CFC802229CC9CA009B8399 /* CQMessageSendController.m */,
 			);
-			path = NSThread;
+			path = "消息发送";
 			sourceTree = "<group>";
 		};
-		D9D64FD42105DD6E00379FF2 /* Controller */ = {
+		D9CFC80E229CE519009B8399 /* 关联对象 */ = {
+			isa = PBXGroup;
+			children = (
+				D9F93366229D6BD000C7B2E0 /* 关联对象.md */,
+			);
+			path = "关联对象";
+			sourceTree = "<group>";
+		};
+		D9CFC80F229CE525009B8399 /* MethodSwizzling */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MethodSwizzling;
+			sourceTree = "<group>";
+		};
+		D9CFC810229CE54A009B8399 /* KVOController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KVOController;
+			sourceTree = "<group>";
+		};
+		D9CFC811229CE55F009B8399 /* Aspect */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Aspect;
+			sourceTree = "<group>";
+		};
+		D9CFC812229CE64E009B8399 /* 多线程 */ = {
+			isa = PBXGroup;
+			children = (
+				D9F93368229D787000C7B2E0 /* CQMultiThreadController.swift */,
+				D9F93373229D811B00C7B2E0 /* MultiThreadController.swift */,
+				D9F9336A229D7C5100C7B2E0 /* pthread */,
+				D9D64FD32105DD4200379FF2 /* NSThread */,
+				D9F9336B229D7C6100C7B2E0 /* NSOperation */,
+				D9F2D46A210B17080088FB90 /* GCD */,
+				D9402A8A2101E5CB00BF792F /* 请求多个接口 */,
+				D9402A8B2101E5EC00BF792F /* 锁 */,
+			);
+			path = "多线程";
+			sourceTree = "<group>";
+		};
+		D9CFC813229CE7B4009B8399 /* 深浅拷贝 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "深浅拷贝";
+			sourceTree = "<group>";
+		};
+		D9CFC814229CE7C1009B8399 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = fishhook;
+			sourceTree = "<group>";
+		};
+		D9CFC815229CE89D009B8399 /* NSSet Contain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "NSSet Contain";
+			sourceTree = "<group>";
+		};
+		D9CFC816229CE92D009B8399 /* 架构模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D9CFC818229CE9F5009B8399 /* CQArchitectureController.h */,
+				D9CFC819229CE9F5009B8399 /* CQArchitectureController.m */,
+			);
+			path = "架构模式";
+			sourceTree = "<group>";
+		};
+		D9CFC817229CE935009B8399 /* 设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D9CFC81B229CEA15009B8399 /* CQDesignerController.h */,
+				D9CFC81C229CEA15009B8399 /* CQDesignerController.m */,
+				D9E21A79210F469900407599 /* 类族 */,
+				D9CEB3032130E41C00664EF3 /* 简单工厂 */,
+			);
+			path = "设计模式";
+			sourceTree = "<group>";
+		};
+		D9CFC81E229CFE2F009B8399 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D9CFC820229CFF34009B8399 /* SwiftController.swift */,
+				D9CFC81F229CFF33009B8399 /* iOS_Storage-Bridging-Header.h */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		D9D64FD32105DD4200379FF2 /* NSThread */ = {
 			isa = PBXGroup;
 			children = (
 				D9D64FD52105DDA300379FF2 /* CQThreadViewController.h */,
 				D9D64FD62105DDA300379FF2 /* CQThreadViewController.m */,
 			);
-			path = Controller;
+			path = NSThread;
 			sourceTree = "<group>";
 		};
 		D9DA0E7E20E25128006CEA1C /* 菜单栏 */ = {
@@ -1132,26 +1369,18 @@
 		D9F2D46A210B17080088FB90 /* GCD */ = {
 			isa = PBXGroup;
 			children = (
-				D9F2D46B210B171E0088FB90 /* Controller */,
-			);
-			path = GCD;
-			sourceTree = "<group>";
-		};
-		D9F2D46B210B171E0088FB90 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
 				D9F2D46C210B178F0088FB90 /* CQGCDController.h */,
 				D9F2D46D210B178F0088FB90 /* CQGCDController.m */,
 			);
-			path = Controller;
+			path = GCD;
 			sourceTree = "<group>";
 		};
 		D9F7CC8120EB16D800B3C9B9 /* 架构与设计模式 */ = {
 			isa = PBXGroup;
 			children = (
 				D913F9412109CDC400366887 /* architecture_contents.plist */,
-				D9E21A79210F469900407599 /* 类族 */,
-				D9CEB3032130E41C00664EF3 /* 简单工厂 */,
+				D9CFC816229CE92D009B8399 /* 架构模式 */,
+				D9CFC817229CE935009B8399 /* 设计模式 */,
 			);
 			path = "架构与设计模式";
 			sourceTree = "<group>";
@@ -1182,14 +1411,69 @@
 			isa = PBXGroup;
 			children = (
 				D9402A882101E50800BF792F /* tips_contents.plist */,
-				D9402A8A2101E5CB00BF792F /* 请求多个接口 */,
-				D9402A8B2101E5EC00BF792F /* 锁 */,
-				D9D64FD32105DD4200379FF2 /* NSThread */,
-				D9F2D46A210B17080088FB90 /* GCD */,
+				D9545B2322930645008B6355 /* runtime */,
+				D9545B242293064E008B6355 /* runloop */,
+				D9545B322293A631008B6355 /* KVC */,
+				D9545B332293A8C5008B6355 /* KVO */,
+				D9CFC812229CE64E009B8399 /* 多线程 */,
+				D9F93375229D867D00C7B2E0 /* Socket */,
+				D9F93376229D869D00C7B2E0 /* 蓝牙 */,
+				D9F93377229D872600C7B2E0 /* OC反射机制 */,
 				D9E26ADD212A6E3300162567 /* 属性修饰符 */,
 				D92C8E8E21788857005D7606 /* 显式动画与隐式动画 */,
+				D9CFC815229CE89D009B8399 /* NSSet Contain */,
+				D9CFC813229CE7B4009B8399 /* 深浅拷贝 */,
+				D9CFC814229CE7C1009B8399 /* fishhook */,
+				D9F93372229D7DA400C7B2E0 /* RAC */,
+				D9CFC81E229CFE2F009B8399 /* Swift */,
 			);
 			path = Tips;
+			sourceTree = "<group>";
+		};
+		D9F9336A229D7C5100C7B2E0 /* pthread */ = {
+			isa = PBXGroup;
+			children = (
+				D9F9336C229D7CEB00C7B2E0 /* CQPthreadController.h */,
+				D9F9336D229D7CEB00C7B2E0 /* CQPthreadController.m */,
+			);
+			path = pthread;
+			sourceTree = "<group>";
+		};
+		D9F9336B229D7C6100C7B2E0 /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				D9F9336F229D7D2400C7B2E0 /* CQOperationController.h */,
+				D9F93370229D7D2400C7B2E0 /* CQOperationController.m */,
+			);
+			path = NSOperation;
+			sourceTree = "<group>";
+		};
+		D9F93372229D7DA400C7B2E0 /* RAC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RAC;
+			sourceTree = "<group>";
+		};
+		D9F93375229D867D00C7B2E0 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		D9F93376229D869D00C7B2E0 /* 蓝牙 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "蓝牙";
+			sourceTree = "<group>";
+		};
+		D9F93377229D872600C7B2E0 /* OC反射机制 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "OC反射机制";
 			sourceTree = "<group>";
 		};
 		D9FF65D0212AC09F00B06371 /* 含timer的cell */ = {
@@ -1262,6 +1546,7 @@
 				TargetAttributes = {
 					D9AE0CD520DD02AC00A31D62 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -1298,7 +1583,11 @@
 				D921F97120FF640B00712042 /* department_list.json in Resources */,
 				D921F97220FF640B00712042 /* house_list.json in Resources */,
 				D94BF43F20E4B6510012C370 /* demo_contents.plist in Resources */,
+				D9D145122299205F003B594C /* KVC.md in Resources */,
 				D9B563F720E24A14001AE9A0 /* iphone_menu_data.json in Resources */,
+				D9F93367229D6BD000C7B2E0 /* 关联对象.md in Resources */,
+				D9CFC805229CCA0F009B8399 /* 消息发送.md in Resources */,
+				D9CFC807229CCAB7009B8399 /* 消息转发.md in Resources */,
 				D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */,
 				D9DC05E720DE418A00149124 /* jigsaw_list.json in Resources */,
 				D92D69C420DE359C002BA9C0 /* LaunchScreen.storyboard in Resources */,
@@ -1357,6 +1646,7 @@
 				D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */,
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
 				D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */,
+				D9545B382293AA4B008B6355 /* CQPermanentThreadController.m in Sources */,
 				D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */,
 				D93AB71B2147BE230024C76E /* CQCarFactory.m in Sources */,
 				D9DE6CC320FEE7CE00C8D4FE /* CQHouseModel.m in Sources */,
@@ -1367,9 +1657,11 @@
 				D92D69BC20DE3295002BA9C0 /* CQCategoryView.m in Sources */,
 				D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */,
 				D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */,
+				D9D14515229920CB003B594C /* CQKVCController.m in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
 				D94B650221537A0900F2FD84 /* CQPlaceholderDemoViewController.m in Sources */,
 				D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */,
+				D9CFC803229CC9CA009B8399 /* CQMessageSendController.m in Sources */,
 				D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */,
 				D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */,
 				D9B563F420E240F2001AE9A0 /* CQIphoneViewController.m in Sources */,
@@ -1377,6 +1669,7 @@
 				D9DA0E8920E25291006CEA1C /* CQIphoneRequest.m in Sources */,
 				D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */,
 				D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */,
+				D9F93371229D7D2400C7B2E0 /* CQOperationController.m in Sources */,
 				D94F6A8F20FEE337006BCC6B /* CQFilterViewController.m in Sources */,
 				D9E4248D212D4E3900283CFC /* CQSortModel.m in Sources */,
 				D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */,
@@ -1385,12 +1678,16 @@
 				D9FF65D4212AC0F200B06371 /* CQTimerCellController.m in Sources */,
 				D9E21A88210FF83D00407599 /* CQClassClusterCellA.m in Sources */,
 				D9DDA7CD20E4831F008BD029 /* CQWaterfallCell.m in Sources */,
+				D9D1450D2298F1F5003B594C /* CQRunLoopLifeController.m in Sources */,
 				D9DDA7D020E48339008BD029 /* CQWaterfallModel.m in Sources */,
+				D9CFC821229CFF34009B8399 /* SwiftController.swift in Sources */,
+				D9F9336E229D7CEB00C7B2E0 /* CQPthreadController.m in Sources */,
 				D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */,
 				D984AD122154F06C00610B27 /* CQSortButton.m in Sources */,
 				D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */,
 				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
 				D913F93F2109C08200366887 /* CQContentViewController.m in Sources */,
+				D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */,
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
 				D9E42488212D0E9C00283CFC /* CQSortController.m in Sources */,
@@ -1399,7 +1696,10 @@
 				D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */,
 				D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */,
 				D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */,
+				D9F93369229D787000C7B2E0 /* CQMultiThreadController.swift in Sources */,
 				D9DE6CBD20FEE78100C8D4FE /* CQRegionModel.m in Sources */,
+				D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */,
+				D9545B2A229306FE008B6355 /* CQRunloopController.m in Sources */,
 				D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */,
 				D9E21A7F210F478B00407599 /* CQClassClusterController.m in Sources */,
 				D9E21A8E210FF92500407599 /* CQClassClusterCellC.m in Sources */,
@@ -1413,18 +1713,27 @@
 				D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */,
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
 				D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */,
+				D9CFC81A229CE9F5009B8399 /* CQArchitectureController.m in Sources */,
+				D9545B3B2293AB48008B6355 /* CQThread.m in Sources */,
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
+				D9CFC80A229CDB66009B8399 /* CQKVOController.m in Sources */,
 				D984AD0F2154F05000610B27 /* CQSortButtonDemoController.m in Sources */,
 				D9DE6CC920FEE9C000C8D4FE /* CQFilterCell.m in Sources */,
 				D9E21A85210FF7F500407599 /* CQClassClusterBaseCell.m in Sources */,
+				D9545B27229306E2008B6355 /* CQRuntimeController.m in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
+				D9D14510229917ED003B594C /* CQRunLoop.m in Sources */,
+				D9CFC80D229CE438009B8399 /* Cat2.m in Sources */,
 				D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */,
 				D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */,
+				D9545B3E2293B275008B6355 /* CQRunloopModeController.m in Sources */,
 				D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */,
 				D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */,
+				D9CFC81D229CEA15009B8399 /* CQDesignerController.m in Sources */,
 				D92D3062216B3D8700B57A2D /* CQRippleViewController.m in Sources */,
 				D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
+				D9545B31229396D3008B6355 /* Cat.m in Sources */,
 				D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */,
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,
 				D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */,
@@ -1548,6 +1857,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
@@ -1557,6 +1867,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CaiQiang.Storage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Storage/Items/Tips/Swift/iOS_Storage-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1567,6 +1880,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
@@ -1576,6 +1890,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CaiQiang.Storage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Storage/Items/Tips/Swift/iOS_Storage-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

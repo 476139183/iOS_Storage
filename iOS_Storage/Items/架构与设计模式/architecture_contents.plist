@@ -4,19 +4,19 @@
 <array>
 	<dict>
 		<key>demo_name</key>
-		<string>类族</string>
+		<string>架构模式</string>
 		<key>controller_name</key>
-		<string>CQClassClusterController</string>
+		<string>CQArchitectureController</string>
 		<key>jianshu_url</key>
-		<string>https://www.jianshu.com/p/0dbe99e914ff</string>
+		<string></string>
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>简单工厂</string>
+		<string>设计模式</string>
 		<key>controller_name</key>
-		<string>CQSimpleFactoryViewController</string>
+		<string>CQDesignerController</string>
 		<key>jianshu_url</key>
-		<string>https://www.jianshu.com/p/471d310c37d0</string>
+		<string></string>
 	</dict>
 </array>
 </plist>

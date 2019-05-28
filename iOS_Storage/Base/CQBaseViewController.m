@@ -21,13 +21,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"详情" style:UIBarButtonItemStylePlain target:self action:@selector(detailButtonClicked)];
 }
 
 #pragma mark - 详情按钮点击
 
 - (void)detailButtonClicked {
-    if ([self.jianshuURL isEqualToString:@""]) {
+    if (!self.jianshuURL || [self.jianshuURL isEqualToString:@""]) {
         [SVProgressHUD showInfoWithStatus:@"暂无对应文章"];
         return;
     }
