@@ -63,6 +63,8 @@
 		D984AD122154F06C00610B27 /* CQSortButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D984AD112154F06C00610B27 /* CQSortButton.m */; };
 		D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */; };
 		D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC320E6388300F328F9 /* CQWarnTextField.m */; };
+		D9AC3CA522AFD281007DDBD0 /* MapNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC3CA422AFD281007DDBD0 /* MapNaviViewController.swift */; };
+		D9AC3CAD22AFEDD3007DDBD0 /* CQRouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AC3CAC22AFEDD3007DDBD0 /* CQRouteManager.m */; };
 		D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */; };
 		D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AE0CE220DD02AC00A31D62 /* Assets.xcassets */; };
 		D9AE0CE920DD02AC00A31D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CE820DD02AC00A31D62 /* main.m */; };
@@ -227,6 +229,9 @@
 		D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWarnTextFieldController.m; sourceTree = "<group>"; };
 		D9920CC220E6388300F328F9 /* CQWarnTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextField.h; sourceTree = "<group>"; };
 		D9920CC320E6388300F328F9 /* CQWarnTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWarnTextField.m; sourceTree = "<group>"; };
+		D9AC3CA422AFD281007DDBD0 /* MapNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNaviViewController.swift; sourceTree = "<group>"; };
+		D9AC3CAB22AFEDD3007DDBD0 /* CQRouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQRouteManager.h; sourceTree = "<group>"; };
+		D9AC3CAC22AFEDD3007DDBD0 /* CQRouteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQRouteManager.m; sourceTree = "<group>"; };
 		D9AE0CD620DD02AC00A31D62 /* iOS_Storage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Storage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AE0CD920DD02AC00A31D62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -571,6 +576,7 @@
 				D913F9402109CA7F00366887 /* library_contents.plist */,
 				D94B64FC2153798300F2FD84 /* 通用占位图 */,
 				D94B64FD2153799000F2FD84 /* 弹窗 */,
+				D9AC3CA322AFD1D8007DDBD0 /* 跳转地图APP导航 */,
 			);
 			path = "框架和库";
 			sourceTree = "<group>";
@@ -972,6 +978,24 @@
 				D9920CC320E6388300F328F9 /* CQWarnTextField.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D9AC3CA322AFD1D8007DDBD0 /* 跳转地图APP导航 */ = {
+			isa = PBXGroup;
+			children = (
+				D9AC3CA422AFD281007DDBD0 /* MapNaviViewController.swift */,
+				D9AC3CAA22AFEDD3007DDBD0 /* CQRouteManager */,
+			);
+			path = "跳转地图APP导航";
+			sourceTree = "<group>";
+		};
+		D9AC3CAA22AFEDD3007DDBD0 /* CQRouteManager */ = {
+			isa = PBXGroup;
+			children = (
+				D9AC3CAB22AFEDD3007DDBD0 /* CQRouteManager.h */,
+				D9AC3CAC22AFEDD3007DDBD0 /* CQRouteManager.m */,
+			);
+			path = CQRouteManager;
 			sourceTree = "<group>";
 		};
 		D9AE0CCD20DD02AC00A31D62 = {
@@ -1547,7 +1571,7 @@
 					D9AE0CD520DD02AC00A31D62 = {
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 1010;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1687,6 +1711,7 @@
 				D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */,
 				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
 				D913F93F2109C08200366887 /* CQContentViewController.m in Sources */,
+				D9AC3CAD22AFEDD3007DDBD0 /* CQRouteManager.m in Sources */,
 				D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */,
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
@@ -1725,6 +1750,7 @@
 				D9D14510229917ED003B594C /* CQRunLoop.m in Sources */,
 				D9CFC80D229CE438009B8399 /* Cat2.m in Sources */,
 				D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */,
+				D9AC3CA522AFD281007DDBD0 /* MapNaviViewController.swift in Sources */,
 				D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */,
 				D9545B3E2293B275008B6355 /* CQRunloopModeController.m in Sources */,
 				D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */,
@@ -1858,13 +1884,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J5JWPJ294;
 				INFOPLIST_FILE = iOS_Storage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CaiQiang.Storage;
+				PRODUCT_BUNDLE_IDENTIFIER = CaiQiang.Storage2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Storage/Items/Tips/Swift/iOS_Storage-Bridging-Header.h";
@@ -1881,13 +1908,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J5JWPJ294;
 				INFOPLIST_FILE = iOS_Storage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CaiQiang.Storage;
+				PRODUCT_BUNDLE_IDENTIFIER = CaiQiang.Storage2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Storage/Items/Tips/Swift/iOS_Storage-Bridging-Header.h";

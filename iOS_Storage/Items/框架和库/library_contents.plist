@@ -18,5 +18,13 @@
 		<key>jianshu_url</key>
 		<string></string>
 	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>跳转地图APP导航功能模块</string>
+		<key>controller_name</key>
+		<string>MapNaviViewController</string>
+		<key>jianshu_url</key>
+		<string>https://www.jianshu.com/p/ee83aed42d6d</string>
+	</dict>
 </array>
 </plist>
