@@ -19,6 +19,7 @@
 		D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9412109CDC400366887 /* architecture_contents.plist */; };
 		D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9442109CE0A00366887 /* arithmetic_contents.plist */; };
 		D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D91420AB216B50DD0034ACEA /* CQRippleView.m */; };
+		D91A9F7522B3CF65008F87F1 /* pthread.md in Resources */ = {isa = PBXBuildFile; fileRef = D91A9F7422B3CF65008F87F1 /* pthread.md */; };
 		D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E0221A90E400AC1DEA /* CQSearchController.m */; };
 		D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E3221A910500AC1DEA /* CQSearchModel.m */; };
 		D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */; };
@@ -126,7 +127,6 @@
 		D9EF0EA72110396300755E11 /* class_cluster_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9EF0EA62110394E00755E11 /* class_cluster_data.json */; };
 		D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F2D46D210B178F0088FB90 /* CQGCDController.m */; };
 		D9F93367229D6BD000C7B2E0 /* 关联对象.md in Resources */ = {isa = PBXBuildFile; fileRef = D9F93366229D6BD000C7B2E0 /* 关联对象.md */; };
-		D9F93369229D787000C7B2E0 /* CQMultiThreadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F93368229D787000C7B2E0 /* CQMultiThreadController.swift */; };
 		D9F9336E229D7CEB00C7B2E0 /* CQPthreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F9336D229D7CEB00C7B2E0 /* CQPthreadController.m */; };
 		D9F93371229D7D2400C7B2E0 /* CQOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F93370229D7D2400C7B2E0 /* CQOperationController.m */; };
 		D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F93373229D811B00C7B2E0 /* MultiThreadController.swift */; };
@@ -156,6 +156,7 @@
 		D913F9442109CE0A00366887 /* arithmetic_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = arithmetic_contents.plist; sourceTree = "<group>"; };
 		D91420AA216B50DD0034ACEA /* CQRippleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRippleView.h; sourceTree = "<group>"; };
 		D91420AB216B50DD0034ACEA /* CQRippleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRippleView.m; sourceTree = "<group>"; };
+		D91A9F7422B3CF65008F87F1 /* pthread.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = pthread.md; sourceTree = "<group>"; };
 		D91E53DF221A90E400AC1DEA /* CQSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSearchController.h; sourceTree = "<group>"; };
 		D91E53E0221A90E400AC1DEA /* CQSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSearchController.m; sourceTree = "<group>"; };
 		D91E53E2221A910500AC1DEA /* CQSearchModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSearchModel.h; sourceTree = "<group>"; };
@@ -350,7 +351,6 @@
 		D9F2D46C210B178F0088FB90 /* CQGCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGCDController.h; sourceTree = "<group>"; };
 		D9F2D46D210B178F0088FB90 /* CQGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGCDController.m; sourceTree = "<group>"; };
 		D9F93366229D6BD000C7B2E0 /* 关联对象.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "关联对象.md"; sourceTree = "<group>"; };
-		D9F93368229D787000C7B2E0 /* CQMultiThreadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQMultiThreadController.swift; sourceTree = "<group>"; };
 		D9F9336C229D7CEB00C7B2E0 /* CQPthreadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQPthreadController.h; sourceTree = "<group>"; };
 		D9F9336D229D7CEB00C7B2E0 /* CQPthreadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQPthreadController.m; sourceTree = "<group>"; };
 		D9F9336F229D7D2400C7B2E0 /* CQOperationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQOperationController.h; sourceTree = "<group>"; };
@@ -1169,7 +1169,6 @@
 		D9CFC812229CE64E009B8399 /* 多线程 */ = {
 			isa = PBXGroup;
 			children = (
-				D9F93368229D787000C7B2E0 /* CQMultiThreadController.swift */,
 				D9F93373229D811B00C7B2E0 /* MultiThreadController.swift */,
 				D9F9336A229D7C5100C7B2E0 /* pthread */,
 				D9D64FD32105DD4200379FF2 /* NSThread */,
@@ -1536,6 +1535,7 @@
 		D9F9336A229D7C5100C7B2E0 /* pthread */ = {
 			isa = PBXGroup;
 			children = (
+				D91A9F7422B3CF65008F87F1 /* pthread.md */,
 				D9F9336C229D7CEB00C7B2E0 /* CQPthreadController.h */,
 				D9F9336D229D7CEB00C7B2E0 /* CQPthreadController.m */,
 			);
@@ -1689,6 +1689,7 @@
 				D9019B7922B121AC0039B25D /* 设计模式.md in Resources */,
 				D921F97020FF640B00712042 /* region_list.json in Resources */,
 				D921F97120FF640B00712042 /* department_list.json in Resources */,
+				D91A9F7522B3CF65008F87F1 /* pthread.md in Resources */,
 				D921F97220FF640B00712042 /* house_list.json in Resources */,
 				D94BF43F20E4B6510012C370 /* demo_contents.plist in Resources */,
 				D9D145122299205F003B594C /* KVC.md in Resources */,
@@ -1806,7 +1807,6 @@
 				D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */,
 				D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */,
 				D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */,
-				D9F93369229D787000C7B2E0 /* CQMultiThreadController.swift in Sources */,
 				D9DE6CBD20FEE78100C8D4FE /* CQRegionModel.m in Sources */,
 				D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */,
 				D9545B2A229306FE008B6355 /* CQRunloopController.m in Sources */,

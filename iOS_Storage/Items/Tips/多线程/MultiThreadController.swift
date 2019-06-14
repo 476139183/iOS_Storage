@@ -60,6 +60,7 @@ class MultiThreadController: CQBaseViewController, UITableViewDataSource, UITabl
             vc = CQBaseViewController.init()
         }
         
+        vc.title = self.dataArray[indexPath.row]
         self.navigationController?.pushViewController(vc, animated: true)
     }
 
