@@ -13,14 +13,14 @@
 /**
  路径导航类型
  
- - FVRouteNaviTypeApple: 苹果地图导航
- - FVRouteNaviTypeGaode: 高德地图导航
- - FVRouteNaviTypeBaidu: 百度地图导航
+ - CQRouteNaviTypeApple: 苹果地图导航
+ - CQRouteNaviTypeGaode: 高德地图导航
+ - CQRouteNaviTypeBaidu: 百度地图导航
  */
-typedef NS_ENUM(NSUInteger, FVRouteNaviType) {
-    FVRouteNaviTypeApple,
-    FVRouteNaviTypeGaode,
-    FVRouteNaviTypeBaidu,
+typedef NS_ENUM(NSUInteger, CQRouteNaviType) {
+    CQRouteNaviTypeApple,
+    CQRouteNaviTypeGaode,
+    CQRouteNaviTypeBaidu,
 };
 
 static NSString *_defaultDestinationName = @"目的地";
@@ -102,17 +102,17 @@ static NSString *_defaultDestinationName = @"目的地";
     
     //========== 使用苹果地图导航 ==========//
     if (canOpenAppleMap) {
-        [alertVC addAction:[self p_actionWithNaviType:FVRouteNaviTypeApple title:@"使用苹果自带地图导航" location:location destination:destination]];
+        [alertVC addAction:[self p_actionWithNaviType:CQRouteNaviTypeApple title:@"使用苹果自带地图导航" location:location destination:destination]];
     }
     
     //========== 使用高德地图导航 ==========//
     if (canOpenGaodeMap) {
-        [alertVC addAction:[self p_actionWithNaviType:FVRouteNaviTypeGaode title:@"使用高德地图导航" location:location destination:destination]];
+        [alertVC addAction:[self p_actionWithNaviType:CQRouteNaviTypeGaode title:@"使用高德地图导航" location:location destination:destination]];
     }
     
     //========== 使用百度地图导航 ==========//
     if (canOpenBaiduMap) {
-        [alertVC addAction:[self p_actionWithNaviType:FVRouteNaviTypeBaidu title:@"使用百度地图导航" location:location destination:destination]];
+        [alertVC addAction:[self p_actionWithNaviType:CQRouteNaviTypeBaidu title:@"使用百度地图导航" location:location destination:destination]];
     }
     
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
@@ -121,7 +121,7 @@ static NSString *_defaultDestinationName = @"目的地";
     [controller presentViewController:alertVC animated:YES completion:nil];
 }
 
-+ (UIAlertAction *)p_actionWithNaviType:(FVRouteNaviType)naviType title:(NSString *)title location:(CLLocation *)location destination:(NSString *)destination {
++ (UIAlertAction *)p_actionWithNaviType:(CQRouteNaviType)naviType title:(NSString *)title location:(CLLocation *)location destination:(NSString *)destination {
     // 目的地如果为空，展示名称默认为”目的地“
     NSString *destinationName = destination ?: self.defaultDestinationName;
     
@@ -130,7 +130,7 @@ static NSString *_defaultDestinationName = @"目的地";
     UIAlertAction *action = [UIAlertAction actionWithTitle:title style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         
         switch (naviType) {
-            case FVRouteNaviTypeApple: // 苹果地图
+            case CQRouteNaviTypeApple: // 苹果地图
             {
                 if (location) {
                     CLLocationCoordinate2D loc = CLLocationCoordinate2DMake(location.coordinate.latitude, location.coordinate.longitude);
@@ -147,7 +147,7 @@ static NSString *_defaultDestinationName = @"目的地";
             }
                 break;
                 
-            case FVRouteNaviTypeGaode: // 高德地图
+            case CQRouteNaviTypeGaode: // 高德地图
             {
                 if (location) {
                     // 有坐标时以坐标为准
@@ -159,7 +159,7 @@ static NSString *_defaultDestinationName = @"目的地";
             }
                 break;
                 
-            case FVRouteNaviTypeBaidu: // 百度地图
+            case CQRouteNaviTypeBaidu: // 百度地图
             {
                 if (location) {
                     // 注：高德用的gcj02坐标系

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A1D54CBDAD4583A0F91AB4BA /* libPods-iOS_Storage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301B28545D272BD5207CBC50 /* libPods-iOS_Storage.a */; };
+		D9019B7922B121AC0039B25D /* 设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7822B121AC0039B25D /* 设计模式.md */; };
+		D9019B7C22B13F670039B25D /* 线性表.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7B22B13F670039B25D /* 线性表.md */; };
 		D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7821098B4D00C48E72 /* CQTransitionController.m */; };
 		D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7B21098C9800C48E72 /* CQChangeThemeController.m */; };
 		D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7E21098CBE00C48E72 /* CQCustomButtonController.m */; };
@@ -20,6 +22,8 @@
 		D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E0221A90E400AC1DEA /* CQSearchController.m */; };
 		D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E3221A910500AC1DEA /* CQSearchModel.m */; };
 		D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */; };
+		D920CE8822B37E91000962C0 /* CheckPricacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D920CE8722B37E91000962C0 /* CheckPricacyViewController.swift */; };
+		D920CE8F22B37F47000962C0 /* CQPrivacyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D920CE8E22B37F47000962C0 /* CQPrivacyManager.m */; };
 		D921F97020FF640B00712042 /* region_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD220FF2F0B00C8D4FE /* region_list.json */; };
 		D921F97120FF640B00712042 /* department_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD020FF2F0A00C8D4FE /* department_list.json */; };
 		D921F97220FF640B00712042 /* house_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD120FF2F0A00C8D4FE /* house_list.json */; };
@@ -65,6 +69,9 @@
 		D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC320E6388300F328F9 /* CQWarnTextField.m */; };
 		D9AC3CA522AFD281007DDBD0 /* MapNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC3CA422AFD281007DDBD0 /* MapNaviViewController.swift */; };
 		D9AC3CAD22AFEDD3007DDBD0 /* CQRouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AC3CAC22AFEDD3007DDBD0 /* CQRouteManager.m */; };
+		D9AC3CB222AFFA6F007DDBD0 /* 哈希表.md in Resources */ = {isa = PBXBuildFile; fileRef = D9AC3CB122AFFA6F007DDBD0 /* 哈希表.md */; };
+		D9AC3CB422AFFC94007DDBD0 /* C语言注意点.md in Resources */ = {isa = PBXBuildFile; fileRef = D9AC3CB322AFFC94007DDBD0 /* C语言注意点.md */; };
+		D9AC3CB622AFFDC2007DDBD0 /* 数据结构分类.md in Resources */ = {isa = PBXBuildFile; fileRef = D9AC3CB522AFFDC2007DDBD0 /* 数据结构分类.md */; };
 		D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */; };
 		D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AE0CE220DD02AC00A31D62 /* Assets.xcassets */; };
 		D9AE0CE920DD02AC00A31D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CE820DD02AC00A31D62 /* main.m */; };
@@ -132,6 +139,8 @@
 		0C9CE1801881FD955922EE67 /* Pods-iOS_Storage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Storage.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage.release.xcconfig"; sourceTree = "<group>"; };
 		301B28545D272BD5207CBC50 /* libPods-iOS_Storage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_Storage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF1E659C97B690A8019361A /* Pods-iOS_Storage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Storage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage.debug.xcconfig"; sourceTree = "<group>"; };
+		D9019B7822B121AC0039B25D /* 设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "设计模式.md"; sourceTree = "<group>"; };
+		D9019B7B22B13F670039B25D /* 线性表.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "线性表.md"; sourceTree = "<group>"; };
 		D90C4E7721098B4D00C48E72 /* CQTransitionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTransitionController.h; sourceTree = "<group>"; };
 		D90C4E7821098B4D00C48E72 /* CQTransitionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTransitionController.m; sourceTree = "<group>"; };
 		D90C4E7A21098C9800C48E72 /* CQChangeThemeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChangeThemeController.h; sourceTree = "<group>"; };
@@ -153,6 +162,9 @@
 		D91E53E3221A910500AC1DEA /* CQSearchModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSearchModel.m; sourceTree = "<group>"; };
 		D91EF56021100D2A000D0D43 /* CQClassClusterRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQClassClusterRequest.h; sourceTree = "<group>"; };
 		D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQClassClusterRequest.m; sourceTree = "<group>"; };
+		D920CE8722B37E91000962C0 /* CheckPricacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPricacyViewController.swift; sourceTree = "<group>"; };
+		D920CE8D22B37F47000962C0 /* CQPrivacyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQPrivacyManager.h; sourceTree = "<group>"; };
+		D920CE8E22B37F47000962C0 /* CQPrivacyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQPrivacyManager.m; sourceTree = "<group>"; };
 		D928CED620EA63E100EE5C78 /* CQChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChartController.h; sourceTree = "<group>"; };
 		D928CED720EA63E100EE5C78 /* CQChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQChartController.m; sourceTree = "<group>"; };
 		D928CEDA20EA663A00EE5C78 /* CQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTabBarController.h; sourceTree = "<group>"; };
@@ -232,6 +244,9 @@
 		D9AC3CA422AFD281007DDBD0 /* MapNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNaviViewController.swift; sourceTree = "<group>"; };
 		D9AC3CAB22AFEDD3007DDBD0 /* CQRouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQRouteManager.h; sourceTree = "<group>"; };
 		D9AC3CAC22AFEDD3007DDBD0 /* CQRouteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQRouteManager.m; sourceTree = "<group>"; };
+		D9AC3CB122AFFA6F007DDBD0 /* 哈希表.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "哈希表.md"; sourceTree = "<group>"; };
+		D9AC3CB322AFFC94007DDBD0 /* C语言注意点.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "C语言注意点.md"; sourceTree = "<group>"; };
+		D9AC3CB522AFFDC2007DDBD0 /* 数据结构分类.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "数据结构分类.md"; sourceTree = "<group>"; };
 		D9AE0CD620DD02AC00A31D62 /* iOS_Storage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Storage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AE0CD920DD02AC00A31D62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -378,6 +393,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D9019B7A22B13F450039B25D /* 线性表 */ = {
+			isa = PBXGroup;
+			children = (
+				D9019B7B22B13F670039B25D /* 线性表.md */,
+				D9019B7D22B140C90039B25D /* 线性表的顺序存储结构 */,
+			);
+			path = "线性表";
+			sourceTree = "<group>";
+		};
+		D9019B7D22B140C90039B25D /* 线性表的顺序存储结构 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "线性表的顺序存储结构";
+			sourceTree = "<group>";
+		};
 		D90C4E7521097C2800C48E72 /* CATransition动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -505,6 +536,24 @@
 			path = "子类Cell C";
 			sourceTree = "<group>";
 		};
+		D920CE8622B37DE2000962C0 /* 权限检测 */ = {
+			isa = PBXGroup;
+			children = (
+				D920CE8722B37E91000962C0 /* CheckPricacyViewController.swift */,
+				D920CE8922B37EA3000962C0 /* CQPrivacyManager */,
+			);
+			path = "权限检测";
+			sourceTree = "<group>";
+		};
+		D920CE8922B37EA3000962C0 /* CQPrivacyManager */ = {
+			isa = PBXGroup;
+			children = (
+				D920CE8D22B37F47000962C0 /* CQPrivacyManager.h */,
+				D920CE8E22B37F47000962C0 /* CQPrivacyManager.m */,
+			);
+			path = CQPrivacyManager;
+			sourceTree = "<group>";
+		};
 		D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */ = {
 			isa = PBXGroup;
 			children = (
@@ -577,6 +626,7 @@
 				D94B64FC2153798300F2FD84 /* 通用占位图 */,
 				D94B64FD2153799000F2FD84 /* 弹窗 */,
 				D9AC3CA322AFD1D8007DDBD0 /* 跳转地图APP导航 */,
+				D920CE8622B37DE2000962C0 /* 权限检测 */,
 			);
 			path = "框架和库";
 			sourceTree = "<group>";
@@ -840,6 +890,7 @@
 				D9545B342293A910008B6355 /* 常驻线程 */,
 				D9545B352293A98A008B6355 /* mode切换 */,
 				D9545B3F229524F5008B6355 /* runloop生命周期 */,
+				D9AC3CAE22AFF6B1007DDBD0 /* 自动释放池与runloop */,
 			);
 			path = runloop;
 			sourceTree = "<group>";
@@ -998,6 +1049,29 @@
 			path = CQRouteManager;
 			sourceTree = "<group>";
 		};
+		D9AC3CAE22AFF6B1007DDBD0 /* 自动释放池与runloop */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "自动释放池与runloop";
+			sourceTree = "<group>";
+		};
+		D9AC3CAF22AFFA1A007DDBD0 /* C语言注意点 */ = {
+			isa = PBXGroup;
+			children = (
+				D9AC3CB322AFFC94007DDBD0 /* C语言注意点.md */,
+			);
+			path = "C语言注意点";
+			sourceTree = "<group>";
+		};
+		D9AC3CB022AFFA4E007DDBD0 /* 哈希表 */ = {
+			isa = PBXGroup;
+			children = (
+				D9AC3CB122AFFA6F007DDBD0 /* 哈希表.md */,
+			);
+			path = "哈希表";
+			sourceTree = "<group>";
+		};
 		D9AE0CCD20DD02AC00A31D62 = {
 			isa = PBXGroup;
 			children = (
@@ -1140,6 +1214,7 @@
 		D9CFC817229CE935009B8399 /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
+				D9019B7822B121AC0039B25D /* 设计模式.md */,
 				D9CFC81B229CEA15009B8399 /* CQDesignerController.h */,
 				D9CFC81C229CEA15009B8399 /* CQDesignerController.m */,
 				D9E21A79210F469900407599 /* 类族 */,
@@ -1413,8 +1488,11 @@
 			isa = PBXGroup;
 			children = (
 				D913F9442109CE0A00366887 /* arithmetic_contents.plist */,
+				D9AC3CB522AFFDC2007DDBD0 /* 数据结构分类.md */,
 				D91E53DC221A906400AC1DEA /* 查找 */,
 				D9E42489212D0EA800283CFC /* 排序 */,
+				D9AC3CB022AFFA4E007DDBD0 /* 哈希表 */,
+				D9019B7A22B13F450039B25D /* 线性表 */,
 			);
 			path = "算法与数据结构";
 			sourceTree = "<group>";
@@ -1450,6 +1528,7 @@
 				D9CFC814229CE7C1009B8399 /* fishhook */,
 				D9F93372229D7DA400C7B2E0 /* RAC */,
 				D9CFC81E229CFE2F009B8399 /* Swift */,
+				D9AC3CAF22AFFA1A007DDBD0 /* C语言注意点 */,
 			);
 			path = Tips;
 			sourceTree = "<group>";
@@ -1601,8 +1680,13 @@
 				D9EF0EA72110396300755E11 /* class_cluster_data.json in Resources */,
 				D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */,
 				D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */,
+				D9019B7C22B13F670039B25D /* 线性表.md in Resources */,
 				D913F9422109CDD300366887 /* library_contents.plist in Resources */,
 				D9402A892101E5B500BF792F /* tips_contents.plist in Resources */,
+				D9AC3CB622AFFDC2007DDBD0 /* 数据结构分类.md in Resources */,
+				D9AC3CB422AFFC94007DDBD0 /* C语言注意点.md in Resources */,
+				D9AC3CB222AFFA6F007DDBD0 /* 哈希表.md in Resources */,
+				D9019B7922B121AC0039B25D /* 设计模式.md in Resources */,
 				D921F97020FF640B00712042 /* region_list.json in Resources */,
 				D921F97120FF640B00712042 /* department_list.json in Resources */,
 				D921F97220FF640B00712042 /* house_list.json in Resources */,
@@ -1684,6 +1768,7 @@
 				D9D14515229920CB003B594C /* CQKVCController.m in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
 				D94B650221537A0900F2FD84 /* CQPlaceholderDemoViewController.m in Sources */,
+				D920CE8822B37E91000962C0 /* CheckPricacyViewController.swift in Sources */,
 				D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */,
 				D9CFC803229CC9CA009B8399 /* CQMessageSendController.m in Sources */,
 				D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */,
@@ -1734,6 +1819,7 @@
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
 				D9FF65D9212AC39800B06371 /* CQTimerModel.m in Sources */,
 				D9DA0E8520E251C4006CEA1C /* IphoneMenuItemModel.m in Sources */,
+				D920CE8F22B37F47000962C0 /* CQPrivacyManager.m in Sources */,
 				D9D64FD72105DDA300379FF2 /* CQThreadViewController.m in Sources */,
 				D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */,
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,

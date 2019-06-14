@@ -51,5 +51,13 @@
         <string>iosamap</string>
         <string>baidumap</string>
     </array>
+    
+    <key>NSCameraUsageDescription</key>
+    <string>App需要您的同意才能访问相机，才能使用拍照和扫码功能</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>App需要您的同意才能访问相册，才能使用相册里的图片</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>App需要您的同意才能访问相册，才能将图片保存到相册</string>
+    
 </dict>
 </plist>

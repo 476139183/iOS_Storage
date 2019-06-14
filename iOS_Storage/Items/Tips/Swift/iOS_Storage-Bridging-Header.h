@@ -10,3 +10,5 @@
 #import "CQLockViewController.h"
 #import "CQMultiInterfaceViewController.h"
 #import "CQRouteManager.h"
+#import "CQPrivacyManager.h"
+#import <SVProgressHUD.h>
