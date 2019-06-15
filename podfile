@@ -3,5 +3,6 @@ target 'iOS_Storage' do
 pod 'JSONModel'
 pod 'Masonry'
 pod 'SVProgressHUD'
+pod 'AFNetworking'
 end
 

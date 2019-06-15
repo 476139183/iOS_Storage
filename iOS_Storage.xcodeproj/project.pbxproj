@@ -24,6 +24,9 @@
 		D91A9F7D22B3D89E008F87F1 /* NSTimer+CQBlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F7A22B3D89D008F87F1 /* NSTimer+CQBlockSupport.m */; };
 		D91A9F7F22B3D912008F87F1 /* CountDownButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F7E22B3D912008F87F1 /* CountDownButtonViewController.swift */; };
 		D91A9F8122B482B1008F87F1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D91A9F8022B482B1008F87F1 /* README.md */; };
+		D91A9F8422B490F7008F87F1 /* logo商标识别.md in Resources */ = {isa = PBXBuildFile; fileRef = D91A9F8322B490F7008F87F1 /* logo商标识别.md */; };
+		D91A9F8B22B49390008F87F1 /* CQRecognitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F8A22B49390008F87F1 /* CQRecognitionManager.m */; };
+		D91A9F8E22B49B36008F87F1 /* CQRecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F8D22B49B36008F87F1 /* CQRecognitionViewController.m */; };
 		D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E0221A90E400AC1DEA /* CQSearchController.m */; };
 		D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E3221A910500AC1DEA /* CQSearchModel.m */; };
 		D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */; };
@@ -167,6 +170,11 @@
 		D91A9F7B22B3D89D008F87F1 /* CQCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQCountDownButton.h; sourceTree = "<group>"; };
 		D91A9F7E22B3D912008F87F1 /* CountDownButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownButtonViewController.swift; sourceTree = "<group>"; };
 		D91A9F8022B482B1008F87F1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D91A9F8322B490F7008F87F1 /* logo商标识别.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "logo商标识别.md"; sourceTree = "<group>"; };
+		D91A9F8922B49390008F87F1 /* CQRecognitionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRecognitionManager.h; sourceTree = "<group>"; };
+		D91A9F8A22B49390008F87F1 /* CQRecognitionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRecognitionManager.m; sourceTree = "<group>"; };
+		D91A9F8C22B49B36008F87F1 /* CQRecognitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRecognitionViewController.h; sourceTree = "<group>"; };
+		D91A9F8D22B49B36008F87F1 /* CQRecognitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRecognitionViewController.m; sourceTree = "<group>"; };
 		D91E53DF221A90E400AC1DEA /* CQSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSearchController.h; sourceTree = "<group>"; };
 		D91E53E0221A90E400AC1DEA /* CQSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSearchController.m; sourceTree = "<group>"; };
 		D91E53E2221A910500AC1DEA /* CQSearchModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSearchModel.h; sourceTree = "<group>"; };
@@ -483,6 +491,26 @@
 			path = CQCountDownButton;
 			sourceTree = "<group>";
 		};
+		D91A9F8222B490BB008F87F1 /* logo商标识别 */ = {
+			isa = PBXGroup;
+			children = (
+				D91A9F8322B490F7008F87F1 /* logo商标识别.md */,
+				D91A9F8C22B49B36008F87F1 /* CQRecognitionViewController.h */,
+				D91A9F8D22B49B36008F87F1 /* CQRecognitionViewController.m */,
+				D91A9F8522B492E6008F87F1 /* CQRecognitionManager */,
+			);
+			path = "logo商标识别";
+			sourceTree = "<group>";
+		};
+		D91A9F8522B492E6008F87F1 /* CQRecognitionManager */ = {
+			isa = PBXGroup;
+			children = (
+				D91A9F8922B49390008F87F1 /* CQRecognitionManager.h */,
+				D91A9F8A22B49390008F87F1 /* CQRecognitionManager.m */,
+			);
+			path = CQRecognitionManager;
+			sourceTree = "<group>";
+		};
 		D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -659,6 +687,7 @@
 				D9AC3CA322AFD1D8007DDBD0 /* 跳转地图APP导航 */,
 				D920CE8622B37DE2000962C0 /* 权限检测 */,
 				D91A9F7622B3D801008F87F1 /* 一个很6的倒计时button */,
+				D91A9F8222B490BB008F87F1 /* logo商标识别 */,
 			);
 			path = "框架和库";
 			sourceTree = "<group>";
@@ -1722,6 +1751,7 @@
 				D9019B7922B121AC0039B25D /* 设计模式.md in Resources */,
 				D921F97020FF640B00712042 /* region_list.json in Resources */,
 				D921F97120FF640B00712042 /* department_list.json in Resources */,
+				D91A9F8422B490F7008F87F1 /* logo商标识别.md in Resources */,
 				D91A9F7522B3CF65008F87F1 /* pthread.md in Resources */,
 				D921F97220FF640B00712042 /* house_list.json in Resources */,
 				D94BF43F20E4B6510012C370 /* demo_contents.plist in Resources */,
@@ -1747,7 +1777,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage-resources.sh",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -1756,7 +1786,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8B59D76C5ED06FCD31EB479E /* [CP] Check Pods Manifest.lock */ = {
@@ -1785,6 +1815,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9DA0E7A20E24F5E006CEA1C /* IphoneMenuView.m in Sources */,
+				D91A9F8B22B49390008F87F1 /* CQRecognitionManager.m in Sources */,
 				D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */,
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
 				D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */,
@@ -1793,6 +1824,7 @@
 				D93AB71B2147BE230024C76E /* CQCarFactory.m in Sources */,
 				D9DE6CC320FEE7CE00C8D4FE /* CQHouseModel.m in Sources */,
 				D9E21A8B210FF91100407599 /* CQClassClusterCellB.m in Sources */,
+				D91A9F8E22B49B36008F87F1 /* CQRecognitionViewController.m in Sources */,
 				D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */,
 				D9DA0E8220E2519D006CEA1C /* IphoneListItemModel.m in Sources */,
 				D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */,
