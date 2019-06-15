@@ -20,6 +20,10 @@
 		D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9442109CE0A00366887 /* arithmetic_contents.plist */; };
 		D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D91420AB216B50DD0034ACEA /* CQRippleView.m */; };
 		D91A9F7522B3CF65008F87F1 /* pthread.md in Resources */ = {isa = PBXBuildFile; fileRef = D91A9F7422B3CF65008F87F1 /* pthread.md */; };
+		D91A9F7C22B3D89E008F87F1 /* CQCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F7922B3D89D008F87F1 /* CQCountDownButton.m */; };
+		D91A9F7D22B3D89E008F87F1 /* NSTimer+CQBlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F7A22B3D89D008F87F1 /* NSTimer+CQBlockSupport.m */; };
+		D91A9F7F22B3D912008F87F1 /* CountDownButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F7E22B3D912008F87F1 /* CountDownButtonViewController.swift */; };
+		D91A9F8122B482B1008F87F1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D91A9F8022B482B1008F87F1 /* README.md */; };
 		D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E0221A90E400AC1DEA /* CQSearchController.m */; };
 		D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E3221A910500AC1DEA /* CQSearchModel.m */; };
 		D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */; };
@@ -157,6 +161,12 @@
 		D91420AA216B50DD0034ACEA /* CQRippleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRippleView.h; sourceTree = "<group>"; };
 		D91420AB216B50DD0034ACEA /* CQRippleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRippleView.m; sourceTree = "<group>"; };
 		D91A9F7422B3CF65008F87F1 /* pthread.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = pthread.md; sourceTree = "<group>"; };
+		D91A9F7822B3D89D008F87F1 /* NSTimer+CQBlockSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+CQBlockSupport.h"; sourceTree = "<group>"; };
+		D91A9F7922B3D89D008F87F1 /* CQCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQCountDownButton.m; sourceTree = "<group>"; };
+		D91A9F7A22B3D89D008F87F1 /* NSTimer+CQBlockSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+CQBlockSupport.m"; sourceTree = "<group>"; };
+		D91A9F7B22B3D89D008F87F1 /* CQCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQCountDownButton.h; sourceTree = "<group>"; };
+		D91A9F7E22B3D912008F87F1 /* CountDownButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownButtonViewController.swift; sourceTree = "<group>"; };
+		D91A9F8022B482B1008F87F1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D91E53DF221A90E400AC1DEA /* CQSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSearchController.h; sourceTree = "<group>"; };
 		D91E53E0221A90E400AC1DEA /* CQSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSearchController.m; sourceTree = "<group>"; };
 		D91E53E2221A910500AC1DEA /* CQSearchModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSearchModel.h; sourceTree = "<group>"; };
@@ -452,6 +462,27 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D91A9F7622B3D801008F87F1 /* 一个很6的倒计时button */ = {
+			isa = PBXGroup;
+			children = (
+				D91A9F8022B482B1008F87F1 /* README.md */,
+				D91A9F7E22B3D912008F87F1 /* CountDownButtonViewController.swift */,
+				D91A9F7722B3D89D008F87F1 /* CQCountDownButton */,
+			);
+			path = "一个很6的倒计时button";
+			sourceTree = "<group>";
+		};
+		D91A9F7722B3D89D008F87F1 /* CQCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				D91A9F7B22B3D89D008F87F1 /* CQCountDownButton.h */,
+				D91A9F7922B3D89D008F87F1 /* CQCountDownButton.m */,
+				D91A9F7822B3D89D008F87F1 /* NSTimer+CQBlockSupport.h */,
+				D91A9F7A22B3D89D008F87F1 /* NSTimer+CQBlockSupport.m */,
+			);
+			path = CQCountDownButton;
+			sourceTree = "<group>";
+		};
 		D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -627,6 +658,7 @@
 				D94B64FD2153799000F2FD84 /* 弹窗 */,
 				D9AC3CA322AFD1D8007DDBD0 /* 跳转地图APP导航 */,
 				D920CE8622B37DE2000962C0 /* 权限检测 */,
+				D91A9F7622B3D801008F87F1 /* 一个很6的倒计时button */,
 			);
 			path = "框架和库";
 			sourceTree = "<group>";
@@ -1681,6 +1713,7 @@
 				D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */,
 				D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */,
 				D9019B7C22B13F670039B25D /* 线性表.md in Resources */,
+				D91A9F8122B482B1008F87F1 /* README.md in Resources */,
 				D913F9422109CDD300366887 /* library_contents.plist in Resources */,
 				D9402A892101E5B500BF792F /* tips_contents.plist in Resources */,
 				D9AC3CB622AFFDC2007DDBD0 /* 数据结构分类.md in Resources */,
@@ -1786,6 +1819,7 @@
 				D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */,
 				D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */,
 				D9FF65D4212AC0F200B06371 /* CQTimerCellController.m in Sources */,
+				D91A9F7C22B3D89E008F87F1 /* CQCountDownButton.m in Sources */,
 				D9E21A88210FF83D00407599 /* CQClassClusterCellA.m in Sources */,
 				D9DDA7CD20E4831F008BD029 /* CQWaterfallCell.m in Sources */,
 				D9D1450D2298F1F5003B594C /* CQRunLoopLifeController.m in Sources */,
@@ -1830,6 +1864,7 @@
 				D9CFC80A229CDB66009B8399 /* CQKVOController.m in Sources */,
 				D984AD0F2154F05000610B27 /* CQSortButtonDemoController.m in Sources */,
 				D9DE6CC920FEE9C000C8D4FE /* CQFilterCell.m in Sources */,
+				D91A9F7F22B3D912008F87F1 /* CountDownButtonViewController.swift in Sources */,
 				D9E21A85210FF7F500407599 /* CQClassClusterBaseCell.m in Sources */,
 				D9545B27229306E2008B6355 /* CQRuntimeController.m in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
@@ -1846,6 +1881,7 @@
 				D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
 				D9545B31229396D3008B6355 /* Cat.m in Sources */,
+				D91A9F7D22B3D89E008F87F1 /* NSTimer+CQBlockSupport.m in Sources */,
 				D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */,
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,
 				D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */,

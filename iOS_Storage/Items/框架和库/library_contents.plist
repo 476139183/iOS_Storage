@@ -34,5 +34,13 @@
 		<key>jianshu_url</key>
 		<string></string>
 	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>一个很6的倒计时button</string>
+		<key>controller_name</key>
+		<string>CountDownButtonViewController</string>
+		<key>jianshu_url</key>
+		<string>https://github.com/CaiWanFeng/CQCountDownButton</string>
+	</dict>
 </array>
 </plist>
