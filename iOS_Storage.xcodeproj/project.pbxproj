@@ -19,6 +19,9 @@
 		D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9412109CDC400366887 /* architecture_contents.plist */; };
 		D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9442109CE0A00366887 /* arithmetic_contents.plist */; };
 		D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D91420AB216B50DD0034ACEA /* CQRippleView.m */; };
+		D9179CDE22B7C04F002FCCA0 /* 装饰模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9179CDD22B7C04F002FCCA0 /* 装饰模式.md */; };
+		D9179CE122B7C808002FCCA0 /* CQDecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9179CE022B7C808002FCCA0 /* CQDecoratorViewController.m */; };
+		D9179CE422B7C9DA002FCCA0 /* UIButton+CQBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D9179CE322B7C9DA002FCCA0 /* UIButton+CQBorder.m */; };
 		D91A9F7522B3CF65008F87F1 /* pthread.md in Resources */ = {isa = PBXBuildFile; fileRef = D91A9F7422B3CF65008F87F1 /* pthread.md */; };
 		D91A9F7C22B3D89E008F87F1 /* CQCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F7922B3D89D008F87F1 /* CQCountDownButton.m */; };
 		D91A9F7D22B3D89E008F87F1 /* NSTimer+CQBlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F7A22B3D89D008F87F1 /* NSTimer+CQBlockSupport.m */; };
@@ -171,6 +174,11 @@
 		D913F9442109CE0A00366887 /* arithmetic_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = arithmetic_contents.plist; sourceTree = "<group>"; };
 		D91420AA216B50DD0034ACEA /* CQRippleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRippleView.h; sourceTree = "<group>"; };
 		D91420AB216B50DD0034ACEA /* CQRippleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRippleView.m; sourceTree = "<group>"; };
+		D9179CDD22B7C04F002FCCA0 /* 装饰模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "装饰模式.md"; sourceTree = "<group>"; };
+		D9179CDF22B7C808002FCCA0 /* CQDecoratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQDecoratorViewController.h; sourceTree = "<group>"; };
+		D9179CE022B7C808002FCCA0 /* CQDecoratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQDecoratorViewController.m; sourceTree = "<group>"; };
+		D9179CE222B7C9DA002FCCA0 /* UIButton+CQBorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CQBorder.h"; sourceTree = "<group>"; };
+		D9179CE322B7C9DA002FCCA0 /* UIButton+CQBorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CQBorder.m"; sourceTree = "<group>"; };
 		D91A9F7422B3CF65008F87F1 /* pthread.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = pthread.md; sourceTree = "<group>"; };
 		D91A9F7822B3D89D008F87F1 /* NSTimer+CQBlockSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+CQBlockSupport.h"; sourceTree = "<group>"; };
 		D91A9F7922B3D89D008F87F1 /* CQCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQCountDownButton.m; sourceTree = "<group>"; };
@@ -489,6 +497,18 @@
 				D91420AB216B50DD0034ACEA /* CQRippleView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D9179CDC22B7C02B002FCCA0 /* 装饰模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D9179CDD22B7C04F002FCCA0 /* 装饰模式.md */,
+				D9179CDF22B7C808002FCCA0 /* CQDecoratorViewController.h */,
+				D9179CE022B7C808002FCCA0 /* CQDecoratorViewController.m */,
+				D9179CE222B7C9DA002FCCA0 /* UIButton+CQBorder.h */,
+				D9179CE322B7C9DA002FCCA0 /* UIButton+CQBorder.m */,
+			);
+			path = "装饰模式";
 			sourceTree = "<group>";
 		};
 		D91A9F7622B3D801008F87F1 /* 一个很6的倒计时button */ = {
@@ -1361,6 +1381,7 @@
 				D9E21A79210F469900407599 /* 类族 */,
 				D9CEB3032130E41C00664EF3 /* 简单工厂 */,
 				D9A39F6C22B4C85D00FEA5F5 /* 策略模式 */,
+				D9179CDC22B7C02B002FCCA0 /* 装饰模式 */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -1824,6 +1845,7 @@
 				D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */,
 				D9A39F6E22B4C90900FEA5F5 /* 策略设计模式.md in Resources */,
 				D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */,
+				D9179CDE22B7C04F002FCCA0 /* 装饰模式.md in Resources */,
 				D9019B7C22B13F670039B25D /* 线性表.md in Resources */,
 				D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */,
 				D91A9F8122B482B1008F87F1 /* README.md in Resources */,
@@ -1930,6 +1952,7 @@
 				D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */,
 				D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */,
 				D9D14515229920CB003B594C /* CQKVCController.m in Sources */,
+				D9179CE122B7C808002FCCA0 /* CQDecoratorViewController.m in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
 				D94B650221537A0900F2FD84 /* CQPlaceholderDemoViewController.m in Sources */,
 				D920CE8822B37E91000962C0 /* CheckPricacyViewController.swift in Sources */,
@@ -1963,6 +1986,7 @@
 				D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */,
 				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
 				D913F93F2109C08200366887 /* CQContentViewController.m in Sources */,
+				D9179CE422B7C9DA002FCCA0 /* UIButton+CQBorder.m in Sources */,
 				D9AC3CAD22AFEDD3007DDBD0 /* CQRouteManager.m in Sources */,
 				D9A39F8422B4D36A00FEA5F5 /* CQComponentViewController.m in Sources */,
 				D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */,
