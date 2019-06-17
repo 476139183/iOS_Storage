@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1D54CBDAD4583A0F91AB4BA /* libPods-iOS_Storage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301B28545D272BD5207CBC50 /* libPods-iOS_Storage.a */; };
+		2DD48D054A82B1FD0444D554 /* Pods_iOS_Storage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF420F59937B4D50D139806 /* Pods_iOS_Storage.framework */; };
 		D9019B7922B121AC0039B25D /* 设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7822B121AC0039B25D /* 设计模式.md */; };
 		D9019B7C22B13F670039B25D /* 线性表.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7B22B13F670039B25D /* 线性表.md */; };
 		D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7821098B4D00C48E72 /* CQTransitionController.m */; };
@@ -75,6 +75,15 @@
 		D984AD122154F06C00610B27 /* CQSortButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D984AD112154F06C00610B27 /* CQSortButton.m */; };
 		D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */; };
 		D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC320E6388300F328F9 /* CQWarnTextField.m */; };
+		D9A39F6E22B4C90900FEA5F5 /* 策略设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9A39F6D22B4C90900FEA5F5 /* 策略设计模式.md */; };
+		D9A39F7522B4D06400FEA5F5 /* 架构模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9A39F7422B4D06400FEA5F5 /* 架构模式.md */; };
+		D9A39F7822B4D2CA00FEA5F5 /* CQMVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F7722B4D2CA00FEA5F5 /* CQMVCViewController.m */; };
+		D9A39F7B22B4D2DC00FEA5F5 /* CQMVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F7A22B4D2DC00FEA5F5 /* CQMVPViewController.m */; };
+		D9A39F7E22B4D2EB00FEA5F5 /* CQMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F7D22B4D2EB00FEA5F5 /* CQMVVMViewController.m */; };
+		D9A39F8122B4D30200FEA5F5 /* CQVIPERViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F8022B4D30200FEA5F5 /* CQVIPERViewController.m */; };
+		D9A39F8422B4D36A00FEA5F5 /* CQComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F8322B4D36A00FEA5F5 /* CQComponentViewController.m */; };
+		D9A39F8722B4D51900FEA5F5 /* CQStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F8622B4D51900FEA5F5 /* CQStrategyViewController.m */; };
+		D9A39F8A22B4D8AF00FEA5F5 /* CQStrategyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F8922B4D8AF00FEA5F5 /* CQStrategyManager.m */; };
 		D9AC3CA522AFD281007DDBD0 /* MapNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC3CA422AFD281007DDBD0 /* MapNaviViewController.swift */; };
 		D9AC3CAD22AFEDD3007DDBD0 /* CQRouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AC3CAC22AFEDD3007DDBD0 /* CQRouteManager.m */; };
 		D9AC3CB222AFFA6F007DDBD0 /* 哈希表.md in Resources */ = {isa = PBXBuildFile; fileRef = D9AC3CB122AFFA6F007DDBD0 /* 哈希表.md */; };
@@ -95,8 +104,6 @@
 		D9CFC807229CCAB7009B8399 /* 消息转发.md in Resources */ = {isa = PBXBuildFile; fileRef = D9CFC806229CCAB7009B8399 /* 消息转发.md */; };
 		D9CFC80A229CDB66009B8399 /* CQKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC809229CDB66009B8399 /* CQKVOController.m */; };
 		D9CFC80D229CE438009B8399 /* Cat2.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC80C229CE438009B8399 /* Cat2.m */; };
-		D9CFC81A229CE9F5009B8399 /* CQArchitectureController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC819229CE9F5009B8399 /* CQArchitectureController.m */; };
-		D9CFC81D229CEA15009B8399 /* CQDesignerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC81C229CEA15009B8399 /* CQDesignerController.m */; };
 		D9CFC821229CFF34009B8399 /* SwiftController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC820229CFF34009B8399 /* SwiftController.swift */; };
 		D9D1450D2298F1F5003B594C /* CQRunLoopLifeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D1450C2298F1F5003B594C /* CQRunLoopLifeController.m */; };
 		D9D14510229917ED003B594C /* CQRunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D1450F229917ED003B594C /* CQRunLoop.m */; };
@@ -132,6 +139,7 @@
 		D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */; };
 		D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4EB20E235D400C3090D /* ArrowLabel.m */; };
 		D9EF0EA72110396300755E11 /* class_cluster_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9EF0EA62110394E00755E11 /* class_cluster_data.json */; };
+		D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */ = {isa = PBXBuildFile; fileRef = D9F29C9022B6257F002E10E4 /* 组件化.md */; };
 		D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F2D46D210B178F0088FB90 /* CQGCDController.m */; };
 		D9F93367229D6BD000C7B2E0 /* 关联对象.md in Resources */ = {isa = PBXBuildFile; fileRef = D9F93366229D6BD000C7B2E0 /* 关联对象.md */; };
 		D9F9336E229D7CEB00C7B2E0 /* CQPthreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F9336D229D7CEB00C7B2E0 /* CQPthreadController.m */; };
@@ -144,7 +152,7 @@
 
 /* Begin PBXFileReference section */
 		0C9CE1801881FD955922EE67 /* Pods-iOS_Storage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Storage.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage.release.xcconfig"; sourceTree = "<group>"; };
-		301B28545D272BD5207CBC50 /* libPods-iOS_Storage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_Storage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF420F59937B4D50D139806 /* Pods_iOS_Storage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Storage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF1E659C97B690A8019361A /* Pods-iOS_Storage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Storage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage.debug.xcconfig"; sourceTree = "<group>"; };
 		D9019B7822B121AC0039B25D /* 设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "设计模式.md"; sourceTree = "<group>"; };
 		D9019B7B22B13F670039B25D /* 线性表.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "线性表.md"; sourceTree = "<group>"; };
@@ -260,6 +268,22 @@
 		D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWarnTextFieldController.m; sourceTree = "<group>"; };
 		D9920CC220E6388300F328F9 /* CQWarnTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextField.h; sourceTree = "<group>"; };
 		D9920CC320E6388300F328F9 /* CQWarnTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWarnTextField.m; sourceTree = "<group>"; };
+		D9A39F6D22B4C90900FEA5F5 /* 策略设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "策略设计模式.md"; sourceTree = "<group>"; };
+		D9A39F7422B4D06400FEA5F5 /* 架构模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "架构模式.md"; sourceTree = "<group>"; };
+		D9A39F7622B4D2CA00FEA5F5 /* CQMVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMVCViewController.h; sourceTree = "<group>"; };
+		D9A39F7722B4D2CA00FEA5F5 /* CQMVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMVCViewController.m; sourceTree = "<group>"; };
+		D9A39F7922B4D2DC00FEA5F5 /* CQMVPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMVPViewController.h; sourceTree = "<group>"; };
+		D9A39F7A22B4D2DC00FEA5F5 /* CQMVPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMVPViewController.m; sourceTree = "<group>"; };
+		D9A39F7C22B4D2EB00FEA5F5 /* CQMVVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMVVMViewController.h; sourceTree = "<group>"; };
+		D9A39F7D22B4D2EB00FEA5F5 /* CQMVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMVVMViewController.m; sourceTree = "<group>"; };
+		D9A39F7F22B4D30200FEA5F5 /* CQVIPERViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQVIPERViewController.h; sourceTree = "<group>"; };
+		D9A39F8022B4D30200FEA5F5 /* CQVIPERViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQVIPERViewController.m; sourceTree = "<group>"; };
+		D9A39F8222B4D36A00FEA5F5 /* CQComponentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQComponentViewController.h; sourceTree = "<group>"; };
+		D9A39F8322B4D36A00FEA5F5 /* CQComponentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQComponentViewController.m; sourceTree = "<group>"; };
+		D9A39F8522B4D51900FEA5F5 /* CQStrategyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQStrategyViewController.h; sourceTree = "<group>"; };
+		D9A39F8622B4D51900FEA5F5 /* CQStrategyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQStrategyViewController.m; sourceTree = "<group>"; };
+		D9A39F8822B4D8AF00FEA5F5 /* CQStrategyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQStrategyManager.h; sourceTree = "<group>"; };
+		D9A39F8922B4D8AF00FEA5F5 /* CQStrategyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQStrategyManager.m; sourceTree = "<group>"; };
 		D9AC3CA422AFD281007DDBD0 /* MapNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNaviViewController.swift; sourceTree = "<group>"; };
 		D9AC3CAB22AFEDD3007DDBD0 /* CQRouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQRouteManager.h; sourceTree = "<group>"; };
 		D9AC3CAC22AFEDD3007DDBD0 /* CQRouteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQRouteManager.m; sourceTree = "<group>"; };
@@ -292,10 +316,6 @@
 		D9CFC809229CDB66009B8399 /* CQKVOController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQKVOController.m; sourceTree = "<group>"; };
 		D9CFC80B229CE438009B8399 /* Cat2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat2.h; sourceTree = "<group>"; };
 		D9CFC80C229CE438009B8399 /* Cat2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat2.m; sourceTree = "<group>"; };
-		D9CFC818229CE9F5009B8399 /* CQArchitectureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQArchitectureController.h; sourceTree = "<group>"; };
-		D9CFC819229CE9F5009B8399 /* CQArchitectureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQArchitectureController.m; sourceTree = "<group>"; };
-		D9CFC81B229CEA15009B8399 /* CQDesignerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQDesignerController.h; sourceTree = "<group>"; };
-		D9CFC81C229CEA15009B8399 /* CQDesignerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQDesignerController.m; sourceTree = "<group>"; };
 		D9CFC81F229CFF33009B8399 /* iOS_Storage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_Storage-Bridging-Header.h"; sourceTree = "<group>"; };
 		D9CFC820229CFF34009B8399 /* SwiftController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftController.swift; sourceTree = "<group>"; };
 		D9D1450B2298F1F5003B594C /* CQRunLoopLifeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRunLoopLifeController.h; sourceTree = "<group>"; };
@@ -366,6 +386,7 @@
 		D9E9F4EA20E235D400C3090D /* ArrowLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrowLabel.h; sourceTree = "<group>"; };
 		D9E9F4EB20E235D400C3090D /* ArrowLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrowLabel.m; sourceTree = "<group>"; };
 		D9EF0EA62110394E00755E11 /* class_cluster_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = class_cluster_data.json; sourceTree = "<group>"; };
+		D9F29C9022B6257F002E10E4 /* 组件化.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "组件化.md"; sourceTree = "<group>"; };
 		D9F2D46C210B178F0088FB90 /* CQGCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGCDController.h; sourceTree = "<group>"; };
 		D9F2D46D210B178F0088FB90 /* CQGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGCDController.m; sourceTree = "<group>"; };
 		D9F93366229D6BD000C7B2E0 /* 关联对象.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "关联对象.md"; sourceTree = "<group>"; };
@@ -387,7 +408,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1D54CBDAD4583A0F91AB4BA /* libPods-iOS_Storage.a in Frameworks */,
+				2DD48D054A82B1FD0444D554 /* Pods_iOS_Storage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +427,7 @@
 		6921254FFEDBB56C9D3F2A7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				301B28545D272BD5207CBC50 /* libPods-iOS_Storage.a */,
+				7DF420F59937B4D50D139806 /* Pods_iOS_Storage.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1092,6 +1113,64 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D9A39F6C22B4C85D00FEA5F5 /* 策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D9A39F6D22B4C90900FEA5F5 /* 策略设计模式.md */,
+				D9A39F8522B4D51900FEA5F5 /* CQStrategyViewController.h */,
+				D9A39F8622B4D51900FEA5F5 /* CQStrategyViewController.m */,
+				D9A39F8822B4D8AF00FEA5F5 /* CQStrategyManager.h */,
+				D9A39F8922B4D8AF00FEA5F5 /* CQStrategyManager.m */,
+			);
+			path = "策略模式";
+			sourceTree = "<group>";
+		};
+		D9A39F6F22B4CD8000FEA5F5 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				D9A39F7622B4D2CA00FEA5F5 /* CQMVCViewController.h */,
+				D9A39F7722B4D2CA00FEA5F5 /* CQMVCViewController.m */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		D9A39F7022B4CD8A00FEA5F5 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				D9A39F7922B4D2DC00FEA5F5 /* CQMVPViewController.h */,
+				D9A39F7A22B4D2DC00FEA5F5 /* CQMVPViewController.m */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		D9A39F7122B4CEB800FEA5F5 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				D9A39F7C22B4D2EB00FEA5F5 /* CQMVVMViewController.h */,
+				D9A39F7D22B4D2EB00FEA5F5 /* CQMVVMViewController.m */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		D9A39F7222B4CEC600FEA5F5 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				D9A39F7F22B4D30200FEA5F5 /* CQVIPERViewController.h */,
+				D9A39F8022B4D30200FEA5F5 /* CQVIPERViewController.m */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		D9A39F7322B4CEE400FEA5F5 /* 组件化 */ = {
+			isa = PBXGroup;
+			children = (
+				D9F29C9022B6257F002E10E4 /* 组件化.md */,
+				D9A39F8222B4D36A00FEA5F5 /* CQComponentViewController.h */,
+				D9A39F8322B4D36A00FEA5F5 /* CQComponentViewController.m */,
+			);
+			path = "组件化";
+			sourceTree = "<group>";
+		};
 		D9AC3CA322AFD1D8007DDBD0 /* 跳转地图APP导航 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1265,8 +1344,12 @@
 		D9CFC816229CE92D009B8399 /* 架构模式 */ = {
 			isa = PBXGroup;
 			children = (
-				D9CFC818229CE9F5009B8399 /* CQArchitectureController.h */,
-				D9CFC819229CE9F5009B8399 /* CQArchitectureController.m */,
+				D9A39F7422B4D06400FEA5F5 /* 架构模式.md */,
+				D9A39F6F22B4CD8000FEA5F5 /* MVC */,
+				D9A39F7022B4CD8A00FEA5F5 /* MVP */,
+				D9A39F7122B4CEB800FEA5F5 /* MVVM */,
+				D9A39F7222B4CEC600FEA5F5 /* VIPER */,
+				D9A39F7322B4CEE400FEA5F5 /* 组件化 */,
 			);
 			path = "架构模式";
 			sourceTree = "<group>";
@@ -1275,10 +1358,9 @@
 			isa = PBXGroup;
 			children = (
 				D9019B7822B121AC0039B25D /* 设计模式.md */,
-				D9CFC81B229CEA15009B8399 /* CQDesignerController.h */,
-				D9CFC81C229CEA15009B8399 /* CQDesignerController.m */,
 				D9E21A79210F469900407599 /* 类族 */,
 				D9CEB3032130E41C00664EF3 /* 简单工厂 */,
+				D9A39F6C22B4C85D00FEA5F5 /* 策略模式 */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -1688,7 +1770,7 @@
 				D9AE0CD220DD02AC00A31D62 /* Sources */,
 				D9AE0CD320DD02AC00A31D62 /* Frameworks */,
 				D9AE0CD420DD02AC00A31D62 /* Resources */,
-				27BF7A51FDC5C8699E3CC9B6 /* [CP] Copy Pods Resources */,
+				D532421FCBFB677B43F72748 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1740,8 +1822,10 @@
 			files = (
 				D9EF0EA72110396300755E11 /* class_cluster_data.json in Resources */,
 				D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */,
+				D9A39F6E22B4C90900FEA5F5 /* 策略设计模式.md in Resources */,
 				D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */,
 				D9019B7C22B13F670039B25D /* 线性表.md in Resources */,
+				D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */,
 				D91A9F8122B482B1008F87F1 /* README.md in Resources */,
 				D913F9422109CDD300366887 /* library_contents.plist in Resources */,
 				D9402A892101E5B500BF792F /* tips_contents.plist in Resources */,
@@ -1760,6 +1844,7 @@
 				D9F93367229D6BD000C7B2E0 /* 关联对象.md in Resources */,
 				D9CFC805229CCA0F009B8399 /* 消息发送.md in Resources */,
 				D9CFC807229CCAB7009B8399 /* 消息转发.md in Resources */,
+				D9A39F7522B4D06400FEA5F5 /* 架构模式.md in Resources */,
 				D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */,
 				D9DC05E720DE418A00149124 /* jigsaw_list.json in Resources */,
 				D92D69C420DE359C002BA9C0 /* LaunchScreen.storyboard in Resources */,
@@ -1771,24 +1856,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		27BF7A51FDC5C8699E3CC9B6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage-resources.sh",
-				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8B59D76C5ED06FCD31EB479E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1805,6 +1872,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D532421FCBFB677B43F72748 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1825,6 +1922,7 @@
 				D9DE6CC320FEE7CE00C8D4FE /* CQHouseModel.m in Sources */,
 				D9E21A8B210FF91100407599 /* CQClassClusterCellB.m in Sources */,
 				D91A9F8E22B49B36008F87F1 /* CQRecognitionViewController.m in Sources */,
+				D9A39F8122B4D30200FEA5F5 /* CQVIPERViewController.m in Sources */,
 				D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */,
 				D9DA0E8220E2519D006CEA1C /* IphoneListItemModel.m in Sources */,
 				D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */,
@@ -1857,6 +1955,8 @@
 				D9D1450D2298F1F5003B594C /* CQRunLoopLifeController.m in Sources */,
 				D9DDA7D020E48339008BD029 /* CQWaterfallModel.m in Sources */,
 				D9CFC821229CFF34009B8399 /* SwiftController.swift in Sources */,
+				D9A39F8A22B4D8AF00FEA5F5 /* CQStrategyManager.m in Sources */,
+				D9A39F7822B4D2CA00FEA5F5 /* CQMVCViewController.m in Sources */,
 				D9F9336E229D7CEB00C7B2E0 /* CQPthreadController.m in Sources */,
 				D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */,
 				D984AD122154F06C00610B27 /* CQSortButton.m in Sources */,
@@ -1864,13 +1964,16 @@
 				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
 				D913F93F2109C08200366887 /* CQContentViewController.m in Sources */,
 				D9AC3CAD22AFEDD3007DDBD0 /* CQRouteManager.m in Sources */,
+				D9A39F8422B4D36A00FEA5F5 /* CQComponentViewController.m in Sources */,
 				D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */,
+				D9A39F8722B4D51900FEA5F5 /* CQStrategyViewController.m in Sources */,
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
 				D9E42488212D0E9C00283CFC /* CQSortController.m in Sources */,
 				D9DE6CC020FEE7A800C8D4FE /* CQDepartmentModel.m in Sources */,
 				D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */,
 				D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */,
+				D9A39F7E22B4D2EB00FEA5F5 /* CQMVVMViewController.m in Sources */,
 				D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */,
 				D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */,
 				D9DE6CBD20FEE78100C8D4FE /* CQRegionModel.m in Sources */,
@@ -1890,7 +1993,6 @@
 				D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */,
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
 				D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */,
-				D9CFC81A229CE9F5009B8399 /* CQArchitectureController.m in Sources */,
 				D9545B3B2293AB48008B6355 /* CQThread.m in Sources */,
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
 				D9CFC80A229CDB66009B8399 /* CQKVOController.m in Sources */,
@@ -1908,13 +2010,13 @@
 				D9545B3E2293B275008B6355 /* CQRunloopModeController.m in Sources */,
 				D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */,
 				D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */,
-				D9CFC81D229CEA15009B8399 /* CQDesignerController.m in Sources */,
 				D92D3062216B3D8700B57A2D /* CQRippleViewController.m in Sources */,
 				D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
 				D9545B31229396D3008B6355 /* Cat.m in Sources */,
 				D91A9F7D22B3D89E008F87F1 /* NSTimer+CQBlockSupport.m in Sources */,
 				D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */,
+				D9A39F7B22B4D2DC00FEA5F5 /* CQMVPViewController.m in Sources */,
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,
 				D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */,
 				D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */,

@@ -4,17 +4,65 @@
 <array>
 	<dict>
 		<key>demo_name</key>
-		<string>架构模式</string>
+		<string>MVC</string>
 		<key>controller_name</key>
-		<string>CQArchitectureController</string>
+		<string>CQMVCViewController</string>
 		<key>jianshu_url</key>
 		<string></string>
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>设计模式</string>
+		<string>MVP</string>
 		<key>controller_name</key>
-		<string>CQDesignerController</string>
+		<string>CQMVPViewController</string>
+		<key>jianshu_url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>MVVM</string>
+		<key>controller_name</key>
+		<string>CQMVVMViewController</string>
+		<key>jianshu_url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>VIPER</string>
+		<key>controller_name</key>
+		<string>CQVIPERViewController</string>
+		<key>jianshu_url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>组件化</string>
+		<key>controller_name</key>
+		<string>CQComponentViewController</string>
+		<key>jianshu_url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>类族</string>
+		<key>controller_name</key>
+		<string>CQClassClusterController</string>
+		<key>jianshu_url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>简单工厂</string>
+		<key>controller_name</key>
+		<string>CQSimpleFactoryViewController</string>
+		<key>jianshu_url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>策略模式</string>
+		<key>controller_name</key>
+		<string>CQStrategyViewController</string>
 		<key>jianshu_url</key>
 		<string></string>
 	</dict>

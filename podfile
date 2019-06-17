@@ -1,8 +1,12 @@
 platform:ios,'8.0'
 target 'iOS_Storage' do
+
+use_frameworks!
+
 pod 'JSONModel'
 pod 'Masonry'
 pod 'SVProgressHUD'
 pod 'AFNetworking'
+pod 'YYKit'
 end
 
