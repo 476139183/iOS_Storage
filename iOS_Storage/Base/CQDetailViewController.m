@@ -41,9 +41,27 @@
     //------- webView -------//
     self.webView = [[WKWebView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:self.webView];
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.jianshuURL]]];
     self.webView.navigationDelegate = self;
     [self.webView addObserver:self forKeyPath:@"estimatedProgress" options:NSKeyValueObservingOptionNew context:nil];
+    
+    //========== 加载资源 ==========//
+    if ([self.jianshuURL containsString:@"://"]) {
+        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.jianshuURL]]];
+    } else {
+        //------- 加载本地文件 -------//
+        NSString *path = [[NSBundle mainBundle] pathForResource:self.jianshuURL ofType:nil];
+        NSString *suffix = [[[self.jianshuURL componentsSeparatedByString:@"."] lastObject] lowercaseString];
+        
+        // 加载本地MarkDown
+        if ([suffix isEqualToString:@"md"]) {
+            NSError *error = nil;
+            NSString *str = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+            [self.webView loadHTMLString:str baseURL:nil];
+        } else if ([suffix isEqualToString:@"html"]) {
+            NSLog(@"这是html");
+        }
+    }
+    
     
     //------- 进度条 -------//
     self.progressView = [[UIProgressView alloc] initWithFrame:CGRectMake(0, NAVIGATION_BAR_HEIGHT, SCREEN_WIDTH, 0)];
