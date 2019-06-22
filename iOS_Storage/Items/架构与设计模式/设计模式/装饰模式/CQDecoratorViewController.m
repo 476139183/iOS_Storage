@@ -19,6 +19,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    // colorWithHexString其实就是装饰模式的运用
+    self.view.backgroundColor = [UIColor colorWithHexString:@"333333"];
+    
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(90, 100, 100, 40) borderWidth:1 borderColor:[UIColor blueColor]];
     [self.view addSubview:button];
     [button setTitle:@"装饰模式" forState:UIControlStateNormal];

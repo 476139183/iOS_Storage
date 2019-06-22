@@ -11,5 +11,6 @@
 
 #import "UIView+FrameHelper.h"
 #import "UIView+Util.h"
+#import "UIColor+Util.h"
 
 #endif /* Categories_h */

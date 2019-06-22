@@ -65,6 +65,7 @@
 		D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */; };
 		D94F6A8F20FEE337006BCC6B /* CQFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F6A8E20FEE337006BCC6B /* CQFilterViewController.m */; };
 		D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F6A9220FEE52E006BCC6B /* CQFilterRequest.m */; };
+		D95199E522BDCA6500E3036B /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D95199E422BDCA6500E3036B /* UIColor+Util.m */; };
 		D9545B27229306E2008B6355 /* CQRuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B26229306E2008B6355 /* CQRuntimeController.m */; };
 		D9545B2A229306FE008B6355 /* CQRunloopController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B29229306FE008B6355 /* CQRunloopController.m */; };
 		D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B2D229392CB008B6355 /* CQUnrecognizedSelectorController.m */; };
@@ -250,6 +251,8 @@
 		D94F6A8E20FEE337006BCC6B /* CQFilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFilterViewController.m; sourceTree = "<group>"; };
 		D94F6A9120FEE52E006BCC6B /* CQFilterRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQFilterRequest.h; sourceTree = "<group>"; };
 		D94F6A9220FEE52E006BCC6B /* CQFilterRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFilterRequest.m; sourceTree = "<group>"; };
+		D95199E322BDCA6500E3036B /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Util.h"; path = "../../../../../UIColor+Util.h"; sourceTree = "<group>"; };
+		D95199E422BDCA6500E3036B /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Util.m"; path = "../../../../../UIColor+Util.m"; sourceTree = "<group>"; };
 		D9545B25229306E2008B6355 /* CQRuntimeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRuntimeController.h; sourceTree = "<group>"; };
 		D9545B26229306E2008B6355 /* CQRuntimeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRuntimeController.m; sourceTree = "<group>"; };
 		D9545B28229306FE008B6355 /* CQRunloopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRunloopController.h; sourceTree = "<group>"; };
@@ -509,6 +512,13 @@
 				D9179CE322B7C9DA002FCCA0 /* UIButton+CQBorder.m */,
 			);
 			path = "装饰模式";
+			sourceTree = "<group>";
+		};
+		D9179CE522B7DD21002FCCA0 /* 代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "代理模式";
 			sourceTree = "<group>";
 		};
 		D91A9F7622B3D801008F87F1 /* 一个很6的倒计时button */ = {
@@ -1382,6 +1392,7 @@
 				D9CEB3032130E41C00664EF3 /* 简单工厂 */,
 				D9A39F6C22B4C85D00FEA5F5 /* 策略模式 */,
 				D9179CDC22B7C02B002FCCA0 /* 装饰模式 */,
+				D9179CE522B7DD21002FCCA0 /* 代理模式 */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -1439,6 +1450,8 @@
 			isa = PBXGroup;
 			children = (
 				D9DA5CEC20E290D80098EC68 /* Categories.h */,
+				D95199E322BDCA6500E3036B /* UIColor+Util.h */,
+				D95199E422BDCA6500E3036B /* UIColor+Util.m */,
 				D92D69C920DE36C8002BA9C0 /* UIView+FrameHelper.h */,
 				D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */,
 				D9DA5CEE20E291550098EC68 /* UIView+Util.h */,
@@ -1996,6 +2009,7 @@
 				D9E42488212D0E9C00283CFC /* CQSortController.m in Sources */,
 				D9DE6CC020FEE7A800C8D4FE /* CQDepartmentModel.m in Sources */,
 				D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */,
+				D95199E522BDCA6500E3036B /* UIColor+Util.m in Sources */,
 				D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */,
 				D9A39F7E22B4D2EB00FEA5F5 /* CQMVVMViewController.m in Sources */,
 				D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */,
