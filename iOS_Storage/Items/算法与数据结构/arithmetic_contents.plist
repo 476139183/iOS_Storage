@@ -7,7 +7,7 @@
 		<string>查找</string>
 		<key>controller_name</key>
 		<string>CQSearchController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -15,7 +15,7 @@
 		<string>排序</string>
 		<key>controller_name</key>
 		<string>CQSortController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 </array>

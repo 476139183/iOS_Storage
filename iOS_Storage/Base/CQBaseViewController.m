@@ -29,11 +29,11 @@
 #pragma mark - 详情按钮点击
 
 - (void)detailButtonClicked {
-    if (!self.jianshuURL || [self.jianshuURL isEqualToString:@""]) {
+    if (!self.url || [self.url isEqualToString:@""]) {
         [SVProgressHUD showInfoWithStatus:@"暂无对应文章"];
         return;
     }
-    CQDetailViewController *detailVC = [[CQDetailViewController alloc] initWithTitle:self.title jianshuURL:self.jianshuURL];
+    CQDetailViewController *detailVC = [[CQDetailViewController alloc] initWithTitle:self.title url:self.url];
     [self.navigationController pushViewController:detailVC animated:YES];
 }
 

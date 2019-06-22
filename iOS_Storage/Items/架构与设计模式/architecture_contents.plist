@@ -7,7 +7,7 @@
 		<string>MVC</string>
 		<key>controller_name</key>
 		<string>CQMVCViewController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -15,7 +15,7 @@
 		<string>MVP</string>
 		<key>controller_name</key>
 		<string>CQMVPViewController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -23,7 +23,7 @@
 		<string>MVVM</string>
 		<key>controller_name</key>
 		<string>CQMVVMViewController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -31,7 +31,7 @@
 		<string>VIPER</string>
 		<key>controller_name</key>
 		<string>CQVIPERViewController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -39,7 +39,7 @@
 		<string>组件化</string>
 		<key>controller_name</key>
 		<string>CQComponentViewController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -47,7 +47,7 @@
 		<string>类族</string>
 		<key>controller_name</key>
 		<string>CQClassClusterController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -55,7 +55,7 @@
 		<string>简单工厂</string>
 		<key>controller_name</key>
 		<string>CQSimpleFactoryViewController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -63,7 +63,7 @@
 		<string>策略模式</string>
 		<key>controller_name</key>
 		<string>CQStrategyViewController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -71,7 +71,7 @@
 		<string>装饰模式</string>
 		<key>controller_name</key>
 		<string>CQDecoratorViewController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -79,7 +79,7 @@
 		<string>代理模式</string>
 		<key>controller_name</key>
 		<string>CQDelegateViewController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string>代理模式.md</string>
 	</dict>
 </array>

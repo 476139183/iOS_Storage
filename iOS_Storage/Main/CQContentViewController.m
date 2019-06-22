@@ -89,7 +89,7 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
     }
     
     detailVC.title = model.demo_name;
-    detailVC.jianshuURL = model.jianshu_url;
+    detailVC.url = model.url;
     [self.navigationController pushViewController:detailVC animated:YES];
 }
 

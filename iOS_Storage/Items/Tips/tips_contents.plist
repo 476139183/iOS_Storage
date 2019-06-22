@@ -7,7 +7,7 @@
 		<string>runtime</string>
 		<key>controller_name</key>
 		<string>CQRuntimeController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -15,7 +15,7 @@
 		<string>runloop</string>
 		<key>controller_name</key>
 		<string>CQRunloopController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -23,7 +23,7 @@
 		<string>KVC</string>
 		<key>controller_name</key>
 		<string>CQKVCController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -31,7 +31,7 @@
 		<string>KVO</string>
 		<key>controller_name</key>
 		<string>CQKVOController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -39,7 +39,7 @@
 		<string>多线程</string>
 		<key>controller_name</key>
 		<string>MultiThreadController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -47,7 +47,7 @@
 		<string>锁</string>
 		<key>controller_name</key>
 		<string>CQLockViewController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -55,7 +55,7 @@
 		<string>NSThread</string>
 		<key>controller_name</key>
 		<string>CQThreadViewController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -63,7 +63,7 @@
 		<string>GCD</string>
 		<key>controller_name</key>
 		<string>CQGCDController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -71,7 +71,7 @@
 		<string>属性修饰符</string>
 		<key>controller_name</key>
 		<string></string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
@@ -79,7 +79,7 @@
 		<string>显式动画与隐式动画</string>
 		<key>controller_name</key>
 		<string>CQAnimationViewController</string>
-		<key>jianshu_url</key>
+		<key>url</key>
 		<string></string>
 	</dict>
 </array>

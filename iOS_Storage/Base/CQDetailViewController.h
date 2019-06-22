@@ -14,9 +14,9 @@
  构造方法
 
  @param title 标题
- @param jianshuURL 简书链接
- @return 简书详情页
+ @param url 链接
+ @return 详情页
  */
-- (instancetype)initWithTitle:(NSString *)title jianshuURL:(NSString *)jianshuURL;
+- (instancetype)initWithTitle:(NSString *)title url:(NSString *)url;
 
 @end

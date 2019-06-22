@@ -14,7 +14,7 @@
 @property (nonatomic, copy) NSString *demo_name;
 /** controller的name */
 @property (nonatomic, copy) NSString *controller_name;
-/** 简书的URL */
-@property (nonatomic, copy) NSString *jianshu_url;
+/** URL */
+@property (nonatomic, copy) NSString *url;
 
 @end

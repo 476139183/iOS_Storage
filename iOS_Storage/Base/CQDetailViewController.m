@@ -11,8 +11,8 @@
 
 @interface CQDetailViewController () <WKNavigationDelegate>
 
-/** 简书URL */
-@property (nonatomic, copy) NSString *jianshuURL;
+/** URL */
+@property (nonatomic, copy) NSString *url;
 /** webView */
 @property (nonatomic, strong) WKWebView *webView;
 /** 进度条 */
@@ -24,10 +24,10 @@
 
 #pragma mark - 构造方法
 
-- (instancetype)initWithTitle:(NSString *)title jianshuURL:(NSString *)jianshuURL {
+- (instancetype)initWithTitle:(NSString *)title url:(NSString *)url {
     if (self = [super init]) {
         self.title = title;
-        self.jianshuURL = jianshuURL;
+        self.url = url;
     }
     return self;
 }
@@ -45,12 +45,12 @@
     [self.webView addObserver:self forKeyPath:@"estimatedProgress" options:NSKeyValueObservingOptionNew context:nil];
     
     //========== 加载资源 ==========//
-    if ([self.jianshuURL containsString:@"://"]) {
-        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.jianshuURL]]];
+    if ([self.url containsString:@"://"]) {
+        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.url]]];
     } else {
         //------- 加载本地文件 -------//
-        NSString *path = [[NSBundle mainBundle] pathForResource:self.jianshuURL ofType:nil];
-        NSString *suffix = [[[self.jianshuURL componentsSeparatedByString:@"."] lastObject] lowercaseString];
+        NSString *path = [[NSBundle mainBundle] pathForResource:self.url ofType:nil];
+        NSString *suffix = [[[self.url componentsSeparatedByString:@"."] lastObject] lowercaseString];
         
         // 加载本地MarkDown
         if ([suffix isEqualToString:@"md"]) {
