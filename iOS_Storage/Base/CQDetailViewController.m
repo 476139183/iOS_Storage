@@ -52,13 +52,15 @@
         NSString *path = [[NSBundle mainBundle] pathForResource:self.url ofType:nil];
         NSString *suffix = [[[self.url componentsSeparatedByString:@"."] lastObject] lowercaseString];
         
-        // 加载本地MarkDown
+        NSError *error = nil;
+        NSString *contentStr = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
+        
         if ([suffix isEqualToString:@"md"]) {
-            NSError *error = nil;
-            NSString *str = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
-            [self.webView loadHTMLString:str baseURL:nil];
+            // 加载本地Markdown
+            [self.webView loadHTMLString:[self convertMarkdownToHtmlWithContent:contentStr] baseURL:nil];
         } else if ([suffix isEqualToString:@"html"]) {
-            NSLog(@"这是html");
+            // 加载本地html
+            [self.webView loadHTMLString:contentStr baseURL:nil];
         }
     }
     
@@ -72,6 +74,13 @@
 
 - (void)dealloc {
     [self.webView removeObserver:self forKeyPath:@"estimatedProgress"];
+}
+
+#pragma mark - MarkDown 转 html
+
+- (NSString *)convertMarkdownToHtmlWithContent:(NSString *)content {
+    
+    return content;
 }
 
 #pragma mark - KVO
