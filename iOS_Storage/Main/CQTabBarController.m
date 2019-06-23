@@ -22,7 +22,7 @@
     // 目录
     NSArray *contents = @[@"demo_contents",
                           @"architecture_contents",
-                          @"library_contents",
+                          @"framework_contents",
                           @"arithmetic_contents",
                           @"tips_contents"];
     

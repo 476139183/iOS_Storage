@@ -15,7 +15,7 @@
 		D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7E21098CBE00C48E72 /* CQCustomButtonController.m */; };
 		D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D90CDB1220F05EDA003B9617 /* RoundArrowLabel.m */; };
 		D913F93F2109C08200366887 /* CQContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D913F93E2109C08200366887 /* CQContentViewController.m */; };
-		D913F9422109CDD300366887 /* library_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9402109CA7F00366887 /* library_contents.plist */; };
+		D913F9422109CDD300366887 /* framework_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9402109CA7F00366887 /* framework_contents.plist */; };
 		D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9412109CDC400366887 /* architecture_contents.plist */; };
 		D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9442109CE0A00366887 /* arithmetic_contents.plist */; };
 		D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D91420AB216B50DD0034ACEA /* CQRippleView.m */; };
@@ -71,6 +71,7 @@
 		D95199ED22BDD83C00E3036B /* CQDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D95199EC22BDD83C00E3036B /* CQDemoView.m */; };
 		D95199F022BDF26100E3036B /* 工厂方法模式.html in Resources */ = {isa = PBXBuildFile; fileRef = D95199EF22BDF26100E3036B /* 工厂方法模式.html */; };
 		D95199F322BDF59A00E3036B /* CQFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95199F222BDF59A00E3036B /* CQFactoryViewController.m */; };
+		D95199F722BF287000E3036B /* CQMVVMRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95199F622BF287000E3036B /* CQMVVMRACViewController.m */; };
 		D9545B27229306E2008B6355 /* CQRuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B26229306E2008B6355 /* CQRuntimeController.m */; };
 		D9545B2A229306FE008B6355 /* CQRunloopController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B29229306FE008B6355 /* CQRunloopController.m */; };
 		D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B2D229392CB008B6355 /* CQUnrecognizedSelectorController.m */; };
@@ -175,7 +176,7 @@
 		D90CDB1220F05EDA003B9617 /* RoundArrowLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundArrowLabel.m; sourceTree = "<group>"; };
 		D913F93D2109C08200366887 /* CQContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQContentViewController.h; sourceTree = "<group>"; };
 		D913F93E2109C08200366887 /* CQContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQContentViewController.m; sourceTree = "<group>"; };
-		D913F9402109CA7F00366887 /* library_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = library_contents.plist; sourceTree = "<group>"; };
+		D913F9402109CA7F00366887 /* framework_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = framework_contents.plist; sourceTree = "<group>"; };
 		D913F9412109CDC400366887 /* architecture_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = architecture_contents.plist; sourceTree = "<group>"; };
 		D913F9442109CE0A00366887 /* arithmetic_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = arithmetic_contents.plist; sourceTree = "<group>"; };
 		D91420AA216B50DD0034ACEA /* CQRippleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRippleView.h; sourceTree = "<group>"; };
@@ -266,6 +267,8 @@
 		D95199EF22BDF26100E3036B /* 工厂方法模式.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "工厂方法模式.html"; sourceTree = "<group>"; };
 		D95199F122BDF59A00E3036B /* CQFactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQFactoryViewController.h; sourceTree = "<group>"; };
 		D95199F222BDF59A00E3036B /* CQFactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFactoryViewController.m; sourceTree = "<group>"; };
+		D95199F522BF287000E3036B /* CQMVVMRACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMVVMRACViewController.h; sourceTree = "<group>"; };
+		D95199F622BF287000E3036B /* CQMVVMRACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMVVMRACViewController.m; sourceTree = "<group>"; };
 		D9545B25229306E2008B6355 /* CQRuntimeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRuntimeController.h; sourceTree = "<group>"; };
 		D9545B26229306E2008B6355 /* CQRuntimeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRuntimeController.m; sourceTree = "<group>"; };
 		D9545B28229306FE008B6355 /* CQRunloopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRunloopController.h; sourceTree = "<group>"; };
@@ -750,7 +753,7 @@
 		D92D69A220DE2D95002BA9C0 /* 框架 */ = {
 			isa = PBXGroup;
 			children = (
-				D913F9402109CA7F00366887 /* library_contents.plist */,
+				D913F9402109CA7F00366887 /* framework_contents.plist */,
 				D94B64FC2153798300F2FD84 /* 通用占位图 */,
 				D94B64FD2153799000F2FD84 /* 弹窗 */,
 				D9AC3CA322AFD1D8007DDBD0 /* 跳转地图APP导航 */,
@@ -811,7 +814,7 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
-		D92D69C820DE361E002BA9C0 /* Demos */ = {
+		D92D69C820DE361E002BA9C0 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				D94BF43E20E4B6420012C370 /* demo_contents.plist */,
@@ -829,7 +832,7 @@
 				D984AD0A2154EF5E00610B27 /* 排序button */,
 				D92D305E216B3C7200B57A2D /* 水波动画 */,
 			);
-			path = Demos;
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		D93AB7182147BCF20024C76E /* Factory */ = {
@@ -1006,6 +1009,15 @@
 				D95199F222BDF59A00E3036B /* CQFactoryViewController.m */,
 			);
 			path = "工厂方法模式";
+			sourceTree = "<group>";
+		};
+		D95199F422BF284200E3036B /* MVVM+RAC */ = {
+			isa = PBXGroup;
+			children = (
+				D95199F522BF287000E3036B /* CQMVVMRACViewController.h */,
+				D95199F622BF287000E3036B /* CQMVVMRACViewController.m */,
+			);
+			path = "MVVM+RAC";
 			sourceTree = "<group>";
 		};
 		D9545B2322930645008B6355 /* runtime */ = {
@@ -1302,6 +1314,7 @@
 				D9AE0CE720DD02AC00A31D62 /* Info.plist */,
 				D9AE0CE820DD02AC00A31D62 /* main.m */,
 				D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */,
+				D9CFC81F229CFF33009B8399 /* iOS_Storage-Bridging-Header.h */,
 				D92D69C320DE359C002BA9C0 /* LaunchScreen.storyboard */,
 			);
 			path = iOS_Storage;
@@ -1406,6 +1419,7 @@
 				D9A39F6F22B4CD8000FEA5F5 /* MVC */,
 				D9A39F7022B4CD8A00FEA5F5 /* MVP */,
 				D9A39F7122B4CEB800FEA5F5 /* MVVM */,
+				D95199F422BF284200E3036B /* MVVM+RAC */,
 				D9A39F7222B4CEC600FEA5F5 /* VIPER */,
 				D9A39F7322B4CEE400FEA5F5 /* 组件化 */,
 			);
@@ -1430,7 +1444,6 @@
 			isa = PBXGroup;
 			children = (
 				D9CFC820229CFF34009B8399 /* SwiftController.swift */,
-				D9CFC81F229CFF33009B8399 /* iOS_Storage-Bridging-Header.h */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -1705,7 +1718,7 @@
 		D9F7CC8420EB191500B3C9B9 /* Contents */ = {
 			isa = PBXGroup;
 			children = (
-				D92D69C820DE361E002BA9C0 /* Demos */,
+				D92D69C820DE361E002BA9C0 /* Demo */,
 				D9F7CC8120EB16D800B3C9B9 /* 架构与设计模式 */,
 				D92D69A220DE2D95002BA9C0 /* 框架 */,
 				D9F7CC8220EB171600B3C9B9 /* 算法与数据结构 */,
@@ -1892,7 +1905,7 @@
 				D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */,
 				D95199F022BDF26100E3036B /* 工厂方法模式.html in Resources */,
 				D91A9F8122B482B1008F87F1 /* README.md in Resources */,
-				D913F9422109CDD300366887 /* library_contents.plist in Resources */,
+				D913F9422109CDD300366887 /* framework_contents.plist in Resources */,
 				D9402A892101E5B500BF792F /* tips_contents.plist in Resources */,
 				D9AC3CB622AFFDC2007DDBD0 /* 数据结构分类.md in Resources */,
 				D9AC3CB422AFFC94007DDBD0 /* C语言注意点.md in Resources */,
@@ -2047,6 +2060,7 @@
 				D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */,
 				D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */,
 				D9DE6CBD20FEE78100C8D4FE /* CQRegionModel.m in Sources */,
+				D95199F722BF287000E3036B /* CQMVVMRACViewController.m in Sources */,
 				D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */,
 				D9545B2A229306FE008B6355 /* CQRunloopController.m in Sources */,
 				D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */,
@@ -2222,7 +2236,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CaiQiang.Storage2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Storage/Items/Tips/Swift/iOS_Storage-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Storage/iOS_Storage-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2246,7 +2260,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CaiQiang.Storage2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Storage/Items/Tips/Swift/iOS_Storage-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Storage/iOS_Storage-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

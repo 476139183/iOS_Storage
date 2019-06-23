@@ -28,6 +28,14 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
+		<string>MVVM+RAC</string>
+		<key>controller_name</key>
+		<string>CQMVVMRACViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
 		<string>VIPER</string>
 		<key>controller_name</key>
 		<string>CQVIPERViewController</string>
