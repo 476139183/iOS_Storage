@@ -19,27 +19,30 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    CQContentViewController *demoVC = [[CQContentViewController alloc] initWithContent:@"demo_contents"];
-    UINavigationController *demoNavi = [[UINavigationController alloc] initWithRootViewController:demoVC];
-    demoVC.title = demoNavi.tabBarItem.title = @"demo";
+    // 目录
+    NSArray *contents = @[@"demo_contents",
+                          @"architecture_contents",
+                          @"library_contents",
+                          @"arithmetic_contents",
+                          @"tips_contents"];
     
-    CQContentViewController *architectureVC = [[CQContentViewController alloc] initWithContent:@"architecture_contents"];
-    UINavigationController *architectureNavi = [[UINavigationController alloc] initWithRootViewController:architectureVC];
-    architectureVC.title = architectureNavi.tabBarItem.title = @"架构/设计模式";
+    // 标题
+    NSArray *titles   = @[@"demo",
+                          @"架构/设计模式",
+                          @"框架",
+                          @"算法/数据结构",
+                          @"tips"];
     
-    CQContentViewController *libraryVC = [[CQContentViewController alloc] initWithContent:@"library_contents"];
-    UINavigationController *libraryNavi = [[UINavigationController alloc] initWithRootViewController:libraryVC];
-    libraryVC.title = libraryNavi.tabBarItem.title = @"框架";
+    // controllers
+    NSMutableArray *controllers = [NSMutableArray array];
+    for (int i = 0; i < contents.count; i++) {
+        CQContentViewController *contentVC = [[CQContentViewController alloc] initWithContent:contents[i]];
+        UINavigationController *contentNaviVC = [[UINavigationController alloc] initWithRootViewController:contentVC];
+        contentVC.title = contentNaviVC.tabBarItem.title = titles[i];
+        [controllers addObject:contentNaviVC];
+    }
     
-    CQContentViewController *arithmeticVC = [[CQContentViewController alloc] initWithContent:@"arithmetic_contents"];
-    UINavigationController *arithmeticNavi = [[UINavigationController alloc] initWithRootViewController:arithmeticVC];
-    arithmeticVC.title = arithmeticNavi.tabBarItem.title = @"算法/数据结构";
-    
-    CQContentViewController *interviewVC = [[CQContentViewController alloc] initWithContent:@"tips_contents"];
-    UINavigationController *interviewNavi = [[UINavigationController alloc] initWithRootViewController:interviewVC];
-    interviewVC.title = interviewNavi.tabBarItem.title = @"tips";
-    
-    self.viewControllers = @[demoNavi, architectureNavi, libraryNavi, arithmeticNavi, interviewNavi];
+    self.viewControllers = controllers.copy;
 }
 
 @end

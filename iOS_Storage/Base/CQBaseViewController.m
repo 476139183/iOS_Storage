@@ -33,6 +33,7 @@
         [SVProgressHUD showInfoWithStatus:@"暂无对应文章"];
         return;
     }
+    // 进入详情页
     CQDetailViewController *detailVC = [[CQDetailViewController alloc] initWithTitle:self.title url:self.url];
     [self.navigationController pushViewController:detailVC animated:YES];
 }

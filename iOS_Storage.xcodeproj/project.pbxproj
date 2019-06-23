@@ -69,6 +69,8 @@
 		D95199E722BDCC0200E3036B /* 代理模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D95199E622BDCC0200E3036B /* 代理模式.md */; };
 		D95199EA22BDCC6100E3036B /* CQDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95199E922BDCC6100E3036B /* CQDelegateViewController.m */; };
 		D95199ED22BDD83C00E3036B /* CQDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D95199EC22BDD83C00E3036B /* CQDemoView.m */; };
+		D95199F022BDF26100E3036B /* 工厂方法模式.html in Resources */ = {isa = PBXBuildFile; fileRef = D95199EF22BDF26100E3036B /* 工厂方法模式.html */; };
+		D95199F322BDF59A00E3036B /* CQFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95199F222BDF59A00E3036B /* CQFactoryViewController.m */; };
 		D9545B27229306E2008B6355 /* CQRuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B26229306E2008B6355 /* CQRuntimeController.m */; };
 		D9545B2A229306FE008B6355 /* CQRunloopController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B29229306FE008B6355 /* CQRunloopController.m */; };
 		D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B2D229392CB008B6355 /* CQUnrecognizedSelectorController.m */; };
@@ -261,6 +263,9 @@
 		D95199E922BDCC6100E3036B /* CQDelegateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQDelegateViewController.m; sourceTree = "<group>"; };
 		D95199EB22BDD83C00E3036B /* CQDemoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQDemoView.h; sourceTree = "<group>"; };
 		D95199EC22BDD83C00E3036B /* CQDemoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQDemoView.m; sourceTree = "<group>"; };
+		D95199EF22BDF26100E3036B /* 工厂方法模式.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "工厂方法模式.html"; sourceTree = "<group>"; };
+		D95199F122BDF59A00E3036B /* CQFactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQFactoryViewController.h; sourceTree = "<group>"; };
+		D95199F222BDF59A00E3036B /* CQFactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFactoryViewController.m; sourceTree = "<group>"; };
 		D9545B25229306E2008B6355 /* CQRuntimeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRuntimeController.h; sourceTree = "<group>"; };
 		D9545B26229306E2008B6355 /* CQRuntimeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRuntimeController.m; sourceTree = "<group>"; };
 		D9545B28229306FE008B6355 /* CQRunloopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRunloopController.h; sourceTree = "<group>"; };
@@ -742,7 +747,7 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D92D69A220DE2D95002BA9C0 /* 框架和库 */ = {
+		D92D69A220DE2D95002BA9C0 /* 框架 */ = {
 			isa = PBXGroup;
 			children = (
 				D913F9402109CA7F00366887 /* library_contents.plist */,
@@ -753,7 +758,7 @@
 				D91A9F7622B3D801008F87F1 /* 一个很6的倒计时button */,
 				D91A9F8222B490BB008F87F1 /* logo商标识别 */,
 			);
-			path = "框架和库";
+			path = "框架";
 			sourceTree = "<group>";
 		};
 		D92D69A320DE2DAA002BA9C0 /* 比例拼图 */ = {
@@ -991,6 +996,16 @@
 				D9DE6CC520FEE97700C8D4FE /* CQFilterAlertController.m */,
 			);
 			path = Alert;
+			sourceTree = "<group>";
+		};
+		D95199EE22BDF19000E3036B /* 工厂方法模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D95199EF22BDF26100E3036B /* 工厂方法模式.html */,
+				D95199F122BDF59A00E3036B /* CQFactoryViewController.h */,
+				D95199F222BDF59A00E3036B /* CQFactoryViewController.m */,
+			);
+			path = "工厂方法模式";
 			sourceTree = "<group>";
 		};
 		D9545B2322930645008B6355 /* runtime */ = {
@@ -1278,7 +1293,7 @@
 			children = (
 				D94BF43420E48C4E0012C370 /* Base */,
 				D928CED920EA65E500EE5C78 /* Main */,
-				D9F7CC8420EB191500B3C9B9 /* Items */,
+				D9F7CC8420EB191500B3C9B9 /* Contents */,
 				D92D69C720DE3606002BA9C0 /* Tool */,
 				D9AE0CD920DD02AC00A31D62 /* AppDelegate.h */,
 				D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */,
@@ -1406,6 +1421,7 @@
 				D9A39F6C22B4C85D00FEA5F5 /* 策略模式 */,
 				D9179CDC22B7C02B002FCCA0 /* 装饰模式 */,
 				D9179CE522B7DD21002FCCA0 /* 代理模式 */,
+				D95199EE22BDF19000E3036B /* 工厂方法模式 */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -1686,16 +1702,16 @@
 			path = "算法与数据结构";
 			sourceTree = "<group>";
 		};
-		D9F7CC8420EB191500B3C9B9 /* Items */ = {
+		D9F7CC8420EB191500B3C9B9 /* Contents */ = {
 			isa = PBXGroup;
 			children = (
 				D92D69C820DE361E002BA9C0 /* Demos */,
-				D92D69A220DE2D95002BA9C0 /* 框架和库 */,
 				D9F7CC8120EB16D800B3C9B9 /* 架构与设计模式 */,
+				D92D69A220DE2D95002BA9C0 /* 框架 */,
 				D9F7CC8220EB171600B3C9B9 /* 算法与数据结构 */,
 				D9F7CC8520EB19C700B3C9B9 /* Tips */,
 			);
-			path = Items;
+			path = Contents;
 			sourceTree = "<group>";
 		};
 		D9F7CC8520EB19C700B3C9B9 /* Tips */ = {
@@ -1874,6 +1890,7 @@
 				D9179CDE22B7C04F002FCCA0 /* 装饰模式.md in Resources */,
 				D9019B7C22B13F670039B25D /* 线性表.md in Resources */,
 				D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */,
+				D95199F022BDF26100E3036B /* 工厂方法模式.html in Resources */,
 				D91A9F8122B482B1008F87F1 /* README.md in Resources */,
 				D913F9422109CDD300366887 /* library_contents.plist in Resources */,
 				D9402A892101E5B500BF792F /* tips_contents.plist in Resources */,
@@ -2063,6 +2080,7 @@
 				D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */,
 				D9545B3E2293B275008B6355 /* CQRunloopModeController.m in Sources */,
 				D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */,
+				D95199F322BDF59A00E3036B /* CQFactoryViewController.m in Sources */,
 				D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */,
 				D92D3062216B3D8700B57A2D /* CQRippleViewController.m in Sources */,
 				D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */,

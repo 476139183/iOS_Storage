@@ -48,7 +48,7 @@
 		<key>controller_name</key>
 		<string>CQClassClusterController</string>
 		<key>url</key>
-		<string></string>
+		<string>https://www.jianshu.com/p/0dbe99e914ff</string>
 	</dict>
 	<dict>
 		<key>demo_name</key>
@@ -56,7 +56,7 @@
 		<key>controller_name</key>
 		<string>CQSimpleFactoryViewController</string>
 		<key>url</key>
-		<string></string>
+		<string>https://www.jianshu.com/p/471d310c37d0</string>
 	</dict>
 	<dict>
 		<key>demo_name</key>
@@ -64,7 +64,7 @@
 		<key>controller_name</key>
 		<string>CQStrategyViewController</string>
 		<key>url</key>
-		<string></string>
+		<string>策略设计模式.md</string>
 	</dict>
 	<dict>
 		<key>demo_name</key>
@@ -72,7 +72,7 @@
 		<key>controller_name</key>
 		<string>CQDecoratorViewController</string>
 		<key>url</key>
-		<string></string>
+		<string>装饰模式.md</string>
 	</dict>
 	<dict>
 		<key>demo_name</key>
@@ -81,6 +81,14 @@
 		<string>CQDelegateViewController</string>
 		<key>url</key>
 		<string>代理模式.md</string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>工厂方法模式</string>
+		<key>controller_name</key>
+		<string>CQFactoryViewController</string>
+		<key>url</key>
+		<string>工厂方法模式.html</string>
 	</dict>
 </array>
 </plist>

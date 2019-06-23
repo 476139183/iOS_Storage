@@ -10,7 +10,7 @@
 
 @interface CQContentModel : CQBaseModel
 
-/** demo的name */
+/** demo名称 */
 @property (nonatomic, copy) NSString *demo_name;
 /** controller的name */
 @property (nonatomic, copy) NSString *controller_name;

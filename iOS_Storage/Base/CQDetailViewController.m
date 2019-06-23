@@ -58,12 +58,11 @@
         if ([suffix isEqualToString:@"md"]) {
             // 加载本地Markdown
             [self.webView loadHTMLString:[self convertMarkdownToHtmlWithContent:contentStr] baseURL:nil];
-        } else if ([suffix isEqualToString:@"html"]) {
+        } else if ([suffix containsString:@"htm"]) {
             // 加载本地html
             [self.webView loadHTMLString:contentStr baseURL:nil];
         }
     }
-    
     
     //------- 进度条 -------//
     self.progressView = [[UIProgressView alloc] initWithFrame:CGRectMake(0, NAVIGATION_BAR_HEIGHT, SCREEN_WIDTH, 0)];
@@ -76,10 +75,10 @@
     [self.webView removeObserver:self forKeyPath:@"estimatedProgress"];
 }
 
-#pragma mark - MarkDown 转 html
+#pragma mark - markdown 转 html
 
 - (NSString *)convertMarkdownToHtmlWithContent:(NSString *)content {
-    
+    // 对markdown进行解析。。。
     return content;
 }
 

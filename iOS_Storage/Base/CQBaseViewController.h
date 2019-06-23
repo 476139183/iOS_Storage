@@ -10,7 +10,7 @@
 
 @interface CQBaseViewController : UIViewController
 
-/** 链接 */
+/** 详情页链接 */
 @property (nonatomic, copy) NSString *url;
 
 @end
