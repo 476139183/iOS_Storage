@@ -8,7 +8,7 @@
 		<key>controller_name</key>
 		<string>CQRuntimeController</string>
 		<key>url</key>
-		<string></string>
+		<string>runtime.md</string>
 	</dict>
 	<dict>
 		<key>demo_name</key>

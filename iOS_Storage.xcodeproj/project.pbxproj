@@ -53,6 +53,7 @@
 		D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */; };
 		D92DA5C922C1B4D000E91212 /* PrototypePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D92DA5C822C1B4D000E91212 /* PrototypePerson.m */; };
 		D92DA5CC22C1BAAD00E91212 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D92DA5CA22C1BAAC00E91212 /* UIColor+Util.m */; };
+		D92DA5CE22C1CCE200E91212 /* runtime.md in Resources */ = {isa = PBXBuildFile; fileRef = D92DA5CD22C1CCE200E91212 /* runtime.md */; };
 		D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93AB7162147A9F60024C76E /* CQSimpleFactoryViewController.m */; };
 		D93AB71B2147BE230024C76E /* CQCarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D93AB71A2147BE230024C76E /* CQCarFactory.m */; };
 		D9402A892101E5B500BF792F /* tips_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9402A882101E50800BF792F /* tips_contents.plist */; };
@@ -245,6 +246,7 @@
 		D92DA5C822C1B4D000E91212 /* PrototypePerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypePerson.m; sourceTree = "<group>"; };
 		D92DA5CA22C1BAAC00E91212 /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
 		D92DA5CB22C1BAAC00E91212 /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
+		D92DA5CD22C1CCE200E91212 /* runtime.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = runtime.md; sourceTree = "<group>"; };
 		D93AB7152147A9F60024C76E /* CQSimpleFactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSimpleFactoryViewController.h; sourceTree = "<group>"; };
 		D93AB7162147A9F60024C76E /* CQSimpleFactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSimpleFactoryViewController.m; sourceTree = "<group>"; };
 		D93AB7192147BE230024C76E /* CQCarFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarFactory.h; sourceTree = "<group>"; };
@@ -713,6 +715,13 @@
 			path = CQPrivacyManager;
 			sourceTree = "<group>";
 		};
+		D926BDAA22C26E1D00A2DD3E /* 模板方法模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "模板方法模式";
+			sourceTree = "<group>";
+		};
 		D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1076,6 +1085,7 @@
 		D9545B2322930645008B6355 /* runtime */ = {
 			isa = PBXGroup;
 			children = (
+				D92DA5CD22C1CCE200E91212 /* runtime.md */,
 				D9545B25229306E2008B6355 /* CQRuntimeController.h */,
 				D9545B26229306E2008B6355 /* CQRuntimeController.m */,
 				D9CFC800229CC928009B8399 /* 消息发送 */,
@@ -1490,6 +1500,7 @@
 				D9179CE522B7DD21002FCCA0 /* 代理模式 */,
 				D95199EE22BDF19000E3036B /* 工厂方法模式 */,
 				D9519A0A22BFB33400E3036B /* 原型模式 */,
+				D926BDAA22C26E1D00A2DD3E /* 模板方法模式 */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -1967,6 +1978,7 @@
 				D9AC3CB222AFFA6F007DDBD0 /* 哈希表.md in Resources */,
 				D9019B7922B121AC0039B25D /* 设计模式.md in Resources */,
 				D921F97020FF640B00712042 /* region_list.json in Resources */,
+				D92DA5CE22C1CCE200E91212 /* runtime.md in Resources */,
 				D921F97120FF640B00712042 /* department_list.json in Resources */,
 				D91A9F8422B490F7008F87F1 /* logo商标识别.md in Resources */,
 				D91A9F7522B3CF65008F87F1 /* pthread.md in Resources */,
