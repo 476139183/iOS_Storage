@@ -98,5 +98,13 @@
 		<key>url</key>
 		<string>工厂方法模式.html</string>
 	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>原型模式</string>
+		<key>controller_name</key>
+		<string>CQPrototypeViewController</string>
+		<key>url</key>
+		<string>原型模式.md</string>
+	</dict>
 </array>
 </plist>
