@@ -38,6 +38,8 @@
 		D921F97020FF640B00712042 /* region_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD220FF2F0B00C8D4FE /* region_list.json */; };
 		D921F97120FF640B00712042 /* department_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD020FF2F0A00C8D4FE /* department_list.json */; };
 		D921F97220FF640B00712042 /* house_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD120FF2F0A00C8D4FE /* house_list.json */; };
+		D926BDAC22C273E800A2DD3E /* 模板方法模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDAB22C273E800A2DD3E /* 模板方法模式.md */; };
+		D926BDAF22C2782100A2DD3E /* CQTemplateMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */; };
 		D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CED720EA63E100EE5C78 /* CQChartController.m */; };
 		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
 		D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */; };
@@ -218,6 +220,9 @@
 		D920CE8722B37E91000962C0 /* CheckPricacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPricacyViewController.swift; sourceTree = "<group>"; };
 		D920CE8D22B37F47000962C0 /* CQPrivacyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQPrivacyManager.h; sourceTree = "<group>"; };
 		D920CE8E22B37F47000962C0 /* CQPrivacyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQPrivacyManager.m; sourceTree = "<group>"; };
+		D926BDAB22C273E800A2DD3E /* 模板方法模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "模板方法模式.md"; sourceTree = "<group>"; };
+		D926BDAD22C2782100A2DD3E /* CQTemplateMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTemplateMethodViewController.h; sourceTree = "<group>"; };
+		D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTemplateMethodViewController.m; sourceTree = "<group>"; };
 		D928CED620EA63E100EE5C78 /* CQChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChartController.h; sourceTree = "<group>"; };
 		D928CED720EA63E100EE5C78 /* CQChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQChartController.m; sourceTree = "<group>"; };
 		D928CEDA20EA663A00EE5C78 /* CQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTabBarController.h; sourceTree = "<group>"; };
@@ -718,6 +723,9 @@
 		D926BDAA22C26E1D00A2DD3E /* 模板方法模式 */ = {
 			isa = PBXGroup;
 			children = (
+				D926BDAB22C273E800A2DD3E /* 模板方法模式.md */,
+				D926BDAD22C2782100A2DD3E /* CQTemplateMethodViewController.h */,
+				D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */,
 			);
 			path = "模板方法模式";
 			sourceTree = "<group>";
@@ -1996,6 +2004,7 @@
 				D92D69C420DE359C002BA9C0 /* LaunchScreen.storyboard in Resources */,
 				D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */,
 				D92D69C620DE35B2002BA9C0 /* Main.storyboard in Resources */,
+				D926BDAC22C273E800A2DD3E /* 模板方法模式.md in Resources */,
 				D95199E722BDCC0200E3036B /* 代理模式.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2088,6 +2097,7 @@
 				D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */,
 				D9B563F420E240F2001AE9A0 /* CQIphoneViewController.m in Sources */,
 				D9DDA7CA20E48303008BD029 /* CQWaterfallController.m in Sources */,
+				D926BDAF22C2782100A2DD3E /* CQTemplateMethodViewController.m in Sources */,
 				D9DA0E8920E25291006CEA1C /* CQIphoneRequest.m in Sources */,
 				D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */,
 				D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */,
