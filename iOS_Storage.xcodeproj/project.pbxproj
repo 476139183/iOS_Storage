@@ -40,6 +40,8 @@
 		D921F97220FF640B00712042 /* house_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD120FF2F0A00C8D4FE /* house_list.json */; };
 		D926BDAC22C273E800A2DD3E /* 模板方法模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDAB22C273E800A2DD3E /* 模板方法模式.md */; };
 		D926BDAF22C2782100A2DD3E /* CQTemplateMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */; };
+		D926BDB222C2F52B00A2DD3E /* 外观模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDB122C2F52B00A2DD3E /* 外观模式.md */; };
+		D926BDB522C3226C00A2DD3E /* CQFacadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDB422C3226C00A2DD3E /* CQFacadeViewController.m */; };
 		D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CED720EA63E100EE5C78 /* CQChartController.m */; };
 		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
 		D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */; };
@@ -223,6 +225,9 @@
 		D926BDAB22C273E800A2DD3E /* 模板方法模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "模板方法模式.md"; sourceTree = "<group>"; };
 		D926BDAD22C2782100A2DD3E /* CQTemplateMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTemplateMethodViewController.h; sourceTree = "<group>"; };
 		D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTemplateMethodViewController.m; sourceTree = "<group>"; };
+		D926BDB122C2F52B00A2DD3E /* 外观模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "外观模式.md"; sourceTree = "<group>"; };
+		D926BDB322C3226C00A2DD3E /* CQFacadeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQFacadeViewController.h; sourceTree = "<group>"; };
+		D926BDB422C3226C00A2DD3E /* CQFacadeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFacadeViewController.m; sourceTree = "<group>"; };
 		D928CED620EA63E100EE5C78 /* CQChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChartController.h; sourceTree = "<group>"; };
 		D928CED720EA63E100EE5C78 /* CQChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQChartController.m; sourceTree = "<group>"; };
 		D928CEDA20EA663A00EE5C78 /* CQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTabBarController.h; sourceTree = "<group>"; };
@@ -728,6 +733,16 @@
 				D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */,
 			);
 			path = "模板方法模式";
+			sourceTree = "<group>";
+		};
+		D926BDB022C2F4FA00A2DD3E /* 外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D926BDB122C2F52B00A2DD3E /* 外观模式.md */,
+				D926BDB322C3226C00A2DD3E /* CQFacadeViewController.h */,
+				D926BDB422C3226C00A2DD3E /* CQFacadeViewController.m */,
+			);
+			path = "外观模式";
 			sourceTree = "<group>";
 		};
 		D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */ = {
@@ -1509,6 +1524,7 @@
 				D95199EE22BDF19000E3036B /* 工厂方法模式 */,
 				D9519A0A22BFB33400E3036B /* 原型模式 */,
 				D926BDAA22C26E1D00A2DD3E /* 模板方法模式 */,
+				D926BDB022C2F4FA00A2DD3E /* 外观模式 */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -1997,6 +2013,7 @@
 				D9F93367229D6BD000C7B2E0 /* 关联对象.md in Resources */,
 				D9CFC805229CCA0F009B8399 /* 消息发送.md in Resources */,
 				D9CFC807229CCAB7009B8399 /* 消息转发.md in Resources */,
+				D926BDB222C2F52B00A2DD3E /* 外观模式.md in Resources */,
 				D9519A1122BFB41000E3036B /* CQPrototypeViewController.xib in Resources */,
 				D9A39F7522B4D06400FEA5F5 /* 架构模式.md in Resources */,
 				D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */,
@@ -2165,6 +2182,7 @@
 				D9545B3B2293AB48008B6355 /* CQThread.m in Sources */,
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
 				D9CFC80A229CDB66009B8399 /* CQKVOController.m in Sources */,
+				D926BDB522C3226C00A2DD3E /* CQFacadeViewController.m in Sources */,
 				D984AD0F2154F05000610B27 /* CQSortButtonDemoController.m in Sources */,
 				D92DA5C922C1B4D000E91212 /* PrototypePerson.m in Sources */,
 				D9DE6CC920FEE9C000C8D4FE /* CQFilterCell.m in Sources */,
