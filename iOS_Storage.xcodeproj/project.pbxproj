@@ -42,6 +42,8 @@
 		D926BDAF22C2782100A2DD3E /* CQTemplateMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */; };
 		D926BDB222C2F52B00A2DD3E /* 外观模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDB122C2F52B00A2DD3E /* 外观模式.md */; };
 		D926BDB522C3226C00A2DD3E /* CQFacadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDB422C3226C00A2DD3E /* CQFacadeViewController.m */; };
+		D926BDB822C33EB600A2DD3E /* 建造者模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDB722C33EB600A2DD3E /* 建造者模式.md */; };
+		D926BDBB22C33FDF00A2DD3E /* CQBuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDBA22C33FDF00A2DD3E /* CQBuilderViewController.m */; };
 		D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CED720EA63E100EE5C78 /* CQChartController.m */; };
 		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
 		D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */; };
@@ -228,6 +230,9 @@
 		D926BDB122C2F52B00A2DD3E /* 外观模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "外观模式.md"; sourceTree = "<group>"; };
 		D926BDB322C3226C00A2DD3E /* CQFacadeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQFacadeViewController.h; sourceTree = "<group>"; };
 		D926BDB422C3226C00A2DD3E /* CQFacadeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFacadeViewController.m; sourceTree = "<group>"; };
+		D926BDB722C33EB600A2DD3E /* 建造者模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "建造者模式.md"; sourceTree = "<group>"; };
+		D926BDB922C33FDF00A2DD3E /* CQBuilderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQBuilderViewController.h; sourceTree = "<group>"; };
+		D926BDBA22C33FDF00A2DD3E /* CQBuilderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBuilderViewController.m; sourceTree = "<group>"; };
 		D928CED620EA63E100EE5C78 /* CQChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChartController.h; sourceTree = "<group>"; };
 		D928CED720EA63E100EE5C78 /* CQChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQChartController.m; sourceTree = "<group>"; };
 		D928CEDA20EA663A00EE5C78 /* CQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTabBarController.h; sourceTree = "<group>"; };
@@ -743,6 +748,16 @@
 				D926BDB422C3226C00A2DD3E /* CQFacadeViewController.m */,
 			);
 			path = "外观模式";
+			sourceTree = "<group>";
+		};
+		D926BDB622C33E7B00A2DD3E /* 建造者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D926BDB722C33EB600A2DD3E /* 建造者模式.md */,
+				D926BDB922C33FDF00A2DD3E /* CQBuilderViewController.h */,
+				D926BDBA22C33FDF00A2DD3E /* CQBuilderViewController.m */,
+			);
+			path = "建造者模式";
 			sourceTree = "<group>";
 		};
 		D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */ = {
@@ -1525,6 +1540,7 @@
 				D9519A0A22BFB33400E3036B /* 原型模式 */,
 				D926BDAA22C26E1D00A2DD3E /* 模板方法模式 */,
 				D926BDB022C2F4FA00A2DD3E /* 外观模式 */,
+				D926BDB622C33E7B00A2DD3E /* 建造者模式 */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -1992,6 +2008,7 @@
 				D9179CDE22B7C04F002FCCA0 /* 装饰模式.md in Resources */,
 				D9019B7C22B13F670039B25D /* 线性表.md in Resources */,
 				D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */,
+				D926BDB822C33EB600A2DD3E /* 建造者模式.md in Resources */,
 				D95199F022BDF26100E3036B /* 工厂方法模式.html in Resources */,
 				D91A9F8122B482B1008F87F1 /* README.md in Resources */,
 				D913F9422109CDD300366887 /* framework_contents.plist in Resources */,
@@ -2162,6 +2179,7 @@
 				D9DE6CBD20FEE78100C8D4FE /* CQRegionModel.m in Sources */,
 				D95199F722BF287000E3036B /* CQMVVMRACViewController.m in Sources */,
 				D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */,
+				D926BDBB22C33FDF00A2DD3E /* CQBuilderViewController.m in Sources */,
 				D9545B2A229306FE008B6355 /* CQRunloopController.m in Sources */,
 				D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */,
 				D9E21A7F210F478B00407599 /* CQClassClusterController.m in Sources */,
