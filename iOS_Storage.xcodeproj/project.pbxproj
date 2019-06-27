@@ -55,6 +55,8 @@
 		D926BDD622C4963B00A2DD3E /* NoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDD522C4963B00A2DD3E /* NoonState.m */; };
 		D926BDD922C496B800A2DD3E /* AfternoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDD822C496B800A2DD3E /* AfternoonState.m */; };
 		D926BDDC22C497BA00A2DD3E /* Work.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDDB22C497BA00A2DD3E /* Work.m */; };
+		D926BDDF22C4AF7B00A2DD3E /* 适配器模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDDE22C4AF7B00A2DD3E /* 适配器模式.md */; };
+		D926BDE222C4B5B300A2DD3E /* CQAdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDE122C4B5B300A2DD3E /* CQAdapterViewController.m */; };
 		D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CED720EA63E100EE5C78 /* CQChartController.m */; };
 		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
 		D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */; };
@@ -263,6 +265,9 @@
 		D926BDD822C496B800A2DD3E /* AfternoonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfternoonState.m; sourceTree = "<group>"; };
 		D926BDDA22C497BA00A2DD3E /* Work.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Work.h; sourceTree = "<group>"; };
 		D926BDDB22C497BA00A2DD3E /* Work.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Work.m; sourceTree = "<group>"; };
+		D926BDDE22C4AF7B00A2DD3E /* 适配器模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "适配器模式.md"; sourceTree = "<group>"; };
+		D926BDE022C4B5B300A2DD3E /* CQAdapterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQAdapterViewController.h; sourceTree = "<group>"; };
+		D926BDE122C4B5B300A2DD3E /* CQAdapterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQAdapterViewController.m; sourceTree = "<group>"; };
 		D928CED620EA63E100EE5C78 /* CQChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChartController.h; sourceTree = "<group>"; };
 		D928CED720EA63E100EE5C78 /* CQChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQChartController.m; sourceTree = "<group>"; };
 		D928CEDA20EA663A00EE5C78 /* CQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTabBarController.h; sourceTree = "<group>"; };
@@ -828,6 +833,16 @@
 				D926BDDB22C497BA00A2DD3E /* Work.m */,
 			);
 			path = "状态模式";
+			sourceTree = "<group>";
+		};
+		D926BDDD22C4AF4300A2DD3E /* 适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D926BDDE22C4AF7B00A2DD3E /* 适配器模式.md */,
+				D926BDE022C4B5B300A2DD3E /* CQAdapterViewController.h */,
+				D926BDE122C4B5B300A2DD3E /* CQAdapterViewController.m */,
+			);
+			path = "适配器模式";
 			sourceTree = "<group>";
 		};
 		D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */ = {
@@ -1614,6 +1629,7 @@
 				D926BDBC22C3496F00A2DD3E /* 观察者模式 */,
 				D926BDC222C4804300A2DD3E /* 抽象工厂模式 */,
 				D926BDC822C488E800A2DD3E /* 状态模式 */,
+				D926BDDD22C4AF4300A2DD3E /* 适配器模式 */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -2110,6 +2126,7 @@
 				D9519A1122BFB41000E3036B /* CQPrototypeViewController.xib in Resources */,
 				D9A39F7522B4D06400FEA5F5 /* 架构模式.md in Resources */,
 				D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */,
+				D926BDDF22C4AF7B00A2DD3E /* 适配器模式.md in Resources */,
 				D9DC05E720DE418A00149124 /* jigsaw_list.json in Resources */,
 				D92D69C420DE359C002BA9C0 /* LaunchScreen.storyboard in Resources */,
 				D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */,
@@ -2304,6 +2321,7 @@
 				D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */,
 				D92D3062216B3D8700B57A2D /* CQRippleViewController.m in Sources */,
 				D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */,
+				D926BDE222C4B5B300A2DD3E /* CQAdapterViewController.m in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
 				D9545B31229396D3008B6355 /* Cat.m in Sources */,
 				D91A9F7D22B3D89E008F87F1 /* NSTimer+CQBlockSupport.m in Sources */,

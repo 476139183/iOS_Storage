@@ -154,5 +154,13 @@
 		<key>url</key>
 		<string>状态模式.md</string>
 	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>适配器模式</string>
+		<key>controller_name</key>
+		<string>CQAdapterViewController</string>
+		<key>url</key>
+		<string>适配器模式.md</string>
+	</dict>
 </array>
 </plist>
