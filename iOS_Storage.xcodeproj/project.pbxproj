@@ -48,6 +48,13 @@
 		D926BDC122C34B6900A2DD3E /* CQObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDC022C34B6900A2DD3E /* CQObserverViewController.m */; };
 		D926BDC422C486F200A2DD3E /* 抽象工厂模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDC322C486F200A2DD3E /* 抽象工厂模式.md */; };
 		D926BDC722C487CB00A2DD3E /* CQAbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDC622C487CB00A2DD3E /* CQAbstractFactoryViewController.m */; };
+		D926BDCA22C48E5200A2DD3E /* 状态模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDC922C48E5200A2DD3E /* 状态模式.md */; };
+		D926BDCD22C4934900A2DD3E /* CQStateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDCC22C4934900A2DD3E /* CQStateViewController.m */; };
+		D926BDD022C4945800A2DD3E /* TimeState.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDCF22C4945800A2DD3E /* TimeState.m */; };
+		D926BDD322C495F600A2DD3E /* ForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDD222C495F600A2DD3E /* ForenoonState.m */; };
+		D926BDD622C4963B00A2DD3E /* NoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDD522C4963B00A2DD3E /* NoonState.m */; };
+		D926BDD922C496B800A2DD3E /* AfternoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDD822C496B800A2DD3E /* AfternoonState.m */; };
+		D926BDDC22C497BA00A2DD3E /* Work.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDDB22C497BA00A2DD3E /* Work.m */; };
 		D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CED720EA63E100EE5C78 /* CQChartController.m */; };
 		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
 		D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */; };
@@ -243,6 +250,19 @@
 		D926BDC322C486F200A2DD3E /* 抽象工厂模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "抽象工厂模式.md"; sourceTree = "<group>"; };
 		D926BDC522C487CB00A2DD3E /* CQAbstractFactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQAbstractFactoryViewController.h; sourceTree = "<group>"; };
 		D926BDC622C487CB00A2DD3E /* CQAbstractFactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQAbstractFactoryViewController.m; sourceTree = "<group>"; };
+		D926BDC922C48E5200A2DD3E /* 状态模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "状态模式.md"; sourceTree = "<group>"; };
+		D926BDCB22C4934900A2DD3E /* CQStateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQStateViewController.h; sourceTree = "<group>"; };
+		D926BDCC22C4934900A2DD3E /* CQStateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQStateViewController.m; sourceTree = "<group>"; };
+		D926BDCE22C4945800A2DD3E /* TimeState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeState.h; sourceTree = "<group>"; };
+		D926BDCF22C4945800A2DD3E /* TimeState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeState.m; sourceTree = "<group>"; };
+		D926BDD122C495F600A2DD3E /* ForenoonState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForenoonState.h; sourceTree = "<group>"; };
+		D926BDD222C495F600A2DD3E /* ForenoonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForenoonState.m; sourceTree = "<group>"; };
+		D926BDD422C4963B00A2DD3E /* NoonState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoonState.h; sourceTree = "<group>"; };
+		D926BDD522C4963B00A2DD3E /* NoonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoonState.m; sourceTree = "<group>"; };
+		D926BDD722C496B800A2DD3E /* AfternoonState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AfternoonState.h; sourceTree = "<group>"; };
+		D926BDD822C496B800A2DD3E /* AfternoonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfternoonState.m; sourceTree = "<group>"; };
+		D926BDDA22C497BA00A2DD3E /* Work.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Work.h; sourceTree = "<group>"; };
+		D926BDDB22C497BA00A2DD3E /* Work.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Work.m; sourceTree = "<group>"; };
 		D928CED620EA63E100EE5C78 /* CQChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChartController.h; sourceTree = "<group>"; };
 		D928CED720EA63E100EE5C78 /* CQChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQChartController.m; sourceTree = "<group>"; };
 		D928CEDA20EA663A00EE5C78 /* CQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTabBarController.h; sourceTree = "<group>"; };
@@ -788,6 +808,26 @@
 				D926BDC622C487CB00A2DD3E /* CQAbstractFactoryViewController.m */,
 			);
 			path = "抽象工厂模式";
+			sourceTree = "<group>";
+		};
+		D926BDC822C488E800A2DD3E /* 状态模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D926BDC922C48E5200A2DD3E /* 状态模式.md */,
+				D926BDCB22C4934900A2DD3E /* CQStateViewController.h */,
+				D926BDCC22C4934900A2DD3E /* CQStateViewController.m */,
+				D926BDCE22C4945800A2DD3E /* TimeState.h */,
+				D926BDCF22C4945800A2DD3E /* TimeState.m */,
+				D926BDD122C495F600A2DD3E /* ForenoonState.h */,
+				D926BDD222C495F600A2DD3E /* ForenoonState.m */,
+				D926BDD422C4963B00A2DD3E /* NoonState.h */,
+				D926BDD522C4963B00A2DD3E /* NoonState.m */,
+				D926BDD722C496B800A2DD3E /* AfternoonState.h */,
+				D926BDD822C496B800A2DD3E /* AfternoonState.m */,
+				D926BDDA22C497BA00A2DD3E /* Work.h */,
+				D926BDDB22C497BA00A2DD3E /* Work.m */,
+			);
+			path = "状态模式";
 			sourceTree = "<group>";
 		};
 		D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */ = {
@@ -1573,6 +1613,7 @@
 				D926BDB622C33E7B00A2DD3E /* 建造者模式 */,
 				D926BDBC22C3496F00A2DD3E /* 观察者模式 */,
 				D926BDC222C4804300A2DD3E /* 抽象工厂模式 */,
+				D926BDC822C488E800A2DD3E /* 状态模式 */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -2054,6 +2095,7 @@
 				D92DA5CE22C1CCE200E91212 /* runtime.md in Resources */,
 				D921F97120FF640B00712042 /* department_list.json in Resources */,
 				D91A9F8422B490F7008F87F1 /* logo商标识别.md in Resources */,
+				D926BDCA22C48E5200A2DD3E /* 状态模式.md in Resources */,
 				D91A9F7522B3CF65008F87F1 /* pthread.md in Resources */,
 				D921F97220FF640B00712042 /* house_list.json in Resources */,
 				D94BF43F20E4B6510012C370 /* demo_contents.plist in Resources */,
@@ -2135,6 +2177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D926BDD922C496B800A2DD3E /* AfternoonState.m in Sources */,
 				D9DA0E7A20E24F5E006CEA1C /* IphoneMenuView.m in Sources */,
 				D91A9F8B22B49390008F87F1 /* CQRecognitionManager.m in Sources */,
 				D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */,
@@ -2157,11 +2200,14 @@
 				D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */,
 				D9D14515229920CB003B594C /* CQKVCController.m in Sources */,
 				D9179CE122B7C808002FCCA0 /* CQDecoratorViewController.m in Sources */,
+				D926BDD022C4945800A2DD3E /* TimeState.m in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
+				D926BDCD22C4934900A2DD3E /* CQStateViewController.m in Sources */,
 				D94B650221537A0900F2FD84 /* CQPlaceholderDemoViewController.m in Sources */,
 				D920CE8822B37E91000962C0 /* CheckPricacyViewController.swift in Sources */,
 				D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */,
 				D9CFC803229CC9CA009B8399 /* CQMessageSendController.m in Sources */,
+				D926BDD622C4963B00A2DD3E /* NoonState.m in Sources */,
 				D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */,
 				D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */,
 				D9B563F420E240F2001AE9A0 /* CQIphoneViewController.m in Sources */,
@@ -2229,6 +2275,7 @@
 				D95199ED22BDD83C00E3036B /* CQDemoView.m in Sources */,
 				D9DA0E8520E251C4006CEA1C /* IphoneMenuItemModel.m in Sources */,
 				D920CE8F22B37F47000962C0 /* CQPrivacyManager.m in Sources */,
+				D926BDD322C495F600A2DD3E /* ForenoonState.m in Sources */,
 				D9D64FD72105DDA300379FF2 /* CQThreadViewController.m in Sources */,
 				D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */,
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
@@ -2246,6 +2293,7 @@
 				D9545B27229306E2008B6355 /* CQRuntimeController.m in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
 				D9D14510229917ED003B594C /* CQRunLoop.m in Sources */,
+				D926BDDC22C497BA00A2DD3E /* Work.m in Sources */,
 				D9CFC80D229CE438009B8399 /* Cat2.m in Sources */,
 				D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */,
 				D9AC3CA522AFD281007DDBD0 /* MapNaviViewController.swift in Sources */,
