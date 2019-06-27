@@ -138,5 +138,13 @@
 		<key>url</key>
 		<string>观察者模式.md</string>
 	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>抽象工厂模式</string>
+		<key>controller_name</key>
+		<string>CQAbstractFactoryViewController</string>
+		<key>url</key>
+		<string>抽象工厂模式.md</string>
+	</dict>
 </array>
 </plist>

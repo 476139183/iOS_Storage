@@ -46,6 +46,8 @@
 		D926BDBB22C33FDF00A2DD3E /* CQBuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDBA22C33FDF00A2DD3E /* CQBuilderViewController.m */; };
 		D926BDBE22C349B100A2DD3E /* 观察者模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDBD22C349B100A2DD3E /* 观察者模式.md */; };
 		D926BDC122C34B6900A2DD3E /* CQObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDC022C34B6900A2DD3E /* CQObserverViewController.m */; };
+		D926BDC422C486F200A2DD3E /* 抽象工厂模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDC322C486F200A2DD3E /* 抽象工厂模式.md */; };
+		D926BDC722C487CB00A2DD3E /* CQAbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDC622C487CB00A2DD3E /* CQAbstractFactoryViewController.m */; };
 		D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CED720EA63E100EE5C78 /* CQChartController.m */; };
 		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
 		D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */; };
@@ -238,6 +240,9 @@
 		D926BDBD22C349B100A2DD3E /* 观察者模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "观察者模式.md"; sourceTree = "<group>"; };
 		D926BDBF22C34B6900A2DD3E /* CQObserverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQObserverViewController.h; sourceTree = "<group>"; };
 		D926BDC022C34B6900A2DD3E /* CQObserverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQObserverViewController.m; sourceTree = "<group>"; };
+		D926BDC322C486F200A2DD3E /* 抽象工厂模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "抽象工厂模式.md"; sourceTree = "<group>"; };
+		D926BDC522C487CB00A2DD3E /* CQAbstractFactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQAbstractFactoryViewController.h; sourceTree = "<group>"; };
+		D926BDC622C487CB00A2DD3E /* CQAbstractFactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQAbstractFactoryViewController.m; sourceTree = "<group>"; };
 		D928CED620EA63E100EE5C78 /* CQChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChartController.h; sourceTree = "<group>"; };
 		D928CED720EA63E100EE5C78 /* CQChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQChartController.m; sourceTree = "<group>"; };
 		D928CEDA20EA663A00EE5C78 /* CQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTabBarController.h; sourceTree = "<group>"; };
@@ -773,6 +778,16 @@
 				D926BDC022C34B6900A2DD3E /* CQObserverViewController.m */,
 			);
 			path = "观察者模式";
+			sourceTree = "<group>";
+		};
+		D926BDC222C4804300A2DD3E /* 抽象工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D926BDC322C486F200A2DD3E /* 抽象工厂模式.md */,
+				D926BDC522C487CB00A2DD3E /* CQAbstractFactoryViewController.h */,
+				D926BDC622C487CB00A2DD3E /* CQAbstractFactoryViewController.m */,
+			);
+			path = "抽象工厂模式";
 			sourceTree = "<group>";
 		};
 		D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */ = {
@@ -1557,6 +1572,7 @@
 				D926BDB022C2F4FA00A2DD3E /* 外观模式 */,
 				D926BDB622C33E7B00A2DD3E /* 建造者模式 */,
 				D926BDBC22C3496F00A2DD3E /* 观察者模式 */,
+				D926BDC222C4804300A2DD3E /* 抽象工厂模式 */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -2043,6 +2059,7 @@
 				D94BF43F20E4B6510012C370 /* demo_contents.plist in Resources */,
 				D9D145122299205F003B594C /* KVC.md in Resources */,
 				D9B563F720E24A14001AE9A0 /* iphone_menu_data.json in Resources */,
+				D926BDC422C486F200A2DD3E /* 抽象工厂模式.md in Resources */,
 				D9F93367229D6BD000C7B2E0 /* 关联对象.md in Resources */,
 				D9CFC805229CCA0F009B8399 /* 消息发送.md in Resources */,
 				D9CFC807229CCAB7009B8399 /* 消息转发.md in Resources */,
@@ -2121,6 +2138,7 @@
 				D9DA0E7A20E24F5E006CEA1C /* IphoneMenuView.m in Sources */,
 				D91A9F8B22B49390008F87F1 /* CQRecognitionManager.m in Sources */,
 				D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */,
+				D926BDC722C487CB00A2DD3E /* CQAbstractFactoryViewController.m in Sources */,
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
 				D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */,
 				D9545B382293AA4B008B6355 /* CQPermanentThreadController.m in Sources */,
