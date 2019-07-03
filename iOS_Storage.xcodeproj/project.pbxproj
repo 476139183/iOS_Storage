@@ -57,6 +57,11 @@
 		D926BDDC22C497BA00A2DD3E /* Work.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDDB22C497BA00A2DD3E /* Work.m */; };
 		D926BDDF22C4AF7B00A2DD3E /* 适配器模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDDE22C4AF7B00A2DD3E /* 适配器模式.md */; };
 		D926BDE222C4B5B300A2DD3E /* CQAdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDE122C4B5B300A2DD3E /* CQAdapterViewController.m */; };
+		D926BDE922C5E88600A2DD3E /* 备忘录模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDE822C5E88600A2DD3E /* 备忘录模式.md */; };
+		D926BDEC22C5ECC100A2DD3E /* CQMementoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDEB22C5ECC100A2DD3E /* CQMementoViewController.m */; };
+		D926BDEF22C5EE2200A2DD3E /* GameRole.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDEE22C5EE2200A2DD3E /* GameRole.m */; };
+		D926BDF222C6147E00A2DD3E /* RoleStateMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDF122C6147E00A2DD3E /* RoleStateMemento.m */; };
+		D926BDF522C6152400A2DD3E /* RoleStateCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDF422C6152400A2DD3E /* RoleStateCaretaker.m */; };
 		D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CED720EA63E100EE5C78 /* CQChartController.m */; };
 		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
 		D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */; };
@@ -268,6 +273,15 @@
 		D926BDDE22C4AF7B00A2DD3E /* 适配器模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "适配器模式.md"; sourceTree = "<group>"; };
 		D926BDE022C4B5B300A2DD3E /* CQAdapterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQAdapterViewController.h; sourceTree = "<group>"; };
 		D926BDE122C4B5B300A2DD3E /* CQAdapterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQAdapterViewController.m; sourceTree = "<group>"; };
+		D926BDE822C5E88600A2DD3E /* 备忘录模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "备忘录模式.md"; sourceTree = "<group>"; };
+		D926BDEA22C5ECC100A2DD3E /* CQMementoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMementoViewController.h; sourceTree = "<group>"; };
+		D926BDEB22C5ECC100A2DD3E /* CQMementoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMementoViewController.m; sourceTree = "<group>"; };
+		D926BDED22C5EE2200A2DD3E /* GameRole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameRole.h; sourceTree = "<group>"; };
+		D926BDEE22C5EE2200A2DD3E /* GameRole.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameRole.m; sourceTree = "<group>"; };
+		D926BDF022C6147E00A2DD3E /* RoleStateMemento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoleStateMemento.h; sourceTree = "<group>"; };
+		D926BDF122C6147E00A2DD3E /* RoleStateMemento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoleStateMemento.m; sourceTree = "<group>"; };
+		D926BDF322C6152400A2DD3E /* RoleStateCaretaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoleStateCaretaker.h; sourceTree = "<group>"; };
+		D926BDF422C6152400A2DD3E /* RoleStateCaretaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoleStateCaretaker.m; sourceTree = "<group>"; };
 		D928CED620EA63E100EE5C78 /* CQChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChartController.h; sourceTree = "<group>"; };
 		D928CED720EA63E100EE5C78 /* CQChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQChartController.m; sourceTree = "<group>"; };
 		D928CEDA20EA663A00EE5C78 /* CQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTabBarController.h; sourceTree = "<group>"; };
@@ -843,6 +857,22 @@
 				D926BDE122C4B5B300A2DD3E /* CQAdapterViewController.m */,
 			);
 			path = "适配器模式";
+			sourceTree = "<group>";
+		};
+		D926BDE722C5E86200A2DD3E /* 备忘录模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D926BDE822C5E88600A2DD3E /* 备忘录模式.md */,
+				D926BDEA22C5ECC100A2DD3E /* CQMementoViewController.h */,
+				D926BDEB22C5ECC100A2DD3E /* CQMementoViewController.m */,
+				D926BDED22C5EE2200A2DD3E /* GameRole.h */,
+				D926BDEE22C5EE2200A2DD3E /* GameRole.m */,
+				D926BDF022C6147E00A2DD3E /* RoleStateMemento.h */,
+				D926BDF122C6147E00A2DD3E /* RoleStateMemento.m */,
+				D926BDF322C6152400A2DD3E /* RoleStateCaretaker.h */,
+				D926BDF422C6152400A2DD3E /* RoleStateCaretaker.m */,
+			);
+			path = "备忘录模式";
 			sourceTree = "<group>";
 		};
 		D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */ = {
@@ -1630,6 +1660,7 @@
 				D926BDC222C4804300A2DD3E /* 抽象工厂模式 */,
 				D926BDC822C488E800A2DD3E /* 状态模式 */,
 				D926BDDD22C4AF4300A2DD3E /* 适配器模式 */,
+				D926BDE722C5E86200A2DD3E /* 备忘录模式 */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -2125,6 +2156,7 @@
 				D926BDB222C2F52B00A2DD3E /* 外观模式.md in Resources */,
 				D9519A1122BFB41000E3036B /* CQPrototypeViewController.xib in Resources */,
 				D9A39F7522B4D06400FEA5F5 /* 架构模式.md in Resources */,
+				D926BDE922C5E88600A2DD3E /* 备忘录模式.md in Resources */,
 				D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */,
 				D926BDDF22C4AF7B00A2DD3E /* 适配器模式.md in Resources */,
 				D9DC05E720DE418A00149124 /* jigsaw_list.json in Resources */,
@@ -2206,6 +2238,7 @@
 				D93AB71B2147BE230024C76E /* CQCarFactory.m in Sources */,
 				D9DE6CC320FEE7CE00C8D4FE /* CQHouseModel.m in Sources */,
 				D9E21A8B210FF91100407599 /* CQClassClusterCellB.m in Sources */,
+				D926BDEC22C5ECC100A2DD3E /* CQMementoViewController.m in Sources */,
 				D91A9F8E22B49B36008F87F1 /* CQRecognitionViewController.m in Sources */,
 				D9519A1022BFB41000E3036B /* CQPrototypeViewController.m in Sources */,
 				D9A39F8122B4D30200FEA5F5 /* CQVIPERViewController.m in Sources */,
@@ -2217,6 +2250,7 @@
 				D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */,
 				D9D14515229920CB003B594C /* CQKVCController.m in Sources */,
 				D9179CE122B7C808002FCCA0 /* CQDecoratorViewController.m in Sources */,
+				D926BDF522C6152400A2DD3E /* RoleStateCaretaker.m in Sources */,
 				D926BDD022C4945800A2DD3E /* TimeState.m in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
 				D926BDCD22C4934900A2DD3E /* CQStateViewController.m in Sources */,
@@ -2289,6 +2323,7 @@
 				D9519A0022BF2FE700E3036B /* AdidasFactory.m in Sources */,
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
 				D9FF65D9212AC39800B06371 /* CQTimerModel.m in Sources */,
+				D926BDEF22C5EE2200A2DD3E /* GameRole.m in Sources */,
 				D95199ED22BDD83C00E3036B /* CQDemoView.m in Sources */,
 				D9DA0E8520E251C4006CEA1C /* IphoneMenuItemModel.m in Sources */,
 				D920CE8F22B37F47000962C0 /* CQPrivacyManager.m in Sources */,
@@ -2301,6 +2336,7 @@
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
 				D9CFC80A229CDB66009B8399 /* CQKVOController.m in Sources */,
 				D926BDB522C3226C00A2DD3E /* CQFacadeViewController.m in Sources */,
+				D926BDF222C6147E00A2DD3E /* RoleStateMemento.m in Sources */,
 				D984AD0F2154F05000610B27 /* CQSortButtonDemoController.m in Sources */,
 				D92DA5C922C1B4D000E91212 /* PrototypePerson.m in Sources */,
 				D9DE6CC920FEE9C000C8D4FE /* CQFilterCell.m in Sources */,
