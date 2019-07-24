@@ -13,3 +13,4 @@
 #import "CQPrivacyManager.h"
 #import <SVProgressHUD.h>
 #import "CQCountDownButton.h"
+#import <Lottie.h>

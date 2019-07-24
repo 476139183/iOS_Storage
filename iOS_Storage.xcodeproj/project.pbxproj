@@ -35,6 +35,9 @@
 		D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */; };
 		D920CE8822B37E91000962C0 /* CheckPricacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D920CE8722B37E91000962C0 /* CheckPricacyViewController.swift */; };
 		D920CE8F22B37F47000962C0 /* CQPrivacyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D920CE8E22B37F47000962C0 /* CQPrivacyManager.m */; };
+		D920ED1E22E8706400C5A43F /* wordsanime.json in Resources */ = {isa = PBXBuildFile; fileRef = D920ED1D22E8706400C5A43F /* wordsanime.json */; };
+		D920ED2022E870A800C5A43F /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D920ED1F22E870A800C5A43F /* LottieViewController.swift */; };
+		D920ED2222E87F2900C5A43F /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = D920ED2122E87F2900C5A43F /* LottieLogo1.json */; };
 		D921F97020FF640B00712042 /* region_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD220FF2F0B00C8D4FE /* region_list.json */; };
 		D921F97120FF640B00712042 /* department_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD020FF2F0A00C8D4FE /* department_list.json */; };
 		D921F97220FF640B00712042 /* house_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD120FF2F0A00C8D4FE /* house_list.json */; };
@@ -242,6 +245,9 @@
 		D920CE8722B37E91000962C0 /* CheckPricacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPricacyViewController.swift; sourceTree = "<group>"; };
 		D920CE8D22B37F47000962C0 /* CQPrivacyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQPrivacyManager.h; sourceTree = "<group>"; };
 		D920CE8E22B37F47000962C0 /* CQPrivacyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQPrivacyManager.m; sourceTree = "<group>"; };
+		D920ED1D22E8706400C5A43F /* wordsanime.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordsanime.json; sourceTree = "<group>"; };
+		D920ED1F22E870A800C5A43F /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
+		D920ED2122E87F2900C5A43F /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
 		D926BDAB22C273E800A2DD3E /* 模板方法模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "模板方法模式.md"; sourceTree = "<group>"; };
 		D926BDAD22C2782100A2DD3E /* CQTemplateMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTemplateMethodViewController.h; sourceTree = "<group>"; };
 		D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTemplateMethodViewController.m; sourceTree = "<group>"; };
@@ -779,6 +785,16 @@
 			path = CQPrivacyManager;
 			sourceTree = "<group>";
 		};
+		D920ED1C22E8703900C5A43F /* LottieDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D920ED2122E87F2900C5A43F /* LottieLogo1.json */,
+				D920ED1D22E8706400C5A43F /* wordsanime.json */,
+				D920ED1F22E870A800C5A43F /* LottieViewController.swift */,
+			);
+			path = LottieDemo;
+			sourceTree = "<group>";
+		};
 		D926BDAA22C26E1D00A2DD3E /* 模板方法模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1021,6 +1037,7 @@
 				D9FF65D0212AC09F00B06371 /* 含timer的cell */,
 				D984AD0A2154EF5E00610B27 /* 排序button */,
 				D92D305E216B3C7200B57A2D /* 水波动画 */,
+				D920ED1C22E8703900C5A43F /* LottieDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -2132,6 +2149,7 @@
 				D95199F022BDF26100E3036B /* 工厂方法模式.html in Resources */,
 				D91A9F8122B482B1008F87F1 /* README.md in Resources */,
 				D913F9422109CDD300366887 /* framework_contents.plist in Resources */,
+				D920ED2222E87F2900C5A43F /* LottieLogo1.json in Resources */,
 				D9402A892101E5B500BF792F /* tips_contents.plist in Resources */,
 				D9AC3CB622AFFDC2007DDBD0 /* 数据结构分类.md in Resources */,
 				D9519A0C22BFB36A00E3036B /* 原型模式.md in Resources */,
@@ -2143,6 +2161,7 @@
 				D921F97120FF640B00712042 /* department_list.json in Resources */,
 				D91A9F8422B490F7008F87F1 /* logo商标识别.md in Resources */,
 				D926BDCA22C48E5200A2DD3E /* 状态模式.md in Resources */,
+				D920ED1E22E8706400C5A43F /* wordsanime.json in Resources */,
 				D91A9F7522B3CF65008F87F1 /* pthread.md in Resources */,
 				D921F97220FF640B00712042 /* house_list.json in Resources */,
 				D94BF43F20E4B6510012C370 /* demo_contents.plist in Resources */,
@@ -2194,8 +2213,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
@@ -2203,16 +2220,16 @@
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2235,6 +2252,7 @@
 				D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */,
 				D9545B382293AA4B008B6355 /* CQPermanentThreadController.m in Sources */,
 				D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */,
+				D920ED2022E870A800C5A43F /* LottieViewController.swift in Sources */,
 				D93AB71B2147BE230024C76E /* CQCarFactory.m in Sources */,
 				D9DE6CC320FEE7CE00C8D4FE /* CQHouseModel.m in Sources */,
 				D9E21A8B210FF91100407599 /* CQClassClusterCellB.m in Sources */,

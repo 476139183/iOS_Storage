@@ -15,6 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - JSONModel (1.7.0)
+  - lottie-ios (2.5.3)
   - Masonry (1.1.0)
   - SVProgressHUD (2.2.2)
   - YYKit (1.0.9):
@@ -24,6 +25,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - JSONModel
+  - lottie-ios
   - Masonry
   - SVProgressHUD
   - YYKit
@@ -32,6 +34,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - JSONModel
+    - lottie-ios
     - Masonry
     - SVProgressHUD
     - YYKit
@@ -39,10 +42,11 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: de329107a794c4e70d3357900935928b25a3d2cb
+PODFILE CHECKSUM: 0b0e8fa1b7857b8e4acc93969c26a79b05eb7f25
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.4
