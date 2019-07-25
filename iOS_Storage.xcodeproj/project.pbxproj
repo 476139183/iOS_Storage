@@ -38,6 +38,7 @@
 		D920ED1E22E8706400C5A43F /* wordsanime.json in Resources */ = {isa = PBXBuildFile; fileRef = D920ED1D22E8706400C5A43F /* wordsanime.json */; };
 		D920ED2022E870A800C5A43F /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D920ED1F22E870A800C5A43F /* LottieViewController.swift */; };
 		D920ED2222E87F2900C5A43F /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = D920ED2122E87F2900C5A43F /* LottieLogo1.json */; };
+		D920ED2522E935D800C5A43F /* YYTextDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D920ED2422E935D700C5A43F /* YYTextDemoViewController.swift */; };
 		D921F97020FF640B00712042 /* region_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD220FF2F0B00C8D4FE /* region_list.json */; };
 		D921F97120FF640B00712042 /* department_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD020FF2F0A00C8D4FE /* department_list.json */; };
 		D921F97220FF640B00712042 /* house_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DE6CD120FF2F0A00C8D4FE /* house_list.json */; };
@@ -248,6 +249,7 @@
 		D920ED1D22E8706400C5A43F /* wordsanime.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordsanime.json; sourceTree = "<group>"; };
 		D920ED1F22E870A800C5A43F /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		D920ED2122E87F2900C5A43F /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
+		D920ED2422E935D700C5A43F /* YYTextDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYTextDemoViewController.swift; sourceTree = "<group>"; };
 		D926BDAB22C273E800A2DD3E /* 模板方法模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "模板方法模式.md"; sourceTree = "<group>"; };
 		D926BDAD22C2782100A2DD3E /* CQTemplateMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTemplateMethodViewController.h; sourceTree = "<group>"; };
 		D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTemplateMethodViewController.m; sourceTree = "<group>"; };
@@ -795,6 +797,14 @@
 			path = LottieDemo;
 			sourceTree = "<group>";
 		};
+		D920ED2322E9358900C5A43F /* YYTextDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D920ED2422E935D700C5A43F /* YYTextDemoViewController.swift */,
+			);
+			path = YYTextDemo;
+			sourceTree = "<group>";
+		};
 		D926BDAA22C26E1D00A2DD3E /* 模板方法模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1038,6 +1048,7 @@
 				D984AD0A2154EF5E00610B27 /* 排序button */,
 				D92D305E216B3C7200B57A2D /* 水波动画 */,
 				D920ED1C22E8703900C5A43F /* LottieDemo */,
+				D920ED2322E9358900C5A43F /* YYTextDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -2376,6 +2387,7 @@
 				D92D3062216B3D8700B57A2D /* CQRippleViewController.m in Sources */,
 				D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */,
 				D926BDE222C4B5B300A2DD3E /* CQAdapterViewController.m in Sources */,
+				D920ED2522E935D800C5A43F /* YYTextDemoViewController.swift in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
 				D9545B31229396D3008B6355 /* Cat.m in Sources */,
 				D91A9F7D22B3D89E008F87F1 /* NSTimer+CQBlockSupport.m in Sources */,
