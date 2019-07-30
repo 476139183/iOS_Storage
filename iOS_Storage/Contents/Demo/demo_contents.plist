@@ -162,5 +162,13 @@
 		<key>url</key>
 		<string></string>
 	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>RxSwiftDemo</string>
+		<key>controller_name</key>
+		<string>RxSwiftDemoViewController</string>
+		<key>url</key>
+		<string>RxSwiftDemo.md</string>
+	</dict>
 </array>
 </plist>
