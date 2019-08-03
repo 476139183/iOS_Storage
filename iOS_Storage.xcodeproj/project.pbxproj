@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2DD48D054A82B1FD0444D554 /* Pods_iOS_Storage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF420F59937B4D50D139806 /* Pods_iOS_Storage.framework */; };
+		D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */; };
 		D9019B7922B121AC0039B25D /* 设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7822B121AC0039B25D /* 设计模式.md */; };
 		D9019B7C22B13F670039B25D /* 线性表.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7B22B13F670039B25D /* 线性表.md */; };
 		D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7821098B4D00C48E72 /* CQTransitionController.m */; };
@@ -232,6 +233,7 @@
 		0C9CE1801881FD955922EE67 /* Pods-iOS_Storage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Storage.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage.release.xcconfig"; sourceTree = "<group>"; };
 		7DF420F59937B4D50D139806 /* Pods_iOS_Storage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Storage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF1E659C97B690A8019361A /* Pods-iOS_Storage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Storage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage.debug.xcconfig"; sourceTree = "<group>"; };
+		D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitDemoViewController.swift; sourceTree = "<group>"; };
 		D9019B7822B121AC0039B25D /* 设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "设计模式.md"; sourceTree = "<group>"; };
 		D9019B7B22B13F670039B25D /* 线性表.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "线性表.md"; sourceTree = "<group>"; };
 		D90C4E7721098B4D00C48E72 /* CQTransitionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTransitionController.h; sourceTree = "<group>"; };
@@ -627,6 +629,14 @@
 				7DF420F59937B4D50D139806 /* Pods_iOS_Storage.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D900D9B122F40C63005C3DBE /* SnapKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */,
+			);
+			path = SnapKitDemo;
 			sourceTree = "<group>";
 		};
 		D9019B7A22B13F450039B25D /* 线性表 */ = {
@@ -1123,6 +1133,7 @@
 				D920ED2322E9358900C5A43F /* YYTextDemo */,
 				D9C7CBF122E9545E0038FD34 /* ObjectMapperDemo */,
 				D9C7020D22EB53E600DDC44F /* RxSwiftDemo */,
+				D900D9B122F40C63005C3DBE /* SnapKitDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -2584,6 +2595,7 @@
 				D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */,
 				D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */,
 				D9C7CC2522E9B8C10038FD34 /* StandardSwiftSectionHeaderView.swift in Sources */,
+				D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */,
 				D9519A0022BF2FE700E3036B /* AdidasFactory.m in Sources */,
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
 				D9C7CC0122E992130038FD34 /* StandardSwiftTableViewViewController.swift in Sources */,
