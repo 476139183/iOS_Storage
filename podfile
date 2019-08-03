@@ -11,6 +11,7 @@ pod 'YYKit'
 pod 'lottie-ios'
 pod 'ObjectMapper', '~> 3.4'
 pod 'SnapKit'
+pod 'SnapKitExtend'
 pod 'RxSwift'
 pod 'RxCocoa'
 
