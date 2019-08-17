@@ -32,7 +32,15 @@
     self.tableView.delegate = self;
     
     // 设置表头
-    self.tableView.tableHeaderView = [[CQStandardTableHeaderView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 300)];
+    CQStandardTableHeaderView *tableHeaderView = [[CQStandardTableHeaderView alloc] init];
+    [tableHeaderView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.mas_equalTo(self.tableView.width);
+    }];
+    // 表头高度自适应的关键
+    [tableHeaderView layoutIfNeeded];
+    [self.tableView layoutIfNeeded];
+    self.tableView.tableHeaderView = tableHeaderView;
+    
     // 设置表尾
     self.tableView.tableFooterView = [[CQStandardTableFooterView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 200)];
 }

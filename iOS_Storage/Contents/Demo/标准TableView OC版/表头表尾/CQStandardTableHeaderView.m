@@ -22,10 +22,13 @@
     
     UILabel *titleLabel = [[UILabel alloc] init];
     [self addSubview:titleLabel];
-    titleLabel.text = @"这是表头";
-    titleLabel.font = [UIFont boldSystemFontOfSize:35];
+    titleLabel.text = @"这是表头\n高度自适应";
+    titleLabel.numberOfLines = 0;
+    titleLabel.backgroundColor = [UIColor purpleColor];
+    titleLabel.font = [UIFont boldSystemFontOfSize:14];
+    titleLabel.textAlignment = NSTextAlignmentCenter;
     [titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.mas_offset(UIEdgeInsetsZero);
+        make.edges.mas_offset(UIEdgeInsetsMake(20, 20, 20, 20));
     }];
 }
 

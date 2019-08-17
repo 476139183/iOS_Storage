@@ -10,17 +10,10 @@
 
 @implementation CQTimerCell
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
-    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-        
-    }
-    return self;
-}
-
-- (void)prepareForReuse {
-    [super prepareForReuse];
+- (void)setModel:(CQTimerModel *)model {
+    _model = model;
     
-    
+    //self.textLabel.text = @(_model.num);
 }
 
 @end

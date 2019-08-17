@@ -132,6 +132,14 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
+		<string>修改按钮响应区域</string>
+		<key>controller_name</key>
+		<string>ResponseAreaTestViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
 		<string>水波动画</string>
 		<key>controller_name</key>
 		<string>CQRippleViewController</string>
@@ -177,6 +185,30 @@
 		<string>SnapKitDemoViewController</string>
 		<key>url</key>
 		<string>https://www.jianshu.com/p/8ce0a616a86e</string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>AlamofireDemo</string>
+		<key>controller_name</key>
+		<string>AlamofireDemoViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>MoyaDemo</string>
+		<key>controller_name</key>
+		<string>MoyaDemoViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>检测controller是否释放</string>
+		<key>controller_name</key>
+		<string>CQCheckDeallocViewController</string>
+		<key>url</key>
+		<string></string>
 	</dict>
 </array>
 </plist>

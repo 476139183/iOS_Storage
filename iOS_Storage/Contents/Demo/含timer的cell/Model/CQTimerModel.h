@@ -10,4 +10,6 @@
 
 @interface CQTimerModel : CQBaseModel
 
+@property (nonatomic, assign) NSInteger num;
+
 @end

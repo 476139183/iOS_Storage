@@ -14,10 +14,17 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - Alamofire (4.8.2)
   - JSONModel (1.8.0)
   - lottie-ios (2.5.3)
   - Masonry (1.1.0)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
   - ObjectMapper (3.5.1)
+  - Result (4.1.0)
   - RxCocoa (5.0.0):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
@@ -34,9 +41,11 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - Alamofire
   - JSONModel
   - lottie-ios
   - Masonry
+  - Moya
   - ObjectMapper (~> 3.4)
   - RxCocoa
   - RxSwift
@@ -48,10 +57,13 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - Alamofire
     - JSONModel
     - lottie-ios
     - Masonry
+    - Moya
     - ObjectMapper
+    - Result
     - RxCocoa
     - RxRelay
     - RxSwift
@@ -62,10 +74,13 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
@@ -74,6 +89,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 8dba7936fde503da41bef1a14b2876d26e3bc04f
+PODFILE CHECKSUM: e0a04ccd47b306cd8695ad3e00e451631029060f
 
 COCOAPODS: 1.7.4

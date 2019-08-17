@@ -23,6 +23,8 @@ class RxSwiftDemoViewController: CQBaseViewController {
     let scrollView = UIScrollView()
     var timer: Observable<Int>!
     
+    let imageView = UIImageView()
+    
     var loginButton = UIButton()
     
     override func viewDidLoad() {
@@ -66,6 +68,17 @@ class RxSwiftDemoViewController: CQBaseViewController {
         scrollView.backgroundColor = .yellow
         scrollView.contentSize = CGSize.init(width: 100, height: 500)
         
+        view.addSubview(imageView)
+        imageView.backgroundColor = .orange
+        imageView.snp.makeConstraints { (make) in
+            make.top.equalTo(scrollView.snp.bottom).offset(10)
+            make.left.equalToSuperview()
+            make.size.equalTo(CGSize.init(width: 100, height: 100))
+        }
+        imageView.rx.observeWeakly(UIImage.self, "image").subscribe(onNext: { (image) in
+            print("图片改变")
+        }).disposed(by: disposeBag)
+        
         view.addSubview(loginButton)
         loginButton.setTitle("去登录页", for: .normal)
         loginButton.backgroundColor = .blue
@@ -105,6 +118,8 @@ class RxSwiftDemoViewController: CQBaseViewController {
         view.backgroundColor = .red
         
         label.text = "呵呵哒"
+        
+        imageView.image = UIImage.init(named: "qbl")
     }
 
 }

@@ -70,6 +70,7 @@
 		D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CED720EA63E100EE5C78 /* CQChartController.m */; };
 		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
 		D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */; };
+		D92D105A23066A42002203A1 /* CQCheckDeallocViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D105923066A42002203A1 /* CQCheckDeallocViewController.m */; };
 		D92D3062216B3D8700B57A2D /* CQRippleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D3061216B3D8700B57A2D /* CQRippleViewController.m */; };
 		D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */ = {isa = PBXBuildFile; fileRef = D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */; };
 		D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D69B520DE312B002BA9C0 /* CQCategoryModel.m */; };
@@ -123,6 +124,7 @@
 		D9545B382293AA4B008B6355 /* CQPermanentThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B372293AA4B008B6355 /* CQPermanentThreadController.m */; };
 		D9545B3B2293AB48008B6355 /* CQThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B3A2293AB48008B6355 /* CQThread.m */; };
 		D9545B3E2293B275008B6355 /* CQRunloopModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B3D2293B275008B6355 /* CQRunloopModeController.m */; };
+		D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */; };
 		D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38A21490A13001B3021 /* CQCarBenz.m */; };
 		D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38D21490A29001B3021 /* CQCarBMW.m */; };
 		D9697FED22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9697FEC22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift */; };
@@ -151,6 +153,13 @@
 		D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */; };
 		D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AE0CE220DD02AC00A31D62 /* Assets.xcassets */; };
 		D9AE0CE920DD02AC00A31D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CE820DD02AC00A31D62 /* main.m */; };
+		D9AEB65622F56747006F8995 /* AlamofireDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEB65522F56747006F8995 /* AlamofireDemoViewController.swift */; };
+		D9AEB65922F57955006F8995 /* MoyaDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEB65822F57955006F8995 /* MoyaDemoViewController.swift */; };
+		D9AEB65B22F58B1E006F8995 /* person_info.json in Resources */ = {isa = PBXBuildFile; fileRef = D9AEB65A22F58B1D006F8995 /* person_info.json */; };
+		D9AEB68022F6A437006F8995 /* CQMVVMCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AEB67F22F6A437006F8995 /* CQMVVMCell.m */; };
+		D9AEB68622F6A96B006F8995 /* CQMVVMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AEB68522F6A96B006F8995 /* CQMVVMModel.m */; };
+		D9AEB68922F6AA56006F8995 /* CQMVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AEB68822F6AA56006F8995 /* CQMVVMViewModel.m */; };
+		D9AEB68C22F6AB24006F8995 /* CQMVVMCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AEB68B22F6AB24006F8995 /* CQMVVMCellModel.m */; };
 		D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4E3D72148EFBB00E895F1 /* CQCar.m */; };
 		D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563ED20E240B7001AE9A0 /* IphoneMenuModel.m */; };
 		D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563F020E240CC001AE9A0 /* IphoneListModel.m */; };
@@ -327,6 +336,8 @@
 		D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTabBarController.m; sourceTree = "<group>"; };
 		D92C8E9021788ABE005D7606 /* CQAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQAnimationViewController.h; sourceTree = "<group>"; };
 		D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQAnimationViewController.m; sourceTree = "<group>"; };
+		D92D105823066A42002203A1 /* CQCheckDeallocViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCheckDeallocViewController.h; sourceTree = "<group>"; };
+		D92D105923066A42002203A1 /* CQCheckDeallocViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCheckDeallocViewController.m; sourceTree = "<group>"; };
 		D92D3060216B3D8700B57A2D /* CQRippleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRippleViewController.h; sourceTree = "<group>"; };
 		D92D3061216B3D8700B57A2D /* CQRippleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRippleViewController.m; sourceTree = "<group>"; };
 		D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -423,6 +434,7 @@
 		D9545B3A2293AB48008B6355 /* CQThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQThread.m; sourceTree = "<group>"; };
 		D9545B3C2293B275008B6355 /* CQRunloopModeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRunloopModeController.h; sourceTree = "<group>"; };
 		D9545B3D2293B275008B6355 /* CQRunloopModeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRunloopModeController.m; sourceTree = "<group>"; };
+		D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAreaTestViewController.swift; sourceTree = "<group>"; };
 		D963F38921490A13001B3021 /* CQCarBenz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarBenz.h; sourceTree = "<group>"; };
 		D963F38A21490A13001B3021 /* CQCarBenz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCarBenz.m; sourceTree = "<group>"; };
 		D963F38C21490A29001B3021 /* CQCarBMW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarBMW.h; sourceTree = "<group>"; };
@@ -468,6 +480,17 @@
 		D9AE0CE220DD02AC00A31D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9AE0CE720DD02AC00A31D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9AE0CE820DD02AC00A31D62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9AEB65522F56747006F8995 /* AlamofireDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireDemoViewController.swift; sourceTree = "<group>"; };
+		D9AEB65822F57955006F8995 /* MoyaDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaDemoViewController.swift; sourceTree = "<group>"; };
+		D9AEB65A22F58B1D006F8995 /* person_info.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = person_info.json; sourceTree = "<group>"; };
+		D9AEB67E22F6A437006F8995 /* CQMVVMCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMVVMCell.h; sourceTree = "<group>"; };
+		D9AEB67F22F6A437006F8995 /* CQMVVMCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMVVMCell.m; sourceTree = "<group>"; };
+		D9AEB68422F6A96B006F8995 /* CQMVVMModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMVVMModel.h; sourceTree = "<group>"; };
+		D9AEB68522F6A96B006F8995 /* CQMVVMModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMVVMModel.m; sourceTree = "<group>"; };
+		D9AEB68722F6AA56006F8995 /* CQMVVMViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMVVMViewModel.h; sourceTree = "<group>"; };
+		D9AEB68822F6AA56006F8995 /* CQMVVMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMVVMViewModel.m; sourceTree = "<group>"; };
+		D9AEB68A22F6AB24006F8995 /* CQMVVMCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMVVMCellModel.h; sourceTree = "<group>"; };
+		D9AEB68B22F6AB24006F8995 /* CQMVVMCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMVVMCellModel.m; sourceTree = "<group>"; };
 		D9B4E3D62148EFBB00E895F1 /* CQCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCar.h; sourceTree = "<group>"; };
 		D9B4E3D72148EFBB00E895F1 /* CQCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCar.m; sourceTree = "<group>"; };
 		D9B563EC20E240B7001AE9A0 /* IphoneMenuModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneMenuModel.h; sourceTree = "<group>"; };
@@ -1128,12 +1151,16 @@
 				D90C4E7521097C2800C48E72 /* CATransition动画 */,
 				D9FF65D0212AC09F00B06371 /* 含timer的cell */,
 				D984AD0A2154EF5E00610B27 /* 排序button */,
+				D95F591E2303B30B004ECBD0 /* 修改button响应区域 */,
 				D92D305E216B3C7200B57A2D /* 水波动画 */,
 				D920ED1C22E8703900C5A43F /* LottieDemo */,
 				D920ED2322E9358900C5A43F /* YYTextDemo */,
 				D9C7CBF122E9545E0038FD34 /* ObjectMapperDemo */,
 				D9C7020D22EB53E600DDC44F /* RxSwiftDemo */,
 				D900D9B122F40C63005C3DBE /* SnapKitDemo */,
+				D9AEB65422F5670B006F8995 /* AlamofireDemo */,
+				D9AEB65722F57930006F8995 /* MoyaDemo */,
+				D9547859230667CE003E0ADA /* 检测controller是否释放 */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -1452,6 +1479,23 @@
 			path = "runloop生命周期";
 			sourceTree = "<group>";
 		};
+		D9547859230667CE003E0ADA /* 检测controller是否释放 */ = {
+			isa = PBXGroup;
+			children = (
+				D92D105823066A42002203A1 /* CQCheckDeallocViewController.h */,
+				D92D105923066A42002203A1 /* CQCheckDeallocViewController.m */,
+			);
+			path = "检测controller是否释放";
+			sourceTree = "<group>";
+		};
+		D95F591E2303B30B004ECBD0 /* 修改button响应区域 */ = {
+			isa = PBXGroup;
+			children = (
+				D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */,
+			);
+			path = "修改button响应区域";
+			sourceTree = "<group>";
+		};
 		D9697FEB22F094E100220938 /* 组头组尾 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1565,8 +1609,9 @@
 		D9A39F7122B4CEB800FEA5F5 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				D9A39F7C22B4D2EB00FEA5F5 /* CQMVVMViewController.h */,
-				D9A39F7D22B4D2EB00FEA5F5 /* CQMVVMViewController.m */,
+				D9AEB68322F6A511006F8995 /* Model */,
+				D9AEB68222F6A50C006F8995 /* View */,
+				D9AEB68122F6A4FF006F8995 /* ViewModel */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -1669,6 +1714,53 @@
 			path = iOS_Storage;
 			sourceTree = "<group>";
 		};
+		D9AEB65422F5670B006F8995 /* AlamofireDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D9AEB65522F56747006F8995 /* AlamofireDemoViewController.swift */,
+			);
+			path = AlamofireDemo;
+			sourceTree = "<group>";
+		};
+		D9AEB65722F57930006F8995 /* MoyaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D9AEB65822F57955006F8995 /* MoyaDemoViewController.swift */,
+			);
+			path = MoyaDemo;
+			sourceTree = "<group>";
+		};
+		D9AEB68122F6A4FF006F8995 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D9AEB68A22F6AB24006F8995 /* CQMVVMCellModel.h */,
+				D9AEB68B22F6AB24006F8995 /* CQMVVMCellModel.m */,
+				D9AEB68722F6AA56006F8995 /* CQMVVMViewModel.h */,
+				D9AEB68822F6AA56006F8995 /* CQMVVMViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D9AEB68222F6A50C006F8995 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9AEB67E22F6A437006F8995 /* CQMVVMCell.h */,
+				D9AEB67F22F6A437006F8995 /* CQMVVMCell.m */,
+				D9A39F7C22B4D2EB00FEA5F5 /* CQMVVMViewController.h */,
+				D9A39F7D22B4D2EB00FEA5F5 /* CQMVVMViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9AEB68322F6A511006F8995 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9AEB68422F6A96B006F8995 /* CQMVVMModel.h */,
+				D9AEB68522F6A96B006F8995 /* CQMVVMModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D9C7020D22EB53E600DDC44F /* RxSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -1684,6 +1776,7 @@
 		D9C7CBF122E9545E0038FD34 /* ObjectMapperDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D9AEB65A22F58B1D006F8995 /* person_info.json */,
 				D9C7CBF222E9552A0038FD34 /* ObjectMapperDemoViewController.swift */,
 			);
 			path = ObjectMapperDemo;
@@ -2377,6 +2470,7 @@
 				D91A9F8122B482B1008F87F1 /* README.md in Resources */,
 				D913F9422109CDD300366887 /* framework_contents.plist in Resources */,
 				D920ED2222E87F2900C5A43F /* LottieLogo1.json in Resources */,
+				D9AEB65B22F58B1E006F8995 /* person_info.json in Resources */,
 				D9402A892101E5B500BF792F /* tips_contents.plist in Resources */,
 				D9AC3CB622AFFDC2007DDBD0 /* 数据结构分类.md in Resources */,
 				D9519A0C22BFB36A00E3036B /* 原型模式.md in Resources */,
@@ -2446,9 +2540,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -2461,9 +2558,12 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -2511,6 +2611,7 @@
 				D9C7CC0C22E9998B0038FD34 /* CQStandardTableFooterView.m in Sources */,
 				D92D69BC20DE3295002BA9C0 /* CQCategoryView.m in Sources */,
 				D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */,
+				D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */,
 				D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */,
 				D9D14515229920CB003B594C /* CQKVCController.m in Sources */,
 				D9179CE122B7C808002FCCA0 /* CQDecoratorViewController.m in Sources */,
@@ -2518,6 +2619,7 @@
 				D926BDD022C4945800A2DD3E /* TimeState.m in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
 				D926BDCD22C4934900A2DD3E /* CQStateViewController.m in Sources */,
+				D9AEB68C22F6AB24006F8995 /* CQMVVMCellModel.m in Sources */,
 				D94B650221537A0900F2FD84 /* CQPlaceholderDemoViewController.m in Sources */,
 				D920CE8822B37E91000962C0 /* CheckPricacyViewController.swift in Sources */,
 				D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */,
@@ -2556,6 +2658,8 @@
 				D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */,
 				D984AD122154F06C00610B27 /* CQSortButton.m in Sources */,
 				D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */,
+				D9AEB68622F6A96B006F8995 /* CQMVVMModel.m in Sources */,
+				D9AEB65622F56747006F8995 /* AlamofireDemoViewController.swift in Sources */,
 				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
 				D913F93F2109C08200366887 /* CQContentViewController.m in Sources */,
 				D9519A0622BFAE5D00E3036B /* Nick.m in Sources */,
@@ -2583,8 +2687,10 @@
 				D9519A0322BFACC600E3036B /* Clothes.m in Sources */,
 				D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */,
 				D9DE6CBD20FEE78100C8D4FE /* CQRegionModel.m in Sources */,
+				D9AEB65922F57955006F8995 /* MoyaDemoViewController.swift in Sources */,
 				D95199F722BF287000E3036B /* CQMVVMRACViewController.m in Sources */,
 				D9C7CC2122E9ACD20038FD34 /* StandardSwiftTableHeaderView.swift in Sources */,
+				D9AEB68022F6A437006F8995 /* CQMVVMCell.m in Sources */,
 				D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */,
 				D9C7CC2722E9BC9B0038FD34 /* StandardSwiftSectionFooterView.swift in Sources */,
 				D926BDBB22C33FDF00A2DD3E /* CQBuilderViewController.m in Sources */,
@@ -2630,6 +2736,7 @@
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
 				D9D14510229917ED003B594C /* CQRunLoop.m in Sources */,
 				D926BDDC22C497BA00A2DD3E /* Work.m in Sources */,
+				D9AEB68922F6AA56006F8995 /* CQMVVMViewModel.m in Sources */,
 				D9CFC80D229CE438009B8399 /* Cat2.m in Sources */,
 				D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */,
 				D9AC3CA522AFD281007DDBD0 /* MapNaviViewController.swift in Sources */,
@@ -2652,6 +2759,7 @@
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,
 				D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */,
 				D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */,
+				D92D105A23066A42002203A1 /* CQCheckDeallocViewController.m in Sources */,
 				D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,6 +11,7 @@ https://www.jianshu.com/p/af4bc69839d8
 
 ---
 
+表头、组头、cell都可以通过自动布局实现高度自适应内容
 
 tableView的表头和表尾都是UIView:
 表头表尾是不复用的
