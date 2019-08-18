@@ -56,22 +56,20 @@ class SnapKitDemoViewController: CQBaseViewController {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        //testAnimation()
-        
-        divideLayout()
+        testAnimation()
+        //divideLayout()
     }
     
     
     // MARK: - SnapKit动画
     
     func testAnimation() {
-        self.redView.snp.updateConstraints { (make) in
-            make.centerX.equalTo(200)
-        }
-        self.redView.needsUpdateConstraints()
-        self.redView.updateConstraintsIfNeeded()
         UIView.animate(withDuration: 0.2) {
-            self.view.layoutIfNeeded() // 注意父view调用layoutIfNeeded
+            self.redView.snp.updateConstraints { (make) in
+                make.centerX.equalTo(200)
+            }
+            // 注意父view调用layoutIfNeeded
+            self.redView.superview?.layoutIfNeeded()
         }
     }
     
