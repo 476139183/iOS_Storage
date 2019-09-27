@@ -9,7 +9,7 @@
 import UIKit
 
 class MyCellNode6: ASCellNode {
-    // 尝试包裹一个view
+    // 包裹一个view
     private lazy var myContentNode: ASDisplayNode = {
         let node = ASDisplayNode.init(viewBlock: { () -> UIView in
             let view = MyCellNode6Content()
@@ -26,7 +26,7 @@ class MyCellNode6: ASCellNode {
     
     override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
         let layout = ASAbsoluteLayoutSpec()
-        layout.style.preferredSize = CGSize.init(width: 300, height: 80)
+        layout.style.preferredSize = CGSize.init(width: 300, height: 120)
         layout.child = myContentNode
         
         let insetLayout = ASInsetLayoutSpec.init(insets: .init(top: 8, left: 8, bottom: 8, right: 8), child: layout)
@@ -38,6 +38,7 @@ class MyCellNode6: ASCellNode {
 fileprivate class MyCellNode6Content: UIView {
     
     let timeLabel = UILabel()
+    let vsImageView = UIImageView()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -53,6 +54,8 @@ fileprivate class MyCellNode6Content: UIView {
         backgroundColor = .yellow
         
         addSubview(timeLabel)
+        addSubview(vsImageView)
+        
         timeLabel.text = "距离结束 02:30"
         timeLabel.textColor = .blue
         timeLabel.backgroundColor = .orange
@@ -60,6 +63,13 @@ fileprivate class MyCellNode6Content: UIView {
             make.top.equalTo(5)
             make.centerX.equalToSuperview()
             make.height.equalTo(20)
+        }
+        
+        vsImageView.image = UIImage.init(named: "vs_icon")
+        vsImageView.snp.makeConstraints { (make) in
+            make.size.equalTo(CGSize.init(width: 80, height: 80))
+            make.centerX.equalToSuperview()
+            make.top.equalTo(timeLabel.snp.bottom).offset(20)
         }
     }
 }

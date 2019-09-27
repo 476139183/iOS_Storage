@@ -39,27 +39,29 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
         return 30
     }
     
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 0
+    }
+    
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let view = UIView()
         view.backgroundColor = .black
         return view
     }
     
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        return nil
+    }
+    
     // MARK: - ASTableDataSource
     
     func tableNode(_ tableNode: ASTableNode, nodeForRowAt indexPath: IndexPath) -> ASCellNode {
-//        return ASCellNode.init(viewBlock: { () -> UIView in
-//            let view = UIView()
-//            view.backgroundColor = .red
-//            view.frame = CGRect.init(x: 0, y: 0, width: 300, height: 30)
-//            return view
-//        })
         
-        let a = indexPath.section % 6
+        let a = indexPath.section % 7
         
         switch a {
         case 0:
-            return MyCellNode.init(title: String(indexPath.section), desc: "详情")
+            return MyCellNode.init(title: String(indexPath.section / 7), desc: "详情")
         case 1:
             return MyCellNode2()
         case 2:
@@ -70,16 +72,16 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
             return MyCellNode5()
         case 5:
             return MyCellNode6()
+        case 6:
+            return MyCellNode7()
         default:
             return ASCellNode()
         }
         
-        
-        
     }
     
     func numberOfSections(in tableNode: ASTableNode) -> Int {
-        return 20
+        return 100
     }
     
     func tableNode(_ tableNode: ASTableNode, numberOfRowsInSection section: Int) -> Int {
