@@ -7,28 +7,45 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
+import NSObject_Rx
 
 class RxSwiftLoginViewController: UIViewController {
     
-    
     @IBOutlet weak var usernameTextField: UITextField!
-    
     @IBOutlet weak var usernameInvalidLabel: UILabel!
-    
     @IBOutlet weak var passwordTextField: UITextField!
-    
     @IBOutlet weak var passwordInvalidLabel: UILabel!
+    @IBOutlet weak var loginButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
+        let usernameValid = usernameTextField.rx.text.orEmpty.map { (text) -> Bool in
+            return text.count >= 6
+        }
         
-    }
-    
-    @IBAction func loginButtonClicked(_ sender: Any) {
-        print("login")
+        usernameValid.bind(to: usernameInvalidLabel.rx.isHidden)
+        usernameValid.bind(to: passwordTextField.rx.isEnabled)
+        
+        
+        let passwordValid = passwordTextField.rx.text.orEmpty.map { (text) -> Bool in
+            return text.count >= 6
+        }
+        
+        passwordValid.bind(to: passwordInvalidLabel.rx.isHidden)
+        
+        Observable.combineLatest(usernameValid, passwordValid) { $0 && $1}
+        .bind(to: loginButton.rx.isEnabled)
+        .disposed(by: rx.disposeBag)
+        
+        
+        loginButton.rx.tap.subscribe(onNext: { () in
+            SVProgressHUD.showSuccess(withStatus: "登录")
+        }).disposed(by: rx.disposeBag)
     }
     
 }

@@ -9,6 +9,7 @@
 #import "CQWaterfallController.h"
 #import "CQWaterfallCell.h"
 #import "CQWaterfallModel.h"
+#import "CQWaterfallLayout.h"
 
 static NSString * const CQWaterfallCellReuseID = @"CQWaterfallCellReuseID";
 
@@ -59,7 +60,7 @@ static NSString * const CQWaterfallCellReuseID = @"CQWaterfallCellReuseID";
 #pragma mark - UI搭建
 
 - (void)setupUI {
-    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+    CQWaterfallLayout *layout = [[CQWaterfallLayout alloc] init];
     self.collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
     [self.view addSubview:self.collectionView];
     self.collectionView.backgroundColor = [UIColor whiteColor];

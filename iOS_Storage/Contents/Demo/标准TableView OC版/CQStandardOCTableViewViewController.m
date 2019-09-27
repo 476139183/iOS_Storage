@@ -16,6 +16,9 @@
 @interface CQStandardOCTableViewViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) NSMutableArray *dataArray;
+/** 获取第几页的数据 */
+@property (nonatomic, assign) NSInteger requestPage;
 
 @end
 
@@ -43,6 +46,31 @@
     
     // 设置表尾
     self.tableView.tableFooterView = [[CQStandardTableFooterView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 200)];
+    
+    // 下拉刷新
+    self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(pullDownRefresh)];
+    // 上拉加载更多
+    self.tableView.mj_footer = [MJRefreshBackFooter footerWithRefreshingTarget:self refreshingAction:@selector(pullUpLoadMore)];
+}
+
+- (void)loadDataWithSuccess:(void (^)(NSArray *))success failure:(void (^)(NSString *))failure {
+    //------- url -------//
+    NSString *url = @"http://xxxx";
+    //------- 参数 -------//
+    NSMutableDictionary *paraDict = [NSMutableDictionary dictionary];
+    paraDict[@"page"] = @(self.requestPage);
+    //------- 请求 -------//
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+    });
+}
+
+- (void)pullDownRefresh {
+    
+}
+
+- (void)pullUpLoadMore {
+    
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

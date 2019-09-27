@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RxSwiftLoginViewController" customModule="iOS_Storage" customModuleProvider="target">
             <connections>
+                <outlet property="loginButton" destination="SLY-sR-JlW" id="9QG-K5-mRf"/>
                 <outlet property="passwordInvalidLabel" destination="DPg-5H-k2J" id="ssc-oX-rgG"/>
                 <outlet property="passwordTextField" destination="zmX-Yh-YU9" id="1Di-LD-BMu"/>
                 <outlet property="usernameInvalidLabel" destination="fvm-QC-w1M" id="aZA-Vq-qGW"/>

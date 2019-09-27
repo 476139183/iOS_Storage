@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "CQTabBarController.h"
+#import "iOS_Storage-Swift.h"
 
 @interface AppDelegate ()
 
@@ -32,6 +33,16 @@
     [SVProgressHUD setForegroundColor:[UIColor whiteColor]];
     
     return YES;
+}
+
+
+- (void)application:(UIApplication *)application handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)(void))completionHandler {
+    
+    
+    
+//    print("hello - \(identifier)")
+//    LGBackgroundManger.shared.manager.backgroundCompletionHandler = completionHandler
+//    self.backgroundSessionCompletionHandler = completionHandler
 }
 
 

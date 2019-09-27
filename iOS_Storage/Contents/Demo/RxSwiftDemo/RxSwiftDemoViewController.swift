@@ -107,7 +107,7 @@ class RxSwiftDemoViewController: CQBaseViewController {
         monitorScroll()
         addObserver()
         bind()
-        rxTimer()
+        //rxTimer()
     }
     
     deinit {
@@ -129,9 +129,9 @@ extension RxSwiftDemoViewController {
     // MARK: - 按钮事件
     func addButtonEvent() {
         // tap 等于 TouchUpInside
-        self.redButton.rx.tap.subscribe(onNext: { () in
-            print("red button clicked")
-        }).disposed(by: disposeBag)
+self.redButton.rx.tap.subscribe(onNext: { () in
+    print("red button clicked")
+}).disposed(by: disposeBag)
         
         self.redButton.rx.controlEvent(.touchDown).subscribe(onNext: { () in
             print("red button touch down")
@@ -140,11 +140,11 @@ extension RxSwiftDemoViewController {
     
     // MARK: - 手势
     func addGestureEvent() {
-        let tap = UITapGestureRecognizer()
-        greenView.addGestureRecognizer(tap)
-        tap.rx.event.subscribe(onNext: { (tap) in
-            print("green view tap")
-        }).disposed(by: disposeBag)
+let tap = UITapGestureRecognizer()
+greenView.addGestureRecognizer(tap)
+tap.rx.event.subscribe(onNext: { (tap) in
+    print("green view tap")
+}).disposed(by: disposeBag)
     }
 }
 
@@ -152,17 +152,17 @@ extension RxSwiftDemoViewController {
 extension RxSwiftDemoViewController {
     func handleKeyboardNotif() {
         // 监听键盘弹出
-        NotificationCenter.default.rx.notification(UIResponder.keyboardDidShowNotification).subscribe(onNext: { (notif) in
-            print("键盘弹出")
-        }).disposed(by: disposeBag)
+NotificationCenter.default.rx.notification(UIResponder.keyboardDidShowNotification).subscribe(onNext: { (notif) in
+    print("键盘弹出")
+}).disposed(by: disposeBag)
     }
 }
 
 // MARK: - 代理
 extension RxSwiftDemoViewController {
     func monitorScroll() {
-        scrollView.rx.contentOffset.subscribe(onNext: { [weak self](offser) in
-            self?.view.backgroundColor = UIColor.init(red: offser.y/255*0.8, green: offser.y/255*0.6, blue: offser.y/255*0.3, alpha: 1)
+        scrollView.rx.contentOffset.subscribe(onNext: { [weak self](offset) in
+            self?.view.backgroundColor = UIColor.init(red: offset.y/255*0.8, green: offset.y/255*0.6, blue: offset.y/255*0.3, alpha: 1)
         }).disposed(by: disposeBag)
         view.backgroundColor = .white
     }
