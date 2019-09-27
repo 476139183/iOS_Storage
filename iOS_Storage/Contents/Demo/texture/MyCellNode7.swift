@@ -35,6 +35,7 @@ class MyCellNode7: ASCellNode {
 fileprivate class nodeContentView: UIView {
     
     let label = UILabel()
+    let button = UIButton()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -50,6 +51,8 @@ fileprivate class nodeContentView: UIView {
         backgroundColor = .purple
         
         addSubview(label)
+        addSubview(button)
+        
         label.text = "绝对布局"
         label.font = .boldSystemFont(ofSize: 30)
         label.textAlignment = .center
@@ -57,5 +60,18 @@ fileprivate class nodeContentView: UIView {
         label.snp.makeConstraints { (make) in
             make.edges.equalToSuperview()
         }
+        
+        button.setTitle("button", for: .normal)
+        button.backgroundColor = .blue
+        button.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
+        button.snp.makeConstraints { (make) in
+            make.size.equalTo(CGSize.init(width: 100, height: 40))
+            make.bottom.equalToSuperview().offset(-20)
+            make.centerX.equalToSuperview()
+        }
+    }
+    
+    @objc func buttonClicked() {
+        print("click")
     }
 }
