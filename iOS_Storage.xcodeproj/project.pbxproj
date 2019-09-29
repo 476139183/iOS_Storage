@@ -34,6 +34,10 @@
 		D91A9F8422B490F7008F87F1 /* logo商标识别.md in Resources */ = {isa = PBXBuildFile; fileRef = D91A9F8322B490F7008F87F1 /* logo商标识别.md */; };
 		D91A9F8B22B49390008F87F1 /* CQRecognitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F8A22B49390008F87F1 /* CQRecognitionManager.m */; };
 		D91A9F8E22B49B36008F87F1 /* CQRecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F8D22B49B36008F87F1 /* CQRecognitionViewController.m */; };
+		D91E1D22233E4E9800B1C772 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E1D21233E4E9800B1C772 /* GradientView.swift */; };
+		D91E1D25233E4EB600B1C772 /* CQGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E1D24233E4EB600B1C772 /* CQGradientView.m */; };
+		D91E1D28233E50B000B1C772 /* CQGradientDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E1D27233E50B000B1C772 /* CQGradientDemoViewController.m */; };
+		D91E1D2B233E585800B1C772 /* UIImage+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E1D2A233E585800B1C772 /* UIImage+Util.m */; };
 		D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E0221A90E400AC1DEA /* CQSearchController.m */; };
 		D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E3221A910500AC1DEA /* CQSearchModel.m */; };
 		D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */; };
@@ -183,9 +187,20 @@
 		D9B563F720E24A14001AE9A0 /* iphone_menu_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B563F520E24896001AE9A0 /* iphone_menu_data.json */; };
 		D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B563F620E249E3001AE9A0 /* iphone_list_data.json */; };
 		D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */; };
+		D9BF6905233EEF2300E602A4 /* CQGradientControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6904233EEF2300E602A4 /* CQGradientControl.m */; };
+		D9BF6908233EF61300E602A4 /* CQGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6907233EF61300E602A4 /* CQGradientButton.m */; };
+		D9BF690F233F4B2A00E602A4 /* CQGradientOCDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF690E233F4B2A00E602A4 /* CQGradientOCDemoViewController.m */; };
+		D9BF6911233F4B6600E602A4 /* GradientSwiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6910233F4B6600E602A4 /* GradientSwiftDemoViewController.swift */; };
+		D9BF6913233F578900E602A4 /* GradientControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6912233F578900E602A4 /* GradientControl.swift */; };
+		D9BF6915233F57CF00E602A4 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6914233F57CF00E602A4 /* GradientButton.swift */; };
+		D9BF6917233F587300E602A4 /* GradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6916233F587300E602A4 /* GradientLabel.swift */; };
+		D9BF691A233F5F0B00E602A4 /* CQGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6919233F5F0B00E602A4 /* CQGradientLabel.m */; };
 		D9C5B448233D967500299AFB /* MyCellNode5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B447233D967500299AFB /* MyCellNode5.swift */; };
 		D9C5B44A233DA0ED00299AFB /* MyCellNode6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B449233DA0ED00299AFB /* MyCellNode6.swift */; };
 		D9C5B44C233DAE3500299AFB /* MyCellNode7.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B44B233DAE3500299AFB /* MyCellNode7.swift */; };
+		D9C5B44E233DBE9700299AFB /* CommunityMessagePKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B44D233DBE9700299AFB /* CommunityMessagePKCell.swift */; };
+		D9C5B450233DC58000299AFB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B44F233DC58000299AFB /* Constants.swift */; };
+		D9C5B453233DF3A200299AFB /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B452233DF3A200299AFB /* UIColor+Extension.swift */; };
 		D9C7020F22EB542200DDC44F /* RxSwiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7020E22EB542200DDC44F /* RxSwiftDemoViewController.swift */; };
 		D9C7021122EB546300DDC44F /* RxSwiftDemo.md in Resources */ = {isa = PBXBuildFile; fileRef = D9C7021022EB546300DDC44F /* RxSwiftDemo.md */; };
 		D9C7021322EB5CF400DDC44F /* RxPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7021222EB5CF400DDC44F /* RxPerson.swift */; };
@@ -303,6 +318,13 @@
 		D91A9F8A22B49390008F87F1 /* CQRecognitionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRecognitionManager.m; sourceTree = "<group>"; };
 		D91A9F8C22B49B36008F87F1 /* CQRecognitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRecognitionViewController.h; sourceTree = "<group>"; };
 		D91A9F8D22B49B36008F87F1 /* CQRecognitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRecognitionViewController.m; sourceTree = "<group>"; };
+		D91E1D21233E4E9800B1C772 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		D91E1D23233E4EB600B1C772 /* CQGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientView.h; sourceTree = "<group>"; };
+		D91E1D24233E4EB600B1C772 /* CQGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientView.m; sourceTree = "<group>"; };
+		D91E1D26233E50B000B1C772 /* CQGradientDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientDemoViewController.h; sourceTree = "<group>"; };
+		D91E1D27233E50B000B1C772 /* CQGradientDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientDemoViewController.m; sourceTree = "<group>"; };
+		D91E1D29233E585800B1C772 /* UIImage+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Util.h"; sourceTree = "<group>"; };
+		D91E1D2A233E585800B1C772 /* UIImage+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Util.m"; sourceTree = "<group>"; };
 		D91E53DF221A90E400AC1DEA /* CQSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSearchController.h; sourceTree = "<group>"; };
 		D91E53E0221A90E400AC1DEA /* CQSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSearchController.m; sourceTree = "<group>"; };
 		D91E53E2221A910500AC1DEA /* CQSearchModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSearchModel.h; sourceTree = "<group>"; };
@@ -544,9 +566,24 @@
 		D9B563F620E249E3001AE9A0 /* iphone_list_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = iphone_list_data.json; sourceTree = "<group>"; };
 		D9B563F920E24B1F001AE9A0 /* CQIphoneDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIphoneDetailViewController.h; sourceTree = "<group>"; };
 		D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQIphoneDetailViewController.m; sourceTree = "<group>"; };
+		D9BF6903233EEF2300E602A4 /* CQGradientControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientControl.h; sourceTree = "<group>"; };
+		D9BF6904233EEF2300E602A4 /* CQGradientControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientControl.m; sourceTree = "<group>"; };
+		D9BF6906233EF61300E602A4 /* CQGradientButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientButton.h; sourceTree = "<group>"; };
+		D9BF6907233EF61300E602A4 /* CQGradientButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientButton.m; sourceTree = "<group>"; };
+		D9BF690D233F4B2A00E602A4 /* CQGradientOCDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientOCDemoViewController.h; sourceTree = "<group>"; };
+		D9BF690E233F4B2A00E602A4 /* CQGradientOCDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientOCDemoViewController.m; sourceTree = "<group>"; };
+		D9BF6910233F4B6600E602A4 /* GradientSwiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientSwiftDemoViewController.swift; sourceTree = "<group>"; };
+		D9BF6912233F578900E602A4 /* GradientControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientControl.swift; sourceTree = "<group>"; };
+		D9BF6914233F57CF00E602A4 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		D9BF6916233F587300E602A4 /* GradientLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLabel.swift; sourceTree = "<group>"; };
+		D9BF6918233F5F0B00E602A4 /* CQGradientLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientLabel.h; sourceTree = "<group>"; };
+		D9BF6919233F5F0B00E602A4 /* CQGradientLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientLabel.m; sourceTree = "<group>"; };
 		D9C5B447233D967500299AFB /* MyCellNode5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode5.swift; sourceTree = "<group>"; };
 		D9C5B449233DA0ED00299AFB /* MyCellNode6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode6.swift; sourceTree = "<group>"; };
 		D9C5B44B233DAE3500299AFB /* MyCellNode7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode7.swift; sourceTree = "<group>"; };
+		D9C5B44D233DBE9700299AFB /* CommunityMessagePKCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityMessagePKCell.swift; sourceTree = "<group>"; };
+		D9C5B44F233DC58000299AFB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D9C5B452233DF3A200299AFB /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		D9C7020E22EB542200DDC44F /* RxSwiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftDemoViewController.swift; sourceTree = "<group>"; };
 		D9C7021022EB546300DDC44F /* RxSwiftDemo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RxSwiftDemo.md; sourceTree = "<group>"; };
 		D9C7021222EB5CF400DDC44F /* RxPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPerson.swift; sourceTree = "<group>"; };
@@ -854,6 +891,46 @@
 			path = CQRecognitionManager;
 			sourceTree = "<group>";
 		};
+		D91E1D1E233E4D4700B1C772 /* 颜色渐变view */ = {
+			isa = PBXGroup;
+			children = (
+				D91E1D26233E50B000B1C772 /* CQGradientDemoViewController.h */,
+				D91E1D27233E50B000B1C772 /* CQGradientDemoViewController.m */,
+				D9BF690D233F4B2A00E602A4 /* CQGradientOCDemoViewController.h */,
+				D9BF690E233F4B2A00E602A4 /* CQGradientOCDemoViewController.m */,
+				D9BF6910233F4B6600E602A4 /* GradientSwiftDemoViewController.swift */,
+				D91E1D20233E4DA500B1C772 /* OC */,
+				D91E1D1F233E4D9B00B1C772 /* Swift */,
+			);
+			path = "颜色渐变view";
+			sourceTree = "<group>";
+		};
+		D91E1D1F233E4D9B00B1C772 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D91E1D21233E4E9800B1C772 /* GradientView.swift */,
+				D9BF6916233F587300E602A4 /* GradientLabel.swift */,
+				D9BF6912233F578900E602A4 /* GradientControl.swift */,
+				D9BF6914233F57CF00E602A4 /* GradientButton.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		D91E1D20233E4DA500B1C772 /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				D91E1D23233E4EB600B1C772 /* CQGradientView.h */,
+				D91E1D24233E4EB600B1C772 /* CQGradientView.m */,
+				D9BF6918233F5F0B00E602A4 /* CQGradientLabel.h */,
+				D9BF6919233F5F0B00E602A4 /* CQGradientLabel.m */,
+				D9BF6903233EEF2300E602A4 /* CQGradientControl.h */,
+				D9BF6904233EEF2300E602A4 /* CQGradientControl.m */,
+				D9BF6906233EF61300E602A4 /* CQGradientButton.h */,
+				D9BF6907233EF61300E602A4 /* CQGradientButton.m */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
 		D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1145,6 +1222,7 @@
 				D920CE8622B37DE2000962C0 /* 权限检测 */,
 				D91A9F7622B3D801008F87F1 /* 一个很6的倒计时button */,
 				D91A9F8222B490BB008F87F1 /* logo商标识别 */,
+				D91E1D1E233E4D4700B1C772 /* 颜色渐变view */,
 			);
 			path = "框架";
 			sourceTree = "<group>";
@@ -1194,7 +1272,9 @@
 		D92D69C720DE3606002BA9C0 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				D9C5B44F233DC58000299AFB /* Constants.swift */,
 				D93A0BFA233CA51D00554EF6 /* Utilities.swift */,
+				D9C5B451233DE83000299AFB /* Extensions */,
 				D9DA5CED20E290E00098EC68 /* Categories */,
 			);
 			path = Tool;
@@ -1872,9 +1952,18 @@
 				D9C5B447233D967500299AFB /* MyCellNode5.swift */,
 				D9C5B449233DA0ED00299AFB /* MyCellNode6.swift */,
 				D9C5B44B233DAE3500299AFB /* MyCellNode7.swift */,
+				D9C5B44D233DBE9700299AFB /* CommunityMessagePKCell.swift */,
 				D93A0BF2233C700E00554EF6 /* ASTableDemoController.swift */,
 			);
 			path = texture;
+			sourceTree = "<group>";
+		};
+		D9C5B451233DE83000299AFB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D9C5B452233DF3A200299AFB /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		D9C7020D22EB53E600DDC44F /* RxSwiftDemo */ = {
@@ -2174,6 +2263,8 @@
 				D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */,
 				D9DA5CEE20E291550098EC68 /* UIView+Util.h */,
 				D9DA5CEF20E291550098EC68 /* UIView+Util.m */,
+				D91E1D29233E585800B1C772 /* UIImage+Util.h */,
+				D91E1D2A233E585800B1C772 /* UIImage+Util.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -2725,6 +2816,7 @@
 			files = (
 				D926BDD922C496B800A2DD3E /* AfternoonState.m in Sources */,
 				D9DA0E7A20E24F5E006CEA1C /* IphoneMenuView.m in Sources */,
+				D9C5B453233DF3A200299AFB /* UIColor+Extension.swift in Sources */,
 				D91A9F8B22B49390008F87F1 /* CQRecognitionManager.m in Sources */,
 				D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */,
 				D926BDC722C487CB00A2DD3E /* CQAbstractFactoryViewController.m in Sources */,
@@ -2735,7 +2827,9 @@
 				D9C7CC1622E9A3AE0038FD34 /* CQStandardTableSectionFooterView.m in Sources */,
 				D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */,
 				D920ED2022E870A800C5A43F /* LottieViewController.swift in Sources */,
+				D9BF6905233EEF2300E602A4 /* CQGradientControl.m in Sources */,
 				D93AB71B2147BE230024C76E /* CQCarFactory.m in Sources */,
+				D9BF691A233F5F0B00E602A4 /* CQGradientLabel.m in Sources */,
 				D9DE6CC320FEE7CE00C8D4FE /* CQHouseModel.m in Sources */,
 				D9E21A8B210FF91100407599 /* CQClassClusterCellB.m in Sources */,
 				D90D9FB4233219680007C25C /* CQFPSCell.m in Sources */,
@@ -2807,6 +2901,8 @@
 				D9AEB65622F56747006F8995 /* AlamofireDemoViewController.swift in Sources */,
 				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
 				D913F93F2109C08200366887 /* CQContentViewController.m in Sources */,
+				D9BF690F233F4B2A00E602A4 /* CQGradientOCDemoViewController.m in Sources */,
+				D9BF6913233F578900E602A4 /* GradientControl.swift in Sources */,
 				D9519A0622BFAE5D00E3036B /* Nick.m in Sources */,
 				D926BDC122C34B6900A2DD3E /* CQObserverViewController.m in Sources */,
 				D9179CE422B7C9DA002FCCA0 /* UIButton+CQBorder.m in Sources */,
@@ -2818,6 +2914,7 @@
 				D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */,
 				D9C7CC0922E998520038FD34 /* CQStandardTableHeaderView.m in Sources */,
 				D9C7021322EB5CF400DDC44F /* RxPerson.swift in Sources */,
+				D9C5B450233DC58000299AFB /* Constants.swift in Sources */,
 				D9A39F8722B4D51900FEA5F5 /* CQStrategyViewController.m in Sources */,
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
@@ -2834,11 +2931,14 @@
 				D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */,
 				D9C7020F22EB542200DDC44F /* RxSwiftDemoViewController.swift in Sources */,
 				D9519A0322BFACC600E3036B /* Clothes.m in Sources */,
+				D9C5B44E233DBE9700299AFB /* CommunityMessagePKCell.swift in Sources */,
 				D93FD5692317AE43005E70A6 /* CQWaterfallLayout.m in Sources */,
 				D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */,
 				D9DE6CBD20FEE78100C8D4FE /* CQRegionModel.m in Sources */,
 				D9AEB65922F57955006F8995 /* MoyaDemoViewController.swift in Sources */,
+				D9BF6915233F57CF00E602A4 /* GradientButton.swift in Sources */,
 				D95199F722BF287000E3036B /* CQMVVMRACViewController.m in Sources */,
+				D91E1D28233E50B000B1C772 /* CQGradientDemoViewController.m in Sources */,
 				D9C7CC2122E9ACD20038FD34 /* StandardSwiftTableHeaderView.swift in Sources */,
 				D9AEB68022F6A437006F8995 /* CQMVVMCell.m in Sources */,
 				D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */,
@@ -2854,6 +2954,7 @@
 				D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */,
 				D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */,
 				D9C7CC2522E9B8C10038FD34 /* StandardSwiftSectionHeaderView.swift in Sources */,
+				D91E1D22233E4E9800B1C772 /* GradientView.swift in Sources */,
 				D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */,
 				D9519A0022BF2FE700E3036B /* AdidasFactory.m in Sources */,
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
@@ -2870,11 +2971,14 @@
 				D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */,
 				D9CE54B8233D0B1100AB58C0 /* MyCellNode3.swift in Sources */,
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
+				D9BF6917233F587300E602A4 /* GradientLabel.swift in Sources */,
 				D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */,
 				D9545B3B2293AB48008B6355 /* CQThread.m in Sources */,
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
+				D91E1D25233E4EB600B1C772 /* CQGradientView.m in Sources */,
 				D9697FED22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift in Sources */,
 				D9CFC80A229CDB66009B8399 /* CQKVOController.m in Sources */,
+				D9BF6908233EF61300E602A4 /* CQGradientButton.m in Sources */,
 				D926BDB522C3226C00A2DD3E /* CQFacadeViewController.m in Sources */,
 				D926BDF222C6147E00A2DD3E /* RoleStateMemento.m in Sources */,
 				D984AD0F2154F05000610B27 /* CQSortButtonDemoController.m in Sources */,
@@ -2890,6 +2994,7 @@
 				D93A0BF3233C700E00554EF6 /* ASTableDemoController.swift in Sources */,
 				D926BDDC22C497BA00A2DD3E /* Work.m in Sources */,
 				D9AEB68922F6AA56006F8995 /* CQMVVMViewModel.m in Sources */,
+				D91E1D2B233E585800B1C772 /* UIImage+Util.m in Sources */,
 				D9CFC80D229CE438009B8399 /* Cat2.m in Sources */,
 				D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */,
 				D932D24C2338B39E00662E05 /* ASViewControllerDemoController.swift in Sources */,
@@ -2914,6 +3019,7 @@
 				D9A39F7B22B4D2DC00FEA5F5 /* CQMVPViewController.m in Sources */,
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,
 				D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */,
+				D9BF6911233F4B6600E602A4 /* GradientSwiftDemoViewController.swift in Sources */,
 				D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */,
 				D92D105A23066A42002203A1 /* CQCheckDeallocViewController.m in Sources */,
 				D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */,

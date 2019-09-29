@@ -18,6 +18,10 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
         fatalError("init(coder:) has not been implemented")
     }
     
+    deinit {
+        print("释放")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,12 +31,10 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
         
         self.node.dataSource = self
         self.node.delegate = self
-        
-        
     }
     
     override func viewWillLayoutSubviews() {
-        self.node.frame = CGRect.init(x: 20, y: 120, width: 300, height: 400)
+        //self.node.frame = CGRect.init(x: 20, y: 120, width: 300, height: 400)
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
@@ -57,11 +59,11 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
     
     func tableNode(_ tableNode: ASTableNode, nodeForRowAt indexPath: IndexPath) -> ASCellNode {
         
-        let a = indexPath.section % 7
+        let a = indexPath.section % 8
         
         switch a {
         case 0:
-            return MyCellNode.init(title: String(indexPath.section / 7), desc: "详情")
+            return MyCellNode.init(title: String(indexPath.section / 8), desc: "详情")
         case 1:
             return MyCellNode2()
         case 2:
@@ -74,6 +76,9 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
             return MyCellNode6()
         case 6:
             return MyCellNode7()
+        case 7:
+            let cell = CommunityMessagePKCell(countdown: 600, truePoints: 10, falsePoints: 50, myPoints: 666)
+            return cell
         default:
             return ASCellNode()
         }

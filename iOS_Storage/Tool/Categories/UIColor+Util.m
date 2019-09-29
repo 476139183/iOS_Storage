@@ -62,4 +62,96 @@
     return [self colorWithHexString:color alpha:1.0f];
 }
 
+/**
+ *  @brief  生成渐变色
+ *
+ *  @param  bounds  bound
+ *  @param  colors  渐变颜色组
+ *  @param  direction  渐变方向
+ *
+ *  @return 渐变色
+ */
++ (UIColor *)colorWithGradientBounds:(CGRect)bounds colors:(NSArray <UIColor *>*)colors direction:(CQGradientDirection)direction {
+    NSMutableArray *ar = [NSMutableArray array];
+    
+    for(UIColor *c in colors) {
+        [ar addObject:(id)c.CGColor];
+    }
+    UIGraphicsBeginImageContextWithOptions(bounds.size, YES, 1);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSaveGState(context);
+    CGColorSpaceRef colorSpace = CGColorGetColorSpace([[colors lastObject] CGColor]);
+    CGGradientRef gradient = CGGradientCreateWithColors(colorSpace, (CFArrayRef)ar, NULL);
+    
+    CGPoint startPt =  CGPointMake(0, 0);
+    CGPoint endPt =  CGPointMake(0, 0);
+    
+    CGFloat width = bounds.size.width;
+    CGFloat height = bounds.size.height;
+    
+    switch (direction) {
+        case CQGradientDirectionTopToBottom:
+        {
+            // 上 到 下
+            startPt= CGPointMake(0, 0);
+            endPt= CGPointMake(0, height);
+            break;
+        }
+        case CQGradientDirectionLeftToRight:
+        {
+            // 左 到 右
+            startPt = CGPointMake(0, 0);
+            endPt = CGPointMake(width, 0);
+            break;
+        }
+        case CQGradientDirectionBottomToTop:
+        {
+            // 下 到 上
+            startPt = CGPointMake(0, height);
+            endPt = CGPointMake(0, 0);
+            break;
+        }
+        case CQGradientDirectionRightToLeft:
+        {
+            // 右 到 左
+            startPt = CGPointMake(width, 0);
+            endPt = CGPointMake(0, 0);
+            break;
+        }
+        case CQGradientDirectionLeftTopToRightBottom:
+        {
+            // 左上 到 右下
+            startPt = CGPointMake(0, 0);
+            endPt = CGPointMake(width, height);
+            break;
+        }
+        case CQGradientDirectionLeftBottomToRightTop:
+        {
+            // 左下 到 右上
+            startPt = CGPointMake(0, height);
+            endPt = CGPointMake(width, 0);
+            break;
+        }
+        case CQGradientDirectionRightTopToLeftBottom: {
+            // 右上 到 左下
+            startPt = CGPointMake(width, 0);
+            endPt = CGPointMake(0, height);
+            break;
+        }
+        case CQGradientDirectionRightBottomToLeftTop: {
+            // 右下 到 左上
+            startPt = CGPointMake(width, height);
+            endPt = CGPointMake(0, 0);
+            break;
+        }
+    }
+    CGContextDrawLinearGradient(context, gradient, startPt, endPt, kCGGradientDrawsBeforeStartLocation | kCGGradientDrawsAfterEndLocation);
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    CGGradientRelease(gradient);
+    CGContextRestoreGState(context);
+    CGColorSpaceRelease(colorSpace);
+    UIGraphicsEndImageContext();
+    return [UIColor colorWithPatternImage:image];
+}
+
 @end
