@@ -149,14 +149,9 @@ fileprivate class PKCellContentView: UIView {
         button.layer.borderColor = UIColor.white.cgColor
         button.layer.borderWidth = 2
         button.layer.cornerRadius = 25
-        let label = UILabel.init()
-        label.font = UIFont.boldSystemFont(ofSize: 18)
-        label.textColor = .white
-        label.text = "真"
-        button.addSubview(label)
-        label.snp.makeConstraints { (make) in
-            make.center.equalToSuperview()
-        }
+        button.setTitleColor(.white, for: .normal)
+        button.titleLabel?.font = .boldSystemFont(ofSize: 18)
+        button.setTitle("真", for: .normal)
         button.addTarget(self, action: #selector(trueButtonClicked), for: .touchUpInside)
         return button
     }()
