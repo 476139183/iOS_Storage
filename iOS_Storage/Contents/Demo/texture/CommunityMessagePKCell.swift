@@ -97,8 +97,8 @@ fileprivate class PKCellContentView: UIView {
     // MARK: Lazy
     
     /// 内容view
-    private lazy var contentView: CQGradientView = {
-        let view = CQGradientView.init(colors: [UIColor.colorWithHexString("#88B4FF"), UIColor.colorWithHexString("#7D75FE")], direction: CQGradientDirection.leftBottomToRightTop)
+    private lazy var contentView: GradientView = {
+        let view = GradientView.init(colors: [UIColor.colorWithHexString("#88B4FF"), UIColor.colorWithHexString("#7D75FE")], direction: .leftBottomToRightTop)
         view.layer.cornerRadius = 4
         view.clipsToBounds = true
         return view
@@ -364,8 +364,8 @@ fileprivate class PKCellContentView: UIView {
 fileprivate class PKBarView: UIView {
     
     /// 进度条
-    private lazy var bar: CQGradientView = {
-        let view = CQGradientView.init(colors: [UIColor.colorWithHexString("#F487E7"), UIColor.colorWithHexString("#B35DF9")], direction: .leftBottomToRightTop)
+    private lazy var bar: GradientView = {
+        let view = GradientView.init(colors: [UIColor.colorWithHexString("#F487E7"), UIColor.colorWithHexString("#B35DF9")], direction: .leftBottomToRightTop)
         view.layer.cornerRadius = 8
         view.clipsToBounds = true
         return view
