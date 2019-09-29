@@ -38,6 +38,7 @@
 }
 
 - (void)layoutSubviews {
+    [super layoutSubviews];
     self.backgroundColor = [UIColor colorWithGradientBounds:self.bounds colors:self.colors direction:self.direction];
 }
 

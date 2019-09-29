@@ -144,21 +144,8 @@ fileprivate class PKCellContentView: UIView {
         return label
     }()
     
-    /// "真"按钮
-//    private lazy var trueButton: CQGradientButton = {
-//        let button = CQGradientButton.init(colors: [UIColor.colorWithHexString("#F487E7"), UIColor.colorWithHexString("#B35DF9")], direction: .leftBottomToRightTop)
-//        button.layer.borderColor = UIColor.white.cgColor
-//        button.layer.borderWidth = 2
-//        button.layer.cornerRadius = 25
-//        button.setTitle("真", for: .normal)
-//        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
-//        button.setTitleColor(.white, for: .normal)
-//        button.addTarget(self, action: #selector(trueButtonClicked), for: .touchUpInside)
-//        return button
-//    }()
-    
-    private lazy var trueButton: CQGradientControl = {
-        let button = CQGradientControl.init(colors: [UIColor.colorWithHexString("#F487E7"), UIColor.colorWithHexString("#B35DF9")], direction: .leftBottomToRightTop)
+    private lazy var trueButton: GradientButton = {
+        let button = GradientButton.init(colors: [UIColor.colorWithHexString("#F487E7"), UIColor.colorWithHexString("#B35DF9")], direction: .leftBottomToRightTop)
         button.layer.borderColor = UIColor.white.cgColor
         button.layer.borderWidth = 2
         button.layer.cornerRadius = 25

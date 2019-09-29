@@ -37,12 +37,12 @@ class GradientButton: UIButton {
     func configWith(colors: [UIColor], direction: GradientDirection) {
         self.colors = colors
         self.direction = direction
-        //self.backgroundColor = UIColor.init(gradientBounds: self.bounds, colors: self.colors, direction: self.direction)
         self.backgroundColor = UIColor.gradientColorWith(bounds: self.bounds, colors: self.colors, direction: self.direction)
     }
     
     
     override func layoutSubviews() {
+        super.layoutSubviews()
         self.backgroundColor = UIColor.gradientColorWith(bounds: self.bounds, colors: self.colors, direction: self.direction)
     }
 

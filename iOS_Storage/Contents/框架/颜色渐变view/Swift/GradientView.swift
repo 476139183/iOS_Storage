@@ -43,7 +43,7 @@ class GradientView: UIView {
     
     
     override func layoutSubviews() {
-        //self.backgroundColor = UIColor.init(gradientBounds: self.bounds, colors: self.colors, direction: self.direction)
+        super.layoutSubviews()
         self.backgroundColor = UIColor.gradientColorWith(bounds: self.bounds, colors: self.colors, direction: self.direction)
     }
     

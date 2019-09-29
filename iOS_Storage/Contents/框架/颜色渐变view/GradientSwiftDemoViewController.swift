@@ -11,12 +11,12 @@ import UIKit
 class GradientSwiftDemoViewController: CQBaseViewController {
     
     private lazy var gradientView: GradientView = {
-        let gradientView = GradientView.init(colors: [UIColor.blue, UIColor.purple], direction: .rightTopToLeftBottom)
+        let gradientView = GradientView.init(colors: [UIColor.red, UIColor.green], direction: .leftTopToRightBottom)
         return gradientView
     }()
     
     private lazy var gradientLabel: GradientLabel = {
-        let gradientLabel = GradientLabel.init(colors: [UIColor.yellow, UIColor.orange], direction: .topToBottom)
+        let gradientLabel = GradientLabel.init(colors: [UIColor.yellow, UIColor.orange], direction: .leftTopToRightBottom)
         gradientLabel.text = "This is a Label"
         gradientLabel.textAlignment = .center
         gradientLabel.textColor = .white

@@ -173,7 +173,7 @@ extension UIColor {
             endPoint = CGPoint.init(x: width, y: 0)
         case .rightTopToLeftBottom:
             startPoint = CGPoint.init(x: width, y: 0)
-            endPoint = CGPoint.init(x: 0, y: width)
+            endPoint = CGPoint.init(x: 0, y: height)
         case .RightBottomToLeftTop:
             startPoint = CGPoint.init(x: width, y: height)
             endPoint = CGPoint.init(x: 0, y: 0)

@@ -23,7 +23,7 @@
     // Do any additional setup after loading the view.
     
     // 右下到左上渐变
-    self.gradientView = [[CQGradientView alloc] initWithColors:@[[UIColor yellowColor], [UIColor orangeColor]] direction:CQGradientDirectionLeftToRight];
+    self.gradientView = [[CQGradientView alloc] initWithColors:@[[UIColor yellowColor], [UIColor orangeColor]] direction:CQGradientDirectionLeftTopToRightBottom];
     [self.view addSubview:self.gradientView];
     self.gradientView.frame = CGRectMake(90, 90, 90, 90);
     
