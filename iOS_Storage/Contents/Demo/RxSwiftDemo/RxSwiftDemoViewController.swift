@@ -29,7 +29,7 @@ class RxSwiftDemoViewController: CQBaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
         redButton.frame = CGRect.init(x: 90, y: 90, width: 60, height: 30)
@@ -121,7 +121,7 @@ class RxSwiftDemoViewController: CQBaseViewController {
         
         imageView.image = UIImage.init(named: "qbl")
     }
-
+    
 }
 
 // MARK: - 基于rx的各种事件处理
@@ -129,9 +129,9 @@ extension RxSwiftDemoViewController {
     // MARK: - 按钮事件
     func addButtonEvent() {
         // tap 等于 TouchUpInside
-self.redButton.rx.tap.subscribe(onNext: { () in
-    print("red button clicked")
-}).disposed(by: disposeBag)
+        self.redButton.rx.tap.subscribe(onNext: { () in
+            print("red button clicked")
+        }).disposed(by: disposeBag)
         
         self.redButton.rx.controlEvent(.touchDown).subscribe(onNext: { () in
             print("red button touch down")
@@ -140,11 +140,11 @@ self.redButton.rx.tap.subscribe(onNext: { () in
     
     // MARK: - 手势
     func addGestureEvent() {
-let tap = UITapGestureRecognizer()
-greenView.addGestureRecognizer(tap)
-tap.rx.event.subscribe(onNext: { (tap) in
-    print("green view tap")
-}).disposed(by: disposeBag)
+        let tap = UITapGestureRecognizer()
+        greenView.addGestureRecognizer(tap)
+        tap.rx.event.subscribe(onNext: { (tap) in
+            print("green view tap")
+        }).disposed(by: disposeBag)
     }
 }
 
@@ -152,9 +152,9 @@ tap.rx.event.subscribe(onNext: { (tap) in
 extension RxSwiftDemoViewController {
     func handleKeyboardNotif() {
         // 监听键盘弹出
-NotificationCenter.default.rx.notification(UIResponder.keyboardDidShowNotification).subscribe(onNext: { (notif) in
-    print("键盘弹出")
-}).disposed(by: disposeBag)
+        NotificationCenter.default.rx.notification(UIResponder.keyboardDidShowNotification).subscribe(onNext: { (notif) in
+            print("键盘弹出")
+        }).disposed(by: disposeBag)
     }
 }
 

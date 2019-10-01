@@ -156,9 +156,9 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>YYTextDemo</string>
+		<string>YY</string>
 		<key>controller_name</key>
-		<string>YYTextDemoViewController</string>
+		<string>YYDemoListViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>
@@ -174,7 +174,7 @@
 		<key>demo_name</key>
 		<string>RxSwiftDemo</string>
 		<key>controller_name</key>
-		<string>RxSwiftDemoViewController</string>
+		<string>RxSwiftDemoListViewController</string>
 		<key>url</key>
 		<string>RxSwiftDemo.md</string>
 	</dict>

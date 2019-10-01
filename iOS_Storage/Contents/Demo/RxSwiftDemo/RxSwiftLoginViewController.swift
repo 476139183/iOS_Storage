@@ -9,7 +9,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
-import NSObject_Rx
+//import NSObject_Rx
 
 class RxSwiftLoginViewController: UIViewController {
     
@@ -19,13 +19,15 @@ class RxSwiftLoginViewController: UIViewController {
     @IBOutlet weak var passwordInvalidLabel: UILabel!
     @IBOutlet weak var loginButton: UIButton!
     
+    let disposeBag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
         let usernameValid = usernameTextField.rx.text.orEmpty.map { (text) -> Bool in
-            return text.count >= 6
+            return text.count >= 0
         }
         
         usernameValid.bind(to: usernameInvalidLabel.rx.isHidden)
@@ -40,12 +42,12 @@ class RxSwiftLoginViewController: UIViewController {
         
         Observable.combineLatest(usernameValid, passwordValid) { $0 && $1}
         .bind(to: loginButton.rx.isEnabled)
-        .disposed(by: rx.disposeBag)
+        .disposed(by: self.disposeBag)
         
         
         loginButton.rx.tap.subscribe(onNext: { () in
             SVProgressHUD.showSuccess(withStatus: "登录")
-        }).disposed(by: rx.disposeBag)
+        }).disposed(by: self.disposeBag)
     }
     
 }

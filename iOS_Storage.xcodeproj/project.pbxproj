@@ -201,6 +201,8 @@
 		D9C5B44E233DBE9700299AFB /* CommunityMessagePKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B44D233DBE9700299AFB /* CommunityMessagePKCell.swift */; };
 		D9C5B450233DC58000299AFB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B44F233DC58000299AFB /* Constants.swift */; };
 		D9C5B453233DF3A200299AFB /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B452233DF3A200299AFB /* UIColor+Extension.swift */; };
+		D9C5E5CA23424D5000D101F1 /* YYDemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E5C923424D5000D101F1 /* YYDemoListViewController.swift */; };
+		D9C5E5CC23436C2800D101F1 /* YYTextViewDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E5CB23436C2700D101F1 /* YYTextViewDemoController.swift */; };
 		D9C7020F22EB542200DDC44F /* RxSwiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7020E22EB542200DDC44F /* RxSwiftDemoViewController.swift */; };
 		D9C7021122EB546300DDC44F /* RxSwiftDemo.md in Resources */ = {isa = PBXBuildFile; fileRef = D9C7021022EB546300DDC44F /* RxSwiftDemo.md */; };
 		D9C7021322EB5CF400DDC44F /* RxPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7021222EB5CF400DDC44F /* RxPerson.swift */; };
@@ -221,6 +223,9 @@
 		D9C7CC2322E9B2A80038FD34 /* StandardSwiftTableFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7CC2222E9B2A80038FD34 /* StandardSwiftTableFooterView.swift */; };
 		D9C7CC2522E9B8C10038FD34 /* StandardSwiftSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7CC2422E9B8C10038FD34 /* StandardSwiftSectionHeaderView.swift */; };
 		D9C7CC2722E9BC9B0038FD34 /* StandardSwiftSectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7CC2622E9BC9B0038FD34 /* StandardSwiftSectionFooterView.swift */; };
+		D9CB1EC02341FBDD00CEB752 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB1EBF2341FBDD00CEB752 /* NSObject+Extension.swift */; };
+		D9CB1EC22341FDA900CEB752 /* RxSwiftDemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB1EC12341FDA900CEB752 /* RxSwiftDemoListViewController.swift */; };
+		D9CB1EC42342053900CEB752 /* RxSwiftDynamicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB1EC32342053900CEB752 /* RxSwiftDynamicTableViewController.swift */; };
 		D9CE54B8233D0B1100AB58C0 /* MyCellNode3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE54B7233D0B1100AB58C0 /* MyCellNode3.swift */; };
 		D9CE54BA233D100A00AB58C0 /* MyCellNode4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE54B9233D100A00AB58C0 /* MyCellNode4.swift */; };
 		D9CFC803229CC9CA009B8399 /* CQMessageSendController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC802229CC9CA009B8399 /* CQMessageSendController.m */; };
@@ -584,6 +589,8 @@
 		D9C5B44D233DBE9700299AFB /* CommunityMessagePKCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityMessagePKCell.swift; sourceTree = "<group>"; };
 		D9C5B44F233DC58000299AFB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D9C5B452233DF3A200299AFB /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		D9C5E5C923424D5000D101F1 /* YYDemoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYDemoListViewController.swift; sourceTree = "<group>"; };
+		D9C5E5CB23436C2700D101F1 /* YYTextViewDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYTextViewDemoController.swift; sourceTree = "<group>"; };
 		D9C7020E22EB542200DDC44F /* RxSwiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftDemoViewController.swift; sourceTree = "<group>"; };
 		D9C7021022EB546300DDC44F /* RxSwiftDemo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RxSwiftDemo.md; sourceTree = "<group>"; };
 		D9C7021222EB5CF400DDC44F /* RxPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPerson.swift; sourceTree = "<group>"; };
@@ -611,6 +618,9 @@
 		D9C7CC2222E9B2A80038FD34 /* StandardSwiftTableFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftTableFooterView.swift; sourceTree = "<group>"; };
 		D9C7CC2422E9B8C10038FD34 /* StandardSwiftSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftSectionHeaderView.swift; sourceTree = "<group>"; };
 		D9C7CC2622E9BC9B0038FD34 /* StandardSwiftSectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftSectionFooterView.swift; sourceTree = "<group>"; };
+		D9CB1EBF2341FBDD00CEB752 /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		D9CB1EC12341FDA900CEB752 /* RxSwiftDemoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftDemoListViewController.swift; sourceTree = "<group>"; };
+		D9CB1EC32342053900CEB752 /* RxSwiftDynamicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftDynamicTableViewController.swift; sourceTree = "<group>"; };
 		D9CE54B7233D0B1100AB58C0 /* MyCellNode3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode3.swift; sourceTree = "<group>"; };
 		D9CE54B9233D100A00AB58C0 /* MyCellNode4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode4.swift; sourceTree = "<group>"; };
 		D9CFC801229CC9CA009B8399 /* CQMessageSendController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMessageSendController.h; sourceTree = "<group>"; };
@@ -1043,12 +1053,14 @@
 			path = LottieDemo;
 			sourceTree = "<group>";
 		};
-		D920ED2322E9358900C5A43F /* YYTextDemo */ = {
+		D920ED2322E9358900C5A43F /* YY */ = {
 			isa = PBXGroup;
 			children = (
+				D9C5E5C923424D5000D101F1 /* YYDemoListViewController.swift */,
 				D920ED2422E935D700C5A43F /* YYTextDemoViewController.swift */,
+				D9C5E5CB23436C2700D101F1 /* YYTextViewDemoController.swift */,
 			);
-			path = YYTextDemo;
+			path = YY;
 			sourceTree = "<group>";
 		};
 		D926BDAA22C26E1D00A2DD3E /* 模板方法模式 */ = {
@@ -1303,7 +1315,7 @@
 				D95F591E2303B30B004ECBD0 /* 修改button响应区域 */,
 				D92D305E216B3C7200B57A2D /* 水波动画 */,
 				D920ED1C22E8703900C5A43F /* LottieDemo */,
-				D920ED2322E9358900C5A43F /* YYTextDemo */,
+				D920ED2322E9358900C5A43F /* YY */,
 				D9C7CBF122E9545E0038FD34 /* ObjectMapperDemo */,
 				D9C7020D22EB53E600DDC44F /* RxSwiftDemo */,
 				D900D9B122F40C63005C3DBE /* SnapKitDemo */,
@@ -1961,6 +1973,7 @@
 		D9C5B451233DE83000299AFB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D9CB1EBF2341FBDD00CEB752 /* NSObject+Extension.swift */,
 				D9C5B452233DF3A200299AFB /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
@@ -1970,10 +1983,12 @@
 			isa = PBXGroup;
 			children = (
 				D9C7021022EB546300DDC44F /* RxSwiftDemo.md */,
+				D9CB1EC12341FDA900CEB752 /* RxSwiftDemoListViewController.swift */,
 				D9C7021222EB5CF400DDC44F /* RxPerson.swift */,
 				D9C7020E22EB542200DDC44F /* RxSwiftDemoViewController.swift */,
 				D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */,
 				D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */,
+				D9CB1EC32342053900CEB752 /* RxSwiftDynamicTableViewController.swift */,
 			);
 			path = RxSwiftDemo;
 			sourceTree = "<group>";
@@ -2831,6 +2846,7 @@
 				D93AB71B2147BE230024C76E /* CQCarFactory.m in Sources */,
 				D9BF691A233F5F0B00E602A4 /* CQGradientLabel.m in Sources */,
 				D9DE6CC320FEE7CE00C8D4FE /* CQHouseModel.m in Sources */,
+				D9CB1EC22341FDA900CEB752 /* RxSwiftDemoListViewController.swift in Sources */,
 				D9E21A8B210FF91100407599 /* CQClassClusterCellB.m in Sources */,
 				D90D9FB4233219680007C25C /* CQFPSCell.m in Sources */,
 				D926BDEC22C5ECC100A2DD3E /* CQMementoViewController.m in Sources */,
@@ -2843,6 +2859,7 @@
 				D9C7CC1D22E9AA210038FD34 /* StandardSwiftTableViewCell.swift in Sources */,
 				D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */,
 				D9C7CC0C22E9998B0038FD34 /* CQStandardTableFooterView.m in Sources */,
+				D9C5E5CA23424D5000D101F1 /* YYDemoListViewController.swift in Sources */,
 				D92D69BC20DE3295002BA9C0 /* CQCategoryView.m in Sources */,
 				D9C5B44C233DAE3500299AFB /* MyCellNode7.swift in Sources */,
 				D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */,
@@ -2939,6 +2956,7 @@
 				D9BF6915233F57CF00E602A4 /* GradientButton.swift in Sources */,
 				D95199F722BF287000E3036B /* CQMVVMRACViewController.m in Sources */,
 				D91E1D28233E50B000B1C772 /* CQGradientDemoViewController.m in Sources */,
+				D9CB1EC02341FBDD00CEB752 /* NSObject+Extension.swift in Sources */,
 				D9C7CC2122E9ACD20038FD34 /* StandardSwiftTableHeaderView.swift in Sources */,
 				D9AEB68022F6A437006F8995 /* CQMVVMCell.m in Sources */,
 				D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */,
@@ -2973,6 +2991,7 @@
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
 				D9BF6917233F587300E602A4 /* GradientLabel.swift in Sources */,
 				D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */,
+				D9CB1EC42342053900CEB752 /* RxSwiftDynamicTableViewController.swift in Sources */,
 				D9545B3B2293AB48008B6355 /* CQThread.m in Sources */,
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
 				D91E1D25233E4EB600B1C772 /* CQGradientView.m in Sources */,
@@ -3010,6 +3029,7 @@
 				D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */,
 				D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */,
 				D926BDE222C4B5B300A2DD3E /* CQAdapterViewController.m in Sources */,
+				D9C5E5CC23436C2800D101F1 /* YYTextViewDemoController.swift in Sources */,
 				D920ED2522E935D800C5A43F /* YYTextDemoViewController.swift in Sources */,
 				D93A0BF7233C735500554EF6 /* TextureLabelView.swift in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
