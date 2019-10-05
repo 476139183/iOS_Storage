@@ -55,7 +55,7 @@ extension LeetCodeViewController {
     
     // MARK: - 两数之和
     @objc func twoSum() {
-        let vc = LeetCodeTwoSumViewController()
+        let vc = CQLeetCodeTwoSumViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
 }

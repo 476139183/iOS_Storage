@@ -18,39 +18,27 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSLog(@"%@", [self twoSumOfArray:@[@(3), @(3), @(5)] target:6]);
+    NSLog(@"%@", [self twoSumOfArray:@[@(3), @(3), @(5)] target:8]);
 }
 
 - (NSArray *)twoSumOfArray:(NSArray *)array target:(NSInteger)target {
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     for (int i = 0; i < array.count; i++) {
-        NSNumber *key = @(i);
-        NSNumber *value = array[i];
+        NSNumber *key = array[i];
+        NSNumber *value = @(i);
         dict[key] = value;
     }
     
-    NSMutableArray *resultArray = [NSMutableArray array];
-    for (int i = 0; i < dict.allValues.count; i++) {
-        NSNumber *key = @(i);
-        
-        NSNumber *targetValue = @(target - [dict[key] integerValue]);
-        if ([dict.allValues containsObject:targetValue]) {
-            
-            NSArray *keyArray = [dict allKeysForObject:targetValue];
-            
-            [resultArray addObject:key];
-            if ([keyArray.lastObject integerValue] == key.integerValue) {
-                [resultArray addObject:keyArray.firstObject];
-            } else {
-                [resultArray addObject:keyArray.lastObject];
+    for (int i = 0; i < array.count; i++) {
+        if (dict[@(target-[array[i] integerValue])]) {
+            NSInteger targetIndex = [dict[@(target-[array[i] integerValue])] integerValue];
+            if (targetIndex != i) {
+                return @[@(i), @(targetIndex)];
             }
-            
-            return resultArray;
         }
-        
     }
     
-    return resultArray;
+    return @[];
 }
 
 @end
