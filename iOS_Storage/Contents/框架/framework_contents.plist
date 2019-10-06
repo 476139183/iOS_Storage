@@ -58,5 +58,13 @@
 		<key>url</key>
 		<string></string>
 	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>好用的button</string>
+		<key>controller_name</key>
+		<string>EasyButtonViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
 </array>
 </plist>

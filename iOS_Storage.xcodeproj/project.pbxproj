@@ -206,6 +206,9 @@
 		D9C5E5D22345879000D101F1 /* LeetCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E5D12345879000D101F1 /* LeetCodeViewController.swift */; };
 		D9C5E5D523473E2000D101F1 /* LeetCodeTwoSumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E5D423473E2000D101F1 /* LeetCodeTwoSumViewController.swift */; };
 		D9C5E5D823473E4F00D101F1 /* CQLeetCodeTwoSumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E5D723473E4F00D101F1 /* CQLeetCodeTwoSumViewController.m */; };
+		D9C5E5E12348820A00D101F1 /* EasyButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E5E02348820A00D101F1 /* EasyButtonViewController.swift */; };
+		D9C5E5E62349AB1A00D101F1 /* CQEasyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E5E52349AB1A00D101F1 /* CQEasyButton.m */; };
+		D9C5E5E82349AB3700D101F1 /* EasyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E5E72349AB3700D101F1 /* EasyButton.swift */; };
 		D9C7020F22EB542200DDC44F /* RxSwiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7020E22EB542200DDC44F /* RxSwiftDemoViewController.swift */; };
 		D9C7021122EB546300DDC44F /* RxSwiftDemo.md in Resources */ = {isa = PBXBuildFile; fileRef = D9C7021022EB546300DDC44F /* RxSwiftDemo.md */; };
 		D9C7021322EB5CF400DDC44F /* RxPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7021222EB5CF400DDC44F /* RxPerson.swift */; };
@@ -599,6 +602,10 @@
 		D9C5E5D623473E4F00D101F1 /* CQLeetCodeTwoSumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQLeetCodeTwoSumViewController.h; sourceTree = "<group>"; };
 		D9C5E5D723473E4F00D101F1 /* CQLeetCodeTwoSumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQLeetCodeTwoSumViewController.m; sourceTree = "<group>"; };
 		D9C5E5D92347922200D101F1 /* LeetCodeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCodeHeader.h; sourceTree = "<group>"; };
+		D9C5E5E02348820A00D101F1 /* EasyButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyButtonViewController.swift; sourceTree = "<group>"; };
+		D9C5E5E42349AB1A00D101F1 /* CQEasyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQEasyButton.h; sourceTree = "<group>"; };
+		D9C5E5E52349AB1A00D101F1 /* CQEasyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQEasyButton.m; sourceTree = "<group>"; };
+		D9C5E5E72349AB3700D101F1 /* EasyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyButton.swift; sourceTree = "<group>"; };
 		D9C7020E22EB542200DDC44F /* RxSwiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftDemoViewController.swift; sourceTree = "<group>"; };
 		D9C7021022EB546300DDC44F /* RxSwiftDemo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RxSwiftDemo.md; sourceTree = "<group>"; };
 		D9C7021222EB5CF400DDC44F /* RxPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPerson.swift; sourceTree = "<group>"; };
@@ -1243,6 +1250,7 @@
 				D91A9F7622B3D801008F87F1 /* 一个很6的倒计时button */,
 				D91A9F8222B490BB008F87F1 /* logo商标识别 */,
 				D91E1D1E233E4D4700B1C772 /* 颜色渐变view */,
+				D9C5E5DB234881A700D101F1 /* 好用的button */,
 			);
 			path = "框架";
 			sourceTree = "<group>";
@@ -1991,6 +1999,33 @@
 				D9C5E5D723473E4F00D101F1 /* CQLeetCodeTwoSumViewController.m */,
 			);
 			path = "1.两数之和";
+			sourceTree = "<group>";
+		};
+		D9C5E5DB234881A700D101F1 /* 好用的button */ = {
+			isa = PBXGroup;
+			children = (
+				D9C5E5E02348820A00D101F1 /* EasyButtonViewController.swift */,
+				D9C5E5E22349AABB00D101F1 /* CQEasyButton */,
+				D9C5E5E32349AAE100D101F1 /* EasyButton */,
+			);
+			path = "好用的button";
+			sourceTree = "<group>";
+		};
+		D9C5E5E22349AABB00D101F1 /* CQEasyButton */ = {
+			isa = PBXGroup;
+			children = (
+				D9C5E5E42349AB1A00D101F1 /* CQEasyButton.h */,
+				D9C5E5E52349AB1A00D101F1 /* CQEasyButton.m */,
+			);
+			path = CQEasyButton;
+			sourceTree = "<group>";
+		};
+		D9C5E5E32349AAE100D101F1 /* EasyButton */ = {
+			isa = PBXGroup;
+			children = (
+				D9C5E5E72349AB3700D101F1 /* EasyButton.swift */,
+			);
+			path = EasyButton;
 			sourceTree = "<group>";
 		};
 		D9C7020D22EB53E600DDC44F /* RxSwiftDemo */ = {
@@ -2892,6 +2927,7 @@
 				D926BDD622C4963B00A2DD3E /* NoonState.m in Sources */,
 				D94BCDF322E9DB0C0080584F /* CQStandardOCCollectionSectionFooterView.m in Sources */,
 				D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */,
+				D9C5E5E12348820A00D101F1 /* EasyButtonViewController.swift in Sources */,
 				D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */,
 				D9C5B448233D967500299AFB /* MyCellNode5.swift in Sources */,
 				D9B563F420E240F2001AE9A0 /* CQIphoneViewController.m in Sources */,
@@ -2900,6 +2936,7 @@
 				D9DDA7CA20E48303008BD029 /* CQWaterfallController.m in Sources */,
 				D926BDAF22C2782100A2DD3E /* CQTemplateMethodViewController.m in Sources */,
 				D9DA0E8920E25291006CEA1C /* CQIphoneRequest.m in Sources */,
+				D9C5E5E82349AB3700D101F1 /* EasyButton.swift in Sources */,
 				D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */,
 				D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */,
 				D9F93371229D7D2400C7B2E0 /* CQOperationController.m in Sources */,
@@ -2976,6 +3013,7 @@
 				D9AEB68022F6A437006F8995 /* CQMVVMCell.m in Sources */,
 				D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */,
 				D9C7CC2722E9BC9B0038FD34 /* StandardSwiftSectionFooterView.swift in Sources */,
+				D9C5E5E62349AB1A00D101F1 /* CQEasyButton.m in Sources */,
 				D926BDBB22C33FDF00A2DD3E /* CQBuilderViewController.m in Sources */,
 				D9545B2A229306FE008B6355 /* CQRunloopController.m in Sources */,
 				D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */,
