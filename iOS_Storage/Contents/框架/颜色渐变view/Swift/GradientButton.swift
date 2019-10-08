@@ -29,7 +29,7 @@ class GradientButton: UIButton {
         self.direction = direction
     }
     
-    /// xib或storyboard通过此方法配置
+    /// xib或storyboard可以通过此方法配置
     ///
     /// - Parameters:
     ///   - colors: 颜色数组

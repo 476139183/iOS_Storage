@@ -11,6 +11,8 @@
 		D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */; };
 		D9019B7922B121AC0039B25D /* 设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7822B121AC0039B25D /* 设计模式.md */; };
 		D9019B7C22B13F670039B25D /* 链表.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7B22B13F670039B25D /* 链表.md */; };
+		D904C515234C9C00002DD939 /* PopMenuButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904C514234C9C00002DD939 /* PopMenuButtonViewController.swift */; };
+		D904C517234CA273002DD939 /* PopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904C516234CA273002DD939 /* PopMenuView.swift */; };
 		D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7821098B4D00C48E72 /* CQTransitionController.m */; };
 		D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7B21098C9800C48E72 /* CQChangeThemeController.m */; };
 		D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7E21098CBE00C48E72 /* CQCustomButtonController.m */; };
@@ -293,6 +295,8 @@
 		D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitDemoViewController.swift; sourceTree = "<group>"; };
 		D9019B7822B121AC0039B25D /* 设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "设计模式.md"; sourceTree = "<group>"; };
 		D9019B7B22B13F670039B25D /* 链表.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "链表.md"; sourceTree = "<group>"; };
+		D904C514234C9C00002DD939 /* PopMenuButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopMenuButtonViewController.swift; sourceTree = "<group>"; };
+		D904C516234CA273002DD939 /* PopMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopMenuView.swift; sourceTree = "<group>"; };
 		D90C4E7721098B4D00C48E72 /* CQTransitionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTransitionController.h; sourceTree = "<group>"; };
 		D90C4E7821098B4D00C48E72 /* CQTransitionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTransitionController.m; sourceTree = "<group>"; };
 		D90C4E7A21098C9800C48E72 /* CQChangeThemeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChangeThemeController.h; sourceTree = "<group>"; };
@@ -781,6 +785,22 @@
 			path = "链表";
 			sourceTree = "<group>";
 		};
+		D904C510234C8218002DD939 /* 弹出菜单按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				D904C516234CA273002DD939 /* PopMenuView.swift */,
+				D904C514234C9C00002DD939 /* PopMenuButtonViewController.swift */,
+			);
+			path = "弹出菜单按钮";
+			sourceTree = "<group>";
+		};
+		D904C513234C8B27002DD939 /* IconFontDemo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IconFontDemo;
+			sourceTree = "<group>";
+		};
 		D90C4E7521097C2800C48E72 /* CATransition动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1246,6 +1266,7 @@
 				D91A9F8222B490BB008F87F1 /* logo商标识别 */,
 				D91E1D1E233E4D4700B1C772 /* 颜色渐变view */,
 				D9C5E5DB234881A700D101F1 /* 好用的button */,
+				D904C510234C8218002DD939 /* 弹出菜单按钮 */,
 			);
 			path = "框架";
 			sourceTree = "<group>";
@@ -1336,6 +1357,7 @@
 				D90D9FAC233217A10007C25C /* 计算帧率 */,
 				D90D9FB5233306780007C25C /* cache */,
 				D9B2FDF12338766900755653 /* texture */,
+				D904C513234C8B27002DD939 /* IconFontDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -2976,6 +2998,7 @@
 				D9B2FDF3233876B900755653 /* TextureDemoViewController.swift in Sources */,
 				D9AC3CAD22AFEDD3007DDBD0 /* CQRouteManager.m in Sources */,
 				D9A39F8422B4D36A00FEA5F5 /* CQComponentViewController.m in Sources */,
+				D904C515234C9C00002DD939 /* PopMenuButtonViewController.swift in Sources */,
 				D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */,
 				D9C7CC0922E998520038FD34 /* CQStandardTableHeaderView.m in Sources */,
 				D9C7021322EB5CF400DDC44F /* RxPerson.swift in Sources */,
@@ -3041,6 +3064,7 @@
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
 				D9BF6917233F587300E602A4 /* GradientLabel.swift in Sources */,
 				D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */,
+				D904C517234CA273002DD939 /* PopMenuView.swift in Sources */,
 				D9CB1EC42342053900CEB752 /* RxSwiftDynamicTableViewController.swift in Sources */,
 				D9545B3B2293AB48008B6355 /* CQThread.m in Sources */,
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
