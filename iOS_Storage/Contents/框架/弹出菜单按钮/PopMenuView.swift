@@ -33,11 +33,6 @@ class PopMenuView: UIView {
         let view = UIView()
         view.backgroundColor = UIColor.black.withAlphaComponent(0.1)
         view.alpha = 0
-        view.isUserInteractionEnabled = true
-        let tapGesture = UITapGestureRecognizer.init(actionBlock: { (view) in
-            print("jeje")
-        })
-        view.addGestureRecognizer(tapGesture)
         return view
     }()
     
