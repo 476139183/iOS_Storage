@@ -10,7 +10,7 @@
 		2DD48D054A82B1FD0444D554 /* Pods_iOS_Storage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF420F59937B4D50D139806 /* Pods_iOS_Storage.framework */; };
 		D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */; };
 		D9019B7922B121AC0039B25D /* 设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7822B121AC0039B25D /* 设计模式.md */; };
-		D9019B7C22B13F670039B25D /* 线性表.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7B22B13F670039B25D /* 线性表.md */; };
+		D9019B7C22B13F670039B25D /* 链表.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7B22B13F670039B25D /* 链表.md */; };
 		D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7821098B4D00C48E72 /* CQTransitionController.m */; };
 		D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7B21098C9800C48E72 /* CQChangeThemeController.m */; };
 		D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7E21098CBE00C48E72 /* CQCustomButtonController.m */; };
@@ -209,6 +209,7 @@
 		D9C5E5E12348820A00D101F1 /* EasyButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E5E02348820A00D101F1 /* EasyButtonViewController.swift */; };
 		D9C5E5E62349AB1A00D101F1 /* CQEasyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E5E52349AB1A00D101F1 /* CQEasyButton.m */; };
 		D9C5E5E82349AB3700D101F1 /* EasyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E5E72349AB3700D101F1 /* EasyButton.swift */; };
+		D9C5E5EA2349CD4E00D101F1 /* LinkedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E5E92349CD4E00D101F1 /* LinkedListViewController.swift */; };
 		D9C7020F22EB542200DDC44F /* RxSwiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7020E22EB542200DDC44F /* RxSwiftDemoViewController.swift */; };
 		D9C7021122EB546300DDC44F /* RxSwiftDemo.md in Resources */ = {isa = PBXBuildFile; fileRef = D9C7021022EB546300DDC44F /* RxSwiftDemo.md */; };
 		D9C7021322EB5CF400DDC44F /* RxPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7021222EB5CF400DDC44F /* RxPerson.swift */; };
@@ -291,7 +292,7 @@
 		7FF1E659C97B690A8019361A /* Pods-iOS_Storage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Storage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage.debug.xcconfig"; sourceTree = "<group>"; };
 		D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitDemoViewController.swift; sourceTree = "<group>"; };
 		D9019B7822B121AC0039B25D /* 设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "设计模式.md"; sourceTree = "<group>"; };
-		D9019B7B22B13F670039B25D /* 线性表.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "线性表.md"; sourceTree = "<group>"; };
+		D9019B7B22B13F670039B25D /* 链表.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "链表.md"; sourceTree = "<group>"; };
 		D90C4E7721098B4D00C48E72 /* CQTransitionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTransitionController.h; sourceTree = "<group>"; };
 		D90C4E7821098B4D00C48E72 /* CQTransitionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTransitionController.m; sourceTree = "<group>"; };
 		D90C4E7A21098C9800C48E72 /* CQChangeThemeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChangeThemeController.h; sourceTree = "<group>"; };
@@ -606,6 +607,7 @@
 		D9C5E5E42349AB1A00D101F1 /* CQEasyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQEasyButton.h; sourceTree = "<group>"; };
 		D9C5E5E52349AB1A00D101F1 /* CQEasyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQEasyButton.m; sourceTree = "<group>"; };
 		D9C5E5E72349AB3700D101F1 /* EasyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyButton.swift; sourceTree = "<group>"; };
+		D9C5E5E92349CD4E00D101F1 /* LinkedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListViewController.swift; sourceTree = "<group>"; };
 		D9C7020E22EB542200DDC44F /* RxSwiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftDemoViewController.swift; sourceTree = "<group>"; };
 		D9C7021022EB546300DDC44F /* RxSwiftDemo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RxSwiftDemo.md; sourceTree = "<group>"; };
 		D9C7021222EB5CF400DDC44F /* RxPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPerson.swift; sourceTree = "<group>"; };
@@ -770,20 +772,13 @@
 			path = SnapKitDemo;
 			sourceTree = "<group>";
 		};
-		D9019B7A22B13F450039B25D /* 线性表 */ = {
+		D9019B7A22B13F450039B25D /* 链表 */ = {
 			isa = PBXGroup;
 			children = (
-				D9019B7B22B13F670039B25D /* 线性表.md */,
-				D9019B7D22B140C90039B25D /* 线性表的顺序存储结构 */,
+				D9019B7B22B13F670039B25D /* 链表.md */,
+				D9C5E5E92349CD4E00D101F1 /* LinkedListViewController.swift */,
 			);
-			path = "线性表";
-			sourceTree = "<group>";
-		};
-		D9019B7D22B140C90039B25D /* 线性表的顺序存储结构 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "线性表的顺序存储结构";
+			path = "链表";
 			sourceTree = "<group>";
 		};
 		D90C4E7521097C2800C48E72 /* CATransition动画 */ = {
@@ -2542,8 +2537,8 @@
 				D9B2FDEE2335AF1200755653 /* LeetCode */,
 				D91E53DC221A906400AC1DEA /* 查找 */,
 				D9E42489212D0EA800283CFC /* 排序 */,
+				D9019B7A22B13F450039B25D /* 链表 */,
 				D9AC3CB022AFFA4E007DDBD0 /* 哈希表 */,
-				D9019B7A22B13F450039B25D /* 线性表 */,
 			);
 			path = "算法与数据结构";
 			sourceTree = "<group>";
@@ -2736,7 +2731,7 @@
 				D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */,
 				D9179CDE22B7C04F002FCCA0 /* 装饰模式.md in Resources */,
 				D94BCDEC22E9D91B0080584F /* 标准CollectionView OC版.md in Resources */,
-				D9019B7C22B13F670039B25D /* 线性表.md in Resources */,
+				D9019B7C22B13F670039B25D /* 链表.md in Resources */,
 				D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */,
 				D926BDB822C33EB600A2DD3E /* 建造者模式.md in Resources */,
 				D95199F022BDF26100E3036B /* 工厂方法模式.html in Resources */,
@@ -2883,6 +2878,7 @@
 				D91A9F8B22B49390008F87F1 /* CQRecognitionManager.m in Sources */,
 				D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */,
 				D926BDC722C487CB00A2DD3E /* CQAbstractFactoryViewController.m in Sources */,
+				D9C5E5EA2349CD4E00D101F1 /* LinkedListViewController.swift in Sources */,
 				D9697FF122F097D800220938 /* StandardSwiftCollectionViewCell.swift in Sources */,
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
 				D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */,

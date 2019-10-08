@@ -26,5 +26,13 @@
 		<key>url</key>
 		<string></string>
 	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>链表</string>
+		<key>controller_name</key>
+		<string>LinkedListViewController</string>
+		<key>url</key>
+		<string>链表.md</string>
+	</dict>
 </array>
 </plist>

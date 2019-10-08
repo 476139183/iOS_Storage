@@ -20,6 +20,7 @@ class EasyButtonViewController: CQBaseViewController {
         cqButton.layer.cornerRadius = 5
         cqButton.backgroundColor = .orange
         cqButton.addTarget(self, action: #selector(leftButtonClicked), for: .touchUpInside)
+        cqButton.titleLabel.attributedText = NSAttributedString.attributedString(string: "富文本", font: UIFont.boldSystemFont(ofSize: 16), color: .black)
         cqButton.snp.makeConstraints { (make) in
             make.centerY.equalToSuperview()
             make.left.equalTo(30)
