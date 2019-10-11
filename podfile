@@ -21,6 +21,7 @@ pod 'NSObject+Rx'
 pod 'Action'
 pod 'MJRefresh'
 pod 'Texture'
+pod 'CameraManager', '~> 4.4'
 
 end
 

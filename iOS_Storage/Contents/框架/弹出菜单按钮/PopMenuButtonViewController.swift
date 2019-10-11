@@ -36,6 +36,21 @@ class PopMenuButtonViewController: CQBaseViewController {
             print("交易回调")
         }
         
+        
+        
+        let button = UIButton.init(frame: CGRect.init(x: 90, y: 90, width: 90, height: 90))
+        view.addSubview(button)
+        button.backgroundColor = .red
+        button.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
+    }
+    
+    @objc func buttonClicked() {
+        print("click")
+    }
+    
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print("touch")
     }
     
 }

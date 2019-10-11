@@ -145,6 +145,8 @@
 		D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */; };
 		D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38A21490A13001B3021 /* CQCarBenz.m */; };
 		D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38D21490A29001B3021 /* CQCarBMW.m */; };
+		D965A2BB234E37D400041D69 /* IconFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D965A2BA234E37D400041D69 /* IconFontViewController.swift */; };
+		D965A2BE234E3AFB00041D69 /* CameraManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D965A2BD234E3AFB00041D69 /* CameraManagerViewController.swift */; };
 		D9697FED22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9697FEC22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift */; };
 		D9697FEF22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9697FEE22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift */; };
 		D9697FF122F097D800220938 /* StandardSwiftCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9697FF022F097D800220938 /* StandardSwiftCollectionViewCell.swift */; };
@@ -513,6 +515,8 @@
 		D963F38A21490A13001B3021 /* CQCarBenz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCarBenz.m; sourceTree = "<group>"; };
 		D963F38C21490A29001B3021 /* CQCarBMW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarBMW.h; sourceTree = "<group>"; };
 		D963F38D21490A29001B3021 /* CQCarBMW.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCarBMW.m; sourceTree = "<group>"; };
+		D965A2BA234E37D400041D69 /* IconFontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFontViewController.swift; sourceTree = "<group>"; };
+		D965A2BD234E3AFB00041D69 /* CameraManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManagerViewController.swift; sourceTree = "<group>"; };
 		D9697FEC22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftCollectionViewSectionHeaderView.swift; sourceTree = "<group>"; };
 		D9697FEE22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftCollectionViewSectionFooterView.swift; sourceTree = "<group>"; };
 		D9697FF022F097D800220938 /* StandardSwiftCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -797,6 +801,7 @@
 		D904C513234C8B27002DD939 /* IconFontDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D965A2BA234E37D400041D69 /* IconFontViewController.swift */,
 			);
 			path = IconFontDemo;
 			sourceTree = "<group>";
@@ -1358,6 +1363,7 @@
 				D90D9FB5233306780007C25C /* cache */,
 				D9B2FDF12338766900755653 /* texture */,
 				D904C513234C8B27002DD939 /* IconFontDemo */,
+				D965A2BC234E3A0600041D69 /* CameraManagerDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -1700,6 +1706,14 @@
 				D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */,
 			);
 			path = "修改button响应区域";
+			sourceTree = "<group>";
+		};
+		D965A2BC234E3A0600041D69 /* CameraManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D965A2BD234E3AFB00041D69 /* CameraManagerViewController.swift */,
+			);
+			path = CameraManagerDemo;
 			sourceTree = "<group>";
 		};
 		D9697FEB22F094E100220938 /* 组头组尾 */ = {
@@ -2835,6 +2849,7 @@
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CameraManager/CameraManager.framework",
 				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
@@ -2861,6 +2876,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CameraManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
@@ -2956,6 +2972,7 @@
 				D9DA0E8920E25291006CEA1C /* CQIphoneRequest.m in Sources */,
 				D9C5E5E82349AB3700D101F1 /* EasyButton.swift in Sources */,
 				D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */,
+				D965A2BE234E3AFB00041D69 /* CameraManagerViewController.swift in Sources */,
 				D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */,
 				D9F93371229D7D2400C7B2E0 /* CQOperationController.m in Sources */,
 				D94F6A8F20FEE337006BCC6B /* CQFilterViewController.m in Sources */,
@@ -3044,6 +3061,7 @@
 				D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */,
 				D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */,
 				D9C7CC2522E9B8C10038FD34 /* StandardSwiftSectionHeaderView.swift in Sources */,
+				D965A2BB234E37D400041D69 /* IconFontViewController.swift in Sources */,
 				D9C5E5D22345879000D101F1 /* LeetCodeViewController.swift in Sources */,
 				D91E1D22233E4E9800B1C772 /* GradientView.swift in Sources */,
 				D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */,
