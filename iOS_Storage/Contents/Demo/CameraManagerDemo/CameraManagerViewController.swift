@@ -35,7 +35,7 @@ class CameraManagerViewController: CQBaseViewController {
         
         imageView.snp.makeConstraints { (make) in
             make.top.equalTo(100)
-            make.size.equalTo(CGSize.init(width: 200, height: 100))
+            make.size.equalTo(CGSize.init(width: 200, height: 200))
             make.centerX.equalToSuperview()
         }
         
@@ -56,7 +56,8 @@ class CameraManagerViewController: CQBaseViewController {
                 // error handling
                 print("error")
             case .success(let content):
-                self.imageView.image = content.asImage;
+                // 将图片切成正方形
+                self.imageView.image = UIImage.clipToSquare(image: content.asImage!);
             }
         }
     }
