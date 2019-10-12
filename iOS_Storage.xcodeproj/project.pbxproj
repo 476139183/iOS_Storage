@@ -152,6 +152,9 @@
 		D9697FF122F097D800220938 /* StandardSwiftCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9697FF022F097D800220938 /* StandardSwiftCollectionViewCell.swift */; };
 		D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */; };
 		D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */; };
+		D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */; };
+		D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97D50FF2350AE3800A0F570 /* trade_rule.txt */; };
+		D97D51022350B0CA00A0F570 /* TradeRuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D51012350B0CA00A0F570 /* TradeRuleViewController.swift */; };
 		D984AD0F2154F05000610B27 /* CQSortButtonDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D984AD0E2154F05000610B27 /* CQSortButtonDemoController.m */; };
 		D984AD122154F06C00610B27 /* CQSortButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D984AD112154F06C00610B27 /* CQSortButton.m */; };
 		D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */; };
@@ -522,6 +525,9 @@
 		D9697FF022F097D800220938 /* StandardSwiftCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftCollectionViewCell.swift; sourceTree = "<group>"; };
 		D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftLoginViewController.swift; sourceTree = "<group>"; };
 		D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftLoginViewController.xib; sourceTree = "<group>"; };
+		D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleView.swift; sourceTree = "<group>"; };
+		D97D50FF2350AE3800A0F570 /* trade_rule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trade_rule.txt; sourceTree = "<group>"; };
+		D97D51012350B0CA00A0F570 /* TradeRuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleViewController.swift; sourceTree = "<group>"; };
 		D984AD0D2154F05000610B27 /* CQSortButtonDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSortButtonDemoController.h; sourceTree = "<group>"; };
 		D984AD0E2154F05000610B27 /* CQSortButtonDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSortButtonDemoController.m; sourceTree = "<group>"; };
 		D984AD102154F06C00610B27 /* CQSortButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSortButton.h; sourceTree = "<group>"; };
@@ -1272,6 +1278,7 @@
 				D91E1D1E233E4D4700B1C772 /* 颜色渐变view */,
 				D9C5E5DB234881A700D101F1 /* 好用的button */,
 				D904C510234C8218002DD939 /* 弹出菜单按钮 */,
+				D97D50FC2350A0CB00A0F570 /* 交易发布规则view */,
 			);
 			path = "框架";
 			sourceTree = "<group>";
@@ -1723,6 +1730,16 @@
 				D9697FEE22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift */,
 			);
 			path = "组头组尾";
+			sourceTree = "<group>";
+		};
+		D97D50FC2350A0CB00A0F570 /* 交易发布规则view */ = {
+			isa = PBXGroup;
+			children = (
+				D97D50FF2350AE3800A0F570 /* trade_rule.txt */,
+				D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */,
+				D97D51012350B0CA00A0F570 /* TradeRuleViewController.swift */,
+			);
+			path = "交易发布规则view";
 			sourceTree = "<group>";
 		};
 		D984AD0A2154EF5E00610B27 /* 排序button */ = {
@@ -2771,6 +2788,7 @@
 				D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */,
 				D926BDB822C33EB600A2DD3E /* 建造者模式.md in Resources */,
 				D95199F022BDF26100E3036B /* 工厂方法模式.html in Resources */,
+				D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */,
 				D91A9F8122B482B1008F87F1 /* README.md in Resources */,
 				D913F9422109CDD300366887 /* framework_contents.plist in Resources */,
 				D9B2FDF5233877BE00755653 /* texture.md in Resources */,
@@ -2950,6 +2968,7 @@
 				D9D14515229920CB003B594C /* CQKVCController.m in Sources */,
 				D9179CE122B7C808002FCCA0 /* CQDecoratorViewController.m in Sources */,
 				D926BDF522C6152400A2DD3E /* RoleStateCaretaker.m in Sources */,
+				D97D51022350B0CA00A0F570 /* TradeRuleViewController.swift in Sources */,
 				D926BDD022C4945800A2DD3E /* TimeState.m in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
 				D926BDCD22C4934900A2DD3E /* CQStateViewController.m in Sources */,
@@ -2983,6 +3002,7 @@
 				D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */,
 				D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */,
 				D9FF65D4212AC0F200B06371 /* CQTimerCellController.m in Sources */,
+				D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */,
 				D91A9F7C22B3D89E008F87F1 /* CQCountDownButton.m in Sources */,
 				D9E21A88210FF83D00407599 /* CQClassClusterCellA.m in Sources */,
 				D9DDA7CD20E4831F008BD029 /* CQWaterfallCell.m in Sources */,
