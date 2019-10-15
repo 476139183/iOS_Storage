@@ -106,7 +106,7 @@ DEPENDENCIES:
   - YYKit
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Action
     - AFNetworking
     - Alamofire
@@ -160,4 +160,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 97ae6c2b7916e3154729f82e9df82be3237d8e61
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.8.3

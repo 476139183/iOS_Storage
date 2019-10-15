@@ -243,6 +243,7 @@
 		D9CE54B8233D0B1100AB58C0 /* MyCellNode3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE54B7233D0B1100AB58C0 /* MyCellNode3.swift */; };
 		D9CE54BA233D100A00AB58C0 /* MyCellNode4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE54B9233D100A00AB58C0 /* MyCellNode4.swift */; };
 		D9CE605923518F3700D65107 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE605823518F3700D65107 /* UIImage+Extension.swift */; };
+		D9CF66872351C113003002E5 /* RxSwiftBindDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF66862351C113003002E5 /* RxSwiftBindDemoViewController.swift */; };
 		D9CFC803229CC9CA009B8399 /* CQMessageSendController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC802229CC9CA009B8399 /* CQMessageSendController.m */; };
 		D9CFC805229CCA0F009B8399 /* 消息发送.md in Resources */ = {isa = PBXBuildFile; fileRef = D9CFC804229CCA0E009B8399 /* 消息发送.md */; };
 		D9CFC807229CCAB7009B8399 /* 消息转发.md in Resources */ = {isa = PBXBuildFile; fileRef = D9CFC806229CCAB7009B8399 /* 消息转发.md */; };
@@ -656,6 +657,7 @@
 		D9CE54B7233D0B1100AB58C0 /* MyCellNode3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode3.swift; sourceTree = "<group>"; };
 		D9CE54B9233D100A00AB58C0 /* MyCellNode4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode4.swift; sourceTree = "<group>"; };
 		D9CE605823518F3700D65107 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		D9CF66862351C113003002E5 /* RxSwiftBindDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftBindDemoViewController.swift; sourceTree = "<group>"; };
 		D9CFC801229CC9CA009B8399 /* CQMessageSendController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMessageSendController.h; sourceTree = "<group>"; };
 		D9CFC802229CC9CA009B8399 /* CQMessageSendController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMessageSendController.m; sourceTree = "<group>"; };
 		D9CFC804229CCA0E009B8399 /* 消息发送.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "消息发送.md"; sourceTree = "<group>"; };
@@ -2089,6 +2091,7 @@
 				D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */,
 				D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */,
 				D9CB1EC32342053900CEB752 /* RxSwiftDynamicTableViewController.swift */,
+				D9CF66862351C113003002E5 /* RxSwiftBindDemoViewController.swift */,
 			);
 			path = RxSwiftDemo;
 			sourceTree = "<group>";
@@ -3003,6 +3006,7 @@
 				D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */,
 				D93A0BFB233CA51D00554EF6 /* Utilities.swift in Sources */,
 				D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */,
+				D9CF66872351C113003002E5 /* RxSwiftBindDemoViewController.swift in Sources */,
 				D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */,
 				D9FF65D4212AC0F200B06371 /* CQTimerCellController.m in Sources */,
 				D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */,

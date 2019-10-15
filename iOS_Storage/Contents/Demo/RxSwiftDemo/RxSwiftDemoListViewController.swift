@@ -10,9 +10,12 @@ import UIKit
 
 class RxSwiftDemoListViewController: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
     
-    private let dataArray: [Model] = [Model.init(title: "基本操作", sel: #selector(basic)),
-                                      Model.init(title: "登录页", sel: #selector(gotoLoginVC)),
-                                      Model.init(title: "高度自适应", sel: #selector(gotoDynamicTableVC))]
+    private let dataArray: [Model] = [
+        Model.init(title: "基本操作", sel: #selector(basic)),
+        Model.init(title: "登录页", sel: #selector(gotoLoginVC)),
+        Model.init(title: "高度自适应", sel: #selector(gotoDynamicTableVC)),
+        Model.init(title: "bind", sel: #selector(gotoBindVC))
+    ]
     
     private lazy var tableView: UITableView = {
         let tableView = UITableView()
@@ -20,10 +23,10 @@ class RxSwiftDemoListViewController: CQBaseViewController, UITableViewDataSource
         tableView.delegate = self
         return tableView
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
         view.addSubview(tableView)
@@ -32,7 +35,7 @@ class RxSwiftDemoListViewController: CQBaseViewController, UITableViewDataSource
     
     
     // MARK: - action
-
+    
     @objc private func basic() {
         let vc = RxSwiftDemoViewController()
         navigationController?.pushViewController(vc, animated: true)
@@ -48,6 +51,10 @@ class RxSwiftDemoListViewController: CQBaseViewController, UITableViewDataSource
         navigationController?.pushViewController(vc, animated: true)
     }
     
+    @objc private func gotoBindVC() {
+        let vc = RxSwiftBindDemoViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
     
     // MARK: - DataSource & Delegate
     
@@ -67,7 +74,7 @@ class RxSwiftDemoListViewController: CQBaseViewController, UITableViewDataSource
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.perform(self.dataArray[indexPath.row].sel)
     }
-
+    
 }
 
 
