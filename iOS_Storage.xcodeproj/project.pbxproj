@@ -168,6 +168,7 @@
 		D9A39F8422B4D36A00FEA5F5 /* CQComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F8322B4D36A00FEA5F5 /* CQComponentViewController.m */; };
 		D9A39F8722B4D51900FEA5F5 /* CQStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F8622B4D51900FEA5F5 /* CQStrategyViewController.m */; };
 		D9A39F8A22B4D8AF00FEA5F5 /* CQStrategyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F8922B4D8AF00FEA5F5 /* CQStrategyManager.m */; };
+		D9AABADD2355B1160029F1C6 /* PlaceholderTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AABADC2355B1160029F1C6 /* PlaceholderTextViewController.swift */; };
 		D9AC3CA522AFD281007DDBD0 /* MapNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC3CA422AFD281007DDBD0 /* MapNaviViewController.swift */; };
 		D9AC3CAD22AFEDD3007DDBD0 /* CQRouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AC3CAC22AFEDD3007DDBD0 /* CQRouteManager.m */; };
 		D9AC3CB222AFFA6F007DDBD0 /* 哈希表.md in Resources */ = {isa = PBXBuildFile; fileRef = D9AC3CB122AFFA6F007DDBD0 /* 哈希表.md */; };
@@ -243,6 +244,7 @@
 		D9CE54B8233D0B1100AB58C0 /* MyCellNode3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE54B7233D0B1100AB58C0 /* MyCellNode3.swift */; };
 		D9CE54BA233D100A00AB58C0 /* MyCellNode4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE54B9233D100A00AB58C0 /* MyCellNode4.swift */; };
 		D9CE605923518F3700D65107 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE605823518F3700D65107 /* UIImage+Extension.swift */; };
+		D9CEB46C2355D5080050E7AD /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CEB46B2355D5080050E7AD /* PlaceholderTextView.swift */; };
 		D9CF66872351C113003002E5 /* RxSwiftBindDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF66862351C113003002E5 /* RxSwiftBindDemoViewController.swift */; };
 		D9CFC803229CC9CA009B8399 /* CQMessageSendController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC802229CC9CA009B8399 /* CQMessageSendController.m */; };
 		D9CFC805229CCA0F009B8399 /* 消息发送.md in Resources */ = {isa = PBXBuildFile; fileRef = D9CFC804229CCA0E009B8399 /* 消息发送.md */; };
@@ -554,6 +556,7 @@
 		D9A39F8622B4D51900FEA5F5 /* CQStrategyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQStrategyViewController.m; sourceTree = "<group>"; };
 		D9A39F8822B4D8AF00FEA5F5 /* CQStrategyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQStrategyManager.h; sourceTree = "<group>"; };
 		D9A39F8922B4D8AF00FEA5F5 /* CQStrategyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQStrategyManager.m; sourceTree = "<group>"; };
+		D9AABADC2355B1160029F1C6 /* PlaceholderTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextViewController.swift; sourceTree = "<group>"; };
 		D9AC3CA422AFD281007DDBD0 /* MapNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNaviViewController.swift; sourceTree = "<group>"; };
 		D9AC3CAB22AFEDD3007DDBD0 /* CQRouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQRouteManager.h; sourceTree = "<group>"; };
 		D9AC3CAC22AFEDD3007DDBD0 /* CQRouteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQRouteManager.m; sourceTree = "<group>"; };
@@ -657,6 +660,7 @@
 		D9CE54B7233D0B1100AB58C0 /* MyCellNode3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode3.swift; sourceTree = "<group>"; };
 		D9CE54B9233D100A00AB58C0 /* MyCellNode4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode4.swift; sourceTree = "<group>"; };
 		D9CE605823518F3700D65107 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		D9CEB46B2355D5080050E7AD /* PlaceholderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
 		D9CF66862351C113003002E5 /* RxSwiftBindDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftBindDemoViewController.swift; sourceTree = "<group>"; };
 		D9CFC801229CC9CA009B8399 /* CQMessageSendController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMessageSendController.h; sourceTree = "<group>"; };
 		D9CFC802229CC9CA009B8399 /* CQMessageSendController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMessageSendController.m; sourceTree = "<group>"; };
@@ -1283,6 +1287,7 @@
 				D9C5E5DB234881A700D101F1 /* 好用的button */,
 				D904C510234C8218002DD939 /* 弹出菜单按钮 */,
 				D97D50FC2350A0CB00A0F570 /* 交易发布规则view */,
+				D9AABADB2355B0B80029F1C6 /* 带placeholder的textView */,
 			);
 			path = "框架";
 			sourceTree = "<group>";
@@ -1874,6 +1879,15 @@
 				D9A39F8322B4D36A00FEA5F5 /* CQComponentViewController.m */,
 			);
 			path = "组件化";
+			sourceTree = "<group>";
+		};
+		D9AABADB2355B0B80029F1C6 /* 带placeholder的textView */ = {
+			isa = PBXGroup;
+			children = (
+				D9CEB46B2355D5080050E7AD /* PlaceholderTextView.swift */,
+				D9AABADC2355B1160029F1C6 /* PlaceholderTextViewController.swift */,
+			);
+			path = "带placeholder的textView";
 			sourceTree = "<group>";
 		};
 		D9AC3CA322AFD1D8007DDBD0 /* 跳转地图APP导航 */ = {
@@ -3119,6 +3133,7 @@
 				D9CFC80A229CDB66009B8399 /* CQKVOController.m in Sources */,
 				D9BF6908233EF61300E602A4 /* CQGradientButton.m in Sources */,
 				D926BDB522C3226C00A2DD3E /* CQFacadeViewController.m in Sources */,
+				D9CEB46C2355D5080050E7AD /* PlaceholderTextView.swift in Sources */,
 				D926BDF222C6147E00A2DD3E /* RoleStateMemento.m in Sources */,
 				D984AD0F2154F05000610B27 /* CQSortButtonDemoController.m in Sources */,
 				D94BCDF022E9DA1B0080584F /* CQStandardOCCollectionSectionHeaderView.m in Sources */,
@@ -3153,6 +3168,7 @@
 				D920ED2522E935D800C5A43F /* YYTextDemoViewController.swift in Sources */,
 				D93A0BF7233C735500554EF6 /* TextureLabelView.swift in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
+				D9AABADD2355B1160029F1C6 /* PlaceholderTextViewController.swift in Sources */,
 				D9545B31229396D3008B6355 /* Cat.m in Sources */,
 				D91A9F7D22B3D89E008F87F1 /* NSTimer+CQBlockSupport.m in Sources */,
 				D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */,
