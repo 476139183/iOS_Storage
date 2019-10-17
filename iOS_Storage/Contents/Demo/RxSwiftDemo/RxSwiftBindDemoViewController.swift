@@ -14,8 +14,6 @@ class RxSwiftBindDemoViewController: CQBaseViewController {
     
     let disposeBag = DisposeBag()
     
-    var array: [Int] = [1, 2, 3]
-    
     private lazy var submitButton: UIButton = {
         let button = UIButton()
         button.setTitle("提交", for: .normal)
@@ -23,6 +21,7 @@ class RxSwiftBindDemoViewController: CQBaseViewController {
         button.setTitleColor(.gray, for: .disabled)
         button.backgroundColor = .blue
         button.isEnabled = false
+        button.addTarget(self, action: #selector(submitButtonClicked), for: .touchUpInside)
         return button
     }()
     
@@ -48,12 +47,26 @@ class RxSwiftBindDemoViewController: CQBaseViewController {
         button.addTarget(self, action: #selector(confirmButtonClicked), for: .touchUpInside)
         return button
     }()
-
+    
+    private lazy var label1: UILabel = {
+        let label = UILabel()
+        label.backgroundColor = .purple
+        label.font = UIFont.systemFont(ofSize: 15)
+        return label
+    }()
+    
+    private lazy var label2: UILabel = {
+        let label = UILabel()
+        label.backgroundColor = .blue
+        label.font = UIFont.systemFont(ofSize: 15)
+        return label
+    }()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         
+        // Do any additional setup after loading the view.
         
         setupUI()
         
@@ -61,23 +74,16 @@ class RxSwiftBindDemoViewController: CQBaseViewController {
         let titleValid = titleTextField.rx.text.orEmpty.asObservable().map { (text) -> Bool in
             return text.count >= 5
         }
+        
         let descValid = descTextField.rx.text.orEmpty.asObservable().map { (text) -> Bool in
             return text.count >= 5
         }
         
-        let selectedState = Variable(true)
-        _ = selectedState.asObservable().bind(to: confirmButton.rx.isSelected)
+        let isConfirm = confirmButton.rx.tap.scan(false) { current, _ in !current}.startWith(false)
+        isConfirm.bind(to: confirmButton.rx.isSelected).disposed(by: disposeBag)
         
-//        let isConfirm = confirmButton.rx.isSelected.asObserver().mapObserver { (selected) -> Bool in
-//            return selected
-//        }
-        
-       
-        
-//        Observable.combineLatest(titleValid, descValid, selectedState) { $0 && $1 && $2 }.bind(to: submitButton.rx.isEnabled)
-//            .disposed(by: self.disposeBag)
-        
-       
+        Observable.combineLatest(titleValid, descValid, isConfirm) { $0 && $1 && $2 }.bind(to: submitButton.rx.isEnabled)
+            .disposed(by: self.disposeBag)
         
     }
     
@@ -107,10 +113,16 @@ class RxSwiftBindDemoViewController: CQBaseViewController {
             make.left.right.equalToSuperview()
             make.height.equalTo(40)
         }
+        
     }
     
     @objc func confirmButtonClicked() {
         confirmButton.isSelected = !confirmButton.isSelected
     }
     
+    @objc func submitButtonClicked() {
+        print("submit")
+    }
+    
 }
+
