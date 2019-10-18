@@ -36,6 +36,14 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
+		<string>常用collectionView layout</string>
+		<key>controller_name</key>
+		<string>CollectionViewLayoutDemoViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
 		<string>比例拼图</string>
 		<key>controller_name</key>
 		<string>CQJigsawViewController</string>
@@ -247,6 +255,14 @@
 		<string>CameraManager</string>
 		<key>controller_name</key>
 		<string>CameraManagerViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>map</string>
+		<key>controller_name</key>
+		<string>MapDemoViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>

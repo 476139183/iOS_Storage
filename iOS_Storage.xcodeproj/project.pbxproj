@@ -94,6 +94,11 @@
 		D92DA5CC22C1BAAD00E91212 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D92DA5CA22C1BAAC00E91212 /* UIColor+Util.m */; };
 		D92DA5CE22C1CCE200E91212 /* runtime.md in Resources */ = {isa = PBXBuildFile; fileRef = D92DA5CD22C1CCE200E91212 /* runtime.md */; };
 		D932D24C2338B39E00662E05 /* ASViewControllerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D932D24B2338B39E00662E05 /* ASViewControllerDemoController.swift */; };
+		D9376886235809B900515315 /* CollectionViewVerticalFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9376885235809B900515315 /* CollectionViewVerticalFlowLayout.swift */; };
+		D9376888235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9376887235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift */; };
+		D937688A23580A3300515315 /* CollectionViewLayoutDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937688923580A3300515315 /* CollectionViewLayoutDemoViewController.swift */; };
+		D937689423585DB000515315 /* MapDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937689323585DB000515315 /* MapDemoViewController.swift */; };
+		D937689623585E1000515315 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D937689523585E1000515315 /* MapKit.framework */; };
 		D93A0BF3233C700E00554EF6 /* ASTableDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A0BF2233C700E00554EF6 /* ASTableDemoController.swift */; };
 		D93A0BF5233C72F900554EF6 /* TextureColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A0BF4233C72F900554EF6 /* TextureColorView.swift */; };
 		D93A0BF7233C735500554EF6 /* TextureLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A0BF6233C735500554EF6 /* TextureLabelView.swift */; };
@@ -103,6 +108,9 @@
 		D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93AB7162147A9F60024C76E /* CQSimpleFactoryViewController.m */; };
 		D93AB71B2147BE230024C76E /* CQCarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D93AB71A2147BE230024C76E /* CQCarFactory.m */; };
 		D93EE5CC230A3F320016B6F1 /* CQBackgroundDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93EE5CB230A3F320016B6F1 /* CQBackgroundDownloadManager.swift */; };
+		D93EFF3E2359B40F0028A730 /* StoreAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93EFF3D2359B40E0028A730 /* StoreAnnotation.swift */; };
+		D93EFF402359B7C00028A730 /* ParkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93EFF3F2359B7C00028A730 /* ParkAnnotation.swift */; };
+		D93EFF422359BCBC0028A730 /* StoreAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93EFF412359BCBC0028A730 /* StoreAnnotationView.swift */; };
 		D93FD5692317AE43005E70A6 /* CQWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D93FD5682317AE43005E70A6 /* CQWaterfallLayout.m */; };
 		D9402A892101E5B500BF792F /* tips_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9402A882101E50800BF792F /* tips_contents.plist */; };
 		D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */; };
@@ -435,6 +443,11 @@
 		D92DA5CB22C1BAAC00E91212 /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
 		D92DA5CD22C1CCE200E91212 /* runtime.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = runtime.md; sourceTree = "<group>"; };
 		D932D24B2338B39E00662E05 /* ASViewControllerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASViewControllerDemoController.swift; sourceTree = "<group>"; };
+		D9376885235809B900515315 /* CollectionViewVerticalFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewVerticalFlowLayout.swift; sourceTree = "<group>"; };
+		D9376887235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHorizontalFlowLayout.swift; sourceTree = "<group>"; };
+		D937688923580A3300515315 /* CollectionViewLayoutDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLayoutDemoViewController.swift; sourceTree = "<group>"; };
+		D937689323585DB000515315 /* MapDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDemoViewController.swift; sourceTree = "<group>"; };
+		D937689523585E1000515315 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		D93A0BF2233C700E00554EF6 /* ASTableDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTableDemoController.swift; sourceTree = "<group>"; };
 		D93A0BF4233C72F900554EF6 /* TextureColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureColorView.swift; sourceTree = "<group>"; };
 		D93A0BF6233C735500554EF6 /* TextureLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureLabelView.swift; sourceTree = "<group>"; };
@@ -446,6 +459,9 @@
 		D93AB7192147BE230024C76E /* CQCarFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarFactory.h; sourceTree = "<group>"; };
 		D93AB71A2147BE230024C76E /* CQCarFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCarFactory.m; sourceTree = "<group>"; };
 		D93EE5CB230A3F320016B6F1 /* CQBackgroundDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQBackgroundDownloadManager.swift; sourceTree = "<group>"; };
+		D93EFF3D2359B40E0028A730 /* StoreAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreAnnotation.swift; sourceTree = "<group>"; };
+		D93EFF3F2359B7C00028A730 /* ParkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkAnnotation.swift; sourceTree = "<group>"; };
+		D93EFF412359BCBC0028A730 /* StoreAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreAnnotationView.swift; sourceTree = "<group>"; };
 		D93FD5672317AE43005E70A6 /* CQWaterfallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWaterfallLayout.h; sourceTree = "<group>"; };
 		D93FD5682317AE43005E70A6 /* CQWaterfallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWaterfallLayout.m; sourceTree = "<group>"; };
 		D9402A882101E50800BF792F /* tips_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = tips_contents.plist; sourceTree = "<group>"; };
@@ -762,6 +778,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D937689623585E1000515315 /* MapKit.framework in Frameworks */,
 				2DD48D054A82B1FD0444D554 /* Pods_iOS_Storage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -781,6 +798,7 @@
 		6921254FFEDBB56C9D3F2A7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D937689523585E1000515315 /* MapKit.framework */,
 				7DF420F59937B4D50D139806 /* Pods_iOS_Storage.framework */,
 			);
 			name = Frameworks;
@@ -1353,6 +1371,7 @@
 				D9C7CBF722E9904D0038FD34 /* 标准TableView Swift版 */,
 				D9C7CBF822E9905C0038FD34 /* 标准CollectionView OC版 */,
 				D9C7CBF922E990770038FD34 /* 标准CollectionView Swift版 */,
+				D937687C2357FD7200515315 /* 常用CollectionViewLayout */,
 				D92D69A320DE2DAA002BA9C0 /* 比例拼图 */,
 				D9E9F4E020E2312900C3090D /* 不规格label */,
 				D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */,
@@ -1380,8 +1399,30 @@
 				D9B2FDF12338766900755653 /* texture */,
 				D904C513234C8B27002DD939 /* IconFontDemo */,
 				D965A2BC234E3A0600041D69 /* CameraManagerDemo */,
+				D937689223585D2400515315 /* MapDemo */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		D937687C2357FD7200515315 /* 常用CollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D9376885235809B900515315 /* CollectionViewVerticalFlowLayout.swift */,
+				D9376887235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift */,
+				D937688923580A3300515315 /* CollectionViewLayoutDemoViewController.swift */,
+			);
+			path = "常用CollectionViewLayout";
+			sourceTree = "<group>";
+		};
+		D937689223585D2400515315 /* MapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D937689323585DB000515315 /* MapDemoViewController.swift */,
+				D93EFF3F2359B7C00028A730 /* ParkAnnotation.swift */,
+				D93EFF3D2359B40E0028A730 /* StoreAnnotation.swift */,
+				D93EFF412359BCBC0028A730 /* StoreAnnotationView.swift */,
+			);
+			path = MapDemo;
 			sourceTree = "<group>";
 		};
 		D93AB7182147BCF20024C76E /* Factory */ = {
@@ -2968,6 +3009,7 @@
 				D9DE6CC320FEE7CE00C8D4FE /* CQHouseModel.m in Sources */,
 				D9CB1EC22341FDA900CEB752 /* RxSwiftDemoListViewController.swift in Sources */,
 				D9E21A8B210FF91100407599 /* CQClassClusterCellB.m in Sources */,
+				D93EFF3E2359B40F0028A730 /* StoreAnnotation.swift in Sources */,
 				D90D9FB4233219680007C25C /* CQFPSCell.m in Sources */,
 				D926BDEC22C5ECC100A2DD3E /* CQMementoViewController.m in Sources */,
 				D91A9F8E22B49B36008F87F1 /* CQRecognitionViewController.m in Sources */,
@@ -2977,6 +3019,7 @@
 				D9DA0E8220E2519D006CEA1C /* IphoneListItemModel.m in Sources */,
 				D93A0BF9233CA0D300554EF6 /* MyCellNode.swift in Sources */,
 				D9C7CC1D22E9AA210038FD34 /* StandardSwiftTableViewCell.swift in Sources */,
+				D937689423585DB000515315 /* MapDemoViewController.swift in Sources */,
 				D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */,
 				D9C7CC0C22E9998B0038FD34 /* CQStandardTableFooterView.m in Sources */,
 				D9C5E5CA23424D5000D101F1 /* YYDemoListViewController.swift in Sources */,
@@ -3049,6 +3092,7 @@
 				D9BF690F233F4B2A00E602A4 /* CQGradientOCDemoViewController.m in Sources */,
 				D9BF6913233F578900E602A4 /* GradientControl.swift in Sources */,
 				D9519A0622BFAE5D00E3036B /* Nick.m in Sources */,
+				D93EFF422359BCBC0028A730 /* StoreAnnotationView.swift in Sources */,
 				D926BDC122C34B6900A2DD3E /* CQObserverViewController.m in Sources */,
 				D9179CE422B7C9DA002FCCA0 /* UIButton+CQBorder.m in Sources */,
 				D9CE54BA233D100A00AB58C0 /* MyCellNode4.swift in Sources */,
@@ -3094,9 +3138,11 @@
 				D9C5E5E62349AB1A00D101F1 /* CQEasyButton.m in Sources */,
 				D926BDBB22C33FDF00A2DD3E /* CQBuilderViewController.m in Sources */,
 				D9545B2A229306FE008B6355 /* CQRunloopController.m in Sources */,
+				D9376886235809B900515315 /* CollectionViewVerticalFlowLayout.swift in Sources */,
 				D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */,
 				D9E21A7F210F478B00407599 /* CQClassClusterController.m in Sources */,
 				D9C7CBFF22E991CE0038FD34 /* CQStandardOCCollectionViewViewController.m in Sources */,
+				D93EFF402359B7C00028A730 /* ParkAnnotation.swift in Sources */,
 				D93A0BF5233C72F900554EF6 /* TextureColorView.swift in Sources */,
 				D9E21A8E210FF92500407599 /* CQClassClusterCellC.m in Sources */,
 				D9DA5CF020E291550098EC68 /* UIView+Util.m in Sources */,
@@ -3140,6 +3186,7 @@
 				D92DA5C922C1B4D000E91212 /* PrototypePerson.m in Sources */,
 				D9DE6CC920FEE9C000C8D4FE /* CQFilterCell.m in Sources */,
 				D91A9F7F22B3D912008F87F1 /* CountDownButtonViewController.swift in Sources */,
+				D9376888235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift in Sources */,
 				D9E21A85210FF7F500407599 /* CQClassClusterBaseCell.m in Sources */,
 				D95199FA22BF2F6A00E3036B /* ClothesFactory.m in Sources */,
 				D9545B27229306E2008B6355 /* CQRuntimeController.m in Sources */,
@@ -3179,6 +3226,7 @@
 				D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */,
 				D92D105A23066A42002203A1 /* CQCheckDeallocViewController.m in Sources */,
 				D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */,
+				D937688A23580A3300515315 /* CollectionViewLayoutDemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
