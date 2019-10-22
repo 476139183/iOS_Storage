@@ -115,6 +115,11 @@
 		D9402A892101E5B500BF792F /* tips_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9402A882101E50800BF792F /* tips_contents.plist */; };
 		D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */; };
 		D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A922101E7E400BF792F /* CQLockViewController.m */; };
+		D941B863235EF92700AEB48E /* LocationManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B862235EF92700AEB48E /* LocationManagerViewController.swift */; };
+		D941B865235EF9AD00AEB48E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B864235EF9AD00AEB48E /* LocationManager.swift */; };
+		D941B86C235F237E00AEB48E /* JXSegmentedChildController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B86B235F237E00AEB48E /* JXSegmentedChildController1.swift */; };
+		D941B86E235F239400AEB48E /* JXSegmentedChildController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B86D235F239400AEB48E /* JXSegmentedChildController2.swift */; };
+		D941B870235F23AB00AEB48E /* JXSegmentedChildController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B86F235F23AB00AEB48E /* JXSegmentedChildController3.swift */; };
 		D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D948397C20E255FC00121FB6 /* IphoneListCell.m */; };
 		D94B650221537A0900F2FD84 /* CQPlaceholderDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94B650121537A0900F2FD84 /* CQPlaceholderDemoViewController.m */; };
 		D94BCDEA22E9D4BD0080584F /* CQStandardOCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BCDE922E9D4BD0080584F /* CQStandardOCCollectionViewCell.m */; };
@@ -176,6 +181,7 @@
 		D9A39F8422B4D36A00FEA5F5 /* CQComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F8322B4D36A00FEA5F5 /* CQComponentViewController.m */; };
 		D9A39F8722B4D51900FEA5F5 /* CQStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F8622B4D51900FEA5F5 /* CQStrategyViewController.m */; };
 		D9A39F8A22B4D8AF00FEA5F5 /* CQStrategyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F8922B4D8AF00FEA5F5 /* CQStrategyManager.m */; };
+		D9A65EED235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A65EEC235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift */; };
 		D9AABADD2355B1160029F1C6 /* PlaceholderTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AABADC2355B1160029F1C6 /* PlaceholderTextViewController.swift */; };
 		D9AC3CA522AFD281007DDBD0 /* MapNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC3CA422AFD281007DDBD0 /* MapNaviViewController.swift */; };
 		D9AC3CAD22AFEDD3007DDBD0 /* CQRouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AC3CAC22AFEDD3007DDBD0 /* CQRouteManager.m */; };
@@ -203,6 +209,7 @@
 		D9B563F720E24A14001AE9A0 /* iphone_menu_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B563F520E24896001AE9A0 /* iphone_menu_data.json */; };
 		D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B563F620E249E3001AE9A0 /* iphone_list_data.json */; };
 		D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */; };
+		D9BBF96D235F2F4A009342EC /* JXSegmentedDemoBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BBF96C235F2F4A009342EC /* JXSegmentedDemoBaseController.swift */; };
 		D9BF6905233EEF2300E602A4 /* CQGradientControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6904233EEF2300E602A4 /* CQGradientControl.m */; };
 		D9BF6908233EF61300E602A4 /* CQGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6907233EF61300E602A4 /* CQGradientButton.m */; };
 		D9BF690F233F4B2A00E602A4 /* CQGradientOCDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF690E233F4B2A00E602A4 /* CQGradientOCDemoViewController.m */; };
@@ -469,6 +476,11 @@
 		D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMultiInterfaceViewController.m; sourceTree = "<group>"; };
 		D9402A912101E7E400BF792F /* CQLockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQLockViewController.h; sourceTree = "<group>"; };
 		D9402A922101E7E400BF792F /* CQLockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQLockViewController.m; sourceTree = "<group>"; };
+		D941B862235EF92700AEB48E /* LocationManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerViewController.swift; sourceTree = "<group>"; };
+		D941B864235EF9AD00AEB48E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D941B86B235F237E00AEB48E /* JXSegmentedChildController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedChildController1.swift; sourceTree = "<group>"; };
+		D941B86D235F239400AEB48E /* JXSegmentedChildController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedChildController2.swift; sourceTree = "<group>"; };
+		D941B86F235F23AB00AEB48E /* JXSegmentedChildController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedChildController3.swift; sourceTree = "<group>"; };
 		D948397B20E255FC00121FB6 /* IphoneListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneListCell.h; sourceTree = "<group>"; };
 		D948397C20E255FC00121FB6 /* IphoneListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneListCell.m; sourceTree = "<group>"; };
 		D94B650021537A0900F2FD84 /* CQPlaceholderDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQPlaceholderDemoViewController.h; sourceTree = "<group>"; };
@@ -572,6 +584,7 @@
 		D9A39F8622B4D51900FEA5F5 /* CQStrategyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQStrategyViewController.m; sourceTree = "<group>"; };
 		D9A39F8822B4D8AF00FEA5F5 /* CQStrategyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQStrategyManager.h; sourceTree = "<group>"; };
 		D9A39F8922B4D8AF00FEA5F5 /* CQStrategyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQStrategyManager.m; sourceTree = "<group>"; };
+		D9A65EEC235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedViewDemoViewController.swift; sourceTree = "<group>"; };
 		D9AABADC2355B1160029F1C6 /* PlaceholderTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextViewController.swift; sourceTree = "<group>"; };
 		D9AC3CA422AFD281007DDBD0 /* MapNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNaviViewController.swift; sourceTree = "<group>"; };
 		D9AC3CAB22AFEDD3007DDBD0 /* CQRouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQRouteManager.h; sourceTree = "<group>"; };
@@ -613,6 +626,7 @@
 		D9B563F620E249E3001AE9A0 /* iphone_list_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = iphone_list_data.json; sourceTree = "<group>"; };
 		D9B563F920E24B1F001AE9A0 /* CQIphoneDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIphoneDetailViewController.h; sourceTree = "<group>"; };
 		D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQIphoneDetailViewController.m; sourceTree = "<group>"; };
+		D9BBF96C235F2F4A009342EC /* JXSegmentedDemoBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedDemoBaseController.swift; sourceTree = "<group>"; };
 		D9BF6903233EEF2300E602A4 /* CQGradientControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientControl.h; sourceTree = "<group>"; };
 		D9BF6904233EEF2300E602A4 /* CQGradientControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientControl.m; sourceTree = "<group>"; };
 		D9BF6906233EF61300E602A4 /* CQGradientButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientButton.h; sourceTree = "<group>"; };
@@ -1306,6 +1320,7 @@
 				D904C510234C8218002DD939 /* 弹出菜单按钮 */,
 				D97D50FC2350A0CB00A0F570 /* 交易发布规则view */,
 				D9AABADB2355B0B80029F1C6 /* 带placeholder的textView */,
+				D941B861235EF8E600AEB48E /* 定位 */,
 			);
 			path = "框架";
 			sourceTree = "<group>";
@@ -1400,6 +1415,7 @@
 				D904C513234C8B27002DD939 /* IconFontDemo */,
 				D965A2BC234E3A0600041D69 /* CameraManagerDemo */,
 				D937689223585D2400515315 /* MapDemo */,
+				D9A65EEB235AA23D00D55A6F /* JXSegmentedViewDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -1465,6 +1481,15 @@
 				D9402A922101E7E400BF792F /* CQLockViewController.m */,
 			);
 			path = "锁";
+			sourceTree = "<group>";
+		};
+		D941B861235EF8E600AEB48E /* 定位 */ = {
+			isa = PBXGroup;
+			children = (
+				D941B862235EF92700AEB48E /* LocationManagerViewController.swift */,
+				D941B864235EF9AD00AEB48E /* LocationManager.swift */,
+			);
+			path = "定位";
 			sourceTree = "<group>";
 		};
 		D948397620E2557F00121FB6 /* 菜单栏 */ = {
@@ -1920,6 +1945,18 @@
 				D9A39F8322B4D36A00FEA5F5 /* CQComponentViewController.m */,
 			);
 			path = "组件化";
+			sourceTree = "<group>";
+		};
+		D9A65EEB235AA23D00D55A6F /* JXSegmentedViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D9A65EEC235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift */,
+				D9BBF96C235F2F4A009342EC /* JXSegmentedDemoBaseController.swift */,
+				D941B86B235F237E00AEB48E /* JXSegmentedChildController1.swift */,
+				D941B86D235F239400AEB48E /* JXSegmentedChildController2.swift */,
+				D941B86F235F23AB00AEB48E /* JXSegmentedChildController3.swift */,
+			);
+			path = JXSegmentedViewDemo;
 			sourceTree = "<group>";
 		};
 		D9AABADB2355B0B80029F1C6 /* 带placeholder的textView */ = {
@@ -2930,6 +2967,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CameraManager/CameraManager.framework",
 				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+				"${BUILT_PRODUCTS_DIR}/JXSegmentedView/JXSegmentedView.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
@@ -2957,6 +2995,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CameraManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXSegmentedView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
@@ -3040,6 +3079,7 @@
 				D920CE8822B37E91000962C0 /* CheckPricacyViewController.swift in Sources */,
 				D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */,
 				D9CFC803229CC9CA009B8399 /* CQMessageSendController.m in Sources */,
+				D941B86C235F237E00AEB48E /* JXSegmentedChildController1.swift in Sources */,
 				D926BDD622C4963B00A2DD3E /* NoonState.m in Sources */,
 				D94BCDF322E9DB0C0080584F /* CQStandardOCCollectionSectionFooterView.m in Sources */,
 				D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */,
@@ -3059,7 +3099,9 @@
 				D9F93371229D7D2400C7B2E0 /* CQOperationController.m in Sources */,
 				D94F6A8F20FEE337006BCC6B /* CQFilterViewController.m in Sources */,
 				D9E4248D212D4E3900283CFC /* CQSortModel.m in Sources */,
+				D941B870235F23AB00AEB48E /* JXSegmentedChildController3.swift in Sources */,
 				D9519A0922BFAE6C00E3036B /* Adidas.m in Sources */,
+				D9A65EED235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift in Sources */,
 				D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */,
 				D93A0BFB233CA51D00554EF6 /* Utilities.swift in Sources */,
 				D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */,
@@ -3085,6 +3127,7 @@
 				D9C5E5D823473E4F00D101F1 /* CQLeetCodeTwoSumViewController.m in Sources */,
 				D984AD122154F06C00610B27 /* CQSortButton.m in Sources */,
 				D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */,
+				D941B865235EF9AD00AEB48E /* LocationManager.swift in Sources */,
 				D9AEB68622F6A96B006F8995 /* CQMVVMModel.m in Sources */,
 				D9AEB65622F56747006F8995 /* AlamofireDemoViewController.swift in Sources */,
 				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
@@ -3111,12 +3154,14 @@
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
 				D9B2FDE9233314BA00755653 /* CQCacheDemoViewController.m in Sources */,
 				D92DA5CC22C1BAAD00E91212 /* UIColor+Util.m in Sources */,
+				D941B86E235F239400AEB48E /* JXSegmentedChildController2.swift in Sources */,
 				D9E42488212D0E9C00283CFC /* CQSortController.m in Sources */,
 				D9DE6CC020FEE7A800C8D4FE /* CQDepartmentModel.m in Sources */,
 				D9C5B44A233DA0ED00299AFB /* MyCellNode6.swift in Sources */,
 				D95199FD22BF2FA200E3036B /* NickFactory.m in Sources */,
 				D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */,
 				D9C7CC0622E993E00038FD34 /* CQStandardTableViewCell.m in Sources */,
+				D9BBF96D235F2F4A009342EC /* JXSegmentedDemoBaseController.swift in Sources */,
 				D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */,
 				D9A39F7E22B4D2EB00FEA5F5 /* CQMVVMViewController.m in Sources */,
 				D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */,
@@ -3141,6 +3186,7 @@
 				D9376886235809B900515315 /* CollectionViewVerticalFlowLayout.swift in Sources */,
 				D92D69B620DE312B002BA9C0 /* CQCategoryModel.m in Sources */,
 				D9E21A7F210F478B00407599 /* CQClassClusterController.m in Sources */,
+				D941B863235EF92700AEB48E /* LocationManagerViewController.swift in Sources */,
 				D9C7CBFF22E991CE0038FD34 /* CQStandardOCCollectionViewViewController.m in Sources */,
 				D93EFF402359B7C00028A730 /* ParkAnnotation.swift in Sources */,
 				D93A0BF5233C72F900554EF6 /* TextureColorView.swift in Sources */,

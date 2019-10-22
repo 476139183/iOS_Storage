@@ -20,6 +20,7 @@ PODS:
   - Alamofire (4.8.2)
   - CameraManager (4.4.0)
   - JSONModel (1.8.0)
+  - JXSegmentedView (1.0.0)
   - lottie-ios (2.5.3)
   - Masonry (1.1.0)
   - MJRefresh (3.2.0)
@@ -90,6 +91,7 @@ DEPENDENCIES:
   - Alamofire
   - CameraManager (~> 4.4)
   - JSONModel
+  - JXSegmentedView
   - lottie-ios
   - Masonry
   - MJRefresh
@@ -131,6 +133,8 @@ SPEC REPOS:
     - SVProgressHUD
     - Texture
     - YYKit
+  trunk:
+    - JXSegmentedView
 
 SPEC CHECKSUMS:
   Action: 0d14986aad0f1330aa27ce65d0cdeaacbb63d91c
@@ -138,6 +142,7 @@ SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   CameraManager: 583710502c42178d12ef046d9d4f7893feff8354
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  JXSegmentedView: 257773dde0c65f86c9d873c5cf93d15c76e170cc
   lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
@@ -158,6 +163,6 @@ SPEC CHECKSUMS:
   Texture: 8ecf6984065a1e54f06bf97b349ecca28582acd7
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 97ae6c2b7916e3154729f82e9df82be3237d8e61
+PODFILE CHECKSUM: 1d2e9bee26a1c8af85a78b3c0f7e19c14cb93de4
 
 COCOAPODS: 1.8.3

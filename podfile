@@ -1,3 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
 platform:ios,'9.0'
 target 'iOS_Storage' do
 
@@ -22,6 +24,7 @@ pod 'Action'
 pod 'MJRefresh'
 pod 'Texture'
 pod 'CameraManager', '~> 4.4'
+pod 'JXSegmentedView'
 
 end
 

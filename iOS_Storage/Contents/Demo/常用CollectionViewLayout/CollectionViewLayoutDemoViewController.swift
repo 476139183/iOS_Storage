@@ -20,9 +20,10 @@ class CollectionViewLayoutDemoViewController: CQBaseViewController {
     
     /// 横向collectionView
     private lazy var horizontalFlowLayoutCollection: UICollectionView = {
-        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: CollectionViewHorizontalFlowLayout(cellSpacing: 40, itemSize: CGSize(width: 100, height: 100), inset: UIEdgeInsets(top: 10, left: 100, bottom: 30, right: 0)))
+        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: CollectionViewHorizontalFlowLayout(cellSpacing: 40, itemSize: CGSize(width: 100, height: 100), inset: UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 0)))
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: UICollectionViewCell.className())
         collectionView.dataSource = self
+        collectionView.isPagingEnabled = true
         return collectionView
     }()
 
@@ -43,7 +44,7 @@ class CollectionViewLayoutDemoViewController: CQBaseViewController {
         horizontalFlowLayoutCollection.snp.makeConstraints { (make) in
             make.top.equalTo(verticalFlowLayoutCollectionView.snp.bottom).offset(20)
             make.left.right.equalToSuperview()
-            make.height.equalTo(259)
+            make.height.equalTo(159)
         }
         
     }
@@ -53,7 +54,7 @@ class CollectionViewLayoutDemoViewController: CQBaseViewController {
 extension CollectionViewLayoutDemoViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 20
+        return 30
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
