@@ -1305,7 +1305,7 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D92D69A220DE2D95002BA9C0 /* 框架 */ = {
+		D92D69A220DE2D95002BA9C0 /* 自己的框架 */ = {
 			isa = PBXGroup;
 			children = (
 				D913F9402109CA7F00366887 /* framework_contents.plist */,
@@ -1322,7 +1322,7 @@
 				D9AABADB2355B0B80029F1C6 /* 带placeholder的textView */,
 				D941B861235EF8E600AEB48E /* 定位 */,
 			);
-			path = "框架";
+			path = "自己的框架";
 			sourceTree = "<group>";
 		};
 		D92D69A320DE2DAA002BA9C0 /* 比例拼图 */ = {
@@ -2699,7 +2699,7 @@
 			children = (
 				D92D69C820DE361E002BA9C0 /* Demo */,
 				D9F7CC8120EB16D800B3C9B9 /* 架构与设计模式 */,
-				D92D69A220DE2D95002BA9C0 /* 框架 */,
+				D92D69A220DE2D95002BA9C0 /* 自己的框架 */,
 				D9F7CC8220EB171600B3C9B9 /* 算法与数据结构 */,
 				D9F7CC8520EB19C700B3C9B9 /* Tips */,
 			);

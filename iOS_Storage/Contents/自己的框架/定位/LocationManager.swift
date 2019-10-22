@@ -8,9 +8,12 @@
 
 import Foundation
 
-class DSLocationManager: NSObject, CLLocationManagerDelegate {
+class LocationManager: NSObject, CLLocationManagerDelegate {
     
-    static let shared = DSLocationManager()
+    /// 当前位置
+    var currentLocation: CLLocation?
+    
+    static let shared = LocationManager()
     private override init(){}
     
     private var successHandler: ((_ location: CLLocation?) -> ())?
@@ -37,8 +40,7 @@ class DSLocationManager: NSObject, CLLocationManagerDelegate {
     
     // 定位成功
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        print("定位")
-        // 结束
+        self.currentLocation = locations.first
         if let handler = self.successHandler {
             handler(locations.first)
         }

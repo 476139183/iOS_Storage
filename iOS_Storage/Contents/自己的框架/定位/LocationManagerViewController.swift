@@ -15,12 +15,17 @@ class LocationManagerViewController: CQBaseViewController {
         
         // Do any additional setup after loading the view.
         
-        DSLocationManager.shared.getLocation(success: { (location) in
+        LocationManager.shared.getLocation(success: { (location) in
             print(location ?? "🙃")
         }) { (error) in
             print(error?.localizedDescription ?? "😊")
         }
         
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print(LocationManager.shared.currentLocation)
+    }
+    
 
 }
