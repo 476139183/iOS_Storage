@@ -20,16 +20,20 @@
     // Do any additional setup after loading the view.
     
     // 目录
-    NSArray *contents = @[@"demo_contents",
-                          @"architecture_contents",
+    NSArray *contents = @[@"frequently_used_contents",
+                          @"demo_contents",
+                          @"third_part_contents",
                           @"framework_contents",
+                          @"architecture_contents",
                           @"arithmetic_contents",
                           @"tips_contents"];
     
     // 标题
-    NSArray *titles   = @[@"demo",
+    NSArray *titles   = @[@"常用的",
+                          @"demo",
+                          @"三方库",
+                          @"个人框架",
                           @"架构/设计模式",
-                          @"框架",
                           @"算法/数据结构",
                           @"tips"];
     

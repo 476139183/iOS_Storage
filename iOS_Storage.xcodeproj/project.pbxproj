@@ -112,6 +112,11 @@
 		D93EFF402359B7C00028A730 /* ParkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93EFF3F2359B7C00028A730 /* ParkAnnotation.swift */; };
 		D93EFF422359BCBC0028A730 /* StoreAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93EFF412359BCBC0028A730 /* StoreAnnotationView.swift */; };
 		D93FD5692317AE43005E70A6 /* CQWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D93FD5682317AE43005E70A6 /* CQWaterfallLayout.m */; };
+		D940168E2361BDD900580AAC /* StackViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D940168D2361BDD900580AAC /* StackViewDemoViewController.swift */; };
+		D94016902361BF1400580AAC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D940168F2361BF1400580AAC /* UIView+Extension.swift */; };
+		D94016932361EE9C00580AAC /* frequently_used_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D94016922361EE9C00580AAC /* frequently_used_contents.plist */; };
+		D94016962361F01500580AAC /* StringPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94016952361F01500580AAC /* StringPracticeViewController.swift */; };
+		D940169C2361F16F00580AAC /* ArrayPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D940169B2361F16F00580AAC /* ArrayPracticeViewController.swift */; };
 		D9402A892101E5B500BF792F /* tips_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9402A882101E50800BF792F /* tips_contents.plist */; };
 		D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */; };
 		D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A922101E7E400BF792F /* CQLockViewController.m */; };
@@ -210,6 +215,7 @@
 		D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B563F620E249E3001AE9A0 /* iphone_list_data.json */; };
 		D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */; };
 		D9BBF96D235F2F4A009342EC /* JXSegmentedDemoBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BBF96C235F2F4A009342EC /* JXSegmentedDemoBaseController.swift */; };
+		D9BBF970235F4885009342EC /* third_part_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9BBF96F235F4885009342EC /* third_part_contents.plist */; };
 		D9BF6905233EEF2300E602A4 /* CQGradientControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6904233EEF2300E602A4 /* CQGradientControl.m */; };
 		D9BF6908233EF61300E602A4 /* CQGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6907233EF61300E602A4 /* CQGradientButton.m */; };
 		D9BF690F233F4B2A00E602A4 /* CQGradientOCDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF690E233F4B2A00E602A4 /* CQGradientOCDemoViewController.m */; };
@@ -471,6 +477,11 @@
 		D93EFF412359BCBC0028A730 /* StoreAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreAnnotationView.swift; sourceTree = "<group>"; };
 		D93FD5672317AE43005E70A6 /* CQWaterfallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWaterfallLayout.h; sourceTree = "<group>"; };
 		D93FD5682317AE43005E70A6 /* CQWaterfallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWaterfallLayout.m; sourceTree = "<group>"; };
+		D940168D2361BDD900580AAC /* StackViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewDemoViewController.swift; sourceTree = "<group>"; };
+		D940168F2361BF1400580AAC /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		D94016922361EE9C00580AAC /* frequently_used_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = frequently_used_contents.plist; sourceTree = "<group>"; };
+		D94016952361F01500580AAC /* StringPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPracticeViewController.swift; sourceTree = "<group>"; };
+		D940169B2361F16F00580AAC /* ArrayPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPracticeViewController.swift; sourceTree = "<group>"; };
 		D9402A882101E50800BF792F /* tips_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = tips_contents.plist; sourceTree = "<group>"; };
 		D9402A8E2101E79D00BF792F /* CQMultiInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMultiInterfaceViewController.h; sourceTree = "<group>"; };
 		D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMultiInterfaceViewController.m; sourceTree = "<group>"; };
@@ -627,6 +638,7 @@
 		D9B563F920E24B1F001AE9A0 /* CQIphoneDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIphoneDetailViewController.h; sourceTree = "<group>"; };
 		D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQIphoneDetailViewController.m; sourceTree = "<group>"; };
 		D9BBF96C235F2F4A009342EC /* JXSegmentedDemoBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedDemoBaseController.swift; sourceTree = "<group>"; };
+		D9BBF96F235F4885009342EC /* third_part_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = third_part_contents.plist; sourceTree = "<group>"; };
 		D9BF6903233EEF2300E602A4 /* CQGradientControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientControl.h; sourceTree = "<group>"; };
 		D9BF6904233EEF2300E602A4 /* CQGradientControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientControl.m; sourceTree = "<group>"; };
 		D9BF6906233EF61300E602A4 /* CQGradientButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientButton.h; sourceTree = "<group>"; };
@@ -818,12 +830,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D900D9B122F40C63005C3DBE /* SnapKitDemo */ = {
+		D900D9B122F40C63005C3DBE /* SnapKit */ = {
 			isa = PBXGroup;
 			children = (
 				D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */,
 			);
-			path = SnapKitDemo;
+			path = SnapKit;
 			sourceTree = "<group>";
 		};
 		D9019B7A22B13F450039B25D /* 链表 */ = {
@@ -1124,14 +1136,14 @@
 			path = CQPrivacyManager;
 			sourceTree = "<group>";
 		};
-		D920ED1C22E8703900C5A43F /* LottieDemo */ = {
+		D920ED1C22E8703900C5A43F /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
 				D920ED2122E87F2900C5A43F /* LottieLogo1.json */,
 				D920ED1D22E8706400C5A43F /* wordsanime.json */,
 				D920ED1F22E870A800C5A43F /* LottieViewController.swift */,
 			);
-			path = LottieDemo;
+			path = Lottie;
 			sourceTree = "<group>";
 		};
 		D920ED2322E9358900C5A43F /* YY */ = {
@@ -1401,21 +1413,11 @@
 				D984AD0A2154EF5E00610B27 /* 排序button */,
 				D95F591E2303B30B004ECBD0 /* 修改button响应区域 */,
 				D92D305E216B3C7200B57A2D /* 水波动画 */,
-				D920ED1C22E8703900C5A43F /* LottieDemo */,
-				D920ED2322E9358900C5A43F /* YY */,
-				D9C7CBF122E9545E0038FD34 /* ObjectMapperDemo */,
-				D9C7020D22EB53E600DDC44F /* RxSwiftDemo */,
-				D900D9B122F40C63005C3DBE /* SnapKitDemo */,
-				D9AEB65422F5670B006F8995 /* AlamofireDemo */,
-				D9AEB65722F57930006F8995 /* MoyaDemo */,
 				D9547859230667CE003E0ADA /* 检测controller是否释放 */,
 				D90D9FAC233217A10007C25C /* 计算帧率 */,
 				D90D9FB5233306780007C25C /* cache */,
-				D9B2FDF12338766900755653 /* texture */,
-				D904C513234C8B27002DD939 /* IconFontDemo */,
-				D965A2BC234E3A0600041D69 /* CameraManagerDemo */,
 				D937689223585D2400515315 /* MapDemo */,
-				D9A65EEB235AA23D00D55A6F /* JXSegmentedViewDemo */,
+				D940168C2361BD6D00580AAC /* UIStackViewDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -1463,6 +1465,80 @@
 				D93FD5682317AE43005E70A6 /* CQWaterfallLayout.m */,
 			);
 			path = Layout;
+			sourceTree = "<group>";
+		};
+		D940168C2361BD6D00580AAC /* UIStackViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D940168D2361BDD900580AAC /* StackViewDemoViewController.swift */,
+			);
+			path = UIStackViewDemo;
+			sourceTree = "<group>";
+		};
+		D94016912361EBA300580AAC /* 常用的 */ = {
+			isa = PBXGroup;
+			children = (
+				D94016922361EE9C00580AAC /* frequently_used_contents.plist */,
+				D94016942361EF6B00580AAC /* String */,
+				D940169A2361F15300580AAC /* Array */,
+				D940169D2361F1A400580AAC /* Dictionary */,
+				D94016972361F02800580AAC /* Number */,
+				D94016992361F05000580AAC /* Date */,
+				D94016982361F04600580AAC /* Data */,
+				D940169E2361F1C400580AAC /* 流程控制 */,
+			);
+			path = "常用的";
+			sourceTree = "<group>";
+		};
+		D94016942361EF6B00580AAC /* String */ = {
+			isa = PBXGroup;
+			children = (
+				D94016952361F01500580AAC /* StringPracticeViewController.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		D94016972361F02800580AAC /* Number */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Number;
+			sourceTree = "<group>";
+		};
+		D94016982361F04600580AAC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D94016992361F05000580AAC /* Date */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		D940169A2361F15300580AAC /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				D940169B2361F16F00580AAC /* ArrayPracticeViewController.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		D940169D2361F1A400580AAC /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		D940169E2361F1C400580AAC /* 流程控制 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "流程控制";
 			sourceTree = "<group>";
 		};
 		D9402A8A2101E5CB00BF792F /* 请求多个接口 */ = {
@@ -1790,12 +1866,12 @@
 			path = "修改button响应区域";
 			sourceTree = "<group>";
 		};
-		D965A2BC234E3A0600041D69 /* CameraManagerDemo */ = {
+		D965A2BC234E3A0600041D69 /* CameraManager */ = {
 			isa = PBXGroup;
 			children = (
 				D965A2BD234E3AFB00041D69 /* CameraManagerViewController.swift */,
 			);
-			path = CameraManagerDemo;
+			path = CameraManager;
 			sourceTree = "<group>";
 		};
 		D9697FEB22F094E100220938 /* 组头组尾 */ = {
@@ -1947,7 +2023,7 @@
 			path = "组件化";
 			sourceTree = "<group>";
 		};
-		D9A65EEB235AA23D00D55A6F /* JXSegmentedViewDemo */ = {
+		D9A65EEB235AA23D00D55A6F /* JXSegmentedView */ = {
 			isa = PBXGroup;
 			children = (
 				D9A65EEC235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift */,
@@ -1956,7 +2032,7 @@
 				D941B86D235F239400AEB48E /* JXSegmentedChildController2.swift */,
 				D941B86F235F23AB00AEB48E /* JXSegmentedChildController3.swift */,
 			);
-			path = JXSegmentedViewDemo;
+			path = JXSegmentedView;
 			sourceTree = "<group>";
 		};
 		D9AABADB2355B0B80029F1C6 /* 带placeholder的textView */ = {
@@ -2047,21 +2123,21 @@
 			path = iOS_Storage;
 			sourceTree = "<group>";
 		};
-		D9AEB65422F5670B006F8995 /* AlamofireDemo */ = {
+		D9AEB65422F5670B006F8995 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
 				D9AEB65522F56747006F8995 /* AlamofireDemoViewController.swift */,
 				D93EE5CB230A3F320016B6F1 /* CQBackgroundDownloadManager.swift */,
 			);
-			path = AlamofireDemo;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		D9AEB65722F57930006F8995 /* MoyaDemo */ = {
+		D9AEB65722F57930006F8995 /* Moya */ = {
 			isa = PBXGroup;
 			children = (
 				D9AEB65822F57955006F8995 /* MoyaDemoViewController.swift */,
 			);
-			path = MoyaDemo;
+			path = Moya;
 			sourceTree = "<group>";
 		};
 		D9AEB68122F6A4FF006F8995 /* ViewModel */ = {
@@ -2126,12 +2202,32 @@
 			path = texture;
 			sourceTree = "<group>";
 		};
+		D9BBF96E235F4832009342EC /* 三方框架 */ = {
+			isa = PBXGroup;
+			children = (
+				D9BBF96F235F4885009342EC /* third_part_contents.plist */,
+				D920ED1C22E8703900C5A43F /* Lottie */,
+				D900D9B122F40C63005C3DBE /* SnapKit */,
+				D9B2FDF12338766900755653 /* texture */,
+				D904C513234C8B27002DD939 /* IconFontDemo */,
+				D965A2BC234E3A0600041D69 /* CameraManager */,
+				D9AEB65422F5670B006F8995 /* Alamofire */,
+				D9AEB65722F57930006F8995 /* Moya */,
+				D9C7CBF122E9545E0038FD34 /* ObjectMapper */,
+				D920ED2322E9358900C5A43F /* YY */,
+				D9C7020D22EB53E600DDC44F /* RxSwift */,
+				D9A65EEB235AA23D00D55A6F /* JXSegmentedView */,
+			);
+			path = "三方框架";
+			sourceTree = "<group>";
+		};
 		D9C5B451233DE83000299AFB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				D9CB1EBF2341FBDD00CEB752 /* NSObject+Extension.swift */,
 				D9C5B452233DF3A200299AFB /* UIColor+Extension.swift */,
 				D9CE605823518F3700D65107 /* UIImage+Extension.swift */,
+				D940168F2361BF1400580AAC /* UIView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -2173,7 +2269,7 @@
 			path = EasyButton;
 			sourceTree = "<group>";
 		};
-		D9C7020D22EB53E600DDC44F /* RxSwiftDemo */ = {
+		D9C7020D22EB53E600DDC44F /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
 				D9C7021022EB546300DDC44F /* RxSwiftDemo.md */,
@@ -2185,16 +2281,16 @@
 				D9CB1EC32342053900CEB752 /* RxSwiftDynamicTableViewController.swift */,
 				D9CF66862351C113003002E5 /* RxSwiftBindDemoViewController.swift */,
 			);
-			path = RxSwiftDemo;
+			path = RxSwift;
 			sourceTree = "<group>";
 		};
-		D9C7CBF122E9545E0038FD34 /* ObjectMapperDemo */ = {
+		D9C7CBF122E9545E0038FD34 /* ObjectMapper */ = {
 			isa = PBXGroup;
 			children = (
 				D9AEB65A22F58B1D006F8995 /* person_info.json */,
 				D9C7CBF222E9552A0038FD34 /* ObjectMapperDemoViewController.swift */,
 			);
-			path = ObjectMapperDemo;
+			path = ObjectMapper;
 			sourceTree = "<group>";
 		};
 		D9C7CBF622E990440038FD34 /* 标准TableView OC版 */ = {
@@ -2697,9 +2793,11 @@
 		D9F7CC8420EB191500B3C9B9 /* Contents */ = {
 			isa = PBXGroup;
 			children = (
+				D94016912361EBA300580AAC /* 常用的 */,
 				D92D69C820DE361E002BA9C0 /* Demo */,
-				D9F7CC8120EB16D800B3C9B9 /* 架构与设计模式 */,
+				D9BBF96E235F4832009342EC /* 三方框架 */,
 				D92D69A220DE2D95002BA9C0 /* 自己的框架 */,
+				D9F7CC8120EB16D800B3C9B9 /* 架构与设计模式 */,
 				D9F7CC8220EB171600B3C9B9 /* 算法与数据结构 */,
 				D9F7CC8520EB19C700B3C9B9 /* Tips */,
 			);
@@ -2891,9 +2989,11 @@
 				D913F9422109CDD300366887 /* framework_contents.plist in Resources */,
 				D9B2FDF5233877BE00755653 /* texture.md in Resources */,
 				D920ED2222E87F2900C5A43F /* LottieLogo1.json in Resources */,
+				D9BBF970235F4885009342EC /* third_part_contents.plist in Resources */,
 				D9AEB65B22F58B1E006F8995 /* person_info.json in Resources */,
 				D9402A892101E5B500BF792F /* tips_contents.plist in Resources */,
 				D9AC3CB622AFFDC2007DDBD0 /* 数据结构分类.md in Resources */,
+				D94016932361EE9C00580AAC /* frequently_used_contents.plist in Resources */,
 				D9519A0C22BFB36A00E3036B /* 原型模式.md in Resources */,
 				D9AC3CB422AFFC94007DDBD0 /* C语言注意点.md in Resources */,
 				D9C7CC1322E9A2000038FD34 /* 标准TableView OC版.md in Resources */,
@@ -3032,6 +3132,7 @@
 				D9DA0E7A20E24F5E006CEA1C /* IphoneMenuView.m in Sources */,
 				D9C5B453233DF3A200299AFB /* UIColor+Extension.swift in Sources */,
 				D91A9F8B22B49390008F87F1 /* CQRecognitionManager.m in Sources */,
+				D940169C2361F16F00580AAC /* ArrayPracticeViewController.swift in Sources */,
 				D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */,
 				D926BDC722C487CB00A2DD3E /* CQAbstractFactoryViewController.m in Sources */,
 				D9C5E5EA2349CD4E00D101F1 /* LinkedListViewController.swift in Sources */,
@@ -3162,6 +3263,7 @@
 				D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */,
 				D9C7CC0622E993E00038FD34 /* CQStandardTableViewCell.m in Sources */,
 				D9BBF96D235F2F4A009342EC /* JXSegmentedDemoBaseController.swift in Sources */,
+				D94016962361F01500580AAC /* StringPracticeViewController.swift in Sources */,
 				D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */,
 				D9A39F7E22B4D2EB00FEA5F5 /* CQMVVMViewController.m in Sources */,
 				D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */,
@@ -3203,6 +3305,7 @@
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
 				D9C7CC0122E992130038FD34 /* StandardSwiftTableViewViewController.swift in Sources */,
 				D9FF65D9212AC39800B06371 /* CQTimerModel.m in Sources */,
+				D940168E2361BDD900580AAC /* StackViewDemoViewController.swift in Sources */,
 				D926BDEF22C5EE2200A2DD3E /* GameRole.m in Sources */,
 				D95199ED22BDD83C00E3036B /* CQDemoView.m in Sources */,
 				D94BCDEA22E9D4BD0080584F /* CQStandardOCCollectionViewCell.m in Sources */,
@@ -3210,6 +3313,7 @@
 				D920CE8F22B37F47000962C0 /* CQPrivacyManager.m in Sources */,
 				D9C7CC2322E9B2A80038FD34 /* StandardSwiftTableFooterView.swift in Sources */,
 				D926BDD322C495F600A2DD3E /* ForenoonState.m in Sources */,
+				D94016902361BF1400580AAC /* UIView+Extension.swift in Sources */,
 				D9D64FD72105DDA300379FF2 /* CQThreadViewController.m in Sources */,
 				D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */,
 				D9CE54B8233D0B1100AB58C0 /* MyCellNode3.swift in Sources */,

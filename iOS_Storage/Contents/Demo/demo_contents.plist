@@ -156,62 +156,6 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>lottie动画</string>
-		<key>controller_name</key>
-		<string>LottieViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>YY</string>
-		<key>controller_name</key>
-		<string>YYDemoListViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>ObjectMapperDemo</string>
-		<key>controller_name</key>
-		<string>ObjectMapperDemoViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>RxSwiftDemo</string>
-		<key>controller_name</key>
-		<string>RxSwiftDemoListViewController</string>
-		<key>url</key>
-		<string>RxSwiftDemo.md</string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>SnapKitDemo</string>
-		<key>controller_name</key>
-		<string>SnapKitDemoViewController</string>
-		<key>url</key>
-		<string>https://www.jianshu.com/p/8ce0a616a86e</string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>AlamofireDemo</string>
-		<key>controller_name</key>
-		<string>AlamofireDemoViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>MoyaDemo</string>
-		<key>controller_name</key>
-		<string>MoyaDemoViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
 		<string>检测controller是否释放</string>
 		<key>controller_name</key>
 		<string>CQCheckDeallocViewController</string>
@@ -236,30 +180,6 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>texture</string>
-		<key>controller_name</key>
-		<string>TextureDemoViewController</string>
-		<key>url</key>
-		<string>texture.md</string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>IconFontDemo</string>
-		<key>controller_name</key>
-		<string>IconFontViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>CameraManager</string>
-		<key>controller_name</key>
-		<string>CameraManagerViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
 		<string>map</string>
 		<key>controller_name</key>
 		<string>MapDemoViewController</string>
@@ -268,9 +188,9 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>JXSegmentedView</string>
+		<string>UIStackView</string>
 		<key>controller_name</key>
-		<string>JXSegmentedViewDemoViewController</string>
+		<string>StackViewDemoViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>

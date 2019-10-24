@@ -29,7 +29,7 @@ class JXSegmentedViewDemoViewController: CQBaseViewController, JXSegmentedViewDe
     }()
     
     /// segmentedView的数据源
-    private lazy var segmentedDataSource: JXSegmentedViewDataSource = {
+    private lazy var segmentedDataSource: JXSegmentedTitleDataSource = {
         let segmentedDataSource = JXSegmentedTitleDataSource()
         segmentedDataSource.titles = ["11", "22", "33"]
         segmentedDataSource.isTitleColorGradientEnabled = true
@@ -82,6 +82,11 @@ class JXSegmentedViewDemoViewController: CQBaseViewController, JXSegmentedViewDe
     // MARK: - Delegate
     
     func segmentedView(_ segmentedView: JXSegmentedView, didSelectedItemAt index: Int) {
+//        titles.append("555")
+//        segmentedDataSource.titles = self.titles
+//        controllers.append(JXSegmentedChildController1())
+//        segmentedView.reloadData()
+//        segmentedView.listContainer?.reloadData()
         print(titles[index])
     }
 
