@@ -125,6 +125,9 @@
 		D941B86C235F237E00AEB48E /* JXSegmentedChildController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B86B235F237E00AEB48E /* JXSegmentedChildController1.swift */; };
 		D941B86E235F239400AEB48E /* JXSegmentedChildController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B86D235F239400AEB48E /* JXSegmentedChildController2.swift */; };
 		D941B870235F23AB00AEB48E /* JXSegmentedChildController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B86F235F23AB00AEB48E /* JXSegmentedChildController3.swift */; };
+		D94253172365F00E0031356C /* DelegateTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94253162365F00E0031356C /* DelegateTransferViewController.swift */; };
+		D942531B2366D55C0031356C /* AnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942531A2366D55C0031356C /* AnimationsViewController.swift */; };
+		D942531E2366D5CA0031356C /* TableViewAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942531D2366D5CA0031356C /* TableViewAnimationViewController.swift */; };
 		D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D948397C20E255FC00121FB6 /* IphoneListCell.m */; };
 		D94B650221537A0900F2FD84 /* CQPlaceholderDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94B650121537A0900F2FD84 /* CQPlaceholderDemoViewController.m */; };
 		D94BCDEA22E9D4BD0080584F /* CQStandardOCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BCDE922E9D4BD0080584F /* CQStandardOCCollectionViewCell.m */; };
@@ -309,6 +312,7 @@
 		D9EF0EA72110396300755E11 /* class_cluster_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9EF0EA62110394E00755E11 /* class_cluster_data.json */; };
 		D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */ = {isa = PBXBuildFile; fileRef = D9F29C9022B6257F002E10E4 /* 组件化.md */; };
 		D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F2D46D210B178F0088FB90 /* CQGCDController.m */; };
+		D9F5230A2362DCB000ABBEF7 /* CornerAndShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F523092362DCB000ABBEF7 /* CornerAndShadowViewController.swift */; };
 		D9F93367229D6BD000C7B2E0 /* 关联对象.md in Resources */ = {isa = PBXBuildFile; fileRef = D9F93366229D6BD000C7B2E0 /* 关联对象.md */; };
 		D9F9336E229D7CEB00C7B2E0 /* CQPthreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F9336D229D7CEB00C7B2E0 /* CQPthreadController.m */; };
 		D9F93371229D7D2400C7B2E0 /* CQOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F93370229D7D2400C7B2E0 /* CQOperationController.m */; };
@@ -492,6 +496,9 @@
 		D941B86B235F237E00AEB48E /* JXSegmentedChildController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedChildController1.swift; sourceTree = "<group>"; };
 		D941B86D235F239400AEB48E /* JXSegmentedChildController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedChildController2.swift; sourceTree = "<group>"; };
 		D941B86F235F23AB00AEB48E /* JXSegmentedChildController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedChildController3.swift; sourceTree = "<group>"; };
+		D94253162365F00E0031356C /* DelegateTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateTransferViewController.swift; sourceTree = "<group>"; };
+		D942531A2366D55C0031356C /* AnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsViewController.swift; sourceTree = "<group>"; };
+		D942531D2366D5CA0031356C /* TableViewAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAnimationViewController.swift; sourceTree = "<group>"; };
 		D948397B20E255FC00121FB6 /* IphoneListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneListCell.h; sourceTree = "<group>"; };
 		D948397C20E255FC00121FB6 /* IphoneListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneListCell.m; sourceTree = "<group>"; };
 		D94B650021537A0900F2FD84 /* CQPlaceholderDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQPlaceholderDemoViewController.h; sourceTree = "<group>"; };
@@ -785,6 +792,7 @@
 		D9F29C9022B6257F002E10E4 /* 组件化.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "组件化.md"; sourceTree = "<group>"; };
 		D9F2D46C210B178F0088FB90 /* CQGCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGCDController.h; sourceTree = "<group>"; };
 		D9F2D46D210B178F0088FB90 /* CQGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGCDController.m; sourceTree = "<group>"; };
+		D9F523092362DCB000ABBEF7 /* CornerAndShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerAndShadowViewController.swift; sourceTree = "<group>"; };
 		D9F93366229D6BD000C7B2E0 /* 关联对象.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "关联对象.md"; sourceTree = "<group>"; };
 		D9F9336C229D7CEB00C7B2E0 /* CQPthreadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQPthreadController.h; sourceTree = "<group>"; };
 		D9F9336D229D7CEB00C7B2E0 /* CQPthreadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQPthreadController.m; sourceTree = "<group>"; };
@@ -1486,6 +1494,8 @@
 				D94016992361F05000580AAC /* Date */,
 				D94016982361F04600580AAC /* Data */,
 				D940169E2361F1C400580AAC /* 流程控制 */,
+				D9F523082362D23300ABBEF7 /* 圆角和阴影 */,
+				D94253192366D2EA0031356C /* 各种动画 */,
 			);
 			path = "常用的";
 			sourceTree = "<group>";
@@ -1566,6 +1576,31 @@
 				D941B864235EF9AD00AEB48E /* LocationManager.swift */,
 			);
 			path = "定位";
+			sourceTree = "<group>";
+		};
+		D94253152365EFA90031356C /* 代理移交 */ = {
+			isa = PBXGroup;
+			children = (
+				D94253162365F00E0031356C /* DelegateTransferViewController.swift */,
+			);
+			path = "代理移交";
+			sourceTree = "<group>";
+		};
+		D94253192366D2EA0031356C /* 各种动画 */ = {
+			isa = PBXGroup;
+			children = (
+				D942531A2366D55C0031356C /* AnimationsViewController.swift */,
+				D942531C2366D5720031356C /* tableView动画 */,
+			);
+			path = "各种动画";
+			sourceTree = "<group>";
+		};
+		D942531C2366D5720031356C /* tableView动画 */ = {
+			isa = PBXGroup;
+			children = (
+				D942531D2366D5CA0031356C /* TableViewAnimationViewController.swift */,
+			);
+			path = "tableView动画";
 			sourceTree = "<group>";
 		};
 		D948397620E2557F00121FB6 /* 菜单栏 */ = {
@@ -2766,10 +2801,19 @@
 			path = GCD;
 			sourceTree = "<group>";
 		};
+		D9F523082362D23300ABBEF7 /* 圆角和阴影 */ = {
+			isa = PBXGroup;
+			children = (
+				D9F523092362DCB000ABBEF7 /* CornerAndShadowViewController.swift */,
+			);
+			path = "圆角和阴影";
+			sourceTree = "<group>";
+		};
 		D9F7CC8120EB16D800B3C9B9 /* 架构与设计模式 */ = {
 			isa = PBXGroup;
 			children = (
 				D913F9412109CDC400366887 /* architecture_contents.plist */,
+				D94253152365EFA90031356C /* 代理移交 */,
 				D9CFC816229CE92D009B8399 /* 架构模式 */,
 				D9CFC817229CE935009B8399 /* 设计模式 */,
 			);
@@ -3207,6 +3251,7 @@
 				D93A0BFB233CA51D00554EF6 /* Utilities.swift in Sources */,
 				D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */,
 				D9CF66872351C113003002E5 /* RxSwiftBindDemoViewController.swift in Sources */,
+				D94253172365F00E0031356C /* DelegateTransferViewController.swift in Sources */,
 				D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */,
 				D9FF65D4212AC0F200B06371 /* CQTimerCellController.m in Sources */,
 				D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */,
@@ -3245,6 +3290,7 @@
 				D9AC3CAD22AFEDD3007DDBD0 /* CQRouteManager.m in Sources */,
 				D9A39F8422B4D36A00FEA5F5 /* CQComponentViewController.m in Sources */,
 				D904C515234C9C00002DD939 /* PopMenuButtonViewController.swift in Sources */,
+				D942531E2366D5CA0031356C /* TableViewAnimationViewController.swift in Sources */,
 				D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */,
 				D9C7CC0922E998520038FD34 /* CQStandardTableHeaderView.m in Sources */,
 				D9C7021322EB5CF400DDC44F /* RxPerson.swift in Sources */,
@@ -3274,6 +3320,7 @@
 				D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */,
 				D9DE6CBD20FEE78100C8D4FE /* CQRegionModel.m in Sources */,
 				D9AEB65922F57955006F8995 /* MoyaDemoViewController.swift in Sources */,
+				D942531B2366D55C0031356C /* AnimationsViewController.swift in Sources */,
 				D9BF6915233F57CF00E602A4 /* GradientButton.swift in Sources */,
 				D95199F722BF287000E3036B /* CQMVVMRACViewController.m in Sources */,
 				D91E1D28233E50B000B1C772 /* CQGradientDemoViewController.m in Sources */,
@@ -3309,6 +3356,7 @@
 				D926BDEF22C5EE2200A2DD3E /* GameRole.m in Sources */,
 				D95199ED22BDD83C00E3036B /* CQDemoView.m in Sources */,
 				D94BCDEA22E9D4BD0080584F /* CQStandardOCCollectionViewCell.m in Sources */,
+				D9F5230A2362DCB000ABBEF7 /* CornerAndShadowViewController.swift in Sources */,
 				D9DA0E8520E251C4006CEA1C /* IphoneMenuItemModel.m in Sources */,
 				D920CE8F22B37F47000962C0 /* CQPrivacyManager.m in Sources */,
 				D9C7CC2322E9B2A80038FD34 /* StandardSwiftTableFooterView.swift in Sources */,
