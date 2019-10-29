@@ -23,7 +23,7 @@ class SnapKitDemoViewController: CQBaseViewController {
         redView.snp.makeConstraints { (make) in
             make.centerX.equalTo(100)
             make.top.equalTo(100)
-            make.width.equalTo(100)
+            make.width.equalTo(50)
             // height : width = 2 : 1
             make.height.equalTo(redView.snp.width).multipliedBy(2)
         }
@@ -34,7 +34,7 @@ class SnapKitDemoViewController: CQBaseViewController {
         label1.font = UIFont.systemFont(ofSize: 16)
         label1.text = "别扯我，宽度自适应"
         label1.backgroundColor = .yellow
-        // 别扯我
+        // MARK: - 别扯我
         label1.setContentHuggingPriority(.defaultHigh, for: .horizontal)
         view.addSubview(label1)
         label1.snp.makeConstraints { (make) in
@@ -55,15 +55,32 @@ class SnapKitDemoViewController: CQBaseViewController {
         }
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        testAnimation()
-        //divideLayout()
+    
+    // MARK: - 宽度自适应的 Button
+    private lazy var myButton: UIButton = {
+        let button = UIButton()
+        button.backgroundColor = .green
+        button.titleLabel?.backgroundColor = .red
+        button.imageView?.backgroundColor = .orange
+        button.imageView?.contentMode = .scaleAspectFit
+        button.setImage(UIImage.init(named: "location"), for: .normal)
+        button.setTitle("title", for: .normal)
+        button.titleLabel?.font = .boldSystemFont(ofSize: 12)
+        return button
+    }()
+    private func testButton() {
+        view.addSubview(myButton)
+        myButton.snp.makeConstraints { (make) in
+            make.right.equalToSuperview().offset(-20)
+            make.bottom.equalToSuperview().offset(-80)
+            make.height.equalTo(40)
+        }
     }
     
     
     // MARK: - SnapKit动画
     
-    func testAnimation() {
+    private func testAnimation() {
         UIView.animate(withDuration: 0.2) {
             self.redView.snp.updateConstraints { (make) in
                 make.centerX.equalTo(200)
@@ -76,7 +93,7 @@ class SnapKitDemoViewController: CQBaseViewController {
     
     // MARK: - 等分布局
     
-    func divideLayout() {
+    private func divideLayout() {
         
         let vc = UIViewController()
         vc.title = "等分布局"
@@ -97,4 +114,20 @@ class SnapKitDemoViewController: CQBaseViewController {
         }
     }
     
+}
+
+
+
+extension SnapKitDemoViewController {
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        testButton()
+    }
+    
+}
+
+fileprivate class CustomButton: UIButton {
+    override func imageRect(forContentRect contentRect: CGRect) -> CGRect {
+        return CGRect.init(x: 0, y: 0, width: height, height: height)
+    }
 }
