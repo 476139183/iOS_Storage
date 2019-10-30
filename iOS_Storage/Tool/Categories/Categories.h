@@ -12,5 +12,7 @@
 #import "UIView+FrameHelper.h"
 #import "UIView+Util.h"
 #import "UIColor+Util.h"
+#import "UIImage+Util.h"
+#import "UIButton+EnlargeTouchArea.h"
 
 #endif /* Categories_h */

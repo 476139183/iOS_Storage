@@ -165,6 +165,8 @@
 		D9545B3E2293B275008B6355 /* CQRunloopModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B3D2293B275008B6355 /* CQRunloopModeController.m */; };
 		D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */; };
 		D9608BF4236970350053BD3E /* CQConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF3236970350053BD3E /* CQConstants.swift */; };
+		D9608BF7236987940053BD3E /* UIButton+EnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF6236987940053BD3E /* UIButton+EnlargeTouchArea.m */; };
+		D9608BFA2369899B0053BD3E /* EnlargeActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF92369899B0053BD3E /* EnlargeActionViewController.swift */; };
 		D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38A21490A13001B3021 /* CQCarBenz.m */; };
 		D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38D21490A29001B3021 /* CQCarBMW.m */; };
 		D965A2BB234E37D400041D69 /* IconFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D965A2BA234E37D400041D69 /* IconFontViewController.swift */; };
@@ -567,6 +569,9 @@
 		D9545B3D2293B275008B6355 /* CQRunloopModeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRunloopModeController.m; sourceTree = "<group>"; };
 		D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAreaTestViewController.swift; sourceTree = "<group>"; };
 		D9608BF3236970350053BD3E /* CQConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQConstants.swift; sourceTree = "<group>"; };
+		D9608BF5236987940053BD3E /* UIButton+EnlargeTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeTouchArea.h"; sourceTree = "<group>"; };
+		D9608BF6236987940053BD3E /* UIButton+EnlargeTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeTouchArea.m"; sourceTree = "<group>"; };
+		D9608BF92369899B0053BD3E /* EnlargeActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnlargeActionViewController.swift; sourceTree = "<group>"; };
 		D963F38921490A13001B3021 /* CQCarBenz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarBenz.h; sourceTree = "<group>"; };
 		D963F38A21490A13001B3021 /* CQCarBenz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCarBenz.m; sourceTree = "<group>"; };
 		D963F38C21490A29001B3021 /* CQCarBMW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarBMW.h; sourceTree = "<group>"; };
@@ -1500,6 +1505,7 @@
 				D940169E2361F1C400580AAC /* 流程控制 */,
 				D9F523082362D23300ABBEF7 /* 圆角和阴影 */,
 				D94253192366D2EA0031356C /* 各种动画 */,
+				D9608BF8236988BA0053BD3E /* 扩大按钮响应区域 */,
 			);
 			path = "常用的";
 			sourceTree = "<group>";
@@ -1904,6 +1910,14 @@
 				D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */,
 			);
 			path = "修改button响应区域";
+			sourceTree = "<group>";
+		};
+		D9608BF8236988BA0053BD3E /* 扩大按钮响应区域 */ = {
+			isa = PBXGroup;
+			children = (
+				D9608BF92369899B0053BD3E /* EnlargeActionViewController.swift */,
+			);
+			path = "扩大按钮响应区域";
 			sourceTree = "<group>";
 		};
 		D965A2BC234E3A0600041D69 /* CameraManager */ = {
@@ -2612,6 +2626,8 @@
 			isa = PBXGroup;
 			children = (
 				D9DA5CEC20E290D80098EC68 /* Categories.h */,
+				D9608BF5236987940053BD3E /* UIButton+EnlargeTouchArea.h */,
+				D9608BF6236987940053BD3E /* UIButton+EnlargeTouchArea.m */,
 				D92DA5CB22C1BAAC00E91212 /* UIColor+Util.h */,
 				D92DA5CA22C1BAAC00E91212 /* UIColor+Util.m */,
 				D92D69C920DE36C8002BA9C0 /* UIView+FrameHelper.h */,
@@ -3239,6 +3255,7 @@
 				D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */,
 				D9CFC803229CC9CA009B8399 /* CQMessageSendController.m in Sources */,
 				D941B86C235F237E00AEB48E /* JXSegmentedChildController1.swift in Sources */,
+				D9608BF7236987940053BD3E /* UIButton+EnlargeTouchArea.m in Sources */,
 				D926BDD622C4963B00A2DD3E /* NoonState.m in Sources */,
 				D94BCDF322E9DB0C0080584F /* CQStandardOCCollectionSectionFooterView.m in Sources */,
 				D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */,
@@ -3405,6 +3422,7 @@
 				D9545B27229306E2008B6355 /* CQRuntimeController.m in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
 				D9D14510229917ED003B594C /* CQRunLoop.m in Sources */,
+				D9608BFA2369899B0053BD3E /* EnlargeActionViewController.swift in Sources */,
 				D93A0BF3233C700E00554EF6 /* ASTableDemoController.swift in Sources */,
 				D926BDDC22C497BA00A2DD3E /* Work.m in Sources */,
 				D9AEB68922F6AA56006F8995 /* CQMVVMViewModel.m in Sources */,
