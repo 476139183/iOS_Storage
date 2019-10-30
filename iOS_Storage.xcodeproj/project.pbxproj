@@ -164,6 +164,7 @@
 		D9545B3B2293AB48008B6355 /* CQThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B3A2293AB48008B6355 /* CQThread.m */; };
 		D9545B3E2293B275008B6355 /* CQRunloopModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B3D2293B275008B6355 /* CQRunloopModeController.m */; };
 		D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */; };
+		D9608BF4236970350053BD3E /* CQConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF3236970350053BD3E /* CQConstants.swift */; };
 		D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38A21490A13001B3021 /* CQCarBenz.m */; };
 		D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38D21490A29001B3021 /* CQCarBMW.m */; };
 		D965A2BB234E37D400041D69 /* IconFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D965A2BA234E37D400041D69 /* IconFontViewController.swift */; };
@@ -227,6 +228,7 @@
 		D9BF6915233F57CF00E602A4 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6914233F57CF00E602A4 /* GradientButton.swift */; };
 		D9BF6917233F587300E602A4 /* GradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6916233F587300E602A4 /* GradientLabel.swift */; };
 		D9BF691A233F5F0B00E602A4 /* CQGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6919233F5F0B00E602A4 /* CQGradientLabel.m */; };
+		D9C2AA9F236928F900EBB9E1 /* UIViewAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2AA9E236928F900EBB9E1 /* UIViewAnimationViewController.swift */; };
 		D9C5B448233D967500299AFB /* MyCellNode5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B447233D967500299AFB /* MyCellNode5.swift */; };
 		D9C5B44A233DA0ED00299AFB /* MyCellNode6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B449233DA0ED00299AFB /* MyCellNode6.swift */; };
 		D9C5B44C233DAE3500299AFB /* MyCellNode7.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B44B233DAE3500299AFB /* MyCellNode7.swift */; };
@@ -564,6 +566,7 @@
 		D9545B3C2293B275008B6355 /* CQRunloopModeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRunloopModeController.h; sourceTree = "<group>"; };
 		D9545B3D2293B275008B6355 /* CQRunloopModeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRunloopModeController.m; sourceTree = "<group>"; };
 		D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAreaTestViewController.swift; sourceTree = "<group>"; };
+		D9608BF3236970350053BD3E /* CQConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQConstants.swift; sourceTree = "<group>"; };
 		D963F38921490A13001B3021 /* CQCarBenz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarBenz.h; sourceTree = "<group>"; };
 		D963F38A21490A13001B3021 /* CQCarBenz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCarBenz.m; sourceTree = "<group>"; };
 		D963F38C21490A29001B3021 /* CQCarBMW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarBMW.h; sourceTree = "<group>"; };
@@ -658,6 +661,7 @@
 		D9BF6916233F587300E602A4 /* GradientLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLabel.swift; sourceTree = "<group>"; };
 		D9BF6918233F5F0B00E602A4 /* CQGradientLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientLabel.h; sourceTree = "<group>"; };
 		D9BF6919233F5F0B00E602A4 /* CQGradientLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientLabel.m; sourceTree = "<group>"; };
+		D9C2AA9E236928F900EBB9E1 /* UIViewAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAnimationViewController.swift; sourceTree = "<group>"; };
 		D9C5B447233D967500299AFB /* MyCellNode5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode5.swift; sourceTree = "<group>"; };
 		D9C5B449233DA0ED00299AFB /* MyCellNode6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode6.swift; sourceTree = "<group>"; };
 		D9C5B44B233DAE3500299AFB /* MyCellNode7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode7.swift; sourceTree = "<group>"; };
@@ -1591,6 +1595,7 @@
 			children = (
 				D942531A2366D55C0031356C /* AnimationsViewController.swift */,
 				D942531C2366D5720031356C /* tableView动画 */,
+				D9C2AA9D2369275800EBB9E1 /* UIView动画 */,
 			);
 			path = "各种动画";
 			sourceTree = "<group>";
@@ -2152,6 +2157,7 @@
 				D9AE0CE720DD02AC00A31D62 /* Info.plist */,
 				D9AE0CE820DD02AC00A31D62 /* main.m */,
 				D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */,
+				D9608BF3236970350053BD3E /* CQConstants.swift */,
 				D9CFC81F229CFF33009B8399 /* iOS_Storage-Bridging-Header.h */,
 				D92D69C320DE359C002BA9C0 /* LaunchScreen.storyboard */,
 			);
@@ -2254,6 +2260,14 @@
 				D9A65EEB235AA23D00D55A6F /* JXSegmentedView */,
 			);
 			path = "三方框架";
+			sourceTree = "<group>";
+		};
+		D9C2AA9D2369275800EBB9E1 /* UIView动画 */ = {
+			isa = PBXGroup;
+			children = (
+				D9C2AA9E236928F900EBB9E1 /* UIViewAnimationViewController.swift */,
+			);
+			path = "UIView动画";
 			sourceTree = "<group>";
 		};
 		D9C5B451233DE83000299AFB /* Extensions */ = {
@@ -3248,6 +3262,7 @@
 				D9519A0922BFAE6C00E3036B /* Adidas.m in Sources */,
 				D9A65EED235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift in Sources */,
 				D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */,
+				D9C2AA9F236928F900EBB9E1 /* UIViewAnimationViewController.swift in Sources */,
 				D93A0BFB233CA51D00554EF6 /* Utilities.swift in Sources */,
 				D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */,
 				D9CF66872351C113003002E5 /* RxSwiftBindDemoViewController.swift in Sources */,
@@ -3399,6 +3414,7 @@
 				D932D24C2338B39E00662E05 /* ASViewControllerDemoController.swift in Sources */,
 				D9AC3CA522AFD281007DDBD0 /* MapNaviViewController.swift in Sources */,
 				D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */,
+				D9608BF4236970350053BD3E /* CQConstants.swift in Sources */,
 				D9545B3E2293B275008B6355 /* CQRunloopModeController.m in Sources */,
 				D93EE5CC230A3F320016B6F1 /* CQBackgroundDownloadManager.swift in Sources */,
 				D9C7CBF322E9552A0038FD34 /* ObjectMapperDemoViewController.swift in Sources */,
