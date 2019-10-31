@@ -35,13 +35,15 @@ class StandardSwiftCollectionViewViewController: CQBaseViewController {
         headerLabel.text = "这是表头"
         collectionView?.addSubview(headerLabel)
         
-        
         // 注册cell
         collectionView?.register(StandardSwiftCollectionViewCell.self, forCellWithReuseIdentifier: StandardSwiftCollectionViewCell.className())
         // 注册组头
         collectionView?.register(StandardSwiftCollectionViewSectionHeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: StandardSwiftCollectionViewSectionHeaderView.className())
         // 注册组尾
         collectionView?.register(StandardSwiftCollectionViewSectionFooterView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: StandardSwiftCollectionViewSectionFooterView.className())
+        
+        // 第一个cell为选中状态
+        collectionView?.selectItem(at: IndexPath.init(item: 0, section: 0), animated: false, scrollPosition: .top)
     }
 
 }
@@ -109,4 +111,23 @@ extension StandardSwiftCollectionViewViewController: UICollectionViewDataSource,
         
     }
     
+    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+        
+    }
+    
+    // 高亮配置
+    func collectionView(_ collectionView: UICollectionView, shouldHighlightItemAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+
+//    func collectionView(_ collectionView: UICollectionView, didHighlightItemAt indexPath: IndexPath) {
+//        let cell = collectionView.cellForItem(at: indexPath)
+//        cell?.contentView.backgroundColor = .orange
+//    }
+//
+//    func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt indexPath: IndexPath) {
+//        let cell = collectionView.cellForItem(at: indexPath)
+//        cell?.contentView.backgroundColor = .blue
+//    }
+
 }

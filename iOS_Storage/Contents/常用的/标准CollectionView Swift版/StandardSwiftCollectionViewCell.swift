@@ -22,4 +22,15 @@ class StandardSwiftCollectionViewCell: UICollectionViewCell {
     private func setupUI() {
         contentView.backgroundColor = .blue
     }
+    
+    override var isSelected: Bool {
+        didSet {
+            if isSelected {
+                contentView.backgroundColor = .orange
+            } else {
+                contentView.backgroundColor = .blue
+            }
+        }
+    }
+    
 }
