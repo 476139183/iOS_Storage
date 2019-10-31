@@ -43,6 +43,7 @@
 		D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E0221A90E400AC1DEA /* CQSearchController.m */; };
 		D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E3221A910500AC1DEA /* CQSearchModel.m */; };
 		D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */; };
+		D91FD953236A97EE00376D59 /* UIView+FrameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91FD952236A97EE00376D59 /* UIView+FrameHelper.swift */; };
 		D920CE8822B37E91000962C0 /* CheckPricacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D920CE8722B37E91000962C0 /* CheckPricacyViewController.swift */; };
 		D920CE8F22B37F47000962C0 /* CQPrivacyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D920CE8E22B37F47000962C0 /* CQPrivacyManager.m */; };
 		D920ED1E22E8706400C5A43F /* wordsanime.json in Resources */ = {isa = PBXBuildFile; fileRef = D920ED1D22E8706400C5A43F /* wordsanime.json */; };
@@ -385,6 +386,7 @@
 		D91E53E3221A910500AC1DEA /* CQSearchModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSearchModel.m; sourceTree = "<group>"; };
 		D91EF56021100D2A000D0D43 /* CQClassClusterRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQClassClusterRequest.h; sourceTree = "<group>"; };
 		D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQClassClusterRequest.m; sourceTree = "<group>"; };
+		D91FD952236A97EE00376D59 /* UIView+FrameHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FrameHelper.swift"; sourceTree = "<group>"; };
 		D920CE8722B37E91000962C0 /* CheckPricacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPricacyViewController.swift; sourceTree = "<group>"; };
 		D920CE8D22B37F47000962C0 /* CQPrivacyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQPrivacyManager.h; sourceTree = "<group>"; };
 		D920CE8E22B37F47000962C0 /* CQPrivacyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQPrivacyManager.m; sourceTree = "<group>"; };
@@ -2287,6 +2289,7 @@
 		D9C5B451233DE83000299AFB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D91FD952236A97EE00376D59 /* UIView+FrameHelper.swift */,
 				D9CB1EBF2341FBDD00CEB752 /* NSObject+Extension.swift */,
 				D9C5B452233DF3A200299AFB /* UIColor+Extension.swift */,
 				D9CE605823518F3700D65107 /* UIImage+Extension.swift */,
@@ -3262,6 +3265,7 @@
 				D9C5E5E12348820A00D101F1 /* EasyButtonViewController.swift in Sources */,
 				D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */,
 				D9C5B448233D967500299AFB /* MyCellNode5.swift in Sources */,
+				D91FD953236A97EE00376D59 /* UIView+FrameHelper.swift in Sources */,
 				D9B563F420E240F2001AE9A0 /* CQIphoneViewController.m in Sources */,
 				D9697FEF22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift in Sources */,
 				D9C7CBFC22E991570038FD34 /* CQStandardOCTableViewViewController.m in Sources */,
