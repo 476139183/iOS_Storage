@@ -1413,11 +1413,6 @@
 			isa = PBXGroup;
 			children = (
 				D94BF43E20E4B6420012C370 /* demo_contents.plist */,
-				D9C7CBF622E990440038FD34 /* 标准TableView OC版 */,
-				D9C7CBF722E9904D0038FD34 /* 标准TableView Swift版 */,
-				D9C7CBF822E9905C0038FD34 /* 标准CollectionView OC版 */,
-				D9C7CBF922E990770038FD34 /* 标准CollectionView Swift版 */,
-				D937687C2357FD7200515315 /* 常用CollectionViewLayout */,
 				D92D69A320DE2DAA002BA9C0 /* 比例拼图 */,
 				D9E9F4E020E2312900C3090D /* 不规格label */,
 				D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */,
@@ -1498,6 +1493,11 @@
 			isa = PBXGroup;
 			children = (
 				D94016922361EE9C00580AAC /* frequently_used_contents.plist */,
+				D9C7CBF622E990440038FD34 /* 标准TableView OC版 */,
+				D9C7CBF722E9904D0038FD34 /* 标准TableView Swift版 */,
+				D9C7CBF822E9905C0038FD34 /* 标准CollectionView OC版 */,
+				D9C7CBF922E990770038FD34 /* 标准CollectionView Swift版 */,
+				D937687C2357FD7200515315 /* 常用CollectionViewLayout */,
 				D94016942361EF6B00580AAC /* String */,
 				D940169A2361F15300580AAC /* Array */,
 				D940169D2361F1A400580AAC /* Dictionary */,
