@@ -16,8 +16,9 @@ class JXSegmentedChildController2: JXSegmentedDemoBaseController {
         // Do any additional setup after loading the view.
         
         let label = UILabel.init(frame: CGRect.init(x: 90, y: 90, width: 90, height: 90))
-        label.text = "12345"
+        label.text = "12345\nddddd"
         label.font = .boldSystemFont(ofSize: 100)
+        label.numberOfLines = 0
         label.adjustsFontSizeToFitWidth = true
         view.addSubview(label)
         

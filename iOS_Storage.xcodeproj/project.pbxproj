@@ -77,6 +77,8 @@
 		D926BDEF22C5EE2200A2DD3E /* GameRole.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDEE22C5EE2200A2DD3E /* GameRole.m */; };
 		D926BDF222C6147E00A2DD3E /* RoleStateMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDF122C6147E00A2DD3E /* RoleStateMemento.m */; };
 		D926BDF522C6152400A2DD3E /* RoleStateCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDF422C6152400A2DD3E /* RoleStateCaretaker.m */; };
+		D92769F0236AE88700A6D846 /* PlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92769EF236AE88700A6D846 /* PlaceholderViewController.swift */; };
+		D92769F3236AE8C100A6D846 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92769F2236AE8C100A6D846 /* PlaceholderView.swift */; };
 		D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CED720EA63E100EE5C78 /* CQChartController.m */; };
 		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
 		D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */; };
@@ -434,6 +436,8 @@
 		D926BDF122C6147E00A2DD3E /* RoleStateMemento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoleStateMemento.m; sourceTree = "<group>"; };
 		D926BDF322C6152400A2DD3E /* RoleStateCaretaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoleStateCaretaker.h; sourceTree = "<group>"; };
 		D926BDF422C6152400A2DD3E /* RoleStateCaretaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoleStateCaretaker.m; sourceTree = "<group>"; };
+		D92769EF236AE88700A6D846 /* PlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViewController.swift; sourceTree = "<group>"; };
+		D92769F2236AE8C100A6D846 /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
 		D928CED620EA63E100EE5C78 /* CQChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChartController.h; sourceTree = "<group>"; };
 		D928CED720EA63E100EE5C78 /* CQChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQChartController.m; sourceTree = "<group>"; };
 		D928CEDA20EA663A00EE5C78 /* CQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTabBarController.h; sourceTree = "<group>"; };
@@ -1271,6 +1275,23 @@
 			path = "备忘录模式";
 			sourceTree = "<group>";
 		};
+		D92769EE236AE85600A6D846 /* Swift占位图 */ = {
+			isa = PBXGroup;
+			children = (
+				D92769F1236AE89000A6D846 /* PlaceholderView */,
+				D92769EF236AE88700A6D846 /* PlaceholderViewController.swift */,
+			);
+			path = "Swift占位图";
+			sourceTree = "<group>";
+		};
+		D92769F1236AE89000A6D846 /* PlaceholderView */ = {
+			isa = PBXGroup;
+			children = (
+				D92769F2236AE8C100A6D846 /* PlaceholderView.swift */,
+			);
+			path = PlaceholderView;
+			sourceTree = "<group>";
+		};
 		D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1340,6 +1361,7 @@
 			isa = PBXGroup;
 			children = (
 				D913F9402109CA7F00366887 /* framework_contents.plist */,
+				D92769EE236AE85600A6D846 /* Swift占位图 */,
 				D94B64FC2153798300F2FD84 /* 通用占位图 */,
 				D94B64FD2153799000F2FD84 /* 弹窗 */,
 				D9AC3CA322AFD1D8007DDBD0 /* 跳转地图APP导航 */,
@@ -3283,6 +3305,7 @@
 				D9519A0922BFAE6C00E3036B /* Adidas.m in Sources */,
 				D9A65EED235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift in Sources */,
 				D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */,
+				D92769F3236AE8C100A6D846 /* PlaceholderView.swift in Sources */,
 				D9C2AA9F236928F900EBB9E1 /* UIViewAnimationViewController.swift in Sources */,
 				D93A0BFB233CA51D00554EF6 /* Utilities.swift in Sources */,
 				D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */,
@@ -3447,6 +3470,7 @@
 				D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */,
 				D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */,
 				D926BDE222C4B5B300A2DD3E /* CQAdapterViewController.m in Sources */,
+				D92769F0236AE88700A6D846 /* PlaceholderViewController.swift in Sources */,
 				D9C5E5CC23436C2800D101F1 /* YYTextViewDemoController.swift in Sources */,
 				D920ED2522E935D800C5A43F /* YYTextDemoViewController.swift in Sources */,
 				D93A0BF7233C735500554EF6 /* TextureLabelView.swift in Sources */,
