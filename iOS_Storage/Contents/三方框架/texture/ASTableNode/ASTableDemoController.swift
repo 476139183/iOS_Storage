@@ -34,7 +34,7 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
     }
     
     override func viewWillLayoutSubviews() {
-        //self.node.frame = CGRect.init(x: 20, y: 120, width: 300, height: 400)
+        self.node.frame = CGRect.init(x: 20, y: 120, width: 300, height: 400)
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
