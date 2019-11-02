@@ -184,6 +184,8 @@
 		D97D51022350B0CA00A0F570 /* TradeRuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D51012350B0CA00A0F570 /* TradeRuleViewController.swift */; };
 		D984AD0F2154F05000610B27 /* CQSortButtonDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D984AD0E2154F05000610B27 /* CQSortButtonDemoController.m */; };
 		D984AD122154F06C00610B27 /* CQSortButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D984AD112154F06C00610B27 /* CQSortButton.m */; };
+		D991C91E236C48D300CB290C /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991C91D236C48D300CB290C /* LoadingViewController.swift */; };
+		D991C921236C492300CB290C /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991C920236C492300CB290C /* Loading.swift */; };
 		D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */; };
 		D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC320E6388300F328F9 /* CQWarnTextField.m */; };
 		D9A39F6E22B4C90900FEA5F5 /* 策略设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9A39F6D22B4C90900FEA5F5 /* 策略设计模式.md */; };
@@ -596,6 +598,8 @@
 		D984AD0E2154F05000610B27 /* CQSortButtonDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSortButtonDemoController.m; sourceTree = "<group>"; };
 		D984AD102154F06C00610B27 /* CQSortButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSortButton.h; sourceTree = "<group>"; };
 		D984AD112154F06C00610B27 /* CQSortButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSortButton.m; sourceTree = "<group>"; };
+		D991C91D236C48D300CB290C /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		D991C920236C492300CB290C /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		D9920CBF20E6386800F328F9 /* CQWarnTextFieldController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextFieldController.h; sourceTree = "<group>"; };
 		D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWarnTextFieldController.m; sourceTree = "<group>"; };
 		D9920CC220E6388300F328F9 /* CQWarnTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextField.h; sourceTree = "<group>"; };
@@ -1361,6 +1365,7 @@
 			isa = PBXGroup;
 			children = (
 				D913F9402109CA7F00366887 /* framework_contents.plist */,
+				D991C91C236C489F00CB290C /* Swift Loading */,
 				D92769EE236AE85600A6D846 /* Swift占位图 */,
 				D94B64FC2153798300F2FD84 /* 通用占位图 */,
 				D94B64FD2153799000F2FD84 /* 弹窗 */,
@@ -2013,6 +2018,23 @@
 				D90C4E7B21098C9800C48E72 /* CQChangeThemeController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		D991C91C236C489F00CB290C /* Swift Loading */ = {
+			isa = PBXGroup;
+			children = (
+				D991C91F236C490F00CB290C /* Loading */,
+				D991C91D236C48D300CB290C /* LoadingViewController.swift */,
+			);
+			path = "Swift Loading";
+			sourceTree = "<group>";
+		};
+		D991C91F236C490F00CB290C /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				D991C920236C492300CB290C /* Loading.swift */,
+			);
+			path = Loading;
 			sourceTree = "<group>";
 		};
 		D9920CBB20E6375E00F328F9 /* 带警示效果的textField */ = {
@@ -3259,6 +3281,7 @@
 				D93A0BF9233CA0D300554EF6 /* MyCellNode.swift in Sources */,
 				D9C7CC1D22E9AA210038FD34 /* StandardSwiftTableViewCell.swift in Sources */,
 				D937689423585DB000515315 /* MapDemoViewController.swift in Sources */,
+				D991C91E236C48D300CB290C /* LoadingViewController.swift in Sources */,
 				D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */,
 				D9C7CC0C22E9998B0038FD34 /* CQStandardTableFooterView.m in Sources */,
 				D9C5E5CA23424D5000D101F1 /* YYDemoListViewController.swift in Sources */,
@@ -3272,6 +3295,7 @@
 				D926BDF522C6152400A2DD3E /* RoleStateCaretaker.m in Sources */,
 				D97D51022350B0CA00A0F570 /* TradeRuleViewController.swift in Sources */,
 				D926BDD022C4945800A2DD3E /* TimeState.m in Sources */,
+				D991C921236C492300CB290C /* Loading.swift in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
 				D926BDCD22C4934900A2DD3E /* CQStateViewController.m in Sources */,
 				D9AEB68C22F6AB24006F8995 /* CQMVVMCellModel.m in Sources */,
