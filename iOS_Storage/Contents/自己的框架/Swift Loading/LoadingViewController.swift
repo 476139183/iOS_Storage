@@ -24,11 +24,16 @@ class LoadingViewController: CQBaseViewController {
     }
     
     @objc private func showLoading() {
+        //Loading.show(on: self.view)
         
+//        let load = Loading.show(on: self.view, frame: CGRect(x: 90, y: 90, width: 200, height: 200))
+//        load.backgroundColor = .green
+        
+        Loading.show(on: self.view, frame: CGRect(x: 90, y: 90, width: 200, height: 200), backgroundColor: .gray)
     }
     
     @objc private func dismissLoading() {
-        
+        Loading.remove(from: self.view)
     }
 
 }
