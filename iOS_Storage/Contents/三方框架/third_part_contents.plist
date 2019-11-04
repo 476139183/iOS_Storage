@@ -78,7 +78,7 @@
 		<key>demo_name</key>
 		<string>JXSegmentedView</string>
 		<key>controller_name</key>
-		<string>JXSegmentedViewDemoViewController</string>
+		<string>JXDemoViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>
