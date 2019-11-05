@@ -184,6 +184,9 @@
 		D97D51022350B0CA00A0F570 /* TradeRuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D51012350B0CA00A0F570 /* TradeRuleViewController.swift */; };
 		D984AD0F2154F05000610B27 /* CQSortButtonDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D984AD0E2154F05000610B27 /* CQSortButtonDemoController.m */; };
 		D984AD122154F06C00610B27 /* CQSortButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D984AD112154F06C00610B27 /* CQSortButton.m */; };
+		D98665272370639C00AA60B2 /* ActionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98665262370639C00AA60B2 /* ActionSheetViewController.swift */; };
+		D986652A237063F600AA60B2 /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9866529237063F600AA60B2 /* ActionSheet.swift */; };
+		D986652C23710FB500AA60B2 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986652B23710FB500AA60B2 /* String+Extension.swift */; };
 		D991C91E236C48D300CB290C /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991C91D236C48D300CB290C /* LoadingViewController.swift */; };
 		D991C921236C492300CB290C /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991C920236C492300CB290C /* Loading.swift */; };
 		D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */; };
@@ -608,6 +611,9 @@
 		D984AD0E2154F05000610B27 /* CQSortButtonDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSortButtonDemoController.m; sourceTree = "<group>"; };
 		D984AD102154F06C00610B27 /* CQSortButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSortButton.h; sourceTree = "<group>"; };
 		D984AD112154F06C00610B27 /* CQSortButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSortButton.m; sourceTree = "<group>"; };
+		D98665262370639C00AA60B2 /* ActionSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetViewController.swift; sourceTree = "<group>"; };
+		D9866529237063F600AA60B2 /* ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet.swift; sourceTree = "<group>"; };
+		D986652B23710FB500AA60B2 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		D991C91D236C48D300CB290C /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		D991C920236C492300CB290C /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		D9920CBF20E6386800F328F9 /* CQWarnTextFieldController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextFieldController.h; sourceTree = "<group>"; };
@@ -1386,6 +1392,7 @@
 			isa = PBXGroup;
 			children = (
 				D913F9402109CA7F00366887 /* framework_contents.plist */,
+				D98665252370634800AA60B2 /* Swift ActionSheet */,
 				D991C91C236C489F00CB290C /* Swift Loading */,
 				D92769EE236AE85600A6D846 /* Swift占位图 */,
 				D94B64FC2153798300F2FD84 /* 通用占位图 */,
@@ -2036,6 +2043,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D98665252370634800AA60B2 /* Swift ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				D9866528237063B200AA60B2 /* ActionSheet */,
+				D98665262370639C00AA60B2 /* ActionSheetViewController.swift */,
+			);
+			path = "Swift ActionSheet";
+			sourceTree = "<group>";
+		};
+		D9866528237063B200AA60B2 /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				D9866529237063F600AA60B2 /* ActionSheet.swift */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
 		D98925D42106C96A001B2377 /* 主题切换 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2379,6 +2403,7 @@
 				D9C5B452233DF3A200299AFB /* UIColor+Extension.swift */,
 				D9CE605823518F3700D65107 /* UIImage+Extension.swift */,
 				D940168F2361BF1400580AAC /* UIView+Extension.swift */,
+				D986652B23710FB500AA60B2 /* String+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -3458,6 +3483,7 @@
 				D9E30C3C236D62560042BC74 /* GifViewController.swift in Sources */,
 				D9C7CC0922E998520038FD34 /* CQStandardTableHeaderView.m in Sources */,
 				D9C7021322EB5CF400DDC44F /* RxPerson.swift in Sources */,
+				D986652A237063F600AA60B2 /* ActionSheet.swift in Sources */,
 				D9CE605923518F3700D65107 /* UIImage+Extension.swift in Sources */,
 				D9C5B450233DC58000299AFB /* Constants.swift in Sources */,
 				D9A39F8722B4D51900FEA5F5 /* CQStrategyViewController.m in Sources */,
@@ -3510,6 +3536,7 @@
 				D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */,
 				D9C7CC2522E9B8C10038FD34 /* StandardSwiftSectionHeaderView.swift in Sources */,
 				D965A2BB234E37D400041D69 /* IconFontViewController.swift in Sources */,
+				D98665272370639C00AA60B2 /* ActionSheetViewController.swift in Sources */,
 				D9C5E5D22345879000D101F1 /* LeetCodeViewController.swift in Sources */,
 				D91E1D22233E4E9800B1C772 /* GradientView.swift in Sources */,
 				D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */,
@@ -3580,6 +3607,7 @@
 				D9C5E5CC23436C2800D101F1 /* YYTextViewDemoController.swift in Sources */,
 				D920ED2522E935D800C5A43F /* YYTextDemoViewController.swift in Sources */,
 				D93A0BF7233C735500554EF6 /* TextureLabelView.swift in Sources */,
+				D986652C23710FB500AA60B2 /* String+Extension.swift in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
 				D9AABADD2355B1160029F1C6 /* PlaceholderTextViewController.swift in Sources */,
 				D9545B31229396D3008B6355 /* Cat.m in Sources */,
