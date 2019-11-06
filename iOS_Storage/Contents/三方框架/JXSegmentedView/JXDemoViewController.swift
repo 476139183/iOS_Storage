@@ -12,7 +12,9 @@ class JXDemoViewController: CQBaseViewController, UITableViewDataSource, UITable
     
     private lazy var dataArray: [Model] = [Model.init(title: "纯文本title", sel: #selector(gotoTextTitleSegmentVC)),
                                            Model.init(title: "文字和图片", sel: #selector(gotoImageAndTextSegementVC)),
-                                           Model.init(title: "文字或图片", sel: #selector(gotoImageOrTextSegementVC))]
+                                           Model.init(title: "文字或图片", sel: #selector(gotoImageOrTextSegementVC)),
+                                           Model.init(title: "混合cell", sel: #selector(gotoMixCellVC)),
+                                           Model.init(title: "自定义cell", sel: #selector(gotoCustomCellVC))]
     
     private lazy var tableView: UITableView = {
         let tableView = UITableView()
@@ -45,6 +47,16 @@ class JXDemoViewController: CQBaseViewController, UITableViewDataSource, UITable
     
     @objc private func gotoImageOrTextSegementVC() {
         let vc = JXImageOrTextViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func gotoMixCellVC() {
+        let vc = JXMixViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func gotoCustomCellVC() {
+        let vc = JXCustomViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
     

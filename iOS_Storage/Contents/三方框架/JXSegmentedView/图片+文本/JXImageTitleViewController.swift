@@ -1,5 +1,5 @@
 //
-//  JXImageOrTextViewController.swift
+//  JXImageTitleViewController.swift
 //  iOS_Storage
 //
 //  Created by caiqiang on 2019/11/4.
@@ -9,18 +9,18 @@
 import UIKit
 import JXSegmentedView
 
-class JXImageOrTextViewController: CQBaseViewController, JXSegmentedViewDelegate, JXSegmentedListContainerViewDataSource {
+class JXImageTitleViewController: CQBaseViewController, JXSegmentedViewDelegate,JXSegmentedListContainerViewDataSource {
     
     private lazy var controllers: [JXSegmentedDemoBaseController] = {
         return [JXSegmentedChildController1(), JXSegmentedChildController2(), JXSegmentedChildController3()]
     }()
     
     private lazy var titles: [String] = {
-        return ["数组1", "数字2", "数字3"]
+        return ["", "数字2", ""]
     }()
     
     private lazy var images: [String] = {
-        return ["number_1", "number_2", "number_3"]
+        return ["number_1", "", "https://upload.jianshu.io/users/upload_avatars/1692043/89793122f9d1?imageMogr2/auto-orient/strip"]
     }()
     
     private lazy var segmentedView: JXSegmentedView = {
@@ -33,17 +33,32 @@ class JXImageOrTextViewController: CQBaseViewController, JXSegmentedViewDelegate
     }()
     
     /// segmentedView的数据源
-    private lazy var segmentedDataSource: JXSegmentedTitleOrImageDataSource = {
-        let dataSource = JXSegmentedTitleOrImageDataSource()
+    private lazy var segmentedDataSource: JXSegmentedTitleImageDataSource = {
+        let dataSource = JXSegmentedTitleImageDataSource()
         dataSource.isTitleColorGradientEnabled = true
-        dataSource.titleSelectedColor = UIColor.red
-        dataSource.isTitleZoomEnabled = true
-        dataSource.titleSelectedZoomScale = 1.3
-        dataSource.isTitleStrokeWidthEnabled = true
-        dataSource.isItemTransitionEnabled = false
-        dataSource.isSelectedAnimable = true
-        dataSource.titles = titles
-        dataSource.selectedImageInfos = self.images
+        dataSource.titleImageType = .rightImage
+        //dataSource.titleImageType = .bottomImage
+        dataSource.isImageZoomEnabled = true
+        dataSource.titles = self.titles
+        dataSource.titleNormalFont = .boldSystemFont(ofSize: 14)
+        dataSource.titleSelectedFont = .boldSystemFont(ofSize: 16)
+        dataSource.normalImageInfos = self.images
+        dataSource.imageSelectedZoomScale = 1.3
+        dataSource.imageSize = CGSize(width: 30, height: 30)
+        dataSource.titleImageSpacing = 5
+        dataSource.itemSpacing = 20
+        dataSource.loadImageClosure = {(imageView, normalImageInfo) in
+            
+            if let image = UIImage(named: normalImageInfo) {
+                imageView.image = image
+            } else {
+                //let url = URL(string: normalImageInfo)
+                let string = normalImageInfo.removingPercentEncoding
+                let url = URL.init(string: string ?? "")
+                imageView.kf.setImage(with: url)
+            }
+            
+        }
         return dataSource
     }()
     
@@ -96,5 +111,5 @@ class JXImageOrTextViewController: CQBaseViewController, JXSegmentedViewDelegate
         //        segmentedView.listContainer?.reloadData()
         print(images[index])
     }
-
+    
 }
