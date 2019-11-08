@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SnapKitExtend
 
 class SnapKitDemoViewController: CQBaseViewController {
     
@@ -90,29 +89,6 @@ class SnapKitDemoViewController: CQBaseViewController {
         }
     }
     
-    
-    // MARK: - 等分布局
-    
-    private func divideLayout() {
-        
-        let vc = UIViewController()
-        vc.title = "等分布局"
-        self.navigationController?.pushViewController(vc, animated: true)
-        
-        var viewArray: [UIView] = []
-        for _ in 0...3 {
-            let view = UIView()
-            view.backgroundColor = .blue
-            vc.view.addSubview(view)
-            viewArray.append(view)
-        }
-        
-        viewArray.snp.distributeViewsAlong(axisType: .horizontal, fixedSpacing: 10, leadSpacing: 50, tailSpacing: 100)
-        viewArray.snp.makeConstraints { (make) in
-            make.top.equalTo(100)
-            make.height.equalTo(80)
-        }
-    }
     
 }
 

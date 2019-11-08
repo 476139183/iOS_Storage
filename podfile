@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform:ios,'9.0'
+platform:ios,'10.0'
 target 'iOS_Storage' do
 
 use_frameworks!
@@ -14,7 +14,6 @@ pod 'YYKit'
 pod 'lottie-ios'
 pod 'ObjectMapper', '~> 3.4'
 pod 'SnapKit'
-pod 'SnapKitExtend'
 pod 'RxSwift'
 pod 'RxCocoa'
 pod 'Alamofire'
@@ -25,7 +24,7 @@ pod 'MJRefresh'
 pod 'Texture'
 pod 'CameraManager', '~> 4.4'
 pod 'JXSegmentedView'
-pod 'Kingfisher'
+pod 'Kingfisher', '5.7.1'
 
 end
 

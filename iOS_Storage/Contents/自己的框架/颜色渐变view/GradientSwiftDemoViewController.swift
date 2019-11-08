@@ -12,6 +12,9 @@ class GradientSwiftDemoViewController: CQBaseViewController {
     
     private lazy var gradientView: GradientView = {
         let gradientView = GradientView.init(colors: [UIColor.red, UIColor.green], direction: .leftTopToRightBottom)
+        gradientLabel.snp.makeConstraints { (make) in
+            make.size.equalTo(CGSize(width: kScreenWidth, height: 100))
+        }
         return gradientView
     }()
     
@@ -21,6 +24,9 @@ class GradientSwiftDemoViewController: CQBaseViewController {
         gradientLabel.textAlignment = .center
         gradientLabel.textColor = .white
         gradientLabel.font = UIFont.boldSystemFont(ofSize: 30)
+        //        gradientLabel.snp.makeConstraints { (make) in
+        //            make.size.equalTo(CGSize(width: kScreenWidth, height: 100))
+        //        }
         return gradientLabel
     }()
     
@@ -37,22 +43,28 @@ class GradientSwiftDemoViewController: CQBaseViewController {
         return gradientButton
     }()
     
+    private lazy var stackView: UIStackView = {
+        let stackView  = UIStackView.init(arrangedSubviews: [gradientView, gradientLabel, gradientControl, gradientButton])
+        // item间距
+        stackView.spacing = 0
+        // 垂直方向布局
+        stackView.axis = .vertical
+        // 等分
+        stackView.alignment = .fill
+        stackView.distribution = .fillEqually
+        return stackView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
         
-        view.addSubview(gradientView)
-        view.addSubview(gradientLabel)
-        view.addSubview(gradientControl)
-        view.addSubview(gradientButton)
-        
-        
-        let viewArray = [gradientView, gradientLabel, gradientControl, gradientButton]
-        
-        viewArray.snp.distributeViewsAlong(axisType: .vertical, fixedSpacing: 10, leadSpacing: 100, tailSpacing: 100)
-        viewArray.snp.makeConstraints { (make) in
+        view.addSubview(stackView)
+        stackView.snp.makeConstraints { (make) in
             make.left.right.equalToSuperview()
+            make.top.equalTo(kNavigationBarHeight)
+            make.bottom.equalToSuperview().offset(-kTabBarHeight)
         }
         
     }

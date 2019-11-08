@@ -13,16 +13,14 @@
 #import "CQPrivacyManager.h"
 #import <SVProgressHUD.h>
 #import "CQCountDownButton.h"
-#import <Lottie.h>
 #import <YYKit.h>
 #import <MJRefresh.h>
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
-
 #import "UIColor+Util.h"
 #import "CQGradientView.h"
 #import "CQGradientControl.h"
 #import "CQGradientButton.h"
-
+#import <UIImage+GIF.h>
 #import "LeetCodeHeader.h"
 
 #import "CQEasyButton.h"

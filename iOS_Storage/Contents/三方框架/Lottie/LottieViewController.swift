@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import Lottie
 
 class LottieViewController: CQBaseViewController {
     
-    private lazy var lotView: LOTAnimationView = {
-        let view = LOTAnimationView(name: "LottieLogo1")
-        view.loopAnimation = true
+    private lazy var lotView: AnimationView = {
+        let view = AnimationView(name: "LottieLogo1")
+        view.loopMode = .loop
         view.contentMode = .scaleAspectFit
         return view
     }()

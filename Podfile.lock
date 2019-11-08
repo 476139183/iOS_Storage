@@ -17,12 +17,12 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - Alamofire (4.8.2)
+  - Alamofire (4.9.0)
   - CameraManager (4.4.0)
   - JSONModel (1.8.0)
   - JXSegmentedView (1.0.0)
-  - Kingfisher (4.10.1)
-  - lottie-ios (2.5.3)
+  - Kingfisher (5.7.1)
+  - lottie-ios (3.1.3)
   - Masonry (1.1.0)
   - MJRefresh (3.2.0)
   - Moya (13.0.1):
@@ -30,7 +30,7 @@ PODS:
   - Moya/Core (13.0.1):
     - Alamofire (~> 4.1)
     - Result (~> 4.1)
-  - "NSObject+Rx (5.0.0)":
+  - "NSObject+Rx (5.0.2)":
     - RxSwift (~> 5.0)
   - ObjectMapper (3.5.1)
   - PINCache (3.0.1-beta.6):
@@ -55,12 +55,10 @@ PODS:
   - RxRelay (5.0.0):
     - RxSwift (~> 5)
   - RxSwift (5.0.0)
-  - SDWebImage (5.0.6):
-    - SDWebImage/Core (= 5.0.6)
-  - SDWebImage/Core (5.0.6)
-  - SnapKit (4.2.0)
-  - SnapKitExtend (1.0.7):
-    - SnapKit
+  - SDWebImage (5.2.3):
+    - SDWebImage/Core (= 5.2.3)
+  - SDWebImage/Core (5.2.3)
+  - SnapKit (5.0.1)
   - SVProgressHUD (2.2.5)
   - Texture (2.8.1):
     - Texture/AssetsLibrary (= 2.8.1)
@@ -93,7 +91,7 @@ DEPENDENCIES:
   - CameraManager (~> 4.4)
   - JSONModel
   - JXSegmentedView
-  - Kingfisher
+  - Kingfisher (= 5.7.1)
   - lottie-ios
   - Masonry
   - MJRefresh
@@ -104,7 +102,6 @@ DEPENDENCIES:
   - RxSwift
   - SDWebImage
   - SnapKit
-  - SnapKitExtend
   - SVProgressHUD
   - Texture
   - YYKit
@@ -116,6 +113,7 @@ SPEC REPOS:
     - Alamofire
     - CameraManager
     - JSONModel
+    - JXSegmentedView
     - Kingfisher
     - lottie-ios
     - Masonry
@@ -132,26 +130,23 @@ SPEC REPOS:
     - RxSwift
     - SDWebImage
     - SnapKit
-    - SnapKitExtend
     - SVProgressHUD
     - Texture
     - YYKit
-  trunk:
-    - JXSegmentedView
 
 SPEC CHECKSUMS:
   Action: 0d14986aad0f1330aa27ce65d0cdeaacbb63d91c
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
   CameraManager: 583710502c42178d12ef046d9d4f7893feff8354
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   JXSegmentedView: 257773dde0c65f86c9d873c5cf93d15c76e170cc
-  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
-  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
+  lottie-ios: 496ac5cea1bbf1a7bd1f1f472f3232eb1b8d744b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
-  "NSObject+Rx": 6151a97d171f7187c4183746acc42d9451952a7b
+  "NSObject+Rx": 2eb2cf51fd1c554118449a7fbc36e4cd620b9e94
   ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
   PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
   PINOperation: 24b774353ca248fcf87d67b2d61eef42087c125a
@@ -160,13 +155,12 @@ SPEC CHECKSUMS:
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
-  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
-  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
-  SnapKitExtend: 00ee4db6d1f80bee01a1e75745f2a6ae695ba662
+  SDWebImage: 46a7f73228f84ce80990c786e4372cf4db5875ce
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   Texture: 8ecf6984065a1e54f06bf97b349ecca28582acd7
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 2aa4e51736adcbbab3df7390d789d4deca373aa9
+PODFILE CHECKSUM: b659e9aa5818440f1288b0e0e880b39518f50c42
 
 COCOAPODS: 1.8.3
