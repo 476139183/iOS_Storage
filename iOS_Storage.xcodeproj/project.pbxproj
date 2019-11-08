@@ -333,6 +333,7 @@
 		D9E30C40236D686B0042BC74 /* 加载中.gif in Resources */ = {isa = PBXBuildFile; fileRef = D9E30C3F236D686B0042BC74 /* 加载中.gif */; };
 		D9E42488212D0E9C00283CFC /* CQSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E42487212D0E9C00283CFC /* CQSortController.m */; };
 		D9E4248D212D4E3900283CFC /* CQSortModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E4248C212D4E3900283CFC /* CQSortModel.m */; };
+		D9E57A5923756E780013BC7D /* DictPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E57A5823756E780013BC7D /* DictPracticeViewController.swift */; };
 		D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E420E2322E00C3090D /* IrregularLabel.m */; };
 		D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */; };
 		D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4EB20E235D400C3090D /* ArrowLabel.m */; };
@@ -840,6 +841,7 @@
 		D9E42487212D0E9C00283CFC /* CQSortController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSortController.m; sourceTree = "<group>"; };
 		D9E4248B212D4E3900283CFC /* CQSortModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSortModel.h; sourceTree = "<group>"; };
 		D9E4248C212D4E3900283CFC /* CQSortModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSortModel.m; sourceTree = "<group>"; };
+		D9E57A5823756E780013BC7D /* DictPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictPracticeViewController.swift; sourceTree = "<group>"; };
 		D9E9F4E320E2322E00C3090D /* IrregularLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IrregularLabel.h; sourceTree = "<group>"; };
 		D9E9F4E420E2322E00C3090D /* IrregularLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularLabel.m; sourceTree = "<group>"; };
 		D9E9F4E620E232E200C3090D /* CQIrregularViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIrregularViewController.h; sourceTree = "<group>"; };
@@ -1626,6 +1628,7 @@
 		D940169D2361F1A400580AAC /* Dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				D9E57A5823756E780013BC7D /* DictPracticeViewController.swift */,
 			);
 			path = Dictionary;
 			sourceTree = "<group>";
@@ -3465,6 +3468,7 @@
 				D93A0BF9233CA0D300554EF6 /* MyCellNode.swift in Sources */,
 				D9C7CC1D22E9AA210038FD34 /* StandardSwiftTableViewCell.swift in Sources */,
 				D937689423585DB000515315 /* MapDemoViewController.swift in Sources */,
+				D9E57A5923756E780013BC7D /* DictPracticeViewController.swift in Sources */,
 				D991C91E236C48D300CB290C /* LoadingViewController.swift in Sources */,
 				D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */,
 				D9C7CC0C22E9998B0038FD34 /* CQStandardTableFooterView.m in Sources */,
