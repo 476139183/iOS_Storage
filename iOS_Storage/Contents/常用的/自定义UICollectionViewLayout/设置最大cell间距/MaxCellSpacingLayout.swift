@@ -26,16 +26,16 @@ class MaxCellSpacingLayout: UICollectionViewFlowLayout {
             
             for i in 1..<count {
                 let currentLayoutAttributes = attributes![i]
-                let prevLayoutAttributes = attributes![i-1]
+                let previousLayoutAttributes = attributes![i-1]
                 
                 if currentLayoutAttributes.frame.origin.x == firstCellOriginX {
                     continue
                 }
                 
-                let prevOriginMaxX = prevLayoutAttributes.frame.maxX
-                if currentLayoutAttributes.frame.origin.x - prevOriginMaxX > maximumInteritemSpacing {
+                let previousOriginMaxX = previousLayoutAttributes.frame.maxX
+                if currentLayoutAttributes.frame.origin.x - previousOriginMaxX > maximumInteritemSpacing {
                     var frame = currentLayoutAttributes.frame
-                    frame.origin.x = prevOriginMaxX + maximumInteritemSpacing
+                    frame.origin.x = previousOriginMaxX + maximumInteritemSpacing
                     currentLayoutAttributes.frame = frame
                 }
             }

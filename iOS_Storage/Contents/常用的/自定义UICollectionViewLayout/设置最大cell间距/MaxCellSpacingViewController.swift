@@ -12,10 +12,11 @@ class MaxCellSpacingViewController: CQBaseViewController, UICollectionViewDataSo
     
     private lazy var layout: MaxCellSpacingLayout = {
         let layout = MaxCellSpacingLayout()
-        layout.minimumLineSpacing = 20
+        layout.minimumLineSpacing = 50
         layout.minimumInteritemSpacing = 10
         layout.maximumInteritemSpacing = 10
         layout.itemSize = CGSize(width: 30, height: 30)
+        layout.sectionInset = UIEdgeInsets(top: 20, left: 50, bottom: 50, right: 0)
         return layout
     }()
     
