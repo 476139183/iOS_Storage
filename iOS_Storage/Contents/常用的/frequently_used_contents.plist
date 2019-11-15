@@ -20,6 +20,14 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
+		<string>索引TableView</string>
+		<key>controller_name</key>
+		<string>IndexTableViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
 		<string>标准CollectionView OC版</string>
 		<key>controller_name</key>
 		<string>CQStandardOCCollectionViewViewController</string>
@@ -63,6 +71,14 @@
 		<string>dict</string>
 		<key>controller_name</key>
 		<string>DictPracticeViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>枚举</string>
+		<key>controller_name</key>
+		<string>EnumPracticeViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>

@@ -48,6 +48,26 @@ class StackViewDemoViewController: CQBaseViewController {
         return stackView
     }()
     
+    private lazy var stackView3: UIStackView = {
+        let button1 = ChannelButton()
+        button1.backgroundColor = .orange
+        button1.snp.makeConstraints { (make) in
+            make.size.equalTo(CGSize(width: 72, height: 18))
+        }
+        
+        let button2 = ChannelButton()
+        button2.backgroundColor = .yellow
+        button2.snp.makeConstraints { (make) in
+            make.size.equalTo(CGSize(width: 72, height: 18))
+        }
+        
+        let stackView = UIStackView.init(arrangedSubviews: [button1, button2])
+        stackView.spacing = 14
+        stackView.axis = .horizontal
+        stackView.distribution = .fillEqually
+        return stackView
+    }()
+    
     private lazy var redView: UIView = {
         let redView = UIView()
         redView.backgroundColor = .red
@@ -95,12 +115,23 @@ class StackViewDemoViewController: CQBaseViewController {
             make.height.equalTo(50)
         }
         
+        view.addSubview(stackView3)
+        stackView3.snp.makeConstraints { (make) in
+            make.top.equalTo(300)
+            make.right.equalToSuperview().offset(-20)
+            make.height.equalTo(18)
+        }
+        
     }
     
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         // remove或者隐藏，stackView都会重新布局
         greenView.isHidden = true
+        
+        for button in stackView3.arrangedSubviews {
+            button.removeFromSuperview()
+        }
     }
     
 }

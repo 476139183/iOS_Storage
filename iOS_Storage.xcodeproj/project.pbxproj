@@ -25,6 +25,8 @@
 		D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9412109CDC400366887 /* architecture_contents.plist */; };
 		D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9442109CE0A00366887 /* arithmetic_contents.plist */; };
 		D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D91420AB216B50DD0034ACEA /* CQRippleView.m */; };
+		D91453FB237A606A0083FD19 /* EnumPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91453FA237A606A0083FD19 /* EnumPracticeViewController.swift */; };
+		D9145403237A894B0083FD19 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9145402237A894B0083FD19 /* Tool.swift */; };
 		D9179CDE22B7C04F002FCCA0 /* 装饰模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9179CDD22B7C04F002FCCA0 /* 装饰模式.md */; };
 		D9179CE122B7C808002FCCA0 /* CQDecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9179CE022B7C808002FCCA0 /* CQDecoratorViewController.m */; };
 		D9179CE422B7C9DA002FCCA0 /* UIButton+CQBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D9179CE322B7C9DA002FCCA0 /* UIButton+CQBorder.m */; };
@@ -77,6 +79,8 @@
 		D926BDEF22C5EE2200A2DD3E /* GameRole.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDEE22C5EE2200A2DD3E /* GameRole.m */; };
 		D926BDF222C6147E00A2DD3E /* RoleStateMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDF122C6147E00A2DD3E /* RoleStateMemento.m */; };
 		D926BDF522C6152400A2DD3E /* RoleStateCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDF422C6152400A2DD3E /* RoleStateCaretaker.m */; };
+		D92767C6237CF90400F9CED8 /* ChannelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92767C5237CF90400F9CED8 /* ChannelButton.swift */; };
+		D92767CB237D4F5000F9CED8 /* IndexTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92767CA237D4F5000F9CED8 /* IndexTableViewController.swift */; };
 		D92769F0236AE88700A6D846 /* PlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92769EF236AE88700A6D846 /* PlaceholderViewController.swift */; };
 		D92769F3236AE8C100A6D846 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92769F2236AE8C100A6D846 /* PlaceholderView.swift */; };
 		D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CED720EA63E100EE5C78 /* CQChartController.m */; };
@@ -382,6 +386,8 @@
 		D913F9442109CE0A00366887 /* arithmetic_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = arithmetic_contents.plist; sourceTree = "<group>"; };
 		D91420AA216B50DD0034ACEA /* CQRippleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRippleView.h; sourceTree = "<group>"; };
 		D91420AB216B50DD0034ACEA /* CQRippleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRippleView.m; sourceTree = "<group>"; };
+		D91453FA237A606A0083FD19 /* EnumPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumPracticeViewController.swift; sourceTree = "<group>"; };
+		D9145402237A894B0083FD19 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
 		D9179CDD22B7C04F002FCCA0 /* 装饰模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "装饰模式.md"; sourceTree = "<group>"; };
 		D9179CDF22B7C808002FCCA0 /* CQDecoratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQDecoratorViewController.h; sourceTree = "<group>"; };
 		D9179CE022B7C808002FCCA0 /* CQDecoratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQDecoratorViewController.m; sourceTree = "<group>"; };
@@ -460,6 +466,8 @@
 		D926BDF122C6147E00A2DD3E /* RoleStateMemento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoleStateMemento.m; sourceTree = "<group>"; };
 		D926BDF322C6152400A2DD3E /* RoleStateCaretaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoleStateCaretaker.h; sourceTree = "<group>"; };
 		D926BDF422C6152400A2DD3E /* RoleStateCaretaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoleStateCaretaker.m; sourceTree = "<group>"; };
+		D92767C5237CF90400F9CED8 /* ChannelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelButton.swift; sourceTree = "<group>"; };
+		D92767CA237D4F5000F9CED8 /* IndexTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexTableViewController.swift; sourceTree = "<group>"; };
 		D92769EF236AE88700A6D846 /* PlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViewController.swift; sourceTree = "<group>"; };
 		D92769F2236AE8C100A6D846 /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
 		D928CED620EA63E100EE5C78 /* CQChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChartController.h; sourceTree = "<group>"; };
@@ -1000,6 +1008,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D91453F9237A60090083FD19 /* 枚举 */ = {
+			isa = PBXGroup;
+			children = (
+				D91453FA237A606A0083FD19 /* EnumPracticeViewController.swift */,
+			);
+			path = "枚举";
+			sourceTree = "<group>";
+		};
 		D9179CDC22B7C02B002FCCA0 /* 装饰模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1324,6 +1340,14 @@
 			path = "备忘录模式";
 			sourceTree = "<group>";
 		};
+		D92767C9237D4F1A00F9CED8 /* 索引tableView */ = {
+			isa = PBXGroup;
+			children = (
+				D92767CA237D4F5000F9CED8 /* IndexTableViewController.swift */,
+			);
+			path = "索引tableView";
+			sourceTree = "<group>";
+		};
 		D92769EE236AE85600A6D846 /* Swift占位图 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1474,6 +1498,7 @@
 		D92D69C720DE3606002BA9C0 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				D9145402237A894B0083FD19 /* Tool.swift */,
 				D9C5B44F233DC58000299AFB /* Constants.swift */,
 				D93A0BFA233CA51D00554EF6 /* Utilities.swift */,
 				D9C5B451233DE83000299AFB /* Extensions */,
@@ -1559,6 +1584,7 @@
 			isa = PBXGroup;
 			children = (
 				D940168D2361BDD900580AAC /* StackViewDemoViewController.swift */,
+				D92767C5237CF90400F9CED8 /* ChannelButton.swift */,
 			);
 			path = UIStackViewDemo;
 			sourceTree = "<group>";
@@ -1569,6 +1595,7 @@
 				D94016922361EE9C00580AAC /* frequently_used_contents.plist */,
 				D9C7CBF622E990440038FD34 /* 标准TableView OC版 */,
 				D9C7CBF722E9904D0038FD34 /* 标准TableView Swift版 */,
+				D92767C9237D4F1A00F9CED8 /* 索引tableView */,
 				D9C7CBF822E9905C0038FD34 /* 标准CollectionView OC版 */,
 				D9C7CBF922E990770038FD34 /* 标准CollectionView Swift版 */,
 				D937687C2357FD7200515315 /* 常用CollectionViewLayout */,
@@ -1579,6 +1606,7 @@
 				D94016992361F05000580AAC /* Date */,
 				D94016982361F04600580AAC /* Data */,
 				D940169E2361F1C400580AAC /* 流程控制 */,
+				D91453F9237A60090083FD19 /* 枚举 */,
 				D9F523082362D23300ABBEF7 /* 圆角和阴影 */,
 				D94253192366D2EA0031356C /* 各种动画 */,
 				D9608BF8236988BA0053BD3E /* 扩大按钮响应区域 */,
@@ -3509,6 +3537,7 @@
 				D926BDAF22C2782100A2DD3E /* CQTemplateMethodViewController.m in Sources */,
 				D9DA0E8920E25291006CEA1C /* CQIphoneRequest.m in Sources */,
 				D9C5E5E82349AB3700D101F1 /* EasyButton.swift in Sources */,
+				D92767C6237CF90400F9CED8 /* ChannelButton.swift in Sources */,
 				D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */,
 				D965A2BE234E3AFB00041D69 /* CameraManagerViewController.swift in Sources */,
 				D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */,
@@ -3530,6 +3559,7 @@
 				D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */,
 				D91A9F7C22B3D89E008F87F1 /* CQCountDownButton.m in Sources */,
 				D9E21A88210FF83D00407599 /* CQClassClusterCellA.m in Sources */,
+				D9145403237A894B0083FD19 /* Tool.swift in Sources */,
 				D9DDA7CD20E4831F008BD029 /* CQWaterfallCell.m in Sources */,
 				D9C5E5D523473E2000D101F1 /* LeetCodeTwoSumViewController.swift in Sources */,
 				D9C7CC0322E9927F0038FD34 /* StandardSwiftCollectionViewViewController.swift in Sources */,
@@ -3582,6 +3612,7 @@
 				D9E42488212D0E9C00283CFC /* CQSortController.m in Sources */,
 				D9DE6CC020FEE7A800C8D4FE /* CQDepartmentModel.m in Sources */,
 				D9C5B44A233DA0ED00299AFB /* MyCellNode6.swift in Sources */,
+				D92767CB237D4F5000F9CED8 /* IndexTableViewController.swift in Sources */,
 				D95199FD22BF2FA200E3036B /* NickFactory.m in Sources */,
 				D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */,
 				D9C7CC0622E993E00038FD34 /* CQStandardTableViewCell.m in Sources */,
@@ -3670,6 +3701,7 @@
 				D95199FA22BF2F6A00E3036B /* ClothesFactory.m in Sources */,
 				D9545B27229306E2008B6355 /* CQRuntimeController.m in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
+				D91453FB237A606A0083FD19 /* EnumPracticeViewController.swift in Sources */,
 				D9D14510229917ED003B594C /* CQRunLoop.m in Sources */,
 				D9608BFA2369899B0053BD3E /* EnlargeActionViewController.swift in Sources */,
 				D93A0BF3233C700E00554EF6 /* ASTableDemoController.swift in Sources */,
