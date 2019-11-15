@@ -184,6 +184,9 @@
 		D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */; };
 		D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */; };
 		D97246EC237E4989001671AD /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246EB237E4989001671AD /* NSMutableAttributedString+Extension.swift */; };
+		D97246EF237E6056001671AD /* CustomLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246EE237E6056001671AD /* CustomLayoutViewController.swift */; };
+		D97246F2237E82B6001671AD /* MaxCellSpacingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246F1237E82B6001671AD /* MaxCellSpacingViewController.swift */; };
+		D97246F4237E8D47001671AD /* MaxCellSpacingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246F3237E8D47001671AD /* MaxCellSpacingLayout.swift */; };
 		D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */; };
 		D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97D50FF2350AE3800A0F570 /* trade_rule.txt */; };
 		D97D51022350B0CA00A0F570 /* TradeRuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D51012350B0CA00A0F570 /* TradeRuleViewController.swift */; };
@@ -623,6 +626,9 @@
 		D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftLoginViewController.swift; sourceTree = "<group>"; };
 		D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftLoginViewController.xib; sourceTree = "<group>"; };
 		D97246EB237E4989001671AD /* NSMutableAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extension.swift"; sourceTree = "<group>"; };
+		D97246EE237E6056001671AD /* CustomLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayoutViewController.swift; sourceTree = "<group>"; };
+		D97246F1237E82B6001671AD /* MaxCellSpacingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxCellSpacingViewController.swift; sourceTree = "<group>"; };
+		D97246F3237E8D47001671AD /* MaxCellSpacingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxCellSpacingLayout.swift; sourceTree = "<group>"; };
 		D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleView.swift; sourceTree = "<group>"; };
 		D97D50FF2350AE3800A0F570 /* trade_rule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trade_rule.txt; sourceTree = "<group>"; };
 		D97D51012350B0CA00A0F570 /* TradeRuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleViewController.swift; sourceTree = "<group>"; };
@@ -1601,6 +1607,7 @@
 				D9C7CBF822E9905C0038FD34 /* 标准CollectionView OC版 */,
 				D9C7CBF922E990770038FD34 /* 标准CollectionView Swift版 */,
 				D937687C2357FD7200515315 /* 常用CollectionViewLayout */,
+				D97246ED237E5F76001671AD /* 自定义UICollectionViewLayout */,
 				D94016942361EF6B00580AAC /* String */,
 				D940169A2361F15300580AAC /* Array */,
 				D940169D2361F1A400580AAC /* Dictionary */,
@@ -2055,6 +2062,24 @@
 				D9697FEE22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift */,
 			);
 			path = "组头组尾";
+			sourceTree = "<group>";
+		};
+		D97246ED237E5F76001671AD /* 自定义UICollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D97246EE237E6056001671AD /* CustomLayoutViewController.swift */,
+				D97246F0237E827C001671AD /* 设置最大cell间距 */,
+			);
+			path = "自定义UICollectionViewLayout";
+			sourceTree = "<group>";
+		};
+		D97246F0237E827C001671AD /* 设置最大cell间距 */ = {
+			isa = PBXGroup;
+			children = (
+				D97246F3237E8D47001671AD /* MaxCellSpacingLayout.swift */,
+				D97246F1237E82B6001671AD /* MaxCellSpacingViewController.swift */,
+			);
+			path = "设置最大cell间距";
 			sourceTree = "<group>";
 		};
 		D97D50FC2350A0CB00A0F570 /* 交易发布规则view */ = {
@@ -3475,6 +3500,7 @@
 				D9C5E5EA2349CD4E00D101F1 /* LinkedListViewController.swift in Sources */,
 				D9D11E2723717EC60047AD7C /* WKWebViewDemoViewController.swift in Sources */,
 				D9697FF122F097D800220938 /* StandardSwiftCollectionViewCell.swift in Sources */,
+				D97246EF237E6056001671AD /* CustomLayoutViewController.swift in Sources */,
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
 				D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */,
 				D9545B382293AA4B008B6355 /* CQPermanentThreadController.m in Sources */,
@@ -3686,6 +3712,7 @@
 				D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */,
 				D904C517234CA273002DD939 /* PopMenuView.swift in Sources */,
 				D9CB1EC42342053900CEB752 /* RxSwiftDynamicTableViewController.swift in Sources */,
+				D97246F4237E8D47001671AD /* MaxCellSpacingLayout.swift in Sources */,
 				D9545B3B2293AB48008B6355 /* CQThread.m in Sources */,
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
 				D91E1D25233E4EB600B1C772 /* CQGradientView.m in Sources */,
@@ -3735,6 +3762,7 @@
 				D9866539237164DF00AA60B2 /* CQSegmentedDataSource.swift in Sources */,
 				D986652C23710FB500AA60B2 /* String+Extension.swift in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
+				D97246F2237E82B6001671AD /* MaxCellSpacingViewController.swift in Sources */,
 				D9AABADD2355B1160029F1C6 /* PlaceholderTextViewController.swift in Sources */,
 				D9545B31229396D3008B6355 /* Cat.m in Sources */,
 				D91A9F7D22B3D89E008F87F1 /* NSTimer+CQBlockSupport.m in Sources */,
