@@ -181,12 +181,14 @@
 		D9697FED22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9697FEC22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift */; };
 		D9697FEF22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9697FEE22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift */; };
 		D9697FF122F097D800220938 /* StandardSwiftCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9697FF022F097D800220938 /* StandardSwiftCollectionViewCell.swift */; };
+		D96A17E7237EFDF90018E7F1 /* LeftSideLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A17E6237EFDF90018E7F1 /* LeftSideLayout.swift */; };
 		D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */; };
 		D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */; };
 		D97246EC237E4989001671AD /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246EB237E4989001671AD /* NSMutableAttributedString+Extension.swift */; };
 		D97246EF237E6056001671AD /* CustomLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246EE237E6056001671AD /* CustomLayoutViewController.swift */; };
 		D97246F2237E82B6001671AD /* MaxCellSpacingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246F1237E82B6001671AD /* MaxCellSpacingViewController.swift */; };
 		D97246F4237E8D47001671AD /* MaxCellSpacingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246F3237E8D47001671AD /* MaxCellSpacingLayout.swift */; };
+		D97246FA237EB11D001671AD /* LeftSideCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246F9237EB11D001671AD /* LeftSideCellViewController.swift */; };
 		D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */; };
 		D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97D50FF2350AE3800A0F570 /* trade_rule.txt */; };
 		D97D51022350B0CA00A0F570 /* TradeRuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D51012350B0CA00A0F570 /* TradeRuleViewController.swift */; };
@@ -216,6 +218,7 @@
 		D9A39F8722B4D51900FEA5F5 /* CQStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F8622B4D51900FEA5F5 /* CQStrategyViewController.m */; };
 		D9A39F8A22B4D8AF00FEA5F5 /* CQStrategyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F8922B4D8AF00FEA5F5 /* CQStrategyManager.m */; };
 		D9A65EED235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A65EEC235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift */; };
+		D9AA680A237F8E1000A14C37 /* CQLeftSideLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AA6809237F8E1000A14C37 /* CQLeftSideLayout.m */; };
 		D9AABADD2355B1160029F1C6 /* PlaceholderTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AABADC2355B1160029F1C6 /* PlaceholderTextViewController.swift */; };
 		D9AC3CA522AFD281007DDBD0 /* MapNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC3CA422AFD281007DDBD0 /* MapNaviViewController.swift */; };
 		D9AC3CAD22AFEDD3007DDBD0 /* CQRouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AC3CAC22AFEDD3007DDBD0 /* CQRouteManager.m */; };
@@ -623,12 +626,14 @@
 		D9697FEC22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftCollectionViewSectionHeaderView.swift; sourceTree = "<group>"; };
 		D9697FEE22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftCollectionViewSectionFooterView.swift; sourceTree = "<group>"; };
 		D9697FF022F097D800220938 /* StandardSwiftCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftCollectionViewCell.swift; sourceTree = "<group>"; };
+		D96A17E6237EFDF90018E7F1 /* LeftSideLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideLayout.swift; sourceTree = "<group>"; };
 		D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftLoginViewController.swift; sourceTree = "<group>"; };
 		D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftLoginViewController.xib; sourceTree = "<group>"; };
 		D97246EB237E4989001671AD /* NSMutableAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extension.swift"; sourceTree = "<group>"; };
 		D97246EE237E6056001671AD /* CustomLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayoutViewController.swift; sourceTree = "<group>"; };
 		D97246F1237E82B6001671AD /* MaxCellSpacingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxCellSpacingViewController.swift; sourceTree = "<group>"; };
 		D97246F3237E8D47001671AD /* MaxCellSpacingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxCellSpacingLayout.swift; sourceTree = "<group>"; };
+		D97246F9237EB11D001671AD /* LeftSideCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideCellViewController.swift; sourceTree = "<group>"; };
 		D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleView.swift; sourceTree = "<group>"; };
 		D97D50FF2350AE3800A0F570 /* trade_rule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trade_rule.txt; sourceTree = "<group>"; };
 		D97D51012350B0CA00A0F570 /* TradeRuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleViewController.swift; sourceTree = "<group>"; };
@@ -669,6 +674,8 @@
 		D9A39F8822B4D8AF00FEA5F5 /* CQStrategyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQStrategyManager.h; sourceTree = "<group>"; };
 		D9A39F8922B4D8AF00FEA5F5 /* CQStrategyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQStrategyManager.m; sourceTree = "<group>"; };
 		D9A65EEC235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedViewDemoViewController.swift; sourceTree = "<group>"; };
+		D9AA6808237F8E1000A14C37 /* CQLeftSideLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQLeftSideLayout.h; sourceTree = "<group>"; };
+		D9AA6809237F8E1000A14C37 /* CQLeftSideLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQLeftSideLayout.m; sourceTree = "<group>"; };
 		D9AABADC2355B1160029F1C6 /* PlaceholderTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextViewController.swift; sourceTree = "<group>"; };
 		D9AC3CA422AFD281007DDBD0 /* MapNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNaviViewController.swift; sourceTree = "<group>"; };
 		D9AC3CAB22AFEDD3007DDBD0 /* CQRouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQRouteManager.h; sourceTree = "<group>"; };
@@ -2069,6 +2076,7 @@
 			children = (
 				D97246EE237E6056001671AD /* CustomLayoutViewController.swift */,
 				D97246F0237E827C001671AD /* 设置最大cell间距 */,
+				D97246F8237EB072001671AD /* 让宽度自适应的cell靠左 */,
 			);
 			path = "自定义UICollectionViewLayout";
 			sourceTree = "<group>";
@@ -2080,6 +2088,17 @@
 				D97246F1237E82B6001671AD /* MaxCellSpacingViewController.swift */,
 			);
 			path = "设置最大cell间距";
+			sourceTree = "<group>";
+		};
+		D97246F8237EB072001671AD /* 让宽度自适应的cell靠左 */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA6808237F8E1000A14C37 /* CQLeftSideLayout.h */,
+				D9AA6809237F8E1000A14C37 /* CQLeftSideLayout.m */,
+				D96A17E6237EFDF90018E7F1 /* LeftSideLayout.swift */,
+				D97246F9237EB11D001671AD /* LeftSideCellViewController.swift */,
+			);
+			path = "让宽度自适应的cell靠左";
 			sourceTree = "<group>";
 		};
 		D97D50FC2350A0CB00A0F570 /* 交易发布规则view */ = {
@@ -3633,6 +3652,7 @@
 				D9CE605923518F3700D65107 /* UIImage+Extension.swift in Sources */,
 				D9C5B450233DC58000299AFB /* Constants.swift in Sources */,
 				D9A39F8722B4D51900FEA5F5 /* CQStrategyViewController.m in Sources */,
+				D9AA680A237F8E1000A14C37 /* CQLeftSideLayout.m in Sources */,
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
 				D9B2FDE9233314BA00755653 /* CQCacheDemoViewController.m in Sources */,
@@ -3737,6 +3757,7 @@
 				D9608BFA2369899B0053BD3E /* EnlargeActionViewController.swift in Sources */,
 				D93A0BF3233C700E00554EF6 /* ASTableDemoController.swift in Sources */,
 				D926BDDC22C497BA00A2DD3E /* Work.m in Sources */,
+				D96A17E7237EFDF90018E7F1 /* LeftSideLayout.swift in Sources */,
 				D9AEB68922F6AA56006F8995 /* CQMVVMViewModel.m in Sources */,
 				D91E1D2B233E585800B1C772 /* UIImage+Util.m in Sources */,
 				D9CFC80D229CE438009B8399 /* Cat2.m in Sources */,
@@ -3766,6 +3787,7 @@
 				D9AABADD2355B1160029F1C6 /* PlaceholderTextViewController.swift in Sources */,
 				D9545B31229396D3008B6355 /* Cat.m in Sources */,
 				D91A9F7D22B3D89E008F87F1 /* NSTimer+CQBlockSupport.m in Sources */,
+				D97246FA237EB11D001671AD /* LeftSideCellViewController.swift in Sources */,
 				D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */,
 				D9A39F7B22B4D2DC00FEA5F5 /* CQMVPViewController.m in Sources */,
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,

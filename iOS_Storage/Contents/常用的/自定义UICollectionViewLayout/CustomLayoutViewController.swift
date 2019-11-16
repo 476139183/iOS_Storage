@@ -10,7 +10,8 @@ import UIKit
 
 class CustomLayoutViewController: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
     
-    private let dataArray: [Model] = [Model(title: "最大cell间距", sel: #selector(gotoMaxCellSpacingVC))]
+    private let dataArray: [Model] = [Model(title: "最大cell间距", sel: #selector(gotoMaxCellSpacingVC)),
+                                      Model(title: "只有一个宽度自适应的cell靠左", sel: #selector(gotoLeftSideCellVC))]
     
     private lazy var tableView: UITableView = {
         let tableView = UITableView()
@@ -39,6 +40,11 @@ class CustomLayoutViewController: CQBaseViewController, UITableViewDataSource, U
     
     @objc private func gotoMaxCellSpacingVC() {
         let vc = MaxCellSpacingViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func gotoLeftSideCellVC() {
+        let vc = LeftSideCellViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
     
