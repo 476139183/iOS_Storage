@@ -14,17 +14,14 @@ class IconFontViewController: CQBaseViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        let label = UILabel()
+        view.addSubview(label)
+        label.text = IconFont.close
+        label.font = IconFont.font(size: 16)
+        label.textColor = .gray
+        label.frame = CGRect(x: 90, y: 90, width: 90, height: 90)
+        
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

@@ -202,6 +202,8 @@
 		D9866539237164DF00AA60B2 /* CQSegmentedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9866538237164DF00AA60B2 /* CQSegmentedDataSource.swift */; };
 		D98E4DE423810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DE323810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift */; };
 		D98E4DE6238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */; };
+		D98E4DF0238284AC0082EED4 /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DEF238284AC0082EED4 /* IconFont.swift */; };
+		D98E4DF2238285960082EED4 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D98E4DF1238285960082EED4 /* iconfont.ttf */; };
 		D991C91E236C48D300CB290C /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991C91D236C48D300CB290C /* LoadingViewController.swift */; };
 		D991C921236C492300CB290C /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991C920236C492300CB290C /* Loading.swift */; };
 		D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */; };
@@ -652,6 +654,8 @@
 		D9866538237164DF00AA60B2 /* CQSegmentedDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQSegmentedDataSource.swift; sourceTree = "<group>"; };
 		D98E4DE323810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideMaxCellSpacingViewController.swift; sourceTree = "<group>"; };
 		D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideMaxCellSpacingLayout.swift; sourceTree = "<group>"; };
+		D98E4DEF238284AC0082EED4 /* IconFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
+		D98E4DF1238285960082EED4 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		D991C91D236C48D300CB290C /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		D991C920236C492300CB290C /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		D9920CBF20E6386800F328F9 /* CQWarnTextFieldController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextFieldController.h; sourceTree = "<group>"; };
@@ -959,6 +963,8 @@
 		D904C513234C8B27002DD939 /* IconFontDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D98E4DF1238285960082EED4 /* iconfont.ttf */,
+				D98E4DEF238284AC0082EED4 /* IconFont.swift */,
 				D965A2BA234E37D400041D69 /* IconFontViewController.swift */,
 			);
 			path = IconFontDemo;
@@ -3434,6 +3440,7 @@
 				D92D69C420DE359C002BA9C0 /* LaunchScreen.storyboard in Resources */,
 				D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */,
 				D9E30C37236D5FC50042BC74 /* img_2.png in Resources */,
+				D98E4DF2238285960082EED4 /* iconfont.ttf in Resources */,
 				D92D69C620DE35B2002BA9C0 /* Main.storyboard in Resources */,
 				D926BDAC22C273E800A2DD3E /* 模板方法模式.md in Resources */,
 				D95199E722BDCC0200E3036B /* 代理模式.md in Resources */,
@@ -3575,6 +3582,7 @@
 				D991C91E236C48D300CB290C /* LoadingViewController.swift in Sources */,
 				D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */,
 				D9C7CC0C22E9998B0038FD34 /* CQStandardTableFooterView.m in Sources */,
+				D98E4DF0238284AC0082EED4 /* IconFont.swift in Sources */,
 				D97246EC237E4989001671AD /* NSMutableAttributedString+Extension.swift in Sources */,
 				D9A0091423725A8B00ECF98F /* JXCustomViewController.swift in Sources */,
 				D9C5E5CA23424D5000D101F1 /* YYDemoListViewController.swift in Sources */,
