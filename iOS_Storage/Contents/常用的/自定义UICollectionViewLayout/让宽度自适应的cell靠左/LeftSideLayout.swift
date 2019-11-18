@@ -14,14 +14,28 @@ class LeftSideLayout: UICollectionViewFlowLayout {
         
         let attributes = super.layoutAttributesForElements(in: rect)
         
-        if attributes?.count == 1 {
+        
+        if let attributes = attributes, attributes.count > 1 {
             
-            if let currentAttribute = attributes?.first {
-                currentAttribute.frame = CGRect(x: self.sectionInset.left, y: currentAttribute.frame.origin.y, width: currentAttribute.frame.size.width, height: currentAttribute.frame.size.height)
+            for i in 1..<attributes.count {
+                
+                let currentLayoutAttributes = attributes[i]
+                let previousLayoutAttributes = attributes[i-1]
+                
+                if i == 1 {
+                    previousLayoutAttributes.frame = CGRect(x: self.sectionInset.left, y: previousLayoutAttributes.frame.origin.y, width: previousLayoutAttributes.frame.size.width, height: previousLayoutAttributes.frame.size.height)
+                }
+                
+                // 如果是另起一行
+                if currentLayoutAttributes.frame.origin.y != previousLayoutAttributes.frame.origin.y {
+                    
+                    currentLayoutAttributes.frame = CGRect(x: self.sectionInset.left, y: currentLayoutAttributes.frame.origin.y, width: currentLayoutAttributes.frame.size.width, height: currentLayoutAttributes.frame.size.height)
+                    
+                }
+                
             }
             
         }
-        
         
         return attributes
         

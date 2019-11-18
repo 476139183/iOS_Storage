@@ -200,6 +200,8 @@
 		D98665312371555400AA60B2 /* ImageTextConvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98665302371555400AA60B2 /* ImageTextConvertViewController.swift */; };
 		D986653723715E8800AA60B2 /* JXMixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986653623715E8800AA60B2 /* JXMixViewController.swift */; };
 		D9866539237164DF00AA60B2 /* CQSegmentedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9866538237164DF00AA60B2 /* CQSegmentedDataSource.swift */; };
+		D98E4DE423810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DE323810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift */; };
+		D98E4DE6238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */; };
 		D991C91E236C48D300CB290C /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991C91D236C48D300CB290C /* LoadingViewController.swift */; };
 		D991C921236C492300CB290C /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991C920236C492300CB290C /* Loading.swift */; };
 		D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */; };
@@ -219,6 +221,7 @@
 		D9A39F8A22B4D8AF00FEA5F5 /* CQStrategyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F8922B4D8AF00FEA5F5 /* CQStrategyManager.m */; };
 		D9A65EED235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A65EEC235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift */; };
 		D9AA680A237F8E1000A14C37 /* CQLeftSideLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AA6809237F8E1000A14C37 /* CQLeftSideLayout.m */; };
+		D9AA680F237FB32600A14C37 /* UIPageViewControllerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA680E237FB32600A14C37 /* UIPageViewControllerDemoController.swift */; };
 		D9AABADD2355B1160029F1C6 /* PlaceholderTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AABADC2355B1160029F1C6 /* PlaceholderTextViewController.swift */; };
 		D9AC3CA522AFD281007DDBD0 /* MapNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC3CA422AFD281007DDBD0 /* MapNaviViewController.swift */; };
 		D9AC3CAD22AFEDD3007DDBD0 /* CQRouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AC3CAC22AFEDD3007DDBD0 /* CQRouteManager.m */; };
@@ -647,6 +650,8 @@
 		D98665302371555400AA60B2 /* ImageTextConvertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextConvertViewController.swift; sourceTree = "<group>"; };
 		D986653623715E8800AA60B2 /* JXMixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXMixViewController.swift; sourceTree = "<group>"; };
 		D9866538237164DF00AA60B2 /* CQSegmentedDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQSegmentedDataSource.swift; sourceTree = "<group>"; };
+		D98E4DE323810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideMaxCellSpacingViewController.swift; sourceTree = "<group>"; };
+		D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideMaxCellSpacingLayout.swift; sourceTree = "<group>"; };
 		D991C91D236C48D300CB290C /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		D991C920236C492300CB290C /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		D9920CBF20E6386800F328F9 /* CQWarnTextFieldController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextFieldController.h; sourceTree = "<group>"; };
@@ -676,6 +681,7 @@
 		D9A65EEC235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedViewDemoViewController.swift; sourceTree = "<group>"; };
 		D9AA6808237F8E1000A14C37 /* CQLeftSideLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQLeftSideLayout.h; sourceTree = "<group>"; };
 		D9AA6809237F8E1000A14C37 /* CQLeftSideLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQLeftSideLayout.m; sourceTree = "<group>"; };
+		D9AA680E237FB32600A14C37 /* UIPageViewControllerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageViewControllerDemoController.swift; sourceTree = "<group>"; };
 		D9AABADC2355B1160029F1C6 /* PlaceholderTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextViewController.swift; sourceTree = "<group>"; };
 		D9AC3CA422AFD281007DDBD0 /* MapNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNaviViewController.swift; sourceTree = "<group>"; };
 		D9AC3CAB22AFEDD3007DDBD0 /* CQRouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQRouteManager.h; sourceTree = "<group>"; };
@@ -1546,6 +1552,7 @@
 				D937689223585D2400515315 /* MapDemo */,
 				D940168C2361BD6D00580AAC /* UIStackViewDemo */,
 				D9D11E2523717E500047AD7C /* WKWebViewDemo */,
+				D9AA680D237FAFF100A14C37 /* UIPageViewControllerDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -2077,6 +2084,7 @@
 				D97246EE237E6056001671AD /* CustomLayoutViewController.swift */,
 				D97246F0237E827C001671AD /* 设置最大cell间距 */,
 				D97246F8237EB072001671AD /* 让宽度自适应的cell靠左 */,
+				D98E4DE223810F360082EED4 /* 设置最大cell间距并且靠左 */,
 			);
 			path = "自定义UICollectionViewLayout";
 			sourceTree = "<group>";
@@ -2211,6 +2219,15 @@
 				D90C4E7B21098C9800C48E72 /* CQChangeThemeController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		D98E4DE223810F360082EED4 /* 设置最大cell间距并且靠左 */ = {
+			isa = PBXGroup;
+			children = (
+				D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */,
+				D98E4DE323810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift */,
+			);
+			path = "设置最大cell间距并且靠左";
 			sourceTree = "<group>";
 		};
 		D98F1B2A236D783900F31F03 /* ASTableNode */ = {
@@ -2359,6 +2376,14 @@
 				D941B86F235F23AB00AEB48E /* JXSegmentedChildController3.swift */,
 			);
 			path = JXSegmentedView;
+			sourceTree = "<group>";
+		};
+		D9AA680D237FAFF100A14C37 /* UIPageViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D9AA680E237FB32600A14C37 /* UIPageViewControllerDemoController.swift */,
+			);
+			path = UIPageViewControllerDemo;
 			sourceTree = "<group>";
 		};
 		D9AABADB2355B0B80029F1C6 /* 带placeholder的textView */ = {
@@ -3509,7 +3534,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98E4DE6238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift in Sources */,
 				D926BDD922C496B800A2DD3E /* AfternoonState.m in Sources */,
+				D98E4DE423810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift in Sources */,
 				D9DA0E7A20E24F5E006CEA1C /* IphoneMenuView.m in Sources */,
 				D9C5B453233DF3A200299AFB /* UIColor+Extension.swift in Sources */,
 				D91A9F8B22B49390008F87F1 /* CQRecognitionManager.m in Sources */,
@@ -3731,6 +3758,7 @@
 				D9BF6917233F587300E602A4 /* GradientLabel.swift in Sources */,
 				D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */,
 				D904C517234CA273002DD939 /* PopMenuView.swift in Sources */,
+				D9AA680F237FB32600A14C37 /* UIPageViewControllerDemoController.swift in Sources */,
 				D9CB1EC42342053900CEB752 /* RxSwiftDynamicTableViewController.swift in Sources */,
 				D97246F4237E8D47001671AD /* MaxCellSpacingLayout.swift in Sources */,
 				D9545B3B2293AB48008B6355 /* CQThread.m in Sources */,
