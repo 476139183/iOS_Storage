@@ -204,6 +204,8 @@
 		D98E4DE6238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */; };
 		D98E4DF0238284AC0082EED4 /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DEF238284AC0082EED4 /* IconFont.swift */; };
 		D98E4DF2238285960082EED4 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D98E4DF1238285960082EED4 /* iconfont.ttf */; };
+		D98E4DF5238289C60082EED4 /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DF4238289C60082EED4 /* WaterfallLayout.swift */; };
+		D98E4DF723828A250082EED4 /* WaterfallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DF623828A250082EED4 /* WaterfallViewController.swift */; };
 		D991C91E236C48D300CB290C /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991C91D236C48D300CB290C /* LoadingViewController.swift */; };
 		D991C921236C492300CB290C /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991C920236C492300CB290C /* Loading.swift */; };
 		D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */; };
@@ -261,6 +263,8 @@
 		D9BF6915233F57CF00E602A4 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6914233F57CF00E602A4 /* GradientButton.swift */; };
 		D9BF6917233F587300E602A4 /* GradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6916233F587300E602A4 /* GradientLabel.swift */; };
 		D9BF691A233F5F0B00E602A4 /* CQGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6919233F5F0B00E602A4 /* CQGradientLabel.m */; };
+		D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352B23853059008C0D59 /* RefreshViewController.swift */; };
+		D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */; };
 		D9C2AA9F236928F900EBB9E1 /* UIViewAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2AA9E236928F900EBB9E1 /* UIViewAnimationViewController.swift */; };
 		D9C5B448233D967500299AFB /* MyCellNode5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B447233D967500299AFB /* MyCellNode5.swift */; };
 		D9C5B44A233DA0ED00299AFB /* MyCellNode6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B449233DA0ED00299AFB /* MyCellNode6.swift */; };
@@ -656,6 +660,8 @@
 		D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideMaxCellSpacingLayout.swift; sourceTree = "<group>"; };
 		D98E4DEF238284AC0082EED4 /* IconFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
 		D98E4DF1238285960082EED4 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		D98E4DF4238289C60082EED4 /* WaterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
+		D98E4DF623828A250082EED4 /* WaterfallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallViewController.swift; sourceTree = "<group>"; };
 		D991C91D236C48D300CB290C /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		D991C920236C492300CB290C /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		D9920CBF20E6386800F328F9 /* CQWarnTextFieldController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextFieldController.h; sourceTree = "<group>"; };
@@ -741,6 +747,8 @@
 		D9BF6916233F587300E602A4 /* GradientLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLabel.swift; sourceTree = "<group>"; };
 		D9BF6918233F5F0B00E602A4 /* CQGradientLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientLabel.h; sourceTree = "<group>"; };
 		D9BF6919233F5F0B00E602A4 /* CQGradientLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientLabel.m; sourceTree = "<group>"; };
+		D9C2352B23853059008C0D59 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
+		D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRefreshHeader.swift; sourceTree = "<group>"; };
 		D9C2AA9E236928F900EBB9E1 /* UIViewAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAnimationViewController.swift; sourceTree = "<group>"; };
 		D9C5B447233D967500299AFB /* MyCellNode5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode5.swift; sourceTree = "<group>"; };
 		D9C5B449233DA0ED00299AFB /* MyCellNode6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode6.swift; sourceTree = "<group>"; };
@@ -1476,6 +1484,7 @@
 				D97D50FC2350A0CB00A0F570 /* 交易发布规则view */,
 				D9AABADB2355B0B80029F1C6 /* 带placeholder的textView */,
 				D941B861235EF8E600AEB48E /* 定位 */,
+				D9C2352A23853001008C0D59 /* 基于MJRefresh的下拉刷新 */,
 			);
 			path = "自己的框架";
 			sourceTree = "<group>";
@@ -2090,7 +2099,8 @@
 				D97246EE237E6056001671AD /* CustomLayoutViewController.swift */,
 				D97246F0237E827C001671AD /* 设置最大cell间距 */,
 				D97246F8237EB072001671AD /* 让宽度自适应的cell靠左 */,
-				D98E4DE223810F360082EED4 /* 设置最大cell间距并且靠左 */,
+				D98E4DE223810F360082EED4 /* 设置cell间距并且靠左 */,
+				D98E4DF3238288850082EED4 /* 单纯的瀑布流 */,
 			);
 			path = "自定义UICollectionViewLayout";
 			sourceTree = "<group>";
@@ -2227,13 +2237,22 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D98E4DE223810F360082EED4 /* 设置最大cell间距并且靠左 */ = {
+		D98E4DE223810F360082EED4 /* 设置cell间距并且靠左 */ = {
 			isa = PBXGroup;
 			children = (
 				D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */,
 				D98E4DE323810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift */,
 			);
-			path = "设置最大cell间距并且靠左";
+			path = "设置cell间距并且靠左";
+			sourceTree = "<group>";
+		};
+		D98E4DF3238288850082EED4 /* 单纯的瀑布流 */ = {
+			isa = PBXGroup;
+			children = (
+				D98E4DF4238289C60082EED4 /* WaterfallLayout.swift */,
+				D98E4DF623828A250082EED4 /* WaterfallViewController.swift */,
+			);
+			path = "单纯的瀑布流";
 			sourceTree = "<group>";
 		};
 		D98F1B2A236D783900F31F03 /* ASTableNode */ = {
@@ -2566,6 +2585,15 @@
 				D920ED1C22E8703900C5A43F /* Lottie */,
 			);
 			path = "三方框架";
+			sourceTree = "<group>";
+		};
+		D9C2352A23853001008C0D59 /* 基于MJRefresh的下拉刷新 */ = {
+			isa = PBXGroup;
+			children = (
+				D9C2352B23853059008C0D59 /* RefreshViewController.swift */,
+				D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */,
+			);
+			path = "基于MJRefresh的下拉刷新";
 			sourceTree = "<group>";
 		};
 		D9C2AA9D2369275800EBB9E1 /* UIView动画 */ = {
@@ -3548,6 +3576,7 @@
 				D9C5B453233DF3A200299AFB /* UIColor+Extension.swift in Sources */,
 				D91A9F8B22B49390008F87F1 /* CQRecognitionManager.m in Sources */,
 				D940169C2361F16F00580AAC /* ArrayPracticeViewController.swift in Sources */,
+				D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */,
 				D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */,
 				D926BDC722C487CB00A2DD3E /* CQAbstractFactoryViewController.m in Sources */,
 				D9C5E5EA2349CD4E00D101F1 /* LinkedListViewController.swift in Sources */,
@@ -3654,6 +3683,7 @@
 				D90D9FAF233218300007C25C /* CQFPSViewController.m in Sources */,
 				D9A39F8A22B4D8AF00FEA5F5 /* CQStrategyManager.m in Sources */,
 				D9A39F7822B4D2CA00FEA5F5 /* CQMVCViewController.m in Sources */,
+				D98E4DF723828A250082EED4 /* WaterfallViewController.swift in Sources */,
 				D9F7E010237026E200BE1285 /* JXImageOrTextViewController.swift in Sources */,
 				D95199EA22BDCC6100E3036B /* CQDelegateViewController.m in Sources */,
 				D9F9336E229D7CEB00C7B2E0 /* CQPthreadController.m in Sources */,
@@ -3680,6 +3710,7 @@
 				D904C515234C9C00002DD939 /* PopMenuButtonViewController.swift in Sources */,
 				D942531E2366D5CA0031356C /* TableViewAnimationViewController.swift in Sources */,
 				D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */,
+				D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */,
 				D9E30C3C236D62560042BC74 /* GifViewController.swift in Sources */,
 				D9C7CC0922E998520038FD34 /* CQStandardTableHeaderView.m in Sources */,
 				D9C7021322EB5CF400DDC44F /* RxPerson.swift in Sources */,
@@ -3779,6 +3810,7 @@
 				D9CEB46C2355D5080050E7AD /* PlaceholderTextView.swift in Sources */,
 				D926BDF222C6147E00A2DD3E /* RoleStateMemento.m in Sources */,
 				D984AD0F2154F05000610B27 /* CQSortButtonDemoController.m in Sources */,
+				D98E4DF5238289C60082EED4 /* WaterfallLayout.swift in Sources */,
 				D94BCDF022E9DA1B0080584F /* CQStandardOCCollectionSectionHeaderView.m in Sources */,
 				D92DA5C922C1B4D000E91212 /* PrototypePerson.m in Sources */,
 				D9DE6CC920FEE9C000C8D4FE /* CQFilterCell.m in Sources */,
