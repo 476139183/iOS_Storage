@@ -265,6 +265,8 @@
 		D9BF691A233F5F0B00E602A4 /* CQGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6919233F5F0B00E602A4 /* CQGradientLabel.m */; };
 		D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352B23853059008C0D59 /* RefreshViewController.swift */; };
 		D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */; };
+		D9C2353123855F08008C0D59 /* TestNaviBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2353023855F08008C0D59 /* TestNaviBarViewController.swift */; };
+		D9C2353323856008008C0D59 /* TestNaviBarViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2353223856008008C0D59 /* TestNaviBarViewController2.swift */; };
 		D9C2AA9F236928F900EBB9E1 /* UIViewAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2AA9E236928F900EBB9E1 /* UIViewAnimationViewController.swift */; };
 		D9C5B448233D967500299AFB /* MyCellNode5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B447233D967500299AFB /* MyCellNode5.swift */; };
 		D9C5B44A233DA0ED00299AFB /* MyCellNode6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B449233DA0ED00299AFB /* MyCellNode6.swift */; };
@@ -749,6 +751,8 @@
 		D9BF6919233F5F0B00E602A4 /* CQGradientLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientLabel.m; sourceTree = "<group>"; };
 		D9C2352B23853059008C0D59 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
 		D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRefreshHeader.swift; sourceTree = "<group>"; };
+		D9C2353023855F08008C0D59 /* TestNaviBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNaviBarViewController.swift; sourceTree = "<group>"; };
+		D9C2353223856008008C0D59 /* TestNaviBarViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNaviBarViewController2.swift; sourceTree = "<group>"; };
 		D9C2AA9E236928F900EBB9E1 /* UIViewAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAnimationViewController.swift; sourceTree = "<group>"; };
 		D9C5B447233D967500299AFB /* MyCellNode5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode5.swift; sourceTree = "<group>"; };
 		D9C5B449233DA0ED00299AFB /* MyCellNode6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode6.swift; sourceTree = "<group>"; };
@@ -1637,6 +1641,7 @@
 				D9C7CBF922E990770038FD34 /* 标准CollectionView Swift版 */,
 				D937687C2357FD7200515315 /* 常用CollectionViewLayout */,
 				D97246ED237E5F76001671AD /* 自定义UICollectionViewLayout */,
+				D9C2352F23855E64008C0D59 /* 隐藏显示导航栏 */,
 				D94016942361EF6B00580AAC /* String */,
 				D940169A2361F15300580AAC /* Array */,
 				D940169D2361F1A400580AAC /* Dictionary */,
@@ -2594,6 +2599,15 @@
 				D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */,
 			);
 			path = "基于MJRefresh的下拉刷新";
+			sourceTree = "<group>";
+		};
+		D9C2352F23855E64008C0D59 /* 隐藏显示导航栏 */ = {
+			isa = PBXGroup;
+			children = (
+				D9C2353023855F08008C0D59 /* TestNaviBarViewController.swift */,
+				D9C2353223856008008C0D59 /* TestNaviBarViewController2.swift */,
+			);
+			path = "隐藏显示导航栏";
 			sourceTree = "<group>";
 		};
 		D9C2AA9D2369275800EBB9E1 /* UIView动画 */ = {
@@ -3660,6 +3674,7 @@
 				D941B870235F23AB00AEB48E /* JXSegmentedChildController3.swift in Sources */,
 				D9519A0922BFAE6C00E3036B /* Adidas.m in Sources */,
 				D9A65EED235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift in Sources */,
+				D9C2353123855F08008C0D59 /* TestNaviBarViewController.swift in Sources */,
 				D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */,
 				D92769F3236AE8C100A6D846 /* PlaceholderView.swift in Sources */,
 				D9C2AA9F236928F900EBB9E1 /* UIViewAnimationViewController.swift in Sources */,
@@ -3842,6 +3857,7 @@
 				D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */,
 				D92D3062216B3D8700B57A2D /* CQRippleViewController.m in Sources */,
 				D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */,
+				D9C2353323856008008C0D59 /* TestNaviBarViewController2.swift in Sources */,
 				D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */,
 				D926BDE222C4B5B300A2DD3E /* CQAdapterViewController.m in Sources */,
 				D92769F0236AE88700A6D846 /* PlaceholderViewController.swift in Sources */,

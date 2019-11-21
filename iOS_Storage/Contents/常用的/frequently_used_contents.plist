@@ -60,6 +60,14 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
+		<string>隐藏显示导航栏</string>
+		<key>controller_name</key>
+		<string>TestNaviBarViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
 		<string>String</string>
 		<key>controller_name</key>
 		<string>StringPracticeViewController</string>
