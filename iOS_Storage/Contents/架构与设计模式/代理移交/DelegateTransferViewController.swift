@@ -8,96 +8,58 @@
 
 import UIKit
 
-class DelegateTransferViewController: CQBaseViewController {
+class DelegateTransferViewController: CQBaseViewController, UITableViewDataSource {
+    
+    private lazy var dataArray: [Model] = {
+        let model = Model()
+        model.name = "jack"
+        return [model]
+    }()
+    
+    private lazy var tableView: UITableView = {
+        let tableView = UITableView()
+        tableView.dataSource = self
+        return tableView
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        view.addSubview(tableView)
+        tableView.snp.makeConstraints { (make) in
+            make.edges.equalToSuperview()
+        }
+        
+    }
+    
+    
+    // MARK: - UITableView
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return dataArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let reuseID = "reuseID"
+        var cell = tableView.dequeueReusableCell(withIdentifier: reuseID)
+        if cell == nil {
+            cell = UITableViewCell(style: .default, reuseIdentifier: reuseID)
+        }
+        
+        var model = dataArray[indexPath.row]
+        model.name = "Mike"
+        
+        cell?.textLabel?.text = dataArray[indexPath.row].name
+        
+        return cell!
     }
 
 }
 
-protocol CustomTopViewDelegate: class {
+fileprivate class Model {
     
-    func topViewDidClickConfirmButton(_ topView: CustomTopView)
-    
-}
-
-class CustomTopView: UIView {
-    
-    weak var delegate: CustomTopViewDelegate?
-    
-    private lazy var confirmButton: UIButton = {
-        let button = UIButton()
-        button.setTitle("确定", for: .normal)
-        return button
-    }()
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    private func confirmButtonClicked() {
-        delegate?.topViewDidClickConfirmButton(self)
-    }
-    
-}
-
-
-class CustomRedView: UIView {
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        
-        backgroundColor = .red
-        
-        
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-}
-
-
-
-
-
-class CustomGreenView: UIView {
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        
-        backgroundColor = .green
-        
-        
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-}
-
-class CustomBlueView: UIView {
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        
-        backgroundColor = .blue
-        
-        
-        
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+    var name = ""
     
 }

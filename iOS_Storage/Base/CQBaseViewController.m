@@ -26,6 +26,10 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"详情" style:UIBarButtonItemStylePlain target:self action:@selector(detailButtonClicked)];
 }
 
+- (void)dealloc {
+    NSLog(@"已释放：%@", self.className);
+}
+
 #pragma mark - 详情按钮点击
 
 - (void)detailButtonClicked {

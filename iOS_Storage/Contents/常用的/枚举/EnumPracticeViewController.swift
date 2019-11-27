@@ -14,33 +14,51 @@ enum MonitorSettingType: String {
     case list    // 网站
 }
 
-enum TradeQuality {
+enum ShoesQuality {
+    
     case new
     case flaw
     case dressed
     case secondHand
     
-    var desc: String {
+    var info: (desc: String, code: Int) {
         get {
             switch self {
             case .new:
-                return "全新闲置"
+                return ("全新闲置", 100)
             case .flaw:
-                return "全新瑕疵"
+                return ("全新瑕疵", 200)
             case .dressed:
-                return "轻微穿着"
+                return ("轻微穿着", 300)
             case .secondHand:
-                return "二手穿着"
+                return ("二手穿着", 400)
             }
         }
     }
+    
 }
 
 class EnumPracticeViewController: CQBaseViewController {
-
+    
+    var selectedQualityCode: Int?
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        let alertController = UIAlertController(title: "选择球鞋成色", message: nil, preferredStyle: .actionSheet)
+        let array: [ShoesQuality] = [.new, .flaw, .dressed, .secondHand]
+        array.forEach { (quality) in
+            let action = UIAlertAction(title: quality.info.desc, style: .default) { (action) in
+                self.selectedQualityCode = quality.info.code
+            }
+            alertController.addAction(action)
+        }
+        present(alertController, animated: true, completion: nil)
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
         
@@ -63,5 +81,5 @@ class EnumPracticeViewController: CQBaseViewController {
         
         label.width = width
     }
-
+    
 }

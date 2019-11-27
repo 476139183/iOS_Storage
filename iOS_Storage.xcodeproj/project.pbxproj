@@ -192,6 +192,7 @@
 		D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */; };
 		D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97D50FF2350AE3800A0F570 /* trade_rule.txt */; };
 		D97D51022350B0CA00A0F570 /* TradeRuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D51012350B0CA00A0F570 /* TradeRuleViewController.swift */; };
+		D97F3779238BF95500D47F3C /* NestedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97F3778238BF95500D47F3C /* NestedTableViewController.swift */; };
 		D984AD0F2154F05000610B27 /* CQSortButtonDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D984AD0E2154F05000610B27 /* CQSortButtonDemoController.m */; };
 		D984AD122154F06C00610B27 /* CQSortButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D984AD112154F06C00610B27 /* CQSortButton.m */; };
 		D98665272370639C00AA60B2 /* ActionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98665262370639C00AA60B2 /* ActionSheetViewController.swift */; };
@@ -255,6 +256,13 @@
 		D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */; };
 		D9BBF96D235F2F4A009342EC /* JXSegmentedDemoBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BBF96C235F2F4A009342EC /* JXSegmentedDemoBaseController.swift */; };
 		D9BBF970235F4885009342EC /* third_part_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9BBF96F235F4885009342EC /* third_part_contents.plist */; };
+		D9BC6F5E238E2E050085E4E0 /* JXPagingMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BC6F5A238E2E050085E4E0 /* JXPagingMainTableView.swift */; };
+		D9BC6F5F238E2E050085E4E0 /* JXPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BC6F5B238E2E050085E4E0 /* JXPagingView.swift */; };
+		D9BC6F60238E2E050085E4E0 /* JXPagingListRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BC6F5C238E2E050085E4E0 /* JXPagingListRefreshView.swift */; };
+		D9BC6F61238E2E050085E4E0 /* JXPagingListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BC6F5D238E2E050085E4E0 /* JXPagingListContainerView.swift */; };
+		D9BC6F63238E30590085E4E0 /* NestedTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BC6F62238E30590085E4E0 /* NestedTableHeaderView.swift */; };
+		D9BC6F65238E58CD0085E4E0 /* NestedItemTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BC6F64238E58CD0085E4E0 /* NestedItemTableView.swift */; };
+		D9BC6F67238E58F30085E4E0 /* NestedItemWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BC6F66238E58F30085E4E0 /* NestedItemWebView.swift */; };
 		D9BF6905233EEF2300E602A4 /* CQGradientControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6904233EEF2300E602A4 /* CQGradientControl.m */; };
 		D9BF6908233EF61300E602A4 /* CQGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6907233EF61300E602A4 /* CQGradientButton.m */; };
 		D9BF690F233F4B2A00E602A4 /* CQGradientOCDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF690E233F4B2A00E602A4 /* CQGradientOCDemoViewController.m */; };
@@ -648,6 +656,7 @@
 		D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleView.swift; sourceTree = "<group>"; };
 		D97D50FF2350AE3800A0F570 /* trade_rule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trade_rule.txt; sourceTree = "<group>"; };
 		D97D51012350B0CA00A0F570 /* TradeRuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleViewController.swift; sourceTree = "<group>"; };
+		D97F3778238BF95500D47F3C /* NestedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableViewController.swift; sourceTree = "<group>"; };
 		D984AD0D2154F05000610B27 /* CQSortButtonDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSortButtonDemoController.h; sourceTree = "<group>"; };
 		D984AD0E2154F05000610B27 /* CQSortButtonDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSortButtonDemoController.m; sourceTree = "<group>"; };
 		D984AD102154F06C00610B27 /* CQSortButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSortButton.h; sourceTree = "<group>"; };
@@ -737,6 +746,13 @@
 		D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQIphoneDetailViewController.m; sourceTree = "<group>"; };
 		D9BBF96C235F2F4A009342EC /* JXSegmentedDemoBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedDemoBaseController.swift; sourceTree = "<group>"; };
 		D9BBF96F235F4885009342EC /* third_part_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = third_part_contents.plist; sourceTree = "<group>"; };
+		D9BC6F5A238E2E050085E4E0 /* JXPagingMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXPagingMainTableView.swift; sourceTree = "<group>"; };
+		D9BC6F5B238E2E050085E4E0 /* JXPagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXPagingView.swift; sourceTree = "<group>"; };
+		D9BC6F5C238E2E050085E4E0 /* JXPagingListRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXPagingListRefreshView.swift; sourceTree = "<group>"; };
+		D9BC6F5D238E2E050085E4E0 /* JXPagingListContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXPagingListContainerView.swift; sourceTree = "<group>"; };
+		D9BC6F62238E30590085E4E0 /* NestedTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableHeaderView.swift; sourceTree = "<group>"; };
+		D9BC6F64238E58CD0085E4E0 /* NestedItemTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedItemTableView.swift; sourceTree = "<group>"; };
+		D9BC6F66238E58F30085E4E0 /* NestedItemWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedItemWebView.swift; sourceTree = "<group>"; };
 		D9BF6903233EEF2300E602A4 /* CQGradientControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientControl.h; sourceTree = "<group>"; };
 		D9BF6904233EEF2300E602A4 /* CQGradientControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientControl.m; sourceTree = "<group>"; };
 		D9BF6906233EF61300E602A4 /* CQGradientButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientButton.h; sourceTree = "<group>"; };
@@ -2140,6 +2156,18 @@
 			path = "交易发布规则view";
 			sourceTree = "<group>";
 		};
+		D97F3765238BF36800D47F3C /* 嵌套tableView */ = {
+			isa = PBXGroup;
+			children = (
+				D97F3778238BF95500D47F3C /* NestedTableViewController.swift */,
+				D9BC6F62238E30590085E4E0 /* NestedTableHeaderView.swift */,
+				D9BC6F64238E58CD0085E4E0 /* NestedItemTableView.swift */,
+				D9BC6F66238E58F30085E4E0 /* NestedItemWebView.swift */,
+				D9BC6F59238E2E050085E4E0 /* JXPagingView-Swift */,
+			);
+			path = "嵌套tableView";
+			sourceTree = "<group>";
+		};
 		D984AD0A2154EF5E00610B27 /* 排序button */ = {
 			isa = PBXGroup;
 			children = (
@@ -2588,8 +2616,20 @@
 				D965A2BC234E3A0600041D69 /* CameraManager */,
 				D9A65EEB235AA23D00D55A6F /* JXSegmentedView */,
 				D920ED1C22E8703900C5A43F /* Lottie */,
+				D97F3765238BF36800D47F3C /* 嵌套tableView */,
 			);
 			path = "三方框架";
+			sourceTree = "<group>";
+		};
+		D9BC6F59238E2E050085E4E0 /* JXPagingView-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D9BC6F5A238E2E050085E4E0 /* JXPagingMainTableView.swift */,
+				D9BC6F5B238E2E050085E4E0 /* JXPagingView.swift */,
+				D9BC6F5C238E2E050085E4E0 /* JXPagingListRefreshView.swift */,
+				D9BC6F5D238E2E050085E4E0 /* JXPagingListContainerView.swift */,
+			);
+			path = "JXPagingView-Swift";
 			sourceTree = "<group>";
 		};
 		D9C2352A23853001008C0D59 /* 基于MJRefresh的下拉刷新 */ = {
@@ -3587,6 +3627,7 @@
 				D926BDD922C496B800A2DD3E /* AfternoonState.m in Sources */,
 				D98E4DE423810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift in Sources */,
 				D9DA0E7A20E24F5E006CEA1C /* IphoneMenuView.m in Sources */,
+				D97F3779238BF95500D47F3C /* NestedTableViewController.swift in Sources */,
 				D9C5B453233DF3A200299AFB /* UIColor+Extension.swift in Sources */,
 				D91A9F8B22B49390008F87F1 /* CQRecognitionManager.m in Sources */,
 				D940169C2361F16F00580AAC /* ArrayPracticeViewController.swift in Sources */,
@@ -3610,6 +3651,7 @@
 				D9DE6CC320FEE7CE00C8D4FE /* CQHouseModel.m in Sources */,
 				D9CB1EC22341FDA900CEB752 /* RxSwiftDemoListViewController.swift in Sources */,
 				D9E21A8B210FF91100407599 /* CQClassClusterCellB.m in Sources */,
+				D9BC6F61238E2E050085E4E0 /* JXPagingListContainerView.swift in Sources */,
 				D93EFF3E2359B40F0028A730 /* StoreAnnotation.swift in Sources */,
 				D90D9FB4233219680007C25C /* CQFPSCell.m in Sources */,
 				D926BDEC22C5ECC100A2DD3E /* CQMementoViewController.m in Sources */,
@@ -3620,6 +3662,7 @@
 				D9DA0E8220E2519D006CEA1C /* IphoneListItemModel.m in Sources */,
 				D93A0BF9233CA0D300554EF6 /* MyCellNode.swift in Sources */,
 				D9C7CC1D22E9AA210038FD34 /* StandardSwiftTableViewCell.swift in Sources */,
+				D9BC6F5E238E2E050085E4E0 /* JXPagingMainTableView.swift in Sources */,
 				D937689423585DB000515315 /* MapDemoViewController.swift in Sources */,
 				D9E57A5923756E780013BC7D /* DictPracticeViewController.swift in Sources */,
 				D991C91E236C48D300CB290C /* LoadingViewController.swift in Sources */,
@@ -3643,6 +3686,7 @@
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
 				D926BDCD22C4934900A2DD3E /* CQStateViewController.m in Sources */,
 				D9AEB68C22F6AB24006F8995 /* CQMVVMCellModel.m in Sources */,
+				D9BC6F67238E58F30085E4E0 /* NestedItemWebView.swift in Sources */,
 				D94B650221537A0900F2FD84 /* CQPlaceholderDemoViewController.m in Sources */,
 				D920CE8822B37E91000962C0 /* CheckPricacyViewController.swift in Sources */,
 				D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */,
@@ -3681,6 +3725,7 @@
 				D93A0BFB233CA51D00554EF6 /* Utilities.swift in Sources */,
 				D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */,
 				D9CF66872351C113003002E5 /* RxSwiftBindDemoViewController.swift in Sources */,
+				D9BC6F60238E2E050085E4E0 /* JXPagingListRefreshView.swift in Sources */,
 				D94253172365F00E0031356C /* DelegateTransferViewController.swift in Sources */,
 				D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */,
 				D9FF65D4212AC0F200B06371 /* CQTimerCellController.m in Sources */,
@@ -3696,6 +3741,7 @@
 				D9CFC821229CFF34009B8399 /* SwiftController.swift in Sources */,
 				D93A0BFF233CBE6B00554EF6 /* MyCellNode2.swift in Sources */,
 				D90D9FAF233218300007C25C /* CQFPSViewController.m in Sources */,
+				D9BC6F63238E30590085E4E0 /* NestedTableHeaderView.swift in Sources */,
 				D9A39F8A22B4D8AF00FEA5F5 /* CQStrategyManager.m in Sources */,
 				D9A39F7822B4D2CA00FEA5F5 /* CQMVCViewController.m in Sources */,
 				D98E4DF723828A250082EED4 /* WaterfallViewController.swift in Sources */,
@@ -3713,6 +3759,7 @@
 				D913F93F2109C08200366887 /* CQContentViewController.m in Sources */,
 				D9BF690F233F4B2A00E602A4 /* CQGradientOCDemoViewController.m in Sources */,
 				D9BF6913233F578900E602A4 /* GradientControl.swift in Sources */,
+				D9BC6F65238E58CD0085E4E0 /* NestedItemTableView.swift in Sources */,
 				D9519A0622BFAE5D00E3036B /* Nick.m in Sources */,
 				D93EFF422359BCBC0028A730 /* StoreAnnotationView.swift in Sources */,
 				D926BDC122C34B6900A2DD3E /* CQObserverViewController.m in Sources */,
@@ -3741,6 +3788,7 @@
 				D941B86E235F239400AEB48E /* JXSegmentedChildController2.swift in Sources */,
 				D986653723715E8800AA60B2 /* JXMixViewController.swift in Sources */,
 				D9E42488212D0E9C00283CFC /* CQSortController.m in Sources */,
+				D9BC6F5F238E2E050085E4E0 /* JXPagingView.swift in Sources */,
 				D9DE6CC020FEE7A800C8D4FE /* CQDepartmentModel.m in Sources */,
 				D9C5B44A233DA0ED00299AFB /* MyCellNode6.swift in Sources */,
 				D92767CB237D4F5000F9CED8 /* IndexTableViewController.swift in Sources */,

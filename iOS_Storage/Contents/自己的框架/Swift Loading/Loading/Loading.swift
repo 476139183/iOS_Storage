@@ -20,12 +20,14 @@ class Loading: UIView {
     
     private lazy var imageView: UIImageView = {
         let imageView = UIImageView()
-        let path = Bundle.main.path(forResource: "加载中", ofType: "gif")!
-        do {
-            try imageView.image = UIImage.sd_image(withGIFData: Data.init(contentsOf: URL(fileURLWithPath: path)))
-        } catch {
-            print(error)
-        }
+        let path = Bundle.main.url(forResource: "加载中", withExtension: "gif")
+        let resource = LocalFileImageDataProvider(fileURL: path!)
+        imageView.kf.setImage(with: resource)
+//        do {
+//            try imageView.image = UIImage.sd_image(withGIFData: Data.init(contentsOf: URL(fileURLWithPath: path)))
+//        } catch {
+//            print(error)
+//        }
         imageView.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
         imageView.layer.shadowOffset = CGSize(width: 0, height: 0)
         imageView.layer.shadowOpacity = 1

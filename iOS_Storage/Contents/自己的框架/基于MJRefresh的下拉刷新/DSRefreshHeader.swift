@@ -14,8 +14,8 @@ class DSRefreshHeader: MJRefreshHeader {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "fly1")
         var animationImages: [UIImage] = []
-        for i in 1...18 {
-            let image = UIImage(named: "fly\(i)")
+        for i in 1...12 {
+            let image = UIImage(named: "flying\(i)")
             animationImages.append(image!)
         }
         imageView.animationImages = animationImages
@@ -31,9 +31,9 @@ class DSRefreshHeader: MJRefreshHeader {
         self.addSubview(imageView)
         imageView.snp.makeConstraints { (make) in
             make.center.equalToSuperview()
-            make.height.equalTo(40)
-            // 宽高比 179 : 132
-            make.height.equalTo(imageView.snp.width).multipliedBy(132.0/179)
+            make.height.equalTo(50)
+            // 宽高比 300 : 250
+            make.width.equalTo(60)
         }
         
     }
@@ -46,8 +46,8 @@ class DSRefreshHeader: MJRefreshHeader {
             case .idle: // 普通闲置状态
                 self.imageView.image = UIImage(named: "fly1")
                 self.imageView.stopAnimating()
-//            case .pulling: // 松开就可以进行刷新的状态
-//                self.imageView.startAnimating()
+            case .pulling: // 松开就可以进行刷新的状态
+                self.imageView.startAnimating()
             case .refreshing: // 正在刷新中的状态
                 self.imageView.startAnimating()
             default:
@@ -61,8 +61,8 @@ class DSRefreshHeader: MJRefreshHeader {
         didSet {
             super.pullingPercent = pullingPercent
             
-            let num1 = pullingPercent * 18
-            let num2: Int = Int(num1.truncatingRemainder(dividingBy: 18))
+            let num1 = pullingPercent * 12
+            let num2: Int = Int(num1.truncatingRemainder(dividingBy: 12))
             let num3 = num2 + 1
             
             let imageName: String = "fly\(num3)"
