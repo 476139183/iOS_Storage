@@ -1,8 +1,72 @@
-#  texture
+#  Texture
 
-texture的特点：
-1. 线程安全
+原名：AsyncDisplayKit，ASDK
 
+
+================================
+
+
+## 注意点
+
+
+
+
+
+
+
+
+
+
+
+
+=================================
+
+
+
+## 整体架构（包含三个部分）
+
+1. Node（对UIView和CALayer的抽象）
+2. Node Containers（node容器，负责加载渲染node）
+3. Layout Engineer（node布局）
+
+
+
+## Texture结点容器与UIKit
+
+- ASCollectionNode  -  UICollectionView
+- ASPagerNode  -  UIPageViewController
+- ASTableNode  -  UITableView
+- ASViewController  -  UIViewController
+- ASNavigationController  -  UINavigationController
+- ASTabBarController  -  UITabBarController
+
+
+
+## Texture节点子类与UIKit
+
+- ASDisplayNode  -  代替UIView，所有的node都继承自ASDisplayNode
+- ASCellNode  -  代替UITableViewCell&UICollectionViewCell，需要和ASTableNode，ASCollectionNode和ASPagerNode共同使用。
+- ASScrollNode  -  代替UIScrollView，这个节点对于创建自定义的，包含其他节点的可滚动区域非常有用。
+- ASEditableTextNode  -  代替UITextView
+- ASTextNode  -  代替UILabel
+- ASImageNode  -  代替UIImage
+- ASNetworkImageNode  -  代替UIImage
+- ASMultiplexImageNode  -  代替UIImage
+- ASVideoNode  -  代替AVPlayerLayer
+- ASVideoPlayerNode  -  代替UIMoviePlayer
+- ASControlNode  -  代替UIControl
+- ASButtonNode  -  代替UIButton
+- ASMapNode  -  代替MKMapView
+
+
+
+## 为什么要使用Texture
+
+- 布局计算、解码、绘制，异步并发执行
+- Runloop任务分发（异步渲染）
+- 声明式布局系统
+- 图层预合成
+- 深度优化列表性能（智能预加载）
 
 
 
@@ -14,18 +78,6 @@ UIView的方法和属性Texture都有，如果UIView和CALayer都有的，默认
 
 通过node也可以拿到view或layer：`node.view` or `node.layer`，确保在主线程操作！
 
-1. ASDisplayNode
-2. ASCellNode
-3. ASButtonNode
-4. ASTextNode
-5. ASImageNode
-6. ASNetworkImageNode
-7. ASVideoNode
-8. ASMapNode
-9. ASControlNode
-10. ASScrollNode
-11. ASEditableTextNode
-12. ASMultiplexImageNode
 
 ## Node Containers
 

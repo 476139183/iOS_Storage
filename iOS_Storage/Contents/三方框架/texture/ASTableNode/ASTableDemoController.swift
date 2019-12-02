@@ -10,6 +10,47 @@ import UIKit
 
 class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, ASTableDelegate {
     
+    /// 表头
+    private lazy var tableHeaderView: UIView = {
+        let headerView = UIView()
+        headerView.backgroundColor = .red
+        let label = UILabel()
+        headerView.addSubview(label)
+        label.text = "高度自适应的表头"
+        label.font = .boldSystemFont(ofSize: 30)
+        label.textAlignment = .center
+        headerView.snp.makeConstraints { (make) in
+            make.width.equalTo(kScreenWidth)
+        }
+        label.snp.makeConstraints { (make) in
+            make.edges.equalTo(UIEdgeInsets(top: 90, left: 0, bottom: 90, right: 0))
+        }
+        return headerView
+    }()
+    
+    /// 表尾
+    private lazy var mytableFooterView: UIView = {
+        let footerView = UIView()
+        footerView.backgroundColor = .green
+        let label = UILabel()
+        footerView.addSubview(label)
+        label.text = "高度自适应的表尾"
+        label.font = .boldSystemFont(ofSize: 30)
+        label.textAlignment = .center
+        footerView.snp.makeConstraints { (make) in
+            make.width.equalTo(kScreenWidth)
+        }
+        label.snp.makeConstraints { (make) in
+            //make.edges.equalTo(UIEdgeInsets(top: 30, left: 0, bottom: 30, right: 0))
+            make.top.equalTo(30)
+            make.bottom.equalToSuperview().offset(-30)
+            make.left.right.equalToSuperview()
+        }
+        return footerView
+    }()
+    
+    // MARK: - Life Cycle
+    
     init() {
         super.init(node: ASTableNode.init(style: .grouped))
     }
@@ -24,35 +65,49 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
         self.title = "tableView"
         
         self.node.dataSource = self
         self.node.delegate = self
+        
+        self.node.view.estimatedSectionHeaderHeight = 40
+        self.node.view.estimatedSectionFooterHeight = 40
+        
+        self.node.view.tableHeaderView = tableHeaderView
+        
+        let footerView = UIView(frame: CGRect(x: 0, y: 0, width: kScreenWidth, height: 100))
+        footerView.backgroundColor = .green
+        self.node.view.tableFooterView = footerView
     }
     
-    override func viewWillLayoutSubviews() {
-        self.node.frame = CGRect.init(x: 20, y: 120, width: 300, height: 400)
-    }
+//    override func viewWillLayoutSubviews() {
+//        self.node.frame = CGRect.init(x: 20, y: 120, width: 300, height: 400)
+//    }
     
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 30
-    }
     
-    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 0
-    }
+    // MARK: - UITableView DataSource & Delegate
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let view = UIView()
-        view.backgroundColor = .black
-        return view
+        let reuseID = "reuseID"
+        var header = tableView.dequeueReusableHeaderFooterView(withIdentifier: reuseID) as? HeaderView
+        if header == nil {
+            header = HeaderView()
+        }
+        header?.title = "组头 第\(section)组 高度自适应"
+        return header
     }
     
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
-        return nil
+        let reuseID = "reuseID"
+        var footer = tableView.dequeueReusableHeaderFooterView(withIdentifier: reuseID) as? FooterView
+        if footer == nil {
+            footer = FooterView()
+        }
+        footer?.title = "组尾 第\(section)组 高度自适应"
+        return footer
     }
     
     // MARK: - ASTableDataSource
@@ -86,11 +141,81 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
     }
     
     func numberOfSections(in tableNode: ASTableNode) -> Int {
-        return 100
+        return 24
     }
     
     func tableNode(_ tableNode: ASTableNode, numberOfRowsInSection section: Int) -> Int {
         return 1
     }
     
+}
+
+
+// MARK: - 组头 & 组尾
+
+fileprivate class HeaderView: UITableViewHeaderFooterView {
+    
+    var title: String = "" {
+        didSet {
+            titleLabel.text = title
+        }
+    }
+    
+    private lazy var titleLabel: UILabel = {
+        let label = UILabel()
+        label.font = .boldSystemFont(ofSize: 20)
+        return label
+    }()
+    
+    override init(reuseIdentifier: String?) {
+        super.init(reuseIdentifier: reuseIdentifier)
+        
+        contentView.backgroundColor = .purple
+        
+        contentView.addSubview(titleLabel)
+        titleLabel.snp.makeConstraints { (make) in
+            make.top.equalTo(10)
+            make.left.equalTo(10)
+            make.right.equalToSuperview().offset(-10)
+            make.bottom.equalToSuperview().offset(-10)
+        }
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}
+
+
+fileprivate class FooterView: UITableViewHeaderFooterView {
+    
+    var title: String = "" {
+        didSet {
+            titleLabel.text = title
+        }
+    }
+    
+    private lazy var titleLabel: UILabel = {
+        let label = UILabel()
+        label.font = .boldSystemFont(ofSize: 20)
+        return label
+    }()
+    
+    override init(reuseIdentifier: String?) {
+        super.init(reuseIdentifier: reuseIdentifier)
+        
+        contentView.backgroundColor = .systemPink
+        
+        contentView.addSubview(titleLabel)
+        titleLabel.snp.makeConstraints { (make) in
+            make.top.equalTo(10)
+            make.left.equalTo(10)
+            make.right.equalToSuperview().offset(-20)
+            make.bottom.equalToSuperview().offset(-20)
+        }
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 }

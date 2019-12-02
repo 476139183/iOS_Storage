@@ -20,13 +20,20 @@ class WKWebViewDemoViewController: CQBaseViewController {
         return webView
     }()
     
+    private lazy var webView1: WKWebView = {
+        let webView = WKWebView()
+        let url = URL(string: "https://miss.mynatapp.cc/other/list.html")
+        webView.load(URLRequest.init(url: url!))
+        return webView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
         
-        view.addSubview(webView)
-        webView.frame = view.bounds
+        view.addSubview(webView1)
+        webView1.frame = view.bounds
         
     }
     

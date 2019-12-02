@@ -8,6 +8,7 @@
 
 import UIKit
 import JXSegmentedView
+import MJRefresh
 
 class NestedTableViewController: CQBaseViewController {
     
@@ -15,10 +16,12 @@ class NestedTableViewController: CQBaseViewController {
     private let kTableHeaderViewHeight: Int = 200
     /// segment高度
     private let kSegmentedViewHeight: Int = 40
-    private let titles = ["列表", "网页"]
+    private let titles = ["列表", "网页", "controller", "texture"]
     
+    /// 子列表
     private lazy var pagingView: JXPagingView = {
         let pagingView = JXPagingView(delegate: self)
+        pagingView.mainTableView.mj_header = DSRefreshHeader(refreshingTarget: self, refreshingAction: #selector(pullDownRefresh))
         return pagingView
     }()
     
@@ -29,14 +32,8 @@ class NestedTableViewController: CQBaseViewController {
         return headerView
     }()
     
-    private lazy var headerContainerView: UIView = {
-        let containerView = UIView(frame: CGRect(x: 0, y: 0, width: Int(kScreenWidth), height: kTableHeaderViewHeight))
-        containerView.addSubview(headerView)
-        return containerView
-    }()
-    
+    /// 分栏
     private lazy var segmentedView: JXSegmentedView = {
-//        let view = JXSegmentedView(frame: CGRect(x: 0, y: 0, width: kScreenWidth, height: kSegmentedViewHeight))
         let view = JXSegmentedView(frame: CGRect(x: 0, y: 0, width: Int(kScreenWidth), height: kSegmentedViewHeight))
         view.isContentScrollViewClickTransitionAnimationEnabled = false
         view.contentScrollView = pagingView.listContainerView.collectionView
@@ -44,6 +41,7 @@ class NestedTableViewController: CQBaseViewController {
         return view
     }()
     
+    /// 分栏数据源
     private lazy var segmentedDataSource: JXSegmentedTitleDataSource = {
         let segmentedViewDataSource = JXSegmentedTitleDataSource()
         segmentedViewDataSource.titles = titles
@@ -53,6 +51,9 @@ class NestedTableViewController: CQBaseViewController {
         segmentedViewDataSource.isTitleZoomEnabled = true
         return segmentedViewDataSource
     }()
+    
+    
+    // MARK: - Life Cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,8 +66,22 @@ class NestedTableViewController: CQBaseViewController {
         
         pagingView.frame = CGRect(x: 0, y: kNavigationBarHeight, width: kScreenWidth, height: kScreenHeight - kNavigationBarHeight - kTabBarHeight)
     }
+    
+    
+    // MARK: - action
+    
+    @objc private func pullDownRefresh() {
+        Loading.show()
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
+            self.pagingView.mainTableView.mj_header.endRefreshing()
+            Loading.remove()
+        }
+    }
 
 }
+
+
+// MARK: - JXPagingView Delegate
 
 extension NestedTableViewController: JXPagingViewDelegate {
 
@@ -75,7 +90,7 @@ extension NestedTableViewController: JXPagingViewDelegate {
     }
 
     func tableHeaderView(in pagingView: JXPagingView) -> UIView {
-        return headerContainerView
+        return headerView
     }
 
     func heightForPinSectionHeader(in pagingView: JXPagingView) -> Int {
@@ -94,14 +109,16 @@ extension NestedTableViewController: JXPagingViewDelegate {
         if index == 0 {
             let list = NestedItemTableView()
             return list
-        } else {
+        } else if index == 1 {
             let list = NestedItemWebView()
+            return list
+        } else if index == 2 {
+            let list = NestedItemController()
+            return list
+        } else {
+            let list = NestedItemTextureController()
             return list
         }
     }
-    
-//    func mainTableViewDidScroll(_ scrollView: UIScrollView) {
-////        userHeaderView?.scrollViewDidScroll(contentOffsetY: scrollView.contentOffset.y)
-//    }
     
 }

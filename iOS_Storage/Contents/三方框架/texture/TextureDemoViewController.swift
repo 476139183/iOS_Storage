@@ -10,8 +10,9 @@ import UIKit
 
 class TextureDemoViewController: CQBaseViewController {
     
-    private let dataArray: Array = [Model.init(title: "ASViewController", sel: #selector(gotoASViewController)),
-                                    Model.init(title: "tableView", sel: #selector(gotoASTableNodeDemoController))]
+    private let dataArray: [Model] = [Model(title: "ASViewController", targetVC: ASViewControllerDemoController()),
+                                      Model(title: "ASTableView", targetVC: ASTableDemoController()),
+                                      Model(title: "各种node", targetVC: TextureNodeDemoViewController())]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,21 +25,6 @@ class TextureDemoViewController: CQBaseViewController {
         tableView.delegate = self
     }
     
-}
-
-
-// MARk: - Action
-
-fileprivate extension TextureDemoViewController {
-    @objc func gotoASViewController() {
-        let vc = ASViewControllerDemoController()
-        self.navigationController?.pushViewController(vc, animated: true)
-    }
-    
-    @objc func gotoASTableNodeDemoController() {
-        let vc = ASTableDemoController()
-        self.navigationController?.pushViewController(vc, animated: true)
-    }
 }
 
 
@@ -63,21 +49,13 @@ extension TextureDemoViewController: UITableViewDataSource, UITableViewDelegate 
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let model: Model = self.dataArray[indexPath.row]
-        self.perform(model.sel)
+        navigationController?.pushViewController(dataArray[indexPath.row].targetVC!, animated: true)
     }
+    
 }
 
 
-// MARK: - Other Class
-
-fileprivate class Model: NSObject {
+fileprivate struct Model {
     var title: String?
-    var sel: Selector?
-    
-    convenience init(title: String, sel: Selector) {
-        self.init()
-        self.title = title
-        self.sel = sel
-    }
+    var targetVC: UIViewController?
 }

@@ -24,6 +24,9 @@ class NestedItemTableView: UIView, UITableViewDataSource, UITableViewDelegate, J
         let tableView = UITableView()
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.mj_header = MJRefreshHeader(refreshingBlock: {
+            print("下拉刷新")
+        })
         tableView.mj_footer = MJRefreshAutoFooter(refreshingBlock: { [weak self] in
             guard let strongSelf = self else {
                 return

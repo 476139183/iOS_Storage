@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		2DD48D054A82B1FD0444D554 /* Pods_iOS_Storage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF420F59937B4D50D139806 /* Pods_iOS_Storage.framework */; };
 		D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */; };
+		D9012A0C23927237008D5EF5 /* TextureDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9012A0B23927236008D5EF5 /* TextureDemoViewController.swift */; };
 		D9019B7922B121AC0039B25D /* 设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7822B121AC0039B25D /* 设计模式.md */; };
 		D9019B7C22B13F670039B25D /* 链表.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7B22B13F670039B25D /* 链表.md */; };
 		D904C515234C9C00002DD939 /* PopMenuButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904C514234C9C00002DD939 /* PopMenuButtonViewController.swift */; };
 		D904C517234CA273002DD939 /* PopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904C516234CA273002DD939 /* PopMenuView.swift */; };
+		D90A9AFF238F80D500C84424 /* NestedItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A9AFE238F80D500C84424 /* NestedItemController.swift */; };
+		D90A9B05238FAB2500C84424 /* NestedItemTextureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A9B04238FAB2500C84424 /* NestedItemTextureController.swift */; };
 		D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7821098B4D00C48E72 /* CQTransitionController.m */; };
 		D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7B21098C9800C48E72 /* CQChangeThemeController.m */; };
 		D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7E21098CBE00C48E72 /* CQCustomButtonController.m */; };
@@ -27,6 +30,11 @@
 		D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D91420AB216B50DD0034ACEA /* CQRippleView.m */; };
 		D91453FB237A606A0083FD19 /* EnumPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91453FA237A606A0083FD19 /* EnumPracticeViewController.swift */; };
 		D9145403237A894B0083FD19 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9145402237A894B0083FD19 /* Tool.swift */; };
+		D9146DE423920450002EA395 /* GestureScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DE323920450002EA395 /* GestureScrollViewController.swift */; };
+		D9146DE62392046C002EA395 /* NestedTableDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DE52392046C002EA395 /* NestedTableDemoViewController.swift */; };
+		D9146DE8239213B5002EA395 /* GestureMainScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DE7239213B5002EA395 /* GestureMainScrollView.swift */; };
+		D9146DEA239219ED002EA395 /* GestureRedChildScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DE9239219ED002EA395 /* GestureRedChildScrollView.swift */; };
+		D9146DEC23921A13002EA395 /* GestureGreenChildScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DEB23921A13002EA395 /* GestureGreenChildScrollView.swift */; };
 		D9179CDE22B7C04F002FCCA0 /* 装饰模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9179CDD22B7C04F002FCCA0 /* 装饰模式.md */; };
 		D9179CE122B7C808002FCCA0 /* CQDecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9179CE022B7C808002FCCA0 /* CQDecoratorViewController.m */; };
 		D9179CE422B7C9DA002FCCA0 /* UIButton+CQBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D9179CE322B7C9DA002FCCA0 /* UIButton+CQBorder.m */; };
@@ -170,6 +178,7 @@
 		D9545B382293AA4B008B6355 /* CQPermanentThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B372293AA4B008B6355 /* CQPermanentThreadController.m */; };
 		D9545B3B2293AB48008B6355 /* CQThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B3A2293AB48008B6355 /* CQThread.m */; };
 		D9545B3E2293B275008B6355 /* CQRunloopModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B3D2293B275008B6355 /* CQRunloopModeController.m */; };
+		D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */; };
 		D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */; };
 		D9608BF4236970350053BD3E /* CQConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF3236970350053BD3E /* CQConstants.swift */; };
 		D9608BF7236987940053BD3E /* UIButton+EnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF6236987940053BD3E /* UIButton+EnlargeTouchArea.m */; };
@@ -245,7 +254,6 @@
 		D9AEB68C22F6AB24006F8995 /* CQMVVMCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AEB68B22F6AB24006F8995 /* CQMVVMCellModel.m */; };
 		D9B2FDE9233314BA00755653 /* CQCacheDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B2FDE8233314BA00755653 /* CQCacheDemoViewController.m */; };
 		D9B2FDED233314EA00755653 /* cache.md in Resources */ = {isa = PBXBuildFile; fileRef = D9B2FDEC233314EA00755653 /* cache.md */; };
-		D9B2FDF3233876B900755653 /* TextureDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B2FDF2233876B900755653 /* TextureDemoViewController.swift */; };
 		D9B2FDF5233877BE00755653 /* texture.md in Resources */ = {isa = PBXBuildFile; fileRef = D9B2FDF4233877BE00755653 /* texture.md */; };
 		D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4E3D72148EFBB00E895F1 /* CQCar.m */; };
 		D9B563EE20E240B7001AE9A0 /* IphoneMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563ED20E240B7001AE9A0 /* IphoneMenuModel.m */; };
@@ -388,10 +396,13 @@
 		7DF420F59937B4D50D139806 /* Pods_iOS_Storage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Storage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF1E659C97B690A8019361A /* Pods-iOS_Storage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Storage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage.debug.xcconfig"; sourceTree = "<group>"; };
 		D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitDemoViewController.swift; sourceTree = "<group>"; };
+		D9012A0B23927236008D5EF5 /* TextureDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureDemoViewController.swift; sourceTree = "<group>"; };
 		D9019B7822B121AC0039B25D /* 设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "设计模式.md"; sourceTree = "<group>"; };
 		D9019B7B22B13F670039B25D /* 链表.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "链表.md"; sourceTree = "<group>"; };
 		D904C514234C9C00002DD939 /* PopMenuButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopMenuButtonViewController.swift; sourceTree = "<group>"; };
 		D904C516234CA273002DD939 /* PopMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopMenuView.swift; sourceTree = "<group>"; };
+		D90A9AFE238F80D500C84424 /* NestedItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedItemController.swift; sourceTree = "<group>"; };
+		D90A9B04238FAB2500C84424 /* NestedItemTextureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedItemTextureController.swift; sourceTree = "<group>"; };
 		D90C4E7721098B4D00C48E72 /* CQTransitionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTransitionController.h; sourceTree = "<group>"; };
 		D90C4E7821098B4D00C48E72 /* CQTransitionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTransitionController.m; sourceTree = "<group>"; };
 		D90C4E7A21098C9800C48E72 /* CQChangeThemeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQChangeThemeController.h; sourceTree = "<group>"; };
@@ -414,6 +425,11 @@
 		D91420AB216B50DD0034ACEA /* CQRippleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRippleView.m; sourceTree = "<group>"; };
 		D91453FA237A606A0083FD19 /* EnumPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumPracticeViewController.swift; sourceTree = "<group>"; };
 		D9145402237A894B0083FD19 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		D9146DE323920450002EA395 /* GestureScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureScrollViewController.swift; sourceTree = "<group>"; };
+		D9146DE52392046C002EA395 /* NestedTableDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableDemoViewController.swift; sourceTree = "<group>"; };
+		D9146DE7239213B5002EA395 /* GestureMainScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureMainScrollView.swift; sourceTree = "<group>"; };
+		D9146DE9239219ED002EA395 /* GestureRedChildScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRedChildScrollView.swift; sourceTree = "<group>"; };
+		D9146DEB23921A13002EA395 /* GestureGreenChildScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureGreenChildScrollView.swift; sourceTree = "<group>"; };
 		D9179CDD22B7C04F002FCCA0 /* 装饰模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "装饰模式.md"; sourceTree = "<group>"; };
 		D9179CDF22B7C808002FCCA0 /* CQDecoratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQDecoratorViewController.h; sourceTree = "<group>"; };
 		D9179CE022B7C808002FCCA0 /* CQDecoratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQDecoratorViewController.m; sourceTree = "<group>"; };
@@ -631,6 +647,7 @@
 		D9545B3A2293AB48008B6355 /* CQThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQThread.m; sourceTree = "<group>"; };
 		D9545B3C2293B275008B6355 /* CQRunloopModeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRunloopModeController.h; sourceTree = "<group>"; };
 		D9545B3D2293B275008B6355 /* CQRunloopModeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRunloopModeController.m; sourceTree = "<group>"; };
+		D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureNodeDemoViewController.swift; sourceTree = "<group>"; };
 		D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAreaTestViewController.swift; sourceTree = "<group>"; };
 		D9608BF3236970350053BD3E /* CQConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQConstants.swift; sourceTree = "<group>"; };
 		D9608BF5236987940053BD3E /* UIButton+EnlargeTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeTouchArea.h"; sourceTree = "<group>"; };
@@ -730,7 +747,6 @@
 		D9B2FDE7233314BA00755653 /* CQCacheDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCacheDemoViewController.h; sourceTree = "<group>"; };
 		D9B2FDE8233314BA00755653 /* CQCacheDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCacheDemoViewController.m; sourceTree = "<group>"; };
 		D9B2FDEC233314EA00755653 /* cache.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = cache.md; sourceTree = "<group>"; };
-		D9B2FDF2233876B900755653 /* TextureDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureDemoViewController.swift; sourceTree = "<group>"; };
 		D9B2FDF4233877BE00755653 /* texture.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = texture.md; sourceTree = "<group>"; };
 		D9B4E3D62148EFBB00E895F1 /* CQCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCar.h; sourceTree = "<group>"; };
 		D9B4E3D72148EFBB00E895F1 /* CQCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCar.m; sourceTree = "<group>"; };
@@ -1069,6 +1085,31 @@
 				D91453FA237A606A0083FD19 /* EnumPracticeViewController.swift */,
 			);
 			path = "枚举";
+			sourceTree = "<group>";
+		};
+		D9146DE1239202B2002EA395 /* tableView嵌套 */ = {
+			isa = PBXGroup;
+			children = (
+				D97F3778238BF95500D47F3C /* NestedTableViewController.swift */,
+				D9BC6F62238E30590085E4E0 /* NestedTableHeaderView.swift */,
+				D9BC6F64238E58CD0085E4E0 /* NestedItemTableView.swift */,
+				D9BC6F66238E58F30085E4E0 /* NestedItemWebView.swift */,
+				D90A9AFE238F80D500C84424 /* NestedItemController.swift */,
+				D90A9B04238FAB2500C84424 /* NestedItemTextureController.swift */,
+				D9BC6F59238E2E050085E4E0 /* JXPagingView-Swift */,
+			);
+			path = "tableView嵌套";
+			sourceTree = "<group>";
+		};
+		D9146DE2239203CB002EA395 /* 同时滑动上下scrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D9146DE323920450002EA395 /* GestureScrollViewController.swift */,
+				D9146DE7239213B5002EA395 /* GestureMainScrollView.swift */,
+				D9146DE9239219ED002EA395 /* GestureRedChildScrollView.swift */,
+				D9146DEB23921A13002EA395 /* GestureGreenChildScrollView.swift */,
+			);
+			path = "同时滑动上下scrollView";
 			sourceTree = "<group>";
 		};
 		D9179CDC22B7C02B002FCCA0 /* 装饰模式 */ = {
@@ -2070,10 +2111,17 @@
 			path = "检测controller是否释放";
 			sourceTree = "<group>";
 		};
+		D95B2F3D239289F6006F2FE2 /* Texture的各种node */ = {
+			isa = PBXGroup;
+			children = (
+				D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */,
+			);
+			path = "Texture的各种node";
+			sourceTree = "<group>";
+		};
 		D95C78CB236D3D46005F06BE /* ASViewController */ = {
 			isa = PBXGroup;
 			children = (
-				D9B2FDF2233876B900755653 /* TextureDemoViewController.swift */,
 				D93A0BF4233C72F900554EF6 /* TextureColorView.swift */,
 				D93A0BF6233C735500554EF6 /* TextureLabelView.swift */,
 				D932D24B2338B39E00662E05 /* ASViewControllerDemoController.swift */,
@@ -2159,11 +2207,9 @@
 		D97F3765238BF36800D47F3C /* 嵌套tableView */ = {
 			isa = PBXGroup;
 			children = (
-				D97F3778238BF95500D47F3C /* NestedTableViewController.swift */,
-				D9BC6F62238E30590085E4E0 /* NestedTableHeaderView.swift */,
-				D9BC6F64238E58CD0085E4E0 /* NestedItemTableView.swift */,
-				D9BC6F66238E58F30085E4E0 /* NestedItemWebView.swift */,
-				D9BC6F59238E2E050085E4E0 /* JXPagingView-Swift */,
+				D9146DE52392046C002EA395 /* NestedTableDemoViewController.swift */,
+				D9146DE1239202B2002EA395 /* tableView嵌套 */,
+				D9146DE2239203CB002EA395 /* 同时滑动上下scrollView */,
 			);
 			path = "嵌套tableView";
 			sourceTree = "<group>";
@@ -2595,8 +2641,10 @@
 			isa = PBXGroup;
 			children = (
 				D9B2FDF4233877BE00755653 /* texture.md */,
+				D9012A0B23927236008D5EF5 /* TextureDemoViewController.swift */,
 				D95C78CB236D3D46005F06BE /* ASViewController */,
 				D98F1B2A236D783900F31F03 /* ASTableNode */,
+				D95B2F3D239289F6006F2FE2 /* Texture的各种node */,
 			);
 			path = texture;
 			sourceTree = "<group>";
@@ -3646,6 +3694,7 @@
 				D920ED2022E870A800C5A43F /* LottieViewController.swift in Sources */,
 				D9BF6905233EEF2300E602A4 /* CQGradientControl.m in Sources */,
 				D9F7E00E237013D100BE1285 /* JXImageTitleViewController.swift in Sources */,
+				D9146DE62392046C002EA395 /* NestedTableDemoViewController.swift in Sources */,
 				D93AB71B2147BE230024C76E /* CQCarFactory.m in Sources */,
 				D9BF691A233F5F0B00E602A4 /* CQGradientLabel.m in Sources */,
 				D9DE6CC320FEE7CE00C8D4FE /* CQHouseModel.m in Sources */,
@@ -3665,6 +3714,7 @@
 				D9BC6F5E238E2E050085E4E0 /* JXPagingMainTableView.swift in Sources */,
 				D937689423585DB000515315 /* MapDemoViewController.swift in Sources */,
 				D9E57A5923756E780013BC7D /* DictPracticeViewController.swift in Sources */,
+				D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */,
 				D991C91E236C48D300CB290C /* LoadingViewController.swift in Sources */,
 				D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */,
 				D9C7CC0C22E9998B0038FD34 /* CQStandardTableFooterView.m in Sources */,
@@ -3680,6 +3730,7 @@
 				D9D14515229920CB003B594C /* CQKVCController.m in Sources */,
 				D9179CE122B7C808002FCCA0 /* CQDecoratorViewController.m in Sources */,
 				D926BDF522C6152400A2DD3E /* RoleStateCaretaker.m in Sources */,
+				D9146DEA239219ED002EA395 /* GestureRedChildScrollView.swift in Sources */,
 				D97D51022350B0CA00A0F570 /* TradeRuleViewController.swift in Sources */,
 				D926BDD022C4945800A2DD3E /* TimeState.m in Sources */,
 				D991C921236C492300CB290C /* Loading.swift in Sources */,
@@ -3716,6 +3767,7 @@
 				D94F6A8F20FEE337006BCC6B /* CQFilterViewController.m in Sources */,
 				D9E4248D212D4E3900283CFC /* CQSortModel.m in Sources */,
 				D941B870235F23AB00AEB48E /* JXSegmentedChildController3.swift in Sources */,
+				D90A9B05238FAB2500C84424 /* NestedItemTextureController.swift in Sources */,
 				D9519A0922BFAE6C00E3036B /* Adidas.m in Sources */,
 				D9A65EED235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift in Sources */,
 				D9C2353123855F08008C0D59 /* TestNaviBarViewController.swift in Sources */,
@@ -3766,7 +3818,6 @@
 				D9179CE422B7C9DA002FCCA0 /* UIButton+CQBorder.m in Sources */,
 				D9CE54BA233D100A00AB58C0 /* MyCellNode4.swift in Sources */,
 				D9C7CC1122E99DB60038FD34 /* CQStandardTableSectionHeaderView.m in Sources */,
-				D9B2FDF3233876B900755653 /* TextureDemoViewController.swift in Sources */,
 				D9AC3CAD22AFEDD3007DDBD0 /* CQRouteManager.m in Sources */,
 				D9A39F8422B4D36A00FEA5F5 /* CQComponentViewController.m in Sources */,
 				D904C515234C9C00002DD939 /* PopMenuButtonViewController.swift in Sources */,
@@ -3776,10 +3827,12 @@
 				D9E30C3C236D62560042BC74 /* GifViewController.swift in Sources */,
 				D9C7CC0922E998520038FD34 /* CQStandardTableHeaderView.m in Sources */,
 				D9C7021322EB5CF400DDC44F /* RxPerson.swift in Sources */,
+				D9146DE423920450002EA395 /* GestureScrollViewController.swift in Sources */,
 				D986652A237063F600AA60B2 /* ActionSheet.swift in Sources */,
 				D9CE605923518F3700D65107 /* UIImage+Extension.swift in Sources */,
 				D9C5B450233DC58000299AFB /* Constants.swift in Sources */,
 				D9A39F8722B4D51900FEA5F5 /* CQStrategyViewController.m in Sources */,
+				D9012A0C23927237008D5EF5 /* TextureDemoViewController.swift in Sources */,
 				D9AA680A237F8E1000A14C37 /* CQLeftSideLayout.m in Sources */,
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
@@ -3790,6 +3843,7 @@
 				D9E42488212D0E9C00283CFC /* CQSortController.m in Sources */,
 				D9BC6F5F238E2E050085E4E0 /* JXPagingView.swift in Sources */,
 				D9DE6CC020FEE7A800C8D4FE /* CQDepartmentModel.m in Sources */,
+				D90A9AFF238F80D500C84424 /* NestedItemController.swift in Sources */,
 				D9C5B44A233DA0ED00299AFB /* MyCellNode6.swift in Sources */,
 				D92767CB237D4F5000F9CED8 /* IndexTableViewController.swift in Sources */,
 				D95199FD22BF2FA200E3036B /* NickFactory.m in Sources */,
@@ -3909,7 +3963,9 @@
 				D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */,
 				D926BDE222C4B5B300A2DD3E /* CQAdapterViewController.m in Sources */,
 				D92769F0236AE88700A6D846 /* PlaceholderViewController.swift in Sources */,
+				D9146DE8239213B5002EA395 /* GestureMainScrollView.swift in Sources */,
 				D9C5E5CC23436C2800D101F1 /* YYTextViewDemoController.swift in Sources */,
+				D9146DEC23921A13002EA395 /* GestureGreenChildScrollView.swift in Sources */,
 				D920ED2522E935D800C5A43F /* YYTextDemoViewController.swift in Sources */,
 				D93A0BF7233C735500554EF6 /* TextureLabelView.swift in Sources */,
 				D9866539237164DF00AA60B2 /* CQSegmentedDataSource.swift in Sources */,

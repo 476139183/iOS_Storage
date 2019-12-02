@@ -94,7 +94,7 @@
 		<key>demo_name</key>
 		<string>嵌套tableView</string>
 		<key>controller_name</key>
-		<string>NestedTableViewController</string>
+		<string>NestedTableDemoViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>
