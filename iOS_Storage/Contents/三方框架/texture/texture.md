@@ -9,6 +9,9 @@
 ## 注意点
 
 
+### ASViewController的几个主要方法
+
+**1. `- init`**
 
 
 

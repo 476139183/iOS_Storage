@@ -12,8 +12,9 @@ class MyCellNode3: ASCellNode {
     let photoNode = ASImageNode()
     let titleNode = ASTextNode()
     
-    override init() {
-        super.init()
+    
+    override func didLoad() {
+        super.didLoad()
         
         addSubnode(photoNode)
         addSubnode(titleNode)

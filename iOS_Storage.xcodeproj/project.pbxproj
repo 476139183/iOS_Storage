@@ -193,6 +193,18 @@
 		D96A17E7237EFDF90018E7F1 /* LeftSideLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A17E6237EFDF90018E7F1 /* LeftSideLayout.swift */; };
 		D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */; };
 		D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */; };
+		D96FE2BB239603DE00949006 /* ASViewController.md in Resources */ = {isa = PBXBuildFile; fileRef = D96FE2BA239603DE00949006 /* ASViewController.md */; };
+		D96FE2BD23960E0500949006 /* ASDisplayNode.md in Resources */ = {isa = PBXBuildFile; fileRef = D96FE2BC23960E0500949006 /* ASDisplayNode.md */; };
+		D96FE2BF2396125A00949006 /* TextureLayoutDemoNaviNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2BE2396125A00949006 /* TextureLayoutDemoNaviNode.swift */; };
+		D96FE2C2239642AE00949006 /* ASWrapperLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2C1239642AE00949006 /* ASWrapperLayoutController.swift */; };
+		D96FE2C4239642DF00949006 /* ASStackLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2C3239642DF00949006 /* ASStackLayoutController.swift */; };
+		D96FE2C62396437800949006 /* ASInsetLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2C52396437800949006 /* ASInsetLayoutController.swift */; };
+		D96FE2C82396446A00949006 /* ASOverlayLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2C72396446A00949006 /* ASOverlayLayoutController.swift */; };
+		D96FE2CA2396448D00949006 /* ASBackgroundLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2C92396448D00949006 /* ASBackgroundLayoutController.swift */; };
+		D96FE2CC239644DA00949006 /* ASCenterLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2CB239644DA00949006 /* ASCenterLayoutController.swift */; };
+		D96FE2CE239644FC00949006 /* ASRatioLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2CD239644FC00949006 /* ASRatioLayoutController.swift */; };
+		D96FE2D02396451B00949006 /* ASRelativeLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2CF2396451B00949006 /* ASRelativeLayoutController.swift */; };
+		D96FE2D22396453D00949006 /* ASAbsoluteLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2D12396453D00949006 /* ASAbsoluteLayoutController.swift */; };
 		D97246EC237E4989001671AD /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246EB237E4989001671AD /* NSMutableAttributedString+Extension.swift */; };
 		D97246EF237E6056001671AD /* CustomLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246EE237E6056001671AD /* CustomLayoutViewController.swift */; };
 		D97246F2237E82B6001671AD /* MaxCellSpacingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246F1237E82B6001671AD /* MaxCellSpacingViewController.swift */; };
@@ -319,6 +331,8 @@
 		D9C7CC2322E9B2A80038FD34 /* StandardSwiftTableFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7CC2222E9B2A80038FD34 /* StandardSwiftTableFooterView.swift */; };
 		D9C7CC2522E9B8C10038FD34 /* StandardSwiftSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7CC2422E9B8C10038FD34 /* StandardSwiftSectionHeaderView.swift */; };
 		D9C7CC2722E9BC9B0038FD34 /* StandardSwiftSectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7CC2622E9BC9B0038FD34 /* StandardSwiftSectionFooterView.swift */; };
+		D9C842642394F14500DC5BCD /* TextureLayoutDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C842632394F14500DC5BCD /* TextureLayoutDemoViewController.swift */; };
+		D9C84268239503F300DC5BCD /* TextureLayout.md in Resources */ = {isa = PBXBuildFile; fileRef = D9C84267239503F300DC5BCD /* TextureLayout.md */; };
 		D9CB1EC02341FBDD00CEB752 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB1EBF2341FBDD00CEB752 /* NSObject+Extension.swift */; };
 		D9CB1EC22341FDA900CEB752 /* RxSwiftDemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB1EC12341FDA900CEB752 /* RxSwiftDemoListViewController.swift */; };
 		D9CB1EC42342053900CEB752 /* RxSwiftDynamicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB1EC32342053900CEB752 /* RxSwiftDynamicTableViewController.swift */; };
@@ -665,6 +679,18 @@
 		D96A17E6237EFDF90018E7F1 /* LeftSideLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideLayout.swift; sourceTree = "<group>"; };
 		D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftLoginViewController.swift; sourceTree = "<group>"; };
 		D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftLoginViewController.xib; sourceTree = "<group>"; };
+		D96FE2BA239603DE00949006 /* ASViewController.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ASViewController.md; sourceTree = "<group>"; };
+		D96FE2BC23960E0500949006 /* ASDisplayNode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ASDisplayNode.md; sourceTree = "<group>"; };
+		D96FE2BE2396125A00949006 /* TextureLayoutDemoNaviNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureLayoutDemoNaviNode.swift; sourceTree = "<group>"; };
+		D96FE2C1239642AE00949006 /* ASWrapperLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASWrapperLayoutController.swift; sourceTree = "<group>"; };
+		D96FE2C3239642DF00949006 /* ASStackLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASStackLayoutController.swift; sourceTree = "<group>"; };
+		D96FE2C52396437800949006 /* ASInsetLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASInsetLayoutController.swift; sourceTree = "<group>"; };
+		D96FE2C72396446A00949006 /* ASOverlayLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASOverlayLayoutController.swift; sourceTree = "<group>"; };
+		D96FE2C92396448D00949006 /* ASBackgroundLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASBackgroundLayoutController.swift; sourceTree = "<group>"; };
+		D96FE2CB239644DA00949006 /* ASCenterLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASCenterLayoutController.swift; sourceTree = "<group>"; };
+		D96FE2CD239644FC00949006 /* ASRatioLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASRatioLayoutController.swift; sourceTree = "<group>"; };
+		D96FE2CF2396451B00949006 /* ASRelativeLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASRelativeLayoutController.swift; sourceTree = "<group>"; };
+		D96FE2D12396453D00949006 /* ASAbsoluteLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASAbsoluteLayoutController.swift; sourceTree = "<group>"; };
 		D97246EB237E4989001671AD /* NSMutableAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extension.swift"; sourceTree = "<group>"; };
 		D97246EE237E6056001671AD /* CustomLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayoutViewController.swift; sourceTree = "<group>"; };
 		D97246F1237E82B6001671AD /* MaxCellSpacingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxCellSpacingViewController.swift; sourceTree = "<group>"; };
@@ -831,6 +857,8 @@
 		D9C7CC2222E9B2A80038FD34 /* StandardSwiftTableFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftTableFooterView.swift; sourceTree = "<group>"; };
 		D9C7CC2422E9B8C10038FD34 /* StandardSwiftSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftSectionHeaderView.swift; sourceTree = "<group>"; };
 		D9C7CC2622E9BC9B0038FD34 /* StandardSwiftSectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftSectionFooterView.swift; sourceTree = "<group>"; };
+		D9C842632394F14500DC5BCD /* TextureLayoutDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureLayoutDemoViewController.swift; sourceTree = "<group>"; };
+		D9C84267239503F300DC5BCD /* TextureLayout.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TextureLayout.md; sourceTree = "<group>"; };
 		D9CB1EBF2341FBDD00CEB752 /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 		D9CB1EC12341FDA900CEB752 /* RxSwiftDemoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftDemoListViewController.swift; sourceTree = "<group>"; };
 		D9CB1EC32342053900CEB752 /* RxSwiftDynamicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftDynamicTableViewController.swift; sourceTree = "<group>"; };
@@ -2114,6 +2142,7 @@
 		D95B2F3D239289F6006F2FE2 /* Texture的各种node */ = {
 			isa = PBXGroup;
 			children = (
+				D96FE2BC23960E0500949006 /* ASDisplayNode.md */,
 				D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */,
 			);
 			path = "Texture的各种node";
@@ -2122,6 +2151,7 @@
 		D95C78CB236D3D46005F06BE /* ASViewController */ = {
 			isa = PBXGroup;
 			children = (
+				D96FE2BA239603DE00949006 /* ASViewController.md */,
 				D93A0BF4233C72F900554EF6 /* TextureColorView.swift */,
 				D93A0BF6233C735500554EF6 /* TextureLabelView.swift */,
 				D932D24B2338B39E00662E05 /* ASViewControllerDemoController.swift */,
@@ -2160,6 +2190,22 @@
 				D9697FEE22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift */,
 			);
 			path = "组头组尾";
+			sourceTree = "<group>";
+		};
+		D96FE2C02396425D00949006 /* 各种Layout */ = {
+			isa = PBXGroup;
+			children = (
+				D96FE2C1239642AE00949006 /* ASWrapperLayoutController.swift */,
+				D96FE2C3239642DF00949006 /* ASStackLayoutController.swift */,
+				D96FE2C52396437800949006 /* ASInsetLayoutController.swift */,
+				D96FE2C72396446A00949006 /* ASOverlayLayoutController.swift */,
+				D96FE2C92396448D00949006 /* ASBackgroundLayoutController.swift */,
+				D96FE2CB239644DA00949006 /* ASCenterLayoutController.swift */,
+				D96FE2CD239644FC00949006 /* ASRatioLayoutController.swift */,
+				D96FE2CF2396451B00949006 /* ASRelativeLayoutController.swift */,
+				D96FE2D12396453D00949006 /* ASAbsoluteLayoutController.swift */,
+			);
+			path = "各种Layout";
 			sourceTree = "<group>";
 		};
 		D97246ED237E5F76001671AD /* 自定义UICollectionViewLayout */ = {
@@ -2645,6 +2691,7 @@
 				D95C78CB236D3D46005F06BE /* ASViewController */,
 				D98F1B2A236D783900F31F03 /* ASTableNode */,
 				D95B2F3D239289F6006F2FE2 /* Texture的各种node */,
+				D9C842622394F0CB00DC5BCD /* Texture Layout */,
 			);
 			path = texture;
 			sourceTree = "<group>";
@@ -2868,6 +2915,17 @@
 				D9C7CC2622E9BC9B0038FD34 /* StandardSwiftSectionFooterView.swift */,
 			);
 			path = "组头组尾";
+			sourceTree = "<group>";
+		};
+		D9C842622394F0CB00DC5BCD /* Texture Layout */ = {
+			isa = PBXGroup;
+			children = (
+				D9C84267239503F300DC5BCD /* TextureLayout.md */,
+				D96FE2BE2396125A00949006 /* TextureLayoutDemoNaviNode.swift */,
+				D9C842632394F14500DC5BCD /* TextureLayoutDemoViewController.swift */,
+				D96FE2C02396425D00949006 /* 各种Layout */,
+			);
+			path = "Texture Layout";
 			sourceTree = "<group>";
 		};
 		D9CEB3032130E41C00664EF3 /* 简单工厂 */ = {
@@ -3512,6 +3570,7 @@
 				D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */,
 				D9A39F6E22B4C90900FEA5F5 /* 策略设计模式.md in Resources */,
 				D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */,
+				D96FE2BD23960E0500949006 /* ASDisplayNode.md in Resources */,
 				D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */,
 				D9179CDE22B7C04F002FCCA0 /* 装饰模式.md in Resources */,
 				D94BCDEC22E9D91B0080584F /* 标准CollectionView OC版.md in Resources */,
@@ -3546,12 +3605,14 @@
 				D920ED1E22E8706400C5A43F /* wordsanime.json in Resources */,
 				D91A9F7522B3CF65008F87F1 /* pthread.md in Resources */,
 				D921F97220FF640B00712042 /* house_list.json in Resources */,
+				D9C84268239503F300DC5BCD /* TextureLayout.md in Resources */,
 				D94BF43F20E4B6510012C370 /* demo_contents.plist in Resources */,
 				D9D145122299205F003B594C /* KVC.md in Resources */,
 				D9B563F720E24A14001AE9A0 /* iphone_menu_data.json in Resources */,
 				D926BDC422C486F200A2DD3E /* 抽象工厂模式.md in Resources */,
 				D9F93367229D6BD000C7B2E0 /* 关联对象.md in Resources */,
 				D9E30C39236D5FC50042BC74 /* data.json in Resources */,
+				D96FE2BB239603DE00949006 /* ASViewController.md in Resources */,
 				D9CFC805229CCA0F009B8399 /* 消息发送.md in Resources */,
 				D9CFC807229CCAB7009B8399 /* 消息转发.md in Resources */,
 				D926BDBE22C349B100A2DD3E /* 观察者模式.md in Resources */,
@@ -3688,6 +3749,7 @@
 				D97246EF237E6056001671AD /* CustomLayoutViewController.swift in Sources */,
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
 				D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */,
+				D96FE2C62396437800949006 /* ASInsetLayoutController.swift in Sources */,
 				D9545B382293AA4B008B6355 /* CQPermanentThreadController.m in Sources */,
 				D9C7CC1622E9A3AE0038FD34 /* CQStandardTableSectionFooterView.m in Sources */,
 				D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */,
@@ -3793,6 +3855,7 @@
 				D9CFC821229CFF34009B8399 /* SwiftController.swift in Sources */,
 				D93A0BFF233CBE6B00554EF6 /* MyCellNode2.swift in Sources */,
 				D90D9FAF233218300007C25C /* CQFPSViewController.m in Sources */,
+				D96FE2C4239642DF00949006 /* ASStackLayoutController.swift in Sources */,
 				D9BC6F63238E30590085E4E0 /* NestedTableHeaderView.swift in Sources */,
 				D9A39F8A22B4D8AF00FEA5F5 /* CQStrategyManager.m in Sources */,
 				D9A39F7822B4D2CA00FEA5F5 /* CQMVCViewController.m in Sources */,
@@ -3805,6 +3868,7 @@
 				D984AD122154F06C00610B27 /* CQSortButton.m in Sources */,
 				D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */,
 				D941B865235EF9AD00AEB48E /* LocationManager.swift in Sources */,
+				D96FE2CC239644DA00949006 /* ASCenterLayoutController.swift in Sources */,
 				D9AEB68622F6A96B006F8995 /* CQMVVMModel.m in Sources */,
 				D9AEB65622F56747006F8995 /* AlamofireDemoViewController.swift in Sources */,
 				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
@@ -3815,6 +3879,7 @@
 				D9519A0622BFAE5D00E3036B /* Nick.m in Sources */,
 				D93EFF422359BCBC0028A730 /* StoreAnnotationView.swift in Sources */,
 				D926BDC122C34B6900A2DD3E /* CQObserverViewController.m in Sources */,
+				D96FE2C82396446A00949006 /* ASOverlayLayoutController.swift in Sources */,
 				D9179CE422B7C9DA002FCCA0 /* UIButton+CQBorder.m in Sources */,
 				D9CE54BA233D100A00AB58C0 /* MyCellNode4.swift in Sources */,
 				D9C7CC1122E99DB60038FD34 /* CQStandardTableSectionHeaderView.m in Sources */,
@@ -3826,7 +3891,9 @@
 				D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */,
 				D9E30C3C236D62560042BC74 /* GifViewController.swift in Sources */,
 				D9C7CC0922E998520038FD34 /* CQStandardTableHeaderView.m in Sources */,
+				D9C842642394F14500DC5BCD /* TextureLayoutDemoViewController.swift in Sources */,
 				D9C7021322EB5CF400DDC44F /* RxPerson.swift in Sources */,
+				D96FE2BF2396125A00949006 /* TextureLayoutDemoNaviNode.swift in Sources */,
 				D9146DE423920450002EA395 /* GestureScrollViewController.swift in Sources */,
 				D986652A237063F600AA60B2 /* ActionSheet.swift in Sources */,
 				D9CE605923518F3700D65107 /* UIImage+Extension.swift in Sources */,
@@ -3857,6 +3924,7 @@
 				D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */,
 				D9C7020F22EB542200DDC44F /* RxSwiftDemoViewController.swift in Sources */,
 				D9519A0322BFACC600E3036B /* Clothes.m in Sources */,
+				D96FE2CA2396448D00949006 /* ASBackgroundLayoutController.swift in Sources */,
 				D9C5B44E233DBE9700299AFB /* CommunityMessagePKCell.swift in Sources */,
 				D93FD5692317AE43005E70A6 /* CQWaterfallLayout.m in Sources */,
 				D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */,
@@ -3882,6 +3950,7 @@
 				D9C7CBFF22E991CE0038FD34 /* CQStandardOCCollectionViewViewController.m in Sources */,
 				D93EFF402359B7C00028A730 /* ParkAnnotation.swift in Sources */,
 				D93A0BF5233C72F900554EF6 /* TextureColorView.swift in Sources */,
+				D96FE2C2239642AE00949006 /* ASWrapperLayoutController.swift in Sources */,
 				D9E21A8E210FF92500407599 /* CQClassClusterCellC.m in Sources */,
 				D9DA5CF020E291550098EC68 /* UIView+Util.m in Sources */,
 				D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */,
@@ -3906,6 +3975,7 @@
 				D9C7CC2322E9B2A80038FD34 /* StandardSwiftTableFooterView.swift in Sources */,
 				D926BDD322C495F600A2DD3E /* ForenoonState.m in Sources */,
 				D9A00920237271F400ECF98F /* HomeSegmentedCell.swift in Sources */,
+				D96FE2D22396453D00949006 /* ASAbsoluteLayoutController.swift in Sources */,
 				D94016902361BF1400580AAC /* UIView+Extension.swift in Sources */,
 				D9D64FD72105DDA300379FF2 /* CQThreadViewController.m in Sources */,
 				D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */,
@@ -3917,6 +3987,7 @@
 				D9AA680F237FB32600A14C37 /* UIPageViewControllerDemoController.swift in Sources */,
 				D9CB1EC42342053900CEB752 /* RxSwiftDynamicTableViewController.swift in Sources */,
 				D97246F4237E8D47001671AD /* MaxCellSpacingLayout.swift in Sources */,
+				D96FE2CE239644FC00949006 /* ASRatioLayoutController.swift in Sources */,
 				D9545B3B2293AB48008B6355 /* CQThread.m in Sources */,
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
 				D91E1D25233E4EB600B1C772 /* CQGradientView.m in Sources */,
@@ -3936,6 +4007,7 @@
 				D9E21A85210FF7F500407599 /* CQClassClusterBaseCell.m in Sources */,
 				D95199FA22BF2F6A00E3036B /* ClothesFactory.m in Sources */,
 				D9545B27229306E2008B6355 /* CQRuntimeController.m in Sources */,
+				D96FE2D02396451B00949006 /* ASRelativeLayoutController.swift in Sources */,
 				D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */,
 				D91453FB237A606A0083FD19 /* EnumPracticeViewController.swift in Sources */,
 				D9D14510229917ED003B594C /* CQRunLoop.m in Sources */,
