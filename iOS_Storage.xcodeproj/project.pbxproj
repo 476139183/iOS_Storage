@@ -214,6 +214,7 @@
 		D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97D50FF2350AE3800A0F570 /* trade_rule.txt */; };
 		D97D51022350B0CA00A0F570 /* TradeRuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D51012350B0CA00A0F570 /* TradeRuleViewController.swift */; };
 		D97F3779238BF95500D47F3C /* NestedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97F3778238BF95500D47F3C /* NestedTableViewController.swift */; };
+		D982964B23976A42001C05AE /* NavigationJumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D982964A23976A42001C05AE /* NavigationJumpViewController.swift */; };
 		D984AD0F2154F05000610B27 /* CQSortButtonDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D984AD0E2154F05000610B27 /* CQSortButtonDemoController.m */; };
 		D984AD122154F06C00610B27 /* CQSortButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D984AD112154F06C00610B27 /* CQSortButton.m */; };
 		D98665272370639C00AA60B2 /* ActionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98665262370639C00AA60B2 /* ActionSheetViewController.swift */; };
@@ -700,6 +701,7 @@
 		D97D50FF2350AE3800A0F570 /* trade_rule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trade_rule.txt; sourceTree = "<group>"; };
 		D97D51012350B0CA00A0F570 /* TradeRuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleViewController.swift; sourceTree = "<group>"; };
 		D97F3778238BF95500D47F3C /* NestedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableViewController.swift; sourceTree = "<group>"; };
+		D982964A23976A42001C05AE /* NavigationJumpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationJumpViewController.swift; sourceTree = "<group>"; };
 		D984AD0D2154F05000610B27 /* CQSortButtonDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSortButtonDemoController.h; sourceTree = "<group>"; };
 		D984AD0E2154F05000610B27 /* CQSortButtonDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSortButtonDemoController.m; sourceTree = "<group>"; };
 		D984AD102154F06C00610B27 /* CQSortButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSortButton.h; sourceTree = "<group>"; };
@@ -1740,6 +1742,7 @@
 				D9608BF8236988BA0053BD3E /* 扩大按钮响应区域 */,
 				D9E30C3A236D61E60042BC74 /* 播放动图 */,
 				D986652F2371546C00AA60B2 /* image和text互转 */,
+				D982964923976966001C05AE /* 各种跳转 */,
 			);
 			path = "常用的";
 			sourceTree = "<group>";
@@ -2258,6 +2261,14 @@
 				D9146DE2239203CB002EA395 /* 同时滑动上下scrollView */,
 			);
 			path = "嵌套tableView";
+			sourceTree = "<group>";
+		};
+		D982964923976966001C05AE /* 各种跳转 */ = {
+			isa = PBXGroup;
+			children = (
+				D982964A23976A42001C05AE /* NavigationJumpViewController.swift */,
+			);
+			path = "各种跳转";
 			sourceTree = "<group>";
 		};
 		D984AD0A2154EF5E00610B27 /* 排序button */ = {
@@ -3952,6 +3963,7 @@
 				D93A0BF5233C72F900554EF6 /* TextureColorView.swift in Sources */,
 				D96FE2C2239642AE00949006 /* ASWrapperLayoutController.swift in Sources */,
 				D9E21A8E210FF92500407599 /* CQClassClusterCellC.m in Sources */,
+				D982964B23976A42001C05AE /* NavigationJumpViewController.swift in Sources */,
 				D9DA5CF020E291550098EC68 /* UIView+Util.m in Sources */,
 				D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */,
 				D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */,
