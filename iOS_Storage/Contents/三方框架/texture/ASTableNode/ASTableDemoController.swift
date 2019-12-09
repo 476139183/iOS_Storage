@@ -73,6 +73,7 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
         self.node.dataSource = self
         self.node.delegate = self
         
+        self.node.view.estimatedRowHeight = 50
         self.node.view.estimatedSectionHeaderHeight = 40
         self.node.view.estimatedSectionFooterHeight = 40
         
@@ -141,7 +142,7 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
     }
     
     func numberOfSections(in tableNode: ASTableNode) -> Int {
-        return 24
+        return 100
     }
     
     func tableNode(_ tableNode: ASTableNode, numberOfRowsInSection section: Int) -> Int {

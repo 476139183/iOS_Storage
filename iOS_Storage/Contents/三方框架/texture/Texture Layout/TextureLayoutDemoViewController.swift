@@ -40,7 +40,9 @@ class TextureLayoutDemoViewController: ASViewController<ASDisplayNode>, UINaviga
     
     private lazy var naviNode: TextureLayoutDemoNaviNode = {
         let naviView = TextureLayoutDemoNaviNode()
-        
+        naviView.backClosure = { [weak self] in
+            self?.navigationController?.popViewController(animated: true)
+        }
         return naviView
     }()
     

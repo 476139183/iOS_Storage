@@ -31,6 +31,18 @@ class TestNaviBarViewController: CQBaseViewController {
             make.size.equalTo(CGSize(width: 100, height: 60))
         }
         
+        // 自定义 navigation item
+        let greenButton = UIButton()
+        greenButton.backgroundColor = .green
+        greenButton.setTitle("red", for: .normal)
+        greenButton.size = CGSize.init(width: 60, height: 30)
+        greenButton.addTarget(self, action: #selector(greenButtonClicked), for: .touchUpInside)
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: greenButton)
+        
+    }
+    
+    @objc private func greenButtonClicked() {
+        print("green button click")
     }
     
     @objc private func gotoSecondVC() {

@@ -44,7 +44,7 @@ fileprivate class MyNode: ASDisplayNode {
     
     private lazy var label: ASTextNode = {
         let label = ASTextNode()
-        label.attributedText = NSAttributedString.attributedString(string: "red label", font: .systemFont(ofSize: 13), color: .black)
+        label.attributedText = NSAttributedString.attributedString(string: "red label", font: .systemFont(ofSize: 33), color: .black)
         label.maximumNumberOfLines = 0
         label.backgroundColor = .red
         return label

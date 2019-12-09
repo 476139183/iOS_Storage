@@ -13,9 +13,9 @@
 /**
  构造方法
 
- @param content 目录文件名称
+ @param contents 目录文件名称
  @return 目录controller
  */
-- (instancetype)initWithContent:(NSString *)content;
+- (instancetype)initWithContents:(NSString *)contents;
 
 @end

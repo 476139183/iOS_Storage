@@ -4,7 +4,7 @@
 
 不要在这个方法中访问 self.view 或 self.node.view，因为这样会强制创建view。
 
-ASViewController 指定的构造器是 initWithNode:，一个典型的构造器看起来就像下面的代码。
+ASViewController指定的构造器是`initWithNode:`，一个典型的构造器看起来就像下面的代码。
 
 ```
 init() {

@@ -25,9 +25,14 @@ class MyCellNode7: ASCellNode {
     }
     
     override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
-        let layout = ASAbsoluteLayoutSpec()
-        layout.style.preferredSize = CGSize.init(width: UIScreen.main.bounds.size.width, height: 100)
-        layout.child = cellContentNode
+//        let layout = ASAbsoluteLayoutSpec()
+//        layout.style.preferredSize = CGSize.init(width: UIScreen.main.bounds.size.width, height: 100)
+//        layout.child = cellContentNode
+//        return layout
+        
+        let layout = ASInsetLayoutSpec(insets: .init(top: 10, left: 10, bottom: 10, right: 10), child: cellContentNode)
+        //layout.child = cellContentNode
+//        layout.style.preferredSize = CGSize.init(width: screenWidth, height: 133)
         return layout
     }
 }
@@ -53,12 +58,14 @@ fileprivate class nodeContentView: UIView {
         addSubview(label)
         addSubview(button)
         
-        label.text = "绝对布局"
+        label.text = "cell 7，这个cell高度自适应，用的SnapKit"
         label.font = .boldSystemFont(ofSize: 30)
         label.textAlignment = .center
         label.textColor = .white
         label.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
+            make.top.left.equalTo(20)
+            make.left.equalTo(20)
+            make.right.equalToSuperview().offset(-20)
         }
         
         button.setTitle("button", for: .normal)
@@ -66,6 +73,7 @@ fileprivate class nodeContentView: UIView {
         button.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
         button.snp.makeConstraints { (make) in
             make.size.equalTo(CGSize.init(width: 100, height: 40))
+            make.top.equalTo(label.snp.bottom).offset(30)
             make.bottom.equalToSuperview().offset(-20)
             make.centerX.equalToSuperview()
         }

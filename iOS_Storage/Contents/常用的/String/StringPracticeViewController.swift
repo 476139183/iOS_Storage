@@ -24,7 +24,23 @@ class StringPracticeViewController: CQBaseViewController {
         
         configRedLabel()
         
+        let label1 = UILabel()
+        view.addSubview(label1)
+        label1.font = .boldSystemFont(ofSize: 15)
+        label1.text = "昵称bold"
+        label1.frame = .init(x: 90, y: 200, width: 200, height: 30)
         
+        let label2 = UILabel()
+        view.addSubview(label2)
+        label2.font = UIFont.systemFont(ofSize: 15, weight: .medium)
+        label2.text = "昵称medium"
+        label2.frame = .init(x: 90, y: 230, width: 200, height: 30)
+        
+        let label3 = UILabel()
+        view.addSubview(label3)
+        label3.font = .systemFont(ofSize: 15)
+        label3.text = "昵称regular"
+        label3.frame = .init(x: 90, y: 260, width: 200, height: 30)
     }
     
     

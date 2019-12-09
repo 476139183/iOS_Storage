@@ -18,7 +18,7 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
 @end
 
 @implementation CQContentViewController {
-    NSString *_content;
+    NSString *_contents;
 }
 
 #pragma mark - Lazy Load
@@ -27,7 +27,7 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
     if (!_dataArray) {
         _dataArray = [NSMutableArray array];
         // 加载本地数据
-        NSString *catalogPath = [[NSBundle mainBundle] pathForResource:_content ofType:@"plist"];
+        NSString *catalogPath = [[NSBundle mainBundle] pathForResource:_contents ofType:@"plist"];
         NSArray *catalogArray = [NSArray arrayWithContentsOfFile:catalogPath];
         for (NSDictionary *catalogDict in catalogArray) {
             NSError *error = nil;
@@ -40,9 +40,9 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
 
 #pragma mark - 构造方法
 
-- (instancetype)initWithContent:(NSString *)content {
+- (instancetype)initWithContents:(NSString *)contents {
     if (self = [super init]) {
-        _content = content;
+        _contents = contents;
     }
     return self;
 }
@@ -59,10 +59,6 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
     tableView.delegate = self;
     [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CQContentCellReuseID];
 }
-
-#pragma mark - search
-
-
 
 #pragma mark - UITableView DataSource && Delegate
 

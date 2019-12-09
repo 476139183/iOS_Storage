@@ -15,7 +15,7 @@
 #import "Categories.h"
 #import "CQBaseModel.h"
 #import "CQBaseViewController.h"
-
+#import "CQBaseNavigationController.h"
 #import "iOS_Storage-Swift.h"
 
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height

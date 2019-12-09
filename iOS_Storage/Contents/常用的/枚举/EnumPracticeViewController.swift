@@ -8,13 +8,13 @@
 
 import UIKit
 
-enum MonitorSettingType: String {
+private enum MonitorSettingType: String {
     case monitor // 频道
     case region  // 城市
     case list    // 网站
 }
 
-enum ShoesQuality {
+private enum ShoesQuality {
     
     case new
     case flaw
@@ -34,6 +34,21 @@ enum ShoesQuality {
                 return ("二手穿着", 400)
             }
         }
+    }
+    
+}
+
+private enum UserDetailType {
+    case person(isOwn: Bool)    // 个人
+    case subscribe // 订阅
+}
+
+fileprivate class UserDetail {
+    
+    var type: UserDetailType
+    
+    init(type: UserDetailType) {
+        self.type = type
     }
     
 }
@@ -80,6 +95,18 @@ class EnumPracticeViewController: CQBaseViewController {
         let width = Tool.getLabelWidthWith(text: label.text!, font: label.font, maxWidth: 200)
         
         label.width = width
+        
+        let user = UserDetail(type: .person(isOwn: true))
+        print(user.type)
+        
+        switch user.type {
+        case .person(isOwn: true):
+            print("is Own")
+        case .person(isOwn: false):
+            print("not Own")
+        case .subscribe:
+            print("sub")
+        }
     }
     
 }

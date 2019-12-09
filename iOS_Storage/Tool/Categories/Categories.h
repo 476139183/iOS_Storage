@@ -14,5 +14,6 @@
 #import "UIColor+Util.h"
 #import "UIImage+Util.h"
 #import "UIButton+EnlargeTouchArea.h"
+#import "UIAlertController+Util.h"
 
 #endif /* Categories_h */

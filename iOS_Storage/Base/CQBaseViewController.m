@@ -8,6 +8,7 @@
 
 #import "CQBaseViewController.h"
 #import "CQDetailViewController.h"
+#import "CQMemoryLeakManager.h"
 
 @interface CQBaseViewController ()
 
@@ -28,6 +29,12 @@
 
 - (void)dealloc {
     NSLog(@"已释放：%@", self.className);
+}
+
+- (void)dismissViewControllerAnimated:(BOOL)flag completion:(void (^)(void))completion {
+    [super dismissViewControllerAnimated:flag completion:completion];
+    
+    //[CQMemoryLeakManager checkController:self];
 }
 
 #pragma mark - 详情按钮点击

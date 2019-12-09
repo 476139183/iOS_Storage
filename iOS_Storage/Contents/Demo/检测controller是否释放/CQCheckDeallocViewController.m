@@ -7,51 +7,47 @@
 //
 
 #import "CQCheckDeallocViewController.h"
+#import "CQMemoryLeakViewController.h"
 
 @interface CQCheckDeallocViewController ()
 
-@property (nonatomic, copy) dispatch_block_t block;
+@property (nonatomic, strong) UIButton *presentButton;
+@property (nonatomic, strong) UIButton *pushButton;
 
 @end
 
 @implementation CQCheckDeallocViewController
 
-- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        NSLog(@"call initWithNibName");
-    }
-    return self;
-}
-
-- (instancetype)initWithCoder:(NSCoder *)aDecoder {
-    if (self = [super initWithCoder:aDecoder]) {
-        
-    }
-    return self;
-}
-
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    NSLog(@"awake from nib");
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    //UIImage *img = [UIImage imageWithContentsOfFile:<#(nonnull NSString *)#>]
+    self.presentButton = [UIButton buttonWithType:UIButtonTypeSystem];
+    self.presentButton.frame = CGRectMake(100, 150, 90, 90);
+    [self.presentButton setTitle:@"present" forState:UIControlStateNormal];
+    [self.presentButton addTarget:self action:@selector(presentButtonClicked) forControlEvents:UIControlEventTouchUpInside];
     
-    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(90, 90, 90, 90)];
-    [self.view addSubview:imageView];
-//    imageView.image = [UIImage imageWithContentsOfFile:<#(nonnull NSString *)#>]
+    self.pushButton = [UIButton buttonWithType:UIButtonTypeSystem];
+    self.pushButton.frame = CGRectMake(100, 300, 90, 90);
+    [self.pushButton setTitle:@"push" forState:UIControlStateNormal];
+    [self.pushButton addTarget:self action:@selector(pushButtonClicked) forControlEvents:UIControlEventTouchUpInside];
     
-    self.block = ^{
-        self.view.backgroundColor = [UIColor redColor];
-    };
+    [self.view addSubview:self.presentButton];
+    [self.view addSubview:self.pushButton];
 }
 
 - (void)dealloc {
     NSLog(@"vc已释放");
+}
+
+- (void)presentButtonClicked {
+    CQMemoryLeakViewController *vc = [[CQMemoryLeakViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
+
+- (void)pushButtonClicked {
+    CQMemoryLeakViewController *vc = [[CQMemoryLeakViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end
