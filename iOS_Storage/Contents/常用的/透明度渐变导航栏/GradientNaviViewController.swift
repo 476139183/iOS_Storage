@@ -72,8 +72,8 @@ class GradientNaviViewController: CQBaseViewController, UINavigationControllerDe
     // MARK: - UINavigationController Delegate
     
     func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
-        // 把系统的导航栏隐藏了
-        let shouldHidden = self.isMember(of: GradientNaviViewController.self)
+        // 把系统的导航栏隐藏掉
+        let shouldHidden = viewController.isMember(of: GradientNaviViewController.self)
         self.navigationController?.setNavigationBarHidden(shouldHidden, animated: animated)
     }
 
