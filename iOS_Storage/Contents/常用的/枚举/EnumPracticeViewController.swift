@@ -38,9 +38,9 @@ private enum ShoesQuality {
     
 }
 
-private enum UserDetailType {
-    case person(isOwn: Bool)    // 个人
-    case subscribe // 订阅
+enum UserDetailType {
+    case person(isOwn: Bool, userID: String?) // 个人（是否是自己）
+    case subscribe(subscribeID: String)       // 订阅（订阅号ID）
 }
 
 fileprivate class UserDetail {
@@ -77,14 +77,14 @@ class EnumPracticeViewController: CQBaseViewController {
         // Do any additional setup after loading the view.
         
         
-        let string = "region"
-        let type = MonitorSettingType.region
-        
-        if string == type.rawValue {
-            print("相等")
-        } else {
-            print("不相等")
-        }
+//        let string = "region"
+//        let type = MonitorSettingType.region
+//
+//        if string == type.rawValue {
+//            print("相等")
+//        } else {
+//            print("不相等")
+//        }
         
         let label = UILabel.init(frame: CGRect.init(x: 90, y: 90, width: 200, height: 30))
         view.addSubview(label)
@@ -96,17 +96,31 @@ class EnumPracticeViewController: CQBaseViewController {
         
         label.width = width
         
-        let user = UserDetail(type: .person(isOwn: true))
+        let user = UserDetail(type: .person(isOwn: false, userID: "111"))
         print(user.type)
         
-        switch user.type {
-        case .person(isOwn: true):
-            print("is Own")
-        case .person(isOwn: false):
-            print("not Own")
-        case .subscribe:
-            print("sub")
-        }
+//        switch user.type {
+//        case .person(isOwn: true, _):
+//            print("is own")
+//        case .person(isOwn: false, userID: let ID)
+//            print("not own, ")
+//        case .subscribe:
+//            print("sub")
+//        }
+
+let type = UserDetailType.person(isOwn: false, userID: "001")
+
+switch type {
+case .person(isOwn: true, _):
+    print("is own")
+case .person(isOwn: false, let userID):
+    print("is other \(userID ?? "")")
+case .subscribe(let subscribeID):
+    print("订阅ID:\(subscribeID)")
+}
+        
+        
+        
     }
     
 }

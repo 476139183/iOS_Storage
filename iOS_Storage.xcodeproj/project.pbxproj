@@ -299,6 +299,7 @@
 		D9BF6915233F57CF00E602A4 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6914233F57CF00E602A4 /* GradientButton.swift */; };
 		D9BF6917233F587300E602A4 /* GradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6916233F587300E602A4 /* GradientLabel.swift */; };
 		D9BF691A233F5F0B00E602A4 /* CQGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6919233F5F0B00E602A4 /* CQGradientLabel.m */; };
+		D9C0EFBD23A0A29B0053EEAC /* GradientNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */; };
 		D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352B23853059008C0D59 /* RefreshViewController.swift */; };
 		D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */; };
 		D9C2353123855F08008C0D59 /* TestNaviBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2353023855F08008C0D59 /* TestNaviBarViewController.swift */; };
@@ -828,6 +829,7 @@
 		D9BF6916233F587300E602A4 /* GradientLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLabel.swift; sourceTree = "<group>"; };
 		D9BF6918233F5F0B00E602A4 /* CQGradientLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientLabel.h; sourceTree = "<group>"; };
 		D9BF6919233F5F0B00E602A4 /* CQGradientLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientLabel.m; sourceTree = "<group>"; };
+		D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientNaviViewController.swift; sourceTree = "<group>"; };
 		D9C2352B23853059008C0D59 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
 		D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRefreshHeader.swift; sourceTree = "<group>"; };
 		D9C2353023855F08008C0D59 /* TestNaviBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNaviBarViewController.swift; sourceTree = "<group>"; };
@@ -1750,6 +1752,7 @@
 				D937687C2357FD7200515315 /* 常用CollectionViewLayout */,
 				D97246ED237E5F76001671AD /* 自定义UICollectionViewLayout */,
 				D9C2352F23855E64008C0D59 /* 导航栏各种设置 */,
+				D9C0EFBB23A0A20D0053EEAC /* 透明度渐变导航栏 */,
 				D94016942361EF6B00580AAC /* String */,
 				D940169A2361F15300580AAC /* Array */,
 				D940169D2361F1A400580AAC /* Dictionary */,
@@ -2781,6 +2784,14 @@
 				D9BC6F5D238E2E050085E4E0 /* JXPagingListContainerView.swift */,
 			);
 			path = "JXPagingView-Swift";
+			sourceTree = "<group>";
+		};
+		D9C0EFBB23A0A20D0053EEAC /* 透明度渐变导航栏 */ = {
+			isa = PBXGroup;
+			children = (
+				D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */,
+			);
+			path = "透明度渐变导航栏";
 			sourceTree = "<group>";
 		};
 		D9C2352A23853001008C0D59 /* 基于MJRefresh的下拉刷新 */ = {
@@ -3894,6 +3905,7 @@
 				D9A65EED235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift in Sources */,
 				D9C2353123855F08008C0D59 /* TestNaviBarViewController.swift in Sources */,
 				D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */,
+				D9C0EFBD23A0A29B0053EEAC /* GradientNaviViewController.swift in Sources */,
 				D92769F3236AE8C100A6D846 /* PlaceholderView.swift in Sources */,
 				D9C2AA9F236928F900EBB9E1 /* UIViewAnimationViewController.swift in Sources */,
 				D93A0BFB233CA51D00554EF6 /* Utilities.swift in Sources */,

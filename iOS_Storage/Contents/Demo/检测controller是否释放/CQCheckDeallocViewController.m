@@ -24,6 +24,7 @@
     
     self.presentButton = [UIButton buttonWithType:UIButtonTypeSystem];
     self.presentButton.frame = CGRectMake(100, 150, 90, 90);
+    self.presentButton.backgroundColor = [UIColor orangeColor];
     [self.presentButton setTitle:@"present" forState:UIControlStateNormal];
     [self.presentButton addTarget:self action:@selector(presentButtonClicked) forControlEvents:UIControlEventTouchUpInside];
     

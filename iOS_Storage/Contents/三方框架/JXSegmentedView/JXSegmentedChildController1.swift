@@ -9,6 +9,12 @@
 import UIKit
 
 class JXSegmentedChildController1: JXSegmentedDemoBaseController {
+    
+    private lazy var greenView: UIView = {
+        let view = UIView()
+        view.backgroundColor = .green
+        return view
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +39,9 @@ class JXSegmentedChildController1: JXSegmentedDemoBaseController {
         let color = UIColor.init(gradientBounds: CGRect.init(x: 0, y: 0, width: 100, height: 100), colors: [.clear, .white], direction: .leftToRight)
         let gradientLayer = CAGradientLayer.init()
         gradientLayer.colors = [color?.cgColor]
+        
+        view.addSubview(greenView)
+        greenView.frame = CGRect(x: 100, y: 300, width: 90, height: 90)
     }
     
     
@@ -44,6 +53,7 @@ class JXSegmentedChildController1: JXSegmentedDemoBaseController {
 
         print(arr3)
         
+        greenView.size = CGSize(width: 200, height: 200)
     }
 
 }

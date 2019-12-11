@@ -90,4 +90,14 @@ extension UIView {
         }
     }
     
+    /// 大小
+    var size: CGSize {
+        get {
+            return frame.size
+        }
+        set {
+            frame = CGRect(x: x, y: y, width: newValue.width, height: newValue.height)
+        }
+    }
+    
 }
