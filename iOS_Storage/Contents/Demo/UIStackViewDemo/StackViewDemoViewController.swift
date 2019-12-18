@@ -103,14 +103,16 @@ class StackViewDemoViewController: CQBaseViewController {
         view.addSubview(stackView)
         // 不设置宽度，让它宽度自适应
         stackView.snp.makeConstraints { (make) in
-            make.top.equalTo(200)
-            make.right.equalToSuperview().offset(-20)
+            make.top.equalTo(100)
+            make.left.equalTo(20)
             make.height.equalTo(50)
+            make.width.equalTo(1000)
+            make.right.lessThanOrEqualTo(view.snp.right)
         }
         
         view.addSubview(stackView2)
         stackView2.snp.makeConstraints { (make) in
-            make.top.equalTo(100)
+            make.top.equalTo(200)
             make.right.equalToSuperview().offset(-20)
             make.height.equalTo(50)
         }

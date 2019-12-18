@@ -9,11 +9,15 @@
 import UIKit
 
 class ArrayPracticeViewController: CQBaseViewController {
+    
+    private var items: [Int]! = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        
+        items.append(2)
         
         // 创建
         var array: [Int] = [Int](repeatElement(1, count: 3))

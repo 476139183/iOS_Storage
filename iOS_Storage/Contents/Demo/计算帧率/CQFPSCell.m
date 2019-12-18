@@ -13,7 +13,7 @@
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         for (int i = 0; i < 10; i ++) {
-            UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"qbl"]];
+            UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"iu"]];
             imageView.frame = CGRectMake(i * 50, 0, 50, 50);
             [self.contentView addSubview:imageView];
             imageView.layer.cornerRadius = 25;

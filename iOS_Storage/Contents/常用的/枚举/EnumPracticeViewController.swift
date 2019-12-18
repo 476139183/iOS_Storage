@@ -53,11 +53,30 @@ fileprivate class UserDetail {
     
 }
 
+fileprivate enum UserType {
+    case person   // 个人
+    case official(isTop: Bool, remindEnabled: Bool) // 订阅（置顶，提醒）
+}
+
 class EnumPracticeViewController: CQBaseViewController {
     
     var selectedQualityCode: Int?
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        let type = UserType.official(isTop: false, remindEnabled: false)
+        switch type {
+        case .official(isTop: true, _):
+            print("is top")
+        case .official(isTop: false, _):
+            print("not top")
+        case .official(isTop: _, remindEnabled: true):
+            print("remind")
+        case .official(isTop: _, remindEnabled: false):
+            print("not remind")
+        default:
+            break
+        }
         
         let alertController = UIAlertController(title: "选择球鞋成色", message: nil, preferredStyle: .actionSheet)
         let array: [ShoesQuality] = [.new, .flaw, .dressed, .secondHand]
@@ -108,19 +127,18 @@ class EnumPracticeViewController: CQBaseViewController {
 //            print("sub")
 //        }
 
-let type = UserDetailType.person(isOwn: false, userID: "001")
-
-switch type {
-case .person(isOwn: true, _):
-    print("is own")
-case .person(isOwn: false, let userID):
-    print("is other \(userID ?? "")")
-case .subscribe(let subscribeID):
-    print("订阅ID:\(subscribeID)")
-}
+        let type = UserDetailType.person(isOwn: false, userID: "001")
         
-        
+        switch type {
+        case .person(isOwn: true, _):
+            print("is own")
+        case .person(isOwn: false, let userID):
+            print("is other \(userID ?? "")")
+        case .subscribe(let subscribeID):
+            print("订阅ID:\(subscribeID)")
+        }
         
     }
     
 }
+

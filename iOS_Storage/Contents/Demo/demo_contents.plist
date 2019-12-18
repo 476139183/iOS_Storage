@@ -124,6 +124,14 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
+		<string>检测view是否释放</string>
+		<key>controller_name</key>
+		<string>CheckViewMemoryLeakViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
 		<string>计算帧率</string>
 		<key>controller_name</key>
 		<string>CQFPSViewController</string>
@@ -175,6 +183,14 @@
 		<string>UITextView</string>
 		<key>controller_name</key>
 		<string>UITextViewDemoController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>UIScrollViewDemo</string>
+		<key>controller_name</key>
+		<string>UIScrollViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>
