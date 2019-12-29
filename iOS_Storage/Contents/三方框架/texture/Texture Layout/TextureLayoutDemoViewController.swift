@@ -17,7 +17,7 @@ import UIKit
 
 // MARK: - Controller
 
-class TextureLayoutDemoViewController: ASViewController<ASDisplayNode>, UINavigationControllerDelegate, ASTableDataSource, ASTableDelegate {
+class TextureLayoutDemoViewController: ASViewController<ASDisplayNode>, UINavigationControllerDelegate, UIGestureRecognizerDelegate, ASTableDataSource, ASTableDelegate {
     
     private lazy var dataArray: [Model] = {
         return [Model(title: "WrapperLayout", targetVC: ASWrapperLayoutController()),
@@ -41,7 +41,7 @@ class TextureLayoutDemoViewController: ASViewController<ASDisplayNode>, UINaviga
     private lazy var naviNode: TextureLayoutDemoNaviNode = {
         let naviView = TextureLayoutDemoNaviNode()
         naviView.backClosure = { [weak self] in
-            self?.navigationController?.popViewController(animated: true)
+            //self?.navigationController?.popViewController(animated: true)
         }
         return naviView
     }()
@@ -57,13 +57,17 @@ class TextureLayoutDemoViewController: ASViewController<ASDisplayNode>, UINaviga
         fatalError("init(coder:) has not been implemented")
     }
     
+    deinit {
+        print("释放了")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
         self.navigationController?.delegate = self
-        
+        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
         
         node.addSubnode(naviNode)
         node.addSubnode(tableNode)

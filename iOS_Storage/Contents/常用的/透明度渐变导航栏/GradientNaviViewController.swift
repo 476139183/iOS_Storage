@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GradientNaviViewController: CQBaseViewController, UINavigationControllerDelegate, UITableViewDataSource, UITableViewDelegate {
+class GradientNaviViewController: CQBaseViewController, UINavigationControllerDelegate, UIGestureRecognizerDelegate, UITableViewDataSource, UITableViewDelegate {
     
     private lazy var naviView: NaviView = {
         let naviView = NaviView()
@@ -31,6 +31,7 @@ class GradientNaviViewController: CQBaseViewController, UINavigationControllerDe
         // Do any additional setup after loading the view.
         
         self.navigationController?.delegate = self
+        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
         
         view.addSubview(tableView)
         view.addSubview(naviView)

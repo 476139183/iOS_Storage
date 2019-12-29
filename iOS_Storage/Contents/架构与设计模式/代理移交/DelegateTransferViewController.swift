@@ -8,58 +8,152 @@
 
 import UIKit
 
-class DelegateTransferViewController: CQBaseViewController, UITableViewDataSource {
+class DelegateTransferViewController: CQBaseViewController, MyRedViewDelegate {
     
-    private lazy var dataArray: [Model] = {
-        let model = Model()
-        model.name = "jack"
-        return [model]
-    }()
-    
-    private lazy var tableView: UITableView = {
-        let tableView = UITableView()
-        tableView.dataSource = self
-        return tableView
-    }()
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
-        view.addSubview(tableView)
-        tableView.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
+        let orangeView = OrangeView()
+        view.addSubview(orangeView)
+        orangeView.snp.makeConstraints { (make) in
+            make.center.equalToSuperview()
+            make.size.equalTo(CGSize(width: 200, height: 200))
+        }
+        
+    }
+    
+    func redView(redView: MyRedView, leftButtonClicked: UIButton) {
+        print("left button clicked")
+    }
+    
+    func redView(redView: MyRedView, rightButtonClicked: UIButton) {
+        print("right button clicked")
+    }
+    
+}
+
+
+// MARK: -
+
+fileprivate class OrangeView: UIView {
+    
+    private lazy var redView: MyRedView = {
+        let redView = MyRedView()
+        return redView
+    }()
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        backgroundColor = .orange
+        
+        addSubview(redView)
+        redView.snp.makeConstraints { (make) in
+            make.edges.equalTo(UIEdgeInsets.init(top: 50, left: 50, bottom: 50, right: 50))
+        }
+        
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+}
+
+
+
+// MARK: -
+
+@objc protocol MyRedViewDelegate {
+    
+    // 左边按钮点击回调
+    func redView(redView: MyRedView, leftButtonClicked: UIButton)
+    // 右边按钮点击回调
+    func redView(redView: MyRedView, rightButtonClicked: UIButton)
+    
+}
+
+class MyRedView: UIView {
+    
+    weak var delegate: MyRedViewDelegate? {
+        get {
+            return self.getLatestResponderConformsToProtocol(targetProtocol: MyRedViewDelegate.self) as? MyRedViewDelegate
+        }
+    }
+    
+    // MARK: - init
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        //self.delegate = self.getLatestResponderConformsToProtocol(targetProtocol: MyRedViewDelegate.self) as? MyRedViewDelegate
+        setupUI()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    // MARK: - Lazy
+    
+    private lazy var leftButton: UIButton = {
+        let button = UIButton.init(type: .system)
+        button.setTitle("left", for: .normal)
+        button.addTarget(self, action: #selector(leftButtonClicked), for: .touchUpInside)
+        return button
+    }()
+    
+    private lazy var rightButton: UIButton = {
+        let button = UIButton.init(type: .system)
+        button.setTitle("right", for: .normal)
+        button.addTarget(self, action: #selector(rightButtonClicked), for: .touchUpInside)
+        return button
+    }()
+    
+    
+    // MARK: - UI
+    
+    private func setupUI() {
+        
+        backgroundColor = .red
+        
+        addSubview(leftButton)
+        addSubview(rightButton)
+        
+        leftButton.snp.makeConstraints { (make) in
+            make.centerY.equalToSuperview()
+            make.height.equalTo(20)
+            make.left.equalToSuperview()
+            make.right.equalTo(self.snp.centerX)
+        }
+        
+        rightButton.snp.makeConstraints { (make) in
+            make.centerY.right.equalToSuperview()
+            make.height.equalTo(20)
+            make.left.equalTo(self.snp.centerX)
         }
         
     }
     
     
-    // MARK: - UITableView
+    // MARK: - Action
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dataArray.count
+    @objc private func leftButtonClicked() {
+        self.delegate?.redView(redView: self, leftButtonClicked: leftButton)
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let reuseID = "reuseID"
-        var cell = tableView.dequeueReusableCell(withIdentifier: reuseID)
-        if cell == nil {
-            cell = UITableViewCell(style: .default, reuseIdentifier: reuseID)
-        }
-        
-        var model = dataArray[indexPath.row]
-        model.name = "Mike"
-        
-        cell?.textLabel?.text = dataArray[indexPath.row].name
-        
-        return cell!
+    @objc private func rightButtonClicked() {
+        self.delegate?.redView(redView: self, rightButtonClicked: rightButton)
     }
-
-}
-
-fileprivate class Model {
-    
-    var name = ""
     
 }
+
+
+//fileprivate class BlueView: MyRedView {
+//
+//    override var delegate: MyRedViewDelegate? {
+//        return self as? MyRedViewDelegate
+//    }
+//
+//}

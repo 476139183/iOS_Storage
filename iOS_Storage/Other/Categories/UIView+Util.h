@@ -13,4 +13,10 @@
 /** 移除所有subview */
 - (void)removeAllSubviews;
 
+/** 获取当前view所在的viewController */
+- (UIViewController *)getCurrentViewController;
+
+/** 获取最近的一个遵循指定协议的响应者 */
+//- (UIResponder *)getLatestResponderConformsToProtocol:(Protocol *)protocol;
+
 @end

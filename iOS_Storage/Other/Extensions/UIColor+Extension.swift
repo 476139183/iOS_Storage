@@ -20,29 +20,6 @@ enum GradientDirection {
 }
 
 extension UIColor {
-    public static var titleColor: UIColor {
-        return UIColor.colorWithHexString("373E4D")
-    }
-    
-    public static var backgroundColor: UIColor {
-        return UIColor.colorWithHexString("F7F7F9")
-    }
-    
-    public static var themeColor: UIColor {
-        return UIColor.colorWithHexString("FF6C6C")
-    }
-    
-    public static var text: UIColor {
-        return .colorWithHexString("252525")
-    }
-    
-    public static var tabSelectedColor: UIColor{
-        return .colorWithHexString("FE6C6C")
-    }
-    
-    public static var tabNormalColor: UIColor{
-        return .colorWithHexString("C6CCD1")
-    }
     
     static func random() -> UIColor {
         let red = CGFloat(arc4random() % 256) / 255.0
