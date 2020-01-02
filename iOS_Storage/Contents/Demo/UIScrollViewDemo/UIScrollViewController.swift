@@ -55,6 +55,22 @@ class UIScrollViewController: CQBaseViewController, UITableViewDataSource, UITab
         navigationController?.pushViewController(vc, animated: true)
     }
     
+    
+    // MARK: - UIScrollView Delegate
+    
+    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        print("scrollViewWillBeginDragging")
+    }
+    
+    func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
+        print("scrollViewWillEndDragging")
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        //print("scrollViewDidScroll")
+        
+    }
+    
 }
 
 

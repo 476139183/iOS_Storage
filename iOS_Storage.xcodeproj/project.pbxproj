@@ -115,8 +115,8 @@
 		D930957323B30A0400837CA6 /* StaticMyTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D930957223B30A0400837CA6 /* StaticMyTableView.storyboard */; };
 		D930957523B3527000837CA6 /* FPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D930957423B3527000837CA6 /* FPViewController.swift */; };
 		D930957723B3528D00837CA6 /* RPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D930957623B3528D00837CA6 /* RPViewController.swift */; };
-		D930957923B3556E00837CA6 /* 函数式编程.md in Resources */ = {isa = PBXBuildFile; fileRef = D930957823B3556E00837CA6 /* 函数式编程.md */; };
-		D930957B23B3582700837CA6 /* 响应式编程.md in Resources */ = {isa = PBXBuildFile; fileRef = D930957A23B3582700837CA6 /* 响应式编程.md */; };
+		D930957923B3556E00837CA6 /* FP.md in Resources */ = {isa = PBXBuildFile; fileRef = D930957823B3556E00837CA6 /* FP.md */; };
+		D930957B23B3582700837CA6 /* RP.md in Resources */ = {isa = PBXBuildFile; fileRef = D930957A23B3582700837CA6 /* RP.md */; };
 		D932D24C2338B39E00662E05 /* ASViewControllerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D932D24B2338B39E00662E05 /* ASViewControllerDemoController.swift */; };
 		D933CBDC23ADD68D00AFDF1B /* UIPresentationControllerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D933CBDB23ADD68D00AFDF1B /* UIPresentationControllerDemoController.swift */; };
 		D9376886235809B900515315 /* CollectionViewVerticalFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9376885235809B900515315 /* CollectionViewVerticalFlowLayout.swift */; };
@@ -206,9 +206,9 @@
 		D967A80D23ACAE110000C00D /* OOPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967A80C23ACAE110000C00D /* OOPViewController.swift */; };
 		D967A81523ACB0760000C00D /* OOP.md in Resources */ = {isa = PBXBuildFile; fileRef = D967A81423ACB0760000C00D /* OOP.md */; };
 		D967A81A23ACB9E20000C00D /* 编程思想.md in Resources */ = {isa = PBXBuildFile; fileRef = D967A81923ACB9E20000C00D /* 编程思想.md */; };
-		D967A81C23ACD0C50000C00D /* 面向协议编程.md in Resources */ = {isa = PBXBuildFile; fileRef = D967A81B23ACD0C50000C00D /* 面向协议编程.md */; };
+		D967A81C23ACD0C50000C00D /* POP.md in Resources */ = {isa = PBXBuildFile; fileRef = D967A81B23ACD0C50000C00D /* POP.md */; };
 		D9683C9223B3C65C00F5A87A /* CPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9683C9123B3C65C00F5A87A /* CPViewController.swift */; };
-		D9683C9423B3C6EB00F5A87A /* 链式编程.md in Resources */ = {isa = PBXBuildFile; fileRef = D9683C9323B3C6EB00F5A87A /* 链式编程.md */; };
+		D9683C9423B3C6EB00F5A87A /* CP.md in Resources */ = {isa = PBXBuildFile; fileRef = D9683C9323B3C6EB00F5A87A /* CP.md */; };
 		D9697FED22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9697FEC22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift */; };
 		D9697FEF22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9697FEE22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift */; };
 		D9697FF122F097D800220938 /* StandardSwiftCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9697FF022F097D800220938 /* StandardSwiftCollectionViewCell.swift */; };
@@ -315,6 +315,11 @@
 		D9B563F720E24A14001AE9A0 /* iphone_menu_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B563F520E24896001AE9A0 /* iphone_menu_data.json */; };
 		D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B563F620E249E3001AE9A0 /* iphone_list_data.json */; };
 		D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */; };
+		D9B6313B23BB29E1003D95D9 /* UIActivityViewControllerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6313A23BB29E1003D95D9 /* UIActivityViewControllerDemoViewController.swift */; };
+		D9B6313D23BB30CD003D95D9 /* NumPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6313C23BB30CD003D95D9 /* NumPracticeViewController.swift */; };
+		D9B6313F23BB3111003D95D9 /* DatePracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6313E23BB3111003D95D9 /* DatePracticeViewController.swift */; };
+		D9B6314123BB312D003D95D9 /* DataPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6314023BB312D003D95D9 /* DataPracticeViewController.swift */; };
+		D9B6314423BB328D003D95D9 /* HandleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6314323BB328D003D95D9 /* HandleTableViewController.swift */; };
 		D9BBF96D235F2F4A009342EC /* JXSegmentedDemoBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BBF96C235F2F4A009342EC /* JXSegmentedDemoBaseController.swift */; };
 		D9BBF970235F4885009342EC /* third_part_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9BBF96F235F4885009342EC /* third_part_contents.plist */; };
 		D9BC6F5E238E2E050085E4E0 /* JXPagingMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BC6F5A238E2E050085E4E0 /* JXPagingMainTableView.swift */; };
@@ -324,6 +329,17 @@
 		D9BC6F63238E30590085E4E0 /* NestedTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BC6F62238E30590085E4E0 /* NestedTableHeaderView.swift */; };
 		D9BC6F65238E58CD0085E4E0 /* NestedItemTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BC6F64238E58CD0085E4E0 /* NestedItemTableView.swift */; };
 		D9BC6F67238E58F30085E4E0 /* NestedItemWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BC6F66238E58F30085E4E0 /* NestedItemWebView.swift */; };
+		D9BE257323B860E0001F4D71 /* AOP.md in Resources */ = {isa = PBXBuildFile; fileRef = D9BE257223B860E0001F4D71 /* AOP.md */; };
+		D9BE257A23B86F1C001F4D71 /* SameModelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE257923B86F1C001F4D71 /* SameModelTableViewController.swift */; };
+		D9BE257E23B870F2001F4D71 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE257D23B870F2001F4D71 /* SimpleTableViewController.swift */; };
+		D9BE258023B8711E001F4D71 /* QuickTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE257F23B8711E001F4D71 /* QuickTableViewController.swift */; };
+		D9BE258223B87B48001F4D71 /* 同种model多种cell的tableView.md in Resources */ = {isa = PBXBuildFile; fileRef = D9BE258123B87B48001F4D71 /* 同种model多种cell的tableView.md */; };
+		D9BE258423B8831D001F4D71 /* AbstractClassTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE258323B8831D001F4D71 /* AbstractClassTableViewController.swift */; };
+		D9BE258723B886C9001F4D71 /* AbstractClassBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE258623B886C9001F4D71 /* AbstractClassBaseCell.swift */; };
+		D9BE258A23B889CF001F4D71 /* ProtocolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE258923B889CF001F4D71 /* ProtocolTableViewController.swift */; };
+		D9BE258C23B88A47001F4D71 /* CellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE258B23B88A47001F4D71 /* CellProtocol.swift */; };
+		D9BE258E23B88B7E001F4D71 /* PersonCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE258D23B88B7E001F4D71 /* PersonCellModel.swift */; };
+		D9BE259023B88E80001F4D71 /* ProtocolPersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE258F23B88E80001F4D71 /* ProtocolPersonCell.swift */; };
 		D9BF6905233EEF2300E602A4 /* CQGradientControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6904233EEF2300E602A4 /* CQGradientControl.m */; };
 		D9BF6908233EF61300E602A4 /* CQGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6907233EF61300E602A4 /* CQGradientButton.m */; };
 		D9BF690F233F4B2A00E602A4 /* CQGradientOCDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF690E233F4B2A00E602A4 /* CQGradientOCDemoViewController.m */; };
@@ -380,6 +396,7 @@
 		D9CB1EC42342053900CEB752 /* RxSwiftDynamicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB1EC32342053900CEB752 /* RxSwiftDynamicTableViewController.swift */; };
 		D9CE54B8233D0B1100AB58C0 /* MyCellNode3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE54B7233D0B1100AB58C0 /* MyCellNode3.swift */; };
 		D9CE54BA233D100A00AB58C0 /* MyCellNode4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE54B9233D100A00AB58C0 /* MyCellNode4.swift */; };
+		D9CE5E4F23B89E0C007A9502 /* SuperNestedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE5E4E23B89E0C007A9502 /* SuperNestedTableViewController.swift */; };
 		D9CE605923518F3700D65107 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE605823518F3700D65107 /* UIImage+Extension.swift */; };
 		D9CEB46C2355D5080050E7AD /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CEB46B2355D5080050E7AD /* PlaceholderTextView.swift */; };
 		D9CF66872351C113003002E5 /* RxSwiftBindDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CF66862351C113003002E5 /* RxSwiftBindDemoViewController.swift */; };
@@ -610,8 +627,8 @@
 		D930957223B30A0400837CA6 /* StaticMyTableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StaticMyTableView.storyboard; sourceTree = "<group>"; };
 		D930957423B3527000837CA6 /* FPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPViewController.swift; sourceTree = "<group>"; };
 		D930957623B3528D00837CA6 /* RPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPViewController.swift; sourceTree = "<group>"; };
-		D930957823B3556E00837CA6 /* 函数式编程.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "函数式编程.md"; sourceTree = "<group>"; };
-		D930957A23B3582700837CA6 /* 响应式编程.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "响应式编程.md"; sourceTree = "<group>"; };
+		D930957823B3556E00837CA6 /* FP.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FP.md; sourceTree = "<group>"; };
+		D930957A23B3582700837CA6 /* RP.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RP.md; sourceTree = "<group>"; };
 		D932D24B2338B39E00662E05 /* ASViewControllerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASViewControllerDemoController.swift; sourceTree = "<group>"; };
 		D933CBDB23ADD68D00AFDF1B /* UIPresentationControllerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPresentationControllerDemoController.swift; sourceTree = "<group>"; };
 		D9376885235809B900515315 /* CollectionViewVerticalFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewVerticalFlowLayout.swift; sourceTree = "<group>"; };
@@ -741,9 +758,9 @@
 		D967A80C23ACAE110000C00D /* OOPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOPViewController.swift; sourceTree = "<group>"; };
 		D967A81423ACB0760000C00D /* OOP.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = OOP.md; sourceTree = "<group>"; };
 		D967A81923ACB9E20000C00D /* 编程思想.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "编程思想.md"; sourceTree = "<group>"; };
-		D967A81B23ACD0C50000C00D /* 面向协议编程.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "面向协议编程.md"; sourceTree = "<group>"; };
+		D967A81B23ACD0C50000C00D /* POP.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = POP.md; sourceTree = "<group>"; };
 		D9683C9123B3C65C00F5A87A /* CPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPViewController.swift; sourceTree = "<group>"; };
-		D9683C9323B3C6EB00F5A87A /* 链式编程.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "链式编程.md"; sourceTree = "<group>"; };
+		D9683C9323B3C6EB00F5A87A /* CP.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CP.md; sourceTree = "<group>"; };
 		D9697FEC22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftCollectionViewSectionHeaderView.swift; sourceTree = "<group>"; };
 		D9697FEE22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftCollectionViewSectionFooterView.swift; sourceTree = "<group>"; };
 		D9697FF022F097D800220938 /* StandardSwiftCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -879,6 +896,11 @@
 		D9B563F620E249E3001AE9A0 /* iphone_list_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = iphone_list_data.json; sourceTree = "<group>"; };
 		D9B563F920E24B1F001AE9A0 /* CQIphoneDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIphoneDetailViewController.h; sourceTree = "<group>"; };
 		D9B563FA20E24B1F001AE9A0 /* CQIphoneDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQIphoneDetailViewController.m; sourceTree = "<group>"; };
+		D9B6313A23BB29E1003D95D9 /* UIActivityViewControllerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivityViewControllerDemoViewController.swift; sourceTree = "<group>"; };
+		D9B6313C23BB30CD003D95D9 /* NumPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumPracticeViewController.swift; sourceTree = "<group>"; };
+		D9B6313E23BB3111003D95D9 /* DatePracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePracticeViewController.swift; sourceTree = "<group>"; };
+		D9B6314023BB312D003D95D9 /* DataPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPracticeViewController.swift; sourceTree = "<group>"; };
+		D9B6314323BB328D003D95D9 /* HandleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleTableViewController.swift; sourceTree = "<group>"; };
 		D9BBF96C235F2F4A009342EC /* JXSegmentedDemoBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedDemoBaseController.swift; sourceTree = "<group>"; };
 		D9BBF96F235F4885009342EC /* third_part_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = third_part_contents.plist; sourceTree = "<group>"; };
 		D9BC6F5A238E2E050085E4E0 /* JXPagingMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXPagingMainTableView.swift; sourceTree = "<group>"; };
@@ -888,6 +910,17 @@
 		D9BC6F62238E30590085E4E0 /* NestedTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableHeaderView.swift; sourceTree = "<group>"; };
 		D9BC6F64238E58CD0085E4E0 /* NestedItemTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedItemTableView.swift; sourceTree = "<group>"; };
 		D9BC6F66238E58F30085E4E0 /* NestedItemWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedItemWebView.swift; sourceTree = "<group>"; };
+		D9BE257223B860E0001F4D71 /* AOP.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AOP.md; sourceTree = "<group>"; };
+		D9BE257923B86F1C001F4D71 /* SameModelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameModelTableViewController.swift; sourceTree = "<group>"; };
+		D9BE257D23B870F2001F4D71 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
+		D9BE257F23B8711E001F4D71 /* QuickTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTableViewController.swift; sourceTree = "<group>"; };
+		D9BE258123B87B48001F4D71 /* 同种model多种cell的tableView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "同种model多种cell的tableView.md"; sourceTree = "<group>"; };
+		D9BE258323B8831D001F4D71 /* AbstractClassTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractClassTableViewController.swift; sourceTree = "<group>"; };
+		D9BE258623B886C9001F4D71 /* AbstractClassBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractClassBaseCell.swift; sourceTree = "<group>"; };
+		D9BE258923B889CF001F4D71 /* ProtocolTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolTableViewController.swift; sourceTree = "<group>"; };
+		D9BE258B23B88A47001F4D71 /* CellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellProtocol.swift; sourceTree = "<group>"; };
+		D9BE258D23B88B7E001F4D71 /* PersonCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCellModel.swift; sourceTree = "<group>"; };
+		D9BE258F23B88E80001F4D71 /* ProtocolPersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolPersonCell.swift; sourceTree = "<group>"; };
 		D9BF6903233EEF2300E602A4 /* CQGradientControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientControl.h; sourceTree = "<group>"; };
 		D9BF6904233EEF2300E602A4 /* CQGradientControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientControl.m; sourceTree = "<group>"; };
 		D9BF6906233EF61300E602A4 /* CQGradientButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientButton.h; sourceTree = "<group>"; };
@@ -958,6 +991,7 @@
 		D9CB1EC32342053900CEB752 /* RxSwiftDynamicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftDynamicTableViewController.swift; sourceTree = "<group>"; };
 		D9CE54B7233D0B1100AB58C0 /* MyCellNode3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode3.swift; sourceTree = "<group>"; };
 		D9CE54B9233D100A00AB58C0 /* MyCellNode4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode4.swift; sourceTree = "<group>"; };
+		D9CE5E4E23B89E0C007A9502 /* SuperNestedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperNestedTableViewController.swift; sourceTree = "<group>"; };
 		D9CE605823518F3700D65107 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		D9CEB46B2355D5080050E7AD /* PlaceholderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
 		D9CF66862351C113003002E5 /* RxSwiftBindDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftBindDemoViewController.swift; sourceTree = "<group>"; };
@@ -1784,6 +1818,7 @@
 				D97129DE239E2E1100AEAD3C /* UITextViewDemo */,
 				D91245D423A90A3E00E3775A /* UIScrollViewDemo */,
 				D933CBDA23ADD5F100AFDF1B /* UIPresentationController */,
+				D9B6313923BB29B7003D95D9 /* UIActivityViewController */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -1862,6 +1897,10 @@
 				D97D0CAD23B5FF1B001E6FB7 /* 修改组头悬停位置 */,
 				D954FF4E23B1BB920052A63A /* 静态tableView */,
 				D954FF4F23B1BBA00052A63A /* tableView预加载 */,
+				D9BE257623B86E45001F4D71 /* 同种model多种cell的tableView */,
+				D9BE257B23B86FCD001F4D71 /* 精简tableView */,
+				D9BE257C23B8706D001F4D71 /* 极速tableView */,
+				D9B6314223BB3149003D95D9 /* tableView的各种操作 */,
 				D9C7CBF822E9905C0038FD34 /* 标准CollectionView OC版 */,
 				D9C7CBF922E990770038FD34 /* 标准CollectionView Swift版 */,
 				D937687C2357FD7200515315 /* 常用CollectionViewLayout */,
@@ -1898,6 +1937,7 @@
 		D94016972361F02800580AAC /* Number */ = {
 			isa = PBXGroup;
 			children = (
+				D9B6313C23BB30CD003D95D9 /* NumPracticeViewController.swift */,
 			);
 			path = Number;
 			sourceTree = "<group>";
@@ -1905,6 +1945,7 @@
 		D94016982361F04600580AAC /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				D9B6314023BB312D003D95D9 /* DataPracticeViewController.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -1912,6 +1953,7 @@
 		D94016992361F05000580AAC /* Date */ = {
 			isa = PBXGroup;
 			children = (
+				D9B6313E23BB3111003D95D9 /* DatePracticeViewController.swift */,
 			);
 			path = Date;
 			sourceTree = "<group>";
@@ -2389,7 +2431,7 @@
 		D967A80F23ACAF9F0000C00D /* 面向协议编程 */ = {
 			isa = PBXGroup;
 			children = (
-				D967A81B23ACD0C50000C00D /* 面向协议编程.md */,
+				D967A81B23ACD0C50000C00D /* POP.md */,
 				D9AC507823B0777C00CB4DF2 /* POPViewController.swift */,
 			);
 			path = "面向协议编程";
@@ -2398,6 +2440,7 @@
 		D967A81023ACAFAD0000C00D /* 面向切面编程 */ = {
 			isa = PBXGroup;
 			children = (
+				D9BE257223B860E0001F4D71 /* AOP.md */,
 				D9AC507623B0770C00CB4DF2 /* AOPViewController.swift */,
 			);
 			path = "面向切面编程";
@@ -2406,7 +2449,7 @@
 		D967A81123ACAFCE0000C00D /* 函数式编程 */ = {
 			isa = PBXGroup;
 			children = (
-				D930957823B3556E00837CA6 /* 函数式编程.md */,
+				D930957823B3556E00837CA6 /* FP.md */,
 				D930957423B3527000837CA6 /* FPViewController.swift */,
 			);
 			path = "函数式编程";
@@ -2415,7 +2458,7 @@
 		D967A81223ACB02D0000C00D /* 响应式编程 */ = {
 			isa = PBXGroup;
 			children = (
-				D930957A23B3582700837CA6 /* 响应式编程.md */,
+				D930957A23B3582700837CA6 /* RP.md */,
 				D930957623B3528D00837CA6 /* RPViewController.swift */,
 			);
 			path = "响应式编程";
@@ -2424,7 +2467,7 @@
 		D9683C9023B3C5FE00F5A87A /* 链式编程 */ = {
 			isa = PBXGroup;
 			children = (
-				D9683C9323B3C6EB00F5A87A /* 链式编程.md */,
+				D9683C9323B3C6EB00F5A87A /* CP.md */,
 				D9683C9123B3C65C00F5A87A /* CPViewController.swift */,
 			);
 			path = "链式编程";
@@ -2526,6 +2569,7 @@
 			children = (
 				D9146DE52392046C002EA395 /* NestedTableDemoViewController.swift */,
 				D9146DE1239202B2002EA395 /* tableView嵌套 */,
+				D9CE5E4B23B89DAC007A9502 /* 多重嵌套 */,
 				D9146DE2239203CB002EA395 /* 同时滑动上下scrollView */,
 			);
 			path = "嵌套tableView";
@@ -2995,6 +3039,22 @@
 			path = "getter与setter";
 			sourceTree = "<group>";
 		};
+		D9B6313923BB29B7003D95D9 /* UIActivityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D9B6313A23BB29E1003D95D9 /* UIActivityViewControllerDemoViewController.swift */,
+			);
+			path = UIActivityViewController;
+			sourceTree = "<group>";
+		};
+		D9B6314223BB3149003D95D9 /* tableView的各种操作 */ = {
+			isa = PBXGroup;
+			children = (
+				D9B6314323BB328D003D95D9 /* HandleTableViewController.swift */,
+			);
+			path = "tableView的各种操作";
+			sourceTree = "<group>";
+		};
 		D9BBF96E235F4832009342EC /* 三方框架 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3024,6 +3084,68 @@
 				D9BC6F5D238E2E050085E4E0 /* JXPagingListContainerView.swift */,
 			);
 			path = "JXPagingView-Swift";
+			sourceTree = "<group>";
+		};
+		D9BE257423B86A45001F4D71 /* 高阶技能 */ = {
+			isa = PBXGroup;
+			children = (
+				D94253152365EFA90031356C /* 代理移交 */,
+			);
+			path = "高阶技能";
+			sourceTree = "<group>";
+		};
+		D9BE257523B86B0B001F4D71 /* 设计原则 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "设计原则";
+			sourceTree = "<group>";
+		};
+		D9BE257623B86E45001F4D71 /* 同种model多种cell的tableView */ = {
+			isa = PBXGroup;
+			children = (
+				D9BE258123B87B48001F4D71 /* 同种model多种cell的tableView.md */,
+				D9BE257923B86F1C001F4D71 /* SameModelTableViewController.swift */,
+				D9BE258523B88665001F4D71 /* 基于抽象基类 */,
+				D9BE258823B8890E001F4D71 /* 基于协议 */,
+			);
+			path = "同种model多种cell的tableView";
+			sourceTree = "<group>";
+		};
+		D9BE257B23B86FCD001F4D71 /* 精简tableView */ = {
+			isa = PBXGroup;
+			children = (
+				D9BE257D23B870F2001F4D71 /* SimpleTableViewController.swift */,
+			);
+			path = "精简tableView";
+			sourceTree = "<group>";
+		};
+		D9BE257C23B8706D001F4D71 /* 极速tableView */ = {
+			isa = PBXGroup;
+			children = (
+				D9BE257F23B8711E001F4D71 /* QuickTableViewController.swift */,
+			);
+			path = "极速tableView";
+			sourceTree = "<group>";
+		};
+		D9BE258523B88665001F4D71 /* 基于抽象基类 */ = {
+			isa = PBXGroup;
+			children = (
+				D9BE258623B886C9001F4D71 /* AbstractClassBaseCell.swift */,
+				D9BE258323B8831D001F4D71 /* AbstractClassTableViewController.swift */,
+			);
+			path = "基于抽象基类";
+			sourceTree = "<group>";
+		};
+		D9BE258823B8890E001F4D71 /* 基于协议 */ = {
+			isa = PBXGroup;
+			children = (
+				D9BE258B23B88A47001F4D71 /* CellProtocol.swift */,
+				D9BE258D23B88B7E001F4D71 /* PersonCellModel.swift */,
+				D9BE258F23B88E80001F4D71 /* ProtocolPersonCell.swift */,
+				D9BE258923B889CF001F4D71 /* ProtocolTableViewController.swift */,
+			);
+			path = "基于协议";
 			sourceTree = "<group>";
 		};
 		D9C0EFBB23A0A20D0053EEAC /* 透明度渐变导航栏 */ = {
@@ -3234,6 +3356,14 @@
 				D96FE2C02396425D00949006 /* 各种Layout */,
 			);
 			path = "Texture Layout";
+			sourceTree = "<group>";
+		};
+		D9CE5E4B23B89DAC007A9502 /* 多重嵌套 */ = {
+			isa = PBXGroup;
+			children = (
+				D9CE5E4E23B89E0C007A9502 /* SuperNestedTableViewController.swift */,
+			);
+			path = "多重嵌套";
 			sourceTree = "<group>";
 		};
 		D9CEB3032130E41C00664EF3 /* 简单工厂 */ = {
@@ -3694,9 +3824,10 @@
 			isa = PBXGroup;
 			children = (
 				D913F9412109CDC400366887 /* architecture_contents.plist */,
+				D9BE257423B86A45001F4D71 /* 高阶技能 */,
 				D967A80B23ACAD320000C00D /* 编程思想 */,
-				D94253152365EFA90031356C /* 代理移交 */,
 				D9CFC816229CE92D009B8399 /* 架构模式 */,
+				D9BE257523B86B0B001F4D71 /* 设计原则 */,
 				D9CFC817229CE935009B8399 /* 设计模式 */,
 			);
 			path = "架构与设计模式";
@@ -3905,6 +4036,7 @@
 				D9A39F6E22B4C90900FEA5F5 /* 策略设计模式.md in Resources */,
 				D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */,
 				D96FE2BD23960E0500949006 /* ASDisplayNode.md in Resources */,
+				D9BE258223B87B48001F4D71 /* 同种model多种cell的tableView.md in Resources */,
 				D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */,
 				D9179CDE22B7C04F002FCCA0 /* 装饰模式.md in Resources */,
 				D94BCDEC22E9D91B0080584F /* 标准CollectionView OC版.md in Resources */,
@@ -3920,14 +4052,15 @@
 				D967A81A23ACB9E20000C00D /* 编程思想.md in Resources */,
 				D9B2FDF5233877BE00755653 /* texture.md in Resources */,
 				D920ED2222E87F2900C5A43F /* LottieLogo1.json in Resources */,
-				D9683C9423B3C6EB00F5A87A /* 链式编程.md in Resources */,
+				D9683C9423B3C6EB00F5A87A /* CP.md in Resources */,
+				D9BE257323B860E0001F4D71 /* AOP.md in Resources */,
 				D9BBF970235F4885009342EC /* third_part_contents.plist in Resources */,
 				D9AEB65B22F58B1E006F8995 /* person_info.json in Resources */,
 				D9402A892101E5B500BF792F /* tips_contents.plist in Resources */,
 				D9AC3CB622AFFDC2007DDBD0 /* 数据结构分类.md in Resources */,
 				D9E30C36236D5FC50042BC74 /* img_0.png in Resources */,
 				D94016932361EE9C00580AAC /* frequently_used_contents.plist in Resources */,
-				D930957923B3556E00837CA6 /* 函数式编程.md in Resources */,
+				D930957923B3556E00837CA6 /* FP.md in Resources */,
 				D9519A0C22BFB36A00E3036B /* 原型模式.md in Resources */,
 				D9AC3CB422AFFC94007DDBD0 /* C语言注意点.md in Resources */,
 				D9C7CC1322E9A2000038FD34 /* 标准TableView OC版.md in Resources */,
@@ -3940,7 +4073,7 @@
 				D9E30C35236D5FC50042BC74 /* img_1.png in Resources */,
 				D91A9F8422B490F7008F87F1 /* logo商标识别.md in Resources */,
 				D9E30C38236D5FC50042BC74 /* img_3.png in Resources */,
-				D967A81C23ACD0C50000C00D /* 面向协议编程.md in Resources */,
+				D967A81C23ACD0C50000C00D /* POP.md in Resources */,
 				D930957323B30A0400837CA6 /* StaticMyTableView.storyboard in Resources */,
 				D926BDCA22C48E5200A2DD3E /* 状态模式.md in Resources */,
 				D920ED1E22E8706400C5A43F /* wordsanime.json in Resources */,
@@ -3963,7 +4096,7 @@
 				D9E30C40236D686B0042BC74 /* 加载中.gif in Resources */,
 				D9519A1122BFB41000E3036B /* CQPrototypeViewController.xib in Resources */,
 				D9A39F7522B4D06400FEA5F5 /* 架构模式.md in Resources */,
-				D930957B23B3582700837CA6 /* 响应式编程.md in Resources */,
+				D930957B23B3582700837CA6 /* RP.md in Resources */,
 				D926BDE922C5E88600A2DD3E /* 备忘录模式.md in Resources */,
 				D9B563F820E24A14001AE9A0 /* iphone_list_data.json in Resources */,
 				D994A6DC23A5E4E20032E540 /* ControlFlow.md in Resources */,
@@ -4117,6 +4250,7 @@
 				D9519A1022BFB41000E3036B /* CQPrototypeViewController.m in Sources */,
 				D9A39F8122B4D30200FEA5F5 /* CQVIPERViewController.m in Sources */,
 				D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */,
+				D9BE258E23B88B7E001F4D71 /* PersonCellModel.swift in Sources */,
 				D9DA0E8220E2519D006CEA1C /* IphoneListItemModel.m in Sources */,
 				D93A0BF9233CA0D300554EF6 /* MyCellNode.swift in Sources */,
 				D9C7CC1D22E9AA210038FD34 /* StandardSwiftTableViewCell.swift in Sources */,
@@ -4157,6 +4291,7 @@
 				D941B86C235F237E00AEB48E /* JXSegmentedChildController1.swift in Sources */,
 				D9721592239B90ED007607B2 /* IrregularityViewController.swift in Sources */,
 				D9608BF7236987940053BD3E /* UIButton+EnlargeTouchArea.m in Sources */,
+				D9B6313B23BB29E1003D95D9 /* UIActivityViewControllerDemoViewController.swift in Sources */,
 				D926BDD622C4963B00A2DD3E /* NoonState.m in Sources */,
 				D94BCDF322E9DB0C0080584F /* CQStandardOCCollectionSectionFooterView.m in Sources */,
 				D98665312371555400AA60B2 /* ImageTextConvertViewController.swift in Sources */,
@@ -4226,6 +4361,7 @@
 				D941B865235EF9AD00AEB48E /* LocationManager.swift in Sources */,
 				D96FE2CC239644DA00949006 /* ASCenterLayoutController.swift in Sources */,
 				D9AEB68622F6A96B006F8995 /* CQMVVMModel.m in Sources */,
+				D9B6314423BB328D003D95D9 /* HandleTableViewController.swift in Sources */,
 				D9AEB65622F56747006F8995 /* AlamofireDemoViewController.swift in Sources */,
 				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
 				D913F93F2109C08200366887 /* CQContentViewController.m in Sources */,
@@ -4258,6 +4394,7 @@
 				D9CE605923518F3700D65107 /* UIImage+Extension.swift in Sources */,
 				D9C5B450233DC58000299AFB /* Constants.swift in Sources */,
 				D9A39F8722B4D51900FEA5F5 /* CQStrategyViewController.m in Sources */,
+				D9CE5E4F23B89E0C007A9502 /* SuperNestedTableViewController.swift in Sources */,
 				D9012A0C23927237008D5EF5 /* TextureDemoViewController.swift in Sources */,
 				D9AA680A237F8E1000A14C37 /* CQLeftSideLayout.m in Sources */,
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
@@ -4265,6 +4402,7 @@
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
 				D9B2FDE9233314BA00755653 /* CQCacheDemoViewController.m in Sources */,
 				D92DA5CC22C1BAAD00E91212 /* UIColor+Util.m in Sources */,
+				D9BE258723B886C9001F4D71 /* AbstractClassBaseCell.swift in Sources */,
 				D941B86E235F239400AEB48E /* JXSegmentedChildController2.swift in Sources */,
 				D986653723715E8800AA60B2 /* JXMixViewController.swift in Sources */,
 				D99BD9C32398F6600072A784 /* CQMemoryLeakViewController.m in Sources */,
@@ -4303,6 +4441,7 @@
 				D9C7CC2122E9ACD20038FD34 /* StandardSwiftTableHeaderView.swift in Sources */,
 				D9AEB68022F6A437006F8995 /* CQMVVMCell.m in Sources */,
 				D953284E239A06F900C15136 /* CQMemoryLeakView.m in Sources */,
+				D9BE258423B8831D001F4D71 /* AbstractClassTableViewController.swift in Sources */,
 				D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */,
 				D9C7CC2722E9BC9B0038FD34 /* StandardSwiftSectionFooterView.swift in Sources */,
 				D9C5E5E62349AB1A00D101F1 /* CQEasyButton.m in Sources */,
@@ -4349,6 +4488,7 @@
 				D94016902361BF1400580AAC /* UIView+Extension.swift in Sources */,
 				D9D64FD72105DDA300379FF2 /* CQThreadViewController.m in Sources */,
 				D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */,
+				D9B6313F23BB3111003D95D9 /* DatePracticeViewController.swift in Sources */,
 				D95328482399EA4F00C15136 /* UIAlertController+Util.m in Sources */,
 				D9CE54B8233D0B1100AB58C0 /* MyCellNode3.swift in Sources */,
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
@@ -4375,6 +4515,7 @@
 				D92DA5C922C1B4D000E91212 /* PrototypePerson.m in Sources */,
 				D9DE6CC920FEE9C000C8D4FE /* CQFilterCell.m in Sources */,
 				D91A9F7F22B3D912008F87F1 /* CountDownButtonViewController.swift in Sources */,
+				D9BE257A23B86F1C001F4D71 /* SameModelTableViewController.swift in Sources */,
 				D9376888235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift in Sources */,
 				D97129E0239E300C00AEAD3C /* UITextViewDemoController.swift in Sources */,
 				D9E21A85210FF7F500407599 /* CQClassClusterBaseCell.m in Sources */,
@@ -4390,6 +4531,7 @@
 				D994A6E023A65E050032E540 /* IconFontButton.swift in Sources */,
 				D9AC507723B0770C00CB4DF2 /* AOPViewController.swift in Sources */,
 				D96A17E7237EFDF90018E7F1 /* LeftSideLayout.swift in Sources */,
+				D9BE259023B88E80001F4D71 /* ProtocolPersonCell.swift in Sources */,
 				D9AEB68922F6AA56006F8995 /* CQMVVMViewModel.m in Sources */,
 				D91E1D2B233E585800B1C772 /* UIImage+Util.m in Sources */,
 				D9CFC80D229CE438009B8399 /* Cat2.m in Sources */,
@@ -4397,14 +4539,19 @@
 				D932D24C2338B39E00662E05 /* ASViewControllerDemoController.swift in Sources */,
 				D9AC3CA522AFD281007DDBD0 /* MapNaviViewController.swift in Sources */,
 				D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */,
+				D9BE257E23B870F2001F4D71 /* SimpleTableViewController.swift in Sources */,
 				D9608BF4236970350053BD3E /* CQConstants.swift in Sources */,
 				D9545B3E2293B275008B6355 /* CQRunloopModeController.m in Sources */,
 				D93EE5CC230A3F320016B6F1 /* CQBackgroundDownloadManager.swift in Sources */,
+				D9B6314123BB312D003D95D9 /* DataPracticeViewController.swift in Sources */,
 				D9C7CBF322E9552A0038FD34 /* ObjectMapperDemoViewController.swift in Sources */,
+				D9B6313D23BB30CD003D95D9 /* NumPracticeViewController.swift in Sources */,
 				D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */,
 				D95199F322BDF59A00E3036B /* CQFactoryViewController.m in Sources */,
 				D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */,
+				D9BE258A23B889CF001F4D71 /* ProtocolTableViewController.swift in Sources */,
 				D92D3062216B3D8700B57A2D /* CQRippleViewController.m in Sources */,
+				D9BE258C23B88A47001F4D71 /* CellProtocol.swift in Sources */,
 				D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */,
 				D9C2353323856008008C0D59 /* TestNaviBarViewController2.swift in Sources */,
 				D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */,
@@ -4427,6 +4574,7 @@
 				D91A9F7D22B3D89E008F87F1 /* NSTimer+CQBlockSupport.m in Sources */,
 				D97246FA237EB11D001671AD /* LeftSideCellViewController.swift in Sources */,
 				D930957023B2FDFD00837CA6 /* StaticMyTableViewController.swift in Sources */,
+				D9BE258023B8711E001F4D71 /* QuickTableViewController.swift in Sources */,
 				D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */,
 				D9A39F7B22B4D2DC00FEA5F5 /* CQMVPViewController.m in Sources */,
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,

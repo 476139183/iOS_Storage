@@ -11,7 +11,7 @@
 
 #import <JSONModel.h>
 #import <Masonry.h>
-#import <SVProgressHUD.H>
+#import <SVProgressHUD.h>
 #import "Categories.h"
 #import "CQBaseModel.h"
 #import "CQBaseViewController.h"

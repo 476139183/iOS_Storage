@@ -122,3 +122,11 @@ extension NestedTableViewController: JXPagingViewDelegate {
     }
     
 }
+
+extension NestedTableViewController: JXSegmentedListContainerViewListDelegate {
+    
+    func listView() -> UIView {
+        return self.view
+    }
+    
+}

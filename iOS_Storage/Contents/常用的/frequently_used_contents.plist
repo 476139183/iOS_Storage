@@ -68,6 +68,38 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
+		<string>同种model多种cell的tableView</string>
+		<key>controller_name</key>
+		<string>SameModelTableViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>精简tableView</string>
+		<key>controller_name</key>
+		<string>SimpleTableViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>极速tableView</string>
+		<key>controller_name</key>
+		<string>QuickTableViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>tableView的各种操作</string>
+		<key>controller_name</key>
+		<string>HandleTableViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
 		<string>标准CollectionView OC版</string>
 		<key>controller_name</key>
 		<string>CQStandardOCCollectionViewViewController</string>
@@ -143,6 +175,30 @@
 		<string>dict</string>
 		<key>controller_name</key>
 		<string>DictPracticeViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>number</string>
+		<key>controller_name</key>
+		<string>NumPracticeViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>date</string>
+		<key>controller_name</key>
+		<string>DatePracticeViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>data</string>
+		<key>controller_name</key>
+		<string>DataPracticeViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>

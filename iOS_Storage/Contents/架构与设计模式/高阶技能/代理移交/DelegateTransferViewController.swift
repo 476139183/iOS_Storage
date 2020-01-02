@@ -77,9 +77,16 @@ fileprivate class OrangeView: UIView {
 
 class MyRedView: UIView {
     
+    private var customDelegate: MyRedViewDelegate?
+    
     weak var delegate: MyRedViewDelegate? {
+        
+        set {
+            customDelegate = newValue
+        }
+        
         get {
-            return self.getLatestResponderConformsToProtocol(targetProtocol: MyRedViewDelegate.self) as? MyRedViewDelegate
+            return customDelegate ?? self.getLatestResponderConformsToProtocol(targetProtocol: MyRedViewDelegate.self) as? MyRedViewDelegate
         }
     }
     

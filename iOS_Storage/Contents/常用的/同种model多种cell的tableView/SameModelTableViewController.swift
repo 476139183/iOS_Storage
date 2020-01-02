@@ -1,20 +1,16 @@
 //
-//  NestedTableDemoViewController.swift
+//  SameModelTableViewController.swift
 //  iOS_Storage
 //
-//  Created by caiqiang on 2019/11/30.
+//  Created by caiqiang on 2019/12/29.
 //  Copyright © 2019 蔡强. All rights reserved.
 //
 
 import UIKit
 
-class NestedTableDemoViewController: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
+class SameModelTableViewController: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
     
-    private lazy var dataArray: [Model] = {
-        return [Model(title: "嵌套tableView", targetVC: NestedTableViewController()),
-                Model(title: "多重嵌套tableView", targetVC: SuperNestedTableViewController()),
-                Model(title: "同时滑动的scrollView", targetVC: GestureScrollViewController())]
-    }()
+    private let dataArray: [Model] = [Model(title: "抽象基类", targetVC: AbstractClassTableViewController())]
     
     private lazy var tableView: UITableView = {
         let tableView = UITableView()
@@ -23,23 +19,15 @@ class NestedTableDemoViewController: CQBaseViewController, UITableViewDataSource
         return tableView
     }()
     
-    
-    // MARK: - Life Cycle
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
         view.addSubview(tableView)
-        tableView.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
-        }
+        tableView.frame = view.bounds
         
     }
-    
-    
-    // MARK: - UITableView DataSource & Delegate
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataArray.count
@@ -58,7 +46,7 @@ class NestedTableDemoViewController: CQBaseViewController, UITableViewDataSource
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         navigationController?.pushViewController(dataArray[indexPath.row].targetVC, animated: true)
     }
-
+    
 }
 
 
