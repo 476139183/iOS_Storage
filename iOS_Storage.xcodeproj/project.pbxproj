@@ -36,6 +36,7 @@
 		D9146DE8239213B5002EA395 /* GestureMainScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DE7239213B5002EA395 /* GestureMainScrollView.swift */; };
 		D9146DEA239219ED002EA395 /* GestureRedChildScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DE9239219ED002EA395 /* GestureRedChildScrollView.swift */; };
 		D9146DEC23921A13002EA395 /* GestureGreenChildScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DEB23921A13002EA395 /* GestureGreenChildScrollView.swift */; };
+		D9160F9923BDF3570089E864 /* GitInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9160F9823BDF3570089E864 /* GitInfoViewController.swift */; };
 		D916DA2923A24B2000CB0CFA /* CheckViewMemoryLeakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916DA2823A24B2000CB0CFA /* CheckViewMemoryLeakViewController.swift */; };
 		D9179CDE22B7C04F002FCCA0 /* 装饰模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9179CDD22B7C04F002FCCA0 /* 装饰模式.md */; };
 		D9179CE122B7C808002FCCA0 /* CQDecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9179CE022B7C808002FCCA0 /* CQDecoratorViewController.m */; };
@@ -508,6 +509,7 @@
 		D9146DE7239213B5002EA395 /* GestureMainScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureMainScrollView.swift; sourceTree = "<group>"; };
 		D9146DE9239219ED002EA395 /* GestureRedChildScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRedChildScrollView.swift; sourceTree = "<group>"; };
 		D9146DEB23921A13002EA395 /* GestureGreenChildScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureGreenChildScrollView.swift; sourceTree = "<group>"; };
+		D9160F9823BDF3570089E864 /* GitInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitInfoViewController.swift; sourceTree = "<group>"; };
 		D916DA2823A24B2000CB0CFA /* CheckViewMemoryLeakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewMemoryLeakViewController.swift; sourceTree = "<group>"; };
 		D9179CDD22B7C04F002FCCA0 /* 装饰模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "装饰模式.md"; sourceTree = "<group>"; };
 		D9179CDF22B7C808002FCCA0 /* CQDecoratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQDecoratorViewController.h; sourceTree = "<group>"; };
@@ -1285,6 +1287,14 @@
 				D9146DEB23921A13002EA395 /* GestureGreenChildScrollView.swift */,
 			);
 			path = "同时滑动上下scrollView";
+			sourceTree = "<group>";
+		};
+		D9160F9723BDF3380089E864 /* git info */ = {
+			isa = PBXGroup;
+			children = (
+				D9160F9823BDF3570089E864 /* GitInfoViewController.swift */,
+			);
+			path = "git info";
 			sourceTree = "<group>";
 		};
 		D916DA2723A24AB100CB0CFA /* 检测view是否释放 */ = {
@@ -3882,6 +3892,7 @@
 				D9F93372229D7DA400C7B2E0 /* RAC */,
 				D9CFC81E229CFE2F009B8399 /* Swift */,
 				D9AC3CAF22AFFA1A007DDBD0 /* C语言注意点 */,
+				D9160F9723BDF3380089E864 /* git info */,
 			);
 			path = Tips;
 			sourceTree = "<group>";
@@ -3982,6 +3993,7 @@
 				D9AE0CD320DD02AC00A31D62 /* Frameworks */,
 				D9AE0CD420DD02AC00A31D62 /* Resources */,
 				D532421FCBFB677B43F72748 /* [CP] Embed Pods Frameworks */,
+				D9160F9623BDF2430089E864 /* Git Info */,
 			);
 			buildRules = (
 			);
@@ -4202,6 +4214,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		D9160F9623BDF2430089E864 /* Git Info */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Git Info";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -x\n#最后一次提交的SHA\ngit_version=$(git log -1 --format=\"%h\")\n\n#当前的分支\ngit_branch=$(git symbolic-ref --short -q HEAD)\n\n#最后一次提交的作者\ngit_last_commit_user=$(git log -1 --pretty=format:'%an')\n\n#最后一次提交的时间\ngit_last_commit_date=$(git log -1 --format='%cd')\n\n#编译时间\nbuild_time=$(date)\n\ninfo_plist=\"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_FOLDER_PATH}/Info.plist\"\n/usr/libexec/PlistBuddy -c \"Set :'GitCommitSHA'       '${git_version}'\"                \"${info_plist}\"\n/usr/libexec/PlistBuddy -c \"Set :'GitCommitBranch'    '${git_branch}'\"                 \"${info_plist}\"\n/usr/libexec/PlistBuddy -c \"Set :'GitCommitUser'      ${git_last_commit_user}\"       \"${info_plist}\"\n/usr/libexec/PlistBuddy -c \"Set :'GitCommitDate'      '${git_last_commit_date}'\"       \"${info_plist}\"\n/usr/libexec/PlistBuddy -c \"Set :'BuildTime'          '${build_time}'\"                 \"${info_plist}\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -4463,6 +4493,7 @@
 				D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */,
 				D9C7CC2522E9B8C10038FD34 /* StandardSwiftSectionHeaderView.swift in Sources */,
 				D97F76A223B1B16500C55123 /* CQAlertController.m in Sources */,
+				D9160F9923BDF3570089E864 /* GitInfoViewController.swift in Sources */,
 				D965A2BB234E37D400041D69 /* IconFontViewController.swift in Sources */,
 				D98665272370639C00AA60B2 /* ActionSheetViewController.swift in Sources */,
 				D9C5E5D22345879000D101F1 /* LeetCodeViewController.swift in Sources */,

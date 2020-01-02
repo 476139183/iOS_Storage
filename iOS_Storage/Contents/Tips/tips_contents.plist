@@ -82,5 +82,13 @@
 		<key>url</key>
 		<string></string>
 	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>git info</string>
+		<key>controller_name</key>
+		<string>GitInfoViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
 </array>
 </plist>
