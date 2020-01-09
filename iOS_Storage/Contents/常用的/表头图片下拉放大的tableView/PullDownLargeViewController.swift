@@ -11,15 +11,13 @@ import UIKit
 class PullDownLargeViewController: CQBaseViewController, UITableViewDataSource, UITableViewDelegate,  UINavigationControllerDelegate, UIGestureRecognizerDelegate {
     
     /// 表头高度
-    let kTableHeaderViewHeight: CGFloat = 260
+    private let kTableHeaderViewHeight: CGFloat = 260
     
     private lazy var tableView: UITableView = {
         let tableView = UITableView()
         tableView.dataSource = self
         tableView.delegate = self
-        let header = UIView(frame: CGRect(x: 0, y: 0, width: kScreenWidth, height: kTableHeaderViewHeight))
-        tableView.tableHeaderView = header
-        header.addSubview(tableHeaderView)
+        tableView.tableHeaderView = self.tableHeaderView
         return tableView
     }()
     
@@ -66,9 +64,14 @@ class PullDownLargeViewController: CQBaseViewController, UITableViewDataSource, 
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let offsetY = scrollView.contentOffset.y
         if offsetY < 0 { // 下拉
-            tableHeaderView.frame = .init(x: 0, y: offsetY, width: kScreenWidth, height: kTableHeaderViewHeight + abs(offsetY))
+            tableHeaderView.imageView.snp.remakeConstraints { (make) in
+                make.top.equalTo(offsetY)
+                make.left.right.bottom.equalToSuperview()
+            }
         } else {
-            tableHeaderView.frame = .init(x: 0, y: 0, width: kScreenWidth, height: kTableHeaderViewHeight)
+            tableHeaderView.imageView.snp.remakeConstraints { (make) in
+                make.left.right.top.bottom.equalToSuperview()
+            }
         }
     }
     
@@ -116,7 +119,7 @@ fileprivate class TableHeaderView: UIView {
         return button
     }()
     
-    private lazy var imageView: UIImageView = {
+    lazy var imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "iu_header")
         imageView.contentMode = .scaleAspectFill
@@ -136,7 +139,7 @@ fileprivate class TableHeaderView: UIView {
         backButton.snp.makeConstraints { (make) in
             make.size.equalTo(CGSize(width: 100, height: 30))
             make.left.equalTo(30)
-            make.top.equalTo(60)
+            make.top.equalTo(imageView).offset(90)
         }
     }
     
