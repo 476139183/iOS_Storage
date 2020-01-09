@@ -22,6 +22,15 @@ class GetterSetterViewController: CQBaseViewController {
         }
     }
     
+    var age: Int? {
+        get {
+            return 10
+        }
+        set {
+            print("set age")
+        }
+    }
+    
     //    var age: Int = 0 {
     //        var volume: Double {
     //            return width * height * depth

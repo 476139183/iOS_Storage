@@ -36,6 +36,7 @@ typedef NS_ENUM(NSInteger, CQAlertControllerStyle) {
 + (instancetype)alertControllerWithTitle:(nullable NSString *)title message:(nullable NSString *)message preferredStyle:(UIAlertControllerStyle)preferredStyle;
 
 - (void)addAction:(UIAlertAction *)action;
+
 @property (nonatomic, readonly) NSArray<UIAlertAction *> *actions;
 
 @property (nonatomic, strong, nullable) CQAlertAction *preferredAction;
@@ -43,8 +44,7 @@ typedef NS_ENUM(NSInteger, CQAlertControllerStyle) {
 - (void)addTextFieldWithConfigurationHandler:(void (^ __nullable)(UITextField *textField))configurationHandler;
 @property (nullable, nonatomic, readonly) NSArray<UITextField *> *textFields;
 
-@property (nullable, nonatomic, copy) NSString *title;
-@property (nullable, nonatomic, copy) NSString *message;
+
 
 @property (nonatomic, readonly) UIAlertControllerStyle preferredStyle;
 

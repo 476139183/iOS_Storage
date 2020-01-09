@@ -216,6 +216,13 @@
 		D96A17E7237EFDF90018E7F1 /* LeftSideLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A17E6237EFDF90018E7F1 /* LeftSideLayout.swift */; };
 		D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */; };
 		D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */; };
+		D96F415C23BEDFA2008616F4 /* PerfectAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96F415B23BEDFA2008616F4 /* PerfectAppViewController.swift */; };
+		D96F415F23BEE051008616F4 /* CQElegantOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D96F415E23BEE051008616F4 /* CQElegantOCViewController.m */; };
+		D96F416123BEE074008616F4 /* ElegantSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96F416023BEE074008616F4 /* ElegantSwiftViewController.swift */; };
+		D96F416323BEE093008616F4 /* 优雅的Swift.md in Resources */ = {isa = PBXBuildFile; fileRef = D96F416223BEE093008616F4 /* 优雅的Swift.md */; };
+		D96F416523BEE0C1008616F4 /* 优雅的Objective-C.md in Resources */ = {isa = PBXBuildFile; fileRef = D96F416423BEE0C1008616F4 /* 优雅的Objective-C.md */; };
+		D96F416723BEE35A008616F4 /* 完美APP.md in Resources */ = {isa = PBXBuildFile; fileRef = D96F416623BEE35A008616F4 /* 完美APP.md */; };
+		D96F416923BF3961008616F4 /* Array.md in Resources */ = {isa = PBXBuildFile; fileRef = D96F416823BF3961008616F4 /* Array.md */; };
 		D96FE2BB239603DE00949006 /* ASViewController.md in Resources */ = {isa = PBXBuildFile; fileRef = D96FE2BA239603DE00949006 /* ASViewController.md */; };
 		D96FE2BD23960E0500949006 /* ASDisplayNode.md in Resources */ = {isa = PBXBuildFile; fileRef = D96FE2BC23960E0500949006 /* ASDisplayNode.md */; };
 		D96FE2BF2396125A00949006 /* TextureLayoutDemoNaviNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2BE2396125A00949006 /* TextureLayoutDemoNaviNode.swift */; };
@@ -464,6 +471,8 @@
 		D9F9336E229D7CEB00C7B2E0 /* CQPthreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F9336D229D7CEB00C7B2E0 /* CQPthreadController.m */; };
 		D9F93371229D7D2400C7B2E0 /* CQOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F93370229D7D2400C7B2E0 /* CQOperationController.m */; };
 		D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F93373229D811B00C7B2E0 /* MultiThreadController.swift */; };
+		D9FE875A23C5D3A1000E94CB /* DSActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FE875923C5D3A1000E94CB /* DSActionSheet.swift */; };
+		D9FE875C23C5EADF000E94CB /* DSActionSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FE875B23C5EADF000E94CB /* DSActionSheetController.swift */; };
 		D9FF65D4212AC0F200B06371 /* CQTimerCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF65D3212AC0F200B06371 /* CQTimerCellController.m */; };
 		D9FF65D9212AC39800B06371 /* CQTimerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF65D8212AC39800B06371 /* CQTimerModel.m */; };
 		D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF65DB212AC3FE00B06371 /* CQTimerCell.m */; };
@@ -769,6 +778,14 @@
 		D96A17E6237EFDF90018E7F1 /* LeftSideLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideLayout.swift; sourceTree = "<group>"; };
 		D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftLoginViewController.swift; sourceTree = "<group>"; };
 		D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftLoginViewController.xib; sourceTree = "<group>"; };
+		D96F415B23BEDFA2008616F4 /* PerfectAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectAppViewController.swift; sourceTree = "<group>"; };
+		D96F415D23BEE051008616F4 /* CQElegantOCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQElegantOCViewController.h; sourceTree = "<group>"; };
+		D96F415E23BEE051008616F4 /* CQElegantOCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQElegantOCViewController.m; sourceTree = "<group>"; };
+		D96F416023BEE074008616F4 /* ElegantSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegantSwiftViewController.swift; sourceTree = "<group>"; };
+		D96F416223BEE093008616F4 /* 优雅的Swift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "优雅的Swift.md"; sourceTree = "<group>"; };
+		D96F416423BEE0C1008616F4 /* 优雅的Objective-C.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "优雅的Objective-C.md"; sourceTree = "<group>"; };
+		D96F416623BEE35A008616F4 /* 完美APP.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "完美APP.md"; sourceTree = "<group>"; };
+		D96F416823BF3961008616F4 /* Array.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Array.md; sourceTree = "<group>"; };
 		D96FE2BA239603DE00949006 /* ASViewController.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ASViewController.md; sourceTree = "<group>"; };
 		D96FE2BC23960E0500949006 /* ASDisplayNode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ASDisplayNode.md; sourceTree = "<group>"; };
 		D96FE2BE2396125A00949006 /* TextureLayoutDemoNaviNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureLayoutDemoNaviNode.swift; sourceTree = "<group>"; };
@@ -1105,6 +1122,8 @@
 		D9F9336F229D7D2400C7B2E0 /* CQOperationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQOperationController.h; sourceTree = "<group>"; };
 		D9F93370229D7D2400C7B2E0 /* CQOperationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQOperationController.m; sourceTree = "<group>"; };
 		D9F93373229D811B00C7B2E0 /* MultiThreadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiThreadController.swift; sourceTree = "<group>"; };
+		D9FE875923C5D3A1000E94CB /* DSActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSActionSheet.swift; sourceTree = "<group>"; };
+		D9FE875B23C5EADF000E94CB /* DSActionSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSActionSheetController.swift; sourceTree = "<group>"; };
 		D9FF65D2212AC0F200B06371 /* CQTimerCellController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTimerCellController.h; sourceTree = "<group>"; };
 		D9FF65D3212AC0F200B06371 /* CQTimerCellController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTimerCellController.m; sourceTree = "<group>"; };
 		D9FF65D7212AC39800B06371 /* CQTimerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTimerModel.h; sourceTree = "<group>"; };
@@ -1740,6 +1759,7 @@
 				D941B861235EF8E600AEB48E /* 定位 */,
 				D9C2352A23853001008C0D59 /* 基于MJRefresh的下拉刷新 */,
 				D97F769B23B1AF4700C55123 /* CQAlertController */,
+				D9FE875823C5D363000E94CB /* DSActionSheet */,
 			);
 			path = "自己的框架";
 			sourceTree = "<group>";
@@ -1899,6 +1919,9 @@
 			isa = PBXGroup;
 			children = (
 				D94016922361EE9C00580AAC /* frequently_used_contents.plist */,
+				D96F415823BEDEC8008616F4 /* 完美APP */,
+				D96F415923BEDEDF008616F4 /* 优雅的Objective-C */,
+				D96F415A23BEDF06008616F4 /* 优雅的Swift */,
 				D9C7CBF622E990440038FD34 /* 标准TableView OC版 */,
 				D9C7CBF722E9904D0038FD34 /* 标准TableView Swift版 */,
 				D92767C9237D4F1A00F9CED8 /* 索引tableView */,
@@ -1971,6 +1994,7 @@
 		D940169A2361F15300580AAC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				D96F416823BF3961008616F4 /* Array.md */,
 				D940169B2361F16F00580AAC /* ArrayPracticeViewController.swift */,
 			);
 			path = Array;
@@ -2490,6 +2514,34 @@
 				D9697FEE22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift */,
 			);
 			path = "组头组尾";
+			sourceTree = "<group>";
+		};
+		D96F415823BEDEC8008616F4 /* 完美APP */ = {
+			isa = PBXGroup;
+			children = (
+				D96F416623BEE35A008616F4 /* 完美APP.md */,
+				D96F415B23BEDFA2008616F4 /* PerfectAppViewController.swift */,
+			);
+			path = "完美APP";
+			sourceTree = "<group>";
+		};
+		D96F415923BEDEDF008616F4 /* 优雅的Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				D96F416423BEE0C1008616F4 /* 优雅的Objective-C.md */,
+				D96F415D23BEE051008616F4 /* CQElegantOCViewController.h */,
+				D96F415E23BEE051008616F4 /* CQElegantOCViewController.m */,
+			);
+			path = "优雅的Objective-C";
+			sourceTree = "<group>";
+		};
+		D96F415A23BEDF06008616F4 /* 优雅的Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D96F416223BEE093008616F4 /* 优雅的Swift.md */,
+				D96F416023BEE074008616F4 /* ElegantSwiftViewController.swift */,
+			);
+			path = "优雅的Swift";
 			sourceTree = "<group>";
 		};
 		D96FE2C02396425D00949006 /* 各种Layout */ = {
@@ -3944,6 +3996,15 @@
 			path = "OC反射机制";
 			sourceTree = "<group>";
 		};
+		D9FE875823C5D363000E94CB /* DSActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE875923C5D3A1000E94CB /* DSActionSheet.swift */,
+				D9FE875B23C5EADF000E94CB /* DSActionSheetController.swift */,
+			);
+			path = DSActionSheet;
+			sourceTree = "<group>";
+		};
 		D9FF65D0212AC09F00B06371 /* 含timer的cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -4070,6 +4131,7 @@
 				D9AEB65B22F58B1E006F8995 /* person_info.json in Resources */,
 				D9402A892101E5B500BF792F /* tips_contents.plist in Resources */,
 				D9AC3CB622AFFDC2007DDBD0 /* 数据结构分类.md in Resources */,
+				D96F416323BEE093008616F4 /* 优雅的Swift.md in Resources */,
 				D9E30C36236D5FC50042BC74 /* img_0.png in Resources */,
 				D94016932361EE9C00580AAC /* frequently_used_contents.plist in Resources */,
 				D930957923B3556E00837CA6 /* FP.md in Resources */,
@@ -4082,8 +4144,10 @@
 				D921F97020FF640B00712042 /* region_list.json in Resources */,
 				D92DA5CE22C1CCE200E91212 /* runtime.md in Resources */,
 				D921F97120FF640B00712042 /* department_list.json in Resources */,
+				D96F416523BEE0C1008616F4 /* 优雅的Objective-C.md in Resources */,
 				D9E30C35236D5FC50042BC74 /* img_1.png in Resources */,
 				D91A9F8422B490F7008F87F1 /* logo商标识别.md in Resources */,
+				D96F416723BEE35A008616F4 /* 完美APP.md in Resources */,
 				D9E30C38236D5FC50042BC74 /* img_3.png in Resources */,
 				D967A81C23ACD0C50000C00D /* POP.md in Resources */,
 				D930957323B30A0400837CA6 /* StaticMyTableView.storyboard in Resources */,
@@ -4096,6 +4160,7 @@
 				D9D145122299205F003B594C /* KVC.md in Resources */,
 				D9B563F720E24A14001AE9A0 /* iphone_menu_data.json in Resources */,
 				D926BDC422C486F200A2DD3E /* 抽象工厂模式.md in Resources */,
+				D96F416923BF3961008616F4 /* Array.md in Resources */,
 				D9F93367229D6BD000C7B2E0 /* 关联对象.md in Resources */,
 				D9E30C39236D5FC50042BC74 /* data.json in Resources */,
 				D96FE2BB239603DE00949006 /* ASViewController.md in Resources */,
@@ -4301,6 +4366,7 @@
 				D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */,
 				D97D0CAF23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift in Sources */,
 				D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */,
+				D96F415F23BEE051008616F4 /* CQElegantOCViewController.m in Sources */,
 				D9D14515229920CB003B594C /* CQKVCController.m in Sources */,
 				D9179CE122B7C808002FCCA0 /* CQDecoratorViewController.m in Sources */,
 				D926BDF522C6152400A2DD3E /* RoleStateCaretaker.m in Sources */,
@@ -4423,6 +4489,7 @@
 				D986652A237063F600AA60B2 /* ActionSheet.swift in Sources */,
 				D9CE605923518F3700D65107 /* UIImage+Extension.swift in Sources */,
 				D9C5B450233DC58000299AFB /* Constants.swift in Sources */,
+				D9FE875A23C5D3A1000E94CB /* DSActionSheet.swift in Sources */,
 				D9A39F8722B4D51900FEA5F5 /* CQStrategyViewController.m in Sources */,
 				D9CE5E4F23B89E0C007A9502 /* SuperNestedTableViewController.swift in Sources */,
 				D9012A0C23927237008D5EF5 /* TextureDemoViewController.swift in Sources */,
@@ -4462,6 +4529,7 @@
 				D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */,
 				D9DE6CBD20FEE78100C8D4FE /* CQRegionModel.m in Sources */,
 				D9D56B0523B488C9005EEA9A /* CQShadowView.m in Sources */,
+				D96F416123BEE074008616F4 /* ElegantSwiftViewController.swift in Sources */,
 				D9AEB65922F57955006F8995 /* MoyaDemoViewController.swift in Sources */,
 				D942531B2366D55C0031356C /* AnimationsViewController.swift in Sources */,
 				D9BF6915233F57CF00E602A4 /* GradientButton.swift in Sources */,
@@ -4520,8 +4588,10 @@
 				D9D64FD72105DDA300379FF2 /* CQThreadViewController.m in Sources */,
 				D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */,
 				D9B6313F23BB3111003D95D9 /* DatePracticeViewController.swift in Sources */,
+				D9FE875C23C5EADF000E94CB /* DSActionSheetController.swift in Sources */,
 				D95328482399EA4F00C15136 /* UIAlertController+Util.m in Sources */,
 				D9CE54B8233D0B1100AB58C0 /* MyCellNode3.swift in Sources */,
+				D96F415C23BEDFA2008616F4 /* PerfectAppViewController.swift in Sources */,
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
 				D9DE775323AA22C400E902A5 /* CQStandardOCCollectionHeaderView.m in Sources */,
 				D9BF6917233F587300E602A4 /* GradientLabel.swift in Sources */,

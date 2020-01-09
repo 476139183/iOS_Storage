@@ -10,7 +10,11 @@ import UIKit
 
 class ArrayPracticeViewController: CQBaseViewController {
     
-    private var items: [Int]! = []
+    private var items: [Int]! = [1, 2, 3] {
+        didSet {
+            print("items did set")
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -105,7 +109,9 @@ class ArrayPracticeViewController: CQBaseViewController {
     // MARK: - touch began
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        testFilter()
+        //testFilter()
+        //items.append(1)
+        items.remove(at: 0)
     }
     
 }

@@ -4,6 +4,30 @@
 <array>
 	<dict>
 		<key>demo_name</key>
+		<string>完美APP</string>
+		<key>controller_name</key>
+		<string>PerfectAppViewController</string>
+		<key>url</key>
+		<string>完美APP.md</string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>优雅的Objective-C</string>
+		<key>controller_name</key>
+		<string>CQElegantOCViewController</string>
+		<key>url</key>
+		<string>优雅的Objective-C.md</string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>优雅的Swift</string>
+		<key>controller_name</key>
+		<string>ElegantSwiftViewController</string>
+		<key>url</key>
+		<string>优雅的Swift.md</string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
 		<string>标准TableView OC版</string>
 		<key>controller_name</key>
 		<string>CQStandardOCTableViewViewController</string>
@@ -168,7 +192,7 @@
 		<key>controller_name</key>
 		<string>ArrayPracticeViewController</string>
 		<key>url</key>
-		<string></string>
+		<string>Array.md</string>
 	</dict>
 	<dict>
 		<key>demo_name</key>

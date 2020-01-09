@@ -74,6 +74,8 @@ class CornerAndShadowViewController: CQBaseViewController {
         maskLayer.shadowColor = UIColor.green.cgColor
         maskLayer.shadowRadius = 5
         
+        //redView.mask = maskLayer
+        
         redView.layer.cornerRadius = 10
         redView.layer.shadowColor = UIColor.blue.cgColor
         redView.layer.shadowRadius = 15
