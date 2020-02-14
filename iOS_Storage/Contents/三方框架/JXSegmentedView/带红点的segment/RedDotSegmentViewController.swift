@@ -1,22 +1,26 @@
 //
-//  JXSegmentedViewDemoViewController.swift
+//  RedDotSegmentViewController.swift
 //  iOS_Storage
 //
-//  Created by caiqiang on 2019/10/19.
-//  Copyright © 2019 蔡强. All rights reserved.
+//  Created by caiqiang on 2020/2/14.
+//  Copyright © 2020 蔡强. All rights reserved.
 //
 
 import UIKit
 import JXSegmentedView
 
-class JXSegmentedViewDemoViewController: CQBaseViewController, JXSegmentedViewDelegate, JXSegmentedListContainerViewDataSource {
+class RedDotSegmentViewController: CQBaseViewController, JXSegmentedViewDelegate, JXSegmentedListContainerViewDataSource {
     
     private lazy var controllers: [JXSegmentedDemoBaseController] = {
         return [JXSegmentedChildController1(), JXSegmentedChildController2(), JXSegmentedChildController3()]
     }()
     
     private lazy var titles: [String] = {
-        return ["11", "22", "33"]
+        return ["11", "有红点", "33"]
+    }()
+    
+    private lazy var dotStates: [Bool] = {
+        return [false, true, false]
     }()
     
     private lazy var segmentedView: JXSegmentedView = {
@@ -29,9 +33,10 @@ class JXSegmentedViewDemoViewController: CQBaseViewController, JXSegmentedViewDe
     }()
     
     /// segmentedView的数据源
-    private lazy var segmentedDataSource: JXSegmentedTitleDataSource = {
-        let segmentedDataSource = JXSegmentedTitleDataSource()
-        segmentedDataSource.titles = ["11", "22", "33"]
+    private lazy var segmentedDataSource: JXSegmentedDotDataSource = {
+        let segmentedDataSource = JXSegmentedDotDataSource()
+        segmentedDataSource.titles = titles
+        segmentedDataSource.dotStates = dotStates
         segmentedDataSource.isTitleColorGradientEnabled = true
         segmentedDataSource.titleSelectedFont = .boldSystemFont(ofSize: 20)
         segmentedDataSource.titleNormalFont = .systemFont(ofSize: 15)
@@ -44,10 +49,10 @@ class JXSegmentedViewDemoViewController: CQBaseViewController, JXSegmentedViewDe
         let listContainerView = JXSegmentedListContainerView(dataSource: self)
         return listContainerView
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
         view.addSubview(segmentedView)
@@ -82,12 +87,12 @@ class JXSegmentedViewDemoViewController: CQBaseViewController, JXSegmentedViewDe
     // MARK: - Delegate
     
     func segmentedView(_ segmentedView: JXSegmentedView, didSelectedItemAt index: Int) {
-//        titles.append("555")
-//        segmentedDataSource.titles = self.titles
-//        controllers.append(JXSegmentedChildController1())
-//        segmentedView.reloadData()
-//        segmentedView.listContainer?.reloadData()
+        //        titles.append("555")
+        //        segmentedDataSource.titles = self.titles
+        //        controllers.append(JXSegmentedChildController1())
+        //        segmentedView.reloadData()
+        //        segmentedView.listContainer?.reloadData()
         print(titles[index])
     }
-
+    
 }

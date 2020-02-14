@@ -97,6 +97,7 @@
 		D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CED720EA63E100EE5C78 /* CQChartController.m */; };
 		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
 		D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */; };
+		D92CBD6523F67901003A6EDC /* RedDotSegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CBD6423F67901003A6EDC /* RedDotSegmentViewController.swift */; };
 		D92D105A23066A42002203A1 /* CQCheckDeallocViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D105923066A42002203A1 /* CQCheckDeallocViewController.m */; };
 		D92D3062216B3D8700B57A2D /* CQRippleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D3061216B3D8700B57A2D /* CQRippleViewController.m */; };
 		D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */ = {isa = PBXBuildFile; fileRef = D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */; };
@@ -608,6 +609,7 @@
 		D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTabBarController.m; sourceTree = "<group>"; };
 		D92C8E9021788ABE005D7606 /* CQAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQAnimationViewController.h; sourceTree = "<group>"; };
 		D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQAnimationViewController.m; sourceTree = "<group>"; };
+		D92CBD6423F67901003A6EDC /* RedDotSegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedDotSegmentViewController.swift; sourceTree = "<group>"; };
 		D92D105823066A42002203A1 /* CQCheckDeallocViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCheckDeallocViewController.h; sourceTree = "<group>"; };
 		D92D105923066A42002203A1 /* CQCheckDeallocViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCheckDeallocViewController.m; sourceTree = "<group>"; };
 		D92D3060216B3D8700B57A2D /* CQRippleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRippleViewController.h; sourceTree = "<group>"; };
@@ -1718,6 +1720,14 @@
 				D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		D92CBD6323F67796003A6EDC /* 带红点的segment */ = {
+			isa = PBXGroup;
+			children = (
+				D92CBD6423F67901003A6EDC /* RedDotSegmentViewController.swift */,
+			);
+			path = "带红点的segment";
 			sourceTree = "<group>";
 		};
 		D92D305E216B3C7200B57A2D /* 水波动画 */ = {
@@ -2916,6 +2926,7 @@
 				D986653423715E2B00AA60B2 /* 图片或文本 */,
 				D986653523715E4E00AA60B2 /* 混合型title */,
 				D9A0091223725A3100ECF98F /* 自定义cell */,
+				D92CBD6323F67796003A6EDC /* 带红点的segment */,
 				D9BBF96C235F2F4A009342EC /* JXSegmentedDemoBaseController.swift */,
 				D941B86B235F237E00AEB48E /* JXSegmentedChildController1.swift */,
 				D941B86D235F239400AEB48E /* JXSegmentedChildController2.swift */,
@@ -4685,6 +4696,7 @@
 				D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */,
 				D92D105A23066A42002203A1 /* CQCheckDeallocViewController.m in Sources */,
 				D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */,
+				D92CBD6523F67901003A6EDC /* RedDotSegmentViewController.swift in Sources */,
 				D937688A23580A3300515315 /* CollectionViewLayoutDemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
