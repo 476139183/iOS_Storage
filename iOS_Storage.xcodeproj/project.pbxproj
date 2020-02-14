@@ -98,6 +98,8 @@
 		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
 		D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */; };
 		D92CBD6523F67901003A6EDC /* RedDotSegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CBD6423F67901003A6EDC /* RedDotSegmentViewController.swift */; };
+		D92CBD6923F693EE003A6EDC /* WebViewGifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CBD6823F693ED003A6EDC /* WebViewGifViewController.swift */; };
+		D92CBD6B23F694AD003A6EDC /* InjectHTMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CBD6A23F694AD003A6EDC /* InjectHTMLViewController.swift */; };
 		D92D105A23066A42002203A1 /* CQCheckDeallocViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D105923066A42002203A1 /* CQCheckDeallocViewController.m */; };
 		D92D3062216B3D8700B57A2D /* CQRippleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D3061216B3D8700B57A2D /* CQRippleViewController.m */; };
 		D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */ = {isa = PBXBuildFile; fileRef = D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */; };
@@ -610,6 +612,8 @@
 		D92C8E9021788ABE005D7606 /* CQAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQAnimationViewController.h; sourceTree = "<group>"; };
 		D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQAnimationViewController.m; sourceTree = "<group>"; };
 		D92CBD6423F67901003A6EDC /* RedDotSegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedDotSegmentViewController.swift; sourceTree = "<group>"; };
+		D92CBD6823F693ED003A6EDC /* WebViewGifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewGifViewController.swift; sourceTree = "<group>"; };
+		D92CBD6A23F694AD003A6EDC /* InjectHTMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectHTMLViewController.swift; sourceTree = "<group>"; };
 		D92D105823066A42002203A1 /* CQCheckDeallocViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCheckDeallocViewController.h; sourceTree = "<group>"; };
 		D92D105923066A42002203A1 /* CQCheckDeallocViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCheckDeallocViewController.m; sourceTree = "<group>"; };
 		D92D3060216B3D8700B57A2D /* CQRippleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRippleViewController.h; sourceTree = "<group>"; };
@@ -1728,6 +1732,22 @@
 				D92CBD6423F67901003A6EDC /* RedDotSegmentViewController.swift */,
 			);
 			path = "带红点的segment";
+			sourceTree = "<group>";
+		};
+		D92CBD6623F69355003A6EDC /* 加载GIF */ = {
+			isa = PBXGroup;
+			children = (
+				D92CBD6823F693ED003A6EDC /* WebViewGifViewController.swift */,
+			);
+			path = "加载GIF";
+			sourceTree = "<group>";
+		};
+		D92CBD6723F69378003A6EDC /* 注入HTML */ = {
+			isa = PBXGroup;
+			children = (
+				D92CBD6A23F694AD003A6EDC /* InjectHTMLViewController.swift */,
+			);
+			path = "注入HTML";
 			sourceTree = "<group>";
 		};
 		D92D305E216B3C7200B57A2D /* 水波动画 */ = {
@@ -3580,6 +3600,8 @@
 			isa = PBXGroup;
 			children = (
 				D9D11E2623717EC60047AD7C /* WKWebViewDemoViewController.swift */,
+				D92CBD6623F69355003A6EDC /* 加载GIF */,
+				D92CBD6723F69378003A6EDC /* 注入HTML */,
 			);
 			path = WKWebViewDemo;
 			sourceTree = "<group>";
@@ -4518,6 +4540,7 @@
 				D9E42488212D0E9C00283CFC /* CQSortController.m in Sources */,
 				D9BC6F5F238E2E050085E4E0 /* JXPagingView.swift in Sources */,
 				D9DE6CC020FEE7A800C8D4FE /* CQDepartmentModel.m in Sources */,
+				D92CBD6B23F694AD003A6EDC /* InjectHTMLViewController.swift in Sources */,
 				D90A9AFF238F80D500C84424 /* NestedItemController.swift in Sources */,
 				D97420CC23A9BB160038AB38 /* UIScrollViewControlDemoController.swift in Sources */,
 				D9C5B44A233DA0ED00299AFB /* MyCellNode6.swift in Sources */,
@@ -4574,6 +4597,7 @@
 				D97F76A223B1B16500C55123 /* CQAlertController.m in Sources */,
 				D9160F9923BDF3570089E864 /* GitInfoViewController.swift in Sources */,
 				D965A2BB234E37D400041D69 /* IconFontViewController.swift in Sources */,
+				D92CBD6923F693EE003A6EDC /* WebViewGifViewController.swift in Sources */,
 				D98665272370639C00AA60B2 /* ActionSheetViewController.swift in Sources */,
 				D9C5E5D22345879000D101F1 /* LeetCodeViewController.swift in Sources */,
 				D91E1D22233E4E9800B1C772 /* GradientView.swift in Sources */,
