@@ -100,6 +100,7 @@
 		D92CBD6523F67901003A6EDC /* RedDotSegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CBD6423F67901003A6EDC /* RedDotSegmentViewController.swift */; };
 		D92CBD6923F693EE003A6EDC /* WebViewGifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CBD6823F693ED003A6EDC /* WebViewGifViewController.swift */; };
 		D92CBD6B23F694AD003A6EDC /* InjectHTMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CBD6A23F694AD003A6EDC /* InjectHTMLViewController.swift */; };
+		D92CBD7023F78B8E003A6EDC /* FontTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CBD6F23F78B8E003A6EDC /* FontTestViewController.swift */; };
 		D92D105A23066A42002203A1 /* CQCheckDeallocViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D105923066A42002203A1 /* CQCheckDeallocViewController.m */; };
 		D92D3062216B3D8700B57A2D /* CQRippleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92D3061216B3D8700B57A2D /* CQRippleViewController.m */; };
 		D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */ = {isa = PBXBuildFile; fileRef = D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */; };
@@ -614,6 +615,7 @@
 		D92CBD6423F67901003A6EDC /* RedDotSegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedDotSegmentViewController.swift; sourceTree = "<group>"; };
 		D92CBD6823F693ED003A6EDC /* WebViewGifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewGifViewController.swift; sourceTree = "<group>"; };
 		D92CBD6A23F694AD003A6EDC /* InjectHTMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectHTMLViewController.swift; sourceTree = "<group>"; };
+		D92CBD6F23F78B8E003A6EDC /* FontTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTestViewController.swift; sourceTree = "<group>"; };
 		D92D105823066A42002203A1 /* CQCheckDeallocViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCheckDeallocViewController.h; sourceTree = "<group>"; };
 		D92D105923066A42002203A1 /* CQCheckDeallocViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCheckDeallocViewController.m; sourceTree = "<group>"; };
 		D92D3060216B3D8700B57A2D /* CQRippleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRippleViewController.h; sourceTree = "<group>"; };
@@ -1750,6 +1752,14 @@
 			path = "注入HTML";
 			sourceTree = "<group>";
 		};
+		D92CBD6C23F78A8E003A6EDC /* 各种字体 */ = {
+			isa = PBXGroup;
+			children = (
+				D92CBD6F23F78B8E003A6EDC /* FontTestViewController.swift */,
+			);
+			path = "各种字体";
+			sourceTree = "<group>";
+		};
 		D92D305E216B3C7200B57A2D /* 水波动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1985,6 +1995,7 @@
 				D9E30C3A236D61E60042BC74 /* 播放动图 */,
 				D986652F2371546C00AA60B2 /* image和text互转 */,
 				D982964923976966001C05AE /* 各种跳转 */,
+				D92CBD6C23F78A8E003A6EDC /* 各种字体 */,
 			);
 			path = "常用的";
 			sourceTree = "<group>";
@@ -4715,6 +4726,7 @@
 				D9A39F7B22B4D2DC00FEA5F5 /* CQMVPViewController.m in Sources */,
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,
 				D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */,
+				D92CBD7023F78B8E003A6EDC /* FontTestViewController.swift in Sources */,
 				D9DE775623AA2BE000E902A5 /* CQStandardOCCollectionFooterView.m in Sources */,
 				D9BF6911233F4B6600E602A4 /* GradientSwiftDemoViewController.swift in Sources */,
 				D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */,

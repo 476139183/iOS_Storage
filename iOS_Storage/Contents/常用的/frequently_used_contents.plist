@@ -290,5 +290,13 @@
 		<key>url</key>
 		<string></string>
 	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>各种字体</string>
+		<key>controller_name</key>
+		<string>FontTestViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
 </array>
 </plist>
