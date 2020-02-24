@@ -1,6 +1,6 @@
 //
 //  DSActionSheet.swift
-//  iOS_Storage
+//  DSActionSheet
 //
 //  Created by caiqiang on 2020/1/8.
 //  Copyright © 2020 蔡强. All rights reserved.
@@ -9,11 +9,13 @@
 import UIKit
 
 let defaultActionSheetTitleColor = UIColor.black
-let defaultActionSheetTitleFont = UIFont.systemFont(ofSize: 16, weight: .medium)
+let defaultActionSheetTitleFont = UIFont.systemFont(ofSize: 16)
 
 class DSActionSheet: UIView, UITableViewDataSource, UITableViewDelegate {
     
-    /// show
+    // MARK: - Public
+    
+    /// 快捷 show 方法
     /// - Parameter title:   标题
     /// - Parameter message: 描述
     /// - Parameter actions: 回调
@@ -22,6 +24,72 @@ class DSActionSheet: UIView, UITableViewDataSource, UITableViewDelegate {
         sheet.show()
     }
     
+    
+    /// 常规 show 方法（类似 UIAlertController，先初始化，再 show）
+    /// - Parameters:
+    ///   - title:   标题
+    ///   - message: 描述
+    ///   - actions: 回调
+    convenience init(title: String?, message: String?, actions: [DSAlertAction]) {
+        self.init()
+        self.actions = actions
+        self.titleLabel.text = title
+        self.messageLabel.text = message
+    }
+    
+    /// 配合 init 方法，show 出来
+    func show() {
+        
+        guard let window = UIApplication.shared.delegate?.window else {
+            return
+        }
+        
+        window?.addSubview(self)
+        self.snp.makeConstraints { (make) in
+            make.left.right.top.bottom.equalToSuperview()
+        }
+        
+        backgroundColor = UIColor.black.withAlphaComponent(0)
+        addSubview(contentView)
+        contentView.snp.makeConstraints { (make) in
+            make.left.right.equalToSuperview()
+            make.top.equalTo(self.snp.bottom)
+        }
+        
+        self.layoutIfNeeded()
+        
+        
+        UIView.animate(withDuration: 0.3, animations: {
+            self.backgroundColor = UIColor.black.withAlphaComponent(0.4)
+            self.contentView.snp.remakeConstraints { (make) in
+                make.left.right.equalToSuperview()
+                make.bottom.equalTo(self.snp.bottom)
+            }
+            self.layoutIfNeeded()
+        }) { (finished) in
+            // 添加一个透明 button，点击弹窗消失
+            let dismissButton = UIButton()
+            self.addSubview(dismissButton)
+            dismissButton.backgroundColor = .clear
+            dismissButton.addTarget(self, action: #selector(self.dissmiss), for: .touchUpInside)
+            dismissButton.snp.makeConstraints { (make) in
+                make.top.left.right.equalToSuperview()
+                make.bottom.equalTo(self.contentView.snp.top)
+            }
+            // 添加一个遮挡底部圆角的 view
+            let shelterView = UIView()
+            self.addSubview(shelterView)
+            shelterView.backgroundColor = UIColor.colorWithHexString("#F7F7F7")
+            shelterView.snp.makeConstraints { (make) in
+                make.left.right.bottom.equalToSuperview()
+                make.height.equalTo(12)
+            }
+        }
+        
+    }
+    
+    
+    // MARK: - Private
     
     private var actions: [DSAlertAction] = []
     
@@ -44,7 +112,6 @@ class DSActionSheet: UIView, UITableViewDataSource, UITableViewDelegate {
     }()
     
     private lazy var stackView: UIStackView = {
-        
         let stackView = UIStackView.init(arrangedSubviews: [self.titleLabel, self.messageLabel])
         self.titleLabel.snp.makeConstraints { (make) in
             make.left.equalTo(30)
@@ -95,17 +162,22 @@ class DSActionSheet: UIView, UITableViewDataSource, UITableViewDelegate {
     private lazy var footerView: UIView = {
         let footerView = UIView()
         footerView.backgroundColor = UIColor.colorWithHexString("#F7F7F7")
-        let cancelButton = UIButton()
         footerView.addSubview(cancelButton)
-        cancelButton.setTitle("取消", for: .normal)
-        cancelButton.setTitleColor(UIColor.colorWithHexString("#373E4D"), for: .normal)
-        cancelButton.titleLabel?.font = .systemFont(ofSize: 16)
-        cancelButton.addTarget(self, action: #selector(cancelButtonClicked), for: .touchUpInside)
         cancelButton.snp.makeConstraints { (make) in
             make.top.left.right.equalToSuperview()
             make.height.equalTo(48)
         }
         return footerView
+    }()
+    
+    /// 取消按钮
+    private lazy var cancelButton: UIButton = {
+        let cancelButton = UIButton()
+        cancelButton.setTitle("取消", for: .normal)
+        cancelButton.setTitleColor(UIColor.colorWithHexString("#373E4D"), for: .normal)
+        cancelButton.titleLabel?.font = .systemFont(ofSize: 16)
+        cancelButton.addTarget(self, action: #selector(cancelButtonClicked), for: .touchUpInside)
+        return cancelButton
     }()
     
     private lazy var contentView: UIView = {
@@ -143,13 +215,6 @@ class DSActionSheet: UIView, UITableViewDataSource, UITableViewDelegate {
         tableView.addObserver(self, forKeyPath: "contentSize", options: .new, context: nil)
         return tableView
     }()
-
-    convenience init(title: String?, message: String?, actions: [DSAlertAction]) {
-        self.init()
-        self.actions = actions
-        self.titleLabel.text = title
-        self.messageLabel.text = message
-    }
     
     private override init(frame: CGRect) {
         super.init(frame: frame)
@@ -159,13 +224,22 @@ class DSActionSheet: UIView, UITableViewDataSource, UITableViewDelegate {
         fatalError("init(coder:) has not been implemented")
     }
     
-    deinit {
-        print("sheet 已释放")
-    }
-    
     /// 取消按钮点击
     @objc private func cancelButtonClicked() {
         dissmiss()
+    }
+    
+    @objc private func dissmiss() {
+        UIView.animate(withDuration: 0.3, animations: {
+            self.backgroundColor = UIColor.black.withAlphaComponent(0)
+            self.contentView.snp.remakeConstraints { (make) in
+                make.top.equalTo(self.snp.bottom)
+                make.left.right.equalToSuperview()
+            }
+            self.layoutIfNeeded()
+        }) { (finished) in
+            self.removeFromSuperview()
+        }
     }
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
@@ -180,60 +254,6 @@ class DSActionSheet: UIView, UITableViewDataSource, UITableViewDelegate {
             make.left.right.equalToSuperview()
             make.top.equalTo(headerView.snp.bottom)
             make.height.equalTo(height)
-        }
-    }
-    
-    private func show() {
-        
-        guard let window = UIApplication.shared.delegate?.window else {
-            return
-        }
-        
-        window?.addSubview(self)
-        self.snp.makeConstraints { (make) in
-            make.left.right.top.bottom.equalToSuperview()
-        }
-        
-        backgroundColor = UIColor.black.withAlphaComponent(0)
-        addSubview(contentView)
-        contentView.snp.makeConstraints { (make) in
-            make.left.right.equalToSuperview()
-            make.top.equalTo(self.snp.bottom)
-        }
-        
-        self.layoutIfNeeded()
-        
-        
-        UIView.animate(withDuration: 0.3, animations: {
-            self.backgroundColor = UIColor.black.withAlphaComponent(0.3)
-            self.contentView.snp.remakeConstraints { (make) in
-                make.left.right.equalToSuperview()
-                make.bottom.equalTo(self.snp.bottom)
-            }
-            self.layoutIfNeeded()
-        }) { (finished) in
-            let dismissButton = UIButton()
-            self.addSubview(dismissButton)
-            dismissButton.backgroundColor = .clear
-            dismissButton.addTarget(self, action: #selector(self.dissmiss), for: .touchUpInside)
-            dismissButton.snp.makeConstraints { (make) in
-                make.top.left.right.equalToSuperview()
-                make.bottom.equalTo(self.contentView.snp.top)
-            }
-        }
-        
-    }
-    
-    @objc private func dissmiss() {
-        UIView.animate(withDuration: 0.3, animations: {
-            self.backgroundColor = UIColor.black.withAlphaComponent(0)
-            self.contentView.snp.remakeConstraints { (make) in
-                make.top.equalTo(self.snp.bottom)
-                make.left.right.equalToSuperview()
-            }
-            self.layoutIfNeeded()
-        }) { (finished) in
-            self.removeFromSuperview()
         }
     }
     
@@ -259,6 +279,8 @@ class DSActionSheet: UIView, UITableViewDataSource, UITableViewDelegate {
 }
 
 
+// MARK: - Action Model
+
 class DSAlertAction {
     
     typealias DSAlertActionHandler = (() -> ())
@@ -280,6 +302,9 @@ class DSAlertAction {
     
 }
 
+
+
+// MARK: - Cell
 
 fileprivate class DSActionSheetCell: UITableViewCell {
     

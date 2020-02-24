@@ -14,6 +14,10 @@ class PerfectAppViewController: CQBaseViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        let a: Float = 1 / 2
+        print(a)
+        
     }
 
 }

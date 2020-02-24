@@ -25,6 +25,7 @@ pod 'Texture'
 pod 'CameraManager', '~> 4.4'
 pod 'JXSegmentedView'
 pod 'Kingfisher', '5.7.1'
+pod 'SwiftyJSON'
 
 end
 

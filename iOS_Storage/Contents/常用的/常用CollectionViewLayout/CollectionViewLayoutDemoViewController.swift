@@ -8,62 +8,56 @@
 
 import UIKit
 
-class CollectionViewLayoutDemoViewController: CQBaseViewController {
+class CollectionViewLayoutDemoViewController: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
     
-    /// 竖向collectionView
-    private lazy var verticalFlowLayoutCollectionView: UICollectionView = {
-        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: CollectionViewVerticalFlowLayout.init(cellSpacing: 10, itemSize: CGSize(width: 100, height: 100), inset: UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)))
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: UICollectionViewCell.className())
-        collectionView.dataSource = self
-        return collectionView
+    private lazy var dataArray: [Model] = {
+        return [Model(title: "竖向", targetVC: VerticalCollectionViewController()),
+                Model(title: "横向", targetVC: HorizonCollectionViewController()),
+                Model(title: "横向demo完整版", targetVC: HorizonCollectionViewController2())]
     }()
     
-    /// 横向collectionView
-    private lazy var horizontalFlowLayoutCollection: UICollectionView = {
-        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: CollectionViewHorizontalFlowLayout(cellSpacing: 40, itemSize: CGSize(width: 100, height: 100), inset: UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 0)))
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: UICollectionViewCell.className())
-        collectionView.dataSource = self
-        collectionView.isPagingEnabled = true
-        return collectionView
+    private lazy var tableView: UITableView = {
+        let tableView = UITableView()
+        tableView.dataSource = self
+        tableView.delegate = self
+        return tableView
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
-        view.addSubview(verticalFlowLayoutCollectionView)
-        view.addSubview(horizontalFlowLayoutCollection)
-        
-        verticalFlowLayoutCollectionView.snp.makeConstraints { (make) in
-            make.top.equalTo(90)
-            make.left.right.equalToSuperview()
-            make.height.equalTo(200)
-        }
-        
-        horizontalFlowLayoutCollection.snp.makeConstraints { (make) in
-            make.top.equalTo(verticalFlowLayoutCollectionView.snp.bottom).offset(20)
-            make.left.right.equalToSuperview()
-            make.height.equalTo(159)
+        view.addSubview(tableView)
+        tableView.snp.makeConstraints { (make) in
+            make.edges.equalToSuperview()
         }
         
     }
-
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return dataArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let reuseID = "reuseID"
+        var cell = tableView.dequeueReusableCell(withIdentifier: reuseID)
+        if cell == nil {
+            cell = UITableViewCell.init(style: .default, reuseIdentifier: reuseID)
+        }
+        cell?.textLabel?.text = dataArray[indexPath.row].title
+        return cell!
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        navigationController?.pushViewController(dataArray[indexPath.row].targetVC, animated: true)
+    }
+    
 }
 
-extension CollectionViewLayoutDemoViewController: UICollectionViewDataSource, UICollectionViewDelegate {
+fileprivate struct Model {
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 30
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: UICollectionViewCell.className(), for: indexPath)
-        cell.contentView.backgroundColor = .orange
-        return cell
-    }
-    
-    
-    
+    var title: String
+    var targetVC: UIViewController
     
 }

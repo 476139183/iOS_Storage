@@ -23,6 +23,7 @@ class SnapKitDemoViewController: CQBaseViewController {
             make.centerX.equalTo(100)
             make.top.equalTo(100)
             make.width.equalTo(50)
+            // MARK: - 宽高比
             // height : width = 2 : 1
             make.height.equalTo(redView.snp.width).multipliedBy(2)
         }

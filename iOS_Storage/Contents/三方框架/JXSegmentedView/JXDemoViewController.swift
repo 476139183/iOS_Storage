@@ -15,7 +15,8 @@ class JXDemoViewController: CQBaseViewController, UITableViewDataSource, UITable
                                            Model.init(title: "文字或图片", sel: #selector(gotoImageOrTextSegementVC)),
                                            Model.init(title: "混合cell", sel: #selector(gotoMixCellVC)),
                                            Model.init(title: "自定义cell", sel: #selector(gotoCustomCellVC)),
-                                           Model.init(title: "红点segment", sel: #selector(gotoRedDotVC))]
+                                           Model.init(title: "红点segment", sel: #selector(gotoRedDotVC)),
+                                           Model.init(title: "单独的segment", sel: #selector(gotoSingleSegmentdVC))]
     
     private lazy var tableView: UITableView = {
         let tableView = UITableView()
@@ -63,6 +64,11 @@ class JXDemoViewController: CQBaseViewController, UITableViewDataSource, UITable
     
     @objc private func gotoRedDotVC() {
         let vc = RedDotSegmentViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func gotoSingleSegmentdVC() {
+        let vc = SingleSegmentedViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
     

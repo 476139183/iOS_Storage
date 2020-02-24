@@ -35,6 +35,11 @@ class FontTestViewController: CQBaseViewController {
         view.addSubview(label4)
         label4.text = "DINAlternate-Bold"
         label4.font = UIFont(name: "DINAlternate-Bold", size: 40)
+        
+        let label5 = UILabel.init(frame: .init(x: 90, y: 310, width: 300, height: 50))
+        view.addSubview(label5)
+        label5.text = "SFProText"
+        label5.font = UIFont(name: "SFProText-Bold", size: 40)
     }
     
 }

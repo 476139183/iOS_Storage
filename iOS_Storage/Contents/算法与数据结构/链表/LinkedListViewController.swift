@@ -16,6 +16,7 @@ class LinkedListViewController: CQBaseViewController {
         // Do any additional setup after loading the view.
         
         
+        
     }
 
 }
