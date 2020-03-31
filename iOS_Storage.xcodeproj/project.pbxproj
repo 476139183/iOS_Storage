@@ -295,6 +295,7 @@
 		D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */; };
 		D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC320E6388300F328F9 /* CQWarnTextField.m */; };
 		D9928EA6243345CB0082999F /* SimpleTableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9928EA5243345CA0082999F /* SimpleTableViewHelper.swift */; };
+		D9928EA924334C4D0082999F /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9928EA824334C4D0082999F /* HeroViewController.swift */; };
 		D994A6DA23A5E4C10032E540 /* ControlFlowViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994A6D923A5E4C10032E540 /* ControlFlowViewConroller.swift */; };
 		D994A6DC23A5E4E20032E540 /* ControlFlow.md in Resources */ = {isa = PBXBuildFile; fileRef = D994A6DB23A5E4E20032E540 /* ControlFlow.md */; };
 		D994A6E023A65E050032E540 /* IconFontButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994A6DF23A65E050032E540 /* IconFontButton.swift */; };
@@ -886,6 +887,7 @@
 		D9920CC220E6388300F328F9 /* CQWarnTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextField.h; sourceTree = "<group>"; };
 		D9920CC320E6388300F328F9 /* CQWarnTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWarnTextField.m; sourceTree = "<group>"; };
 		D9928EA5243345CA0082999F /* SimpleTableViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewHelper.swift; sourceTree = "<group>"; };
+		D9928EA824334C4D0082999F /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
 		D994A6D923A5E4C10032E540 /* ControlFlowViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowViewConroller.swift; sourceTree = "<group>"; };
 		D994A6DB23A5E4E20032E540 /* ControlFlow.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ControlFlow.md; sourceTree = "<group>"; };
 		D994A6DF23A65E050032E540 /* IconFontButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFontButton.swift; sourceTree = "<group>"; };
@@ -3052,6 +3054,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D9928EA724334C1D0082999F /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				D9928EA824334C4D0082999F /* HeroViewController.swift */,
+			);
+			path = Hero;
+			sourceTree = "<group>";
+		};
 		D9A0091223725A3100ECF98F /* 自定义cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -3352,6 +3362,7 @@
 				D9A65EEB235AA23D00D55A6F /* JXSegmentedView */,
 				D920ED1C22E8703900C5A43F /* Lottie */,
 				D97F3765238BF36800D47F3C /* 嵌套tableView */,
+				D9928EA724334C1D0082999F /* Hero */,
 			);
 			path = "三方框架";
 			sourceTree = "<group>";
@@ -4830,6 +4841,7 @@
 				D95199ED22BDD83C00E3036B /* CQDemoView.m in Sources */,
 				D94BCDEA22E9D4BD0080584F /* CQStandardOCCollectionViewCell.m in Sources */,
 				D9F5230A2362DCB000ABBEF7 /* CornerAndShadowViewController.swift in Sources */,
+				D9928EA924334C4D0082999F /* HeroViewController.swift in Sources */,
 				D9DA0E8520E251C4006CEA1C /* IphoneMenuItemModel.m in Sources */,
 				D920CE8F22B37F47000962C0 /* CQPrivacyManager.m in Sources */,
 				D9C7CC2322E9B2A80038FD34 /* StandardSwiftTableFooterView.swift in Sources */,
