@@ -294,6 +294,7 @@
 		D991C921236C492300CB290C /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991C920236C492300CB290C /* Loading.swift */; };
 		D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */; };
 		D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC320E6388300F328F9 /* CQWarnTextField.m */; };
+		D9928EA6243345CB0082999F /* SimpleTableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9928EA5243345CA0082999F /* SimpleTableViewHelper.swift */; };
 		D994A6DA23A5E4C10032E540 /* ControlFlowViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994A6D923A5E4C10032E540 /* ControlFlowViewConroller.swift */; };
 		D994A6DC23A5E4E20032E540 /* ControlFlow.md in Resources */ = {isa = PBXBuildFile; fileRef = D994A6DB23A5E4E20032E540 /* ControlFlow.md */; };
 		D994A6E023A65E050032E540 /* IconFontButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994A6DF23A65E050032E540 /* IconFontButton.swift */; };
@@ -884,6 +885,7 @@
 		D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWarnTextFieldController.m; sourceTree = "<group>"; };
 		D9920CC220E6388300F328F9 /* CQWarnTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextField.h; sourceTree = "<group>"; };
 		D9920CC320E6388300F328F9 /* CQWarnTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWarnTextField.m; sourceTree = "<group>"; };
+		D9928EA5243345CA0082999F /* SimpleTableViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewHelper.swift; sourceTree = "<group>"; };
 		D994A6D923A5E4C10032E540 /* ControlFlowViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowViewConroller.swift; sourceTree = "<group>"; };
 		D994A6DB23A5E4E20032E540 /* ControlFlow.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ControlFlow.md; sourceTree = "<group>"; };
 		D994A6DF23A65E050032E540 /* IconFontButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFontButton.swift; sourceTree = "<group>"; };
@@ -3394,6 +3396,7 @@
 		D9BE257B23B86FCD001F4D71 /* 精简tableView */ = {
 			isa = PBXGroup;
 			children = (
+				D9928EA5243345CA0082999F /* SimpleTableViewHelper.swift */,
 				D9BE257D23B870F2001F4D71 /* SimpleTableViewController.swift */,
 			);
 			path = "精简tableView";
@@ -4463,6 +4466,7 @@
 				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CameraManager/CameraManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
 				"${BUILT_PRODUCTS_DIR}/JXSegmentedView/JXSegmentedView.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
@@ -4492,6 +4496,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CameraManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXSegmentedView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
@@ -4926,6 +4931,7 @@
 				D97246FA237EB11D001671AD /* LeftSideCellViewController.swift in Sources */,
 				D930957023B2FDFD00837CA6 /* StaticMyTableViewController.swift in Sources */,
 				D9BE258023B8711E001F4D71 /* QuickTableViewController.swift in Sources */,
+				D9928EA6243345CB0082999F /* SimpleTableViewHelper.swift in Sources */,
 				D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */,
 				D9A39F7B22B4D2DC00FEA5F5 /* CQMVPViewController.m in Sources */,
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,

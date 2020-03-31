@@ -19,6 +19,7 @@ PODS:
     - AFNetworking/NSURLSession
   - Alamofire (4.9.0)
   - CameraManager (4.4.0)
+  - Hero (1.5.0)
   - JSONModel (1.8.0)
   - JXSegmentedView (1.0.0)
   - Kingfisher (5.7.1)
@@ -90,6 +91,7 @@ DEPENDENCIES:
   - AFNetworking
   - Alamofire
   - CameraManager (~> 4.4)
+  - Hero
   - JSONModel
   - JXSegmentedView
   - Kingfisher (= 5.7.1)
@@ -114,6 +116,7 @@ SPEC REPOS:
     - AFNetworking
     - Alamofire
     - CameraManager
+    - Hero
     - JSONModel
     - JXSegmentedView
     - Kingfisher
@@ -142,6 +145,7 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
   CameraManager: 583710502c42178d12ef046d9d4f7893feff8354
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   JXSegmentedView: 257773dde0c65f86c9d873c5cf93d15c76e170cc
   Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
@@ -165,6 +169,6 @@ SPEC CHECKSUMS:
   Texture: 8ecf6984065a1e54f06bf97b349ecca28582acd7
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 1a4453d43ddfd8fb345fb6beb547f4706063ebd1
+PODFILE CHECKSUM: 7f34475dbc396f97980e90fedbed7848edccf6aa
 
 COCOAPODS: 1.8.4
