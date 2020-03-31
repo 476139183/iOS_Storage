@@ -5064,7 +5064,7 @@
 				INFOPLIST_FILE = iOS_Storage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CaiQiang.Storage2;
+				PRODUCT_BUNDLE_IDENTIFIER = "CaiQiang.iOS-Storage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Storage/iOS_Storage-Bridging-Header.h";
@@ -5088,7 +5088,7 @@
 				INFOPLIST_FILE = iOS_Storage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CaiQiang.Storage2;
+				PRODUCT_BUNDLE_IDENTIFIER = "CaiQiang.iOS-Storage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Storage/iOS_Storage-Bridging-Header.h";
