@@ -296,6 +296,7 @@
 		D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC320E6388300F328F9 /* CQWarnTextField.m */; };
 		D9928EA6243345CB0082999F /* SimpleTableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9928EA5243345CA0082999F /* SimpleTableViewHelper.swift */; };
 		D9928EA924334C4D0082999F /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9928EA824334C4D0082999F /* HeroViewController.swift */; };
+		D9928EAB243429380082999F /* HeroViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9928EAA243429380082999F /* HeroViewController2.swift */; };
 		D994A6DA23A5E4C10032E540 /* ControlFlowViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994A6D923A5E4C10032E540 /* ControlFlowViewConroller.swift */; };
 		D994A6DC23A5E4E20032E540 /* ControlFlow.md in Resources */ = {isa = PBXBuildFile; fileRef = D994A6DB23A5E4E20032E540 /* ControlFlow.md */; };
 		D994A6E023A65E050032E540 /* IconFontButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994A6DF23A65E050032E540 /* IconFontButton.swift */; };
@@ -888,6 +889,7 @@
 		D9920CC320E6388300F328F9 /* CQWarnTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWarnTextField.m; sourceTree = "<group>"; };
 		D9928EA5243345CA0082999F /* SimpleTableViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewHelper.swift; sourceTree = "<group>"; };
 		D9928EA824334C4D0082999F /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
+		D9928EAA243429380082999F /* HeroViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController2.swift; sourceTree = "<group>"; };
 		D994A6D923A5E4C10032E540 /* ControlFlowViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowViewConroller.swift; sourceTree = "<group>"; };
 		D994A6DB23A5E4E20032E540 /* ControlFlow.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ControlFlow.md; sourceTree = "<group>"; };
 		D994A6DF23A65E050032E540 /* IconFontButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFontButton.swift; sourceTree = "<group>"; };
@@ -3058,6 +3060,7 @@
 			isa = PBXGroup;
 			children = (
 				D9928EA824334C4D0082999F /* HeroViewController.swift */,
+				D9928EAA243429380082999F /* HeroViewController2.swift */,
 			);
 			path = Hero;
 			sourceTree = "<group>";
@@ -4796,6 +4799,7 @@
 				D9AEB65922F57955006F8995 /* MoyaDemoViewController.swift in Sources */,
 				D942531B2366D55C0031356C /* AnimationsViewController.swift in Sources */,
 				D9BF6915233F57CF00E602A4 /* GradientButton.swift in Sources */,
+				D9928EAB243429380082999F /* HeroViewController2.swift in Sources */,
 				D95199F722BF287000E3036B /* CQMVVMRACViewController.m in Sources */,
 				D91E1D28233E50B000B1C772 /* CQGradientDemoViewController.m in Sources */,
 				D9CB1EC02341FBDD00CEB752 /* NSObject+Extension.swift in Sources */,

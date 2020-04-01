@@ -98,5 +98,13 @@
 		<key>url</key>
 		<string></string>
 	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>Hero</string>
+		<key>controller_name</key>
+		<string>HeroViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
 </array>
 </plist>
