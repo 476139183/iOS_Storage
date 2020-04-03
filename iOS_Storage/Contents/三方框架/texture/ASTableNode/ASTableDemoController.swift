@@ -82,6 +82,8 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
         let footerView = UIView(frame: CGRect(x: 0, y: 0, width: kScreenWidth, height: 100))
         footerView.backgroundColor = .green
         self.node.view.tableFooterView = footerView
+        
+        
     }
     
 //    override func viewWillLayoutSubviews() {

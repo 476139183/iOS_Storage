@@ -36,11 +36,11 @@ enum PlaceholderViewType {
 class PlaceholderView: UIView {
     
     /// 占位图点击回调
-    typealias ViewTapedClosure = (() -> ())?
+    typealias ViewTapedClosure = (() -> ())
     
     var type: PlaceholderViewType = .noData
     var title: String = ""
-    var viewTapedClosure: ViewTapedClosure
+    var viewTapedClosure: ViewTapedClosure?
     
     
     // MARK: - show
@@ -51,7 +51,7 @@ class PlaceholderView: UIView {
     /// - Parameter title: title
     /// - Parameter tapedColsure: 占位图点击回调
     @discardableResult
-    class func show(on view: UIView, type: PlaceholderViewType!, title: String!, tapedColsure: ViewTapedClosure) -> PlaceholderView {
+    class func show(on view: UIView, type: PlaceholderViewType!, title: String!, tapedColsure: @escaping ViewTapedClosure) -> PlaceholderView {
         // 先移除已有的
         remove(from: view)
         
@@ -95,7 +95,7 @@ class PlaceholderView: UIView {
     
     // MARK: - init
     
-    convenience init(type: PlaceholderViewType!, title: String!, tapedColsure: ViewTapedClosure) {
+    convenience init(type: PlaceholderViewType!, title: String!, tapedColsure: @escaping ViewTapedClosure) {
         self.init()
         
         self.type = type
@@ -108,6 +108,13 @@ class PlaceholderView: UIView {
         addGestureRecognizer(tapGesture)
     }
     
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     // MARK: - UI
     

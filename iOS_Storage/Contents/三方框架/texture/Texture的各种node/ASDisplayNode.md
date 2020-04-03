@@ -8,6 +8,7 @@
 
 ## 2. `- didLoad`
 
+**在主线程调用。**
 类似于 `UIViewController` 的 `-viewDidLoad` 方法。保证会在主线程上被调用，是执行任何 UIKit 代码合适的地方，例如添加手势识，更改 view 和 layer，初始化 UIKit 对象。
 
 

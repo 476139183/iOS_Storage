@@ -28,7 +28,7 @@ pod 'JXSegmentedView'
 pod 'Kingfisher', '5.7.1'
 pod 'SwiftyJSON'
 pod 'Hero'
-pod 'SideMenu'
+pod 'SideMenu', '~> 6.4.8'
 
 end
 
