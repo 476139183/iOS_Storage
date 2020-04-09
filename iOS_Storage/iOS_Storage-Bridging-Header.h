@@ -28,4 +28,4 @@
 #import "CQShadowView.h"
 #import "CQShadowImageView.h"
 #import "Categories.h"
-
+#import "UIImage+Compress.h"

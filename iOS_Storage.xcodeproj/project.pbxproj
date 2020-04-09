@@ -491,6 +491,8 @@
 		D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */ = {isa = PBXBuildFile; fileRef = D9F29C9022B6257F002E10E4 /* 组件化.md */; };
 		D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F2D46D210B178F0088FB90 /* CQGCDController.m */; };
 		D9F5230A2362DCB000ABBEF7 /* CornerAndShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F523092362DCB000ABBEF7 /* CornerAndShadowViewController.swift */; };
+		D9F72DDB243D83AF007BBB05 /* CompressImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F72DDA243D83AF007BBB05 /* CompressImageViewController.swift */; };
+		D9F72DDE243D83D2007BBB05 /* UIImage+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F72DDD243D83D2007BBB05 /* UIImage+Compress.m */; };
 		D9F7E00C237011ED00BE1285 /* JXDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E00B237011ED00BE1285 /* JXDemoViewController.swift */; };
 		D9F7E00E237013D100BE1285 /* JXImageTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E00D237013D100BE1285 /* JXImageTitleViewController.swift */; };
 		D9F7E010237026E200BE1285 /* JXImageOrTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E00F237026E200BE1285 /* JXImageOrTextViewController.swift */; };
@@ -1166,6 +1168,9 @@
 		D9F2D46C210B178F0088FB90 /* CQGCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGCDController.h; sourceTree = "<group>"; };
 		D9F2D46D210B178F0088FB90 /* CQGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGCDController.m; sourceTree = "<group>"; };
 		D9F523092362DCB000ABBEF7 /* CornerAndShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerAndShadowViewController.swift; sourceTree = "<group>"; };
+		D9F72DDA243D83AF007BBB05 /* CompressImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressImageViewController.swift; sourceTree = "<group>"; };
+		D9F72DDC243D83D2007BBB05 /* UIImage+Compress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compress.h"; sourceTree = "<group>"; };
+		D9F72DDD243D83D2007BBB05 /* UIImage+Compress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compress.m"; sourceTree = "<group>"; };
 		D9F7E00B237011ED00BE1285 /* JXDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXDemoViewController.swift; sourceTree = "<group>"; };
 		D9F7E00D237013D100BE1285 /* JXImageTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXImageTitleViewController.swift; sourceTree = "<group>"; };
 		D9F7E00F237026E200BE1285 /* JXImageOrTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXImageOrTextViewController.swift; sourceTree = "<group>"; };
@@ -2084,6 +2089,7 @@
 				D986652F2371546C00AA60B2 /* image和text互转 */,
 				D982964923976966001C05AE /* 各种跳转 */,
 				D92CBD6C23F78A8E003A6EDC /* 各种字体 */,
+				D9F72DD9243D836A007BBB05 /* 图片压缩 */,
 			);
 			path = "常用的";
 			sourceTree = "<group>";
@@ -4130,6 +4136,16 @@
 			path = "圆角和阴影";
 			sourceTree = "<group>";
 		};
+		D9F72DD9243D836A007BBB05 /* 图片压缩 */ = {
+			isa = PBXGroup;
+			children = (
+				D9F72DDA243D83AF007BBB05 /* CompressImageViewController.swift */,
+				D9F72DDC243D83D2007BBB05 /* UIImage+Compress.h */,
+				D9F72DDD243D83D2007BBB05 /* UIImage+Compress.m */,
+			);
+			path = "图片压缩";
+			sourceTree = "<group>";
+		};
 		D9F7CC8120EB16D800B3C9B9 /* 架构与设计模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -4749,6 +4765,7 @@
 				D96FE2C82396446A00949006 /* ASOverlayLayoutController.swift in Sources */,
 				D9179CE422B7C9DA002FCCA0 /* UIButton+CQBorder.m in Sources */,
 				D9CE54BA233D100A00AB58C0 /* MyCellNode4.swift in Sources */,
+				D9F72DDE243D83D2007BBB05 /* UIImage+Compress.m in Sources */,
 				D9C7CC1122E99DB60038FD34 /* CQStandardTableSectionHeaderView.m in Sources */,
 				D9AC3CAD22AFEDD3007DDBD0 /* CQRouteManager.m in Sources */,
 				D953284B2399EF4400C15136 /* CQMemoryLeakManager.m in Sources */,
@@ -4839,6 +4856,7 @@
 				D982964B23976A42001C05AE /* NavigationJumpViewController.swift in Sources */,
 				D9DA5CF020E291550098EC68 /* UIView+Util.m in Sources */,
 				D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */,
+				D9F72DDB243D83AF007BBB05 /* CompressImageViewController.swift in Sources */,
 				D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */,
 				D9C7CC2522E9B8C10038FD34 /* StandardSwiftSectionHeaderView.swift in Sources */,
 				D9160F9923BDF3570089E864 /* GitInfoViewController.swift in Sources */,
