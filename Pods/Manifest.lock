@@ -83,6 +83,7 @@ PODS:
     - Texture/Core
   - Texture/Video (2.8.1):
     - Texture/Core
+  - TTTAttributedLabel (2.0.0)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -110,6 +111,7 @@ DEPENDENCIES:
   - SVProgressHUD
   - SwiftyJSON
   - Texture
+  - TTTAttributedLabel
   - YYKit
 
 SPEC REPOS:
@@ -141,6 +143,7 @@ SPEC REPOS:
     - SVProgressHUD
     - SwiftyJSON
     - Texture
+    - TTTAttributedLabel
     - YYKit
 
 SPEC CHECKSUMS:
@@ -171,8 +174,9 @@ SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   Texture: 8ecf6984065a1e54f06bf97b349ecca28582acd7
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: a3c0c0607aba46f05a06b757621019702bf02609
+PODFILE CHECKSUM: 7981430b4b18427e98bf2de5cb606715be812233
 
 COCOAPODS: 1.8.4

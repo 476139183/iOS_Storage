@@ -29,6 +29,7 @@ pod 'Kingfisher', '5.7.1'
 pod 'SwiftyJSON'
 pod 'Hero'
 pod 'SideMenu', '~> 6.4.8'
+pod 'TTTAttributedLabel'
 
 end
 
