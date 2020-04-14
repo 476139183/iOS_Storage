@@ -17,6 +17,16 @@ class SnapKitDemoViewController: CQBaseViewController {
         
         // Do any additional setup after loading the view.
         
+        let line = UIView()
+        line.backgroundColor = .gray
+        view.addSubview(line)
+        line.snp.makeConstraints { (make) in
+            make.leading.equalTo(20) // leading 同 left
+            make.right.equalTo(-20) // 等价于 make.right.equalToSuperview().offset(-20)
+            make.top.equalTo(99)
+            make.height.equalTo(1)
+        }
+        
         view.addSubview(redView)
         redView.backgroundColor = .red
         redView.snp.makeConstraints { (make) in
