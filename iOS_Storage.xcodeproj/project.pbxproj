@@ -202,6 +202,7 @@
 		D9545B382293AA4B008B6355 /* CQPermanentThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B372293AA4B008B6355 /* CQPermanentThreadController.m */; };
 		D9545B3B2293AB48008B6355 /* CQThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B3A2293AB48008B6355 /* CQThread.m */; };
 		D9545B3E2293B275008B6355 /* CQRunloopModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B3D2293B275008B6355 /* CQRunloopModeController.m */; };
+		D954D5BC24454B6000F02DCF /* SupernatantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954D5BB24454B6000F02DCF /* SupernatantViewController.swift */; };
 		D954FF5223B1BBEE0052A63A /* StaticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954FF5023B1BBEE0052A63A /* StaticViewController.swift */; };
 		D954FF5523B1BCAE0052A63A /* PreloadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954FF5423B1BCAE0052A63A /* PreloadTableViewController.swift */; };
 		D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */; };
@@ -791,6 +792,7 @@
 		D9545B3A2293AB48008B6355 /* CQThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQThread.m; sourceTree = "<group>"; };
 		D9545B3C2293B275008B6355 /* CQRunloopModeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRunloopModeController.h; sourceTree = "<group>"; };
 		D9545B3D2293B275008B6355 /* CQRunloopModeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRunloopModeController.m; sourceTree = "<group>"; };
+		D954D5BB24454B6000F02DCF /* SupernatantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupernatantViewController.swift; sourceTree = "<group>"; };
 		D954FF5023B1BBEE0052A63A /* StaticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticViewController.swift; sourceTree = "<group>"; };
 		D954FF5423B1BCAE0052A63A /* PreloadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreloadTableViewController.swift; sourceTree = "<group>"; };
 		D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureNodeDemoViewController.swift; sourceTree = "<group>"; };
@@ -1984,6 +1986,7 @@
 				D91245D423A90A3E00E3775A /* UIScrollViewDemo */,
 				D933CBDA23ADD5F100AFDF1B /* UIPresentationController */,
 				D9B6313923BB29B7003D95D9 /* UIActivityViewController */,
+				D954D5BA24454AB200F02DCF /* 浮层 Controller */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -2504,6 +2507,14 @@
 				D953284D239A06F900C15136 /* CQMemoryLeakView.m */,
 			);
 			path = "检测controller是否释放";
+			sourceTree = "<group>";
+		};
+		D954D5BA24454AB200F02DCF /* 浮层 Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D954D5BB24454B6000F02DCF /* SupernatantViewController.swift */,
+			);
+			path = "浮层 Controller";
 			sourceTree = "<group>";
 		};
 		D954FF4E23B1BB920052A63A /* 静态tableView */ = {
@@ -4735,6 +4746,7 @@
 				D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */,
 				D9FF65D4212AC0F200B06371 /* CQTimerCellController.m in Sources */,
 				D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */,
+				D954D5BC24454B6000F02DCF /* SupernatantViewController.swift in Sources */,
 				D91A9F7C22B3D89E008F87F1 /* CQCountDownButton.m in Sources */,
 				D9E21A88210FF83D00407599 /* CQClassClusterCellA.m in Sources */,
 				D9145403237A894B0083FD19 /* Tool.swift in Sources */,
