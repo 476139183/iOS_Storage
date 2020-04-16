@@ -297,6 +297,7 @@ class DSAlertAction {
         
         self.title = title
         self.titleColor = titleColor
+        self.titleFont = titleFont
         self.handler = handler
     }
     

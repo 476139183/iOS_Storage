@@ -494,6 +494,7 @@
 		D9E86CC92447EF31009CCBB8 /* RotationGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E86CC82447EF31009CCBB8 /* RotationGestureViewController.swift */; };
 		D9E86CCB2447EF5C009CCBB8 /* ScreenEdgePanGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E86CCA2447EF5C009CCBB8 /* ScreenEdgePanGestureViewController.swift */; };
 		D9E86CCD2447FB3E009CCBB8 /* GaodeMapPanDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E86CCC2447FB3E009CCBB8 /* GaodeMapPanDemoViewController.swift */; };
+		D9E86CCF24483C00009CCBB8 /* 正则表达式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9E86CCE24483C00009CCBB8 /* 正则表达式.md */; };
 		D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E420E2322E00C3090D /* IrregularLabel.m */; };
 		D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */; };
 		D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4EB20E235D400C3090D /* ArrowLabel.m */; };
@@ -1179,6 +1180,7 @@
 		D9E86CC82447EF31009CCBB8 /* RotationGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureViewController.swift; sourceTree = "<group>"; };
 		D9E86CCA2447EF5C009CCBB8 /* ScreenEdgePanGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenEdgePanGestureViewController.swift; sourceTree = "<group>"; };
 		D9E86CCC2447FB3E009CCBB8 /* GaodeMapPanDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaodeMapPanDemoViewController.swift; sourceTree = "<group>"; };
+		D9E86CCE24483C00009CCBB8 /* 正则表达式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "正则表达式.md"; sourceTree = "<group>"; };
 		D9E9F4E320E2322E00C3090D /* IrregularLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IrregularLabel.h; sourceTree = "<group>"; };
 		D9E9F4E420E2322E00C3090D /* IrregularLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularLabel.m; sourceTree = "<group>"; };
 		D9E9F4E620E232E200C3090D /* CQIrregularViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQIrregularViewController.h; sourceTree = "<group>"; };
@@ -4210,6 +4212,7 @@
 			isa = PBXGroup;
 			children = (
 				D9F72DE02440545E007BBB05 /* RegularExpressionViewController.swift */,
+				D9E86CCE24483C00009CCBB8 /* 正则表达式.md */,
 			);
 			path = "正则表达式";
 			sourceTree = "<group>";
@@ -4451,6 +4454,7 @@
 				D96FE2BD23960E0500949006 /* ASDisplayNode.md in Resources */,
 				D9BE258223B87B48001F4D71 /* 同种model多种cell的tableView.md in Resources */,
 				D985E41B23FD08B500CF7954 /* SF-Pro-Text-Regular.otf in Resources */,
+				D9E86CCF24483C00009CCBB8 /* 正则表达式.md in Resources */,
 				D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */,
 				D9179CDE22B7C04F002FCCA0 /* 装饰模式.md in Resources */,
 				D94BCDEC22E9D91B0080584F /* 标准CollectionView OC版.md in Resources */,

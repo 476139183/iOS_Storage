@@ -48,7 +48,7 @@ class DSActionSheetController: CQBaseViewController {
         let action2 = DSAlertAction.init(title: "第二个") {
             print("点击了第二个")
         }
-        let action3 = DSAlertAction.init(title: "删除", titleColor: .red, titleFont: .boldSystemFont(ofSize: 15)) {
+        let action3 = DSAlertAction.init(title: "删除", titleColor: .red, titleFont: .boldSystemFont(ofSize: 18)) {
             print("点击了删除")
         }
         DSActionSheet.showWith(title: nil, message: nil, actions: [action1, action2, action3])

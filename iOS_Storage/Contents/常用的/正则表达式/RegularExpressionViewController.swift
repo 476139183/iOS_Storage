@@ -79,7 +79,7 @@ class RegularExpressionViewController: CQBaseViewController {
     }
     
     @objc private func checkButtonClicked() {
-        
+        test3()
     }
     
     private func test1() {
@@ -121,7 +121,19 @@ class RegularExpressionViewController: CQBaseViewController {
         }
     }
     
+    private func test3() {
+        let url = "123dnf123"
+        let pattern = "dnf"
+        let regex = try? NSRegularExpression(pattern: pattern, options: [])
+        if let results = regex?.matches(in: url, options: [], range: NSRange.init(location: 0, length: url.count)), results.count != 0 {
+            print("is dnf")
+        } else {
+            print("not dnf")
+        }
+    }
+    
 }
 
 
 // ((http[s]{0,1}|ftp)://[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)|(www.[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)
+
