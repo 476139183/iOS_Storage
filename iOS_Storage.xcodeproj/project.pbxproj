@@ -506,6 +506,7 @@
 		D9F72DDB243D83AF007BBB05 /* CompressImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F72DDA243D83AF007BBB05 /* CompressImageViewController.swift */; };
 		D9F72DDE243D83D2007BBB05 /* UIImage+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F72DDD243D83D2007BBB05 /* UIImage+Compress.m */; };
 		D9F72DE12440545E007BBB05 /* RegularExpressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F72DE02440545E007BBB05 /* RegularExpressionViewController.swift */; };
+		D9F7DEFE2449655600A63632 /* TTTLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7DEFD2449655600A63632 /* TTTLabelViewController.swift */; };
 		D9F7E00C237011ED00BE1285 /* JXDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E00B237011ED00BE1285 /* JXDemoViewController.swift */; };
 		D9F7E00E237013D100BE1285 /* JXImageTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E00D237013D100BE1285 /* JXImageTitleViewController.swift */; };
 		D9F7E010237026E200BE1285 /* JXImageOrTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7E00F237026E200BE1285 /* JXImageOrTextViewController.swift */; };
@@ -1197,6 +1198,7 @@
 		D9F72DDC243D83D2007BBB05 /* UIImage+Compress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compress.h"; sourceTree = "<group>"; };
 		D9F72DDD243D83D2007BBB05 /* UIImage+Compress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compress.m"; sourceTree = "<group>"; };
 		D9F72DE02440545E007BBB05 /* RegularExpressionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularExpressionViewController.swift; sourceTree = "<group>"; };
+		D9F7DEFD2449655600A63632 /* TTTLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTLabelViewController.swift; sourceTree = "<group>"; };
 		D9F7E00B237011ED00BE1285 /* JXDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXDemoViewController.swift; sourceTree = "<group>"; };
 		D9F7E00D237013D100BE1285 /* JXImageTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXImageTitleViewController.swift; sourceTree = "<group>"; };
 		D9F7E00F237026E200BE1285 /* JXImageOrTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXImageOrTextViewController.swift; sourceTree = "<group>"; };
@@ -3421,6 +3423,7 @@
 				D97F3765238BF36800D47F3C /* 嵌套tableView */,
 				D9928EA724334C1D0082999F /* Hero */,
 				D9EC2EAD24343D6B00C1E4E4 /* SideMenu */,
+				D9F7DEFC2449653200A63632 /* TTTAttributedLabel */,
 			);
 			path = "三方框架";
 			sourceTree = "<group>";
@@ -4292,6 +4295,14 @@
 			path = Tips;
 			sourceTree = "<group>";
 		};
+		D9F7DEFC2449653200A63632 /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D9F7DEFD2449655600A63632 /* TTTLabelViewController.swift */,
+			);
+			path = TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
 		D9F9336A229D7C5100C7B2E0 /* pthread */ = {
 			isa = PBXGroup;
 			children = (
@@ -5037,6 +5048,7 @@
 				D9B6313D23BB30CD003D95D9 /* NumPracticeViewController.swift in Sources */,
 				D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */,
 				D95199F322BDF59A00E3036B /* CQFactoryViewController.m in Sources */,
+				D9F7DEFE2449655600A63632 /* TTTLabelViewController.swift in Sources */,
 				D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */,
 				D9BE258A23B889CF001F4D71 /* ProtocolTableViewController.swift in Sources */,
 				D92D3062216B3D8700B57A2D /* CQRippleViewController.m in Sources */,
