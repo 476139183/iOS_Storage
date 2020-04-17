@@ -10,13 +10,27 @@
 //
 
 import UIKit
+import TTTAttributedLabel
 
 class RegularExpressionViewController: CQBaseViewController {
     
-    private lazy var textField: UITextField = {
-        let textField = UITextField()
-        textField.backgroundColor = .orange
-        return textField
+    private lazy var label: UILabel = {
+        let label = UILabel()
+        label.font = UIFont.systemFont(ofSize: 13, weight: .regular)
+        label.textColor = .black
+        label.text = "当前链接：[百度](https://www.baidu.com)"
+        label.isUserInteractionEnabled = true
+        return label
+    }()
+    
+    private lazy var ttLabel: TTTAttributedLabel = {
+        let label = TTTAttributedLabel.init(frame: .zero)
+        label.delegate = self
+        label.font = UIFont.systemFont(ofSize: 13, weight: .regular)
+        label.textColor = .black
+        label.text = "当前链接：[百度](https://www.baidu.com)"
+        label.isUserInteractionEnabled = true
+        return label
     }()
     
     private lazy var checkButton: UIButton = {
@@ -26,60 +40,39 @@ class RegularExpressionViewController: CQBaseViewController {
         button.addTarget(self, action: #selector(checkButtonClicked), for: .touchUpInside)
         return button
     }()
-    
-    private lazy var origionalLabel: UILabel = {
-        let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 15)
-        return label
-    }()
-    
-    private lazy var checkLabel: UILabel = {
-        let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 15)
-        return label
-    }()
-    
-    private lazy var textView: YYTextView = {
-        let textView = YYTextView()
-        textView.backgroundColor = .purple
-        return textView
-    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        view.addSubview(textField)
+        view.addSubview(label)
+        view.addSubview(ttLabel)
         view.addSubview(checkButton)
-        view.addSubview(origionalLabel)
-        view.addSubview(checkLabel)
         
-        textField.snp.makeConstraints { (make) in
-            make.center.equalToSuperview()
-            make.width.equalTo(200)
-            make.height.equalTo(30)
+        label.snp.makeConstraints { (make) in
+            make.centerX.equalToSuperview()
+            make.top.equalTo(120)
+            make.width.equalTo(300)
+        }
+        
+        ttLabel.snp.makeConstraints { (make) in
+            make.centerX.equalToSuperview()
+            make.top.equalTo(180)
+            make.width.equalTo(300)
         }
         
         checkButton.snp.makeConstraints { (make) in
-            make.top.equalTo(textField.snp.bottom).offset(30)
-            make.left.right.height.equalTo(textField)
-        }
-        
-        origionalLabel.snp.makeConstraints { (make) in
-            make.top.equalTo(checkButton.snp.bottom).offset(30)
-            make.left.right.height.equalTo(textField)
-        }
-        
-        checkLabel.snp.makeConstraints { (make) in
-            make.top.equalTo(origionalLabel.snp.bottom).offset(30)
-            make.left.right.height.equalTo(textField)
+            make.center.equalToSuperview()
+            make.width.equalTo(150)
+            make.height.equalTo(40)
         }
         
     }
     
     @objc private func checkButtonClicked() {
-        test3()
+        checkMarkDownURL(label: self.label)
+        checkTTLabel()
     }
     
     private func test1() {
@@ -102,21 +95,85 @@ class RegularExpressionViewController: CQBaseViewController {
         }
     }
     
-    
-    private func test2() {
-        /// 帐号
-        let acount = "当前链接：[百度](https://www.baidu.com)"
-        /// 正则规则字符串
-        //let pattern = "^[A-Z,a-z,\\d]+([-_.][A-Z,a-z,\\d]+)*@([A-Z,a-z,\\d]+[-.])+[A-Z,a-z,\\d]{2,4}"
-        let pattern = "((http[s]{0,1}|ftp)://[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)|(www.[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)"
-        /// 正则规则
+    // MARK: - 匹配 MarkDown 链接
+    private func checkMarkDownURL(label: UILabel) {
+        // 源
+        guard let string = label.text else {
+            return
+        }
+        // 正则规则字符串
+        let pattern = "(\\[.+\\]\\([^\\)]+\\))|(<.+>)"
+        // 正则规则
         let regex = try? NSRegularExpression(pattern: pattern, options: [])
         /// 进行正则匹配
-        if let results = regex?.matches(in: acount, options: [], range: NSRange(location: 0, length: acount.count)), results.count != 0 {
-            print("帐号匹配成功")
-            for result in results{
-                let string = (acount as NSString).substring(with: result.range)
-                print("对应帐号:",string)
+        if let results = regex?.matches(in: string, options: [], range: NSRange(location: 0, length: string.count)), results.count != 0 {
+            print(results)
+            print("匹配成功")
+            for result in results {
+                let url = (string as NSString).substring(with: result.range)
+                print("对应链接:",url)
+                // 替换文本
+                
+                //guard let range = Range.init(result.range) else { return }
+                
+                let linkName = url.components(separatedBy: ["[", "]"])[1]
+                let linkURL = url.components(separatedBy: ["(", ")"])[1]
+                let newString = string.replacingOccurrences(of: url, with: linkName)
+                
+                // 找到对应链接
+                let range = (newString as NSString).range(of: linkName)
+                
+                let attributedString = NSMutableAttributedString.init(string: newString)
+                attributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
+                attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.red, range: range)
+                attributedString.addAttribute(NSAttributedString.Key.link, value: linkURL, range: range)
+                
+                self.label.attributedText = attributedString
+                
+                //let urlName = url.components(separatedBy: Set.init(arrayLiteral: ""))
+            }
+        }
+    }
+    
+    private func checkTTLabel() {
+        // 源
+        let string = "当前链接：[百度](https://www.baidu.com)"
+        // 正则规则字符串
+        let pattern = "(\\[.+\\]\\([^\\)]+\\))|(<.+>)"
+        // 正则规则
+        let regex = try? NSRegularExpression(pattern: pattern, options: [])
+        /// 进行正则匹配
+        if let results = regex?.matches(in: string, options: [], range: NSRange(location: 0, length: string.count)), results.count != 0 {
+            print(results)
+            print("匹配成功")
+            for result in results {
+                let url = (string as NSString).substring(with: result.range)
+                print("对应链接:",url)
+                // 替换文本
+                
+                //guard let range = Range.init(result.range) else { return }
+                
+                let linkName = url.components(separatedBy: ["[", "]"])[1]
+                let linkURL = url.components(separatedBy: ["(", ")"])[1]
+                let newString = string.replacingOccurrences(of: url, with: linkName)
+                
+                // 找到对应链接
+                let range = (newString as NSString).range(of: linkName)
+                
+//                let attributedString = NSMutableAttributedString.init(string: newString)
+//                attributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
+//                attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.red, range: range)
+//                attributedString.addAttribute(NSAttributedString.Key.link, value: linkURL, range: range)
+                
+                //self.ttLabel.attributedText = attributedString
+                self.ttLabel.addLink(with: NSTextCheckingResult.linkCheckingResult(range: range, url: URL.init(string: linkURL)!), attributes: [
+                    NSAttributedString.Key.foregroundColor: UIColor.red,
+                    NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 16)
+                ])
+                
+                self.ttLabel.setText(newString)
+                
+                //let urlName = url.components(separatedBy: Set.init(arrayLiteral: ""))
             }
         }
     }
@@ -135,5 +192,11 @@ class RegularExpressionViewController: CQBaseViewController {
 }
 
 
-// ((http[s]{0,1}|ftp)://[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)|(www.[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)
+extension RegularExpressionViewController: TTTAttributedLabelDelegate {
+    
+    func attributedLabel(_ label: TTTAttributedLabel!, didSelectLinkWith url: URL!) {
+        print(url)
+    }
+    
+}
 

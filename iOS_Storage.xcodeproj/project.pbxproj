@@ -4211,8 +4211,8 @@
 		D9F72DDF244053C0007BBB05 /* 正则表达式 */ = {
 			isa = PBXGroup;
 			children = (
-				D9F72DE02440545E007BBB05 /* RegularExpressionViewController.swift */,
 				D9E86CCE24483C00009CCBB8 /* 正则表达式.md */,
+				D9F72DE02440545E007BBB05 /* RegularExpressionViewController.swift */,
 			);
 			path = "正则表达式";
 			sourceTree = "<group>";
