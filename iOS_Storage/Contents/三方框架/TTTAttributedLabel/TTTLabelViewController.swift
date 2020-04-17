@@ -33,7 +33,8 @@ class TTTLabelViewController: CQBaseViewController {
         // 添加链接
         ttLabel1.addLink(with: NSTextCheckingResult.linkCheckingResult(range: NSRange.init(location: 0, length: 2), url: URL.init(string: "https://www.baidu.com")!), attributes: [
             NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 20),
-            NSAttributedString.Key.backgroundColor: UIColor.blue])
+            NSAttributedString.Key.backgroundColor: UIColor.black,
+            NSAttributedString.Key.foregroundColor: UIColor.blue])
         
     }
     
