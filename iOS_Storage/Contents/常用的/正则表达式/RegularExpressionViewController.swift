@@ -88,7 +88,8 @@ class RegularExpressionViewController: CQBaseViewController {
     @objc private func checkButtonClicked() {
         checkMarkDownURL(label: self.label)
         //checkTTLabel()
-        checkURL(label: ttLabel)
+        //checkURL2(label: ttLabel)
+        checkMarkDownURL(label: ttLabel)
     }
     
     private func test1() {
@@ -204,6 +205,51 @@ class RegularExpressionViewController: CQBaseViewController {
         }
     }
     
+    // MARK: - 最终版
+    private func checkMarkDownURL(label: TTTAttributedLabel) {
+        // 正则规则字符串
+        let pattern = "(\\[.+?\\]\\([^\\)]+?\\))|(<.+?>)"
+        // 正则规则
+        let regex = try? NSRegularExpression(pattern: pattern, options: NSRegularExpression.Options.caseInsensitive)
+        
+        
+        var currentAttributedString: NSMutableAttributedString
+        if label.attributedText == nil {
+            currentAttributedString = NSMutableAttributedString.init(string: label.text as! String)
+        } else {
+            currentAttributedString = NSMutableAttributedString.init(attributedString: label.attributedText)
+        }
+        
+        
+        if let result = regex?.firstMatch(in: currentAttributedString.string, options: [], range: NSRange.init(location: 0, length: currentAttributedString.string.count)) {
+            
+            let url = (currentAttributedString.string as NSString).substring(with: result.range)
+            
+            let linkName = url.components(separatedBy: ["[", "]"])[1]
+            let linkURL = url.components(separatedBy: ["(", ")"])[1]
+            let newRange = NSRange.init(location: result.range.location, length: linkName.count)
+            
+            currentAttributedString.replaceCharacters(in: result.range, with: linkName)
+            
+            currentAttributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.blue, range: newRange)
+            currentAttributedString.addAttribute(NSAttributedString.Key.backgroundColor, value: UIColor.green, range: newRange)
+            currentAttributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.boldSystemFont(ofSize: 16), range: newRange)
+            
+            label.addLink(with: NSTextCheckingResult.linkCheckingResult(range: newRange, url: URL.init(string: linkURL)!), attributes: [
+                NSAttributedString.Key.backgroundColor: UIColor.red,
+                NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 16),
+                NSAttributedString.Key.foregroundColor: UIColor.blue
+            ])
+            
+            label.attributedText = currentAttributedString
+            
+            // 递归
+            self.checkMarkDownURL(label: label)
+        }
+        
+        
+    }
+    
     // MARK: - 使用 TTTLabel
     private func checkURL(label: TTTAttributedLabel) {
         // 源
@@ -214,93 +260,146 @@ class RegularExpressionViewController: CQBaseViewController {
         let pattern = "(\\[.+?\\]\\([^\\)]+?\\))|(<.+?>)"
         // 正则规则
         let regex = try? NSRegularExpression(pattern: pattern, options: NSRegularExpression.Options.caseInsensitive)
-        /// 进行正则匹配
-        if let results = regex?.matches(in: string, options: [], range: NSRange(location: 0, length: string.count)), results.count != 0 {
-            print(results)
-            print("匹配成功")
-            //var newString = string
+        
+        var currentString = string
+        let currentAttributedString = NSMutableAttributedString.init(string: currentString)
+        
+        
+        while ((regex?.firstMatch(in: currentAttributedString.string, options: [], range: NSRange.init(location: 0, length: currentString.count))) != nil) {
             
-            var ranges: [NSRange] = []
+            print(currentAttributedString.string)
             
-            var names: [String] = []
-            var links: [String] = []
-            var nameRanges: [NSRange] = []
+            let result: NSTextCheckingResult! = regex?.firstMatch(in: currentAttributedString.string, options: [], range: NSRange.init(location: 0, length: currentAttributedString.string.count))
             
+            let theRange = result.range
+            let url = (currentString as NSString).substring(with: result.range)
             
-            
-            
-            for result in results {
-                let url = (string as NSString).substring(with: result.range)
-                ranges.append(result.range)
-                print("对应链接:",url)
-                
-                let linkName = url.components(separatedBy: ["[", "]"])[1]
-                let linkURL = url.components(separatedBy: ["(", ")"])[1]
-            }
-            
-            let rr = results.reversed()
+            let linkName = url.components(separatedBy: ["[", "]"])[1]
+            let linkURL = url.components(separatedBy: ["(", ")"])[1]
+            let newRange = NSRange.init(location: result.range.location, length: linkName.count)
             
             
             
-            
-            print(ranges)
-            
-            //ranges.reverse()
-            
-            let ran2 = ranges
-            
-            var currentString = string as NSString
-            //label.text = currentString
-            
-            
-            
-            ran2.forEach { (range) in
-                
-                let url = currentString.substring(with: range)
-                
-                // 替换文本
-                let linkName = url.components(separatedBy: ["[", "]"])[1]
-                let linkURL = url.components(separatedBy: ["(", ")"])[1]
-                
-                
-                
-                currentString = currentString.replacingOccurrences(of: url, with: linkName, options: [], range: range) as NSString
-                let currentRange = NSRange.init(location: range.location, length: linkName.count)
-                
-                names.append(linkName)
-                links.append(linkURL)
-                nameRanges.append(currentRange)
-                
-            }
-            
-            
-            let attributedString = NSMutableAttributedString.init(string: currentString as String)
-            for (index, range) in nameRanges.enumerated() {
-                // 添加链接
-                label.addLink(with: NSTextCheckingResult.linkCheckingResult(range: range, url: URL.init(string: links[index])!), attributes: [
-                    NSAttributedString.Key.backgroundColor: UIColor.red,
-                    NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 16),
-                    NSAttributedString.Key.foregroundColor: UIColor.blue
-                ])
-                
-                
-                attributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
-                attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.red, range: range)
-                
-                
-                
-                //currentString = currentString.replacingOccurrences(of: url, with: linkName) as NSString
-                
-                
-                
-                // 找到对应链接
-                //let range = (newString as NSString).range(of: linkName)
-                
-                //label.setText(currentString)
-                label.attributedText = attributedString
-            }
+            let linkRange = NSRange.init(location: 0, length: linkName.count)
+            let attLink = NSMutableAttributedString.init(string: linkName)
+            attLink.addAttribute(NSAttributedString.Key.font, value: UIFont.boldSystemFont(ofSize: 14), range: linkRange)
+            attLink.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.red, range: linkRange)
+            currentAttributedString.replaceCharacters(in: result.range, with: linkName)
             
         }
+        
+        label.attributedText = currentAttributedString
+        
+        /// 进行正则匹配
+        //        if let results = regex?.matches(in: string, options: [], range: NSRange(location: 0, length: string.count)), results.count != 0 {
+        //            print(results)
+        //            print("匹配成功")
+        //            //var newString = string
+        //
+        //            var ranges: [NSRange] = []
+        //
+        //            var names: [String] = []
+        //            var links: [String] = []
+        //            var nameRanges: [NSRange] = []
+        //
+        //
+        //            for (index, result) in results.enumerated() {
+        //                let url = (currentAttributedString.string as NSString).substring(with: result.range)
+        //
+        //                let sss = currentAttributedString.string
+        //
+        //                ranges.append(result.range)
+        //                print("对应链接:",url)
+        //
+        //                let linkName = url.components(separatedBy: ["[", "]"])[1]
+        //                let linkURL = url.components(separatedBy: ["(", ")"])[1]
+        //                let newRange = NSRange.init(location: result.range.location, length: linkName.count)
+        //
+        //                links.append(linkURL)
+        //                nameRanges.append(newRange)
+        //
+        //                let linkRange = NSRange.init(location: 0, length: linkName.count)
+        //                let attLink = NSMutableAttributedString.init(string: linkName)
+        //                attLink.addAttribute(NSAttributedString.Key.font, value: UIFont.boldSystemFont(ofSize: 14), range: linkRange)
+        //                attLink.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.red, range: linkRange)
+        //                currentAttributedString.replaceCharacters(in: result.range, with: linkName)
+        //
+        //            }
+        //
+        //            label.attributedText = currentAttributedString
+        
+        //            for (index, range) in nameRanges.enumerated() {
+        //                // 添加链接
+        //                label.addLink(with: NSTextCheckingResult.linkCheckingResult(range: range, url: URL.init(string: links[index])!), attributes: [
+        //                    NSAttributedString.Key.backgroundColor: UIColor.red,
+        //                    NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 16),
+        //                    NSAttributedString.Key.foregroundColor: UIColor.blue
+        //                ])
+        //            }
+        
+        
+        
+        //
+        //            let rr = results.reversed()
+        //
+        //            print(ranges)
+        //
+        //            //ranges.reverse()
+        //
+        //            let ran2 = ranges
+        //
+        //            var currentString = string as NSString
+        //            //label.text = currentString
+        //
+        //
+        //
+        //            ran2.forEach { (range) in
+        //
+        //                let url = currentString.substring(with: range)
+        //
+        //                // 替换文本
+        //                let linkName = url.components(separatedBy: ["[", "]"])[1]
+        //                let linkURL = url.components(separatedBy: ["(", ")"])[1]
+        //
+        //
+        //
+        //                currentString = currentString.replacingOccurrences(of: url, with: linkName, options: [], range: range) as NSString
+        //                let currentRange = NSRange.init(location: range.location, length: linkName.count)
+        //
+        //                names.append(linkName)
+        //                links.append(linkURL)
+        //                nameRanges.append(currentRange)
+        //
+        //            }
+        //
+        //
+        //
+        //            for (index, range) in nameRanges.enumerated() {
+        //                // 添加链接
+        //                label.addLink(with: NSTextCheckingResult.linkCheckingResult(range: range, url: URL.init(string: links[index])!), attributes: [
+        //                    NSAttributedString.Key.backgroundColor: UIColor.red,
+        //                    NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 16),
+        //                    NSAttributedString.Key.foregroundColor: UIColor.blue
+        //                ])
+        //
+        //
+        //                attributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
+        //                attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.red, range: range)
+        //
+        //
+        //
+        //                //currentString = currentString.replacingOccurrences(of: url, with: linkName) as NSString
+        //
+        //
+        //
+        //                // 找到对应链接
+        //                //let range = (newString as NSString).range(of: linkName)
+        //
+        //                //label.setText(currentString)
+        //                label.attributedText = attributedString
+        //            }
+        //
+        //}
     }
     
     private func test3() {
