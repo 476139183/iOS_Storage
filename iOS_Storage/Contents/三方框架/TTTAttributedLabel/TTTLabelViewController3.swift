@@ -69,10 +69,11 @@ class TTTLabelViewController3: UIViewController, TTTAttributedLabelDelegate {
 
             // add link
             label.addLink(with: NSTextCheckingResult.linkCheckingResult(range: newRange, url: URL.init(string: linkURL)!), attributes: [
-                NSAttributedString.Key.foregroundColor: UIColor.blue
+                NSAttributedString.Key.foregroundColor: UIColor.green
             ])
 
             // set color
+            // NSAttributedString.Key.foregroundColor 无效，需要用kCTForegroundColorAttributeName
             currentAttributedString.addAttribute(kCTForegroundColorAttributeName as NSAttributedString.Key, value: UIColor.green, range: newRange)
             currentAttributedString.addAttribute(NSAttributedString.Key.backgroundColor, value: UIColor.gray, range: newRange)
             currentAttributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.boldSystemFont(ofSize: 14), range: newRange)
