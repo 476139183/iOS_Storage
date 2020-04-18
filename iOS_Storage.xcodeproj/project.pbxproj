@@ -195,6 +195,8 @@
 		D95328482399EA4F00C15136 /* UIAlertController+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D95328472399EA4F00C15136 /* UIAlertController+Util.m */; };
 		D953284B2399EF4400C15136 /* CQMemoryLeakManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D953284A2399EF4400C15136 /* CQMemoryLeakManager.m */; };
 		D953284E239A06F900C15136 /* CQMemoryLeakView.m in Sources */ = {isa = PBXBuildFile; fileRef = D953284D239A06F900C15136 /* CQMemoryLeakView.m */; };
+		D9536EF3244A9D4400FD3964 /* TTTLabelViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9536EF2244A9D4400FD3964 /* TTTLabelViewController2.swift */; };
+		D9536EF5244AB55700FD3964 /* TTTLabelViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9536EF4244AB55700FD3964 /* TTTLabelViewController3.swift */; };
 		D9545B27229306E2008B6355 /* CQRuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B26229306E2008B6355 /* CQRuntimeController.m */; };
 		D9545B2A229306FE008B6355 /* CQRunloopController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B29229306FE008B6355 /* CQRunloopController.m */; };
 		D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545B2D229392CB008B6355 /* CQUnrecognizedSelectorController.m */; };
@@ -790,6 +792,8 @@
 		D953284A2399EF4400C15136 /* CQMemoryLeakManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMemoryLeakManager.m; sourceTree = "<group>"; };
 		D953284C239A06F900C15136 /* CQMemoryLeakView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMemoryLeakView.h; sourceTree = "<group>"; };
 		D953284D239A06F900C15136 /* CQMemoryLeakView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMemoryLeakView.m; sourceTree = "<group>"; };
+		D9536EF2244A9D4400FD3964 /* TTTLabelViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTLabelViewController2.swift; sourceTree = "<group>"; };
+		D9536EF4244AB55700FD3964 /* TTTLabelViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTLabelViewController3.swift; sourceTree = "<group>"; };
 		D9545B25229306E2008B6355 /* CQRuntimeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRuntimeController.h; sourceTree = "<group>"; };
 		D9545B26229306E2008B6355 /* CQRuntimeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRuntimeController.m; sourceTree = "<group>"; };
 		D9545B28229306FE008B6355 /* CQRunloopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRunloopController.h; sourceTree = "<group>"; };
@@ -4299,6 +4303,8 @@
 			isa = PBXGroup;
 			children = (
 				D9F7DEFD2449655600A63632 /* TTTLabelViewController.swift */,
+				D9536EF2244A9D4400FD3964 /* TTTLabelViewController2.swift */,
+				D9536EF4244AB55700FD3964 /* TTTLabelViewController3.swift */,
 			);
 			path = TTTAttributedLabel;
 			sourceTree = "<group>";
@@ -4933,6 +4939,7 @@
 				D9BE258423B8831D001F4D71 /* AbstractClassTableViewController.swift in Sources */,
 				D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */,
 				D9C7CC2722E9BC9B0038FD34 /* StandardSwiftSectionFooterView.swift in Sources */,
+				D9536EF5244AB55700FD3964 /* TTTLabelViewController3.swift in Sources */,
 				D9C5E5E62349AB1A00D101F1 /* CQEasyButton.m in Sources */,
 				D9237DCC23FEC8200021F876 /* ChangeViewStateViewController.swift in Sources */,
 				D926BDBB22C33FDF00A2DD3E /* CQBuilderViewController.m in Sources */,
@@ -5015,6 +5022,7 @@
 				D9DE6CC920FEE9C000C8D4FE /* CQFilterCell.m in Sources */,
 				D91A9F7F22B3D912008F87F1 /* CountDownButtonViewController.swift in Sources */,
 				D9BE257A23B86F1C001F4D71 /* SameModelTableViewController.swift in Sources */,
+				D9536EF3244A9D4400FD3964 /* TTTLabelViewController2.swift in Sources */,
 				D9376888235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift in Sources */,
 				D97129E0239E300C00AEAD3C /* UITextViewDemoController.swift in Sources */,
 				D9E21A85210FF7F500407599 /* CQClassClusterBaseCell.m in Sources */,

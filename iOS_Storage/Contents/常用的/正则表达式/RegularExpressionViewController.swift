@@ -31,7 +31,7 @@ class RegularExpressionViewController: CQBaseViewController {
         label.isUserInteractionEnabled = true
         label.numberOfLines = 10
         label.backgroundColor = .orange
-        label.text = "当前链接1：[百度](https://www.baidu.com),当前链接2：[百度](https://www.baidu.com),当前链接3：[百度](https://www.baidu.com)"
+        label.text = "link1：[google](https://www.google.com),link2：[github](https://github.com),link3：[stackoverflow](https://stackoverflow.com)"
         return label
     }()
     
@@ -86,7 +86,7 @@ class RegularExpressionViewController: CQBaseViewController {
     }
     
     @objc private func checkButtonClicked() {
-        checkMarkDownURL(label: self.label)
+        checkMarkDownURL1(label: self.label)
         //checkTTLabel()
         //checkURL2(label: ttLabel)
         checkMarkDownURL(label: ttLabel)
@@ -113,7 +113,7 @@ class RegularExpressionViewController: CQBaseViewController {
     }
     
     // MARK: - 匹配 MarkDown 链接
-    private func checkMarkDownURL(label: UILabel) {
+    private func checkMarkDownURL1(label: UILabel) {
         // 源
         guard let string = label.text else {
             return
@@ -205,13 +205,12 @@ class RegularExpressionViewController: CQBaseViewController {
         }
     }
     
-    // MARK: - 最终版
+    // MARK: - 最终版啊啊啊啊啊啊
     private func checkMarkDownURL(label: TTTAttributedLabel) {
         // 正则规则字符串
         let pattern = "(\\[.+?\\]\\([^\\)]+?\\))|(<.+?>)"
         // 正则规则
         let regex = try? NSRegularExpression(pattern: pattern, options: NSRegularExpression.Options.caseInsensitive)
-        
         
         var currentAttributedString: NSMutableAttributedString
         if label.attributedText == nil {
@@ -227,21 +226,21 @@ class RegularExpressionViewController: CQBaseViewController {
             
             let linkName = url.components(separatedBy: ["[", "]"])[1]
             let linkURL = url.components(separatedBy: ["(", ")"])[1]
-            let newRange = NSRange.init(location: result.range.location, length: linkName.count)
             
+            let newRange = NSRange.init(location: result.range.location, length: linkName.count)
             currentAttributedString.replaceCharacters(in: result.range, with: linkName)
             
-            currentAttributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.blue, range: newRange)
-            currentAttributedString.addAttribute(NSAttributedString.Key.backgroundColor, value: UIColor.green, range: newRange)
-            currentAttributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.boldSystemFont(ofSize: 16), range: newRange)
-            
+            // 添加链接
             label.addLink(with: NSTextCheckingResult.linkCheckingResult(range: newRange, url: URL.init(string: linkURL)!), attributes: [
-                NSAttributedString.Key.backgroundColor: UIColor.red,
-                NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 16),
                 NSAttributedString.Key.foregroundColor: UIColor.blue
             ])
             
-            label.attributedText = currentAttributedString
+            currentAttributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.blue, range: newRange)
+            currentAttributedString.addAttribute(NSAttributedString.Key.backgroundColor, value: UIColor.gray, range: newRange)
+            currentAttributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.boldSystemFont(ofSize: 14), range: newRange)
+            
+            // 不要使用 attributedText 属性
+            label.text = currentAttributedString
             
             // 递归
             self.checkMarkDownURL(label: label)
