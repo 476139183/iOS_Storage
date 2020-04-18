@@ -73,7 +73,7 @@ class TTTLabelViewController3: UIViewController, TTTAttributedLabelDelegate {
             ])
 
             // set color
-            currentAttributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.blue, range: newRange)
+            currentAttributedString.addAttribute(kCTForegroundColorAttributeName as NSAttributedString.Key, value: UIColor.green, range: newRange)
             currentAttributedString.addAttribute(NSAttributedString.Key.backgroundColor, value: UIColor.gray, range: newRange)
             currentAttributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.boldSystemFont(ofSize: 14), range: newRange)
 
