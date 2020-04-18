@@ -17,7 +17,8 @@ class GestureViewController: CQBaseViewController, UITableViewDataSource, UITabl
                 Model.init(name: "平移手势", targetVC: PanGestureViewController()),
                 Model.init(name: "捏合（缩放）手势", targetVC: PinchGestureViewController()),
                 Model.init(name: "旋转手势", targetVC: RotationGestureViewController()),
-                Model.init(name: "屏幕边缘平移手势", targetVC: ScreenEdgePanGestureViewController())]
+                Model.init(name: "屏幕边缘平移手势", targetVC: ScreenEdgePanGestureViewController()),
+                Model.init(name: "高德pan", targetVC: GaodeMapPanDemoViewController())]
     }()
     
     private lazy var tableView: UITableView = {
