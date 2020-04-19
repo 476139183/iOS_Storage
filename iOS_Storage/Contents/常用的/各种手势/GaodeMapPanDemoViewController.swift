@@ -8,7 +8,15 @@
 
 import UIKit
 
+fileprivate enum Direction {
+    case up
+    case down
+    case quiet
+}
+
 class GaodeMapPanDemoViewController: UIViewController {
+    
+    private var direction = Direction.quiet
     
     // 最大高度
     let panViewMaxHeight: CGFloat = 500
@@ -72,12 +80,39 @@ class GaodeMapPanDemoViewController: UIViewController {
             // 0.0 表示静止（可以用绝对值<1表示）
             // 大于0表示向下
             // 小于0表示向上
-            
+            if abs(offset) <= 1 {
+                self.direction = .quiet
+            } else if offset > 0 {
+                self.direction = .down
+            } else {
+                self.direction = .up
+            }
         }
         
     }
     
     private func handleMovedEnded(touch: UITouch, event: UIEvent) {
+        
+        switch self.direction {
+        case .up:
+            UIView.animate(withDuration: 0.1) {
+                self.panView.snp.remakeConstraints { (make) in
+                    make.left.right.bottom.equalToSuperview()
+                    make.height.equalTo(self.panViewMaxHeight)
+                }
+                self.panView.superview?.layoutIfNeeded()
+            }
+        case .down:
+            UIView.animate(withDuration: 0.1) {
+                self.panView.snp.remakeConstraints { (make) in
+                    make.left.right.bottom.equalToSuperview()
+                    make.height.equalTo(self.panViewMinHeight)
+                }
+                self.panView.superview?.layoutIfNeeded()
+            }
+        case .quiet:
+            break
+        }
         
         // 这里通过方向来判断
         
