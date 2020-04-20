@@ -9,7 +9,7 @@
 import UIKit
 
 // 拖动方向
-fileprivate enum MoveDirection {
+fileprivate enum DragDirection {
     case up     // 向上
     case down   // 向下
     case quiet  // 静止
@@ -17,7 +17,7 @@ fileprivate enum MoveDirection {
 
 class GaodeMapPanDemoViewController: UIViewController {
     
-    private var direction = MoveDirection.quiet
+    private var dragDirection = DragDirection.quiet
     
     // 最大高度
     let panViewMaxHeight: CGFloat = 500
@@ -75,11 +75,11 @@ class GaodeMapPanDemoViewController: UIViewController {
         // 大于0表示向下
         // 小于0表示向上
         if abs(offsetY) <= 1 {
-            self.direction = .quiet
+            self.dragDirection = .quiet
         } else if offsetY > 0 {
-            self.direction = .down
+            self.dragDirection = .down
         } else {
-            self.direction = .up
+            self.dragDirection = .up
         }
         
     }
@@ -87,7 +87,7 @@ class GaodeMapPanDemoViewController: UIViewController {
     
     private func handleMovedEnded() {
         
-        switch self.direction {
+        switch self.dragDirection {
         case .up:
             UIView.animate(withDuration: 0.1) {
                 self.panView.snp.remakeConstraints { (make) in
