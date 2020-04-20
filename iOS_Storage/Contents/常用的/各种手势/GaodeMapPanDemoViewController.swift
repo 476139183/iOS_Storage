@@ -8,15 +8,16 @@
 
 import UIKit
 
-fileprivate enum Direction {
-    case up
-    case down
-    case quiet
+// 
+fileprivate enum MoveDirection {
+    case up     // 向上
+    case down   // 向下
+    case quiet  // 静止
 }
 
 class GaodeMapPanDemoViewController: UIViewController {
     
-    private var direction = Direction.quiet
+    private var direction = MoveDirection.quiet
     
     // 最大高度
     let panViewMaxHeight: CGFloat = 500
@@ -34,18 +35,22 @@ class GaodeMapPanDemoViewController: UIViewController {
         return view
     }()
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
+        view.backgroundColor = .white
+        
         view.addSubview(panView)
         panView.snp.makeConstraints { (make) in
             make.left.right.bottom.equalToSuperview()
-            make.height.equalTo(300)
+            make.height.equalTo(panViewMinHeight)
         }
         
     }
+    
     
     private func handleMoved(touch: UITouch, event: UIEvent) {
         
@@ -76,8 +81,8 @@ class GaodeMapPanDemoViewController: UIViewController {
             let offset = point.y - prePoint.y
             print(offset)
             
-            
-            // 0.0 表示静止（可以用绝对值<1表示）
+            // 获取滑动方向
+            // 0.0 表示静止（可以用 绝对值<1 表示，非常非常轻微的拖动，看作是静止）
             // 大于0表示向下
             // 小于0表示向上
             if abs(offset) <= 1 {
@@ -90,6 +95,7 @@ class GaodeMapPanDemoViewController: UIViewController {
         }
         
     }
+    
     
     private func handleMovedEnded(touch: UITouch, event: UIEvent) {
         
@@ -111,21 +117,27 @@ class GaodeMapPanDemoViewController: UIViewController {
                 self.panView.superview?.layoutIfNeeded()
             }
         case .quiet:
-            break
+            if self.panView.height() < (panViewMaxHeight+panViewMinHeight)/2 {
+                UIView.animate(withDuration: 0.1) {
+                    self.panView.snp.remakeConstraints { (make) in
+                        make.left.right.bottom.equalToSuperview()
+                        make.height.equalTo(self.panViewMinHeight)
+                    }
+                    self.panView.superview?.layoutIfNeeded()
+                }
+            } else {
+                UIView.animate(withDuration: 0.1) {
+                    self.panView.snp.remakeConstraints { (make) in
+                        make.left.right.bottom.equalToSuperview()
+                        make.height.equalTo(self.panViewMaxHeight)
+                    }
+                    self.panView.superview?.layoutIfNeeded()
+                }
+            }
         }
         
-        // 这里通过方向来判断
-        
-        let currentPoint: CGPoint = (touch.location(in: panView))
-        let prePoint: CGPoint = (touch.previousLocation(in: panView))
-        
-        let offsetY = currentPoint.y - prePoint.y
-        //print(offsetY)
-//        print(offsetY)
-//
-//        print(touch.phase.rawValue)
-        
     }
+    
 
 }
 
@@ -138,14 +150,33 @@ fileprivate class PanView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        backgroundColor = .red
+        backgroundColor = UIColor.colorWithHexString("#EBEDF0")
+        
+        self.layer.cornerRadius = 20
+        
+        self.layer.shadowColor = UIColor.colorWithHexString("#000000").withAlphaComponent(0.3).cgColor
+        self.layer.shadowOffset = .init(width: 0, height: 2)
+        self.layer.shadowOpacity = 1
+        self.layer.shadowRadius = 12
+        
+        let lineView = UIView()
+        addSubview(lineView)
+        lineView.backgroundColor = UIColor.colorWithHexString("#C2C7CC")
+        lineView.layer.cornerRadius = 2
+        lineView.snp.makeConstraints { (make) in
+            make.width.equalTo(36)
+            make.height.equalTo(4)
+            make.centerX.equalToSuperview()
+            make.top.equalTo(12)
+        }
         
         let label = UILabel()
         addSubview(label)
         label.text = "盘它"
+        label.textColor = .red
         label.font = .boldSystemFont(ofSize: 22)
         label.snp.makeConstraints { (make) in
-            make.top.equalTo(30)
+            make.top.equalTo(35)
             make.centerX.equalToSuperview()
         }
         
