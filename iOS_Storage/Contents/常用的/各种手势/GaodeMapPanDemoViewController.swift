@@ -8,16 +8,7 @@
 
 import UIKit
 
-// 拖动方向
-fileprivate enum DragDirection {
-    case up     // 向上
-    case down   // 向下
-    case quiet  // 静止
-}
-
 class GaodeMapPanDemoViewController: UIViewController {
-    
-    private var dragDirection = DragDirection.quiet
     
     // 最大高度
     let panViewMaxHeight: CGFloat = 500
@@ -29,16 +20,16 @@ class GaodeMapPanDemoViewController: UIViewController {
         view.touchMovedClosure = { [weak self] (touch) in
             self?.handleMoved(touch: touch)
         }
-        view.touchEndedClosure = { [weak self] in
-            self?.handleMovedEnded()
+        view.touchEndedClosure = { [weak self] (touch) in
+            self?.handleMovedEnded(touch: touch)
         }
         return view
     }()
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
         view.backgroundColor = .white
@@ -52,17 +43,20 @@ class GaodeMapPanDemoViewController: UIViewController {
     }
     
     
+    // 拖动过程中
     private func handleMoved(touch: UITouch) {
         
+        // 拿到当前 point
         let currentPoint: CGPoint = (touch.location(in: panView))
+        // 拿到上一个 point
         let prePoint: CGPoint = (touch.previousLocation(in: panView))
         
+        // 这是拖动的距离
         let offsetY = currentPoint.y - prePoint.y
-        
-        print(offsetY)
-        
+        // 得到当前的高度
         let height = self.panView.frame.size.height - offsetY
-        // 拖动过程修改高度，不能比最大值大，不能比最小值小
+        
+        // 拖动过程修改高度，不能比最大值大，不能比最小值小（根据你们需求而定）
         if height <= panViewMaxHeight, height >= panViewMinHeight {
             self.panView.snp.remakeConstraints { (make) in
                 make.height.equalTo(height)
@@ -70,41 +64,22 @@ class GaodeMapPanDemoViewController: UIViewController {
             }
         }
         
+    }
+    
+    
+    // 拖动结束
+    private func handleMovedEnded(touch: UITouch) {
+        
+        let currentPoint: CGPoint = (touch.location(in: panView))
+        let prePoint: CGPoint = (touch.previousLocation(in: panView))
+        
+        let offsetY = currentPoint.y - prePoint.y
+        
         // 获取拖动方向
         // 0.0 表示静止（可以用 绝对值<1 表示，非常非常轻微的拖动，看作是静止）
         // 大于0表示向下
         // 小于0表示向上
         if abs(offsetY) <= 1 {
-            self.dragDirection = .quiet
-        } else if offsetY > 0 {
-            self.dragDirection = .down
-        } else {
-            self.dragDirection = .up
-        }
-        
-    }
-    
-    
-    private func handleMovedEnded() {
-        
-        switch self.dragDirection {
-        case .up:
-            UIView.animate(withDuration: 0.1) {
-                self.panView.snp.remakeConstraints { (make) in
-                    make.left.right.bottom.equalToSuperview()
-                    make.height.equalTo(self.panViewMaxHeight)
-                }
-                self.panView.superview?.layoutIfNeeded()
-            }
-        case .down:
-            UIView.animate(withDuration: 0.1) {
-                self.panView.snp.remakeConstraints { (make) in
-                    make.left.right.bottom.equalToSuperview()
-                    make.height.equalTo(self.panViewMinHeight)
-                }
-                self.panView.superview?.layoutIfNeeded()
-            }
-        case .quiet:
             if self.panView.height() < (panViewMaxHeight+panViewMinHeight)/2 {
                 UIView.animate(withDuration: 0.1) {
                     self.panView.snp.remakeConstraints { (make) in
@@ -122,18 +97,34 @@ class GaodeMapPanDemoViewController: UIViewController {
                     self.panView.superview?.layoutIfNeeded()
                 }
             }
+        } else if offsetY > 0 {
+            UIView.animate(withDuration: 0.1) {
+                self.panView.snp.remakeConstraints { (make) in
+                    make.left.right.bottom.equalToSuperview()
+                    make.height.equalTo(self.panViewMinHeight)
+                }
+                self.panView.superview?.layoutIfNeeded()
+            }
+        } else {
+            UIView.animate(withDuration: 0.1) {
+                self.panView.snp.remakeConstraints { (make) in
+                    make.left.right.bottom.equalToSuperview()
+                    make.height.equalTo(self.panViewMaxHeight)
+                }
+                self.panView.superview?.layoutIfNeeded()
+            }
         }
         
     }
     
-
+    
 }
 
 
 fileprivate class PanView: UIView {
     
     var touchMovedClosure: ((_ touch: UITouch)->())?
-    var touchEndedClosure: (()->())?
+    var touchEndedClosure: ((_ touch: UITouch)->())?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -183,7 +174,9 @@ fileprivate class PanView: UIView {
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
-        touchEndedClosure?()
+        if let touch = touches.first {
+            touchEndedClosure?(touch)
+        }
     }
     
 }
