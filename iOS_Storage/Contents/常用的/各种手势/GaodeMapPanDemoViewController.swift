@@ -8,7 +8,7 @@
 
 import UIKit
 
-// 
+// 拖动方向
 fileprivate enum MoveDirection {
     case up     // 向上
     case down   // 向下
@@ -26,11 +26,11 @@ class GaodeMapPanDemoViewController: UIViewController {
     
     private lazy var panView: PanView = {
         let view = PanView()
-        view.touchMovedClosure = { [weak self] (touch, event) in
-            self?.handleMoved(touch: touch, event: event)
+        view.touchMovedClosure = { [weak self] (touch) in
+            self?.handleMoved(touch: touch)
         }
-        view.touchEndedClosure = { [weak self] (touch, event) in
-            self?.handleMovedEnded(touch: touch, event: event)
+        view.touchEndedClosure = { [weak self] in
+            self?.handleMovedEnded()
         }
         return view
     }()
@@ -52,17 +52,17 @@ class GaodeMapPanDemoViewController: UIViewController {
     }
     
     
-    private func handleMoved(touch: UITouch, event: UIEvent) {
+    private func handleMoved(touch: UITouch) {
         
         let currentPoint: CGPoint = (touch.location(in: panView))
         let prePoint: CGPoint = (touch.previousLocation(in: panView))
         
         let offsetY = currentPoint.y - prePoint.y
+        
+        print(offsetY)
+        
         let height = self.panView.frame.size.height - offsetY
-        
-        //print(touch.phase.rawValue)
-        
-        // 不能比初始高度小，不能遮住导航栏
+        // 拖动过程修改高度，不能比最大值大，不能比最小值小
         if height <= panViewMaxHeight, height >= panViewMinHeight {
             self.panView.snp.remakeConstraints { (make) in
                 make.height.equalTo(height)
@@ -70,34 +70,22 @@ class GaodeMapPanDemoViewController: UIViewController {
             }
         }
         
-        let set: Set<UITouch> = event.allTouches!
-        for touch in set {
-            if touch.phase == .stationary {
-                continue
-            }
-            let point = touch.location(in: panView)
-            let prePoint = touch.previousLocation(in: panView)
-            
-            let offset = point.y - prePoint.y
-            print(offset)
-            
-            // 获取滑动方向
-            // 0.0 表示静止（可以用 绝对值<1 表示，非常非常轻微的拖动，看作是静止）
-            // 大于0表示向下
-            // 小于0表示向上
-            if abs(offset) <= 1 {
-                self.direction = .quiet
-            } else if offset > 0 {
-                self.direction = .down
-            } else {
-                self.direction = .up
-            }
+        // 获取拖动方向
+        // 0.0 表示静止（可以用 绝对值<1 表示，非常非常轻微的拖动，看作是静止）
+        // 大于0表示向下
+        // 小于0表示向上
+        if abs(offsetY) <= 1 {
+            self.direction = .quiet
+        } else if offsetY > 0 {
+            self.direction = .down
+        } else {
+            self.direction = .up
         }
         
     }
     
     
-    private func handleMovedEnded(touch: UITouch, event: UIEvent) {
+    private func handleMovedEnded() {
         
         switch self.direction {
         case .up:
@@ -144,8 +132,8 @@ class GaodeMapPanDemoViewController: UIViewController {
 
 fileprivate class PanView: UIView {
     
-    var touchMovedClosure: ((_ touch: UITouch, _ event: UIEvent)->())?
-    var touchEndedClosure: ((_ touch: UITouch, _ event: UIEvent)->())?
+    var touchMovedClosure: ((_ touch: UITouch)->())?
+    var touchEndedClosure: (()->())?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -188,15 +176,14 @@ fileprivate class PanView: UIView {
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesMoved(touches, with: event)
-        if let touch = touches.first, let event = event {
-            touchMovedClosure?(touch, event)
+        if let touch = touches.first {
+            touchMovedClosure?(touch)
         }
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        if let touch = touches.first, let event = event {
-            touchEndedClosure?(touch, event)
-        }
+        super.touchesEnded(touches, with: event)
+        touchEndedClosure?()
     }
     
 }
