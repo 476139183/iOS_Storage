@@ -30,6 +30,15 @@ class ASViewControllerDemoController: ASViewController<ASDisplayNode> {
         return node
     }()
     
+    /// button node
+    private lazy var blueButton: ASButtonNode = {
+        let node = ASButtonNode.init()
+        node.backgroundColor = .blue
+        node.addTarget(self, action: #selector(blueButtonClicked), forControlEvents: .touchUpInside)
+        node.setTitle("blue button", with: .systemFont(ofSize: 14), with: .white, for: .normal)
+        return node
+    }()
+    
     // MARK: - Life Cycle
     
     init() {
@@ -59,6 +68,11 @@ class ASViewControllerDemoController: ASViewController<ASDisplayNode> {
     
     func setupUI() {
         
+        self.node.addSubnode(blueButton)
+        blueButton.frame = .init(x: 0, y: 90, width: 90, height: 40)
+        
+        self.node.backgroundColor = .white
+        
         self.node.addSubnode(colorNode)
         self.node.addSubnode(myTextNode)
         
@@ -77,6 +91,12 @@ class ASViewControllerDemoController: ASViewController<ASDisplayNode> {
             make.width.equalTo(100)
         }
         textView?.content = "自适应文本label。。。。。。。。。。。。。。。。。。。。。。。。大大大大大奥"
+    }
+    
+    // MARK: - Action
+    
+    @objc private func blueButtonClicked() {
+        print("blue blue")
     }
     
 }
