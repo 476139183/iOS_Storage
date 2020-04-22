@@ -13,7 +13,8 @@ class TextureDemoViewController: CQBaseViewController {
     private let dataArray: [Model] = [Model(title: "ASViewController", targetVC: ASViewControllerDemoController()),
                                       Model(title: "ASTableView", targetVC: ASTableDemoController()),
                                       Model(title: "各种node", targetVC: TextureNodeDemoViewController()),
-                                      Model(title: "Layout", targetVC: TextureLayoutDemoViewController())]
+                                      Model(title: "Layout", targetVC: TextureLayoutDemoViewController()),
+                                      Model(title: "table demo2", targetVC: TextureTableDemo2Controller())]
 
     override func viewDidLoad() {
         super.viewDidLoad()

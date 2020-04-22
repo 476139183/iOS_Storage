@@ -38,6 +38,7 @@
 		D9146DEC23921A13002EA395 /* GestureGreenChildScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DEB23921A13002EA395 /* GestureGreenChildScrollView.swift */; };
 		D9160F9923BDF3570089E864 /* GitInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9160F9823BDF3570089E864 /* GitInfoViewController.swift */; };
 		D916DA2923A24B2000CB0CFA /* CheckViewMemoryLeakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916DA2823A24B2000CB0CFA /* CheckViewMemoryLeakViewController.swift */; };
+		D9170395245049EB00A588AD /* TextureTableDemo2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9170394245049EB00A588AD /* TextureTableDemo2Controller.swift */; };
 		D9179CDE22B7C04F002FCCA0 /* 装饰模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9179CDD22B7C04F002FCCA0 /* 装饰模式.md */; };
 		D9179CE122B7C808002FCCA0 /* CQDecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9179CE022B7C808002FCCA0 /* CQDecoratorViewController.m */; };
 		D9179CE422B7C9DA002FCCA0 /* UIButton+CQBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D9179CE322B7C9DA002FCCA0 /* UIButton+CQBorder.m */; };
@@ -565,6 +566,7 @@
 		D9146DEB23921A13002EA395 /* GestureGreenChildScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureGreenChildScrollView.swift; sourceTree = "<group>"; };
 		D9160F9823BDF3570089E864 /* GitInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitInfoViewController.swift; sourceTree = "<group>"; };
 		D916DA2823A24B2000CB0CFA /* CheckViewMemoryLeakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewMemoryLeakViewController.swift; sourceTree = "<group>"; };
+		D9170394245049EB00A588AD /* TextureTableDemo2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureTableDemo2Controller.swift; sourceTree = "<group>"; };
 		D9179CDD22B7C04F002FCCA0 /* 装饰模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "装饰模式.md"; sourceTree = "<group>"; };
 		D9179CDF22B7C808002FCCA0 /* CQDecoratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQDecoratorViewController.h; sourceTree = "<group>"; };
 		D9179CE022B7C808002FCCA0 /* CQDecoratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQDecoratorViewController.m; sourceTree = "<group>"; };
@@ -1412,6 +1414,14 @@
 				D916DA2823A24B2000CB0CFA /* CheckViewMemoryLeakViewController.swift */,
 			);
 			path = "检测view是否释放";
+			sourceTree = "<group>";
+		};
+		D9170393245049BA00A588AD /* TextureTableDemo2 */ = {
+			isa = PBXGroup;
+			children = (
+				D9170394245049EB00A588AD /* TextureTableDemo2Controller.swift */,
+			);
+			path = TextureTableDemo2;
 			sourceTree = "<group>";
 		};
 		D9179CDC22B7C02B002FCCA0 /* 装饰模式 */ = {
@@ -3380,6 +3390,7 @@
 				D98F1B2A236D783900F31F03 /* ASTableNode */,
 				D95B2F3D239289F6006F2FE2 /* Texture的各种node */,
 				D9C842622394F0CB00DC5BCD /* Texture Layout */,
+				D9170393245049BA00A588AD /* TextureTableDemo2 */,
 			);
 			path = texture;
 			sourceTree = "<group>";
@@ -4754,6 +4765,7 @@
 				D926BDF522C6152400A2DD3E /* RoleStateCaretaker.m in Sources */,
 				D9146DEA239219ED002EA395 /* GestureRedChildScrollView.swift in Sources */,
 				D97D51022350B0CA00A0F570 /* TradeRuleViewController.swift in Sources */,
+				D9170395245049EB00A588AD /* TextureTableDemo2Controller.swift in Sources */,
 				D926BDD022C4945800A2DD3E /* TimeState.m in Sources */,
 				D991C921236C492300CB290C /* Loading.swift in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
