@@ -86,7 +86,7 @@ static NSString * const CQFilterCellReuseID = @"CQFilterCellReuseID";
     alertController.departmentID = departmentID;
     alertController.houseID = houseID;
     alertController.filtrateCompletion = filtrateCompletion;
-    alertController.modalPresentationStyle = UIModalPresentationOverFullScreen;
+    alertController.modalPresentationStyle = UIModalPresentationOverCurrentContext;
     return alertController;
 }
 

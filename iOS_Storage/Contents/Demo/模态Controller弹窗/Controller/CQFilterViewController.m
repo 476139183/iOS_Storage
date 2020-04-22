@@ -60,7 +60,7 @@
         label.textAlignment = NSTextAlignmentCenter;
         label.font = [UIFont systemFontOfSize:15];
         label.adjustsFontSizeToFitWidth = YES;
-        label.backgroundColor = [UIColor yellowColor];
+        label.backgroundColor = [UIColor orangeColor];
         [labelsArray addObject:label];
         switch (i) {
             case 0:
