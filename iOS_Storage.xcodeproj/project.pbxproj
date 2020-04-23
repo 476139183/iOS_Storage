@@ -209,6 +209,7 @@
 		D954D5C124456BBF00F02DCF /* PushTranslucenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954D5C024456BBF00F02DCF /* PushTranslucenceViewController.swift */; };
 		D954FF5223B1BBEE0052A63A /* StaticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954FF5023B1BBEE0052A63A /* StaticViewController.swift */; };
 		D954FF5523B1BCAE0052A63A /* PreloadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954FF5423B1BCAE0052A63A /* PreloadTableViewController.swift */; };
+		D95885BC24519DC500CD9FDD /* VideoDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95885BB24519DC500CD9FDD /* VideoDemoViewController.swift */; };
 		D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */; };
 		D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */; };
 		D9608BF4236970350053BD3E /* CQConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF3236970350053BD3E /* CQConstants.swift */; };
@@ -814,6 +815,7 @@
 		D954D5C024456BBF00F02DCF /* PushTranslucenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTranslucenceViewController.swift; sourceTree = "<group>"; };
 		D954FF5023B1BBEE0052A63A /* StaticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticViewController.swift; sourceTree = "<group>"; };
 		D954FF5423B1BCAE0052A63A /* PreloadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreloadTableViewController.swift; sourceTree = "<group>"; };
+		D95885BB24519DC500CD9FDD /* VideoDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDemoViewController.swift; sourceTree = "<group>"; };
 		D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureNodeDemoViewController.swift; sourceTree = "<group>"; };
 		D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAreaTestViewController.swift; sourceTree = "<group>"; };
 		D9608BF3236970350053BD3E /* CQConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQConstants.swift; sourceTree = "<group>"; };
@@ -2026,6 +2028,7 @@
 				D9B6313923BB29B7003D95D9 /* UIActivityViewController */,
 				D954D5BA24454AB200F02DCF /* 浮层 Controller */,
 				D954D5BF24456A9900F02DCF /* 弹出半透明controller */,
+				D95885BA24519D9C00CD9FDD /* 视频播放器 */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -2638,6 +2641,14 @@
 			children = (
 			);
 			path = "递归树";
+			sourceTree = "<group>";
+		};
+		D95885BA24519D9C00CD9FDD /* 视频播放器 */ = {
+			isa = PBXGroup;
+			children = (
+				D95885BB24519DC500CD9FDD /* VideoDemoViewController.swift */,
+			);
+			path = "视频播放器";
 			sourceTree = "<group>";
 		};
 		D95B2F3D239289F6006F2FE2 /* Texture的各种node */ = {
@@ -4746,6 +4757,7 @@
 				D937689423585DB000515315 /* MapDemoViewController.swift in Sources */,
 				D9E57A5923756E780013BC7D /* DictPracticeViewController.swift in Sources */,
 				D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */,
+				D95885BC24519DC500CD9FDD /* VideoDemoViewController.swift in Sources */,
 				D991C91E236C48D300CB290C /* LoadingViewController.swift in Sources */,
 				D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */,
 				D9C7CC0C22E9998B0038FD34 /* CQStandardTableFooterView.m in Sources */,
