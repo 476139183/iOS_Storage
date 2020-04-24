@@ -22,19 +22,47 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    // 隐藏系统导航栏
+    self.navigationController.navigationBar.hidden = YES;
+    
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"详情" style:UIBarButtonItemStylePlain target:self action:@selector(detailButtonClicked)];
+    // 添加自定义导航栏
+    self.naviBar = [[CQBaseNaviBar alloc] init];
+    [self.view addSubview:self.naviBar];
+    self.naviBar.titleLabel.text = self.title;
+    [self.naviBar.backButton addTarget:self action:@selector(backButtonClicked) forControlEvents:UIControlEventTouchUpInside];
+    [self.naviBar.detailButton addTarget:self action:@selector(detailButtonClicked) forControlEvents:UIControlEventTouchUpInside];
+    [self.naviBar mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.top.mas_equalTo(self.view);
+        make.height.mas_equalTo(NAVIGATION_BAR_HEIGHT);
+    }];
 }
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    
+    [self.view bringSubviewToFront:self.naviBar];
+}
+
 
 - (void)dealloc {
     NSLog(@"已释放：%@", self.className);
 }
 
+/** 返回按钮点击 */
+- (void)backButtonClicked {
+    if (self.presentingViewController) {
+        [self dismissViewControllerAnimated:YES completion:nil];
+    } else {
+        [self.navigationController popViewControllerAnimated:YES];
+    }
+}
+
 - (void)dismissViewControllerAnimated:(BOOL)flag completion:(void (^)(void))completion {
     [super dismissViewControllerAnimated:flag completion:completion];
     
-    //[CQMemoryLeakManager checkController:self];
+    // [CQMemoryLeakManager checkController:self];
 }
 
 - (void)checkMemoryLeak {
@@ -43,6 +71,12 @@
             NSLog(@"Memory Leak === %@", self.className);
         }
     });
+}
+
+- (void)setTitle:(NSString *)title {
+    [super setTitle:title];
+    
+    self.naviBar.titleLabel.text = title;
 }
 
 #pragma mark - 详情按钮点击

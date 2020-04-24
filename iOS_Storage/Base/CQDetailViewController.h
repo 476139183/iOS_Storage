@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CQBaseViewController.h"
 
-@interface CQDetailViewController : UIViewController
+@interface CQDetailViewController : CQBaseViewController
 
 /**
  构造方法

@@ -12,7 +12,7 @@
 @interface CQDetailViewController () <WKNavigationDelegate>
 
 /** URL */
-@property (nonatomic, copy) NSString *url;
+@property (nonatomic, copy) NSString *urlString;
 /** webView */
 @property (nonatomic, strong) WKWebView *webView;
 /** 进度条 */
@@ -27,7 +27,7 @@
 - (instancetype)initWithTitle:(NSString *)title url:(NSString *)url {
     if (self = [super init]) {
         self.title = title;
-        self.url = url;
+        self.urlString = url;
     }
     return self;
 }
@@ -38,19 +38,26 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    // 导航栏
+    self.naviBar.detailButton.hidden = YES;
+    
     //------- webView -------//
-    self.webView = [[WKWebView alloc] initWithFrame:self.view.bounds];
+    self.webView = [[WKWebView alloc] init];
     [self.view addSubview:self.webView];
     self.webView.navigationDelegate = self;
     [self.webView addObserver:self forKeyPath:@"estimatedProgress" options:NSKeyValueObservingOptionNew context:nil];
+    [self.webView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(NAVIGATION_BAR_HEIGHT);
+        make.left.right.bottom.mas_equalTo(self.view);
+    }];
     
     //========== 加载资源 ==========//
-    if ([self.url containsString:@"://"]) {
-        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.url]]];
+    if ([self.urlString containsString:@"://"]) {
+        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.urlString]]];
     } else {
         //------- 加载本地文件 -------//
-        NSString *path = [[NSBundle mainBundle] pathForResource:self.url ofType:nil];
-        NSString *suffix = [[[self.url componentsSeparatedByString:@"."] lastObject] lowercaseString];
+        NSString *path = [[NSBundle mainBundle] pathForResource:self.urlString ofType:nil];
+        NSString *suffix = [[[self.urlString componentsSeparatedByString:@"."] lastObject] lowercaseString];
         
         NSError *error = nil;
         NSString *contentStr = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];

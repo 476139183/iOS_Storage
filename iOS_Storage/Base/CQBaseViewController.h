@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CQBaseNaviBar.h"
 
 @interface CQBaseViewController : UIViewController
 
 /** 详情页链接 */
 @property (nonatomic, copy) NSString *url;
+
+// 自定义导航栏
+@property (nonatomic, strong) CQBaseNaviBar *naviBar;
 
 @end

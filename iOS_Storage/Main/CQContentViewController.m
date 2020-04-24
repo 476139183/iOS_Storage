@@ -8,6 +8,7 @@
 
 #import "CQContentViewController.h"
 #import "CQContentModel.h"
+#import "CQBaseNaviBar.h"
 
 static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
 
@@ -53,11 +54,28 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.navigationController.navigationBar.hidden = true;
+    
+    CQBaseNaviBar *naviBar = [[CQBaseNaviBar alloc] init];
+    [self.view addSubview:naviBar];
+    naviBar.backButton.hidden = YES;
+    naviBar.detailButton.hidden = YES;
+    naviBar.titleLabel.text = self.title;
+    naviBar.titleLabel.font = [UIFont boldSystemFontOfSize:18];
+    [naviBar mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.top.mas_equalTo(self.view);
+        make.height.mas_equalTo(NAVIGATION_BAR_HEIGHT);
+    }];
+    
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:tableView];
     tableView.dataSource = self;
     tableView.delegate = self;
     [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CQContentCellReuseID];
+    [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.bottom.mas_equalTo(self.view);
+        make.top.mas_equalTo(NAVIGATION_BAR_HEIGHT);
+    }];
 }
 
 #pragma mark - UITableView DataSource && Delegate
@@ -86,6 +104,7 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
     
     detailVC.title = model.demo_name;
     detailVC.url = model.url;
+    detailVC.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:detailVC animated:YES];
 }
 

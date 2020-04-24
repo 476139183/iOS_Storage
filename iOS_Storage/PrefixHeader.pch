@@ -16,6 +16,7 @@
 #import "CQBaseModel.h"
 #import "CQBaseViewController.h"
 #import "CQBaseNavigationController.h"
+#import <Masonry.h>
 #import "iOS_Storage-Swift.h"
 
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
@@ -30,7 +31,7 @@
 // home indicator
 #define HOME_INDICATOR_HEIGHT (iPhoneX ? 34.f : 0.f)
 
-// 判断是否是iPhone X
-#define iPhoneX ((([[[UIDevice currentDevice] systemVersion] floatValue] >= 11.0f) && ([[[[UIApplication sharedApplication] delegate] window] safeAreaInsets].bottom > 0.0))? YES : NO)
+// 判断是否是 iPhone X 刘海屏
+#define iPhoneX (([[UIApplication sharedApplication] statusBarFrame].size.height == 44.0f) ? (YES):(NO))
 
 #endif /* PrefixHeader_pch */

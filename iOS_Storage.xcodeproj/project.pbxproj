@@ -213,6 +213,7 @@
 		D95885BE245282B400CD9FDD /* AVPlayerViewControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95885BD245282B400CD9FDD /* AVPlayerViewControllerVC.swift */; };
 		D95885C024528DE200CD9FDD /* AVPlayerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95885BF24528DE200CD9FDD /* AVPlayerDemoViewController.swift */; };
 		D95885C224529B2A00CD9FDD /* PictureInPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95885C124529B2A00CD9FDD /* PictureInPictureViewController.swift */; };
+		D95885C52452BE1700CD9FDD /* CQBaseNaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D95885C42452BE1700CD9FDD /* CQBaseNaviBar.m */; };
 		D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */; };
 		D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */; };
 		D9608BF4236970350053BD3E /* CQConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF3236970350053BD3E /* CQConstants.swift */; };
@@ -822,6 +823,8 @@
 		D95885BD245282B400CD9FDD /* AVPlayerViewControllerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerViewControllerVC.swift; sourceTree = "<group>"; };
 		D95885BF24528DE200CD9FDD /* AVPlayerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerDemoViewController.swift; sourceTree = "<group>"; };
 		D95885C124529B2A00CD9FDD /* PictureInPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureInPictureViewController.swift; sourceTree = "<group>"; };
+		D95885C32452BE1700CD9FDD /* CQBaseNaviBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQBaseNaviBar.h; sourceTree = "<group>"; };
+		D95885C42452BE1700CD9FDD /* CQBaseNaviBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBaseNaviBar.m; sourceTree = "<group>"; };
 		D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureNodeDemoViewController.swift; sourceTree = "<group>"; };
 		D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAreaTestViewController.swift; sourceTree = "<group>"; };
 		D9608BF3236970350053BD3E /* CQConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQConstants.swift; sourceTree = "<group>"; };
@@ -2330,6 +2333,8 @@
 			children = (
 				D94BF43520E48C690012C370 /* CQBaseModel.h */,
 				D94BF43620E48C690012C370 /* CQBaseModel.m */,
+				D95885C32452BE1700CD9FDD /* CQBaseNaviBar.h */,
+				D95885C42452BE1700CD9FDD /* CQBaseNaviBar.m */,
 				D94BF43820E48C850012C370 /* CQBaseViewController.h */,
 				D94BF43920E48C850012C370 /* CQBaseViewController.m */,
 				D99BD9BE2398AEC40072A784 /* CQBaseNavigationController.h */,
@@ -4843,6 +4848,7 @@
 				D9C0EFBD23A0A29B0053EEAC /* GradientNaviViewController.swift in Sources */,
 				D92769F3236AE8C100A6D846 /* PlaceholderView.swift in Sources */,
 				D9C2AA9F236928F900EBB9E1 /* UIViewAnimationViewController.swift in Sources */,
+				D95885C52452BE1700CD9FDD /* CQBaseNaviBar.m in Sources */,
 				D93A0BFB233CA51D00554EF6 /* Utilities.swift in Sources */,
 				D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */,
 				D96773A92400D12500829BCB /* VerticalCollectionViewController.swift in Sources */,
