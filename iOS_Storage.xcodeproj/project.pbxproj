@@ -210,6 +210,9 @@
 		D954FF5223B1BBEE0052A63A /* StaticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954FF5023B1BBEE0052A63A /* StaticViewController.swift */; };
 		D954FF5523B1BCAE0052A63A /* PreloadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954FF5423B1BCAE0052A63A /* PreloadTableViewController.swift */; };
 		D95885BC24519DC500CD9FDD /* VideoDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95885BB24519DC500CD9FDD /* VideoDemoViewController.swift */; };
+		D95885BE245282B400CD9FDD /* AVPlayerViewControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95885BD245282B400CD9FDD /* AVPlayerViewControllerVC.swift */; };
+		D95885C024528DE200CD9FDD /* AVPlayerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95885BF24528DE200CD9FDD /* AVPlayerDemoViewController.swift */; };
+		D95885C224529B2A00CD9FDD /* PictureInPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95885C124529B2A00CD9FDD /* PictureInPictureViewController.swift */; };
 		D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */; };
 		D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */; };
 		D9608BF4236970350053BD3E /* CQConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF3236970350053BD3E /* CQConstants.swift */; };
@@ -816,6 +819,9 @@
 		D954FF5023B1BBEE0052A63A /* StaticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticViewController.swift; sourceTree = "<group>"; };
 		D954FF5423B1BCAE0052A63A /* PreloadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreloadTableViewController.swift; sourceTree = "<group>"; };
 		D95885BB24519DC500CD9FDD /* VideoDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDemoViewController.swift; sourceTree = "<group>"; };
+		D95885BD245282B400CD9FDD /* AVPlayerViewControllerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerViewControllerVC.swift; sourceTree = "<group>"; };
+		D95885BF24528DE200CD9FDD /* AVPlayerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerDemoViewController.swift; sourceTree = "<group>"; };
+		D95885C124529B2A00CD9FDD /* PictureInPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureInPictureViewController.swift; sourceTree = "<group>"; };
 		D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureNodeDemoViewController.swift; sourceTree = "<group>"; };
 		D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAreaTestViewController.swift; sourceTree = "<group>"; };
 		D9608BF3236970350053BD3E /* CQConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQConstants.swift; sourceTree = "<group>"; };
@@ -2647,6 +2653,9 @@
 			isa = PBXGroup;
 			children = (
 				D95885BB24519DC500CD9FDD /* VideoDemoViewController.swift */,
+				D95885BD245282B400CD9FDD /* AVPlayerViewControllerVC.swift */,
+				D95885BF24528DE200CD9FDD /* AVPlayerDemoViewController.swift */,
+				D95885C124529B2A00CD9FDD /* PictureInPictureViewController.swift */,
 			);
 			path = "视频播放器";
 			sourceTree = "<group>";
@@ -4720,6 +4729,7 @@
 				D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */,
 				D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */,
 				D926BDC722C487CB00A2DD3E /* CQAbstractFactoryViewController.m in Sources */,
+				D95885BE245282B400CD9FDD /* AVPlayerViewControllerVC.swift in Sources */,
 				D9C5E5EA2349CD4E00D101F1 /* LinkedListViewController.swift in Sources */,
 				D9D11E2723717EC60047AD7C /* WKWebViewDemoViewController.swift in Sources */,
 				D9697FF122F097D800220938 /* StandardSwiftCollectionViewCell.swift in Sources */,
@@ -4773,6 +4783,7 @@
 				D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */,
 				D96F415F23BEE051008616F4 /* CQElegantOCViewController.m in Sources */,
 				D9D14515229920CB003B594C /* CQKVCController.m in Sources */,
+				D95885C024528DE200CD9FDD /* AVPlayerDemoViewController.swift in Sources */,
 				D9179CE122B7C808002FCCA0 /* CQDecoratorViewController.m in Sources */,
 				D926BDF522C6152400A2DD3E /* RoleStateCaretaker.m in Sources */,
 				D9146DEA239219ED002EA395 /* GestureRedChildScrollView.swift in Sources */,
@@ -4924,6 +4935,7 @@
 				D9E42488212D0E9C00283CFC /* CQSortController.m in Sources */,
 				D9BC6F5F238E2E050085E4E0 /* JXPagingView.swift in Sources */,
 				D9DE6CC020FEE7A800C8D4FE /* CQDepartmentModel.m in Sources */,
+				D95885C224529B2A00CD9FDD /* PictureInPictureViewController.swift in Sources */,
 				D92CBD6B23F694AD003A6EDC /* InjectHTMLViewController.swift in Sources */,
 				D90A9AFF238F80D500C84424 /* NestedItemController.swift in Sources */,
 				D97420CC23A9BB160038AB38 /* UIScrollViewControlDemoController.swift in Sources */,
