@@ -28,8 +28,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.detailUrl = @"标准TableView OC版.md";
+    
     // 组头是否悬停由UITableViewStyle决定
-    self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, NAVIGATION_BAR_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT-NAVIGATION_BAR_HEIGHT) style:UITableViewStyleGrouped];
     [self.view addSubview:self.tableView];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;

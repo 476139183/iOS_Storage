@@ -1,16 +1,16 @@
 //
-//  StaticViewController.swift
+//  SameModelTableViewController.swift
 //  iOS_Storage
 //
-//  Created by caiqiang on 2019/12/24.
+//  Created by caiqiang on 2019/12/29.
 //  Copyright © 2019 蔡强. All rights reserved.
 //
 
 import UIKit
 
-class StaticViewController: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
+class SameModelTableViewController: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
     
-    private lazy var dataArray: [Model] = [Model(title: "静态tableView", sel: #selector(gotoMyTableVC))]
+    private let dataArray: [Model] = [Model(title: "抽象基类", targetVC: AbstractClassTableViewController())]
     
     private lazy var tableView: UITableView = {
         let tableView = UITableView()
@@ -25,14 +25,7 @@ class StaticViewController: CQBaseViewController, UITableViewDataSource, UITable
         // Do any additional setup after loading the view.
         
         view.addSubview(tableView)
-        tableView.frame = view.bounds
-        
-    }
-    
-    
-    // MARK: - action
-    
-    @objc func gotoMyTableVC() {
+        tableView.frame = .init(x: 0, y: kNavigationBarHeight, width: kScreenWidth, height: screenHeight-kNavigationBarHeight)
         
     }
     
@@ -50,10 +43,16 @@ class StaticViewController: CQBaseViewController, UITableViewDataSource, UITable
         return cell!
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        navigationController?.pushViewController(dataArray[indexPath.row].targetVC, animated: true)
+    }
+    
 }
 
 
 fileprivate struct Model {
+    
     var title: String
-    var sel: Selector
+    var targetVC: UIViewController
+    
 }

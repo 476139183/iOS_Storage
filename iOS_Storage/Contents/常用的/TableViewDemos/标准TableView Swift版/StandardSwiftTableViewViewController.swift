@@ -18,7 +18,7 @@ class StandardSwiftTableViewViewController: CQBaseViewController {
 
         // Do any additional setup after loading the view.
         
-        self.tableView.frame = self.view.bounds
+        self.tableView.frame = .init(x: 0, y: naviHeight, width: screenWidth, height: screenHeight-naviHeight)
         self.view.addSubview(self.tableView)
         self.tableView.dataSource = self
         self.tableView.delegate = self

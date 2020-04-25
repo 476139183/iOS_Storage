@@ -39,6 +39,8 @@
     }];
 }
 
+#warning 这里要修改
+
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     
@@ -82,12 +84,12 @@
 #pragma mark - 详情按钮点击
 
 - (void)detailButtonClicked {
-    if (!self.url || [self.url isEqualToString:@""]) {
-        [SVProgressHUD showInfoWithStatus:@"暂无对应文章"];
+    if (!self.detailUrl || [self.detailUrl isEqualToString:@""]) {
+        [SVProgressHUD showInfoWithStatus:@"木有详情"];
         return;
     }
     // 进入详情页
-    CQDetailViewController *detailVC = [[CQDetailViewController alloc] initWithTitle:self.title url:self.url];
+    CQDetailViewController *detailVC = [[CQDetailViewController alloc] initWithTitle:self.title url:self.detailUrl];
     [self.navigationController pushViewController:detailVC animated:YES];
 }
 

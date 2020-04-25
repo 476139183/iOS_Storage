@@ -28,97 +28,9 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>标准TableView OC版</string>
+		<string>TableViewDemos</string>
 		<key>controller_name</key>
-		<string>CQStandardOCTableViewViewController</string>
-		<key>url</key>
-		<string>标准TableView OC版.md</string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>标准TableView Swift版</string>
-		<key>controller_name</key>
-		<string>StandardSwiftTableViewViewController</string>
-		<key>url</key>
-		<string>https://www.jianshu.com/p/70eec89b71ac</string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>索引TableView</string>
-		<key>controller_name</key>
-		<string>IndexTableViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>无规律TableView</string>
-		<key>controller_name</key>
-		<string>IrregularityViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>表头图片下拉放大的tableView</string>
-		<key>controller_name</key>
-		<string>PullDownLargeViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>修改组头悬停位置</string>
-		<key>controller_name</key>
-		<string>ChangeSectionHeaderPositionViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>静态tableView</string>
-		<key>controller_name</key>
-		<string>StaticViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>tableView预加载</string>
-		<key>controller_name</key>
-		<string>PreloadTableViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>同种model多种cell的tableView</string>
-		<key>controller_name</key>
-		<string>SameModelTableViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>精简tableView</string>
-		<key>controller_name</key>
-		<string>SimpleTableViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>极速tableView</string>
-		<key>controller_name</key>
-		<string>QuickTableViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>tableView的各种操作</string>
-		<key>controller_name</key>
-		<string>HandleTableViewController</string>
+		<string>TableViewDemosViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>

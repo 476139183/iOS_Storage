@@ -103,7 +103,7 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
     }
     
     detailVC.title = model.demo_name;
-    detailVC.url = model.url;
+    detailVC.detailUrl = model.url;
     detailVC.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:detailVC animated:YES];
 }

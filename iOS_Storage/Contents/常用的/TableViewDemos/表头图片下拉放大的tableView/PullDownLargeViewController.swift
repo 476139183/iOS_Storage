@@ -48,7 +48,7 @@ class PullDownLargeViewController: CQBaseViewController, UITableViewDataSource, 
         }
         
         view.addSubview(tableView)
-        tableView.frame = view.bounds
+        tableView.frame = .init(x: 0, y: naviHeight, width: screenWidth, height: screenHeight-naviHeight)
     }
     
     

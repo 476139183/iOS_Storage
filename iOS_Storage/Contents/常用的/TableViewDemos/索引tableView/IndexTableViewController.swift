@@ -46,8 +46,10 @@ class IndexTableViewController: CQBaseViewController, UITableViewDataSource, UIT
         
         view.addSubview(tableView)
         tableView.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
+            make.top.equalTo(naviHeight)
+            make.left.right.bottom.equalToSuperview()
         }
+        
     }
     
     

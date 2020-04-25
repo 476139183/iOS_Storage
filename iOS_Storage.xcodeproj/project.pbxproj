@@ -214,6 +214,7 @@
 		D95885C024528DE200CD9FDD /* AVPlayerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95885BF24528DE200CD9FDD /* AVPlayerDemoViewController.swift */; };
 		D95885C224529B2A00CD9FDD /* PictureInPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95885C124529B2A00CD9FDD /* PictureInPictureViewController.swift */; };
 		D95885C52452BE1700CD9FDD /* CQBaseNaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D95885C42452BE1700CD9FDD /* CQBaseNaviBar.m */; };
+		D95885C82453C97100CD9FDD /* TableViewDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95885C72453C97100CD9FDD /* TableViewDemosViewController.swift */; };
 		D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */; };
 		D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */; };
 		D9608BF4236970350053BD3E /* CQConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF3236970350053BD3E /* CQConstants.swift */; };
@@ -825,6 +826,7 @@
 		D95885C124529B2A00CD9FDD /* PictureInPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureInPictureViewController.swift; sourceTree = "<group>"; };
 		D95885C32452BE1700CD9FDD /* CQBaseNaviBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQBaseNaviBar.h; sourceTree = "<group>"; };
 		D95885C42452BE1700CD9FDD /* CQBaseNaviBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBaseNaviBar.m; sourceTree = "<group>"; };
+		D95885C72453C97100CD9FDD /* TableViewDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDemosViewController.swift; sourceTree = "<group>"; };
 		D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureNodeDemoViewController.swift; sourceTree = "<group>"; };
 		D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAreaTestViewController.swift; sourceTree = "<group>"; };
 		D9608BF3236970350053BD3E /* CQConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQConstants.swift; sourceTree = "<group>"; };
@@ -1301,6 +1303,17 @@
 				D965A2BA234E37D400041D69 /* IconFontViewController.swift */,
 			);
 			path = IconFontDemo;
+			sourceTree = "<group>";
+		};
+		D90C33FB2453CB2F00BB9D29 /* CollectionViewDemos */ = {
+			isa = PBXGroup;
+			children = (
+				D9C7CBF822E9905C0038FD34 /* 标准CollectionView OC版 */,
+				D9C7CBF922E990770038FD34 /* 标准CollectionView Swift版 */,
+				D937687C2357FD7200515315 /* 常用CollectionViewLayout */,
+				D97246ED237E5F76001671AD /* 自定义UICollectionViewLayout */,
+			);
+			path = CollectionViewDemos;
 			sourceTree = "<group>";
 		};
 		D90C4E7521097C2800C48E72 /* CATransition动画 */ = {
@@ -2111,22 +2124,8 @@
 				D96F415823BEDEC8008616F4 /* 完美APP */,
 				D96F415923BEDEDF008616F4 /* 优雅的Objective-C */,
 				D96F415A23BEDF06008616F4 /* 优雅的Swift */,
-				D9C7CBF622E990440038FD34 /* 标准TableView OC版 */,
-				D9C7CBF722E9904D0038FD34 /* 标准TableView Swift版 */,
-				D92767C9237D4F1A00F9CED8 /* 索引tableView */,
-				D9721590239B9061007607B2 /* 无规律的tableView（我的页面） */,
-				D96778BA23A13ADC00D19554 /* 表头图片下拉放大的tableView */,
-				D97D0CAD23B5FF1B001E6FB7 /* 修改组头悬停位置 */,
-				D954FF4E23B1BB920052A63A /* 静态tableView */,
-				D954FF4F23B1BBA00052A63A /* tableView预加载 */,
-				D9BE257623B86E45001F4D71 /* 同种model多种cell的tableView */,
-				D9BE257B23B86FCD001F4D71 /* 精简tableView */,
-				D9BE257C23B8706D001F4D71 /* 极速tableView */,
-				D9B6314223BB3149003D95D9 /* tableView的各种操作 */,
-				D9C7CBF822E9905C0038FD34 /* 标准CollectionView OC版 */,
-				D9C7CBF922E990770038FD34 /* 标准CollectionView Swift版 */,
-				D937687C2357FD7200515315 /* 常用CollectionViewLayout */,
-				D97246ED237E5F76001671AD /* 自定义UICollectionViewLayout */,
+				D95885C62453C91C00CD9FDD /* TableViewDemos */,
+				D90C33FB2453CB2F00BB9D29 /* CollectionViewDemos */,
 				D9C2352F23855E64008C0D59 /* 导航栏各种设置 */,
 				D9C0EFBB23A0A20D0053EEAC /* 透明度渐变导航栏 */,
 				D9B5499023A4936300E8E6B6 /* getter与setter */,
@@ -2663,6 +2662,26 @@
 				D95885C124529B2A00CD9FDD /* PictureInPictureViewController.swift */,
 			);
 			path = "视频播放器";
+			sourceTree = "<group>";
+		};
+		D95885C62453C91C00CD9FDD /* TableViewDemos */ = {
+			isa = PBXGroup;
+			children = (
+				D95885C72453C97100CD9FDD /* TableViewDemosViewController.swift */,
+				D9C7CBF622E990440038FD34 /* 标准TableView OC版 */,
+				D9C7CBF722E9904D0038FD34 /* 标准TableView Swift版 */,
+				D92767C9237D4F1A00F9CED8 /* 索引tableView */,
+				D9721590239B9061007607B2 /* 无规律的tableView（我的页面） */,
+				D96778BA23A13ADC00D19554 /* 表头图片下拉放大的tableView */,
+				D97D0CAD23B5FF1B001E6FB7 /* 修改组头悬停位置 */,
+				D954FF4E23B1BB920052A63A /* 静态tableView */,
+				D954FF4F23B1BBA00052A63A /* tableView预加载 */,
+				D9BE257623B86E45001F4D71 /* 同种model多种cell的tableView */,
+				D9BE257B23B86FCD001F4D71 /* 精简tableView */,
+				D9BE257C23B8706D001F4D71 /* 极速tableView */,
+				D9B6314223BB3149003D95D9 /* tableView的各种操作 */,
+			);
+			path = TableViewDemos;
 			sourceTree = "<group>";
 		};
 		D95B2F3D239289F6006F2FE2 /* Texture的各种node */ = {
@@ -3338,8 +3357,8 @@
 				D9AE0CE220DD02AC00A31D62 /* Assets.xcassets */,
 				D9AE0CE720DD02AC00A31D62 /* Info.plist */,
 				D9AE0CE820DD02AC00A31D62 /* main.m */,
-				D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */,
 				D9608BF3236970350053BD3E /* CQConstants.swift */,
+				D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */,
 				D9CFC81F229CFF33009B8399 /* iOS_Storage-Bridging-Header.h */,
 				D92D69C320DE359C002BA9C0 /* LaunchScreen.storyboard */,
 			);
@@ -4729,6 +4748,7 @@
 				D97F3779238BF95500D47F3C /* NestedTableViewController.swift in Sources */,
 				D98F492723FBA5C400B9C16C /* RequestManager.swift in Sources */,
 				D9C5B453233DF3A200299AFB /* UIColor+Extension.swift in Sources */,
+				D95885C82453C97100CD9FDD /* TableViewDemosViewController.swift in Sources */,
 				D91A9F8B22B49390008F87F1 /* CQRecognitionManager.m in Sources */,
 				D940169C2361F16F00580AAC /* ArrayPracticeViewController.swift in Sources */,
 				D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */,

@@ -12,7 +12,7 @@
 @interface CQBaseViewController : UIViewController
 
 /** 详情页链接 */
-@property (nonatomic, copy) NSString *url;
+@property (nonatomic, copy) NSString *detailUrl;
 
 // 自定义导航栏
 @property (nonatomic, strong) CQBaseNaviBar *naviBar;

@@ -41,7 +41,7 @@ class IrregularityViewController: CQBaseViewController, UITableViewDataSource, U
         // Do any additional setup after loading the view.
         
         view.addSubview(tableView)
-        tableView.frame = view.bounds
+        tableView.frame = .init(x: 0, y: naviHeight, width: screenWidth, height: screenHeight-naviHeight)
     }
     
     

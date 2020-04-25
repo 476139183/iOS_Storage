@@ -12,6 +12,7 @@ let screenHeight = UIScreen.main.bounds.height
 let screenWidth = UIScreen.main.bounds.width
 
 let naviBarHeight: CGFloat = 44
+/// statusBarHeight + statusBarHeight
 let naviHeight = UIApplication.shared.statusBarFrame.height + naviBarHeight
 let statusBarHeight = UIApplication.shared.statusBarFrame.height
 var tabbarHeight: CGFloat {
