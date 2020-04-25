@@ -21,7 +21,7 @@ class StandardSwiftCollectionViewViewController: CQBaseViewController {
         // 设置横向滚动or竖向滚动
         layout.scrollDirection = .vertical
         
-        collectionView = UICollectionView.init(frame: self.view.bounds, collectionViewLayout: layout)
+        collectionView = UICollectionView.init(frame: .init(x: 0, y: kNavigationBarHeight, width: kScreenWidth, height: kScreenHeight-kNavigationBarHeight), collectionViewLayout: layout)
         view.addSubview(collectionView!)
         collectionView?.dataSource = self
         collectionView?.delegate = self

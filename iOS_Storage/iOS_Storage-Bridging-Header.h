@@ -30,3 +30,4 @@
 #import "Categories.h"
 #import "UIImage+Compress.h"
 #import "CQStandardOCTableViewViewController.h"
+#import "CQStandardOCCollectionViewViewController.h"

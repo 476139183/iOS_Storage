@@ -37,7 +37,7 @@ static NSString * const kFooterReuseID = @"kFooterReuseID";
     layout.scrollDirection = UICollectionViewScrollDirectionVertical;
     
     self.collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
-    self.collectionView.frame = CGRectMake(0, NAVIGATION_BAR_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT - NAVIGATION_BAR_HEIGHT - TAB_BAR_HEIGHT);
+    self.collectionView.frame = CGRectMake(0, NAVIGATION_BAR_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT - NAVIGATION_BAR_HEIGHT);
     [self.view addSubview:self.collectionView];
     self.collectionView.dataSource = self;
     self.collectionView.delegate = self;

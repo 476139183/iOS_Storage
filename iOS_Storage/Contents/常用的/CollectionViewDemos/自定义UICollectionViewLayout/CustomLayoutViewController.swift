@@ -32,7 +32,8 @@ class CustomLayoutViewController: CQBaseViewController, UITableViewDataSource, U
         
         view.addSubview(tableView)
         tableView.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
+            make.top.equalTo(kNavigationBarHeight)
+            make.left.right.bottom.equalToSuperview()
         }
         
     }

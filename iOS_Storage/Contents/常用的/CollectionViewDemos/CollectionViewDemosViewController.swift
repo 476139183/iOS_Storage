@@ -1,37 +1,34 @@
 //
-//  CollectionViewLayoutDemoViewController.swift
+//  CollectionViewDemosViewController.swift
 //  iOS_Storage
 //
-//  Created by caiqiang on 2019/10/17.
-//  Copyright © 2019 蔡强. All rights reserved.
+//  Created by caiqiang on 2020/4/25.
+//  Copyright © 2020 蔡强. All rights reserved.
 //
 
 import UIKit
 
-class CollectionViewLayoutDemoViewController: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
-    
+class CollectionViewDemosViewController: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
+
     private lazy var dataArray: [Model] = {
-        return [Model(title: "竖向", targetVC: VerticalCollectionViewController()),
-                Model(title: "横向", targetVC: HorizonCollectionViewController()),
-                Model(title: "横向demo完整版", targetVC: HorizonCollectionViewController2())]
+        return [Model.init(title: "标准CollectionView OC版", targetVC: CQStandardOCCollectionViewViewController()),
+                Model.init(title: "标准CollectionView Swift版", targetVC: StandardSwiftCollectionViewViewController()),
+                Model.init(title: "常用CollectionViewLayout", targetVC: CollectionViewLayoutDemoViewController()),
+                Model.init(title: "自定义UICollectionViewLayout", targetVC: CustomLayoutViewController())]
     }()
-    
-    private lazy var tableView: UITableView = {
-        let tableView = UITableView()
-        tableView.dataSource = self
-        tableView.delegate = self
-        return tableView
-    }()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
         
+        let tableView = UITableView()
         view.addSubview(tableView)
+        tableView.dataSource = self
+        tableView.delegate = self
         tableView.snp.makeConstraints { (make) in
-            make.top.equalTo(kNavigationBarHeight)
             make.left.right.bottom.equalToSuperview()
+            make.top.equalTo(naviHeight)
         }
         
     }
@@ -51,14 +48,14 @@ class CollectionViewLayoutDemoViewController: CQBaseViewController, UITableViewD
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        navigationController?.pushViewController(dataArray[indexPath.row].targetVC, animated: true)
+        let vc = dataArray[indexPath.row].targetVC
+        vc.title = dataArray[indexPath.row].title
+        navigationController?.pushViewController(vc, animated: true)
     }
-    
+
 }
 
 fileprivate struct Model {
-    
     var title: String
     var targetVC: UIViewController
-    
 }

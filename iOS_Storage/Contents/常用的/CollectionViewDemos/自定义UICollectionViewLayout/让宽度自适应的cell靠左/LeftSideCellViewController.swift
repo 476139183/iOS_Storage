@@ -40,7 +40,8 @@ class LeftSideCellViewController: CQBaseViewController, UICollectionViewDataSour
         
         view.addSubview(collectionView)
         collectionView.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
+            make.top.equalTo(kNavigationBarHeight)
+            make.left.right.bottom.equalToSuperview()
         }
         
     }
