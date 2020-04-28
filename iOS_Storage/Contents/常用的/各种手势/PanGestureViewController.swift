@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PanGestureViewController: UIViewController {
+class PanGestureViewController: CQBaseViewController {
     
     let blueLabel = UILabel()
 

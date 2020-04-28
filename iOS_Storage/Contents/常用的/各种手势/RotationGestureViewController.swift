@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RotationGestureViewController: UIViewController {
+class RotationGestureViewController: CQBaseViewController {
     
     private lazy var redView: UIView = {
         let view = UIView()

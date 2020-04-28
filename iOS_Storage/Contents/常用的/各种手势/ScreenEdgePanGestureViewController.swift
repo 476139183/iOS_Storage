@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ScreenEdgePanGestureViewController: UIViewController {
+class ScreenEdgePanGestureViewController: CQBaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

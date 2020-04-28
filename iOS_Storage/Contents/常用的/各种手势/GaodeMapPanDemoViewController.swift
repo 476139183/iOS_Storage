@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GaodeMapPanDemoViewController: UIViewController {
+class GaodeMapPanDemoViewController: CQBaseViewController {
     
     // 最大高度
     let panViewMaxHeight: CGFloat = 500

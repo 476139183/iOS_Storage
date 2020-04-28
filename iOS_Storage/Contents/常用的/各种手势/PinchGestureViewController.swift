@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PinchGestureViewController: UIViewController {
+class PinchGestureViewController: CQBaseViewController {
     
     let blueLable = UILabel()
 

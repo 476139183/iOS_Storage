@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TapGestureViewController: UIViewController {
+class TapGestureViewController: CQBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

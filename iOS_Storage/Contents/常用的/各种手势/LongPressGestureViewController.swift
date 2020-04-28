@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LongPressGestureViewController: UIViewController {
+class LongPressGestureViewController: CQBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

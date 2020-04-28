@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SwipeGestureViewController: UIViewController {
+class SwipeGestureViewController: CQBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
