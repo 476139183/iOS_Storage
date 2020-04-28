@@ -124,7 +124,7 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>各种常用动画</string>
+		<string>各种动画</string>
 		<key>controller_name</key>
 		<string>AnimationsViewController</string>
 		<key>url</key>
