@@ -396,6 +396,7 @@
 		D9BF691A233F5F0B00E602A4 /* CQGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6919233F5F0B00E602A4 /* CQGradientLabel.m */; };
 		D9BFEAD124581AF200E25133 /* DisplayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BFEAD024581AF200E25133 /* DisplayListViewController.swift */; };
 		D9BFEAD324581F8F00E25133 /* ElegantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BFEAD224581F8F00E25133 /* ElegantViewController.swift */; };
+		D9BFEAD52458341C00E25133 /* SelectorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BFEAD42458341C00E25133 /* SelectorListViewController.swift */; };
 		D9C0EFBD23A0A29B0053EEAC /* GradientNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */; };
 		D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352B23853059008C0D59 /* RefreshViewController.swift */; };
 		D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */; };
@@ -1047,6 +1048,7 @@
 		D9BF6919233F5F0B00E602A4 /* CQGradientLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientLabel.m; sourceTree = "<group>"; };
 		D9BFEAD024581AF200E25133 /* DisplayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayListViewController.swift; sourceTree = "<group>"; };
 		D9BFEAD224581F8F00E25133 /* ElegantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegantViewController.swift; sourceTree = "<group>"; };
+		D9BFEAD42458341C00E25133 /* SelectorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorListViewController.swift; sourceTree = "<group>"; };
 		D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientNaviViewController.swift; sourceTree = "<group>"; };
 		D9C2352B23853059008C0D59 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
 		D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRefreshHeader.swift; sourceTree = "<group>"; };
@@ -2346,6 +2348,7 @@
 				D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */,
 				D9BFEAD024581AF200E25133 /* DisplayListViewController.swift */,
 				D9ED81E124580A4600726E49 /* JumpListViewController.swift */,
+				D9BFEAD42458341C00E25133 /* SelectorListViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -4845,6 +4848,7 @@
 				D9D14515229920CB003B594C /* CQKVCController.m in Sources */,
 				D95885C024528DE200CD9FDD /* AVPlayerDemoViewController.swift in Sources */,
 				D9179CE122B7C808002FCCA0 /* CQDecoratorViewController.m in Sources */,
+				D9BFEAD52458341C00E25133 /* SelectorListViewController.swift in Sources */,
 				D926BDF522C6152400A2DD3E /* RoleStateCaretaker.m in Sources */,
 				D9146DEA239219ED002EA395 /* GestureRedChildScrollView.swift in Sources */,
 				D97D51022350B0CA00A0F570 /* TradeRuleViewController.swift in Sources */,

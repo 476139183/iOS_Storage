@@ -8,31 +8,19 @@
 
 import UIKit
 
-class NavigationJumpViewController: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
-    
-    private lazy var dataArray: [Model] = {
-        return [Model(title: "跳转到一个新VC", sel: #selector(showNewController)),
-                Model(title: "弹弹窗", sel: #selector(showAlertVC))]
-    }()
-    
-    private lazy var tableView: UITableView = {
-        let tableView = UITableView()
-        tableView.dataSource = self
-        tableView.delegate = self
-        return tableView
-    }()
+class NavigationJumpViewController: SelectorListViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        view.addSubview(tableView)
-        tableView.frame = view.bounds
+        self.dataArray = [SelectorModel(title: "跳转到一个新VC", selector: #selector(showNewController)),
+                          SelectorModel(title: "弹弹窗", selector: #selector(showAlertVC))]
     }
     
     
-    // MARK: - action
+    // MARK: - Action
     
     /// 跳转一个新的controller
     @objc private func showNewController() {
@@ -67,34 +55,5 @@ class NavigationJumpViewController: CQBaseViewController, UITableViewDataSource,
     @objc private func jumpToSystemSetting() {
         
     }
-    
-    
-    // MARK: - UITableView DataSource & Delegate
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dataArray.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let reuseID = "reuseID"
-        var cell = tableView.dequeueReusableCell(withIdentifier: reuseID)
-        if cell == nil {
-            cell = UITableViewCell(style: .default, reuseIdentifier: reuseID)
-        }
-        cell?.textLabel!.text = dataArray[indexPath.row].title
-        return cell!
-    }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        perform(dataArray[indexPath.row].sel)
-    }
 
-}
-
-
-fileprivate struct Model {
-    
-    var title: String?
-    var sel: Selector?
-    
 }

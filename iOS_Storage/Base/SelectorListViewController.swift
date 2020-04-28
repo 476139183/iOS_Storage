@@ -1,5 +1,5 @@
 //
-//  JumpListViewController.swift
+//  SelectorListViewController.swift
 //  iOS_Storage
 //
 //  Created by caiqiang on 2020/4/28.
@@ -8,11 +8,9 @@
 
 import UIKit
 
-/// 简单的跳转列表（点击cell，跳转到指定页面）
-class JumpListViewController: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
+class SelectorListViewController: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
     
-    /// 给它赋值即可
-    var dataArray: [ItemModel] = [] {
+    var dataArray: [SelectorModel] = [] {
         didSet {
             tableView.reloadData()
         }
@@ -29,8 +27,6 @@ class JumpListViewController: CQBaseViewController, UITableViewDataSource, UITab
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        self.naviBar.detailButton.isHidden = true
         
         view.addSubview(tableView)
         tableView.snp.makeConstraints { (make) in
@@ -59,12 +55,10 @@ class JumpListViewController: CQBaseViewController, UITableViewDataSource, UITab
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let model = dataArray[indexPath.row]
-        guard let targetVC = model.targetVC else {
+        guard let sel = dataArray[indexPath.row].selector else {
             return
         }
-        targetVC.title = model.title
-        navigationController?.pushViewController(targetVC, animated: true)
+        perform(sel)
     }
 
 }
@@ -72,9 +66,9 @@ class JumpListViewController: CQBaseViewController, UITableViewDataSource, UITab
 
 // MARK: - Model
 
-struct ItemModel {
+struct SelectorModel {
     /// 标题
     var title: String
-    /// 要跳转到的页面
-    var targetVC: UIViewController? = nil
+    /// 要执行的方法
+    var selector: Selector? = nil
 }
