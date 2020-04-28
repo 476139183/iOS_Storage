@@ -75,10 +75,21 @@
     });
 }
 
+#pragma mark - setter
+
 - (void)setTitle:(NSString *)title {
     [super setTitle:title];
     
     self.naviBar.titleLabel.text = title;
+}
+
+- (void)setDetailUrl:(NSString *)detailUrl {
+    _detailUrl = detailUrl;
+    if (!_detailUrl || [_detailUrl isEqualToString:@""]) {
+        self.naviBar.detailButton.hidden = true;
+    } else {
+        self.naviBar.detailButton.hidden = false;
+    }
 }
 
 #pragma mark - 详情按钮点击

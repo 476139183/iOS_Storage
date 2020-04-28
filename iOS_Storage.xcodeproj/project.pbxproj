@@ -395,6 +395,7 @@
 		D9BF6917233F587300E602A4 /* GradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6916233F587300E602A4 /* GradientLabel.swift */; };
 		D9BF691A233F5F0B00E602A4 /* CQGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6919233F5F0B00E602A4 /* CQGradientLabel.m */; };
 		D9BFEAD124581AF200E25133 /* DisplayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BFEAD024581AF200E25133 /* DisplayListViewController.swift */; };
+		D9BFEAD324581F8F00E25133 /* ElegantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BFEAD224581F8F00E25133 /* ElegantViewController.swift */; };
 		D9C0EFBD23A0A29B0053EEAC /* GradientNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */; };
 		D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352B23853059008C0D59 /* RefreshViewController.swift */; };
 		D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */; };
@@ -1048,6 +1049,7 @@
 		D9BF6918233F5F0B00E602A4 /* CQGradientLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientLabel.h; sourceTree = "<group>"; };
 		D9BF6919233F5F0B00E602A4 /* CQGradientLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientLabel.m; sourceTree = "<group>"; };
 		D9BFEAD024581AF200E25133 /* DisplayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayListViewController.swift; sourceTree = "<group>"; };
+		D9BFEAD224581F8F00E25133 /* ElegantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegantViewController.swift; sourceTree = "<group>"; };
 		D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientNaviViewController.swift; sourceTree = "<group>"; };
 		D9C2352B23853059008C0D59 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
 		D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRefreshHeader.swift; sourceTree = "<group>"; };
@@ -4264,6 +4266,7 @@
 		D9ED81DE2458087C00726E49 /* 要优雅 */ = {
 			isa = PBXGroup;
 			children = (
+				D9BFEAD224581F8F00E25133 /* ElegantViewController.swift */,
 				D96F415923BEDEDF008616F4 /* 优雅的Objective-C */,
 				D96F415A23BEDF06008616F4 /* 优雅的Swift */,
 			);
@@ -4850,6 +4853,7 @@
 				D9C5E5CA23424D5000D101F1 /* YYDemoListViewController.swift in Sources */,
 				D92D69BC20DE3295002BA9C0 /* CQCategoryView.m in Sources */,
 				D9C5B44C233DAE3500299AFB /* MyCellNode7.swift in Sources */,
+				D9BFEAD324581F8F00E25133 /* ElegantViewController.swift in Sources */,
 				D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */,
 				D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */,
 				D97D0CAF23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift in Sources */,

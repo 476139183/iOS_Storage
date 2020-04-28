@@ -34,3 +34,4 @@
 #import <ZFPlayer/ZFPlayer.h>
 #import <ZFPlayer/ZFAVPlayerManager.h>
 #import "AppDelegate.h"
+#import "CQElegantOCViewController.h"

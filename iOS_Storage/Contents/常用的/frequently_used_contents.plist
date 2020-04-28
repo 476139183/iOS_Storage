@@ -12,19 +12,11 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>优雅的Objective-C</string>
+		<string>要优雅</string>
 		<key>controller_name</key>
-		<string>CQElegantOCViewController</string>
+		<string>ElegantViewController</string>
 		<key>url</key>
-		<string>优雅的Objective-C.md</string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>优雅的Swift</string>
-		<key>controller_name</key>
-		<string>ElegantSwiftViewController</string>
-		<key>url</key>
-		<string>优雅的Swift.md</string>
+		<string></string>
 	</dict>
 	<dict>
 		<key>demo_name</key>

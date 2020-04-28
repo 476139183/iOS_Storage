@@ -29,6 +29,8 @@ class JumpListViewController: CQBaseViewController, UITableViewDataSource, UITab
 
         // Do any additional setup after loading the view.
         
+        self.naviBar.detailButton.isHidden = true
+        
         view.addSubview(tableView)
         tableView.snp.makeConstraints { (make) in
             make.top.equalTo(kNavigationBarHeight)
