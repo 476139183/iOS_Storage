@@ -14,7 +14,8 @@ class VideoDemoViewController: CQBaseViewController, UITableViewDataSource, UITa
         return [Model.init(title: "MPMoviePlayerController（iOS9已废弃）", targetVC: nil),
                 Model.init(title: "AVPlayerViewController（iOS8之后可用）", targetVC: AVPlayerViewControllerVC()),
                 Model.init(title: "AVPlayer", targetVC: AVPlayerDemoViewController()),
-                Model.init(title: "画中画", targetVC: PictureInPictureViewController())]
+                Model.init(title: "画中画", targetVC: PictureInPictureViewController()),
+                Model.init(title: "ZFPlayer", targetVC: ZFPlayerDemoViewController())]
     }()
     
     private lazy var tableView: UITableView = {
@@ -30,7 +31,10 @@ class VideoDemoViewController: CQBaseViewController, UITableViewDataSource, UITa
         // Do any additional setup after loading the view.
         
         view.addSubview(tableView)
-        tableView.frame = view.bounds
+        tableView.snp.makeConstraints { (make) in
+            make.top.equalTo(kNavigationBarHeight)
+            make.left.right.bottom.equalToSuperview()
+        }
         
     }
     

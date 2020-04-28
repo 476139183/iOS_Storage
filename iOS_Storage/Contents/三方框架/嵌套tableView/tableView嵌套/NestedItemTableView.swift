@@ -34,7 +34,7 @@ class NestedItemTableView: UIView, UITableViewDataSource, UITableViewDelegate, J
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
                 strongSelf.dataArray.append(contentsOf: ["1", "2", "3", "4", "5"])
                 print("加载更多完成")
-                strongSelf.tableView.mj_footer.endRefreshing()
+                strongSelf.tableView.mj_footer?.endRefreshing()
                 strongSelf.tableView.reloadData()
             }
         })

@@ -102,13 +102,11 @@ class AlamofireRequestViewController: CQBaseViewController {
 //
 //        }
         
-        Alamofire.request(urlString, method: .get, parameters: paraDict, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
-
-            if response.result.isSuccess { // 请求成功
-                
-                guard let json = response.result.value else {
-                    return
-                }
+        AF.request(urlString, method: .get, parameters: paraDict, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
+            
+            switch response.result {
+            case .success(_):
+                let json = response.result
                 
                 let model = InfoModel()
                 
@@ -119,20 +117,16 @@ class AlamofireRequestViewController: CQBaseViewController {
                 self.provinceLabel.text = model.province
                 
                 print("请求成功")
-            } else { // 请求失败
+            case .failure(_):
                 print("请求失败")
             }
 
-//            print(response.request)
-//            print(response.response)
-//            print(response.data)
-//            print(response.result.isSuccess)
-            print(response.result.value)
+            debugPrint(response)
 
         }
         
-        
     }
+    
     
 }
 

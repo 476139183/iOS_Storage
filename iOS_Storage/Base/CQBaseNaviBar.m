@@ -33,6 +33,8 @@
     [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.bottom.mas_equalTo(self);
         make.height.mas_equalTo(44);
+        make.left.mas_equalTo(53);
+        make.right.mas_offset(-39);
     }];
     
     // 返回按钮

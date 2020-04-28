@@ -17,7 +17,7 @@ pod 'ObjectMapper', '~> 3.4'
 pod 'SnapKit'
 pod 'RxSwift'
 pod 'RxCocoa'
-pod 'Alamofire'
+pod 'Alamofire', '5.0.0'
 pod 'Moya'
 pod 'NSObject+Rx'
 pod 'Action'
@@ -30,6 +30,9 @@ pod 'SwiftyJSON'
 pod 'Hero'
 pod 'SideMenu', '~> 6.4.8'
 pod 'TTTAttributedLabel'
+pod 'ZFPlayer', '~> 3.0'
+pod 'ZFPlayer/ControlView', '~> 3.0'
+pod 'ZFPlayer/AVPlayer', '~> 3.0'
 
 end
 

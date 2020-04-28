@@ -17,7 +17,7 @@ class RefreshViewController: CQBaseViewController, UITableViewDataSource {
         tableView.mj_header = DSRefreshHeader.init(refreshingBlock: {
             print("刷新")
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3) {
-                tableView.mj_header.endRefreshing()
+                tableView.mj_header?.endRefreshing()
             }
         })
         return tableView

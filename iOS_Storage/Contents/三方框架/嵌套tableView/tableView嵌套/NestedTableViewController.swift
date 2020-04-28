@@ -73,7 +73,7 @@ class NestedTableViewController: CQBaseViewController {
     @objc private func pullDownRefresh() {
         Loading.show()
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
-            self.pagingView.mainTableView.mj_header.endRefreshing()
+            self.pagingView.mainTableView.mj_header?.endRefreshing()
             Loading.remove()
         }
     }

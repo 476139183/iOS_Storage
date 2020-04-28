@@ -31,3 +31,6 @@
 #import "UIImage+Compress.h"
 #import "CQStandardOCTableViewViewController.h"
 #import "CQStandardOCCollectionViewViewController.h"
+#import <ZFPlayer/ZFPlayer.h>
+#import <ZFPlayer/ZFAVPlayerManager.h>
+#import "AppDelegate.h"

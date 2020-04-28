@@ -80,12 +80,12 @@ class PreloadTableViewController: CQBaseViewController, UITableViewDataSource, U
     @objc private func pullDownRefresh() {
         print("下拉刷新")
         
-        self.tableView.mj_footer.endRefreshing()
-        self.tableView.mj_footer.resetNoMoreData()
+        self.tableView.mj_footer?.endRefreshing()
+        self.tableView.mj_footer?.resetNoMoreData()
         
         loadDataWith(requiredPage: 0) { (datas) in
             self.dataArray.removeAll()
-            self.tableView.mj_header.endRefreshing()
+            self.tableView.mj_header?.endRefreshing()
             self.page = 0
             self.dataArray.append(contentsOf: datas)
             self.tableView.reloadData()
@@ -116,11 +116,11 @@ class PreloadTableViewController: CQBaseViewController, UITableViewDataSource, U
             
             self.dataArray.append(contentsOf: datas)
             self.tableView.reloadData()
-            self.tableView.mj_footer.endRefreshing()
+            self.tableView.mj_footer?.endRefreshing()
             self.isLoadingMore = false
             
             if self.page == 10 {
-                self.tableView.mj_footer.endRefreshingWithNoMoreData()
+                self.tableView.mj_footer?.endRefreshingWithNoMoreData()
             }
             self.page = self.page + 1
             

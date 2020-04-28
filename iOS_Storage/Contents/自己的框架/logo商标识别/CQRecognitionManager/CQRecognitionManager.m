@@ -78,7 +78,7 @@ static NSString * const kAccount = @"com.tima.aftermarket";
         paraDict[@"client_id"] = kBaiduAIApiKey;
         paraDict[@"client_secret"] = kBaiduAISecretKey;
         AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-        [manager POST:url parameters:paraDict progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        [manager POST:url parameters:paraDict headers:nil constructingBodyWithBlock:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
             NSString *token = responseObject[@"access_token"];
             // 保存token
             [YYKeychain setPassword:token forService:kService account:kAccount];
@@ -86,6 +86,14 @@ static NSString * const kAccount = @"com.tima.aftermarket";
         } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
             !failure ?: failure(error.localizedDescription);
         }];
+//        [manager POST:url parameters:paraDict progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+//            NSString *token = responseObject[@"access_token"];
+//            // 保存token
+//            [YYKeychain setPassword:token forService:kService account:kAccount];
+//            !success ?: success(token);
+//        } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+//            !failure ?: failure(error.localizedDescription);
+//        }];
     }
 }
 
@@ -105,7 +113,7 @@ static NSString * const kAccount = @"com.tima.aftermarket";
     manager.requestSerializer = [AFHTTPRequestSerializer serializer];
     [manager.requestSerializer setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript", @"text/html", @"text/plain",nil];
-    [manager POST:url parameters:paraDict constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
+    [manager POST:url parameters:paraDict headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
         NSData *data = [base64Str dataUsingEncoding:NSUTF8StringEncoding];
         [formData appendPartWithFileData:data name:@"image" fileName:@"image" mimeType:@"txt"];
     } progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {

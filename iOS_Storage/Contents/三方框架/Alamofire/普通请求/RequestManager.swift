@@ -16,13 +16,17 @@ class RequestManager {
     static func request(url: String, method: HTTPMethod, parameters :Parameters? = nil, success: ((HTTPURLResponse?) -> ())?, failure: ((String) -> ())?) {
         // 业务的 heders
         var headers: HTTPHeaders = [:]
-        Alamofire.request(url, method: method, parameters: parameters, encoding: URLEncoding.default, headers: headers).responseJSON { (response) in
-            if response.result.isSuccess { // 与服务器交互成功
+        AF.request(url, method: method, parameters: parameters, encoding: URLEncoding.default, headers: headers).responseJSON { (response) in
+            
+            switch response.result {
+            case .success(_): // 与服务器交互成功
                 success?(response.response)
-            } else { // 与服务器交互失败
+            case .failure(_):
                 failure?(response.error?.localizedDescription ?? "网络不给力")
             }
+            
         }
     }
+    
     
 }
