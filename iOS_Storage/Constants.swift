@@ -8,13 +8,6 @@
 
 import UIKit
 
-//var iPhoneX: Bool {
-//
-//    if UIScreen.instancesRespond(to: #selector(currentmo))
-//
-//    return false
-//}
-
 var isIphoneX: Bool {
     if #available(iOS 13.0,  *) {
         return UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.safeAreaInsets.top ?? 0 > 20
@@ -23,7 +16,6 @@ var isIphoneX: Bool {
             return UIApplication.shared.delegate?.window??.safeAreaInsets.top ?? 0 > 20
         }
     }
-
     return false
 }
 
@@ -55,3 +47,29 @@ var kHomeIndicatorHeight: CGFloat {
     }
 }
 
+
+
+
+// MARK: - DingStock Used
+
+let screenHeight = UIScreen.main.bounds.height
+let screenWidth = UIScreen.main.bounds.width
+
+let naviBarHeight: CGFloat = 44
+/// statusBarHeight + statusBarHeight
+let naviHeight = UIApplication.shared.statusBarFrame.height + naviBarHeight
+let statusBarHeight = UIApplication.shared.statusBarFrame.height
+var tabbarHeight: CGFloat {
+    if naviHeight == 64 {
+        return 49
+    } else {
+        return 83
+    }
+}
+var safeBottomHeight: CGFloat {
+    if naviHeight == 64 {
+        return 0
+    } else {
+        return 34
+    }
+}

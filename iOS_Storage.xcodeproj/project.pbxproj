@@ -217,7 +217,7 @@
 		D95885C82453C97100CD9FDD /* TableViewDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95885C72453C97100CD9FDD /* TableViewDemosViewController.swift */; };
 		D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */; };
 		D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */; };
-		D9608BF4236970350053BD3E /* CQConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF3236970350053BD3E /* CQConstants.swift */; };
+		D9608BF4236970350053BD3E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF3236970350053BD3E /* Constants.swift */; };
 		D9608BF7236987940053BD3E /* UIButton+EnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF6236987940053BD3E /* UIButton+EnlargeTouchArea.m */; };
 		D9608BFA2369899B0053BD3E /* EnlargeActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF92369899B0053BD3E /* EnlargeActionViewController.swift */; };
 		D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38A21490A13001B3021 /* CQCarBenz.m */; };
@@ -406,7 +406,6 @@
 		D9C5B44A233DA0ED00299AFB /* MyCellNode6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B449233DA0ED00299AFB /* MyCellNode6.swift */; };
 		D9C5B44C233DAE3500299AFB /* MyCellNode7.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B44B233DAE3500299AFB /* MyCellNode7.swift */; };
 		D9C5B44E233DBE9700299AFB /* CommunityMessagePKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B44D233DBE9700299AFB /* CommunityMessagePKCell.swift */; };
-		D9C5B450233DC58000299AFB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B44F233DC58000299AFB /* Constants.swift */; };
 		D9C5B453233DF3A200299AFB /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B452233DF3A200299AFB /* UIColor+Extension.swift */; };
 		D9C5E5CA23424D5000D101F1 /* YYDemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E5C923424D5000D101F1 /* YYDemoListViewController.swift */; };
 		D9C5E5CC23436C2800D101F1 /* YYTextViewDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5E5CB23436C2700D101F1 /* YYTextViewDemoController.swift */; };
@@ -835,7 +834,7 @@
 		D95885C72453C97100CD9FDD /* TableViewDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDemosViewController.swift; sourceTree = "<group>"; };
 		D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureNodeDemoViewController.swift; sourceTree = "<group>"; };
 		D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAreaTestViewController.swift; sourceTree = "<group>"; };
-		D9608BF3236970350053BD3E /* CQConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQConstants.swift; sourceTree = "<group>"; };
+		D9608BF3236970350053BD3E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D9608BF5236987940053BD3E /* UIButton+EnlargeTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeTouchArea.h"; sourceTree = "<group>"; };
 		D9608BF6236987940053BD3E /* UIButton+EnlargeTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeTouchArea.m"; sourceTree = "<group>"; };
 		D9608BF92369899B0053BD3E /* EnlargeActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnlargeActionViewController.swift; sourceTree = "<group>"; };
@@ -1060,7 +1059,6 @@
 		D9C5B449233DA0ED00299AFB /* MyCellNode6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode6.swift; sourceTree = "<group>"; };
 		D9C5B44B233DAE3500299AFB /* MyCellNode7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode7.swift; sourceTree = "<group>"; };
 		D9C5B44D233DBE9700299AFB /* CommunityMessagePKCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityMessagePKCell.swift; sourceTree = "<group>"; };
-		D9C5B44F233DC58000299AFB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D9C5B452233DF3A200299AFB /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		D9C5E5C923424D5000D101F1 /* YYDemoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYDemoListViewController.swift; sourceTree = "<group>"; };
 		D9C5E5CB23436C2700D101F1 /* YYTextViewDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYTextViewDemoController.swift; sourceTree = "<group>"; };
@@ -2021,7 +2019,6 @@
 			isa = PBXGroup;
 			children = (
 				D9145402237A894B0083FD19 /* Tool.swift */,
-				D9C5B44F233DC58000299AFB /* Constants.swift */,
 				D93A0BFA233CA51D00554EF6 /* Utilities.swift */,
 				D9AC507423B06C3800CB4DF2 /* ColorManager.swift */,
 				D985E40B23FD08B500CF7954 /* Font */,
@@ -3372,7 +3369,7 @@
 				D9AE0CE220DD02AC00A31D62 /* Assets.xcassets */,
 				D9AE0CE720DD02AC00A31D62 /* Info.plist */,
 				D9AE0CE820DD02AC00A31D62 /* main.m */,
-				D9608BF3236970350053BD3E /* CQConstants.swift */,
+				D9608BF3236970350053BD3E /* Constants.swift */,
 				D92D69AE20DE2FEB002BA9C0 /* PrefixHeader.pch */,
 				D9CFC81F229CFF33009B8399 /* iOS_Storage-Bridging-Header.h */,
 				D92D69C320DE359C002BA9C0 /* LaunchScreen.storyboard */,
@@ -4994,7 +4991,6 @@
 				D96FE2BF2396125A00949006 /* TextureLayoutDemoNaviNode.swift in Sources */,
 				D9146DE423920450002EA395 /* GestureScrollViewController.swift in Sources */,
 				D9CE605923518F3700D65107 /* UIImage+Extension.swift in Sources */,
-				D9C5B450233DC58000299AFB /* Constants.swift in Sources */,
 				D9FE875A23C5D3A1000E94CB /* DSActionSheet.swift in Sources */,
 				D9A39F8722B4D51900FEA5F5 /* CQStrategyViewController.m in Sources */,
 				D9CE5E4F23B89E0C007A9502 /* SuperNestedTableViewController.swift in Sources */,
@@ -5166,7 +5162,7 @@
 				D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */,
 				D9BE257E23B870F2001F4D71 /* SimpleTableViewController.swift in Sources */,
 				D96773AB2400D80500829BCB /* HorizonCollectionViewController2.swift in Sources */,
-				D9608BF4236970350053BD3E /* CQConstants.swift in Sources */,
+				D9608BF4236970350053BD3E /* Constants.swift in Sources */,
 				D9545B3E2293B275008B6355 /* CQRunloopModeController.m in Sources */,
 				D93EE5CC230A3F320016B6F1 /* CQBackgroundDownloadManager.swift in Sources */,
 				D9B6314123BB312D003D95D9 /* DataPracticeViewController.swift in Sources */,
