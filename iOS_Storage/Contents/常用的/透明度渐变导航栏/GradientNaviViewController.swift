@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GradientNaviViewController: CQBaseViewController, UINavigationControllerDelegate, UIGestureRecognizerDelegate, UITableViewDataSource, UITableViewDelegate {
+class GradientNaviViewController: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
     
     private lazy var naviView: NaviView = {
         let naviView = NaviView()
@@ -30,8 +30,8 @@ class GradientNaviViewController: CQBaseViewController, UINavigationControllerDe
 
         // Do any additional setup after loading the view.
         
-        self.navigationController?.delegate = self
-        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
+        // 把基类的导航栏隐藏掉
+        self.naviBar.isHidden = true
         
         view.addSubview(tableView)
         view.addSubview(naviView)
@@ -60,7 +60,7 @@ class GradientNaviViewController: CQBaseViewController, UINavigationControllerDe
         if cell == nil {
             cell = UITableViewCell(style: .default, reuseIdentifier: reuseID)
         }
-        cell?.textLabel!.text = "\(indexPath.row) - 滑动显示导航栏"
+        cell?.textLabel!.text = "\(indexPath.row) - 向上滑动显示导航栏"
         return cell!
     }
     
@@ -68,14 +68,6 @@ class GradientNaviViewController: CQBaseViewController, UINavigationControllerDe
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         naviView.contentView.alpha = (scrollView.contentOffset.y - kNavigationBarHeight) / 100.0
-    }
-    
-    // MARK: - UINavigationController Delegate
-    
-    func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
-        // 把系统的导航栏隐藏掉
-        let shouldHidden = viewController.isMember(of: GradientNaviViewController.self)
-        self.navigationController?.setNavigationBarHidden(shouldHidden, animated: animated)
     }
 
 }

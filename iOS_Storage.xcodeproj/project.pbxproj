@@ -399,8 +399,6 @@
 		D9C0EFBD23A0A29B0053EEAC /* GradientNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */; };
 		D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352B23853059008C0D59 /* RefreshViewController.swift */; };
 		D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */; };
-		D9C2353123855F08008C0D59 /* TestNaviBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2353023855F08008C0D59 /* TestNaviBarViewController.swift */; };
-		D9C2353323856008008C0D59 /* TestNaviBarViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2353223856008008C0D59 /* TestNaviBarViewController2.swift */; };
 		D9C2AA9F236928F900EBB9E1 /* UIViewAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2AA9E236928F900EBB9E1 /* UIViewAnimationViewController.swift */; };
 		D9C5B448233D967500299AFB /* MyCellNode5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B447233D967500299AFB /* MyCellNode5.swift */; };
 		D9C5B44A233DA0ED00299AFB /* MyCellNode6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B449233DA0ED00299AFB /* MyCellNode6.swift */; };
@@ -1052,8 +1050,6 @@
 		D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientNaviViewController.swift; sourceTree = "<group>"; };
 		D9C2352B23853059008C0D59 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
 		D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRefreshHeader.swift; sourceTree = "<group>"; };
-		D9C2353023855F08008C0D59 /* TestNaviBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNaviBarViewController.swift; sourceTree = "<group>"; };
-		D9C2353223856008008C0D59 /* TestNaviBarViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNaviBarViewController2.swift; sourceTree = "<group>"; };
 		D9C2AA9E236928F900EBB9E1 /* UIViewAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAnimationViewController.swift; sourceTree = "<group>"; };
 		D9C5B447233D967500299AFB /* MyCellNode5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode5.swift; sourceTree = "<group>"; };
 		D9C5B449233DA0ED00299AFB /* MyCellNode6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode6.swift; sourceTree = "<group>"; };
@@ -2135,7 +2131,6 @@
 				D9ED81DE2458087C00726E49 /* 要优雅 */,
 				D95885C62453C91C00CD9FDD /* TableViewDemos */,
 				D90C33FB2453CB2F00BB9D29 /* CollectionViewDemos */,
-				D9C2352F23855E64008C0D59 /* 导航栏各种设置 */,
 				D9C0EFBB23A0A20D0053EEAC /* 透明度渐变导航栏 */,
 				D9B5499023A4936300E8E6B6 /* getter与setter */,
 				D94016942361EF6B00580AAC /* String */,
@@ -3590,15 +3585,6 @@
 			path = "基于MJRefresh的下拉刷新";
 			sourceTree = "<group>";
 		};
-		D9C2352F23855E64008C0D59 /* 导航栏各种设置 */ = {
-			isa = PBXGroup;
-			children = (
-				D9C2353023855F08008C0D59 /* TestNaviBarViewController.swift */,
-				D9C2353223856008008C0D59 /* TestNaviBarViewController2.swift */,
-			);
-			path = "导航栏各种设置";
-			sourceTree = "<group>";
-		};
 		D9C2AA9D2369275800EBB9E1 /* UIView动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -4912,7 +4898,6 @@
 				D90A9B05238FAB2500C84424 /* NestedItemTextureController.swift in Sources */,
 				D9519A0922BFAE6C00E3036B /* Adidas.m in Sources */,
 				D9A65EED235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift in Sources */,
-				D9C2353123855F08008C0D59 /* TestNaviBarViewController.swift in Sources */,
 				D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */,
 				D9C0EFBD23A0A29B0053EEAC /* GradientNaviViewController.swift in Sources */,
 				D92769F3236AE8C100A6D846 /* PlaceholderView.swift in Sources */,
@@ -5176,7 +5161,6 @@
 				D92D3062216B3D8700B57A2D /* CQRippleViewController.m in Sources */,
 				D9BE258C23B88A47001F4D71 /* CellProtocol.swift in Sources */,
 				D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */,
-				D9C2353323856008008C0D59 /* TestNaviBarViewController2.swift in Sources */,
 				D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */,
 				D91245D623A90AD800E3775A /* UIScrollViewController.swift in Sources */,
 				D926BDE222C4B5B300A2DD3E /* CQAdapterViewController.m in Sources */,
