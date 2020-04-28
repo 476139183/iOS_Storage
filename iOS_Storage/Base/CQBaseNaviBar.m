@@ -27,14 +27,13 @@
     // 标题
     self.titleLabel = [[UILabel alloc] init];
     [self addSubview:self.titleLabel];
-    self.titleLabel.font = [UIFont boldSystemFontOfSize:16];
+    self.titleLabel.font = [UIFont systemFontOfSize:18 weight:UIFontWeightMedium];
     self.titleLabel.textColor = [UIColor blackColor];
     self.titleLabel.textAlignment = NSTextAlignmentCenter;
     [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.bottom.mas_equalTo(self);
         make.height.mas_equalTo(44);
-        make.left.mas_equalTo(53);
-        make.right.mas_offset(-39);
+        make.width.mas_equalTo(SCREEN_WIDTH - 100);
     }];
     
     // 返回按钮
@@ -54,7 +53,7 @@
     [self addSubview:self.detailButton];
     [self.detailButton setTitle:@"详情" forState:UIControlStateNormal];
     [self.detailButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [self.detailButton.titleLabel setFont:[UIFont boldSystemFontOfSize:14]];
+    [self.detailButton.titleLabel setFont:[UIFont systemFontOfSize:16 weight:UIFontWeightMedium]];
     [self.detailButton setEnlargeEdgeWithTop:10 right:10 bottom:0 left:10];
     [self.detailButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.height.mas_equalTo(self.titleLabel);
