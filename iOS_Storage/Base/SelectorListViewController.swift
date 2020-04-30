@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// 简单列表，点击cell执行对应方法
 class SelectorListViewController: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
     
     var dataArray: [SelectorModel] = [] {
