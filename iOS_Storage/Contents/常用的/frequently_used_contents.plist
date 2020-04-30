@@ -36,14 +36,6 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>透明渐变导航栏</string>
-		<key>controller_name</key>
-		<string>GradientNaviViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
 		<string>getter与setter</string>
 		<key>controller_name</key>
 		<string>GetterSetterViewController</string>

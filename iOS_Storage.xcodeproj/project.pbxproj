@@ -2146,7 +2146,6 @@
 				D9ED81DE2458087C00726E49 /* 要优雅 */,
 				D95885C62453C91C00CD9FDD /* TableViewDemos */,
 				D90C33FB2453CB2F00BB9D29 /* CollectionViewDemos */,
-				D9C0EFBB23A0A20D0053EEAC /* 透明度渐变导航栏 */,
 				D9B5499023A4936300E8E6B6 /* getter与setter */,
 				D94016942361EF6B00580AAC /* String */,
 				D940169A2361F15300580AAC /* Array */,
@@ -2706,6 +2705,7 @@
 				D9BE257C23B8706D001F4D71 /* 极速tableView */,
 				D9B6314223BB3149003D95D9 /* tableView的各种操作 */,
 				D91F97E8245A81D800865DEA /* 数据驱动的tableView */,
+				D9C0EFBB23A0A20D0053EEAC /* 导航栏渐变tableView */,
 			);
 			path = TableViewDemos;
 			sourceTree = "<group>";
@@ -3587,12 +3587,12 @@
 			path = "基于协议";
 			sourceTree = "<group>";
 		};
-		D9C0EFBB23A0A20D0053EEAC /* 透明度渐变导航栏 */ = {
+		D9C0EFBB23A0A20D0053EEAC /* 导航栏渐变tableView */ = {
 			isa = PBXGroup;
 			children = (
 				D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */,
 			);
-			path = "透明度渐变导航栏";
+			path = "导航栏渐变tableView";
 			sourceTree = "<group>";
 		};
 		D9C2352A23853001008C0D59 /* 基于MJRefresh的下拉刷新 */ = {
