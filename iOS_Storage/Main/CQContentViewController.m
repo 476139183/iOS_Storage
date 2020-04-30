@@ -87,7 +87,7 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CQContentCellReuseID];
     CQContentModel *model = self.dataArray[indexPath.row];
-    cell.textLabel.text = model.demo_name;
+    cell.textLabel.text = [NSString stringWithFormat:@"%.2ld - %@", indexPath.row, model.demo_name];
     return cell;
 }
 
