@@ -24,8 +24,18 @@ class ZFPlayerDemoViewController: CQBaseViewController {
         
         let player = ZFPlayerController.init(playerManager: manager, containerView: containerView)
         player.controlView = controlView
+        player.pauseWhenAppResignActive = false
+        
+        // 竖向视频
+        // https://dingstock.oss-cn-shanghai.aliyuncs.com/video/BP.mp4
+        
+        // 横向视频
+        // http://200024424.vod.myqcloud.com/200024424_709ae516bdf811e6ad39991f76a4df69.f20.mp4
+        
 //        player.assetURL = URL.init(string: "https://www.apple.com/105/media/us/iphone-x/2017/01df5b43-28e4-4848-bf20-490c34a926a7/films/feature/iphone-x-feature-tpl-cc-us-20170912_1280x720h.mp4")!
-        player.assetURL = URL.init(string: "http://200024424.vod.myqcloud.com/200024424_709ae516bdf811e6ad39991f76a4df69.f20.mp4")!
+        //player.assetURLs = [URL.init(string: "https://dingstock.oss-cn-shanghai.aliyuncs.com/video/BP.mp4")!]
+        
+        player.assetURL = URL.init(string: "https://dingstock.oss-cn-shanghai.aliyuncs.com/video/BP.mp4")!
         return player
         
     }()
@@ -33,6 +43,7 @@ class ZFPlayerDemoViewController: CQBaseViewController {
     private lazy var containerView: UIImageView = {
         let imageView = UIImageView()
         imageView.backgroundColor = .black
+//        imageView.setimagewithurl
         return imageView
     }()
     
@@ -76,8 +87,6 @@ class ZFPlayerDemoViewController: CQBaseViewController {
             
             self?.setNeedsStatusBarAppearanceUpdate()
             self?.naviView.isHidden = isFullScreen
-            
-            self?.showControlView()
         }
         
         player.playerDidToEnd = { [weak self] (asset) in
@@ -110,6 +119,7 @@ class ZFPlayerDemoViewController: CQBaseViewController {
             make.centerY.greaterThanOrEqualTo(controlView.landScapeControlView.backBtn)
         }
         
+        showControlView()
         
     }
     
