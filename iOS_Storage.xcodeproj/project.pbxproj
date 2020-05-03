@@ -2295,8 +2295,8 @@
 		D944B6AD245AD18A0077F58B /* C */ = {
 			isa = PBXGroup;
 			children = (
-				D944B6B3245AD69B0077F58B /* CGrammarViewController.swift */,
 				D9AC3CB322AFFC94007DDBD0 /* C语言注意点.md */,
+				D944B6B3245AD69B0077F58B /* CGrammarViewController.swift */,
 			);
 			path = C;
 			sourceTree = "<group>";

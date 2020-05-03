@@ -55,6 +55,7 @@ class JumpListViewController: CQBaseViewController, UITableViewDataSource, UITab
         }
         cell?.textLabel?.numberOfLines = 0
         cell?.textLabel?.text = dataArray[indexPath.row].title
+        cell?.accessoryType = .disclosureIndicator
         return cell!
     }
     
