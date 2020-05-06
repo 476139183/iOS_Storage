@@ -19,7 +19,8 @@ class CollectionViewDemosViewController: JumpListViewController {
         self.dataArray = [ItemModel.init(title: "标准CollectionView OC版", targetVC: CQStandardOCCollectionViewViewController()),
                           ItemModel.init(title: "标准CollectionView Swift版", targetVC: StandardSwiftCollectionViewViewController()),
                           ItemModel.init(title: "常用CollectionViewLayout", targetVC: CollectionViewLayoutDemoViewController()),
-                          ItemModel.init(title: "自定义UICollectionViewLayout", targetVC: CustomLayoutViewController())]
+                          ItemModel.init(title: "自定义UICollectionViewLayout", targetVC: CustomLayoutViewController()),
+                          ItemModel.init(title: "比例拼图", targetVC: CQJigsawViewController())]
         
     }
     

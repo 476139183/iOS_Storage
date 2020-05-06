@@ -28,17 +28,17 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>TableViewDemos</string>
+		<string>UIKit相关</string>
 		<key>controller_name</key>
-		<string>TableViewDemosViewController</string>
+		<string>UIKitDemosViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>CollectionViewDemos</string>
+		<string>WebView</string>
 		<key>controller_name</key>
-		<string>CollectionViewDemosViewController</string>
+		<string>WebViewDemosViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>

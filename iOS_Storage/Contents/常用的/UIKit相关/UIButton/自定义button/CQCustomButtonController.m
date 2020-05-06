@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    
+    
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(90, 90, 200, 60)];
     [self.view addSubview:label];
     label.numberOfLines = 0;

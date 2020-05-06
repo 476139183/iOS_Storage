@@ -159,6 +159,8 @@
 		D9402A892101E5B500BF792F /* tips_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9402A882101E50800BF792F /* tips_contents.plist */; };
 		D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */; };
 		D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A922101E7E400BF792F /* CQLockViewController.m */; };
+		D941A125245EDF3000844787 /* WebViewDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941A124245EDF3000844787 /* WebViewDemosViewController.swift */; };
+		D941A128245EE1C900844787 /* UIButtonDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941A127245EE1C900844787 /* UIButtonDemosViewController.swift */; };
 		D941B863235EF92700AEB48E /* LocationManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B862235EF92700AEB48E /* LocationManagerViewController.swift */; };
 		D941B865235EF9AD00AEB48E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B864235EF9AD00AEB48E /* LocationManager.swift */; };
 		D941B86C235F237E00AEB48E /* JXSegmentedChildController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941B86B235F237E00AEB48E /* JXSegmentedChildController1.swift */; };
@@ -270,6 +272,7 @@
 		D96FE2CE239644FC00949006 /* ASRatioLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2CD239644FC00949006 /* ASRatioLayoutController.swift */; };
 		D96FE2D02396451B00949006 /* ASRelativeLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2CF2396451B00949006 /* ASRelativeLayoutController.swift */; };
 		D96FE2D22396453D00949006 /* ASAbsoluteLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2D12396453D00949006 /* ASAbsoluteLayoutController.swift */; };
+		D9700D73245ED8A900168FE0 /* UIKitDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9700D72245ED8A900168FE0 /* UIKitDemosViewController.swift */; };
 		D97129E0239E300C00AEAD3C /* UITextViewDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97129DF239E300C00AEAD3C /* UITextViewDemoController.swift */; };
 		D9721592239B90ED007607B2 /* IrregularityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9721591239B90ED007607B2 /* IrregularityViewController.swift */; };
 		D97246EC237E4989001671AD /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246EB237E4989001671AD /* NSMutableAttributedString+Extension.swift */; };
@@ -751,6 +754,8 @@
 		D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMultiInterfaceViewController.m; sourceTree = "<group>"; };
 		D9402A912101E7E400BF792F /* CQLockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQLockViewController.h; sourceTree = "<group>"; };
 		D9402A922101E7E400BF792F /* CQLockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQLockViewController.m; sourceTree = "<group>"; };
+		D941A124245EDF3000844787 /* WebViewDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewDemosViewController.swift; sourceTree = "<group>"; };
+		D941A127245EE1C900844787 /* UIButtonDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonDemosViewController.swift; sourceTree = "<group>"; };
 		D941B862235EF92700AEB48E /* LocationManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerViewController.swift; sourceTree = "<group>"; };
 		D941B864235EF9AD00AEB48E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		D941B86B235F237E00AEB48E /* JXSegmentedChildController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedChildController1.swift; sourceTree = "<group>"; };
@@ -900,6 +905,7 @@
 		D96FE2CD239644FC00949006 /* ASRatioLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASRatioLayoutController.swift; sourceTree = "<group>"; };
 		D96FE2CF2396451B00949006 /* ASRelativeLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASRelativeLayoutController.swift; sourceTree = "<group>"; };
 		D96FE2D12396453D00949006 /* ASAbsoluteLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASAbsoluteLayoutController.swift; sourceTree = "<group>"; };
+		D9700D72245ED8A900168FE0 /* UIKitDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitDemosViewController.swift; sourceTree = "<group>"; };
 		D97129DF239E300C00AEAD3C /* UITextViewDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewDemoController.swift; sourceTree = "<group>"; };
 		D9721591239B90ED007607B2 /* IrregularityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrregularityViewController.swift; sourceTree = "<group>"; };
 		D97246EB237E4989001671AD /* NSMutableAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extension.swift"; sourceTree = "<group>"; };
@@ -1339,6 +1345,7 @@
 				D9C7CBF922E990770038FD34 /* 标准CollectionView Swift版 */,
 				D937687C2357FD7200515315 /* 常用CollectionViewLayout */,
 				D97246ED237E5F76001671AD /* 自定义UICollectionViewLayout */,
+				D92D69A320DE2DAA002BA9C0 /* 比例拼图 */,
 			);
 			path = CollectionViewDemos;
 			sourceTree = "<group>";
@@ -1363,18 +1370,10 @@
 		D90CDB0E20F05DBF003B9617 /* 自定义button */ = {
 			isa = PBXGroup;
 			children = (
-				D90CDB0F20F05DD5003B9617 /* Controller */,
-			);
-			path = "自定义button";
-			sourceTree = "<group>";
-		};
-		D90CDB0F20F05DD5003B9617 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
 				D90C4E7D21098CBE00C48E72 /* CQCustomButtonController.h */,
 				D90C4E7E21098CBE00C48E72 /* CQCustomButtonController.m */,
 			);
-			path = Controller;
+			path = "自定义button";
 			sourceTree = "<group>";
 		};
 		D90D9FAC233217A10007C25C /* 计算帧率 */ = {
@@ -2068,32 +2067,20 @@
 			isa = PBXGroup;
 			children = (
 				D94BF43E20E4B6420012C370 /* demo_contents.plist */,
-				D92D69A320DE2DAA002BA9C0 /* 比例拼图 */,
 				D9E9F4E020E2312900C3090D /* 不规格label */,
 				D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */,
 				D9DDA7C320E481E5008BD029 /* 多种layout的collectionView */,
 				D9920CBB20E6375E00F328F9 /* 带警示效果的textField */,
 				D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */,
 				D94F6A8820FEDCD9006BCC6B /* 模态Controller弹窗 */,
-				D90CDB0E20F05DBF003B9617 /* 自定义button */,
 				D98925D42106C96A001B2377 /* 主题切换 */,
 				D90C4E7521097C2800C48E72 /* CATransition动画 */,
-				D9FF65D0212AC09F00B06371 /* 含timer的cell */,
-				D984AD0A2154EF5E00610B27 /* 排序button */,
-				D95F591E2303B30B004ECBD0 /* 修改button响应区域 */,
 				D92D305E216B3C7200B57A2D /* 水波动画 */,
 				D9547859230667CE003E0ADA /* 检测controller是否释放 */,
 				D916DA2723A24AB100CB0CFA /* 检测view是否释放 */,
 				D90D9FAC233217A10007C25C /* 计算帧率 */,
 				D90D9FB5233306780007C25C /* cache */,
 				D937689223585D2400515315 /* MapDemo */,
-				D940168C2361BD6D00580AAC /* UIStackViewDemo */,
-				D9D11E2523717E500047AD7C /* WKWebViewDemo */,
-				D9AA680D237FAFF100A14C37 /* UIPageViewControllerDemo */,
-				D97129DE239E2E1100AEAD3C /* UITextViewDemo */,
-				D91245D423A90A3E00E3775A /* UIScrollViewDemo */,
-				D933CBDA23ADD5F100AFDF1B /* UIPresentationController */,
-				D9B6313923BB29B7003D95D9 /* UIActivityViewController */,
 				D954D5BA24454AB200F02DCF /* 浮层 Controller */,
 				D954D5BF24456A9900F02DCF /* 弹出半透明controller */,
 				D95885BA24519D9C00CD9FDD /* 视频播放器 */,
@@ -2170,11 +2157,10 @@
 				D91F97EB245ACC5400865DEA /* 语法大全 */,
 				D9ED81DD2458086000726E49 /* 追求完美 */,
 				D9ED81DE2458087C00726E49 /* 要优雅 */,
-				D95885C62453C91C00CD9FDD /* TableViewDemos */,
-				D90C33FB2453CB2F00BB9D29 /* CollectionViewDemos */,
+				D9700D71245ED84F00168FE0 /* UIKit相关 */,
+				D941A123245EDD2200844787 /* WebView */,
 				D9F523082362D23300ABBEF7 /* 圆角和阴影 */,
 				D94253192366D2EA0031356C /* 各种动画 */,
-				D9608BF8236988BA0053BD3E /* 扩大按钮响应区域 */,
 				D9E30C3A236D61E60042BC74 /* 播放动图 */,
 				D986652F2371546C00AA60B2 /* image和text互转 */,
 				D982964923976966001C05AE /* 各种跳转 */,
@@ -2260,6 +2246,27 @@
 				D9402A922101E7E400BF792F /* CQLockViewController.m */,
 			);
 			path = "锁";
+			sourceTree = "<group>";
+		};
+		D941A123245EDD2200844787 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				D941A124245EDF3000844787 /* WebViewDemosViewController.swift */,
+				D9D11E2523717E500047AD7C /* WKWebViewDemo */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		D941A126245EE18D00844787 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				D941A127245EE1C900844787 /* UIButtonDemosViewController.swift */,
+				D90CDB0E20F05DBF003B9617 /* 自定义button */,
+				D984AD0A2154EF5E00610B27 /* 排序button */,
+				D9608BF8236988BA0053BD3E /* 扩大按钮响应区域 */,
+				D95F591E2303B30B004ECBD0 /* 修改button响应区域 */,
+			);
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 		D941B861235EF8E600AEB48E /* 定位 */ = {
@@ -2782,6 +2789,7 @@
 				D9B6314223BB3149003D95D9 /* tableView的各种操作 */,
 				D91F97E8245A81D800865DEA /* 数据驱动的tableView */,
 				D9C0EFBB23A0A20D0053EEAC /* 导航栏渐变tableView */,
+				D9FF65D0212AC09F00B06371 /* 含timer的cell */,
 			);
 			path = TableViewDemos;
 			sourceTree = "<group>";
@@ -2993,6 +3001,23 @@
 				D96FE2D12396453D00949006 /* ASAbsoluteLayoutController.swift */,
 			);
 			path = "各种Layout";
+			sourceTree = "<group>";
+		};
+		D9700D71245ED84F00168FE0 /* UIKit相关 */ = {
+			isa = PBXGroup;
+			children = (
+				D9700D72245ED8A900168FE0 /* UIKitDemosViewController.swift */,
+				D941A126245EE18D00844787 /* UIButton */,
+				D95885C62453C91C00CD9FDD /* TableViewDemos */,
+				D90C33FB2453CB2F00BB9D29 /* CollectionViewDemos */,
+				D91245D423A90A3E00E3775A /* UIScrollViewDemo */,
+				D97129DE239E2E1100AEAD3C /* UITextViewDemo */,
+				D940168C2361BD6D00580AAC /* UIStackViewDemo */,
+				D9AA680D237FAFF100A14C37 /* UIPageViewControllerDemo */,
+				D933CBDA23ADD5F100AFDF1B /* UIPresentationController */,
+				D9B6313923BB29B7003D95D9 /* UIActivityViewController */,
+			);
+			path = "UIKit相关";
 			sourceTree = "<group>";
 		};
 		D97129DE239E2E1100AEAD3C /* UITextViewDemo */ = {
@@ -5223,6 +5248,7 @@
 				D926BDDC22C497BA00A2DD3E /* Work.m in Sources */,
 				D994A6E023A65E050032E540 /* IconFontButton.swift in Sources */,
 				D9AC507723B0770C00CB4DF2 /* AOPViewController.swift in Sources */,
+				D941A125245EDF3000844787 /* WebViewDemosViewController.swift in Sources */,
 				D9ED81E02458095500726E49 /* SeekPerfectViewController.swift in Sources */,
 				D96A17E7237EFDF90018E7F1 /* LeftSideLayout.swift in Sources */,
 				D9BE259023B88E80001F4D71 /* ProtocolPersonCell.swift in Sources */,
@@ -5260,6 +5286,7 @@
 				D97420CE23A9BD5F0038AB38 /* LongImageViewController.swift in Sources */,
 				D920ED2522E935D800C5A43F /* YYTextDemoViewController.swift in Sources */,
 				D93A0BF7233C735500554EF6 /* TextureLabelView.swift in Sources */,
+				D9700D73245ED8A900168FE0 /* UIKitDemosViewController.swift in Sources */,
 				D9866539237164DF00AA60B2 /* CQSegmentedDataSource.swift in Sources */,
 				D986652C23710FB500AA60B2 /* String+Extension.swift in Sources */,
 				D92D69B920DE3270002BA9C0 /* CQCategoryItemModel.m in Sources */,
@@ -5275,6 +5302,7 @@
 				D9B563FB20E24B1F001AE9A0 /* CQIphoneDetailViewController.m in Sources */,
 				D9A39F7B22B4D2DC00FEA5F5 /* CQMVPViewController.m in Sources */,
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,
+				D941A128245EE1C900844787 /* UIButtonDemosViewController.swift in Sources */,
 				D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */,
 				D92CBD7023F78B8E003A6EDC /* FontTestViewController.swift in Sources */,
 				D9ED81E224580A4600726E49 /* JumpListViewController.swift in Sources */,

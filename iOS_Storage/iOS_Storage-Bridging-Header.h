@@ -37,3 +37,7 @@
 #import "CQElegantOCViewController.h"
 #import "ZFNoramlViewController.h"
 #import "CQBlockReturnViewController.h"
+#import "CQTimerCellController.h"
+#import "CQJigsawViewController.h"
+#import "CQCustomButtonController.h"
+#import "CQSortButtonDemoController.h"

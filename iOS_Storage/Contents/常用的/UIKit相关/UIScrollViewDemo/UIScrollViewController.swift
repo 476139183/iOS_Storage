@@ -30,7 +30,10 @@ class UIScrollViewController: CQBaseViewController, UITableViewDataSource, UITab
         // Do any additional setup after loading the view.
         
         view.addSubview(tableView)
-        tableView.frame = view.bounds
+        tableView.snp.makeConstraints { (make) in
+            make.left.right.bottom.equalToSuperview()
+            make.top.equalTo(kNavigationBarHeight)
+        }
     }
     
     
