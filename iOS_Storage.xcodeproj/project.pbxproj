@@ -172,6 +172,8 @@
 		D944B6B6245AD6B30077F58B /* CPlusGrammarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944B6B5245AD6B30077F58B /* CPlusGrammarViewController.swift */; };
 		D944B6B8245AD6CE0077F58B /* OCGrammarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944B6B7245AD6CE0077F58B /* OCGrammarViewController.swift */; };
 		D944B6BA245AD6F80077F58B /* SwiftGrammarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944B6B9245AD6F80077F58B /* SwiftGrammarViewController.swift */; };
+		D944B6C0246290B10077F58B /* ClosureReturnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944B6BF246290B10077F58B /* ClosureReturnViewController.swift */; };
+		D944B6C3246290CC0077F58B /* CQBlockReturnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D944B6C2246290CC0077F58B /* CQBlockReturnViewController.m */; };
 		D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D948397C20E255FC00121FB6 /* IphoneListCell.m */; };
 		D94B650221537A0900F2FD84 /* CQPlaceholderDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94B650121537A0900F2FD84 /* CQPlaceholderDemoViewController.m */; };
 		D94BCDEA22E9D4BD0080584F /* CQStandardOCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BCDE922E9D4BD0080584F /* CQStandardOCCollectionViewCell.m */; };
@@ -762,6 +764,9 @@
 		D944B6B5245AD6B30077F58B /* CPlusGrammarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPlusGrammarViewController.swift; sourceTree = "<group>"; };
 		D944B6B7245AD6CE0077F58B /* OCGrammarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCGrammarViewController.swift; sourceTree = "<group>"; };
 		D944B6B9245AD6F80077F58B /* SwiftGrammarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGrammarViewController.swift; sourceTree = "<group>"; };
+		D944B6BF246290B10077F58B /* ClosureReturnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureReturnViewController.swift; sourceTree = "<group>"; };
+		D944B6C1246290CC0077F58B /* CQBlockReturnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQBlockReturnViewController.h; sourceTree = "<group>"; };
+		D944B6C2246290CC0077F58B /* CQBlockReturnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBlockReturnViewController.m; sourceTree = "<group>"; };
 		D948397B20E255FC00121FB6 /* IphoneListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneListCell.h; sourceTree = "<group>"; };
 		D948397C20E255FC00121FB6 /* IphoneListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneListCell.m; sourceTree = "<group>"; };
 		D94B650021537A0900F2FD84 /* CQPlaceholderDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQPlaceholderDemoViewController.h; sourceTree = "<group>"; };
@@ -2332,6 +2337,23 @@
 				D91453F9237A60090083FD19 /* 枚举 */,
 			);
 			path = Swift;
+			sourceTree = "<group>";
+		};
+		D944B6BB2462904F0077F58B /* Block里return方法 */ = {
+			isa = PBXGroup;
+			children = (
+				D944B6C1246290CC0077F58B /* CQBlockReturnViewController.h */,
+				D944B6C2246290CC0077F58B /* CQBlockReturnViewController.m */,
+			);
+			path = "Block里return方法";
+			sourceTree = "<group>";
+		};
+		D944B6BC246290620077F58B /* Closure里return方法 */ = {
+			isa = PBXGroup;
+			children = (
+				D944B6BF246290B10077F58B /* ClosureReturnViewController.swift */,
+			);
+			path = "Closure里return方法";
 			sourceTree = "<group>";
 		};
 		D948397620E2557F00121FB6 /* 菜单栏 */ = {
@@ -3910,6 +3932,8 @@
 				D9F2D46A210B17080088FB90 /* GCD */,
 				D9402A8A2101E5CB00BF792F /* 请求多个接口 */,
 				D9402A8B2101E5EC00BF792F /* 锁 */,
+				D944B6BB2462904F0077F58B /* Block里return方法 */,
+				D944B6BC246290620077F58B /* Closure里return方法 */,
 			);
 			path = "多线程";
 			sourceTree = "<group>";
@@ -4842,6 +4866,7 @@
 				D940169C2361F16F00580AAC /* ArrayPracticeViewController.swift in Sources */,
 				D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */,
 				D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */,
+				D944B6C0246290B10077F58B /* ClosureReturnViewController.swift in Sources */,
 				D926BDC722C487CB00A2DD3E /* CQAbstractFactoryViewController.m in Sources */,
 				D95885BE245282B400CD9FDD /* AVPlayerViewControllerVC.swift in Sources */,
 				D9C5E5EA2349CD4E00D101F1 /* LinkedListViewController.swift in Sources */,
@@ -5086,6 +5111,7 @@
 				D942531B2366D55C0031356C /* AnimationsViewController.swift in Sources */,
 				D9BF6915233F57CF00E602A4 /* GradientButton.swift in Sources */,
 				D9928EAB243429380082999F /* HeroViewController2.swift in Sources */,
+				D944B6C3246290CC0077F58B /* CQBlockReturnViewController.m in Sources */,
 				D95199F722BF287000E3036B /* CQMVVMRACViewController.m in Sources */,
 				D91E1D28233E50B000B1C772 /* CQGradientDemoViewController.m in Sources */,
 				D9CB1EC02341FBDD00CEB752 /* NSObject+Extension.swift in Sources */,

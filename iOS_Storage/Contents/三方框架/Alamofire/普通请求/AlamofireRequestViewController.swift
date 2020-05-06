@@ -76,6 +76,9 @@ class AlamofireRequestViewController: CQBaseViewController {
             make.top.equalTo(provinceLabel.snp.bottom).offset(40)
         }
         
+        let a = getTaobaoTimestamp()
+        print(a)
+        
     }
     
     @objc private func searchButtonClicked() {
@@ -136,5 +139,50 @@ class AlamofireRequestViewController: CQBaseViewController {
 fileprivate class InfoModel {
     
     var province: String = ""
+    
+}
+
+
+
+// MARK: - 获取淘宝timestamp（在closure里return一个方法）
+
+extension AlamofireRequestViewController {
+    
+    private func getTaobaoTimestamp() -> String {
+        
+        let urlString = "http://api.m.taobao.com/rest/api3.do?api=mtop.common.getTimestamp"
+        
+        var t = ""
+        
+        let semaphore = DispatchSemaphore(value: 0)
+        
+        AF.request(urlString, method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
+            
+            switch response.result {
+            case .success(let jsonData):
+                let json = jsonData
+                
+                // SwiftyJSON
+                let dict = JSON(json)
+                
+                t = dict["data"]["t"].stringValue
+                
+                print("请求成功")
+                
+                semaphore.signal()
+            case .failure(_):
+                print("请求失败")
+                
+                semaphore.signal()
+            }
+
+            debugPrint(response)
+            semaphore.wait()
+
+        }
+        
+        return t
+        
+    }
     
 }
