@@ -24,7 +24,7 @@ class ClosureReturnViewController: CQBaseViewController {
     
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        print(getTaobaoTimeStampAction())
+        print(getTaobaoTimeStamp())
     }
     
     private func returnInClosure() -> String {
@@ -47,8 +47,7 @@ class ClosureReturnViewController: CQBaseViewController {
     
     
     // 获取淘宝时间戳
-    // dead lock, need fix
-    func getTaobaoTimeStampAction() -> String {
+    func getTaobaoTimeStamp() -> String {
         
         let url = URL.init(string: "http://api.m.taobao.com/rest/api3.do?api=mtop.common.getTimestamp")!
         
@@ -56,21 +55,21 @@ class ClosureReturnViewController: CQBaseViewController {
         
         var t = ""
         
-        let queue = DispatchQueue.init(label: "myQueue")
+        let queue = DispatchQueue.global()
         
-        queue.async {
-            AF.request(url).responseJSON { (response) in
-                switch response.result {
-                case .success(let jsonData):
-                    let dict = JSON(jsonData)
-                    t = dict["data"]["t"].stringValue
-                    semaphore.signal()
-                case .failure(let info):
-                    SVProgressHUD.showError(withStatus: info.localizedDescription)
-                    semaphore.signal()
-                }
+        AF.request(url).response(queue: queue) { (response) in
+            switch response.result {
+            case .success(let jsonData):
+                print(Thread.current)
+                let dict = JSON(jsonData)
+                t = dict["data"]["t"].stringValue
+                semaphore.signal()
+            case .failure(let info):
+                SVProgressHUD.showError(withStatus: info.localizedDescription)
+                semaphore.signal()
             }
         }
+        
         
         semaphore.wait()
         
