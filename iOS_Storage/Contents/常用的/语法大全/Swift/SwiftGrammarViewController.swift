@@ -8,23 +8,23 @@
 
 import UIKit
 
-class SwiftGrammarViewController: CQBaseViewController {
+class SwiftGrammarViewController: JumpListViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.dataArray = [ItemModel(title: "getter与setter", targetVC: GetterSetterViewController()),
+        ItemModel(title: "String", targetVC: StringPracticeViewController()),
+        ItemModel(title: "Array", targetVC: ArrayPracticeViewController()),
+        ItemModel(title: "Dict", targetVC: DictPracticeViewController()),
+        ItemModel(title: "Number", targetVC: NumPracticeViewController()),
+        ItemModel(title: "Date", targetVC: DatePracticeViewController()),
+        ItemModel(title: "Data", targetVC: DataPracticeViewController()),
+        ItemModel(title: "流程控制", targetVC: ControlFlowViewConroller()),
+        ItemModel(title: "枚举", targetVC: EnumPracticeViewController())]
+        
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
