@@ -8,23 +8,25 @@
 
 import UIKit
 
-class ElegantSwiftViewController: CQBaseViewController {
+class ElegantSwiftViewController: JumpListViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.dataArray = [ItemModel(title: "优雅的通知", targetVC: ElegantNotifViewController())]
+        
+//        Notification.Name.ss
+//
+//        NSAttributedString.Key
+        
+        
+        
+        
+        
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
+
+
