@@ -103,6 +103,7 @@
 		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
 		D92BB28624690A3E008610DB /* ElegantNotifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92BB28524690A3E008610DB /* ElegantNotifViewController.swift */; };
 		D92BB28824694BFA008610DB /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92BB28724694BFA008610DB /* NotificationManager.swift */; };
+		D92BB28B24694FAE008610DB /* ElegantStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92BB28A24694FAE008610DB /* ElegantStructViewController.swift */; };
 		D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */; };
 		D92CBD6523F67901003A6EDC /* RedDotSegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CBD6423F67901003A6EDC /* RedDotSegmentViewController.swift */; };
 		D92CBD6923F693EE003A6EDC /* WebViewGifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CBD6823F693ED003A6EDC /* WebViewGifViewController.swift */; };
@@ -682,6 +683,7 @@
 		D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTabBarController.m; sourceTree = "<group>"; };
 		D92BB28524690A3E008610DB /* ElegantNotifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegantNotifViewController.swift; sourceTree = "<group>"; };
 		D92BB28724694BFA008610DB /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		D92BB28A24694FAE008610DB /* ElegantStructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegantStructViewController.swift; sourceTree = "<group>"; };
 		D92C8E9021788ABE005D7606 /* CQAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQAnimationViewController.h; sourceTree = "<group>"; };
 		D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQAnimationViewController.m; sourceTree = "<group>"; };
 		D92CBD6423F67901003A6EDC /* RedDotSegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedDotSegmentViewController.swift; sourceTree = "<group>"; };
@@ -1903,6 +1905,14 @@
 			path = "优雅的通知";
 			sourceTree = "<group>";
 		};
+		D92BB28924694F5B008610DB /* 优雅的结构体 */ = {
+			isa = PBXGroup;
+			children = (
+				D92BB28A24694FAE008610DB /* ElegantStructViewController.swift */,
+			);
+			path = "优雅的结构体";
+			sourceTree = "<group>";
+		};
 		D92C8E8E21788857005D7606 /* 显式动画与隐式动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2997,6 +3007,7 @@
 				D96F416223BEE093008616F4 /* 优雅的Swift.md */,
 				D96F416023BEE074008616F4 /* ElegantSwiftViewController.swift */,
 				D92BB284246908A7008610DB /* 优雅的通知 */,
+				D92BB28924694F5B008610DB /* 优雅的结构体 */,
 			);
 			path = "优雅的Swift";
 			sourceTree = "<group>";
@@ -5097,6 +5108,7 @@
 				D9C842642394F14500DC5BCD /* TextureLayoutDemoViewController.swift in Sources */,
 				D9C7021322EB5CF400DDC44F /* RxPerson.swift in Sources */,
 				D96FE2BF2396125A00949006 /* TextureLayoutDemoNaviNode.swift in Sources */,
+				D92BB28B24694FAE008610DB /* ElegantStructViewController.swift in Sources */,
 				D9146DE423920450002EA395 /* GestureScrollViewController.swift in Sources */,
 				D9CE605923518F3700D65107 /* UIImage+Extension.swift in Sources */,
 				D9FE875A23C5D3A1000E94CB /* DSActionSheet.swift in Sources */,
