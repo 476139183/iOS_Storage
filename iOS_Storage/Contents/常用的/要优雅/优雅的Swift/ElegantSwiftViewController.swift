@@ -15,15 +15,8 @@ class ElegantSwiftViewController: JumpListViewController {
 
         // Do any additional setup after loading the view.
         
-        self.dataArray = [ItemModel(title: "优雅的通知", targetVC: ElegantNotifViewController())]
-        
-//        Notification.Name.ss
-//
-//        NSAttributedString.Key
-        
-        
-        
-        
+        self.dataArray = [ItemModel(title: "优雅的通知", targetVC: ElegantNotifViewController()),
+                          ItemModel(title: "优雅的结构体", targetVC: ElegantStructViewController())]
         
     }
 
