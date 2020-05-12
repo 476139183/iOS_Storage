@@ -72,6 +72,7 @@ class ArrayPracticeViewController: CQBaseViewController {
     }
     
     // MARK: - FlatMap（空值过滤，强制降维）
+    // flatMap 对集合类型的数据进行循环，并对每个元素采取相同操作，然后返回一个一维集合
     
     private func testFlatMap1() {
         // 空值过滤
@@ -83,6 +84,19 @@ class ArrayPracticeViewController: CQBaseViewController {
         let arr2 = [[1, 2, 3], [8]]
         let flatArray = arr2.flatMap{ $0 }
         print(flatArray) // 打印 [1, 2, 3, 8]
+    }
+    
+    // MARK: - compactMap（）
+    // compactMap 对集合类型的数据进行循环，并对每个元素采取相同操作，然后返回一个同维集合
+    
+    private func testCompactMap() {
+        let numArray = [[1, 2, 3], [4, 5, 6]]
+        let newArray = numArray.compactMap { (array) -> [Int] in
+            array.map { (num) -> Int in
+                num + 1
+            }
+        }
+        print(newArray) // 打印：[[2, 3, 4], [5, 6, 7]]
     }
     
     // MARK: - reduce（累加）
@@ -111,7 +125,8 @@ class ArrayPracticeViewController: CQBaseViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         //testFilter()
         //items.append(1)
-        items.remove(at: 0)
+        //items.remove(at: 0)
+        testCompactMap()
     }
     
 }
