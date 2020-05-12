@@ -12,6 +12,12 @@ class PushTranslucenceViewController: CQBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let label = UILabel()
+        label.text = "点击弹出"
+        label.frame = view.bounds
+        label.textAlignment = .center
+        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

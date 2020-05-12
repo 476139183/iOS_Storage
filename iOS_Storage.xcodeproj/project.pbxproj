@@ -527,6 +527,7 @@
 		D9ED81E224580A4600726E49 /* JumpListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ED81E124580A4600726E49 /* JumpListViewController.swift */; };
 		D9ED907A2454310800FFABB5 /* ZFPlayerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ED90792454310800FFABB5 /* ZFPlayerDemoViewController.swift */; };
 		D9EF0EA72110396300755E11 /* class_cluster_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9EF0EA62110394E00755E11 /* class_cluster_data.json */; };
+		D9F12E432467E84800B3D597 /* FloatingLayerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F12E422467E84800B3D597 /* FloatingLayerDemoViewController.swift */; };
 		D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */ = {isa = PBXBuildFile; fileRef = D9F29C9022B6257F002E10E4 /* 组件化.md */; };
 		D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F2D46D210B178F0088FB90 /* CQGCDController.m */; };
 		D9F5230A2362DCB000ABBEF7 /* CornerAndShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F523092362DCB000ABBEF7 /* CornerAndShadowViewController.swift */; };
@@ -1247,6 +1248,7 @@
 		D9ED81E124580A4600726E49 /* JumpListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpListViewController.swift; sourceTree = "<group>"; };
 		D9ED90792454310800FFABB5 /* ZFPlayerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFPlayerDemoViewController.swift; sourceTree = "<group>"; };
 		D9EF0EA62110394E00755E11 /* class_cluster_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = class_cluster_data.json; sourceTree = "<group>"; };
+		D9F12E422467E84800B3D597 /* FloatingLayerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingLayerDemoViewController.swift; sourceTree = "<group>"; };
 		D9F29C9022B6257F002E10E4 /* 组件化.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "组件化.md"; sourceTree = "<group>"; };
 		D9F2D46C210B178F0088FB90 /* CQGCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGCDController.h; sourceTree = "<group>"; };
 		D9F2D46D210B178F0088FB90 /* CQGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGCDController.m; sourceTree = "<group>"; };
@@ -2104,8 +2106,6 @@
 				D90D9FAC233217A10007C25C /* 计算帧率 */,
 				D90D9FB5233306780007C25C /* cache */,
 				D937689223585D2400515315 /* MapDemo */,
-				D954D5BA24454AB200F02DCF /* 浮层 Controller */,
-				D954D5BF24456A9900F02DCF /* 弹出半透明controller */,
 				D95885BA24519D9C00CD9FDD /* 视频播放器 */,
 			);
 			path = Demo;
@@ -2191,6 +2191,7 @@
 				D9F72DD9243D836A007BBB05 /* 图片压缩 */,
 				D9F72DDF244053C0007BBB05 /* 正则表达式 */,
 				D9E86CBB2447EC06009CCBB8 /* 各种手势 */,
+				D9F12E412467E7D500B3D597 /* 浮层 */,
 			);
 			path = "常用的";
 			sourceTree = "<group>";
@@ -4387,6 +4388,16 @@
 			path = "要优雅";
 			sourceTree = "<group>";
 		};
+		D9F12E412467E7D500B3D597 /* 浮层 */ = {
+			isa = PBXGroup;
+			children = (
+				D9F12E422467E84800B3D597 /* FloatingLayerDemoViewController.swift */,
+				D954D5BA24454AB200F02DCF /* 浮层 Controller */,
+				D954D5BF24456A9900F02DCF /* 弹出半透明controller */,
+			);
+			path = "浮层";
+			sourceTree = "<group>";
+		};
 		D9F2D46A210B17080088FB90 /* GCD */ = {
 			isa = PBXGroup;
 			children = (
@@ -5103,6 +5114,7 @@
 				D942531E2366D5CA0031356C /* TableViewAnimationViewController.swift in Sources */,
 				D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */,
 				D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */,
+				D9F12E432467E84800B3D597 /* FloatingLayerDemoViewController.swift in Sources */,
 				D9E30C3C236D62560042BC74 /* GifViewController.swift in Sources */,
 				D9C7CC0922E998520038FD34 /* CQStandardTableHeaderView.m in Sources */,
 				D9C842642394F14500DC5BCD /* TextureLayoutDemoViewController.swift in Sources */,
