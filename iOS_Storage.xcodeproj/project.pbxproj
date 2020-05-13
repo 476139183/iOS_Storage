@@ -327,6 +327,9 @@
 		D994A6DA23A5E4C10032E540 /* ControlFlowViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994A6D923A5E4C10032E540 /* ControlFlowViewConroller.swift */; };
 		D994A6DC23A5E4E20032E540 /* ControlFlow.md in Resources */ = {isa = PBXBuildFile; fileRef = D994A6DB23A5E4E20032E540 /* ControlFlow.md */; };
 		D994A6E023A65E050032E540 /* IconFontButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994A6DF23A65E050032E540 /* IconFontButton.swift */; };
+		D99B98EF246BA132001E6369 /* MyStackNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B98EE246BA132001E6369 /* MyStackNode.swift */; };
+		D99B98F1246BEAE7001E6369 /* VoteCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B98F0246BEAE7001E6369 /* VoteCellNode.swift */; };
+		D99B98F3246BF231001E6369 /* BaseNaviNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B98F2246BF231001E6369 /* BaseNaviNode.swift */; };
 		D99BD9C02398AEC40072A784 /* CQBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99BD9BF2398AEC40072A784 /* CQBaseNavigationController.m */; };
 		D99BD9C32398F6600072A784 /* CQMemoryLeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99BD9C22398F6600072A784 /* CQMemoryLeakViewController.m */; };
 		D9A0091423725A8B00ECF98F /* JXCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A0091323725A8B00ECF98F /* JXCustomViewController.swift */; };
@@ -968,6 +971,9 @@
 		D994A6D923A5E4C10032E540 /* ControlFlowViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowViewConroller.swift; sourceTree = "<group>"; };
 		D994A6DB23A5E4E20032E540 /* ControlFlow.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ControlFlow.md; sourceTree = "<group>"; };
 		D994A6DF23A65E050032E540 /* IconFontButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFontButton.swift; sourceTree = "<group>"; };
+		D99B98EE246BA132001E6369 /* MyStackNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStackNode.swift; sourceTree = "<group>"; };
+		D99B98F0246BEAE7001E6369 /* VoteCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteCellNode.swift; sourceTree = "<group>"; };
+		D99B98F2246BF231001E6369 /* BaseNaviNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNaviNode.swift; sourceTree = "<group>"; };
 		D99BD9BE2398AEC40072A784 /* CQBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQBaseNavigationController.h; sourceTree = "<group>"; };
 		D99BD9BF2398AEC40072A784 /* CQBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBaseNavigationController.m; sourceTree = "<group>"; };
 		D99BD9C12398F6600072A784 /* CQMemoryLeakViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMemoryLeakViewController.h; sourceTree = "<group>"; };
@@ -1478,6 +1484,7 @@
 			isa = PBXGroup;
 			children = (
 				D9170394245049EB00A588AD /* TextureTableDemo2Controller.swift */,
+				D99B98EE246BA132001E6369 /* MyStackNode.swift */,
 			);
 			path = TextureTableDemo2;
 			sourceTree = "<group>";
@@ -3273,6 +3280,7 @@
 				D9C5B449233DA0ED00299AFB /* MyCellNode6.swift */,
 				D9C5B44B233DAE3500299AFB /* MyCellNode7.swift */,
 				D9C5B44D233DBE9700299AFB /* CommunityMessagePKCell.swift */,
+				D99B98F0246BEAE7001E6369 /* VoteCellNode.swift */,
 				D93A0BF2233C700E00554EF6 /* ASTableDemoController.swift */,
 			);
 			path = ASTableNode;
@@ -3574,6 +3582,7 @@
 			isa = PBXGroup;
 			children = (
 				D9B2FDF4233877BE00755653 /* texture.md */,
+				D99B98F2246BF231001E6369 /* BaseNaviNode.swift */,
 				D9012A0B23927236008D5EF5 /* TextureDemoViewController.swift */,
 				D95C78CB236D3D46005F06BE /* ASViewController */,
 				D98F1B2A236D783900F31F03 /* ASTableNode */,
@@ -5186,6 +5195,7 @@
 				D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */,
 				D9C7CC2722E9BC9B0038FD34 /* StandardSwiftSectionFooterView.swift in Sources */,
 				D9536EF5244AB55700FD3964 /* TTTLabelViewController3.swift in Sources */,
+				D99B98EF246BA132001E6369 /* MyStackNode.swift in Sources */,
 				D9C5E5E62349AB1A00D101F1 /* CQEasyButton.m in Sources */,
 				D9237DCC23FEC8200021F876 /* ChangeViewStateViewController.swift in Sources */,
 				D926BDBB22C33FDF00A2DD3E /* CQBuilderViewController.m in Sources */,
@@ -5211,6 +5221,7 @@
 				D9E86CC92447EF31009CCBB8 /* RotationGestureViewController.swift in Sources */,
 				D92CBD6923F693EE003A6EDC /* WebViewGifViewController.swift in Sources */,
 				D9C5E5D22345879000D101F1 /* LeetCodeViewController.swift in Sources */,
+				D99B98F1246BEAE7001E6369 /* VoteCellNode.swift in Sources */,
 				D91E1D22233E4E9800B1C772 /* GradientView.swift in Sources */,
 				D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */,
 				D96778BC23A13CEF00D19554 /* PullDownLargeViewController.swift in Sources */,
@@ -5227,6 +5238,7 @@
 				D9ED907A2454310800FFABB5 /* ZFPlayerDemoViewController.swift in Sources */,
 				D9F5230A2362DCB000ABBEF7 /* CornerAndShadowViewController.swift in Sources */,
 				D9928EA924334C4D0082999F /* HeroViewController.swift in Sources */,
+				D99B98F3246BF231001E6369 /* BaseNaviNode.swift in Sources */,
 				D9DA0E8520E251C4006CEA1C /* IphoneMenuItemModel.m in Sources */,
 				D920CE8F22B37F47000962C0 /* CQPrivacyManager.m in Sources */,
 				D9C7CC2322E9B2A80038FD34 /* StandardSwiftTableFooterView.swift in Sources */,

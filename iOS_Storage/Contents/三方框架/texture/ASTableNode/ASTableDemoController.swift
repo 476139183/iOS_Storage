@@ -10,6 +10,13 @@ import UIKit
 
 class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, ASTableDelegate {
     
+    /// 导航栏
+    private lazy var naviNode: BaseNaviNode = {
+        let node = BaseNaviNode()
+        node.backgroundColor = .orange
+        return node
+    }()
+    
     /// 表头
     private lazy var tableHeaderView: UIView = {
         let headerView = UIView()
@@ -55,12 +62,14 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
         super.init(node: ASTableNode.init(style: .grouped))
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    deinit {
+        self.node.delegate = nil
+        self.node.dataSource = nil
+        print("释放")
     }
     
-    deinit {
-        print("释放")
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
     override func viewDidLoad() {
@@ -69,6 +78,10 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
         // Do any additional setup after loading the view.
         
         self.title = "tableView"
+        
+        self.view.backgroundColor = .white
+        
+        node.addSubnode(naviNode)
         
         self.node.dataSource = self
         self.node.delegate = self
@@ -83,12 +96,21 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
         footerView.backgroundColor = .green
         self.node.view.tableFooterView = footerView
         
-        
     }
     
-//    override func viewWillLayoutSubviews() {
-//        self.node.frame = CGRect.init(x: 20, y: 120, width: 300, height: 400)
-//    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("viewWillAppear")
+        if let indexPath = self.node.indexPathForSelectedRow {
+            self.node.deselectRow(at: indexPath, animated: true)
+        }
+    }
+    
+    override func viewWillLayoutSubviews() {
+        print("viewWillLayoutSubviews")
+        self.naviNode.frame = .init(x: 0, y: 0, width: screenWidth, height: kNavigationBarHeight)
+        self.node.frame = CGRect.init(x: 0, y: kNavigationBarHeight, width: screenWidth, height: screenHeight-kNavigationBarHeight)
+    }
     
     
     // MARK: - UITableView DataSource & Delegate
@@ -117,29 +139,31 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
     
     func tableNode(_ tableNode: ASTableNode, nodeForRowAt indexPath: IndexPath) -> ASCellNode {
         
-        let a = indexPath.section % 8
+        return MyCellNode.init(title: String(indexPath.section / 8), desc: "详情")
         
-        switch a {
-        case 0:
-            return MyCellNode.init(title: String(indexPath.section / 8), desc: "详情")
-        case 1:
-            return MyCellNode2()
-        case 2:
-            return MyCellNode3()
-        case 3:
-            return MyCellNode4()
-        case 4:
-            return MyCellNode5()
-        case 5:
-            return MyCellNode6()
-        case 6:
-            return MyCellNode7()
-        case 7:
-            let cell = CommunityMessagePKCell(countdown: 600, truePoints: 10, falsePoints: 50, myPoints: 666)
-            return cell
-        default:
-            return ASCellNode()
-        }
+//        let a = indexPath.section % 8
+//
+//        switch a {
+//        case 0:
+//            return MyCellNode.init(title: String(indexPath.section / 8), desc: "详情")
+//        case 1:
+//            return MyCellNode2()
+//        case 2:
+//            return MyCellNode3()
+//        case 3:
+//            return MyCellNode4()
+//        case 4:
+//            return MyCellNode5()
+//        case 5:
+//            return MyCellNode6()
+//        case 6:
+//            return MyCellNode7()
+//        case 7:
+//            let cell = CommunityMessagePKCell(countdown: 600, truePoints: 10, falsePoints: 50, myPoints: 666)
+//            return cell
+//        default:
+//            return ASCellNode()
+//        }
         
     }
     
