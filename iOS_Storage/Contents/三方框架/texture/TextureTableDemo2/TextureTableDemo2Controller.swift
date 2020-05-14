@@ -69,3 +69,20 @@ class TextureTableDemo2Controller: ASViewController<ASDisplayNode>, ASTableDataS
     }
 
 }
+
+class VoteModel {
+    
+    var title: String = ""
+    var count: Int = 0
+    // 用户是否投了这个
+    var isVoted = false
+    // 是否展示百分比，用户只要投了其中一票就展示
+    var isShowRatio = false
+    
+    init(title: String, count: Int, isVoted: Bool) {
+        self.title = title
+        self.count = count
+        self.isVoted = isVoted
+    }
+    
+}

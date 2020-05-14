@@ -88,7 +88,7 @@ fileprivate class VoteNode: ASDisplayNode {
         let layout = ASAbsoluteLayoutSpec.init()
         layout.child = contentNode
         let height: CGFloat = CGFloat(items.count * 50)
-        // 这里决定size
+        // 这里决定size，整个node的size
         layout.style.preferredSize = .init(width: screenWidth, height: height)
         return layout
     }
