@@ -423,6 +423,8 @@
 		D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352B23853059008C0D59 /* RefreshViewController.swift */; };
 		D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */; };
 		D9C2AA9F236928F900EBB9E1 /* UIViewAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2AA9E236928F900EBB9E1 /* UIViewAnimationViewController.swift */; };
+		D9C3D0E7246DA1E300D3DF7B /* AnimationHudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C3D0E6246DA1E300D3DF7B /* AnimationHudViewController.swift */; };
+		D9C3D0E9246DA27200D3DF7B /* AnimationHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C3D0E8246DA27200D3DF7B /* AnimationHud.swift */; };
 		D9C5B448233D967500299AFB /* MyCellNode5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B447233D967500299AFB /* MyCellNode5.swift */; };
 		D9C5B44A233DA0ED00299AFB /* MyCellNode6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B449233DA0ED00299AFB /* MyCellNode6.swift */; };
 		D9C5B44C233DAE3500299AFB /* MyCellNode7.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B44B233DAE3500299AFB /* MyCellNode7.swift */; };
@@ -1100,6 +1102,8 @@
 		D9C2352B23853059008C0D59 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
 		D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRefreshHeader.swift; sourceTree = "<group>"; };
 		D9C2AA9E236928F900EBB9E1 /* UIViewAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAnimationViewController.swift; sourceTree = "<group>"; };
+		D9C3D0E6246DA1E300D3DF7B /* AnimationHudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHudViewController.swift; sourceTree = "<group>"; };
+		D9C3D0E8246DA27200D3DF7B /* AnimationHud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHud.swift; sourceTree = "<group>"; };
 		D9C5B447233D967500299AFB /* MyCellNode5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode5.swift; sourceTree = "<group>"; };
 		D9C5B449233DA0ED00299AFB /* MyCellNode6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode6.swift; sourceTree = "<group>"; };
 		D9C5B44B233DAE3500299AFB /* MyCellNode7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode7.swift; sourceTree = "<group>"; };
@@ -2045,6 +2049,7 @@
 				D941B861235EF8E600AEB48E /* 定位 */,
 				D9C2352A23853001008C0D59 /* 基于MJRefresh的下拉刷新 */,
 				D9237DCA23FEC7B30021F876 /* 控制view的状态 */,
+				D9C3D0E5246DA11200D3DF7B /* 动画hud */,
 			);
 			path = "自己的框架";
 			sourceTree = "<group>";
@@ -3770,6 +3775,15 @@
 			path = "UIView动画";
 			sourceTree = "<group>";
 		};
+		D9C3D0E5246DA11200D3DF7B /* 动画hud */ = {
+			isa = PBXGroup;
+			children = (
+				D9C3D0E6246DA1E300D3DF7B /* AnimationHudViewController.swift */,
+				D9C3D0E8246DA27200D3DF7B /* AnimationHud.swift */,
+			);
+			path = "动画hud";
+			sourceTree = "<group>";
+		};
 		D9C5B451233DE83000299AFB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -5241,6 +5255,7 @@
 				D9C7CBFF22E991CE0038FD34 /* CQStandardOCCollectionViewViewController.m in Sources */,
 				D93EFF402359B7C00028A730 /* ParkAnnotation.swift in Sources */,
 				D93A0BF5233C72F900554EF6 /* TextureColorView.swift in Sources */,
+				D9C3D0E9246DA27200D3DF7B /* AnimationHud.swift in Sources */,
 				D96FE2C2239642AE00949006 /* ASWrapperLayoutController.swift in Sources */,
 				D9E21A8E210FF92500407599 /* CQClassClusterCellC.m in Sources */,
 				D982964B23976A42001C05AE /* NavigationJumpViewController.swift in Sources */,
@@ -5390,6 +5405,7 @@
 				D9DA0E7D20E24F77006CEA1C /* IphoneListView.m in Sources */,
 				D941A128245EE1C900844787 /* UIButtonDemosViewController.swift in Sources */,
 				D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */,
+				D9C3D0E7246DA1E300D3DF7B /* AnimationHudViewController.swift in Sources */,
 				D92CBD7023F78B8E003A6EDC /* FontTestViewController.swift in Sources */,
 				D9ED81E224580A4600726E49 /* JumpListViewController.swift in Sources */,
 				D9DE775623AA2BE000E902A5 /* CQStandardOCCollectionFooterView.m in Sources */,
