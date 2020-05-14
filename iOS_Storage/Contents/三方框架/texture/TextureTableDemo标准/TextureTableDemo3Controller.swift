@@ -1,28 +1,28 @@
 //
-//  TextureTableDemo2Controller.swift
+//  TextureTableDemo3Controller.swift
 //  iOS_Storage
 //
-//  Created by caiqiang on 2020/4/22.
+//  Created by caiqiang on 2020/5/14.
 //  Copyright © 2020 蔡强. All rights reserved.
 //
 
 import UIKit
 
-class TextureTableDemo2Controller: ASViewController<ASDisplayNode>, ASTableDataSource, ASTableDelegate {
+class TextureTableDemo3Controller: ASViewController<ASDisplayNode>, ASTableDataSource, ASTableDelegate {
     
     private lazy var naviView: CQBaseNaviBar = {
         let view = CQBaseNaviBar()
-        view.titleLabel.text = "table node 2"
         view.detailButton.isHidden = true
+        view.titleLabel.text = "ASTable demo 3"
         view.backButton.addTarget(self, action: #selector(backButtonClicked), for: .touchUpInside)
         return view
     }()
     
     private lazy var tableNode: ASTableNode = {
-        let table = ASTableNode.init(style: .grouped)
-        table.dataSource = self
-        table.delegate = self
-        return table
+        let node = ASTableNode()
+        node.dataSource = self
+        node.delegate = self
+        return node
     }()
     
     init() {
@@ -38,8 +38,6 @@ class TextureTableDemo2Controller: ASViewController<ASDisplayNode>, ASTableDataS
 
         // Do any additional setup after loading the view.
         
-        node.backgroundColor = .white
-        
         view.addSubview(naviView)
         naviView.snp.makeConstraints { (make) in
             make.left.right.top.equalToSuperview()
@@ -49,23 +47,24 @@ class TextureTableDemo2Controller: ASViewController<ASDisplayNode>, ASTableDataS
         node.addSubnode(tableNode)
         tableNode.view.snp.makeConstraints { (make) in
             make.left.right.bottom.equalToSuperview()
-            make.top.equalTo(kNavigationBarHeight)
+            make.top.equalTo(naviView.snp.bottom)
         }
+        
     }
     
     @objc private func backButtonClicked() {
         navigationController?.popViewController(animated: true)
     }
     
+    
     // MARK: - ASTableNode
     
     func tableNode(_ tableNode: ASTableNode, numberOfRowsInSection section: Int) -> Int {
-        return 15
+        10
     }
     
     func tableNode(_ tableNode: ASTableNode, nodeForRowAt indexPath: IndexPath) -> ASCellNode {
-        let cell = MyStackNode()
-        return cell
+        return MyCellNode()
     }
-
+    
 }

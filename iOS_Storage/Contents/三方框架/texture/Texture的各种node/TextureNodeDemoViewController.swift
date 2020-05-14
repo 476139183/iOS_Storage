@@ -8,7 +8,21 @@
 
 import UIKit
 
-class TextureNodeDemoViewController: ASViewController<ASDisplayNode> {
+class TextureNodeDemoViewController: ASViewController<ASDisplayNode>, NaviBarProtocol {
+    
+    
+    @objc func goBack() {
+        navigationController?.popViewController(animated: true)
+    }
+    
+    
+    private lazy var naviView: CQBaseNaviBar = {
+        let view = CQBaseNaviBar()
+        view.titleLabel.text = "各种node"
+        view.detailButton.isHidden = true
+        view.backButton.addTarget(self, action: #selector(goBack), for: .touchUpInside)
+        return view
+    }()
     
     /// 最基础的node
     private lazy var displayNode: ASDisplayNode = {
@@ -60,6 +74,14 @@ class TextureNodeDemoViewController: ASViewController<ASDisplayNode> {
 
         // Do any additional setup after loading the view.
         
+        node.backgroundColor = .white
+        
+        view.addSubview(naviView)
+        naviView.snp.makeConstraints { (make) in
+            make.left.right.top.equalToSuperview()
+            make.height.equalTo(kNavigationBarHeight)
+        }
+        
         node.addSubnode(displayNode)
         displayNode.frame = CGRect(x: 20, y: 90, width: 30, height: 30)
         
@@ -75,6 +97,10 @@ class TextureNodeDemoViewController: ASViewController<ASDisplayNode> {
     
     
     // MARK: - action
+    
+    @objc private func backButtonClicked() {
+        navigationController?.popViewController(animated: true)
+    }
     
     @objc private func buttonClicked() {
         button.isSelected = !button.isSelected

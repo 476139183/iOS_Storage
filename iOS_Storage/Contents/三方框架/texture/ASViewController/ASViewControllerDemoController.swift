@@ -68,6 +68,16 @@ class ASViewControllerDemoController: ASViewController<ASDisplayNode> {
     
     func setupUI() {
         
+        let naviView = CQBaseNaviBar()
+        view.addSubview(naviView)
+        naviView.titleLabel.text = "ASViewController"
+        naviView.detailButton.isHidden = true
+        naviView.backButton.addTarget(self, action: #selector(backButtonClicked), for: .touchUpInside)
+        naviView.snp.makeConstraints { (make) in
+            make.left.right.top.equalToSuperview()
+            make.height.equalTo(kNavigationBarHeight)
+        }
+        
         self.node.addSubnode(blueButton)
         blueButton.frame = .init(x: 0, y: 90, width: 90, height: 40)
         
@@ -94,6 +104,10 @@ class ASViewControllerDemoController: ASViewController<ASDisplayNode> {
     }
     
     // MARK: - Action
+    
+    @objc private func backButtonClicked() {
+        navigationController?.popViewController(animated: true)
+    }
     
     @objc private func blueButtonClicked() {
         print("blue blue")

@@ -8,13 +8,30 @@
 
 import UIKit
 
-class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, ASTableDelegate {
+class ASTableDemoController: ASViewController<ASDisplayNode>, ASTableDataSource, ASTableDelegate {
     
     /// 导航栏
-    private lazy var naviNode: BaseNaviNode = {
-        let node = BaseNaviNode()
-        node.backgroundColor = .orange
-        return node
+    private lazy var naviView: CQBaseNaviBar = {
+        let view = CQBaseNaviBar()
+        view.titleLabel.text = "table node"
+        view.detailButton.isHidden = true
+        view.backButton.addTarget(self, action: #selector(backButtonClicked), for: .touchUpInside)
+        return view
+    }()
+    
+    /// table
+    private lazy var tableNode: ASTableNode = {
+        let table = ASTableNode.init(style: .grouped)
+        table.dataSource = self
+        table.delegate = self
+//        table.view.estimatedRowHeight = 50
+//        table.view.estimatedSectionHeaderHeight = 40
+//        table.view.estimatedSectionFooterHeight = 40
+        table.view.tableHeaderView = tableHeaderView
+        let footerView = UIView(frame: CGRect(x: 0, y: 0, width: kScreenWidth, height: 100))
+        footerView.backgroundColor = .green
+        table.view.tableFooterView = footerView
+        return table
     }()
     
     /// 表头
@@ -59,12 +76,12 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
     // MARK: - Life Cycle
     
     init() {
-        super.init(node: ASTableNode.init(style: .grouped))
+        super.init(node: ASDisplayNode())
     }
     
     deinit {
-        self.node.delegate = nil
-        self.node.dataSource = nil
+        self.tableNode.delegate = nil
+        self.tableNode.dataSource = nil
         print("释放")
     }
     
@@ -81,35 +98,38 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
         
         self.view.backgroundColor = .white
         
-        node.addSubnode(naviNode)
+        view.addSubview(naviView)
+        naviView.snp.makeConstraints { (make) in
+            make.left.right.top.equalToSuperview()
+            make.height.equalTo(kNavigationBarHeight)
+        }
         
-        self.node.dataSource = self
-        self.node.delegate = self
-        
-        self.node.view.estimatedRowHeight = 50
-        self.node.view.estimatedSectionHeaderHeight = 40
-        self.node.view.estimatedSectionFooterHeight = 40
-        
-        self.node.view.tableHeaderView = tableHeaderView
-        
-        let footerView = UIView(frame: CGRect(x: 0, y: 0, width: kScreenWidth, height: 100))
-        footerView.backgroundColor = .green
-        self.node.view.tableFooterView = footerView
+        node.addSubnode(tableNode)
+        tableNode.view.snp.makeConstraints { (make) in
+            make.left.right.bottom.equalToSuperview()
+            make.top.equalTo(naviView.snp.bottom)
+        }
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print("viewWillAppear")
-        if let indexPath = self.node.indexPathForSelectedRow {
-            self.node.deselectRow(at: indexPath, animated: true)
+        if let indexPath = tableNode.indexPathForSelectedRow {
+            tableNode.deselectRow(at: indexPath, animated: true)
         }
     }
     
-    override func viewWillLayoutSubviews() {
-        print("viewWillLayoutSubviews")
-        self.naviNode.frame = .init(x: 0, y: 0, width: screenWidth, height: kNavigationBarHeight)
-        self.node.frame = CGRect.init(x: 0, y: kNavigationBarHeight, width: screenWidth, height: screenHeight-kNavigationBarHeight)
+//    override func viewWillLayoutSubviews() {
+//        print("viewWillLayoutSubviews")
+//        self.naviNode.frame = .init(x: 0, y: 0, width: screenWidth, height: kNavigationBarHeight)
+//        self.node.frame = CGRect.init(x: 0, y: kNavigationBarHeight, width: screenWidth, height: screenHeight-kNavigationBarHeight)
+//    }
+    
+    // MARK: - Action
+    
+    @objc private func backButtonClicked() {
+        navigationController?.popViewController(animated: true)
     }
     
     
@@ -135,11 +155,12 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
         return footer
     }
     
-    // MARK: - ASTableDataSource
+    // MARK: - ASTableNode
     
     func tableNode(_ tableNode: ASTableNode, nodeForRowAt indexPath: IndexPath) -> ASCellNode {
         
-        return MyCellNode.init(title: String(indexPath.section / 8), desc: "详情")
+        //return MyCellNode.init(title: String(indexPath.section / 8), desc: "详情")
+        return VoteCellNode.init(bgColor: .green)
         
 //        let a = indexPath.section % 8
 //
@@ -175,6 +196,14 @@ class ASTableDemoController: ASViewController<ASTableNode>, ASTableDataSource, A
         return 1
     }
     
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        50
+    }
+    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        50
+    }
+    
 }
 
 
@@ -201,10 +230,7 @@ fileprivate class HeaderView: UITableViewHeaderFooterView {
         
         contentView.addSubview(titleLabel)
         titleLabel.snp.makeConstraints { (make) in
-            make.top.equalTo(10)
-            make.left.equalTo(10)
-            make.right.equalToSuperview().offset(-10)
-            make.bottom.equalToSuperview().offset(-10)
+            make.center.equalToSuperview()
         }
     }
     
@@ -235,10 +261,7 @@ fileprivate class FooterView: UITableViewHeaderFooterView {
         
         contentView.addSubview(titleLabel)
         titleLabel.snp.makeConstraints { (make) in
-            make.top.equalTo(10)
-            make.left.equalTo(10)
-            make.right.equalToSuperview().offset(-20)
-            make.bottom.equalToSuperview().offset(-20)
+            make.center.equalToSuperview()
         }
     }
     

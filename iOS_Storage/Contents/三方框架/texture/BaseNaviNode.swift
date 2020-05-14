@@ -38,6 +38,14 @@ class BaseNaviNode: ASDisplayNode {
     override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
         let layout = ASAbsoluteLayoutSpec.init(children: [backNode, titleNode])
         
+        titleNode.style.layoutPosition = .init(x: 80, y: statusBarHeight)
+        titleNode.style.preferredSize = .init(width: screenWidth-160, height: naviBarHeight)
+        
+        backNode.style.layoutPosition = .init(x: 20, y: statusBarHeight+(naviBarHeight-18)/2)
+        backNode.style.preferredSize = .init(width: 10, height: 18)
+        
+        layout.style.preferredSize = .init(width: screenWidth, height: kNavigationBarHeight)
+        
         return layout
     }
     

@@ -265,7 +265,6 @@
 		D96F416923BF3961008616F4 /* Array.md in Resources */ = {isa = PBXBuildFile; fileRef = D96F416823BF3961008616F4 /* Array.md */; };
 		D96FE2BB239603DE00949006 /* ASViewController.md in Resources */ = {isa = PBXBuildFile; fileRef = D96FE2BA239603DE00949006 /* ASViewController.md */; };
 		D96FE2BD23960E0500949006 /* ASDisplayNode.md in Resources */ = {isa = PBXBuildFile; fileRef = D96FE2BC23960E0500949006 /* ASDisplayNode.md */; };
-		D96FE2BF2396125A00949006 /* TextureLayoutDemoNaviNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2BE2396125A00949006 /* TextureLayoutDemoNaviNode.swift */; };
 		D96FE2C2239642AE00949006 /* ASWrapperLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2C1239642AE00949006 /* ASWrapperLayoutController.swift */; };
 		D96FE2C4239642DF00949006 /* ASStackLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2C3239642DF00949006 /* ASStackLayoutController.swift */; };
 		D96FE2C62396437800949006 /* ASInsetLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FE2C52396437800949006 /* ASInsetLayoutController.swift */; };
@@ -330,6 +329,10 @@
 		D99B98EF246BA132001E6369 /* MyStackNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B98EE246BA132001E6369 /* MyStackNode.swift */; };
 		D99B98F1246BEAE7001E6369 /* VoteCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B98F0246BEAE7001E6369 /* VoteCellNode.swift */; };
 		D99B98F3246BF231001E6369 /* BaseNaviNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B98F2246BF231001E6369 /* BaseNaviNode.swift */; };
+		D99B98F6246CEE82001E6369 /* TextureTableDemo3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B98F5246CEE82001E6369 /* TextureTableDemo3Controller.swift */; };
+		D99B98F8246CF0BB001E6369 /* NaviBarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B98F7246CF0BB001E6369 /* NaviBarProtocol.swift */; };
+		D99B98FA246CF19F001E6369 /* BaseNaviBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B98F9246CF19F001E6369 /* BaseNaviBar.swift */; };
+		D99B98FE246CF8BA001E6369 /* OCTextureTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99B98FD246CF8BA001E6369 /* OCTextureTableController.m */; };
 		D99BD9C02398AEC40072A784 /* CQBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99BD9BF2398AEC40072A784 /* CQBaseNavigationController.m */; };
 		D99BD9C32398F6600072A784 /* CQMemoryLeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99BD9C22398F6600072A784 /* CQMemoryLeakViewController.m */; };
 		D9A0091423725A8B00ECF98F /* JXCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A0091323725A8B00ECF98F /* JXCustomViewController.swift */; };
@@ -367,6 +370,7 @@
 		D9AEB68622F6A96B006F8995 /* CQMVVMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AEB68522F6A96B006F8995 /* CQMVVMModel.m */; };
 		D9AEB68922F6AA56006F8995 /* CQMVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AEB68822F6AA56006F8995 /* CQMVVMViewModel.m */; };
 		D9AEB68C22F6AB24006F8995 /* CQMVVMCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AEB68B22F6AB24006F8995 /* CQMVVMCellModel.m */; };
+		D9B157D1246D2C9C00854606 /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B157D0246D2C9C00854606 /* NSAttributedString+Extension.swift */; };
 		D9B2FDE9233314BA00755653 /* CQCacheDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B2FDE8233314BA00755653 /* CQCacheDemoViewController.m */; };
 		D9B2FDED233314EA00755653 /* cache.md in Resources */ = {isa = PBXBuildFile; fileRef = D9B2FDEC233314EA00755653 /* cache.md */; };
 		D9B2FDF5233877BE00755653 /* texture.md in Resources */ = {isa = PBXBuildFile; fileRef = D9B2FDF4233877BE00755653 /* texture.md */; };
@@ -905,7 +909,6 @@
 		D96F416823BF3961008616F4 /* Array.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Array.md; sourceTree = "<group>"; };
 		D96FE2BA239603DE00949006 /* ASViewController.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ASViewController.md; sourceTree = "<group>"; };
 		D96FE2BC23960E0500949006 /* ASDisplayNode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ASDisplayNode.md; sourceTree = "<group>"; };
-		D96FE2BE2396125A00949006 /* TextureLayoutDemoNaviNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureLayoutDemoNaviNode.swift; sourceTree = "<group>"; };
 		D96FE2C1239642AE00949006 /* ASWrapperLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASWrapperLayoutController.swift; sourceTree = "<group>"; };
 		D96FE2C3239642DF00949006 /* ASStackLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASStackLayoutController.swift; sourceTree = "<group>"; };
 		D96FE2C52396437800949006 /* ASInsetLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASInsetLayoutController.swift; sourceTree = "<group>"; };
@@ -974,6 +977,11 @@
 		D99B98EE246BA132001E6369 /* MyStackNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStackNode.swift; sourceTree = "<group>"; };
 		D99B98F0246BEAE7001E6369 /* VoteCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteCellNode.swift; sourceTree = "<group>"; };
 		D99B98F2246BF231001E6369 /* BaseNaviNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNaviNode.swift; sourceTree = "<group>"; };
+		D99B98F5246CEE82001E6369 /* TextureTableDemo3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureTableDemo3Controller.swift; sourceTree = "<group>"; };
+		D99B98F7246CF0BB001E6369 /* NaviBarProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviBarProtocol.swift; sourceTree = "<group>"; };
+		D99B98F9246CF19F001E6369 /* BaseNaviBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNaviBar.swift; sourceTree = "<group>"; };
+		D99B98FC246CF8BA001E6369 /* OCTextureTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTextureTableController.h; sourceTree = "<group>"; };
+		D99B98FD246CF8BA001E6369 /* OCTextureTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTextureTableController.m; sourceTree = "<group>"; };
 		D99BD9BE2398AEC40072A784 /* CQBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQBaseNavigationController.h; sourceTree = "<group>"; };
 		D99BD9BF2398AEC40072A784 /* CQBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBaseNavigationController.m; sourceTree = "<group>"; };
 		D99BD9C12398F6600072A784 /* CQMemoryLeakViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMemoryLeakViewController.h; sourceTree = "<group>"; };
@@ -1029,6 +1037,7 @@
 		D9AEB68822F6AA56006F8995 /* CQMVVMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMVVMViewModel.m; sourceTree = "<group>"; };
 		D9AEB68A22F6AB24006F8995 /* CQMVVMCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMVVMCellModel.h; sourceTree = "<group>"; };
 		D9AEB68B22F6AB24006F8995 /* CQMVVMCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMVVMCellModel.m; sourceTree = "<group>"; };
+		D9B157D0246D2C9C00854606 /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
 		D9B2FDE7233314BA00755653 /* CQCacheDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCacheDemoViewController.h; sourceTree = "<group>"; };
 		D9B2FDE8233314BA00755653 /* CQCacheDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCacheDemoViewController.m; sourceTree = "<group>"; };
 		D9B2FDEC233314EA00755653 /* cache.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = cache.md; sourceTree = "<group>"; };
@@ -2464,6 +2473,8 @@
 			children = (
 				D94BF43520E48C690012C370 /* CQBaseModel.h */,
 				D94BF43620E48C690012C370 /* CQBaseModel.m */,
+				D99B98F7246CF0BB001E6369 /* NaviBarProtocol.swift */,
+				D99B98F9246CF19F001E6369 /* BaseNaviBar.swift */,
 				D95885C32452BE1700CD9FDD /* CQBaseNaviBar.h */,
 				D95885C42452BE1700CD9FDD /* CQBaseNaviBar.m */,
 				D94BF43820E48C850012C370 /* CQBaseViewController.h */,
@@ -3340,6 +3351,23 @@
 			path = Hero;
 			sourceTree = "<group>";
 		};
+		D99B98F4246CEE2F001E6369 /* TextureTableDemo标准 */ = {
+			isa = PBXGroup;
+			children = (
+				D99B98F5246CEE82001E6369 /* TextureTableDemo3Controller.swift */,
+			);
+			path = "TextureTableDemo标准";
+			sourceTree = "<group>";
+		};
+		D99B98FB246CF837001E6369 /* TextureTable OC版 */ = {
+			isa = PBXGroup;
+			children = (
+				D99B98FC246CF8BA001E6369 /* OCTextureTableController.h */,
+				D99B98FD246CF8BA001E6369 /* OCTextureTableController.m */,
+			);
+			path = "TextureTable OC版";
+			sourceTree = "<group>";
+		};
 		D9A0091223725A3100ECF98F /* 自定义cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -3589,6 +3617,8 @@
 				D95B2F3D239289F6006F2FE2 /* Texture的各种node */,
 				D9C842622394F0CB00DC5BCD /* Texture Layout */,
 				D9170393245049BA00A588AD /* TextureTableDemo2 */,
+				D99B98F4246CEE2F001E6369 /* TextureTableDemo标准 */,
+				D99B98FB246CF837001E6369 /* TextureTable OC版 */,
 			);
 			path = texture;
 			sourceTree = "<group>";
@@ -3750,6 +3780,7 @@
 				D9CE605823518F3700D65107 /* UIImage+Extension.swift */,
 				D940168F2361BF1400580AAC /* UIView+Extension.swift */,
 				D986652B23710FB500AA60B2 /* String+Extension.swift */,
+				D9B157D0246D2C9C00854606 /* NSAttributedString+Extension.swift */,
 				D97246EB237E4989001671AD /* NSMutableAttributedString+Extension.swift */,
 			);
 			path = Extensions;
@@ -3910,7 +3941,6 @@
 			isa = PBXGroup;
 			children = (
 				D9C84267239503F300DC5BCD /* TextureLayout.md */,
-				D96FE2BE2396125A00949006 /* TextureLayoutDemoNaviNode.swift */,
 				D9C842632394F14500DC5BCD /* TextureLayoutDemoViewController.swift */,
 				D96FE2C02396425D00949006 /* 各种Layout */,
 			);
@@ -4950,6 +4980,7 @@
 				D9C7CC1622E9A3AE0038FD34 /* CQStandardTableSectionFooterView.m in Sources */,
 				D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */,
 				D930957723B3528D00837CA6 /* RPViewController.swift in Sources */,
+				D99B98FE246CF8BA001E6369 /* OCTextureTableController.m in Sources */,
 				D920ED2022E870A800C5A43F /* LottieViewController.swift in Sources */,
 				D9BF6905233EEF2300E602A4 /* CQGradientControl.m in Sources */,
 				D9F7E00E237013D100BE1285 /* JXImageTitleViewController.swift in Sources */,
@@ -4983,6 +5014,7 @@
 				D98E4DF0238284AC0082EED4 /* IconFont.swift in Sources */,
 				D97246EC237E4989001671AD /* NSMutableAttributedString+Extension.swift in Sources */,
 				D9A0091423725A8B00ECF98F /* JXCustomViewController.swift in Sources */,
+				D99B98F8246CF0BB001E6369 /* NaviBarProtocol.swift in Sources */,
 				D9C5E5CA23424D5000D101F1 /* YYDemoListViewController.swift in Sources */,
 				D92D69BC20DE3295002BA9C0 /* CQCategoryView.m in Sources */,
 				D9C5B44C233DAE3500299AFB /* MyCellNode7.swift in Sources */,
@@ -4999,6 +5031,7 @@
 				D926BDF522C6152400A2DD3E /* RoleStateCaretaker.m in Sources */,
 				D9146DEA239219ED002EA395 /* GestureRedChildScrollView.swift in Sources */,
 				D97D51022350B0CA00A0F570 /* TradeRuleViewController.swift in Sources */,
+				D99B98FA246CF19F001E6369 /* BaseNaviBar.swift in Sources */,
 				D9170395245049EB00A588AD /* TextureTableDemo2Controller.swift in Sources */,
 				D926BDD022C4945800A2DD3E /* TimeState.m in Sources */,
 				D991C921236C492300CB290C /* Loading.swift in Sources */,
@@ -5097,6 +5130,7 @@
 				D96FE2CC239644DA00949006 /* ASCenterLayoutController.swift in Sources */,
 				D9AEB68622F6A96B006F8995 /* CQMVVMModel.m in Sources */,
 				D9B6314423BB328D003D95D9 /* HandleTableViewController.swift in Sources */,
+				D99B98F6246CEE82001E6369 /* TextureTableDemo3Controller.swift in Sources */,
 				D9AEB65622F56747006F8995 /* AlamofireDemoViewController.swift in Sources */,
 				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
 				D9BFEAD124581AF200E25133 /* DisplayListViewController.swift in Sources */,
@@ -5128,7 +5162,6 @@
 				D9C7CC0922E998520038FD34 /* CQStandardTableHeaderView.m in Sources */,
 				D9C842642394F14500DC5BCD /* TextureLayoutDemoViewController.swift in Sources */,
 				D9C7021322EB5CF400DDC44F /* RxPerson.swift in Sources */,
-				D96FE2BF2396125A00949006 /* TextureLayoutDemoNaviNode.swift in Sources */,
 				D92BB28B24694FAE008610DB /* ElegantStructViewController.swift in Sources */,
 				D9146DE423920450002EA395 /* GestureScrollViewController.swift in Sources */,
 				D9CE605923518F3700D65107 /* UIImage+Extension.swift in Sources */,
@@ -5330,6 +5363,7 @@
 				D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */,
 				D91245D623A90AD800E3775A /* UIScrollViewController.swift in Sources */,
 				D926BDE222C4B5B300A2DD3E /* CQAdapterViewController.m in Sources */,
+				D9B157D1246D2C9C00854606 /* NSAttributedString+Extension.swift in Sources */,
 				D92769F0236AE88700A6D846 /* PlaceholderViewController.swift in Sources */,
 				D9146DE8239213B5002EA395 /* GestureMainScrollView.swift in Sources */,
 				D92CBD7923F7A685003A6EDC /* AlamofireDownloadViewController.swift in Sources */,
