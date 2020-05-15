@@ -64,25 +64,11 @@ class TextureTableDemo2Controller: ASViewController<ASDisplayNode>, ASTableDataS
     }
     
     func tableNode(_ tableNode: ASTableNode, nodeForRowAt indexPath: IndexPath) -> ASCellNode {
-        let cell = MyStackNode()
+        let model = VoteModel.init(title: "AJ1 黑红禁穿", count: 10, isVote: false)
+        let model2 = VoteModel.init(title: "AJ5 流川枫", count: 30, isVote: true)
+        let model3 = VoteModel.init(title: "小孩才做选择", count: 15, isVote: false)
+        let cell = MyStackNode(items: [model, model2, model3])
         return cell
     }
 
-}
-
-class VoteModel {
-    
-    var title: String = ""
-    var count: Int = 0
-    // 用户是否投了这个
-    var isVoted = false
-    // 是否展示百分比，用户只要投了其中一票就展示
-    var isShowRatio = false
-    
-    init(title: String, count: Int, isVoted: Bool) {
-        self.title = title
-        self.count = count
-        self.isVoted = isVoted
-    }
-    
 }

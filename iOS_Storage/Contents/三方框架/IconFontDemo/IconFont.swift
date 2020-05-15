@@ -63,6 +63,7 @@ class IconFont {
     static let RaffleSms = "\u{e656}"
     static let RallfeMark = "\u{e606}"
     static let ShareProduct = "\u{e605}"
+    static let VoteCheck = "\u{e61b}"
     
     static let CommunityComposeMore = "\u{e625}"
 

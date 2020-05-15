@@ -312,7 +312,6 @@
 		D98E4DE423810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DE323810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift */; };
 		D98E4DE6238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */; };
 		D98E4DF0238284AC0082EED4 /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DEF238284AC0082EED4 /* IconFont.swift */; };
-		D98E4DF2238285960082EED4 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D98E4DF1238285960082EED4 /* iconfont.ttf */; };
 		D98E4DF5238289C60082EED4 /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DF4238289C60082EED4 /* WaterfallLayout.swift */; };
 		D98E4DF723828A250082EED4 /* WaterfallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DF623828A250082EED4 /* WaterfallViewController.swift */; };
 		D98F492723FBA5C400B9C16C /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98F492623FBA5C400B9C16C /* RequestManager.swift */; };
@@ -335,6 +334,7 @@
 		D99B98FE246CF8BA001E6369 /* OCTextureTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99B98FD246CF8BA001E6369 /* OCTextureTableController.m */; };
 		D99BD9C02398AEC40072A784 /* CQBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99BD9BF2398AEC40072A784 /* CQBaseNavigationController.m */; };
 		D99BD9C32398F6600072A784 /* CQMemoryLeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99BD9C22398F6600072A784 /* CQMemoryLeakViewController.m */; };
+		D99FD93D246E90DC0095CEE6 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99FD93C246E90DB0095CEE6 /* iconfont.ttf */; };
 		D9A0091423725A8B00ECF98F /* JXCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A0091323725A8B00ECF98F /* JXCustomViewController.swift */; };
 		D9A0091623725F7B00ECF98F /* JXSegment自定义cell.md in Resources */ = {isa = PBXBuildFile; fileRef = D9A0091523725F7B00ECF98F /* JXSegment自定义cell.md */; };
 		D9A009182372639D00ECF98F /* HomeSegmentedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A009172372639D00ECF98F /* HomeSegmentedDataSource.swift */; };
@@ -960,7 +960,6 @@
 		D98E4DE323810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideMaxCellSpacingViewController.swift; sourceTree = "<group>"; };
 		D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideMaxCellSpacingLayout.swift; sourceTree = "<group>"; };
 		D98E4DEF238284AC0082EED4 /* IconFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
-		D98E4DF1238285960082EED4 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		D98E4DF4238289C60082EED4 /* WaterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
 		D98E4DF623828A250082EED4 /* WaterfallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallViewController.swift; sourceTree = "<group>"; };
 		D98F492623FBA5C400B9C16C /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
@@ -988,6 +987,7 @@
 		D99BD9BF2398AEC40072A784 /* CQBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBaseNavigationController.m; sourceTree = "<group>"; };
 		D99BD9C12398F6600072A784 /* CQMemoryLeakViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMemoryLeakViewController.h; sourceTree = "<group>"; };
 		D99BD9C22398F6600072A784 /* CQMemoryLeakViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMemoryLeakViewController.m; sourceTree = "<group>"; };
+		D99FD93C246E90DB0095CEE6 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		D9A0091323725A8B00ECF98F /* JXCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXCustomViewController.swift; sourceTree = "<group>"; };
 		D9A0091523725F7B00ECF98F /* JXSegment自定义cell.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "JXSegment自定义cell.md"; sourceTree = "<group>"; };
 		D9A009172372639D00ECF98F /* HomeSegmentedDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSegmentedDataSource.swift; sourceTree = "<group>"; };
@@ -1356,7 +1356,7 @@
 		D904C513234C8B27002DD939 /* IconFontDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D98E4DF1238285960082EED4 /* iconfont.ttf */,
+				D99FD93C246E90DB0095CEE6 /* iconfont.ttf */,
 				D98E4DEF238284AC0082EED4 /* IconFont.swift */,
 				D994A6DF23A65E050032E540 /* IconFontButton.swift */,
 				D965A2BA234E37D400041D69 /* IconFontViewController.swift */,
@@ -1493,13 +1493,13 @@
 			path = "检测view是否释放";
 			sourceTree = "<group>";
 		};
-		D9170393245049BA00A588AD /* TextureTableDemo2 */ = {
+		D9170393245049BA00A588AD /* 投票cell */ = {
 			isa = PBXGroup;
 			children = (
 				D9170394245049EB00A588AD /* TextureTableDemo2Controller.swift */,
 				D99B98EE246BA132001E6369 /* MyStackNode.swift */,
 			);
-			path = TextureTableDemo2;
+			path = "投票cell";
 			sourceTree = "<group>";
 		};
 		D9179CDC22B7C02B002FCCA0 /* 装饰模式 */ = {
@@ -3621,7 +3621,7 @@
 				D98F1B2A236D783900F31F03 /* ASTableNode */,
 				D95B2F3D239289F6006F2FE2 /* Texture的各种node */,
 				D9C842622394F0CB00DC5BCD /* Texture Layout */,
-				D9170393245049BA00A588AD /* TextureTableDemo2 */,
+				D9170393245049BA00A588AD /* 投票cell */,
 				D99B98F4246CEE2F001E6369 /* TextureTableDemo标准 */,
 				D99B98FB246CF837001E6369 /* TextureTable OC版 */,
 			);
@@ -4815,6 +4815,7 @@
 				D9A0091623725F7B00ECF98F /* JXSegment自定义cell.md in Resources */,
 				D926BDDF22C4AF7B00A2DD3E /* 适配器模式.md in Resources */,
 				D9C7CC1822E9A9090038FD34 /* 标准TableView Swift版.md in Resources */,
+				D99FD93D246E90DC0095CEE6 /* iconfont.ttf in Resources */,
 				D985E41823FD08B500CF7954 /* SF-Pro-Text-Heavy.otf in Resources */,
 				D9DC05E720DE418A00149124 /* jigsaw_list.json in Resources */,
 				D92D69C420DE359C002BA9C0 /* LaunchScreen.storyboard in Resources */,
@@ -4823,7 +4824,6 @@
 				D9B5499423A493CA00E8E6B6 /* getter与setter.md in Resources */,
 				D985E41C23FD08B500CF7954 /* SF-Pro-Text-Bold.otf in Resources */,
 				D967A81523ACB0760000C00D /* OOP.md in Resources */,
-				D98E4DF2238285960082EED4 /* iconfont.ttf in Resources */,
 				D92D69C620DE35B2002BA9C0 /* Main.storyboard in Resources */,
 				D926BDAC22C273E800A2DD3E /* 模板方法模式.md in Resources */,
 				D95199E722BDCC0200E3036B /* 代理模式.md in Resources */,

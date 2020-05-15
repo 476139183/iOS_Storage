@@ -18,12 +18,15 @@ class AnimationHud: UIView {
         hud.frame = UIScreen.main.bounds
         window?.addSubview(hud)
         
+        view.isHidden = true
         hud.addSubview(view)
         hud.layoutIfNeeded()
         view.snp.makeConstraints { (make) in
             make.size.equalTo(view.size)
             make.center.equalToSuperview()
         }
+        
+        view.isHidden = false
     }
     
     override init(frame: CGRect) {
