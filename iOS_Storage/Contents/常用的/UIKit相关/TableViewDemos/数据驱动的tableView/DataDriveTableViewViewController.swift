@@ -15,7 +15,8 @@ class DataDriveTableViewViewController: JumpListViewController {
 
         // Do any additional setup after loading the view.
         
-        self.dataArray = [ItemModel(title: "Swift 简单版", targetVC: SimpleDataDriveViewController())]
+        self.dataArray = [ItemModel(title: "Swift 简单版", targetVC: SimpleDataDriveViewController()),
+                          ItemModel(title: "OC 简单版", targetVC: OCSimpleDataDriveViewController())]
         
     }
 
