@@ -7,8 +7,16 @@
 //
 
 import UIKit
+import MJRefresh
 
 class TextureTableDemo2Controller: ASViewController<ASDisplayNode>, ASTableDataSource, ASTableDelegate {
+    
+    private lazy var dataArray: [[VoteModel]] = {
+        let model = VoteModel.init(title: "AJ1 黑红禁穿", count: 10, isVote: false)
+        let model2 = VoteModel.init(title: "AJ5 流川枫", count: 30, isVote: true)
+        let model3 = VoteModel.init(title: "小孩才做选择", count: 15, isVote: false)
+        return [[model, model2, model3]]
+    }()
     
     private lazy var naviView: CQBaseNaviBar = {
         let view = CQBaseNaviBar()
@@ -22,6 +30,7 @@ class TextureTableDemo2Controller: ASViewController<ASDisplayNode>, ASTableDataS
         let table = ASTableNode.init(style: .grouped)
         table.dataSource = self
         table.delegate = self
+        table.view.mj_footer = MJRefreshBackStateFooter(refreshingTarget: self, refreshingAction: #selector(loadData))
         return table
     }()
     
@@ -57,17 +66,28 @@ class TextureTableDemo2Controller: ASViewController<ASDisplayNode>, ASTableDataS
         navigationController?.popViewController(animated: true)
     }
     
-    // MARK: - ASTableNode
-    
-    func tableNode(_ tableNode: ASTableNode, numberOfRowsInSection section: Int) -> Int {
-        return 15
-    }
-    
-    func tableNode(_ tableNode: ASTableNode, nodeForRowAt indexPath: IndexPath) -> ASCellNode {
+    @objc private func loadData() {
         let model = VoteModel.init(title: "AJ1 黑红禁穿", count: 10, isVote: false)
         let model2 = VoteModel.init(title: "AJ5 流川枫", count: 30, isVote: true)
         let model3 = VoteModel.init(title: "小孩才做选择", count: 15, isVote: false)
-        let cell = MyStackNode(items: [model, model2, model3])
+        let items = [model, model2, model3]
+        dataArray.append(items)
+        // tableNode刷新不要用reloadData
+        let indexPath = IndexPath.init(row: dataArray.count-1, section: 0)
+        tableNode.performBatchUpdates({
+            tableNode.insertRows(at: [indexPath], with: .fade)
+        }, completion: nil)
+        tableNode.view.mj_footer?.endRefreshing()
+    }
+    
+    // MARK: - ASTableNode
+    
+    func tableNode(_ tableNode: ASTableNode, numberOfRowsInSection section: Int) -> Int {
+        return dataArray.count
+    }
+    
+    func tableNode(_ tableNode: ASTableNode, nodeForRowAt indexPath: IndexPath) -> ASCellNode {
+        let cell = MyStackNode(items: dataArray[indexPath.row])
         return cell
     }
 
