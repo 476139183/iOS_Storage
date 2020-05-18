@@ -24,9 +24,6 @@ class ASTableDemoController: ASViewController<ASDisplayNode>, ASTableDataSource,
         let table = ASTableNode.init(style: .grouped)
         table.dataSource = self
         table.delegate = self
-//        table.view.estimatedRowHeight = 50
-//        table.view.estimatedSectionHeaderHeight = 40
-//        table.view.estimatedSectionFooterHeight = 40
         table.view.tableHeaderView = tableHeaderView
         let footerView = UIView(frame: CGRect(x: 0, y: 0, width: kScreenWidth, height: 100))
         footerView.backgroundColor = .green
@@ -120,12 +117,6 @@ class ASTableDemoController: ASViewController<ASDisplayNode>, ASTableDataSource,
         }
     }
     
-//    override func viewWillLayoutSubviews() {
-//        print("viewWillLayoutSubviews")
-//        self.naviNode.frame = .init(x: 0, y: 0, width: screenWidth, height: kNavigationBarHeight)
-//        self.node.frame = CGRect.init(x: 0, y: kNavigationBarHeight, width: screenWidth, height: screenHeight-kNavigationBarHeight)
-//    }
-    
     // MARK: - Action
     
     @objc private func backButtonClicked() {
@@ -159,32 +150,31 @@ class ASTableDemoController: ASViewController<ASDisplayNode>, ASTableDataSource,
     
     func tableNode(_ tableNode: ASTableNode, nodeForRowAt indexPath: IndexPath) -> ASCellNode {
         
-        //return MyCellNode.init(title: String(indexPath.section / 8), desc: "详情")
-        return VoteCellNode.init(bgColor: .green)
-        
-//        let a = indexPath.section % 8
-//
-//        switch a {
-//        case 0:
-//            return MyCellNode.init(title: String(indexPath.section / 8), desc: "详情")
-//        case 1:
-//            return MyCellNode2()
-//        case 2:
-//            return MyCellNode3()
-//        case 3:
-//            return MyCellNode4()
-//        case 4:
-//            return MyCellNode5()
-//        case 5:
-//            return MyCellNode6()
-//        case 6:
-//            return MyCellNode7()
-//        case 7:
-//            let cell = CommunityMessagePKCell(countdown: 600, truePoints: 10, falsePoints: 50, myPoints: 666)
-//            return cell
-//        default:
-//            return ASCellNode()
-//        }
+        let a = indexPath.section % 9
+
+        switch a {
+        case 0:
+            return MyCellNode.init(title: String(indexPath.section / 8), desc: "详情")
+        case 1:
+            return MyCellNode2()
+        case 2:
+            return MyCellNode3()
+        case 3:
+            return MyCellNode4()
+        case 4:
+            return MyCellNode5()
+        case 5:
+            return MyCellNode6()
+        case 6:
+            return MyCellNode7()
+        case 7:
+            let cell = CommunityMessagePKCell(countdown: 600, truePoints: 10, falsePoints: 50, myPoints: 666)
+            return cell
+        case 8:
+            return VoteCellNode.init(bgColor: .red)
+        default:
+            return ASCellNode()
+        }
         
     }
     
