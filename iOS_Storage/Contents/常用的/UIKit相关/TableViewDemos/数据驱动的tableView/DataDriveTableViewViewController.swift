@@ -8,12 +8,15 @@
 
 import UIKit
 
-class DataDriveTableViewViewController: CQBaseViewController {
+class DataDriveTableViewViewController: JumpListViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.dataArray = [ItemModel(title: "Swift 简单版", targetVC: SimpleDataDriveViewController())]
+        
     }
 
 }

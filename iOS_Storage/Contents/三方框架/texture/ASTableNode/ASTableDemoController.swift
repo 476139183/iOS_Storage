@@ -77,8 +77,6 @@ class ASTableDemoController: ASViewController<ASDisplayNode>, ASTableDataSource,
     }
     
     deinit {
-        self.tableNode.delegate = nil
-        self.tableNode.dataSource = nil
         print("释放")
     }
     
