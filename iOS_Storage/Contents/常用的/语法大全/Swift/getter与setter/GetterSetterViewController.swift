@@ -60,8 +60,8 @@ class GetterSetterViewController: CQBaseViewController {
         person1.name = "person1"
         classPersonArray.append(person1)
         
-        var person2 = StructPerson()
-        person2.name = "person2"
+        // 构造方法里赋值不会调用didSet
+        let person2 = StructPerson(name: "struct name")
         structPersonArray.append(person2)
         
     }
@@ -85,5 +85,9 @@ fileprivate class ClassPerson {
 }
 
 fileprivate struct StructPerson {
-    var name = ""
+    var name = "" {
+        didSet {
+            print("struct name didSet")
+        }
+    }
 }
