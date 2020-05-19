@@ -6,3 +6,4 @@
 
 didSet 是属性观察器。
 
+如果是修改 array 里某个元素的属性，并不会触发 array 的 didSet.

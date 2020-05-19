@@ -37,6 +37,18 @@ class GetterSetterViewController: CQBaseViewController {
     //        }
     //    }
     
+    private var classPersonArray: [ClassPerson] = [] {
+        didSet {
+            print("classPersonArray didSet")
+        }
+    }
+    
+    private var structPersonArray: [StructPerson] = [] {
+        didSet {
+            print("structPersonArray didSet")
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -44,6 +56,34 @@ class GetterSetterViewController: CQBaseViewController {
         
         self.name = "Jack"
         
+        let person1 = ClassPerson()
+        person1.name = "person1"
+        classPersonArray.append(person1)
+        
+        var person2 = StructPerson()
+        person2.name = "person2"
+        structPersonArray.append(person2)
+        
     }
     
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        // 以下都不会触发 array 的 didset
+        let classPerson = classPersonArray.first
+        classPerson?.name = "2"
+        
+        var structPerson = structPersonArray.first
+        structPerson?.name = "333"
+        
+        classPersonArray.first?.name = "555"
+    }
+    
+}
+
+fileprivate class ClassPerson {
+    var name = ""
+}
+
+fileprivate struct StructPerson {
+    var name = ""
 }
