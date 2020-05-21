@@ -30,7 +30,8 @@ class RefreshViewController: CQBaseViewController, UITableViewDataSource {
         
         view.addSubview(tableView)
         tableView.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
+            make.left.right.bottom.equalToSuperview()
+            make.top.equalTo(kNavigationBarHeight)
         }
         
     }

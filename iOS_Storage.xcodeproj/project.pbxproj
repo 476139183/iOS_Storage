@@ -52,7 +52,6 @@
 		D91A9F8E22B49B36008F87F1 /* CQRecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F8D22B49B36008F87F1 /* CQRecognitionViewController.m */; };
 		D91E1D22233E4E9800B1C772 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E1D21233E4E9800B1C772 /* GradientView.swift */; };
 		D91E1D25233E4EB600B1C772 /* CQGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E1D24233E4EB600B1C772 /* CQGradientView.m */; };
-		D91E1D28233E50B000B1C772 /* CQGradientDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E1D27233E50B000B1C772 /* CQGradientDemoViewController.m */; };
 		D91E1D2B233E585800B1C772 /* UIImage+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E1D2A233E585800B1C772 /* UIImage+Util.m */; };
 		D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E0221A90E400AC1DEA /* CQSearchController.m */; };
 		D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E3221A910500AC1DEA /* CQSearchModel.m */; };
@@ -314,6 +313,7 @@
 		D98E4DF0238284AC0082EED4 /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DEF238284AC0082EED4 /* IconFont.swift */; };
 		D98E4DF5238289C60082EED4 /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DF4238289C60082EED4 /* WaterfallLayout.swift */; };
 		D98E4DF723828A250082EED4 /* WaterfallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DF623828A250082EED4 /* WaterfallViewController.swift */; };
+		D98E8EEA24767F1500A2D01A /* GradientDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E8EE924767F1500A2D01A /* GradientDemoViewController.swift */; };
 		D98F492723FBA5C400B9C16C /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98F492623FBA5C400B9C16C /* RequestManager.swift */; };
 		D991C91E236C48D300CB290C /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991C91D236C48D300CB290C /* LoadingViewController.swift */; };
 		D991C921236C492300CB290C /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991C920236C492300CB290C /* Loading.swift */; };
@@ -628,8 +628,6 @@
 		D91E1D21233E4E9800B1C772 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		D91E1D23233E4EB600B1C772 /* CQGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientView.h; sourceTree = "<group>"; };
 		D91E1D24233E4EB600B1C772 /* CQGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientView.m; sourceTree = "<group>"; };
-		D91E1D26233E50B000B1C772 /* CQGradientDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientDemoViewController.h; sourceTree = "<group>"; };
-		D91E1D27233E50B000B1C772 /* CQGradientDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientDemoViewController.m; sourceTree = "<group>"; };
 		D91E1D29233E585800B1C772 /* UIImage+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Util.h"; sourceTree = "<group>"; };
 		D91E1D2A233E585800B1C772 /* UIImage+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Util.m"; sourceTree = "<group>"; };
 		D91E53DF221A90E400AC1DEA /* CQSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSearchController.h; sourceTree = "<group>"; };
@@ -969,6 +967,7 @@
 		D98E4DEF238284AC0082EED4 /* IconFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
 		D98E4DF4238289C60082EED4 /* WaterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
 		D98E4DF623828A250082EED4 /* WaterfallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallViewController.swift; sourceTree = "<group>"; };
+		D98E8EE924767F1500A2D01A /* GradientDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientDemoViewController.swift; sourceTree = "<group>"; };
 		D98F492623FBA5C400B9C16C /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		D991C91D236C48D300CB290C /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		D991C920236C492300CB290C /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
@@ -1585,8 +1584,7 @@
 		D91E1D1E233E4D4700B1C772 /* 颜色渐变view */ = {
 			isa = PBXGroup;
 			children = (
-				D91E1D26233E50B000B1C772 /* CQGradientDemoViewController.h */,
-				D91E1D27233E50B000B1C772 /* CQGradientDemoViewController.m */,
+				D98E8EE924767F1500A2D01A /* GradientDemoViewController.swift */,
 				D9BF690D233F4B2A00E602A4 /* CQGradientOCDemoViewController.h */,
 				D9BF690E233F4B2A00E602A4 /* CQGradientOCDemoViewController.m */,
 				D9BF6910233F4B6600E602A4 /* GradientSwiftDemoViewController.swift */,
@@ -2450,7 +2448,6 @@
 		D94B64FC2153798300F2FD84 /* 通用占位图 */ = {
 			isa = PBXGroup;
 			children = (
-				D94B64FF215379F200F2FD84 /* View */,
 				D94B64FE215379EC00F2FD84 /* Controller */,
 			);
 			path = "通用占位图";
@@ -2470,13 +2467,6 @@
 				D94B650121537A0900F2FD84 /* CQPlaceholderDemoViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		D94B64FF215379F200F2FD84 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		D94BCDED22E9D9B00080584F /* 组头组尾 */ = {
@@ -5208,6 +5198,7 @@
 				D92D69B120DE307B002BA9C0 /* PrefixHeader.pch in Sources */,
 				D941B865235EF9AD00AEB48E /* LocationManager.swift in Sources */,
 				D96FE2CC239644DA00949006 /* ASCenterLayoutController.swift in Sources */,
+				D98E8EEA24767F1500A2D01A /* GradientDemoViewController.swift in Sources */,
 				D9AEB68622F6A96B006F8995 /* CQMVVMModel.m in Sources */,
 				D9B6314423BB328D003D95D9 /* HandleTableViewController.swift in Sources */,
 				D99B98F6246CEE82001E6369 /* TextureTableDemo3Controller.swift in Sources */,
@@ -5300,7 +5291,6 @@
 				D9928EAB243429380082999F /* HeroViewController2.swift in Sources */,
 				D944B6C3246290CC0077F58B /* CQBlockReturnViewController.m in Sources */,
 				D95199F722BF287000E3036B /* CQMVVMRACViewController.m in Sources */,
-				D91E1D28233E50B000B1C772 /* CQGradientDemoViewController.m in Sources */,
 				D9CB1EC02341FBDD00CEB752 /* NSObject+Extension.swift in Sources */,
 				D9C7CC2122E9ACD20038FD34 /* StandardSwiftTableHeaderView.swift in Sources */,
 				D9AEB68022F6A437006F8995 /* CQMVVMCell.m in Sources */,

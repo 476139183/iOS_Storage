@@ -43,3 +43,4 @@
 #import "CQSortButtonDemoController.h"
 #import "OCTextureTableController.h"
 #import "OCSimpleDataDriveViewController.h"
+#import "CQGradientOCDemoViewController.h"

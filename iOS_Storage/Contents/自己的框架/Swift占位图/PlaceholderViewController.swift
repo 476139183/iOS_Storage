@@ -10,9 +10,22 @@ import UIKit
 
 class PlaceholderViewController: CQBaseViewController {
     
+    private lazy var showButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("show", for: .normal)
+        button.addTarget(self, action: #selector(showButtonClicked), for: .touchUpInside)
+        return button
+    }()
+    
+    private lazy var removeButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("remove", for: .normal)
+        button.addTarget(self, action: #selector(removeButtonClicked), for: .touchUpInside)
+        return button
+    }()
+    
     private lazy var tableView: UITableView = {
         let tableView = UITableView()
-        tableView.tableFooterView = UIView()
         return tableView
     }()
     
@@ -21,22 +34,32 @@ class PlaceholderViewController: CQBaseViewController {
         
         // Do any additional setup after loading the view.
         
-        let addItem = UIBarButtonItem.init(title: "add", style: .plain, target: self, action: #selector(addButtonClicked))
-        let removeItem = UIBarButtonItem.init(title: "remove", style: .plain, target: self, action: #selector(removeButtonClicked))
-        
-        navigationItem.rightBarButtonItems = [removeItem, addItem]
-        
+        view.addSubview(showButton)
+        view.addSubview(removeButton)
         view.addSubview(tableView)
+        
+        showButton.snp.makeConstraints { (make) in
+            make.top.equalTo(kNavigationBarHeight+30)
+            make.right.equalTo(self.view.snp.centerX).offset(-40)
+            make.height.equalTo(30)
+        }
+        
+        removeButton.snp.makeConstraints { (make) in
+            make.top.equalTo(showButton)
+            make.left.equalTo(self.view.snp.centerX).offset(40)
+            make.height.equalTo(30)
+        }
+        
         tableView.snp.makeConstraints { (make) in
             make.left.right.equalToSuperview()
-            make.top.equalTo(kNavigationBarHeight)
-            make.bottom.equalToSuperview().offset(-kTabBarHeight)
+            make.top.equalTo(showButton.snp.bottom).offset(30)
+            make.bottom.equalToSuperview()
         }
         
     }
     
     
-    @objc func addButtonClicked() {
+    @objc func showButtonClicked() {
         PlaceholderView.show(on: tableView, type: .noData, title: "无数据") {
             print("点击占位图")
         }

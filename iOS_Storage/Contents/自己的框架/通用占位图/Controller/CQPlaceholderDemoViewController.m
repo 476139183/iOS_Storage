@@ -19,6 +19,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.detailUrl = @"https://www.jianshu.com/p/beca3ac24031";
+    
+    UILabel *label = [UILabel new];
+    [self.view addSubview:label];
+    label.text = @"点击详情按钮查看";
+    [label mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.mas_equalTo(self.view);
+    }];
+    
 }
 
 @end

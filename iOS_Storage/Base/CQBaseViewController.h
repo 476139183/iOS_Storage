@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "CQBaseNaviBar.h"
 
+#define SWIFT_SUBCLASS __attribute__((objc_subclassing_restricted))
+
 @interface CQBaseViewController : UIViewController
 
 /** 详情页链接 */

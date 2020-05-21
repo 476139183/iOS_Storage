@@ -70,7 +70,7 @@
 		<key>demo_name</key>
 		<string>颜色渐变view</string>
 		<key>controller_name</key>
-		<string>CQGradientDemoViewController</string>
+		<string>GradientDemoViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>
