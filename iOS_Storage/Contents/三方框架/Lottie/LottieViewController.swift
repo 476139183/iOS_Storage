@@ -22,7 +22,7 @@ class LottieViewController: CQBaseViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view.backgroundColor = .white
-        lotView.frame = self.view.bounds
+        lotView.frame = .init(x: 0, y: kNavigationBarHeight, width: kScreenWidth, height: kScreenHeight-kNavigationBarHeight)
         view.addSubview(lotView)
     }
     
