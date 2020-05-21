@@ -39,15 +39,6 @@
     }];
 }
 
-#warning 这里要修改
-
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
-    
-    [self.view bringSubviewToFront:self.naviBar];
-}
-
-
 - (void)dealloc {
     NSLog(@"已释放：%@", self.className);
 }

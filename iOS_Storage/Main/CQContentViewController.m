@@ -87,7 +87,7 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CQContentCellReuseID];
     CQContentModel *model = self.dataArray[indexPath.row];
-    cell.textLabel.text = [NSString stringWithFormat:@"%.2ld - %@", indexPath.row, model.demo_name];
+    cell.textLabel.text = [NSString stringWithFormat:@"%.2ld - %@", (long)indexPath.row, model.demo_name];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
@@ -102,9 +102,7 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
         NSString *swiftClassName = [NSString stringWithFormat:@"%@.%@", prefix, model.controller_name];
         detailVC = [[NSClassFromString(swiftClassName) alloc] init];
     }
-    
     detailVC.title = model.demo_name;
-    detailVC.detailUrl = model.url;
     detailVC.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:detailVC animated:YES];
 }
