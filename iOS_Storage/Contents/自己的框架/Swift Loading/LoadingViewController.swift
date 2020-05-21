@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class LoadingViewController: CQBaseViewController {
 
@@ -15,22 +16,25 @@ class LoadingViewController: CQBaseViewController {
 
         // Do any additional setup after loading the view.
         
-        
-        let showItem = UIBarButtonItem(title: "show", style: .plain, target: self, action: #selector(showLoading))
-        let dismissItem = UIBarButtonItem(title: "dismiss", style: .plain, target: self, action: #selector(dismissLoading))
-        
-        navigationItem.rightBarButtonItems = [dismissItem, showItem]
-        
-        
-        let button = UIButton.init(frame: CGRect.init(x: 99, y: 99, width: 99, height: 99))
+        let button = UIButton.init(type: .system)
         view.addSubview(button)
-        button.backgroundColor = .red
+        button.setTitle("点击 show loading，2秒消失", for: .normal)
         button.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
+        button.snp.makeConstraints { (make) in
+            make.center.equalToSuperview()
+            make.height.equalTo(30)
+        }
         
     }
     
     @objc private func buttonClicked() {
         print("click")
+        
+        showLoading()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            self.dismissLoading()
+        }
     }
     
     @objc private func showLoading() {

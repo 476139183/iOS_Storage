@@ -16,7 +16,8 @@ class AnimationsViewController: JumpListViewController {
         // Do any additional setup after loading the view.
         
         self.dataArray = [ItemModel(title: "tableView动画", targetVC: TableViewAnimationViewController()),
-                          ItemModel(title: "UIView动画", targetVC: UIViewAnimationViewController())]
+                          ItemModel(title: "UIView动画", targetVC: UIViewAnimationViewController()),
+                          ItemModel(title: "播放动画", targetVC: GifViewController())]
         
     }
     

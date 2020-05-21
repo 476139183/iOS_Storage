@@ -2220,7 +2220,6 @@
 				D941A123245EDD2200844787 /* WebView */,
 				D9F523082362D23300ABBEF7 /* 圆角和阴影 */,
 				D94253192366D2EA0031356C /* 各种动画 */,
-				D9E30C3A236D61E60042BC74 /* 播放动图 */,
 				D986652F2371546C00AA60B2 /* image和text互转 */,
 				D982964923976966001C05AE /* 各种跳转 */,
 				D92CBD6C23F78A8E003A6EDC /* 各种字体 */,
@@ -2352,6 +2351,7 @@
 				D942531A2366D55C0031356C /* AnimationsViewController.swift */,
 				D942531C2366D5720031356C /* tableView动画 */,
 				D9C2AA9D2369275800EBB9E1 /* UIView动画 */,
+				D9E30C3A236D61E60042BC74 /* 播放动图 */,
 			);
 			path = "各种动画";
 			sourceTree = "<group>";
