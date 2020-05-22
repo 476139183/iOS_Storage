@@ -15,11 +15,12 @@ class BaseNaviNode: ASDisplayNode {
     private lazy var backNode: ASButtonNode = {
         let node = ASButtonNode()
         node.imageNode.image = UIImage.init(named: "nav_back_icon")
+        node.addTarget(self, action: #selector(backNodeClicked), forControlEvents: .touchUpInside)
         return node
     }()
     
-    lazy var titleNode: ASTextNode = {
-        let node = ASTextNode()
+    lazy var titleNode: ASTextNode2 = {
+        let node = ASTextNode2()
         return node
     }()
 

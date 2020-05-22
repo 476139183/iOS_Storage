@@ -2,13 +2,16 @@
 
 ## 1. `- init`
 
-需要记住的最重要的一点是，init 方法必须能够在任何队列上调用。所以不要进行UI相关操作，如调用 `node.layer` `node.view.x` 等于 view 或 layer 有关的操作。
+**确保可以在所有线程调用**
+
+需要记住的最重要的一点是，init 方法必须能够在任何队列上调用。所以**不要进行UI相关操作，如调用 `node.layer` `node.view.x` 等于 view 或 layer 有关的操作。
 
 
 
 ## 2. `- didLoad`
 
 **在主线程调用。**
+
 类似于 `UIViewController` 的 `-viewDidLoad` 方法。保证会在主线程上被调用，是执行任何 UIKit 代码合适的地方，例如添加手势识，更改 view 和 layer，初始化 UIKit 对象。
 
 

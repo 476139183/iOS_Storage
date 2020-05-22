@@ -22,7 +22,9 @@ class TextureDemoViewController: JumpListViewController {
                           ItemModel(title: "Layout", targetVC: TextureLayoutDemoViewController()),
                           ItemModel(title: "投票 cell", targetVC: TextureTableDemo2Controller()),
                           ItemModel(title: "table demo 3", targetVC: TextureTableDemo3Controller()),
-                          ItemModel(title: "OC版 table", targetVC: OCTextureTableController())]
+                          ItemModel(title: "OC版 table", targetVC: OCTextureTableController()),
+                          ItemModel(title: "纯texture tableView", targetVC: PureTextureTableController()),
+                          ItemModel(title: "自定义Node", targetVC: CustomNodeViewController())]
         
     }
     

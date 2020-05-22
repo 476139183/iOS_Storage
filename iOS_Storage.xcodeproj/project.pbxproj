@@ -365,6 +365,8 @@
 		D9AE0CDB20DD02AC00A31D62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CDA20DD02AC00A31D62 /* AppDelegate.m */; };
 		D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AE0CE220DD02AC00A31D62 /* Assets.xcassets */; };
 		D9AE0CE920DD02AC00A31D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE0CE820DD02AC00A31D62 /* main.m */; };
+		D9AE922A24777D6F00B11A74 /* PureTextureTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AE922924777D6F00B11A74 /* PureTextureTableController.swift */; };
+		D9AE922D2477B51C00B11A74 /* CustomNodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AE922C2477B51C00B11A74 /* CustomNodeViewController.swift */; };
 		D9AEB65622F56747006F8995 /* AlamofireDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEB65522F56747006F8995 /* AlamofireDemoViewController.swift */; };
 		D9AEB65922F57955006F8995 /* MoyaDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEB65822F57955006F8995 /* MoyaDemoViewController.swift */; };
 		D9AEB65B22F58B1E006F8995 /* person_info.json in Resources */ = {isa = PBXBuildFile; fileRef = D9AEB65A22F58B1D006F8995 /* person_info.json */; };
@@ -1035,6 +1037,8 @@
 		D9AE0CE220DD02AC00A31D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9AE0CE720DD02AC00A31D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9AE0CE820DD02AC00A31D62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9AE922924777D6F00B11A74 /* PureTextureTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureTextureTableController.swift; sourceTree = "<group>"; };
+		D9AE922C2477B51C00B11A74 /* CustomNodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNodeViewController.swift; sourceTree = "<group>"; };
 		D9AEB65522F56747006F8995 /* AlamofireDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireDemoViewController.swift; sourceTree = "<group>"; };
 		D9AEB65822F57955006F8995 /* MoyaDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaDemoViewController.swift; sourceTree = "<group>"; };
 		D9AEB65A22F58B1D006F8995 /* person_info.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = person_info.json; sourceTree = "<group>"; };
@@ -2860,7 +2864,6 @@
 		D95B2F3D239289F6006F2FE2 /* Texture的各种node */ = {
 			isa = PBXGroup;
 			children = (
-				D96FE2BC23960E0500949006 /* ASDisplayNode.md */,
 				D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */,
 			);
 			path = "Texture的各种node";
@@ -2869,7 +2872,6 @@
 		D95C78CB236D3D46005F06BE /* ASViewController */ = {
 			isa = PBXGroup;
 			children = (
-				D96FE2BA239603DE00949006 /* ASViewController.md */,
 				D93A0BF4233C72F900554EF6 /* TextureColorView.swift */,
 				D93A0BF6233C735500554EF6 /* TextureLabelView.swift */,
 				D932D24B2338B39E00662E05 /* ASViewControllerDemoController.swift */,
@@ -3567,6 +3569,22 @@
 			path = iOS_Storage;
 			sourceTree = "<group>";
 		};
+		D9AE922824777C5800B11A74 /* 纯texture tableView */ = {
+			isa = PBXGroup;
+			children = (
+				D9AE922924777D6F00B11A74 /* PureTextureTableController.swift */,
+			);
+			path = "纯texture tableView";
+			sourceTree = "<group>";
+		};
+		D9AE922B2477A7D900B11A74 /* 自定义node */ = {
+			isa = PBXGroup;
+			children = (
+				D9AE922C2477B51C00B11A74 /* CustomNodeViewController.swift */,
+			);
+			path = "自定义node";
+			sourceTree = "<group>";
+		};
 		D9AEB65422F5670B006F8995 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -3631,6 +3649,8 @@
 			isa = PBXGroup;
 			children = (
 				D9B2FDF4233877BE00755653 /* texture.md */,
+				D96FE2BC23960E0500949006 /* ASDisplayNode.md */,
+				D96FE2BA239603DE00949006 /* ASViewController.md */,
 				D99B98F2246BF231001E6369 /* BaseNaviNode.swift */,
 				D9012A0B23927236008D5EF5 /* TextureDemoViewController.swift */,
 				D95C78CB236D3D46005F06BE /* ASViewController */,
@@ -3640,6 +3660,8 @@
 				D9170393245049BA00A588AD /* 投票cell */,
 				D99B98F4246CEE2F001E6369 /* TextureTableDemo标准 */,
 				D99B98FB246CF837001E6369 /* TextureTable OC版 */,
+				D9AE922824777C5800B11A74 /* 纯texture tableView */,
+				D9AE922B2477A7D900B11A74 /* 自定义node */,
 			);
 			path = texture;
 			sourceTree = "<group>";
@@ -5148,6 +5170,7 @@
 				D954D5C124456BBF00F02DCF /* PushTranslucenceViewController.swift in Sources */,
 				D94F6A8F20FEE337006BCC6B /* CQFilterViewController.m in Sources */,
 				D9E4248D212D4E3900283CFC /* CQSortModel.m in Sources */,
+				D9AE922D2477B51C00B11A74 /* CustomNodeViewController.swift in Sources */,
 				D941B870235F23AB00AEB48E /* JXSegmentedChildController3.swift in Sources */,
 				D90A9B05238FAB2500C84424 /* NestedItemTextureController.swift in Sources */,
 				D9519A0922BFAE6C00E3036B /* Adidas.m in Sources */,
@@ -5369,6 +5392,7 @@
 				D9CB1EC42342053900CEB752 /* RxSwiftDynamicTableViewController.swift in Sources */,
 				D97246F4237E8D47001671AD /* MaxCellSpacingLayout.swift in Sources */,
 				D96773A72400D07D00829BCB /* HorizonCollectionViewController.swift in Sources */,
+				D9AE922A24777D6F00B11A74 /* PureTextureTableController.swift in Sources */,
 				D96FE2CE239644FC00949006 /* ASRatioLayoutController.swift in Sources */,
 				D9EC2EAF24343DA800C1E4E4 /* SideMenuViewController.swift in Sources */,
 				D9545B3B2293AB48008B6355 /* CQThread.m in Sources */,

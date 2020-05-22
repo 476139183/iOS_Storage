@@ -61,5 +61,24 @@ class StringPracticeViewController: CQBaseViewController {
         redLabel.attributedText = attString1
         
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let title = "纯texture table"
+        let range = NSRange.init(location: 0, length: title.count)
+        let att: NSMutableAttributedString = NSMutableAttributedString.attributedString(string: title, font: .boldSystemFont(ofSize: 16), color: .black) as! NSMutableAttributedString
+        let paragraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.alignment = .center
+        //paragraphStyle.
+        att.addAttribute(.paragraphStyle, value: paragraphStyle, range: range)
+        
+        let label = UILabel()
+        view.addSubview(label)
+        label.attributedText = att
+        label.backgroundColor = .red
+        label.snp.makeConstraints { (make) in
+            make.center.equalToSuperview()
+            make.size.equalTo(CGSize.init(width: 300, height: 60))
+        }
+    }
 
 }
