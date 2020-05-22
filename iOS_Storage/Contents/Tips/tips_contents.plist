@@ -6,7 +6,7 @@
 		<key>demo_name</key>
 		<string>runtime</string>
 		<key>controller_name</key>
-		<string>CQRuntimeController</string>
+		<string>RuntimeDemoViewController</string>
 		<key>url</key>
 		<string>runtime.md</string>
 	</dict>
@@ -14,7 +14,7 @@
 		<key>demo_name</key>
 		<string>runloop</string>
 		<key>controller_name</key>
-		<string>CQRunloopController</string>
+		<string>RunloopDemoViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>
@@ -39,30 +39,6 @@
 		<string>多线程</string>
 		<key>controller_name</key>
 		<string>MultiThreadController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>锁</string>
-		<key>controller_name</key>
-		<string>CQLockViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>NSThread</string>
-		<key>controller_name</key>
-		<string>CQThreadViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>GCD</string>
-		<key>controller_name</key>
-		<string>CQGCDController</string>
 		<key>url</key>
 		<string></string>
 	</dict>

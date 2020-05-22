@@ -44,3 +44,9 @@
 #import "OCTextureTableController.h"
 #import "OCSimpleDataDriveViewController.h"
 #import "CQGradientOCDemoViewController.h"
+#import "CQMessageSendController.h"
+#import "CQUnrecognizedSelectorController.h"
+#import "CQPermanentThreadController.h"
+#import "CQRunloopModeController.h"
+#import "CQRunLoopLifeController.h"
+

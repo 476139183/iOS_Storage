@@ -43,10 +43,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
+    CQBaseNaviBar *naviBar = [[CQBaseNaviBar alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, NAVIGATION_BAR_HEIGHT)];
+    [self.view addSubview:naviBar];
+    naviBar.titleLabel.text = @"排序";
+    naviBar.detailButton.hidden = true;
+    
+    self.tableView = [[UITableView alloc] init];
     [self.view addSubview:self.tableView];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.bottom.mas_equalTo(self.view);
+        make.top.mas_equalTo(naviBar.mas_bottom);
+    }];
 }
 
 #pragma mark - 排序
