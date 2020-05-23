@@ -20,6 +20,7 @@ PODS:
   - Alamofire (5.0.0)
   - CameraManager (4.4.0)
   - Hero (1.5.0)
+  - IQKeyboardManagerSwift (6.5.5)
   - JSONModel (1.8.0)
   - JXSegmentedView (1.0.5)
   - Kingfisher (5.7.1)
@@ -99,6 +100,7 @@ DEPENDENCIES:
   - Alamofire (= 5.0.0)
   - CameraManager (~> 4.4)
   - Hero
+  - IQKeyboardManagerSwift
   - JSONModel
   - JXSegmentedView
   - Kingfisher (= 5.7.1)
@@ -129,6 +131,7 @@ SPEC REPOS:
     - Alamofire
     - CameraManager
     - Hero
+    - IQKeyboardManagerSwift
     - JSONModel
     - JXSegmentedView
     - Kingfisher
@@ -160,6 +163,7 @@ SPEC CHECKSUMS:
   Alamofire: 58ff2bfb8daaacaa233d5c36e37b10a5248f59b1
   CameraManager: 583710502c42178d12ef046d9d4f7893feff8354
   Hero: b7385b75e7259da62f4f85462f59a5082d66b058
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   JXSegmentedView: 46262e0ec86c951fd1be4a0b91de3d9b10cb9fff
   Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
@@ -185,6 +189,6 @@ SPEC CHECKSUMS:
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZFPlayer: 8a6021a3c45e281f2abd24dca5c88915af770a7e
 
-PODFILE CHECKSUM: bcfc463276a800749ad3203037a3afd6cb63c81d
+PODFILE CHECKSUM: 1320b06968a8b78e2654232351fd2e8ab1d2ae47
 
 COCOAPODS: 1.8.4

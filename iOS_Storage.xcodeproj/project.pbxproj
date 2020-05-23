@@ -282,6 +282,8 @@
 		D97246FA237EB11D001671AD /* LeftSideCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246F9237EB11D001671AD /* LeftSideCellViewController.swift */; };
 		D97420CC23A9BB160038AB38 /* UIScrollViewControlDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97420CB23A9BB160038AB38 /* UIScrollViewControlDemoController.swift */; };
 		D97420CE23A9BD5F0038AB38 /* LongImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97420CD23A9BD5F0038AB38 /* LongImageViewController.swift */; };
+		D97516882478B61800D45C92 /* IQKeyboardManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97516872478B61800D45C92 /* IQKeyboardManagerViewController.swift */; };
+		D975168A2478B8B600D45C92 /* IQKeyboardManagerViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97516892478B8B600D45C92 /* IQKeyboardManagerViewController2.swift */; };
 		D97D0CAF23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D0CAE23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift */; };
 		D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */; };
 		D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97D50FF2350AE3800A0F570 /* trade_rule.txt */; };
@@ -935,6 +937,8 @@
 		D97246F9237EB11D001671AD /* LeftSideCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideCellViewController.swift; sourceTree = "<group>"; };
 		D97420CB23A9BB160038AB38 /* UIScrollViewControlDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewControlDemoController.swift; sourceTree = "<group>"; };
 		D97420CD23A9BD5F0038AB38 /* LongImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongImageViewController.swift; sourceTree = "<group>"; };
+		D97516872478B61800D45C92 /* IQKeyboardManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerViewController.swift; sourceTree = "<group>"; };
+		D97516892478B8B600D45C92 /* IQKeyboardManagerViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerViewController2.swift; sourceTree = "<group>"; };
 		D97D0CAE23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSectionHeaderPositionViewController.swift; sourceTree = "<group>"; };
 		D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleView.swift; sourceTree = "<group>"; };
 		D97D50FF2350AE3800A0F570 /* trade_rule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trade_rule.txt; sourceTree = "<group>"; };
@@ -3135,6 +3139,15 @@
 			path = "让宽度自适应的cell靠左";
 			sourceTree = "<group>";
 		};
+		D97516862478B5E900D45C92 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				D97516872478B61800D45C92 /* IQKeyboardManagerViewController.swift */,
+				D97516892478B8B600D45C92 /* IQKeyboardManagerViewController2.swift */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
 		D97D0CAD23B5FF1B001E6FB7 /* 修改组头悬停位置 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3710,6 +3723,7 @@
 				D9928EA724334C1D0082999F /* Hero */,
 				D9EC2EAD24343D6B00C1E4E4 /* SideMenu */,
 				D9F7DEFC2449653200A63632 /* TTTAttributedLabel */,
+				D97516862478B5E900D45C92 /* IQKeyboardManager */,
 			);
 			path = "三方框架";
 			sourceTree = "<group>";
@@ -4956,6 +4970,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CameraManager/CameraManager.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
 				"${BUILT_PRODUCTS_DIR}/JXSegmentedView/JXSegmentedView.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
@@ -4987,6 +5002,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CameraManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXSegmentedView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
@@ -5098,6 +5114,7 @@
 				D9E57A5923756E780013BC7D /* DictPracticeViewController.swift in Sources */,
 				D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */,
 				D95885BC24519DC500CD9FDD /* VideoDemoViewController.swift in Sources */,
+				D97516882478B61800D45C92 /* IQKeyboardManagerViewController.swift in Sources */,
 				D991C91E236C48D300CB290C /* LoadingViewController.swift in Sources */,
 				D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */,
 				D9C7CC0C22E9998B0038FD34 /* CQStandardTableFooterView.m in Sources */,
@@ -5196,6 +5213,7 @@
 				D9145403237A894B0083FD19 /* Tool.swift in Sources */,
 				D9DDA7CD20E4831F008BD029 /* CQWaterfallCell.m in Sources */,
 				D9C5E5D523473E2000D101F1 /* LeetCodeTwoSumViewController.swift in Sources */,
+				D975168A2478B8B600D45C92 /* IQKeyboardManagerViewController2.swift in Sources */,
 				D9C7CC0322E9927F0038FD34 /* StandardSwiftCollectionViewViewController.swift in Sources */,
 				D9D1450D2298F1F5003B594C /* CQRunLoopLifeController.m in Sources */,
 				D9DDA7D020E48339008BD029 /* CQWaterfallModel.m in Sources */,

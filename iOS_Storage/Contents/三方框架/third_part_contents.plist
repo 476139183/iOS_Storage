@@ -122,5 +122,13 @@
 		<key>url</key>
 		<string></string>
 	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>IQKeyboardManager</string>
+		<key>controller_name</key>
+		<string>IQKeyboardManagerViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
 </array>
 </plist>
