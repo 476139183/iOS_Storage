@@ -10,9 +10,14 @@ import Foundation
 
 extension String {
     
-    /// 移除两端空格
-    func removeBothEndsWhiteSpace() -> String {
+    /// 去除两端空格
+    func removeBothEndsWhitespace() -> String {
         return self.trimmingCharacters(in: .whitespaces)
+    }
+    
+    /// 去除两端空格和换行
+    func removeBothEndsWhitespaceAndNewlines() -> String {
+        return self.trimmingCharacters(in: .whitespacesAndNewlines)
     }
     
     /// 截取规定下标之后的字符串

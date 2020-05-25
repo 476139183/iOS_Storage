@@ -19,6 +19,7 @@ class RxSwiftAddHiddenViewController: CQBaseViewController {
         let textField = UITextField()
         textField.backgroundColor = .yellow
         textField.placeholder = "字数不能少于5"
+        textField.returnKeyType = .done
         return textField
     }()
     

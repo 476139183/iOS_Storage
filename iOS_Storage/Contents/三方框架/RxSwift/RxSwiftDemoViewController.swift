@@ -48,6 +48,7 @@ class RxSwiftDemoViewController: CQBaseViewController {
         textField.layer.borderWidth = 1
         textField.layer.borderColor = UIColor.gray.cgColor
         textField.placeholder = "请输入"
+        textField.returnKeyType = .done
         textField.snp.makeConstraints { (make) in
             make.left.equalTo(greenView.snp.right).offset(10)
             make.top.bottom.equalTo(greenView)
@@ -107,6 +108,7 @@ class RxSwiftDemoViewController: CQBaseViewController {
         monitorScroll()
         addObserver()
         bind()
+        limitTextFieldCount()
         //rxTimer()
     }
     
@@ -196,5 +198,30 @@ extension RxSwiftDemoViewController {
         timer.subscribe(onNext: { (x) in
             print(x)
         }).disposed(by: disposeBag)
+    }
+}
+
+// MARK: - 限制textfield长度
+extension RxSwiftDemoViewController {
+    private func limitTextFieldCount() {
+        textField.rx.controlEvent([.editingChanged])
+        .asObservable()
+        .subscribe(onNext: { [weak self] _ in
+            guard let `self` = self else { return }
+            
+            // 获取非选中状态文字范围
+            let selectedRange = self.textField.markedTextRange
+            // 没有非选中文字，截取多出的文字
+            if selectedRange == nil {
+                // 移除空格
+                let text = (self.textField.text ?? "").removeBothEndsWhitespaceAndNewlines()
+                if text.count > 3 {
+                    let index = text.index(text.startIndex, offsetBy: 4)
+                    self.textField.text = String(text[..<index])
+                }
+            }
+            
+        })
+        .disposed(by: disposeBag)
     }
 }
