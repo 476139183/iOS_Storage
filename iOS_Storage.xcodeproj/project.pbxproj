@@ -286,6 +286,8 @@
 		D975168A2478B8B600D45C92 /* IQKeyboardManagerViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97516892478B8B600D45C92 /* IQKeyboardManagerViewController2.swift */; };
 		D9751690247B60E900D45C92 /* RxUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D975168F247B60E900D45C92 /* RxUIView+Extension.swift */; };
 		D9751692247B61B300D45C92 /* RxSwiftAddHiddenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9751691247B61B300D45C92 /* RxSwiftAddHiddenViewController.swift */; };
+		D9751696247BB34B00D45C92 /* UIStackViewDemoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9751695247BB34B00D45C92 /* UIStackViewDemoListController.swift */; };
+		D9751698247BB3C900D45C92 /* StackThreeTitlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9751697247BB3C900D45C92 /* StackThreeTitlesViewController.swift */; };
 		D97D0CAF23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D0CAE23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift */; };
 		D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */; };
 		D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97D50FF2350AE3800A0F570 /* trade_rule.txt */; };
@@ -943,6 +945,8 @@
 		D97516892478B8B600D45C92 /* IQKeyboardManagerViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerViewController2.swift; sourceTree = "<group>"; };
 		D975168F247B60E900D45C92 /* RxUIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxUIView+Extension.swift"; sourceTree = "<group>"; };
 		D9751691247B61B300D45C92 /* RxSwiftAddHiddenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftAddHiddenViewController.swift; sourceTree = "<group>"; };
+		D9751695247BB34B00D45C92 /* UIStackViewDemoListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewDemoListController.swift; sourceTree = "<group>"; };
+		D9751697247BB3C900D45C92 /* StackThreeTitlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackThreeTitlesViewController.swift; sourceTree = "<group>"; };
 		D97D0CAE23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSectionHeaderPositionViewController.swift; sourceTree = "<group>"; };
 		D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleView.swift; sourceTree = "<group>"; };
 		D97D50FF2350AE3800A0F570 /* trade_rule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trade_rule.txt; sourceTree = "<group>"; };
@@ -2214,8 +2218,10 @@
 		D940168C2361BD6D00580AAC /* UIStackViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D9751695247BB34B00D45C92 /* UIStackViewDemoListController.swift */,
 				D940168D2361BDD900580AAC /* StackViewDemoViewController.swift */,
 				D92767C5237CF90400F9CED8 /* ChannelButton.swift */,
+				D9751697247BB3C900D45C92 /* StackThreeTitlesViewController.swift */,
 			);
 			path = UIStackViewDemo;
 			sourceTree = "<group>";
@@ -5148,6 +5154,7 @@
 				D9170395245049EB00A588AD /* TextureTableDemo2Controller.swift in Sources */,
 				D926BDD022C4945800A2DD3E /* TimeState.m in Sources */,
 				D991C921236C492300CB290C /* Loading.swift in Sources */,
+				D9751696247BB34B00D45C92 /* UIStackViewDemoListController.swift in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
 				D926BDCD22C4934900A2DD3E /* CQStateViewController.m in Sources */,
 				D9AEB68C22F6AB24006F8995 /* CQMVVMCellModel.m in Sources */,
@@ -5231,6 +5238,7 @@
 				D9AC507923B0777C00CB4DF2 /* POPViewController.swift in Sources */,
 				D9A39F8A22B4D8AF00FEA5F5 /* CQStrategyManager.m in Sources */,
 				D9A39F7822B4D2CA00FEA5F5 /* CQMVCViewController.m in Sources */,
+				D9751698247BB3C900D45C92 /* StackThreeTitlesViewController.swift in Sources */,
 				D98E4DF723828A250082EED4 /* WaterfallViewController.swift in Sources */,
 				D9F7E010237026E200BE1285 /* JXImageOrTextViewController.swift in Sources */,
 				D95199EA22BDCC6100E3036B /* CQDelegateViewController.m in Sources */,
