@@ -18,7 +18,8 @@ class RxSwiftDemoListViewController: JumpListViewController {
         self.dataArray = [ItemModel(title: "基本操作", targetVC: RxSwiftDemoViewController()),
                           ItemModel(title: "登录页", targetVC: RxSwiftLoginViewController()),
                           ItemModel(title: "高度自适应", targetVC: RxSwiftDynamicTableViewController()),
-                          ItemModel(title: "bind", targetVC: RxSwiftBindDemoViewController())]
+                          ItemModel(title: "bind", targetVC: RxSwiftBindDemoViewController()),
+                          ItemModel(title: "多重绑定&添加对isHidden的观察", targetVC: RxSwiftAddHiddenViewController())]
         
     }
     

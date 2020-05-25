@@ -284,6 +284,8 @@
 		D97420CE23A9BD5F0038AB38 /* LongImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97420CD23A9BD5F0038AB38 /* LongImageViewController.swift */; };
 		D97516882478B61800D45C92 /* IQKeyboardManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97516872478B61800D45C92 /* IQKeyboardManagerViewController.swift */; };
 		D975168A2478B8B600D45C92 /* IQKeyboardManagerViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97516892478B8B600D45C92 /* IQKeyboardManagerViewController2.swift */; };
+		D9751690247B60E900D45C92 /* RxUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D975168F247B60E900D45C92 /* RxUIView+Extension.swift */; };
+		D9751692247B61B300D45C92 /* RxSwiftAddHiddenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9751691247B61B300D45C92 /* RxSwiftAddHiddenViewController.swift */; };
 		D97D0CAF23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D0CAE23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift */; };
 		D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */; };
 		D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97D50FF2350AE3800A0F570 /* trade_rule.txt */; };
@@ -939,6 +941,8 @@
 		D97420CD23A9BD5F0038AB38 /* LongImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongImageViewController.swift; sourceTree = "<group>"; };
 		D97516872478B61800D45C92 /* IQKeyboardManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerViewController.swift; sourceTree = "<group>"; };
 		D97516892478B8B600D45C92 /* IQKeyboardManagerViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerViewController2.swift; sourceTree = "<group>"; };
+		D975168F247B60E900D45C92 /* RxUIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxUIView+Extension.swift"; sourceTree = "<group>"; };
+		D9751691247B61B300D45C92 /* RxSwiftAddHiddenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftAddHiddenViewController.swift; sourceTree = "<group>"; };
 		D97D0CAE23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSectionHeaderPositionViewController.swift; sourceTree = "<group>"; };
 		D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleView.swift; sourceTree = "<group>"; };
 		D97D50FF2350AE3800A0F570 /* trade_rule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trade_rule.txt; sourceTree = "<group>"; };
@@ -3848,6 +3852,7 @@
 				D986652B23710FB500AA60B2 /* String+Extension.swift */,
 				D9B157D0246D2C9C00854606 /* NSAttributedString+Extension.swift */,
 				D97246EB237E4989001671AD /* NSMutableAttributedString+Extension.swift */,
+				D975168F247B60E900D45C92 /* RxUIView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -3900,6 +3905,7 @@
 				D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */,
 				D9CB1EC32342053900CEB752 /* RxSwiftDynamicTableViewController.swift */,
 				D9CF66862351C113003002E5 /* RxSwiftBindDemoViewController.swift */,
+				D9751691247B61B300D45C92 /* RxSwiftAddHiddenViewController.swift */,
 			);
 			path = RxSwift;
 			sourceTree = "<group>";
@@ -5181,6 +5187,7 @@
 				D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */,
 				D965A2BE234E3AFB00041D69 /* CameraManagerViewController.swift in Sources */,
 				D92CBD7423F7A44C003A6EDC /* AlamofireRequestViewController.swift in Sources */,
+				D9751690247B60E900D45C92 /* RxUIView+Extension.swift in Sources */,
 				D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */,
 				D9F93371229D7D2400C7B2E0 /* CQOperationController.m in Sources */,
 				D916DA2923A24B2000CB0CFA /* CheckViewMemoryLeakViewController.swift in Sources */,
@@ -5394,6 +5401,7 @@
 				D9E86CC32447EE4A009CCBB8 /* SwipeGestureViewController.swift in Sources */,
 				D9D64FD72105DDA300379FF2 /* CQThreadViewController.m in Sources */,
 				D944B6B6245AD6B30077F58B /* CPlusGrammarViewController.swift in Sources */,
+				D9751692247B61B300D45C92 /* RxSwiftAddHiddenViewController.swift in Sources */,
 				D9DA5CEB20E27E120098EC68 /* IphoneMenuButton.m in Sources */,
 				D9B6313F23BB3111003D95D9 /* DatePracticeViewController.swift in Sources */,
 				D9FE875C23C5EADF000E94CB /* DSActionSheetController.swift in Sources */,
