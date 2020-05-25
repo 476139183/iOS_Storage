@@ -32,6 +32,16 @@ class AnimationHudViewController: CQBaseViewController {
         myView.size = .init(width: 200, height: 200)
         AnimationHud.show(with: myView)
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let alertVC = UIAlertController.init(title: "弹弹弹", message: "message", preferredStyle: .alert)
+        let okAction = UIAlertAction.init(title: "ok", style: .default, handler: nil)
+        let cancelAction = UIAlertAction.init(title: "cancel", style: .cancel, handler: nil)
+        alertVC.addAction(okAction)
+        alertVC.addAction(cancelAction)
+        self.present(alertVC, animated: true, completion: nil)
+        //        self.presend
+    }
 
 }
 
@@ -61,6 +71,7 @@ fileprivate class CustomView: UIView {
         titleLable.snp.makeConstraints { (make) in
             make.center.equalToSuperview()
         }
+        
     }
     
 }

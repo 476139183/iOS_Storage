@@ -8,9 +8,14 @@
 
 import Foundation
 
+enum AnimationHudType {
+    case systemAlert
+    case systemActionSheet
+}
+
 class AnimationHud: UIView {
     
-    static func show(with view: UIView) {
+    static func show(with view: UIView, type: AnimationHudType? = .systemAlert) {
         guard let window = UIApplication.shared.delegate?.window else {
             return
         }
@@ -27,6 +32,16 @@ class AnimationHud: UIView {
         }
         
         view.isHidden = false
+        
+        hud.backgroundColor = UIColor.black.withAlphaComponent(0.5)
+        
+        hud.alpha = 0
+        UIView.animate(withDuration: 0.3, animations: {
+            hud.alpha = 1
+        }) { (finished) in
+            
+        }
+        
     }
     
     override init(frame: CGRect) {
