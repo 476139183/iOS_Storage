@@ -47,11 +47,18 @@ fileprivate class TalkNode: ASDisplayNode {
         return node
     }()
     
+    private lazy var arrowImageNode: ASImageNode = {
+        let node = ASImageNode()
+        node.backgroundColor = .green
+        return node
+    }()
+    
     override func didLoad() {
         backgroundColor = UIColor.colorWithHexString("#F7F7F9")
         addSubnode(imageNode)
         addSubnode(titleNode)
         addSubnode(descNode)
+        addSubnode(arrowImageNode)
     }
     
     override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
@@ -64,7 +71,10 @@ fileprivate class TalkNode: ASDisplayNode {
         descNode.style.preferredSize = .init(width: screenWidth - 78 - 50, height: 13)
         descNode.style.layoutPosition = .init(x: 62, y: 39)
         
-        let layout = ASAbsoluteLayoutSpec.init(children: [imageNode, titleNode, descNode])
+        arrowImageNode.style.preferredSize = .init(width: 14, height: 14)
+        arrowImageNode.style.layoutPosition = .init(x: screenWidth-44-16, y: 26)
+        
+        let layout = ASAbsoluteLayoutSpec.init(children: [imageNode, titleNode, descNode, arrowImageNode])
         
         let insetLayout = ASInsetLayoutSpec.init(insets: .init(top: 0, left: 0, bottom: 12, right: 0), child: layout)
         
