@@ -68,6 +68,7 @@ fileprivate class VoteCellView: UIView {
         titleLabel.snp.makeConstraints { (make) in
             make.center.equalToSuperview()
         }
+        
     }
     
 }

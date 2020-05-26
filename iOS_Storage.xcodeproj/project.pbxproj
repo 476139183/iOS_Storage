@@ -178,6 +178,7 @@
 		D944B6BA245AD6F80077F58B /* SwiftGrammarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944B6B9245AD6F80077F58B /* SwiftGrammarViewController.swift */; };
 		D944B6C0246290B10077F58B /* ClosureReturnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944B6BF246290B10077F58B /* ClosureReturnViewController.swift */; };
 		D944B6C3246290CC0077F58B /* CQBlockReturnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D944B6C2246290CC0077F58B /* CQBlockReturnViewController.m */; };
+		D9458D2E247D108D004DFC55 /* TalkNodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9458D2D247D108D004DFC55 /* TalkNodeViewController.swift */; };
 		D948397D20E255FC00121FB6 /* IphoneListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D948397C20E255FC00121FB6 /* IphoneListCell.m */; };
 		D94B650221537A0900F2FD84 /* CQPlaceholderDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94B650121537A0900F2FD84 /* CQPlaceholderDemoViewController.m */; };
 		D94BCDEA22E9D4BD0080584F /* CQStandardOCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BCDE922E9D4BD0080584F /* CQStandardOCCollectionViewCell.m */; };
@@ -347,6 +348,7 @@
 		D9A0091623725F7B00ECF98F /* JXSegment自定义cell.md in Resources */ = {isa = PBXBuildFile; fileRef = D9A0091523725F7B00ECF98F /* JXSegment自定义cell.md */; };
 		D9A009182372639D00ECF98F /* HomeSegmentedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A009172372639D00ECF98F /* HomeSegmentedDataSource.swift */; };
 		D9A00920237271F400ECF98F /* HomeSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A0091F237271F400ECF98F /* HomeSegmentedCell.swift */; };
+		D9A32B66247D121900295E2F /* TalkCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B65247D121900295E2F /* TalkCellNode.swift */; };
 		D9A39F6E22B4C90900FEA5F5 /* 策略设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9A39F6D22B4C90900FEA5F5 /* 策略设计模式.md */; };
 		D9A39F7522B4D06400FEA5F5 /* 架构模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9A39F7422B4D06400FEA5F5 /* 架构模式.md */; };
 		D9A39F7822B4D2CA00FEA5F5 /* CQMVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F7722B4D2CA00FEA5F5 /* CQMVCViewController.m */; };
@@ -801,6 +803,7 @@
 		D944B6BF246290B10077F58B /* ClosureReturnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureReturnViewController.swift; sourceTree = "<group>"; };
 		D944B6C1246290CC0077F58B /* CQBlockReturnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQBlockReturnViewController.h; sourceTree = "<group>"; };
 		D944B6C2246290CC0077F58B /* CQBlockReturnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBlockReturnViewController.m; sourceTree = "<group>"; };
+		D9458D2D247D108D004DFC55 /* TalkNodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkNodeViewController.swift; sourceTree = "<group>"; };
 		D948397B20E255FC00121FB6 /* IphoneListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneListCell.h; sourceTree = "<group>"; };
 		D948397C20E255FC00121FB6 /* IphoneListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneListCell.m; sourceTree = "<group>"; };
 		D94B650021537A0900F2FD84 /* CQPlaceholderDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQPlaceholderDemoViewController.h; sourceTree = "<group>"; };
@@ -1013,6 +1016,7 @@
 		D9A0091523725F7B00ECF98F /* JXSegment自定义cell.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "JXSegment自定义cell.md"; sourceTree = "<group>"; };
 		D9A009172372639D00ECF98F /* HomeSegmentedDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSegmentedDataSource.swift; sourceTree = "<group>"; };
 		D9A0091F237271F400ECF98F /* HomeSegmentedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSegmentedCell.swift; sourceTree = "<group>"; };
+		D9A32B65247D121900295E2F /* TalkCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkCellNode.swift; sourceTree = "<group>"; };
 		D9A39F6D22B4C90900FEA5F5 /* 策略设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "策略设计模式.md"; sourceTree = "<group>"; };
 		D9A39F7422B4D06400FEA5F5 /* 架构模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "架构模式.md"; sourceTree = "<group>"; };
 		D9A39F7622B4D2CA00FEA5F5 /* CQMVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMVCViewController.h; sourceTree = "<group>"; };
@@ -2440,6 +2444,15 @@
 			path = "Closure里return方法";
 			sourceTree = "<group>";
 		};
+		D9458D2F247D1091004DFC55 /* 话题Node */ = {
+			isa = PBXGroup;
+			children = (
+				D9458D2D247D108D004DFC55 /* TalkNodeViewController.swift */,
+				D9A32B65247D121900295E2F /* TalkCellNode.swift */,
+			);
+			path = "话题Node";
+			sourceTree = "<group>";
+		};
 		D948397620E2557F00121FB6 /* 菜单栏 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3685,6 +3698,7 @@
 				D99B98FB246CF837001E6369 /* TextureTable OC版 */,
 				D9AE922824777C5800B11A74 /* 纯texture tableView */,
 				D9AE922B2477A7D900B11A74 /* 自定义node */,
+				D9458D2F247D1091004DFC55 /* 话题Node */,
 			);
 			path = texture;
 			sourceTree = "<group>";
@@ -5202,6 +5216,7 @@
 				D94F6A8F20FEE337006BCC6B /* CQFilterViewController.m in Sources */,
 				D9E4248D212D4E3900283CFC /* CQSortModel.m in Sources */,
 				D9AE922D2477B51C00B11A74 /* CustomNodeViewController.swift in Sources */,
+				D9458D2E247D108D004DFC55 /* TalkNodeViewController.swift in Sources */,
 				D941B870235F23AB00AEB48E /* JXSegmentedChildController3.swift in Sources */,
 				D90A9B05238FAB2500C84424 /* NestedItemTextureController.swift in Sources */,
 				D9519A0922BFAE6C00E3036B /* Adidas.m in Sources */,
@@ -5355,6 +5370,7 @@
 				D9536EF5244AB55700FD3964 /* TTTLabelViewController3.swift in Sources */,
 				D99B98EF246BA132001E6369 /* MyStackNode.swift in Sources */,
 				D9C5E5E62349AB1A00D101F1 /* CQEasyButton.m in Sources */,
+				D9A32B66247D121900295E2F /* TalkCellNode.swift in Sources */,
 				D9237DCC23FEC8200021F876 /* ChangeViewStateViewController.swift in Sources */,
 				D926BDBB22C33FDF00A2DD3E /* CQBuilderViewController.m in Sources */,
 				D9545B2A229306FE008B6355 /* CQRunloopController.m in Sources */,
