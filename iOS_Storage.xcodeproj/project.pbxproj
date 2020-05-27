@@ -350,6 +350,11 @@
 		D9A00920237271F400ECF98F /* HomeSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A0091F237271F400ECF98F /* HomeSegmentedCell.swift */; };
 		D9A32B66247D121900295E2F /* TalkCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B65247D121900295E2F /* TalkCellNode.swift */; };
 		D9A32B69247E038F00295E2F /* TZImagePickerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B68247E038F00295E2F /* TZImagePickerDemoController.swift */; };
+		D9A32B6C247E66DD00295E2F /* KingfisherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B6B247E66DD00295E2F /* KingfisherListViewController.swift */; };
+		D9A32B72247E68D000295E2F /* KingfisherLoadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B71247E68D000295E2F /* KingfisherLoadImageViewController.swift */; };
+		D9A32B74247E691000295E2F /* KingfisherLoadGifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B73247E691000295E2F /* KingfisherLoadGifViewController.swift */; };
+		D9A32B76247E6A3700295E2F /* KingfisherCornerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B75247E6A3700295E2F /* KingfisherCornerViewController.swift */; };
+		D9A32B78247E6A8C00295E2F /* KingfisherDimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B77247E6A8C00295E2F /* KingfisherDimViewController.swift */; };
 		D9A39F6E22B4C90900FEA5F5 /* 策略设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9A39F6D22B4C90900FEA5F5 /* 策略设计模式.md */; };
 		D9A39F7522B4D06400FEA5F5 /* 架构模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9A39F7422B4D06400FEA5F5 /* 架构模式.md */; };
 		D9A39F7822B4D2CA00FEA5F5 /* CQMVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F7722B4D2CA00FEA5F5 /* CQMVCViewController.m */; };
@@ -1019,6 +1024,11 @@
 		D9A0091F237271F400ECF98F /* HomeSegmentedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSegmentedCell.swift; sourceTree = "<group>"; };
 		D9A32B65247D121900295E2F /* TalkCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkCellNode.swift; sourceTree = "<group>"; };
 		D9A32B68247E038F00295E2F /* TZImagePickerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TZImagePickerDemoController.swift; sourceTree = "<group>"; };
+		D9A32B6B247E66DD00295E2F /* KingfisherListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherListViewController.swift; sourceTree = "<group>"; };
+		D9A32B71247E68D000295E2F /* KingfisherLoadImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherLoadImageViewController.swift; sourceTree = "<group>"; };
+		D9A32B73247E691000295E2F /* KingfisherLoadGifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherLoadGifViewController.swift; sourceTree = "<group>"; };
+		D9A32B75247E6A3700295E2F /* KingfisherCornerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherCornerViewController.swift; sourceTree = "<group>"; };
+		D9A32B77247E6A8C00295E2F /* KingfisherDimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherDimViewController.swift; sourceTree = "<group>"; };
 		D9A39F6D22B4C90900FEA5F5 /* 策略设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "策略设计模式.md"; sourceTree = "<group>"; };
 		D9A39F7422B4D06400FEA5F5 /* 架构模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "架构模式.md"; sourceTree = "<group>"; };
 		D9A39F7622B4D2CA00FEA5F5 /* CQMVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMVCViewController.h; sourceTree = "<group>"; };
@@ -3448,6 +3458,50 @@
 			path = TZImagePickerController;
 			sourceTree = "<group>";
 		};
+		D9A32B6A247E66A000295E2F /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				D9A32B6B247E66DD00295E2F /* KingfisherListViewController.swift */,
+				D9A32B6D247E674700295E2F /* 加载一般图片 */,
+				D9A32B6E247E675F00295E2F /* 加载本地gif和网络gif */,
+				D9A32B6F247E677B00295E2F /* 高斯模糊 */,
+				D9A32B70247E679500295E2F /* 圆角 */,
+			);
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		D9A32B6D247E674700295E2F /* 加载一般图片 */ = {
+			isa = PBXGroup;
+			children = (
+				D9A32B71247E68D000295E2F /* KingfisherLoadImageViewController.swift */,
+			);
+			path = "加载一般图片";
+			sourceTree = "<group>";
+		};
+		D9A32B6E247E675F00295E2F /* 加载本地gif和网络gif */ = {
+			isa = PBXGroup;
+			children = (
+				D9A32B73247E691000295E2F /* KingfisherLoadGifViewController.swift */,
+			);
+			path = "加载本地gif和网络gif";
+			sourceTree = "<group>";
+		};
+		D9A32B6F247E677B00295E2F /* 高斯模糊 */ = {
+			isa = PBXGroup;
+			children = (
+				D9A32B77247E6A8C00295E2F /* KingfisherDimViewController.swift */,
+			);
+			path = "高斯模糊";
+			sourceTree = "<group>";
+		};
+		D9A32B70247E679500295E2F /* 圆角 */ = {
+			isa = PBXGroup;
+			children = (
+				D9A32B75247E6A3700295E2F /* KingfisherCornerViewController.swift */,
+			);
+			path = "圆角";
+			sourceTree = "<group>";
+		};
 		D9A39F6C22B4C85D00FEA5F5 /* 策略模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3759,6 +3813,7 @@
 				D9F7DEFC2449653200A63632 /* TTTAttributedLabel */,
 				D97516862478B5E900D45C92 /* IQKeyboardManager */,
 				D9A32B67247E035E00295E2F /* TZImagePickerController */,
+				D9A32B6A247E66A000295E2F /* Kingfisher */,
 			);
 			path = "三方框架";
 			sourceTree = "<group>";
@@ -5129,6 +5184,7 @@
 				D920ED2022E870A800C5A43F /* LottieViewController.swift in Sources */,
 				D9BF6905233EEF2300E602A4 /* CQGradientControl.m in Sources */,
 				D9F7E00E237013D100BE1285 /* JXImageTitleViewController.swift in Sources */,
+				D9A32B78247E6A8C00295E2F /* KingfisherDimViewController.swift in Sources */,
 				D9146DE62392046C002EA395 /* NestedTableDemoViewController.swift in Sources */,
 				D93AB71B2147BE230024C76E /* CQCarFactory.m in Sources */,
 				D9BF691A233F5F0B00E602A4 /* CQGradientLabel.m in Sources */,
@@ -5243,6 +5299,7 @@
 				D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */,
 				D96773A92400D12500829BCB /* VerticalCollectionViewController.swift in Sources */,
 				D9E86CC52447EE6C009CCBB8 /* PanGestureViewController.swift in Sources */,
+				D9A32B72247E68D000295E2F /* KingfisherLoadImageViewController.swift in Sources */,
 				D9CF66872351C113003002E5 /* RxSwiftBindDemoViewController.swift in Sources */,
 				D9BC6F60238E2E050085E4E0 /* JXPagingListRefreshView.swift in Sources */,
 				D94253172365F00E0031356C /* DelegateTransferViewController.swift in Sources */,
@@ -5288,6 +5345,7 @@
 				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
 				D9BFEAD124581AF200E25133 /* DisplayListViewController.swift in Sources */,
 				D913F93F2109C08200366887 /* CQContentViewController.m in Sources */,
+				D9A32B76247E6A3700295E2F /* KingfisherCornerViewController.swift in Sources */,
 				D9BF690F233F4B2A00E602A4 /* CQGradientOCDemoViewController.m in Sources */,
 				D93B7198245967E10022657C /* ZFNoramlViewController.m in Sources */,
 				D9BF6913233F578900E602A4 /* GradientControl.swift in Sources */,
@@ -5506,6 +5564,7 @@
 				D9AC3CA522AFD281007DDBD0 /* MapNaviViewController.swift in Sources */,
 				D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */,
 				D9BE257E23B870F2001F4D71 /* SimpleTableViewController.swift in Sources */,
+				D9A32B6C247E66DD00295E2F /* KingfisherListViewController.swift in Sources */,
 				D96773AB2400D80500829BCB /* HorizonCollectionViewController2.swift in Sources */,
 				D9608BF4236970350053BD3E /* Constants.swift in Sources */,
 				D9545B3E2293B275008B6355 /* CQRunloopModeController.m in Sources */,
@@ -5525,6 +5584,7 @@
 				D91245D623A90AD800E3775A /* UIScrollViewController.swift in Sources */,
 				D926BDE222C4B5B300A2DD3E /* CQAdapterViewController.m in Sources */,
 				D9B157D1246D2C9C00854606 /* NSAttributedString+Extension.swift in Sources */,
+				D9A32B74247E691000295E2F /* KingfisherLoadGifViewController.swift in Sources */,
 				D92769F0236AE88700A6D846 /* PlaceholderViewController.swift in Sources */,
 				D9146DE8239213B5002EA395 /* GestureMainScrollView.swift in Sources */,
 				D92CBD7923F7A685003A6EDC /* AlamofireDownloadViewController.swift in Sources */,
