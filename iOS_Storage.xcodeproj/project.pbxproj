@@ -355,6 +355,7 @@
 		D9A32B74247E691000295E2F /* KingfisherLoadGifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B73247E691000295E2F /* KingfisherLoadGifViewController.swift */; };
 		D9A32B76247E6A3700295E2F /* KingfisherCornerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B75247E6A3700295E2F /* KingfisherCornerViewController.swift */; };
 		D9A32B78247E6A8C00295E2F /* KingfisherDimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B77247E6A8C00295E2F /* KingfisherDimViewController.swift */; };
+		D9A32B7B247F503000295E2F /* StrengthModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B7A247F503000295E2F /* StrengthModuleViewController.swift */; };
 		D9A39F6E22B4C90900FEA5F5 /* 策略设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9A39F6D22B4C90900FEA5F5 /* 策略设计模式.md */; };
 		D9A39F7522B4D06400FEA5F5 /* 架构模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9A39F7422B4D06400FEA5F5 /* 架构模式.md */; };
 		D9A39F7822B4D2CA00FEA5F5 /* CQMVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F7722B4D2CA00FEA5F5 /* CQMVCViewController.m */; };
@@ -1029,6 +1030,7 @@
 		D9A32B73247E691000295E2F /* KingfisherLoadGifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherLoadGifViewController.swift; sourceTree = "<group>"; };
 		D9A32B75247E6A3700295E2F /* KingfisherCornerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherCornerViewController.swift; sourceTree = "<group>"; };
 		D9A32B77247E6A8C00295E2F /* KingfisherDimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherDimViewController.swift; sourceTree = "<group>"; };
+		D9A32B7A247F503000295E2F /* StrengthModuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthModuleViewController.swift; sourceTree = "<group>"; };
 		D9A39F6D22B4C90900FEA5F5 /* 策略设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "策略设计模式.md"; sourceTree = "<group>"; };
 		D9A39F7422B4D06400FEA5F5 /* 架构模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "架构模式.md"; sourceTree = "<group>"; };
 		D9A39F7622B4D2CA00FEA5F5 /* CQMVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMVCViewController.h; sourceTree = "<group>"; };
@@ -3089,6 +3091,7 @@
 				D96F416023BEE074008616F4 /* ElegantSwiftViewController.swift */,
 				D92BB284246908A7008610DB /* 优雅的通知 */,
 				D92BB28924694F5B008610DB /* 优雅的结构体 */,
+				D9A32B79247F4F2400295E2F /* 加强代码内聚度 */,
 			);
 			path = "优雅的Swift";
 			sourceTree = "<group>";
@@ -3500,6 +3503,14 @@
 				D9A32B75247E6A3700295E2F /* KingfisherCornerViewController.swift */,
 			);
 			path = "圆角";
+			sourceTree = "<group>";
+		};
+		D9A32B79247F4F2400295E2F /* 加强代码内聚度 */ = {
+			isa = PBXGroup;
+			children = (
+				D9A32B7A247F503000295E2F /* StrengthModuleViewController.swift */,
+			);
+			path = "加强代码内聚度";
 			sourceTree = "<group>";
 		};
 		D9A39F6C22B4C85D00FEA5F5 /* 策略模式 */ = {
@@ -5473,6 +5484,7 @@
 				D96778BC23A13CEF00D19554 /* PullDownLargeViewController.swift in Sources */,
 				D9519A0022BF2FE700E3036B /* AdidasFactory.m in Sources */,
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
+				D9A32B7B247F503000295E2F /* StrengthModuleViewController.swift in Sources */,
 				D9C7CC0122E992130038FD34 /* StandardSwiftTableViewViewController.swift in Sources */,
 				D9FF65D9212AC39800B06371 /* CQTimerModel.m in Sources */,
 				D9C74FE924727CD900ACE269 /* SimpleDataDriveViewController.swift in Sources */,

@@ -16,7 +16,8 @@ class ElegantSwiftViewController: JumpListViewController {
         // Do any additional setup after loading the view.
         
         self.dataArray = [ItemModel(title: "优雅的通知", targetVC: ElegantNotifViewController()),
-                          ItemModel(title: "优雅的结构体", targetVC: ElegantStructViewController())]
+                          ItemModel(title: "优雅的结构体", targetVC: ElegantStructViewController()),
+                          ItemModel(title: "加强代码内聚度", targetVC: StrengthModuleViewController())]
         
     }
 
