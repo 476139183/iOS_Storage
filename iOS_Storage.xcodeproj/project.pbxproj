@@ -356,6 +356,11 @@
 		D9A32B76247E6A3700295E2F /* KingfisherCornerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B75247E6A3700295E2F /* KingfisherCornerViewController.swift */; };
 		D9A32B78247E6A8C00295E2F /* KingfisherDimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B77247E6A8C00295E2F /* KingfisherDimViewController.swift */; };
 		D9A32B7B247F503000295E2F /* StrengthModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B7A247F503000295E2F /* StrengthModuleViewController.swift */; };
+		D9A32B7E247F67ED00295E2F /* EleganceDocuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B7D247F67ED00295E2F /* EleganceDocuViewController.swift */; };
+		D9A32B81247FAE9400295E2F /* KingfisherHighResolutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B80247FAE9400295E2F /* KingfisherHighResolutionViewController.swift */; };
+		D9A32B872480ADDB00295E2F /* BlurEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B852480ADDB00295E2F /* BlurEffectViewController.swift */; };
+		D9A32B882480ADDB00295E2F /* BlurEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9A32B862480ADDB00295E2F /* BlurEffectViewController.xib */; };
+		D9A32B8A2480AE1A00295E2F /* ShadowCornerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B892480AE1A00295E2F /* ShadowCornerListViewController.swift */; };
 		D9A39F6E22B4C90900FEA5F5 /* 策略设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9A39F6D22B4C90900FEA5F5 /* 策略设计模式.md */; };
 		D9A39F7522B4D06400FEA5F5 /* 架构模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9A39F7422B4D06400FEA5F5 /* 架构模式.md */; };
 		D9A39F7822B4D2CA00FEA5F5 /* CQMVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F7722B4D2CA00FEA5F5 /* CQMVCViewController.m */; };
@@ -1031,6 +1036,11 @@
 		D9A32B75247E6A3700295E2F /* KingfisherCornerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherCornerViewController.swift; sourceTree = "<group>"; };
 		D9A32B77247E6A8C00295E2F /* KingfisherDimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherDimViewController.swift; sourceTree = "<group>"; };
 		D9A32B7A247F503000295E2F /* StrengthModuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthModuleViewController.swift; sourceTree = "<group>"; };
+		D9A32B7D247F67ED00295E2F /* EleganceDocuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EleganceDocuViewController.swift; sourceTree = "<group>"; };
+		D9A32B80247FAE9400295E2F /* KingfisherHighResolutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherHighResolutionViewController.swift; sourceTree = "<group>"; };
+		D9A32B852480ADDB00295E2F /* BlurEffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectViewController.swift; sourceTree = "<group>"; };
+		D9A32B862480ADDB00295E2F /* BlurEffectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlurEffectViewController.xib; sourceTree = "<group>"; };
+		D9A32B892480AE1A00295E2F /* ShadowCornerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowCornerListViewController.swift; sourceTree = "<group>"; };
 		D9A39F6D22B4C90900FEA5F5 /* 策略设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "策略设计模式.md"; sourceTree = "<group>"; };
 		D9A39F7422B4D06400FEA5F5 /* 架构模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "架构模式.md"; sourceTree = "<group>"; };
 		D9A39F7622B4D2CA00FEA5F5 /* CQMVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMVCViewController.h; sourceTree = "<group>"; };
@@ -2253,7 +2263,7 @@
 				D9ED81DE2458087C00726E49 /* 要优雅 */,
 				D9700D71245ED84F00168FE0 /* UIKit相关 */,
 				D941A123245EDD2200844787 /* WebView */,
-				D9F523082362D23300ABBEF7 /* 圆角和阴影 */,
+				D9F523082362D23300ABBEF7 /* 圆角、阴影与模糊 */,
 				D94253192366D2EA0031356C /* 各种动画 */,
 				D982964923976966001C05AE /* 各种跳转 */,
 				D92CBD6C23F78A8E003A6EDC /* 各种字体 */,
@@ -3092,6 +3102,7 @@
 				D92BB284246908A7008610DB /* 优雅的通知 */,
 				D92BB28924694F5B008610DB /* 优雅的结构体 */,
 				D9A32B79247F4F2400295E2F /* 加强代码内聚度 */,
+				D9A32B7C247F654D00295E2F /* 优雅的注释 */,
 			);
 			path = "优雅的Swift";
 			sourceTree = "<group>";
@@ -3469,6 +3480,7 @@
 				D9A32B6E247E675F00295E2F /* 加载本地gif和网络gif */,
 				D9A32B6F247E677B00295E2F /* 高斯模糊 */,
 				D9A32B70247E679500295E2F /* 圆角 */,
+				D9A32B7F247FAD9B00295E2F /* 加载高分辨率图片 */,
 			);
 			path = Kingfisher;
 			sourceTree = "<group>";
@@ -3511,6 +3523,43 @@
 				D9A32B7A247F503000295E2F /* StrengthModuleViewController.swift */,
 			);
 			path = "加强代码内聚度";
+			sourceTree = "<group>";
+		};
+		D9A32B7C247F654D00295E2F /* 优雅的注释 */ = {
+			isa = PBXGroup;
+			children = (
+				D9A32B7D247F67ED00295E2F /* EleganceDocuViewController.swift */,
+			);
+			path = "优雅的注释";
+			sourceTree = "<group>";
+		};
+		D9A32B7F247FAD9B00295E2F /* 加载高分辨率图片 */ = {
+			isa = PBXGroup;
+			children = (
+				D9A32B80247FAE9400295E2F /* KingfisherHighResolutionViewController.swift */,
+			);
+			path = "加载高分辨率图片";
+			sourceTree = "<group>";
+		};
+		D9A32B822480ACF700295E2F /* 毛玻璃 */ = {
+			isa = PBXGroup;
+			children = (
+				D9A32B852480ADDB00295E2F /* BlurEffectViewController.swift */,
+				D9A32B862480ADDB00295E2F /* BlurEffectViewController.xib */,
+			);
+			path = "毛玻璃";
+			sourceTree = "<group>";
+		};
+		D9A32B8B2480AE2600295E2F /* 圆角和阴影 */ = {
+			isa = PBXGroup;
+			children = (
+				D9F523092362DCB000ABBEF7 /* CornerAndShadowViewController.swift */,
+				D9D56B0323B488C9005EEA9A /* CQShadowView.h */,
+				D9D56B0423B488C9005EEA9A /* CQShadowView.m */,
+				D9D56B0623B490C3005EEA9A /* CQShadowImageView.h */,
+				D9D56B0723B490C3005EEA9A /* CQShadowImageView.m */,
+			);
+			path = "圆角和阴影";
 			sourceTree = "<group>";
 		};
 		D9A39F6C22B4C85D00FEA5F5 /* 策略模式 */ = {
@@ -4650,16 +4699,14 @@
 			path = GCD;
 			sourceTree = "<group>";
 		};
-		D9F523082362D23300ABBEF7 /* 圆角和阴影 */ = {
+		D9F523082362D23300ABBEF7 /* 圆角、阴影与模糊 */ = {
 			isa = PBXGroup;
 			children = (
-				D9F523092362DCB000ABBEF7 /* CornerAndShadowViewController.swift */,
-				D9D56B0323B488C9005EEA9A /* CQShadowView.h */,
-				D9D56B0423B488C9005EEA9A /* CQShadowView.m */,
-				D9D56B0623B490C3005EEA9A /* CQShadowImageView.h */,
-				D9D56B0723B490C3005EEA9A /* CQShadowImageView.m */,
+				D9A32B892480AE1A00295E2F /* ShadowCornerListViewController.swift */,
+				D9A32B8B2480AE2600295E2F /* 圆角和阴影 */,
+				D9A32B822480ACF700295E2F /* 毛玻璃 */,
 			);
-			path = "圆角和阴影";
+			path = "圆角、阴影与模糊";
 			sourceTree = "<group>";
 		};
 		D9F72DD9243D836A007BBB05 /* 图片压缩 */ = {
@@ -4991,6 +5038,7 @@
 				D9CFC805229CCA0F009B8399 /* 消息发送.md in Resources */,
 				D9CFC807229CCAB7009B8399 /* 消息转发.md in Resources */,
 				D926BDBE22C349B100A2DD3E /* 观察者模式.md in Resources */,
+				D9A32B882480ADDB00295E2F /* BlurEffectViewController.xib in Resources */,
 				D926BDB222C2F52B00A2DD3E /* 外观模式.md in Resources */,
 				D9C7021122EB546300DDC44F /* RxSwiftDemo.md in Resources */,
 				D9B2FDED233314EA00755653 /* cache.md in Resources */,
@@ -5204,10 +5252,12 @@
 				D9E21A8B210FF91100407599 /* CQClassClusterCellB.m in Sources */,
 				D9BC6F61238E2E050085E4E0 /* JXPagingListContainerView.swift in Sources */,
 				D93EFF3E2359B40F0028A730 /* StoreAnnotation.swift in Sources */,
+				D9A32B872480ADDB00295E2F /* BlurEffectViewController.swift in Sources */,
 				D90D9FB4233219680007C25C /* CQFPSCell.m in Sources */,
 				D926BDEC22C5ECC100A2DD3E /* CQMementoViewController.m in Sources */,
 				D91A9F8E22B49B36008F87F1 /* CQRecognitionViewController.m in Sources */,
 				D9519A1022BFB41000E3036B /* CQPrototypeViewController.m in Sources */,
+				D9A32B8A2480AE1A00295E2F /* ShadowCornerListViewController.swift in Sources */,
 				D9A39F8122B4D30200FEA5F5 /* CQVIPERViewController.m in Sources */,
 				D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */,
 				D9BE258E23B88B7E001F4D71 /* PersonCellModel.swift in Sources */,
@@ -5274,6 +5324,7 @@
 				D9C5B448233D967500299AFB /* MyCellNode5.swift in Sources */,
 				D9E86CCB2447EF5C009CCBB8 /* ScreenEdgePanGestureViewController.swift in Sources */,
 				D9E86CC12447EE33009CCBB8 /* LongPressGestureViewController.swift in Sources */,
+				D9A32B81247FAE9400295E2F /* KingfisherHighResolutionViewController.swift in Sources */,
 				D91FD953236A97EE00376D59 /* UIView+FrameHelper.swift in Sources */,
 				D96773B12400EEC900829BCB /* UIFont+Extension.swift in Sources */,
 				D9B563F420E240F2001AE9A0 /* CQIphoneViewController.m in Sources */,
@@ -5300,6 +5351,7 @@
 				D941B870235F23AB00AEB48E /* JXSegmentedChildController3.swift in Sources */,
 				D90A9B05238FAB2500C84424 /* NestedItemTextureController.swift in Sources */,
 				D9519A0922BFAE6C00E3036B /* Adidas.m in Sources */,
+				D9A32B7E247F67ED00295E2F /* EleganceDocuViewController.swift in Sources */,
 				D9A65EED235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift in Sources */,
 				D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */,
 				D9C0EFBD23A0A29B0053EEAC /* GradientNaviViewController.swift in Sources */,
@@ -5752,7 +5804,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4J5JWPJ294;
@@ -5776,7 +5828,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4J5JWPJ294;

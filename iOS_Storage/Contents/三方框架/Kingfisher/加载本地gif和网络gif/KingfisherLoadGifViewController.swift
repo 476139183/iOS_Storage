@@ -9,10 +9,22 @@
 import UIKit
 
 class KingfisherLoadGifViewController: CQBaseViewController {
+    
+    private lazy var localGifImageView: UIImageView = {
+        let imageView = UIImageView()
+        
+        return imageView
+    }()
+    
+    private lazy var webGifImageView: UIImageView = {
+        let imageView = UIImageView()
+        
+        return imageView
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 

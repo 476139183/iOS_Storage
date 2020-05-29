@@ -51,6 +51,8 @@ class IQKeyboardManagerViewController2: CQBaseViewController {
         super.viewWillAppear(animated)
         
         IQKeyboardManager.shared.enable = true
+        // 禁用它的工具栏
+        IQKeyboardManager.shared.enableAutoToolbar = false
     }
     
     override func viewWillDisappear(_ animated: Bool) {

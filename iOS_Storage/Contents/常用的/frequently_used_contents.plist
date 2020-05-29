@@ -44,9 +44,9 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>圆角和阴影</string>
+		<string>圆角、阴影与模糊</string>
 		<key>controller_name</key>
-		<string>CornerAndShadowViewController</string>
+		<string>ShadowCornerListViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>
