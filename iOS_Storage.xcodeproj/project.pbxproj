@@ -231,6 +231,8 @@
 		D95A3D972480C2C500F0166C /* BlurEffectViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3D962480C2C500F0166C /* BlurEffectViewController2.swift */; };
 		D95A3D9C2480DF7700F0166C /* BlurEffectListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3D9B2480DF7700F0166C /* BlurEffectListViewController.swift */; };
 		D95A3D9F2480E2A500F0166C /* UILabelDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3D9E2480E2A500F0166C /* UILabelDemosViewController.swift */; };
+		D95A3DA22480F32300F0166C /* KingfisherLoadGifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DA02480F32300F0166C /* KingfisherLoadGifViewController.swift */; };
+		D95A3DA32480F32300F0166C /* KingfisherLoadGifViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95A3DA12480F32300F0166C /* KingfisherLoadGifViewController.xib */; };
 		D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */; };
 		D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */; };
 		D9608BF4236970350053BD3E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF3236970350053BD3E /* Constants.swift */; };
@@ -355,7 +357,6 @@
 		D9A32B69247E038F00295E2F /* TZImagePickerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B68247E038F00295E2F /* TZImagePickerDemoController.swift */; };
 		D9A32B6C247E66DD00295E2F /* KingfisherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B6B247E66DD00295E2F /* KingfisherListViewController.swift */; };
 		D9A32B72247E68D000295E2F /* KingfisherLoadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B71247E68D000295E2F /* KingfisherLoadImageViewController.swift */; };
-		D9A32B74247E691000295E2F /* KingfisherLoadGifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B73247E691000295E2F /* KingfisherLoadGifViewController.swift */; };
 		D9A32B76247E6A3700295E2F /* KingfisherCornerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B75247E6A3700295E2F /* KingfisherCornerViewController.swift */; };
 		D9A32B78247E6A8C00295E2F /* KingfisherDimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B77247E6A8C00295E2F /* KingfisherDimViewController.swift */; };
 		D9A32B7B247F503000295E2F /* StrengthModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A32B7A247F503000295E2F /* StrengthModuleViewController.swift */; };
@@ -903,6 +904,8 @@
 		D95A3D962480C2C500F0166C /* BlurEffectViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectViewController2.swift; sourceTree = "<group>"; };
 		D95A3D9B2480DF7700F0166C /* BlurEffectListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectListViewController.swift; sourceTree = "<group>"; };
 		D95A3D9E2480E2A500F0166C /* UILabelDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelDemosViewController.swift; sourceTree = "<group>"; };
+		D95A3DA02480F32300F0166C /* KingfisherLoadGifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherLoadGifViewController.swift; sourceTree = "<group>"; };
+		D95A3DA12480F32300F0166C /* KingfisherLoadGifViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KingfisherLoadGifViewController.xib; sourceTree = "<group>"; };
 		D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureNodeDemoViewController.swift; sourceTree = "<group>"; };
 		D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAreaTestViewController.swift; sourceTree = "<group>"; };
 		D9608BF3236970350053BD3E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -1038,7 +1041,6 @@
 		D9A32B68247E038F00295E2F /* TZImagePickerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TZImagePickerDemoController.swift; sourceTree = "<group>"; };
 		D9A32B6B247E66DD00295E2F /* KingfisherListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherListViewController.swift; sourceTree = "<group>"; };
 		D9A32B71247E68D000295E2F /* KingfisherLoadImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherLoadImageViewController.swift; sourceTree = "<group>"; };
-		D9A32B73247E691000295E2F /* KingfisherLoadGifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherLoadGifViewController.swift; sourceTree = "<group>"; };
 		D9A32B75247E6A3700295E2F /* KingfisherCornerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherCornerViewController.swift; sourceTree = "<group>"; };
 		D9A32B77247E6A8C00295E2F /* KingfisherDimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherDimViewController.swift; sourceTree = "<group>"; };
 		D9A32B7A247F503000295E2F /* StrengthModuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthModuleViewController.swift; sourceTree = "<group>"; };
@@ -3543,7 +3545,8 @@
 		D9A32B6E247E675F00295E2F /* 加载本地gif和网络gif */ = {
 			isa = PBXGroup;
 			children = (
-				D9A32B73247E691000295E2F /* KingfisherLoadGifViewController.swift */,
+				D95A3DA02480F32300F0166C /* KingfisherLoadGifViewController.swift */,
+				D95A3DA12480F32300F0166C /* KingfisherLoadGifViewController.xib */,
 			);
 			path = "加载本地gif和网络gif";
 			sourceTree = "<group>";
@@ -5020,6 +5023,7 @@
 				D9A39F6E22B4C90900FEA5F5 /* 策略设计模式.md in Resources */,
 				D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */,
 				D985E42323FD08B500CF7954 /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
+				D95A3DA32480F32300F0166C /* KingfisherLoadGifViewController.xib in Resources */,
 				D96FE2BD23960E0500949006 /* ASDisplayNode.md in Resources */,
 				D9BE258223B87B48001F4D71 /* 同种model多种cell的tableView.md in Resources */,
 				D985E41B23FD08B500CF7954 /* SF-Pro-Text-Regular.otf in Resources */,
@@ -5462,6 +5466,7 @@
 				D9BF690F233F4B2A00E602A4 /* CQGradientOCDemoViewController.m in Sources */,
 				D93B7198245967E10022657C /* ZFNoramlViewController.m in Sources */,
 				D9BF6913233F578900E602A4 /* GradientControl.swift in Sources */,
+				D95A3DA22480F32300F0166C /* KingfisherLoadGifViewController.swift in Sources */,
 				D9BC6F65238E58CD0085E4E0 /* NestedItemTableView.swift in Sources */,
 				D95A3D9F2480E2A500F0166C /* UILabelDemosViewController.swift in Sources */,
 				D9519A0622BFAE5D00E3036B /* Nick.m in Sources */,
@@ -5700,7 +5705,6 @@
 				D91245D623A90AD800E3775A /* UIScrollViewController.swift in Sources */,
 				D926BDE222C4B5B300A2DD3E /* CQAdapterViewController.m in Sources */,
 				D9B157D1246D2C9C00854606 /* NSAttributedString+Extension.swift in Sources */,
-				D9A32B74247E691000295E2F /* KingfisherLoadGifViewController.swift in Sources */,
 				D92769F0236AE88700A6D846 /* PlaceholderViewController.swift in Sources */,
 				D9146DE8239213B5002EA395 /* GestureMainScrollView.swift in Sources */,
 				D92CBD7923F7A685003A6EDC /* AlamofireDownloadViewController.swift in Sources */,

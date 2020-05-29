@@ -18,7 +18,8 @@ class KingfisherListViewController: JumpListViewController {
         self.dataArray = [ItemModel(title: "加载一般图片", targetVC: KingfisherLoadImageViewController()),
                           ItemModel(title: "加载本地gif与网络gif", targetVC: KingfisherLoadGifViewController()),
                           ItemModel(title: "高斯模糊", targetVC: KingfisherDimViewController()),
-                          ItemModel(title: "圆角", targetVC: KingfisherCornerViewController())]
+                          ItemModel(title: "圆角", targetVC: KingfisherCornerViewController()),
+                          ItemModel(title: "加载大图", targetVC: KingfisherHighResolutionViewController())]
         
     }
 
