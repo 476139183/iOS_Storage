@@ -24,6 +24,9 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="29" id="scJ-Vv-2mH"/>
                     </constraints>
+                    <connections>
+                        <action selector="alphaChanged:" destination="-1" eventType="valueChanged" id="ggv-Gg-5ej"/>
+                    </connections>
                 </slider>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iu_header" translatesAutoresizingMaskIntoConstraints="NO" id="3c7-wf-MT5">
                     <rect key="frame" x="30" y="89" width="354" height="234"/>
@@ -36,6 +39,9 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="29" id="IjE-zx-yiy"/>
                     </constraints>
+                    <connections>
+                        <action selector="blurChanged:" destination="-1" eventType="valueChanged" id="N1o-Bq-Joi"/>
+                    </connections>
                 </slider>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="模糊度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdw-GS-wWc">
                     <rect key="frame" x="30" y="464" width="52" height="21"/>
@@ -55,10 +61,10 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EQs-R4-hrD">
+                <view alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EQs-R4-hrD" customClass="UIVisualEffectView">
                     <rect key="frame" x="30" y="96" width="354" height="221"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

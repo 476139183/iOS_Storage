@@ -10,16 +10,24 @@ import UIKit
 
 class BlurEffectViewController: CQBaseViewController {
     
-    @IBOutlet weak var blurView: UIView!
+    @IBOutlet weak var blurView: UIVisualEffectView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        let blurEffect = UIBlurEffect.init(style: .light)
+        blurView.effect = blurEffect
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        blurView.backgroundColor = .red
+    @IBAction func alphaChanged(_ sender: UISlider) {
+        blurView.alpha = CGFloat(sender.value)
     }
-
+    
+    @IBAction func blurChanged(_ sender: UISlider) {
+        
+    }
+    
+    
 }

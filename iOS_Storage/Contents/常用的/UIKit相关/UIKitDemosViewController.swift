@@ -15,7 +15,8 @@ class UIKitDemosViewController: JumpListViewController {
 
         // Do any additional setup after loading the view.
         
-        self.dataArray = [ItemModel.init(title: "UIButton", targetVC: UIButtonDemosViewController()),
+        self.dataArray = [ItemModel.init(title: "UILabel", targetVC: UILabelDemosViewController()),
+                          ItemModel.init(title: "UIButton", targetVC: UIButtonDemosViewController()),
                           ItemModel.init(title: "UITableView", targetVC: TableViewDemosViewController()),
                           ItemModel.init(title: "UICollectionView", targetVC: CollectionViewDemosViewController()),
                           ItemModel.init(title: "UIScrollView", targetVC: UIScrollViewController()),

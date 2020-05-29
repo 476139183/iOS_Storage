@@ -7,7 +7,8 @@
 //
 
 #import "CQBaseViewController.h"
+#import "CQDetailViewController.h"
 
-@interface CQChartController : CQBaseViewController
+@interface CQChartController : CQDetailViewController
 
 @end

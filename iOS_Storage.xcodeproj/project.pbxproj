@@ -228,6 +228,9 @@
 		D95885C224529B2A00CD9FDD /* PictureInPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95885C124529B2A00CD9FDD /* PictureInPictureViewController.swift */; };
 		D95885C52452BE1700CD9FDD /* CQBaseNaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D95885C42452BE1700CD9FDD /* CQBaseNaviBar.m */; };
 		D95885C82453C97100CD9FDD /* TableViewDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95885C72453C97100CD9FDD /* TableViewDemosViewController.swift */; };
+		D95A3D972480C2C500F0166C /* BlurEffectViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3D962480C2C500F0166C /* BlurEffectViewController2.swift */; };
+		D95A3D9C2480DF7700F0166C /* BlurEffectListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3D9B2480DF7700F0166C /* BlurEffectListViewController.swift */; };
+		D95A3D9F2480E2A500F0166C /* UILabelDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3D9E2480E2A500F0166C /* UILabelDemosViewController.swift */; };
 		D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */; };
 		D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */; };
 		D9608BF4236970350053BD3E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF3236970350053BD3E /* Constants.swift */; };
@@ -897,6 +900,9 @@
 		D95885C32452BE1700CD9FDD /* CQBaseNaviBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQBaseNaviBar.h; sourceTree = "<group>"; };
 		D95885C42452BE1700CD9FDD /* CQBaseNaviBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQBaseNaviBar.m; sourceTree = "<group>"; };
 		D95885C72453C97100CD9FDD /* TableViewDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDemosViewController.swift; sourceTree = "<group>"; };
+		D95A3D962480C2C500F0166C /* BlurEffectViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectViewController2.swift; sourceTree = "<group>"; };
+		D95A3D9B2480DF7700F0166C /* BlurEffectListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectListViewController.swift; sourceTree = "<group>"; };
+		D95A3D9E2480E2A500F0166C /* UILabelDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelDemosViewController.swift; sourceTree = "<group>"; };
 		D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureNodeDemoViewController.swift; sourceTree = "<group>"; };
 		D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAreaTestViewController.swift; sourceTree = "<group>"; };
 		D9608BF3236970350053BD3E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -2099,7 +2105,6 @@
 				D920CE8622B37DE2000962C0 /* 权限检测 */,
 				D91A9F7622B3D801008F87F1 /* 一个很6的倒计时button */,
 				D91A9F8222B490BB008F87F1 /* logo商标识别 */,
-				D91E1D1E233E4D4700B1C772 /* 颜色渐变view */,
 				D9C5E5DB234881A700D101F1 /* 好用的button */,
 				D904C510234C8218002DD939 /* 弹出菜单按钮 */,
 				D97D50FC2350A0CB00A0F570 /* 交易发布规则view */,
@@ -2171,15 +2176,12 @@
 			isa = PBXGroup;
 			children = (
 				D94BF43E20E4B6420012C370 /* demo_contents.plist */,
-				D9E9F4E020E2312900C3090D /* 不规格label */,
 				D91E20BE20E10CAF00EBC74B /* 菜单栏+下拉列表 */,
 				D9DDA7C320E481E5008BD029 /* 多种layout的collectionView */,
 				D9920CBB20E6375E00F328F9 /* 带警示效果的textField */,
-				D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */,
 				D94F6A8820FEDCD9006BCC6B /* 模态Controller弹窗 */,
 				D98925D42106C96A001B2377 /* 主题切换 */,
 				D90C4E7521097C2800C48E72 /* CATransition动画 */,
-				D92D305E216B3C7200B57A2D /* 水波动画 */,
 				D9547859230667CE003E0ADA /* 检测controller是否释放 */,
 				D916DA2723A24AB100CB0CFA /* 检测view是否释放 */,
 				D90D9FAC233217A10007C25C /* 计算帧率 */,
@@ -2263,7 +2265,7 @@
 				D9ED81DE2458087C00726E49 /* 要优雅 */,
 				D9700D71245ED84F00168FE0 /* UIKit相关 */,
 				D941A123245EDD2200844787 /* WebView */,
-				D9F523082362D23300ABBEF7 /* 圆角、阴影与模糊 */,
+				D9F523082362D23300ABBEF7 /* 圆角、阴影、渐变与模糊 */,
 				D94253192366D2EA0031356C /* 各种动画 */,
 				D982964923976966001C05AE /* 各种跳转 */,
 				D92CBD6C23F78A8E003A6EDC /* 各种字体 */,
@@ -2396,6 +2398,7 @@
 				D942531C2366D5720031356C /* tableView动画 */,
 				D9C2AA9D2369275800EBB9E1 /* UIView动画 */,
 				D9E30C3A236D61E60042BC74 /* 播放动图 */,
+				D92D305E216B3C7200B57A2D /* 水波动画 */,
 			);
 			path = "各种动画";
 			sourceTree = "<group>";
@@ -2908,8 +2911,51 @@
 				D91F97E8245A81D800865DEA /* 数据驱动的tableView */,
 				D9C0EFBB23A0A20D0053EEAC /* 导航栏渐变tableView */,
 				D9FF65D0212AC09F00B06371 /* 含timer的cell */,
+				D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */,
 			);
 			path = TableViewDemos;
+			sourceTree = "<group>";
+		};
+		D95A3D952480C25500F0166C /* 毛玻璃（纯代码） */ = {
+			isa = PBXGroup;
+			children = (
+				D95A3D962480C2C500F0166C /* BlurEffectViewController2.swift */,
+			);
+			path = "毛玻璃（纯代码）";
+			sourceTree = "<group>";
+		};
+		D95A3D982480C67400F0166C /* 阴影 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "阴影";
+			sourceTree = "<group>";
+		};
+		D95A3D992480C68000F0166C /* 渐变 */ = {
+			isa = PBXGroup;
+			children = (
+				D91E1D1E233E4D4700B1C772 /* 颜色渐变view */,
+			);
+			path = "渐变";
+			sourceTree = "<group>";
+		};
+		D95A3D9A2480C6C500F0166C /* 模糊 */ = {
+			isa = PBXGroup;
+			children = (
+				D95A3D9B2480DF7700F0166C /* BlurEffectListViewController.swift */,
+				D9A32B822480ACF700295E2F /* 毛玻璃（xib） */,
+				D95A3D952480C25500F0166C /* 毛玻璃（纯代码） */,
+			);
+			path = "模糊";
+			sourceTree = "<group>";
+		};
+		D95A3D9D2480E27500F0166C /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				D95A3D9E2480E2A500F0166C /* UILabelDemosViewController.swift */,
+				D9E9F4E020E2312900C3090D /* 不规格label */,
+			);
+			path = UILabel;
 			sourceTree = "<group>";
 		};
 		D95B2F3D239289F6006F2FE2 /* Texture的各种node */ = {
@@ -3127,6 +3173,7 @@
 			isa = PBXGroup;
 			children = (
 				D9700D72245ED8A900168FE0 /* UIKitDemosViewController.swift */,
+				D95A3D9D2480E27500F0166C /* UILabel */,
 				D941A126245EE18D00844787 /* UIButton */,
 				D95885C62453C91C00CD9FDD /* TableViewDemos */,
 				D90C33FB2453CB2F00BB9D29 /* CollectionViewDemos */,
@@ -3541,16 +3588,16 @@
 			path = "加载高分辨率图片";
 			sourceTree = "<group>";
 		};
-		D9A32B822480ACF700295E2F /* 毛玻璃 */ = {
+		D9A32B822480ACF700295E2F /* 毛玻璃（xib） */ = {
 			isa = PBXGroup;
 			children = (
 				D9A32B852480ADDB00295E2F /* BlurEffectViewController.swift */,
 				D9A32B862480ADDB00295E2F /* BlurEffectViewController.xib */,
 			);
-			path = "毛玻璃";
+			path = "毛玻璃（xib）";
 			sourceTree = "<group>";
 		};
-		D9A32B8B2480AE2600295E2F /* 圆角和阴影 */ = {
+		D9A32B8B2480AE2600295E2F /* 圆角 */ = {
 			isa = PBXGroup;
 			children = (
 				D9F523092362DCB000ABBEF7 /* CornerAndShadowViewController.swift */,
@@ -3559,7 +3606,7 @@
 				D9D56B0623B490C3005EEA9A /* CQShadowImageView.h */,
 				D9D56B0723B490C3005EEA9A /* CQShadowImageView.m */,
 			);
-			path = "圆角和阴影";
+			path = "圆角";
 			sourceTree = "<group>";
 		};
 		D9A39F6C22B4C85D00FEA5F5 /* 策略模式 */ = {
@@ -4699,14 +4746,16 @@
 			path = GCD;
 			sourceTree = "<group>";
 		};
-		D9F523082362D23300ABBEF7 /* 圆角、阴影与模糊 */ = {
+		D9F523082362D23300ABBEF7 /* 圆角、阴影、渐变与模糊 */ = {
 			isa = PBXGroup;
 			children = (
 				D9A32B892480AE1A00295E2F /* ShadowCornerListViewController.swift */,
-				D9A32B8B2480AE2600295E2F /* 圆角和阴影 */,
-				D9A32B822480ACF700295E2F /* 毛玻璃 */,
+				D9A32B8B2480AE2600295E2F /* 圆角 */,
+				D95A3D982480C67400F0166C /* 阴影 */,
+				D95A3D992480C68000F0166C /* 渐变 */,
+				D95A3D9A2480C6C500F0166C /* 模糊 */,
 			);
-			path = "圆角、阴影与模糊";
+			path = "圆角、阴影、渐变与模糊";
 			sourceTree = "<group>";
 		};
 		D9F72DD9243D836A007BBB05 /* 图片压缩 */ = {
@@ -5403,6 +5452,7 @@
 				D98E8EEA24767F1500A2D01A /* GradientDemoViewController.swift in Sources */,
 				D9AEB68622F6A96B006F8995 /* CQMVVMModel.m in Sources */,
 				D9B6314423BB328D003D95D9 /* HandleTableViewController.swift in Sources */,
+				D95A3D972480C2C500F0166C /* BlurEffectViewController2.swift in Sources */,
 				D99B98F6246CEE82001E6369 /* TextureTableDemo3Controller.swift in Sources */,
 				D9AEB65622F56747006F8995 /* AlamofireDemoViewController.swift in Sources */,
 				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
@@ -5413,6 +5463,7 @@
 				D93B7198245967E10022657C /* ZFNoramlViewController.m in Sources */,
 				D9BF6913233F578900E602A4 /* GradientControl.swift in Sources */,
 				D9BC6F65238E58CD0085E4E0 /* NestedItemTableView.swift in Sources */,
+				D95A3D9F2480E2A500F0166C /* UILabelDemosViewController.swift in Sources */,
 				D9519A0622BFAE5D00E3036B /* Nick.m in Sources */,
 				D93EFF422359BCBC0028A730 /* StoreAnnotationView.swift in Sources */,
 				D926BDC122C34B6900A2DD3E /* CQObserverViewController.m in Sources */,
@@ -5521,6 +5572,7 @@
 				D9E21A8E210FF92500407599 /* CQClassClusterCellC.m in Sources */,
 				D982964B23976A42001C05AE /* NavigationJumpViewController.swift in Sources */,
 				D9DA5CF020E291550098EC68 /* UIView+Util.m in Sources */,
+				D95A3D9C2480DF7700F0166C /* BlurEffectListViewController.swift in Sources */,
 				D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */,
 				D9F72DDB243D83AF007BBB05 /* CompressImageViewController.swift in Sources */,
 				D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */,

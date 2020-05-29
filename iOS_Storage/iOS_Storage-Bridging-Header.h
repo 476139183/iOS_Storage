@@ -49,4 +49,6 @@
 #import "CQPermanentThreadController.h"
 #import "CQRunloopModeController.h"
 #import "CQRunLoopLifeController.h"
-
+#import "CQRippleViewController.h"
+#import "CQIrregularViewController.h"
+#import "CQChartController.h"
