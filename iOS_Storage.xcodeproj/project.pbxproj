@@ -2181,13 +2181,10 @@
 				D9920CBB20E6375E00F328F9 /* 带警示效果的textField */,
 				D94F6A8820FEDCD9006BCC6B /* 模态Controller弹窗 */,
 				D98925D42106C96A001B2377 /* 主题切换 */,
-				D90C4E7521097C2800C48E72 /* CATransition动画 */,
 				D9547859230667CE003E0ADA /* 检测controller是否释放 */,
 				D916DA2723A24AB100CB0CFA /* 检测view是否释放 */,
 				D90D9FAC233217A10007C25C /* 计算帧率 */,
 				D90D9FB5233306780007C25C /* cache */,
-				D937689223585D2400515315 /* MapDemo */,
-				D95885BA24519D9C00CD9FDD /* 视频播放器 */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -2272,6 +2269,8 @@
 				D9F72DDF244053C0007BBB05 /* 正则表达式 */,
 				D9E86CBB2447EC06009CCBB8 /* 各种手势 */,
 				D9F12E412467E7D500B3D597 /* 浮层 */,
+				D937689223585D2400515315 /* MapDemo */,
+				D95885BA24519D9C00CD9FDD /* 视频播放器 */,
 				D9551E5124762DAF00E7E494 /* 杂七杂八 */,
 			);
 			path = "常用的";
@@ -2399,6 +2398,7 @@
 				D9C2AA9D2369275800EBB9E1 /* UIView动画 */,
 				D9E30C3A236D61E60042BC74 /* 播放动图 */,
 				D92D305E216B3C7200B57A2D /* 水波动画 */,
+				D90C4E7521097C2800C48E72 /* CATransition动画 */,
 			);
 			path = "各种动画";
 			sourceTree = "<group>";
@@ -4752,8 +4752,8 @@
 				D9A32B892480AE1A00295E2F /* ShadowCornerListViewController.swift */,
 				D9A32B8B2480AE2600295E2F /* 圆角 */,
 				D95A3D982480C67400F0166C /* 阴影 */,
-				D95A3D992480C68000F0166C /* 渐变 */,
 				D95A3D9A2480C6C500F0166C /* 模糊 */,
+				D95A3D992480C68000F0166C /* 渐变 */,
 			);
 			path = "圆角、阴影、渐变与模糊";
 			sourceTree = "<group>";

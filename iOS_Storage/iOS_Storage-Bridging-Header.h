@@ -52,3 +52,4 @@
 #import "CQRippleViewController.h"
 #import "CQIrregularViewController.h"
 #import "CQChartController.h"
+#import "CQTransitionController.h"

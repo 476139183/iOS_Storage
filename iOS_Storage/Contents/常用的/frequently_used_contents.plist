@@ -44,7 +44,7 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>圆角、阴影与模糊</string>
+		<string>圆角、阴影、模糊与渐变</string>
 		<key>controller_name</key>
 		<string>ShadowCornerListViewController</string>
 		<key>url</key>
@@ -95,6 +95,22 @@
 		<string>浮层</string>
 		<key>controller_name</key>
 		<string>FloatingLayerDemoViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>Map</string>
+		<key>controller_name</key>
+		<string>MapDemoViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>视频播放器</string>
+		<key>controller_name</key>
+		<string>VideoDemoViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>
