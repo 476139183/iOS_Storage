@@ -241,6 +241,7 @@
 		D95A3DB52482351E00F0166C /* KingfisherAnimatedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DB32482351E00F0166C /* KingfisherAnimatedCell.swift */; };
 		D95A3DB62482351E00F0166C /* KingfisherAnimatedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95A3DB42482351E00F0166C /* KingfisherAnimatedCell.xib */; };
 		D95A3DB82482443300F0166C /* gif在列表中.md in Resources */ = {isa = PBXBuildFile; fileRef = D95A3DB72482443300F0166C /* gif在列表中.md */; };
+		D95A3DBB248245F000F0166C /* UIView+XibCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DBA248245F000F0166C /* UIView+XibCorner.m */; };
 		D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */; };
 		D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */; };
 		D9608BF4236970350053BD3E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF3236970350053BD3E /* Constants.swift */; };
@@ -922,6 +923,8 @@
 		D95A3DB32482351E00F0166C /* KingfisherAnimatedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherAnimatedCell.swift; sourceTree = "<group>"; };
 		D95A3DB42482351E00F0166C /* KingfisherAnimatedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KingfisherAnimatedCell.xib; sourceTree = "<group>"; };
 		D95A3DB72482443300F0166C /* gif在列表中.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "gif在列表中.md"; sourceTree = "<group>"; };
+		D95A3DB9248245F000F0166C /* UIView+XibCorner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XibCorner.h"; sourceTree = "<group>"; };
+		D95A3DBA248245F000F0166C /* UIView+XibCorner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XibCorner.m"; sourceTree = "<group>"; };
 		D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureNodeDemoViewController.swift; sourceTree = "<group>"; };
 		D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAreaTestViewController.swift; sourceTree = "<group>"; };
 		D9608BF3236970350053BD3E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -4487,6 +4490,8 @@
 				D91E1D2A233E585800B1C772 /* UIImage+Util.m */,
 				D95328462399EA4F00C15136 /* UIAlertController+Util.h */,
 				D95328472399EA4F00C15136 /* UIAlertController+Util.m */,
+				D95A3DB9248245F000F0166C /* UIView+XibCorner.h */,
+				D95A3DBA248245F000F0166C /* UIView+XibCorner.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -5577,6 +5582,7 @@
 				D92BB28624690A3E008610DB /* ElegantNotifViewController.swift in Sources */,
 				D9E86CCD2447FB3E009CCBB8 /* GaodeMapPanDemoViewController.swift in Sources */,
 				D93FD5692317AE43005E70A6 /* CQWaterfallLayout.m in Sources */,
+				D95A3DBB248245F000F0166C /* UIView+XibCorner.m in Sources */,
 				D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */,
 				D9DE6CBD20FEE78100C8D4FE /* CQRegionModel.m in Sources */,
 				D9D56B0523B488C9005EEA9A /* CQShadowView.m in Sources */,
