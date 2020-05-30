@@ -242,6 +242,9 @@
 		D95A3DB62482351E00F0166C /* KingfisherAnimatedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95A3DB42482351E00F0166C /* KingfisherAnimatedCell.xib */; };
 		D95A3DB82482443300F0166C /* gif在列表中.md in Resources */ = {isa = PBXBuildFile; fileRef = D95A3DB72482443300F0166C /* gif在列表中.md */; };
 		D95A3DBB248245F000F0166C /* UIView+XibCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DBA248245F000F0166C /* UIView+XibCorner.m */; };
+		D95A3DBD24825A9D00F0166C /* UITextField+MaxLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DBC24825A9D00F0166C /* UITextField+MaxLength.swift */; };
+		D95A3DC024825B0300F0166C /* UITextFieldDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DBF24825B0300F0166C /* UITextFieldDemosViewController.swift */; };
+		D95A3DC324825B7400F0166C /* MaxLengthTextfieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DC224825B7400F0166C /* MaxLengthTextfieldViewController.swift */; };
 		D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */; };
 		D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */; };
 		D9608BF4236970350053BD3E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF3236970350053BD3E /* Constants.swift */; };
@@ -925,6 +928,9 @@
 		D95A3DB72482443300F0166C /* gif在列表中.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "gif在列表中.md"; sourceTree = "<group>"; };
 		D95A3DB9248245F000F0166C /* UIView+XibCorner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XibCorner.h"; sourceTree = "<group>"; };
 		D95A3DBA248245F000F0166C /* UIView+XibCorner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XibCorner.m"; sourceTree = "<group>"; };
+		D95A3DBC24825A9D00F0166C /* UITextField+MaxLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+MaxLength.swift"; sourceTree = "<group>"; };
+		D95A3DBF24825B0300F0166C /* UITextFieldDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldDemosViewController.swift; sourceTree = "<group>"; };
+		D95A3DC224825B7400F0166C /* MaxLengthTextfieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxLengthTextfieldViewController.swift; sourceTree = "<group>"; };
 		D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureNodeDemoViewController.swift; sourceTree = "<group>"; };
 		D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAreaTestViewController.swift; sourceTree = "<group>"; };
 		D9608BF3236970350053BD3E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -2994,6 +3000,23 @@
 			path = "gif在列表中";
 			sourceTree = "<group>";
 		};
+		D95A3DBE24825ACD00F0166C /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				D95A3DBF24825B0300F0166C /* UITextFieldDemosViewController.swift */,
+				D95A3DC124825B4300F0166C /* 限制输入长度 */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		D95A3DC124825B4300F0166C /* 限制输入长度 */ = {
+			isa = PBXGroup;
+			children = (
+				D95A3DC224825B7400F0166C /* MaxLengthTextfieldViewController.swift */,
+			);
+			path = "限制输入长度";
+			sourceTree = "<group>";
+		};
 		D95B2F3D239289F6006F2FE2 /* Texture的各种node */ = {
 			isa = PBXGroup;
 			children = (
@@ -3211,6 +3234,7 @@
 				D9700D72245ED8A900168FE0 /* UIKitDemosViewController.swift */,
 				D95A3D9D2480E27500F0166C /* UILabel */,
 				D941A126245EE18D00844787 /* UIButton */,
+				D95A3DBE24825ACD00F0166C /* UITextField */,
 				D95885C62453C91C00CD9FDD /* TableViewDemos */,
 				D90C33FB2453CB2F00BB9D29 /* CollectionViewDemos */,
 				D91245D423A90A3E00E3775A /* UIScrollViewDemo */,
@@ -4084,6 +4108,7 @@
 				D9B157D0246D2C9C00854606 /* NSAttributedString+Extension.swift */,
 				D97246EB237E4989001671AD /* NSMutableAttributedString+Extension.swift */,
 				D975168F247B60E900D45C92 /* RxUIView+Extension.swift */,
+				D95A3DBC24825A9D00F0166C /* UITextField+MaxLength.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -5304,6 +5329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95A3DBD24825A9D00F0166C /* UITextField+MaxLength.swift in Sources */,
 				D96773AF2400D9E300829BCB /* SneakersCalendarSegmentView.swift in Sources */,
 				D98E4DE6238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift in Sources */,
 				D926BDD922C496B800A2DD3E /* AfternoonState.m in Sources */,
@@ -5328,6 +5354,7 @@
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
 				D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */,
 				D9CD7BF02473805F000B7EB4 /* ClassAndStructViewController.swift in Sources */,
+				D95A3DC024825B0300F0166C /* UITextFieldDemosViewController.swift in Sources */,
 				D96FE2C62396437800949006 /* ASInsetLayoutController.swift in Sources */,
 				D9545B382293AA4B008B6355 /* CQPermanentThreadController.m in Sources */,
 				D9C7CC1622E9A3AE0038FD34 /* CQStandardTableSectionFooterView.m in Sources */,
@@ -5571,6 +5598,7 @@
 				D94016962361F01500580AAC /* StringPracticeViewController.swift in Sources */,
 				D9E86CBD2447EC6E009CCBB8 /* GestureViewController.swift in Sources */,
 				D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */,
+				D95A3DC324825B7400F0166C /* MaxLengthTextfieldViewController.swift in Sources */,
 				D9A39F7E22B4D2EB00FEA5F5 /* CQMVVMViewController.m in Sources */,
 				D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */,
 				D9C7020F22EB542200DDC44F /* RxSwiftDemoViewController.swift in Sources */,
