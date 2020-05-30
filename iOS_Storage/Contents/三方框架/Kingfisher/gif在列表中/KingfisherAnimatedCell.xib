@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="103" id="KGk-i7-Jjw" customClass="KingfisherAnimatedCell" customModule="iOS_Storage" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="497" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="497" height="103"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bvb-co-iKy" customClass="AnimatedImageView" customModule="Kingfisher">
+                        <rect key="frame" x="20" y="13" width="113" height="75"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="113" id="6El-Kg-cqI"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kingfisher animated imageView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nau-MQ-Ipn">
+                        <rect key="frame" x="149" y="40" width="238" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="2FI-ro-oxJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="nau-MQ-Ipn" firstAttribute="leading" secondItem="bvb-co-iKy" secondAttribute="trailing" constant="16" id="8kX-2L-RNL"/>
+                    <constraint firstItem="bvb-co-iKy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="ErH-22-cCh"/>
+                    <constraint firstAttribute="bottom" secondItem="nau-MQ-Ipn" secondAttribute="bottom" constant="42" id="RAi-Xs-LcO"/>
+                    <constraint firstItem="bvb-co-iKy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="mKf-97-wFP"/>
+                    <constraint firstItem="nau-MQ-Ipn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="40" id="mgg-VV-FM5"/>
+                    <constraint firstAttribute="bottom" secondItem="bvb-co-iKy" secondAttribute="bottom" constant="15" id="zfH-DD-MpF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="gifImageView" destination="bvb-co-iKy" id="ngS-zX-77Y"/>
+            </connections>
+            <point key="canvasLocation" x="45.652173913043484" y="107.47767857142857"/>
+        </tableViewCell>
+    </objects>
+</document>

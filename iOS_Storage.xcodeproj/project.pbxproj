@@ -233,6 +233,14 @@
 		D95A3D9F2480E2A500F0166C /* UILabelDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3D9E2480E2A500F0166C /* UILabelDemosViewController.swift */; };
 		D95A3DA22480F32300F0166C /* KingfisherLoadGifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DA02480F32300F0166C /* KingfisherLoadGifViewController.swift */; };
 		D95A3DA32480F32300F0166C /* KingfisherLoadGifViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95A3DA12480F32300F0166C /* KingfisherLoadGifViewController.xib */; };
+		D95A3DA62481F2ED00F0166C /* GifInTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DA52481F2ED00F0166C /* GifInTableViewController.swift */; };
+		D95A3DAD2481F32F00F0166C /* WebGifCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DAB2481F32F00F0166C /* WebGifCell.swift */; };
+		D95A3DAE2481F32F00F0166C /* WebGifCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95A3DAC2481F32F00F0166C /* WebGifCell.xib */; };
+		D95A3DB12482063800F0166C /* LocalGifCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DAF2482063800F0166C /* LocalGifCell.swift */; };
+		D95A3DB22482063800F0166C /* LocalGifCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95A3DB02482063800F0166C /* LocalGifCell.xib */; };
+		D95A3DB52482351E00F0166C /* KingfisherAnimatedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DB32482351E00F0166C /* KingfisherAnimatedCell.swift */; };
+		D95A3DB62482351E00F0166C /* KingfisherAnimatedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95A3DB42482351E00F0166C /* KingfisherAnimatedCell.xib */; };
+		D95A3DB82482443300F0166C /* gif在列表中.md in Resources */ = {isa = PBXBuildFile; fileRef = D95A3DB72482443300F0166C /* gif在列表中.md */; };
 		D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */; };
 		D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */; };
 		D9608BF4236970350053BD3E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF3236970350053BD3E /* Constants.swift */; };
@@ -906,6 +914,14 @@
 		D95A3D9E2480E2A500F0166C /* UILabelDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelDemosViewController.swift; sourceTree = "<group>"; };
 		D95A3DA02480F32300F0166C /* KingfisherLoadGifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherLoadGifViewController.swift; sourceTree = "<group>"; };
 		D95A3DA12480F32300F0166C /* KingfisherLoadGifViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KingfisherLoadGifViewController.xib; sourceTree = "<group>"; };
+		D95A3DA52481F2ED00F0166C /* GifInTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifInTableViewController.swift; sourceTree = "<group>"; };
+		D95A3DAB2481F32F00F0166C /* WebGifCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebGifCell.swift; sourceTree = "<group>"; };
+		D95A3DAC2481F32F00F0166C /* WebGifCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebGifCell.xib; sourceTree = "<group>"; };
+		D95A3DAF2482063800F0166C /* LocalGifCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalGifCell.swift; sourceTree = "<group>"; };
+		D95A3DB02482063800F0166C /* LocalGifCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocalGifCell.xib; sourceTree = "<group>"; };
+		D95A3DB32482351E00F0166C /* KingfisherAnimatedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherAnimatedCell.swift; sourceTree = "<group>"; };
+		D95A3DB42482351E00F0166C /* KingfisherAnimatedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KingfisherAnimatedCell.xib; sourceTree = "<group>"; };
+		D95A3DB72482443300F0166C /* gif在列表中.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "gif在列表中.md"; sourceTree = "<group>"; };
 		D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureNodeDemoViewController.swift; sourceTree = "<group>"; };
 		D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAreaTestViewController.swift; sourceTree = "<group>"; };
 		D9608BF3236970350053BD3E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -2960,6 +2976,21 @@
 			path = UILabel;
 			sourceTree = "<group>";
 		};
+		D95A3DA42481F2AF00F0166C /* gif在列表中 */ = {
+			isa = PBXGroup;
+			children = (
+				D95A3DB72482443300F0166C /* gif在列表中.md */,
+				D95A3DA52481F2ED00F0166C /* GifInTableViewController.swift */,
+				D95A3DAF2482063800F0166C /* LocalGifCell.swift */,
+				D95A3DB02482063800F0166C /* LocalGifCell.xib */,
+				D95A3DAB2481F32F00F0166C /* WebGifCell.swift */,
+				D95A3DAC2481F32F00F0166C /* WebGifCell.xib */,
+				D95A3DB32482351E00F0166C /* KingfisherAnimatedCell.swift */,
+				D95A3DB42482351E00F0166C /* KingfisherAnimatedCell.xib */,
+			);
+			path = "gif在列表中";
+			sourceTree = "<group>";
+		};
 		D95B2F3D239289F6006F2FE2 /* Texture的各种node */ = {
 			isa = PBXGroup;
 			children = (
@@ -3527,6 +3558,7 @@
 				D9A32B6B247E66DD00295E2F /* KingfisherListViewController.swift */,
 				D9A32B6D247E674700295E2F /* 加载一般图片 */,
 				D9A32B6E247E675F00295E2F /* 加载本地gif和网络gif */,
+				D95A3DA42481F2AF00F0166C /* gif在列表中 */,
 				D9A32B6F247E677B00295E2F /* 高斯模糊 */,
 				D9A32B70247E679500295E2F /* 圆角 */,
 				D9A32B7F247FAD9B00295E2F /* 加载高分辨率图片 */,
@@ -5020,6 +5052,7 @@
 			files = (
 				D9EF0EA72110396300755E11 /* class_cluster_data.json in Resources */,
 				D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */,
+				D95A3DB22482063800F0166C /* LocalGifCell.xib in Resources */,
 				D9A39F6E22B4C90900FEA5F5 /* 策略设计模式.md in Resources */,
 				D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */,
 				D985E42323FD08B500CF7954 /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
@@ -5077,8 +5110,10 @@
 				D926BDCA22C48E5200A2DD3E /* 状态模式.md in Resources */,
 				D920ED1E22E8706400C5A43F /* wordsanime.json in Resources */,
 				D91A9F7522B3CF65008F87F1 /* pthread.md in Resources */,
+				D95A3DAE2481F32F00F0166C /* WebGifCell.xib in Resources */,
 				D921F97220FF640B00712042 /* house_list.json in Resources */,
 				D9C84268239503F300DC5BCD /* TextureLayout.md in Resources */,
+				D95A3DB62482351E00F0166C /* KingfisherAnimatedCell.xib in Resources */,
 				D94BF43F20E4B6510012C370 /* demo_contents.plist in Resources */,
 				D9D145122299205F003B594C /* KVC.md in Resources */,
 				D9B563F720E24A14001AE9A0 /* iphone_menu_data.json in Resources */,
@@ -5090,6 +5125,7 @@
 				D985E41F23FD08B500CF7954 /* SF-Pro-Text-Semibold.otf in Resources */,
 				D9CFC805229CCA0F009B8399 /* 消息发送.md in Resources */,
 				D9CFC807229CCAB7009B8399 /* 消息转发.md in Resources */,
+				D95A3DB82482443300F0166C /* gif在列表中.md in Resources */,
 				D926BDBE22C349B100A2DD3E /* 观察者模式.md in Resources */,
 				D9A32B882480ADDB00295E2F /* BlurEffectViewController.xib in Resources */,
 				D926BDB222C2F52B00A2DD3E /* 外观模式.md in Resources */,
@@ -5466,6 +5502,7 @@
 				D9BF690F233F4B2A00E602A4 /* CQGradientOCDemoViewController.m in Sources */,
 				D93B7198245967E10022657C /* ZFNoramlViewController.m in Sources */,
 				D9BF6913233F578900E602A4 /* GradientControl.swift in Sources */,
+				D95A3DAD2481F32F00F0166C /* WebGifCell.swift in Sources */,
 				D95A3DA22480F32300F0166C /* KingfisherLoadGifViewController.swift in Sources */,
 				D9BC6F65238E58CD0085E4E0 /* NestedItemTableView.swift in Sources */,
 				D95A3D9F2480E2A500F0166C /* UILabelDemosViewController.swift in Sources */,
@@ -5589,6 +5626,7 @@
 				D9C5E5D22345879000D101F1 /* LeetCodeViewController.swift in Sources */,
 				D99B98F1246BEAE7001E6369 /* VoteCellNode.swift in Sources */,
 				D91E1D22233E4E9800B1C772 /* GradientView.swift in Sources */,
+				D95A3DB12482063800F0166C /* LocalGifCell.swift in Sources */,
 				D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */,
 				D96778BC23A13CEF00D19554 /* PullDownLargeViewController.swift in Sources */,
 				D9519A0022BF2FE700E3036B /* AdidasFactory.m in Sources */,
@@ -5631,6 +5669,7 @@
 				D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */,
 				D904C517234CA273002DD939 /* PopMenuView.swift in Sources */,
 				D9AA680F237FB32600A14C37 /* UIPageViewControllerDemoController.swift in Sources */,
+				D95A3DA62481F2ED00F0166C /* GifInTableViewController.swift in Sources */,
 				D9CB1EC42342053900CEB752 /* RxSwiftDynamicTableViewController.swift in Sources */,
 				D97246F4237E8D47001671AD /* MaxCellSpacingLayout.swift in Sources */,
 				D96773A72400D07D00829BCB /* HorizonCollectionViewController.swift in Sources */,
@@ -5696,6 +5735,7 @@
 				D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */,
 				D95199F322BDF59A00E3036B /* CQFactoryViewController.m in Sources */,
 				D9F7DEFE2449655600A63632 /* TTTLabelViewController.swift in Sources */,
+				D95A3DB52482351E00F0166C /* KingfisherAnimatedCell.swift in Sources */,
 				D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */,
 				D9BE258A23B889CF001F4D71 /* ProtocolTableViewController.swift in Sources */,
 				D92D3062216B3D8700B57A2D /* CQRippleViewController.m in Sources */,
