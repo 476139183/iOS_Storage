@@ -16,7 +16,8 @@ class Z7Z8ViewController: JumpListViewController {
         // Do any additional setup after loading the view.
         
         self.dataArray = [ItemModel(title: "图片压缩", targetVC: CompressImageViewController()),
-                          ItemModel(title: "image和text互转", targetVC: ImageTextConvertViewController())]
+                          ItemModel(title: "image和text互转", targetVC: ImageTextConvertViewController()),
+                          ItemModel(title: "监听用户截屏", targetVC: ScreenShotViewController())]
         
     }
     

@@ -190,6 +190,7 @@
 		D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43C20E4B3BC0012C370 /* CQContentModel.m */; };
 		D94BF43F20E4B6510012C370 /* demo_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D94BF43E20E4B6420012C370 /* demo_contents.plist */; };
 		D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */; };
+		D94CDEE62484F660000D9D04 /* ScreenShotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CDEE52484F660000D9D04 /* ScreenShotViewController.swift */; };
 		D94F6A8F20FEE337006BCC6B /* CQFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F6A8E20FEE337006BCC6B /* CQFilterViewController.m */; };
 		D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F6A9220FEE52E006BCC6B /* CQFilterRequest.m */; };
 		D95199E722BDCC0200E3036B /* 代理模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D95199E622BDCC0200E3036B /* 代理模式.md */; };
@@ -245,6 +246,14 @@
 		D95A3DBD24825A9D00F0166C /* UITextField+MaxLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DBC24825A9D00F0166C /* UITextField+MaxLength.swift */; };
 		D95A3DC024825B0300F0166C /* UITextFieldDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DBF24825B0300F0166C /* UITextFieldDemosViewController.swift */; };
 		D95A3DC324825B7400F0166C /* MaxLengthTextfieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DC224825B7400F0166C /* MaxLengthTextfieldViewController.swift */; };
+		D95A3DC82484AE7500F0166C /* KVODemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DC72484AE7500F0166C /* KVODemosViewController.swift */; };
+		D95A3DCB2484AF5C00F0166C /* ObserPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DCA2484AF5C00F0166C /* ObserPropertyViewController.swift */; };
+		D95A3DCD2484B7F300F0166C /* 它是怎么观察到属性有变化的？.md in Resources */ = {isa = PBXBuildFile; fileRef = D95A3DCC2484B7F300F0166C /* 它是怎么观察到属性有变化的？.md */; };
+		D95A3DD22484DCBF00F0166C /* KVOBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DD12484DCBF00F0166C /* KVOBasicViewController.m */; };
+		D95A3DD52484DD1300F0166C /* KVOTheoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DD42484DD1300F0166C /* KVOTheoryViewController.m */; };
+		D95A3DD72484DE0900F0166C /* KVO基本操作.md in Resources */ = {isa = PBXBuildFile; fileRef = D95A3DD62484DE0900F0166C /* KVO基本操作.md */; };
+		D95A3DDA2484DEC300F0166C /* MYKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DD92484DEC300F0166C /* MYKVOViewController.m */; };
+		D95A3DDD2484DEDE00F0166C /* KVOControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DDC2484DEDE00F0166C /* KVOControllerViewController.m */; };
 		D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */; };
 		D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */; };
 		D9608BF4236970350053BD3E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF3236970350053BD3E /* Constants.swift */; };
@@ -518,7 +527,6 @@
 		D9CFC803229CC9CA009B8399 /* CQMessageSendController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC802229CC9CA009B8399 /* CQMessageSendController.m */; };
 		D9CFC805229CCA0F009B8399 /* 消息发送.md in Resources */ = {isa = PBXBuildFile; fileRef = D9CFC804229CCA0E009B8399 /* 消息发送.md */; };
 		D9CFC807229CCAB7009B8399 /* 消息转发.md in Resources */ = {isa = PBXBuildFile; fileRef = D9CFC806229CCAB7009B8399 /* 消息转发.md */; };
-		D9CFC80A229CDB66009B8399 /* CQKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC809229CDB66009B8399 /* CQKVOController.m */; };
 		D9CFC80D229CE438009B8399 /* Cat2.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CFC80C229CE438009B8399 /* Cat2.m */; };
 		D9D11E2723717EC60047AD7C /* WKWebViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D11E2623717EC60047AD7C /* WKWebViewDemoViewController.swift */; };
 		D9D1450D2298F1F5003B594C /* CQRunLoopLifeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D1450C2298F1F5003B594C /* CQRunLoopLifeController.m */; };
@@ -852,6 +860,7 @@
 		D94BF43E20E4B6420012C370 /* demo_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = demo_contents.plist; sourceTree = "<group>"; };
 		D94BF44020E4BCBF0012C370 /* CQDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQDetailViewController.h; sourceTree = "<group>"; };
 		D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQDetailViewController.m; sourceTree = "<group>"; };
+		D94CDEE52484F660000D9D04 /* ScreenShotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShotViewController.swift; sourceTree = "<group>"; };
 		D94F6A8D20FEE337006BCC6B /* CQFilterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQFilterViewController.h; sourceTree = "<group>"; };
 		D94F6A8E20FEE337006BCC6B /* CQFilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFilterViewController.m; sourceTree = "<group>"; };
 		D94F6A9120FEE52E006BCC6B /* CQFilterRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQFilterRequest.h; sourceTree = "<group>"; };
@@ -931,6 +940,18 @@
 		D95A3DBC24825A9D00F0166C /* UITextField+MaxLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+MaxLength.swift"; sourceTree = "<group>"; };
 		D95A3DBF24825B0300F0166C /* UITextFieldDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldDemosViewController.swift; sourceTree = "<group>"; };
 		D95A3DC224825B7400F0166C /* MaxLengthTextfieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxLengthTextfieldViewController.swift; sourceTree = "<group>"; };
+		D95A3DC72484AE7500F0166C /* KVODemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVODemosViewController.swift; sourceTree = "<group>"; };
+		D95A3DCA2484AF5C00F0166C /* ObserPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserPropertyViewController.swift; sourceTree = "<group>"; };
+		D95A3DCC2484B7F300F0166C /* 它是怎么观察到属性有变化的？.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "它是怎么观察到属性有变化的？.md"; sourceTree = "<group>"; };
+		D95A3DD02484DCBF00F0166C /* KVOBasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOBasicViewController.h; sourceTree = "<group>"; };
+		D95A3DD12484DCBF00F0166C /* KVOBasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOBasicViewController.m; sourceTree = "<group>"; };
+		D95A3DD32484DD1300F0166C /* KVOTheoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOTheoryViewController.h; sourceTree = "<group>"; };
+		D95A3DD42484DD1300F0166C /* KVOTheoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOTheoryViewController.m; sourceTree = "<group>"; };
+		D95A3DD62484DE0900F0166C /* KVO基本操作.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "KVO基本操作.md"; sourceTree = "<group>"; };
+		D95A3DD82484DEC300F0166C /* MYKVOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYKVOViewController.h; sourceTree = "<group>"; };
+		D95A3DD92484DEC300F0166C /* MYKVOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYKVOViewController.m; sourceTree = "<group>"; };
+		D95A3DDB2484DEDE00F0166C /* KVOControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KVOControllerViewController.h; path = "iOS_Storage/Contents/Tips/KVO/KVOController原理/KVOControllerViewController.h"; sourceTree = SOURCE_ROOT; };
+		D95A3DDC2484DEDE00F0166C /* KVOControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KVOControllerViewController.m; path = "iOS_Storage/Contents/Tips/KVO/KVOController原理/KVOControllerViewController.m"; sourceTree = SOURCE_ROOT; };
 		D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureNodeDemoViewController.swift; sourceTree = "<group>"; };
 		D95F591F2303E1F5004ECBD0 /* ResponseAreaTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAreaTestViewController.swift; sourceTree = "<group>"; };
 		D9608BF3236970350053BD3E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -1253,8 +1274,6 @@
 		D9CFC802229CC9CA009B8399 /* CQMessageSendController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMessageSendController.m; sourceTree = "<group>"; };
 		D9CFC804229CCA0E009B8399 /* 消息发送.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "消息发送.md"; sourceTree = "<group>"; };
 		D9CFC806229CCAB7009B8399 /* 消息转发.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "消息转发.md"; sourceTree = "<group>"; };
-		D9CFC808229CDB66009B8399 /* CQKVOController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQKVOController.h; sourceTree = "<group>"; };
-		D9CFC809229CDB66009B8399 /* CQKVOController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQKVOController.m; sourceTree = "<group>"; };
 		D9CFC80B229CE438009B8399 /* Cat2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat2.h; sourceTree = "<group>"; };
 		D9CFC80C229CE438009B8399 /* Cat2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat2.m; sourceTree = "<group>"; };
 		D9CFC81F229CFF33009B8399 /* iOS_Storage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_Storage-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -2586,6 +2605,14 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		D94CDEE42484F618000D9D04 /* 监听用户截屏 */ = {
+			isa = PBXGroup;
+			children = (
+				D94CDEE52484F660000D9D04 /* ScreenShotViewController.swift */,
+			);
+			path = "监听用户截屏";
+			sourceTree = "<group>";
+		};
 		D94F6A8820FEDCD9006BCC6B /* 模态Controller弹窗 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2751,9 +2778,11 @@
 		D9545B332293A8C5008B6355 /* KVO */ = {
 			isa = PBXGroup;
 			children = (
-				D9CFC808229CDB66009B8399 /* CQKVOController.h */,
-				D9CFC809229CDB66009B8399 /* CQKVOController.m */,
-				D9CFC810229CE54A009B8399 /* KVOController */,
+				D95A3DC72484AE7500F0166C /* KVODemosViewController.swift */,
+				D95A3DCE2484DA7D00F0166C /* KVO基本使用 */,
+				D95A3DC92484AF1600F0166C /* KVO实现原理 */,
+				D95A3DDE2484DEEE00F0166C /* KVOController原理 */,
+				D95A3DCF2484DB9100F0166C /* 自己实现一个更便捷的KVO */,
 			);
 			path = KVO;
 			sourceTree = "<group>";
@@ -2845,6 +2874,7 @@
 				D99CAFFC24762E4100B01E72 /* Z7Z8ViewController.swift */,
 				D9F72DD9243D836A007BBB05 /* 图片压缩 */,
 				D986652F2371546C00AA60B2 /* image和text互转 */,
+				D94CDEE42484F618000D9D04 /* 监听用户截屏 */,
 			);
 			path = "杂七杂八";
 			sourceTree = "<group>";
@@ -3015,6 +3045,52 @@
 				D95A3DC224825B7400F0166C /* MaxLengthTextfieldViewController.swift */,
 			);
 			path = "限制输入长度";
+			sourceTree = "<group>";
+		};
+		D95A3DC42484ACF600F0166C /* KVOController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KVOController;
+			sourceTree = "<group>";
+		};
+		D95A3DC92484AF1600F0166C /* KVO实现原理 */ = {
+			isa = PBXGroup;
+			children = (
+				D95A3DCC2484B7F300F0166C /* 它是怎么观察到属性有变化的？.md */,
+				D95A3DD32484DD1300F0166C /* KVOTheoryViewController.h */,
+				D95A3DD42484DD1300F0166C /* KVOTheoryViewController.m */,
+			);
+			path = "KVO实现原理";
+			sourceTree = "<group>";
+		};
+		D95A3DCE2484DA7D00F0166C /* KVO基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				D95A3DD62484DE0900F0166C /* KVO基本操作.md */,
+				D95A3DD02484DCBF00F0166C /* KVOBasicViewController.h */,
+				D95A3DD12484DCBF00F0166C /* KVOBasicViewController.m */,
+				D95A3DCA2484AF5C00F0166C /* ObserPropertyViewController.swift */,
+			);
+			path = "KVO基本使用";
+			sourceTree = "<group>";
+		};
+		D95A3DCF2484DB9100F0166C /* 自己实现一个更便捷的KVO */ = {
+			isa = PBXGroup;
+			children = (
+				D95A3DD82484DEC300F0166C /* MYKVOViewController.h */,
+				D95A3DD92484DEC300F0166C /* MYKVOViewController.m */,
+			);
+			path = "自己实现一个更便捷的KVO";
+			sourceTree = "<group>";
+		};
+		D95A3DDE2484DEEE00F0166C /* KVOController原理 */ = {
+			isa = PBXGroup;
+			children = (
+				D95A3DDB2484DEDE00F0166C /* KVOControllerViewController.h */,
+				D95A3DDC2484DEDE00F0166C /* KVOControllerViewController.m */,
+			);
+			path = "KVOController原理";
 			sourceTree = "<group>";
 		};
 		D95B2F3D239289F6006F2FE2 /* Texture的各种node */ = {
@@ -3983,6 +4059,7 @@
 				D97516862478B5E900D45C92 /* IQKeyboardManager */,
 				D9A32B67247E035E00295E2F /* TZImagePickerController */,
 				D9A32B6A247E66A000295E2F /* Kingfisher */,
+				D95A3DC42484ACF600F0166C /* KVOController */,
 			);
 			path = "三方框架";
 			sourceTree = "<group>";
@@ -4359,13 +4436,6 @@
 			children = (
 			);
 			path = MethodSwizzling;
-			sourceTree = "<group>";
-		};
-		D9CFC810229CE54A009B8399 /* KVOController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = KVOController;
 			sourceTree = "<group>";
 		};
 		D9CFC811229CE55F009B8399 /* Aspect */ = {
@@ -5100,6 +5170,7 @@
 				D930956D23B2F3D100837CA6 /* StaticTableViewStoryboard.storyboard in Resources */,
 				D95199F022BDF26100E3036B /* 工厂方法模式.html in Resources */,
 				D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */,
+				D95A3DCD2484B7F300F0166C /* 它是怎么观察到属性有变化的？.md in Resources */,
 				D91A9F8122B482B1008F87F1 /* README.md in Resources */,
 				D985E41D23FD08B500CF7954 /* SF-Pro-Text-BoldItalic.otf in Resources */,
 				D913F9422109CDD300366887 /* framework_contents.plist in Resources */,
@@ -5183,6 +5254,7 @@
 				D9B5499423A493CA00E8E6B6 /* getter与setter.md in Resources */,
 				D985E41C23FD08B500CF7954 /* SF-Pro-Text-Bold.otf in Resources */,
 				D967A81523ACB0760000C00D /* OOP.md in Resources */,
+				D95A3DD72484DE0900F0166C /* KVO基本操作.md in Resources */,
 				D92D69C620DE35B2002BA9C0 /* Main.storyboard in Resources */,
 				D926BDAC22C273E800A2DD3E /* 模板方法模式.md in Resources */,
 				D95199E722BDCC0200E3036B /* 代理模式.md in Resources */,
@@ -5502,6 +5574,7 @@
 				D9DDA7D020E48339008BD029 /* CQWaterfallModel.m in Sources */,
 				D93A0BFF233CBE6B00554EF6 /* MyCellNode2.swift in Sources */,
 				D90D9FAF233218300007C25C /* CQFPSViewController.m in Sources */,
+				D95A3DC82484AE7500F0166C /* KVODemosViewController.swift in Sources */,
 				D96FE2C4239642DF00949006 /* ASStackLayoutController.swift in Sources */,
 				D9BC6F63238E30590085E4E0 /* NestedTableHeaderView.swift in Sources */,
 				D9AC507923B0777C00CB4DF2 /* POPViewController.swift in Sources */,
@@ -5536,6 +5609,7 @@
 				D9BF6913233F578900E602A4 /* GradientControl.swift in Sources */,
 				D95A3DAD2481F32F00F0166C /* WebGifCell.swift in Sources */,
 				D95A3DA22480F32300F0166C /* KingfisherLoadGifViewController.swift in Sources */,
+				D95A3DCB2484AF5C00F0166C /* ObserPropertyViewController.swift in Sources */,
 				D9BC6F65238E58CD0085E4E0 /* NestedItemTableView.swift in Sources */,
 				D95A3D9F2480E2A500F0166C /* UILabelDemosViewController.swift in Sources */,
 				D9519A0622BFAE5D00E3036B /* Nick.m in Sources */,
@@ -5544,6 +5618,7 @@
 				D9AC507523B06C3800CB4DF2 /* ColorManager.swift in Sources */,
 				D954FF5223B1BBEE0052A63A /* StaticViewController.swift in Sources */,
 				D96FE2C82396446A00949006 /* ASOverlayLayoutController.swift in Sources */,
+				D95A3DDA2484DEC300F0166C /* MYKVOViewController.m in Sources */,
 				D9179CE422B7C9DA002FCCA0 /* UIButton+CQBorder.m in Sources */,
 				D9CE54BA233D100A00AB58C0 /* MyCellNode4.swift in Sources */,
 				D9F72DDE243D83D2007BBB05 /* UIImage+Compress.m in Sources */,
@@ -5576,6 +5651,7 @@
 				D9B2FDE9233314BA00755653 /* CQCacheDemoViewController.m in Sources */,
 				D92DA5CC22C1BAAD00E91212 /* UIColor+Util.m in Sources */,
 				D9BE258723B886C9001F4D71 /* AbstractClassBaseCell.swift in Sources */,
+				D94CDEE62484F660000D9D04 /* ScreenShotViewController.swift in Sources */,
 				D941B86E235F239400AEB48E /* JXSegmentedChildController2.swift in Sources */,
 				D986653723715E8800AA60B2 /* JXMixViewController.swift in Sources */,
 				D9237DCF23FF71910021F876 /* SingleSegmentedViewController.swift in Sources */,
@@ -5626,6 +5702,7 @@
 				D9AEB68022F6A437006F8995 /* CQMVVMCell.m in Sources */,
 				D953284E239A06F900C15136 /* CQMemoryLeakView.m in Sources */,
 				D9BE258423B8831D001F4D71 /* AbstractClassTableViewController.swift in Sources */,
+				D95A3DDD2484DEDE00F0166C /* KVOControllerViewController.m in Sources */,
 				D9545B2E229392CB008B6355 /* CQUnrecognizedSelectorController.m in Sources */,
 				D9C7CC2722E9BC9B0038FD34 /* StandardSwiftSectionFooterView.swift in Sources */,
 				D9536EF5244AB55700FD3964 /* TTTLabelViewController3.swift in Sources */,
@@ -5667,6 +5744,7 @@
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
 				D9A32B7B247F503000295E2F /* StrengthModuleViewController.swift in Sources */,
 				D9C7CC0122E992130038FD34 /* StandardSwiftTableViewViewController.swift in Sources */,
+				D95A3DD52484DD1300F0166C /* KVOTheoryViewController.m in Sources */,
 				D9FF65D9212AC39800B06371 /* CQTimerModel.m in Sources */,
 				D9C74FE924727CD900ACE269 /* SimpleDataDriveViewController.swift in Sources */,
 				D940168E2361BDD900580AAC /* StackViewDemoViewController.swift in Sources */,
@@ -5715,7 +5793,6 @@
 				D9B563F120E240CC001AE9A0 /* IphoneListModel.m in Sources */,
 				D91E1D25233E4EB600B1C772 /* CQGradientView.m in Sources */,
 				D9697FED22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift in Sources */,
-				D9CFC80A229CDB66009B8399 /* CQKVOController.m in Sources */,
 				D9BF6908233EF61300E602A4 /* CQGradientButton.m in Sources */,
 				D926BDB522C3226C00A2DD3E /* CQFacadeViewController.m in Sources */,
 				D9CEB46C2355D5080050E7AD /* PlaceholderTextView.swift in Sources */,
@@ -5812,6 +5889,7 @@
 				D9BF6911233F4B6600E602A4 /* GradientSwiftDemoViewController.swift in Sources */,
 				D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */,
 				D92D105A23066A42002203A1 /* CQCheckDeallocViewController.m in Sources */,
+				D95A3DD22484DCBF00F0166C /* KVOBasicViewController.m in Sources */,
 				D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */,
 				D92CBD6523F67901003A6EDC /* RedDotSegmentViewController.swift in Sources */,
 				D937688A23580A3300515315 /* CollectionViewLayoutDemoViewController.swift in Sources */,

@@ -30,7 +30,7 @@
 		<key>demo_name</key>
 		<string>KVO</string>
 		<key>controller_name</key>
-		<string>CQKVOController</string>
+		<string>KVODemosViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>

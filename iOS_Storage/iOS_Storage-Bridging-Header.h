@@ -53,3 +53,7 @@
 #import "CQIrregularViewController.h"
 #import "CQChartController.h"
 #import "CQTransitionController.h"
+#import "KVOBasicViewController.h"
+#import "KVOTheoryViewController.h"
+#import "KVOControllerViewController.h"
+#import "MYKVOViewController.h"
