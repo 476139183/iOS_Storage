@@ -145,6 +145,8 @@
 		D93A0BF9233CA0D300554EF6 /* MyCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A0BF8233CA0D300554EF6 /* MyCellNode.swift */; };
 		D93A0BFB233CA51D00554EF6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A0BFA233CA51D00554EF6 /* Utilities.swift */; };
 		D93A0BFF233CBE6B00554EF6 /* MyCellNode2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A0BFE233CBE6B00554EF6 /* MyCellNode2.swift */; };
+		D93AB53F24860A2800E79EAB /* SnapKitDemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AB53E24860A2800E79EAB /* SnapKitDemoListViewController.swift */; };
+		D93AB54324860AD100E79EAB /* SnapKitMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AB54224860AD100E79EAB /* SnapKitMoreViewController.swift */; };
 		D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93AB7162147A9F60024C76E /* CQSimpleFactoryViewController.m */; };
 		D93AB71B2147BE230024C76E /* CQCarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D93AB71A2147BE230024C76E /* CQCarFactory.m */; };
 		D93B7198245967E10022657C /* ZFNoramlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B7197245967E10022657C /* ZFNoramlViewController.m */; };
@@ -799,6 +801,8 @@
 		D93A0BF8233CA0D300554EF6 /* MyCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode.swift; sourceTree = "<group>"; };
 		D93A0BFA233CA51D00554EF6 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		D93A0BFE233CBE6B00554EF6 /* MyCellNode2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode2.swift; sourceTree = "<group>"; };
+		D93AB53E24860A2800E79EAB /* SnapKitDemoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitDemoListViewController.swift; sourceTree = "<group>"; };
+		D93AB54224860AD100E79EAB /* SnapKitMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitMoreViewController.swift; sourceTree = "<group>"; };
 		D93AB7152147A9F60024C76E /* CQSimpleFactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSimpleFactoryViewController.h; sourceTree = "<group>"; };
 		D93AB7162147A9F60024C76E /* CQSimpleFactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSimpleFactoryViewController.m; sourceTree = "<group>"; };
 		D93AB7192147BE230024C76E /* CQCarFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarFactory.h; sourceTree = "<group>"; };
@@ -1439,7 +1443,9 @@
 		D900D9B122F40C63005C3DBE /* SnapKit */ = {
 			isa = PBXGroup;
 			children = (
-				D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */,
+				D93AB53E24860A2800E79EAB /* SnapKitDemoListViewController.swift */,
+				D93AB54024860A9500E79EAB /* 常规操作 */,
+				D93AB54124860A9E00E79EAB /* 更多功能 */,
 			);
 			path = SnapKit;
 			sourceTree = "<group>";
@@ -2262,6 +2268,22 @@
 				D93EFF412359BCBC0028A730 /* StoreAnnotationView.swift */,
 			);
 			path = MapDemo;
+			sourceTree = "<group>";
+		};
+		D93AB54024860A9500E79EAB /* 常规操作 */ = {
+			isa = PBXGroup;
+			children = (
+				D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */,
+			);
+			path = "常规操作";
+			sourceTree = "<group>";
+		};
+		D93AB54124860A9E00E79EAB /* 更多功能 */ = {
+			isa = PBXGroup;
+			children = (
+				D93AB54224860AD100E79EAB /* SnapKitMoreViewController.swift */,
+			);
+			path = "更多功能";
 			sourceTree = "<group>";
 		};
 		D93AB7182147BCF20024C76E /* Factory */ = {
@@ -5655,6 +5677,7 @@
 				D941B86E235F239400AEB48E /* JXSegmentedChildController2.swift in Sources */,
 				D986653723715E8800AA60B2 /* JXMixViewController.swift in Sources */,
 				D9237DCF23FF71910021F876 /* SingleSegmentedViewController.swift in Sources */,
+				D93AB54324860AD100E79EAB /* SnapKitMoreViewController.swift in Sources */,
 				D99BD9C32398F6600072A784 /* CQMemoryLeakViewController.m in Sources */,
 				D954FF5523B1BCAE0052A63A /* PreloadTableViewController.swift in Sources */,
 				D9E42488212D0E9C00283CFC /* CQSortController.m in Sources */,
@@ -5721,6 +5744,7 @@
 				D93EFF402359B7C00028A730 /* ParkAnnotation.swift in Sources */,
 				D93A0BF5233C72F900554EF6 /* TextureColorView.swift in Sources */,
 				D9C3D0E9246DA27200D3DF7B /* AnimationHud.swift in Sources */,
+				D93AB53F24860A2800E79EAB /* SnapKitDemoListViewController.swift in Sources */,
 				D96FE2C2239642AE00949006 /* ASWrapperLayoutController.swift in Sources */,
 				D9E21A8E210FF92500407599 /* CQClassClusterCellC.m in Sources */,
 				D982964B23976A42001C05AE /* NavigationJumpViewController.swift in Sources */,

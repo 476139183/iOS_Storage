@@ -28,6 +28,7 @@ class ScreenShotViewController: CQBaseViewController {
             make.center.equalToSuperview()
         }
         
+        // 用户截屏通知
         NotificationCenter.default.addObserver(self, selector: #selector(handleScreenshot(notif:)), name: UIApplication.userDidTakeScreenshotNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(handleBecomeActive), name: UIApplication.didBecomeActiveNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(handleResignActive), name: UIApplication.willResignActiveNotification, object: nil)
@@ -38,7 +39,7 @@ class ScreenShotViewController: CQBaseViewController {
         
         view.backgroundColor = .orange
         
-        print("screenShot")
+        print("用户截图了")
         
     }
     

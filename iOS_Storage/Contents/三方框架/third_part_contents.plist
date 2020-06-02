@@ -30,7 +30,7 @@
 		<key>demo_name</key>
 		<string>SnapKitDemo</string>
 		<key>controller_name</key>
-		<string>SnapKitDemoViewController</string>
+		<string>SnapKitDemoListViewController</string>
 		<key>url</key>
 		<string>https://www.jianshu.com/p/8ce0a616a86e</string>
 	</dict>
