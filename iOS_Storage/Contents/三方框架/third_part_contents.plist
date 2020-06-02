@@ -4,6 +4,14 @@
 <array>
 	<dict>
 		<key>demo_name</key>
+		<string>动画框架</string>
+		<key>controller_name</key>
+		<string>AnimationDemosViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
 		<string>YY</string>
 		<key>controller_name</key>
 		<string>YYDemoListViewController</string>
@@ -84,25 +92,9 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>lottie动画</string>
-		<key>controller_name</key>
-		<string>LottieViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
 		<string>嵌套tableView</string>
 		<key>controller_name</key>
 		<string>NestedTableDemoViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>Hero</string>
-		<key>controller_name</key>
-		<string>HeroViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>

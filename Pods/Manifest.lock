@@ -60,6 +60,7 @@ PODS:
   - SDWebImage/Core (5.6.1)
   - SideMenu (6.4.8)
   - SnapKit (5.0.1)
+  - Spring (1.0.6)
   - SVProgressHUD (2.2.5)
   - SwiftyJSON (5.0.0)
   - Texture (2.8.1):
@@ -116,6 +117,7 @@ DEPENDENCIES:
   - SDWebImage
   - SideMenu (~> 6.4.8)
   - SnapKit
+  - Spring (from `https://github.com/MengTo/Spring.git`)
   - SVProgressHUD
   - SwiftyJSON
   - Texture
@@ -160,6 +162,15 @@ SPEC REPOS:
     - YYKit
     - ZFPlayer
 
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 50d92a5b9e08848387ae95bf44c6ad20834f7083
+    :git: https://github.com/MengTo/Spring.git
+
 SPEC CHECKSUMS:
   Action: 0d14986aad0f1330aa27ce65d0cdeaacbb63d91c
   AFNetworking: d9fdf484a3c723ec3c558a41cc5754c7e845ee77
@@ -185,6 +196,7 @@ SPEC CHECKSUMS:
   SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
   SideMenu: 4a891be552d30bb6fa87ad404d62e485f8450c34
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   Texture: 8ecf6984065a1e54f06bf97b349ecca28582acd7
@@ -193,6 +205,6 @@ SPEC CHECKSUMS:
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZFPlayer: 8a6021a3c45e281f2abd24dca5c88915af770a7e
 
-PODFILE CHECKSUM: b939fc8341364917c7f3a5280a91d657ea485309
+PODFILE CHECKSUM: 03f0f25e282a9f1af92512f9074f313d13f94b8e
 
 COCOAPODS: 1.8.4

@@ -147,6 +147,8 @@
 		D93A0BFF233CBE6B00554EF6 /* MyCellNode2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A0BFE233CBE6B00554EF6 /* MyCellNode2.swift */; };
 		D93AB53F24860A2800E79EAB /* SnapKitDemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AB53E24860A2800E79EAB /* SnapKitDemoListViewController.swift */; };
 		D93AB54324860AD100E79EAB /* SnapKitMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AB54224860AD100E79EAB /* SnapKitMoreViewController.swift */; };
+		D93AB54624864DFC00E79EAB /* AnimationDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AB54524864DFC00E79EAB /* AnimationDemosViewController.swift */; };
+		D93AB54924864E9A00E79EAB /* SpringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AB54824864E9A00E79EAB /* SpringViewController.swift */; };
 		D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93AB7162147A9F60024C76E /* CQSimpleFactoryViewController.m */; };
 		D93AB71B2147BE230024C76E /* CQCarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D93AB71A2147BE230024C76E /* CQCarFactory.m */; };
 		D93B7198245967E10022657C /* ZFNoramlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B7197245967E10022657C /* ZFNoramlViewController.m */; };
@@ -803,6 +805,8 @@
 		D93A0BFE233CBE6B00554EF6 /* MyCellNode2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode2.swift; sourceTree = "<group>"; };
 		D93AB53E24860A2800E79EAB /* SnapKitDemoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitDemoListViewController.swift; sourceTree = "<group>"; };
 		D93AB54224860AD100E79EAB /* SnapKitMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitMoreViewController.swift; sourceTree = "<group>"; };
+		D93AB54524864DFC00E79EAB /* AnimationDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDemosViewController.swift; sourceTree = "<group>"; };
+		D93AB54824864E9A00E79EAB /* SpringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringViewController.swift; sourceTree = "<group>"; };
 		D93AB7152147A9F60024C76E /* CQSimpleFactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSimpleFactoryViewController.h; sourceTree = "<group>"; };
 		D93AB7162147A9F60024C76E /* CQSimpleFactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSimpleFactoryViewController.m; sourceTree = "<group>"; };
 		D93AB7192147BE230024C76E /* CQCarFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarFactory.h; sourceTree = "<group>"; };
@@ -2284,6 +2288,89 @@
 				D93AB54224860AD100E79EAB /* SnapKitMoreViewController.swift */,
 			);
 			path = "更多功能";
+			sourceTree = "<group>";
+		};
+		D93AB54424864DA700E79EAB /* 动画框架 */ = {
+			isa = PBXGroup;
+			children = (
+				D93AB54524864DFC00E79EAB /* AnimationDemosViewController.swift */,
+				D920ED1C22E8703900C5A43F /* Lottie */,
+				D9928EA724334C1D0082999F /* Hero */,
+				D93AB54724864E3700E79EAB /* Spring */,
+				D93AB54A24864EDF00E79EAB /* Material */,
+				D93AB54B2486505300E79EAB /* RazzleDazzle */,
+				D93AB54C2486506200E79EAB /* Stellar */,
+				D93AB54D2486507000E79EAB /* Macaw */,
+				D93AB54E2486508300E79EAB /* Presentation */,
+				D93AB54F2486509500E79EAB /* Neon */,
+				D93AB550248650AA00E79EAB /* fluid-interfaces */,
+				D93AB551248650C200E79EAB /* Sica */,
+			);
+			path = "动画框架";
+			sourceTree = "<group>";
+		};
+		D93AB54724864E3700E79EAB /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				D93AB54824864E9A00E79EAB /* SpringViewController.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		D93AB54A24864EDF00E79EAB /* Material */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Material;
+			sourceTree = "<group>";
+		};
+		D93AB54B2486505300E79EAB /* RazzleDazzle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RazzleDazzle;
+			sourceTree = "<group>";
+		};
+		D93AB54C2486506200E79EAB /* Stellar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stellar;
+			sourceTree = "<group>";
+		};
+		D93AB54D2486507000E79EAB /* Macaw */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macaw;
+			sourceTree = "<group>";
+		};
+		D93AB54E2486508300E79EAB /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		D93AB54F2486509500E79EAB /* Neon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Neon;
+			sourceTree = "<group>";
+		};
+		D93AB550248650AA00E79EAB /* fluid-interfaces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "fluid-interfaces";
+			sourceTree = "<group>";
+		};
+		D93AB551248650C200E79EAB /* Sica */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sica;
 			sourceTree = "<group>";
 		};
 		D93AB7182147BCF20024C76E /* Factory */ = {
@@ -4063,6 +4150,7 @@
 			isa = PBXGroup;
 			children = (
 				D9BBF96F235F4885009342EC /* third_part_contents.plist */,
+				D93AB54424864DA700E79EAB /* 动画框架 */,
 				D9AEB65422F5670B006F8995 /* Alamofire */,
 				D9AEB65722F57930006F8995 /* Moya */,
 				D9C7CBF122E9545E0038FD34 /* ObjectMapper */,
@@ -4073,9 +4161,7 @@
 				D904C513234C8B27002DD939 /* IconFontDemo */,
 				D965A2BC234E3A0600041D69 /* CameraManager */,
 				D9A65EEB235AA23D00D55A6F /* JXSegmentedView */,
-				D920ED1C22E8703900C5A43F /* Lottie */,
 				D97F3765238BF36800D47F3C /* 嵌套tableView */,
-				D9928EA724334C1D0082999F /* Hero */,
 				D9EC2EAD24343D6B00C1E4E4 /* SideMenu */,
 				D9F7DEFC2449653200A63632 /* TTTAttributedLabel */,
 				D97516862478B5E900D45C92 /* IQKeyboardManager */,
@@ -5353,6 +5439,7 @@
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
@@ -5386,6 +5473,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
@@ -5702,6 +5790,7 @@
 				D90C4E7C21098C9800C48E72 /* CQChangeThemeController.m in Sources */,
 				D9C7020F22EB542200DDC44F /* RxSwiftDemoViewController.swift in Sources */,
 				D9519A0322BFACC600E3036B /* Clothes.m in Sources */,
+				D93AB54924864E9A00E79EAB /* SpringViewController.swift in Sources */,
 				D9D56B0823B490C3005EEA9A /* CQShadowImageView.m in Sources */,
 				D96FE2CA2396448D00949006 /* ASBackgroundLayoutController.swift in Sources */,
 				D9CD7BED247292D1000B7EB4 /* OCSimpleDataDriveViewController.m in Sources */,
@@ -5783,6 +5872,7 @@
 				D99B98F3246BF231001E6369 /* BaseNaviNode.swift in Sources */,
 				D9DA0E8520E251C4006CEA1C /* IphoneMenuItemModel.m in Sources */,
 				D920CE8F22B37F47000962C0 /* CQPrivacyManager.m in Sources */,
+				D93AB54624864DFC00E79EAB /* AnimationDemosViewController.swift in Sources */,
 				D9C7CC2322E9B2A80038FD34 /* StandardSwiftTableFooterView.swift in Sources */,
 				D926BDD322C495F600A2DD3E /* ForenoonState.m in Sources */,
 				D9A00920237271F400ECF98F /* HomeSegmentedCell.swift in Sources */,
