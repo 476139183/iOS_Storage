@@ -4,9 +4,65 @@
 <array>
 	<dict>
 		<key>demo_name</key>
+		<string>网络框架</string>
+		<key>controller_name</key>
+		<string>NetworkFrameworkViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>图片框架</string>
+		<key>controller_name</key>
+		<string>ImageFrameworkViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>json转model框架</string>
+		<key>controller_name</key>
+		<string>JSONToModelFrameworkViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>UI框架</string>
+		<key>controller_name</key>
+		<string>UIFrameworkViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>布局框架</string>
+		<key>controller_name</key>
+		<string>LayoutFrameworkViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
 		<string>动画框架</string>
 		<key>controller_name</key>
 		<string>AnimationDemosViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>相机相册框架</string>
+		<key>controller_name</key>
+		<string>CameraFrameworkViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>键盘框架</string>
+		<key>controller_name</key>
+		<string>KeyboardFrameworkViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>
@@ -20,123 +76,11 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>ObjectMapperDemo</string>
-		<key>controller_name</key>
-		<string>ObjectMapperDemoViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>RxSwiftDemo</string>
+		<string>RxSwift</string>
 		<key>controller_name</key>
 		<string>RxSwiftDemoListViewController</string>
 		<key>url</key>
 		<string>RxSwiftDemo.md</string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>SnapKitDemo</string>
-		<key>controller_name</key>
-		<string>SnapKitDemoListViewController</string>
-		<key>url</key>
-		<string>https://www.jianshu.com/p/8ce0a616a86e</string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>AlamofireDemo</string>
-		<key>controller_name</key>
-		<string>AlamofireDemoViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>MoyaDemo</string>
-		<key>controller_name</key>
-		<string>MoyaDemoViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>texture</string>
-		<key>controller_name</key>
-		<string>TextureDemoViewController</string>
-		<key>url</key>
-		<string>texture.md</string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>IconFontDemo</string>
-		<key>controller_name</key>
-		<string>IconFontViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>CameraManager</string>
-		<key>controller_name</key>
-		<string>CameraManagerViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>JXSegmentedView</string>
-		<key>controller_name</key>
-		<string>JXDemoViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>嵌套tableView</string>
-		<key>controller_name</key>
-		<string>NestedTableDemoViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>SideMenu</string>
-		<key>controller_name</key>
-		<string>SideMenuViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>TTTLabel</string>
-		<key>controller_name</key>
-		<string>TTTLabelViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>IQKeyboardManager</string>
-		<key>controller_name</key>
-		<string>IQKeyboardManagerViewController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>TZImagePickerController</string>
-		<key>controller_name</key>
-		<string>TZImagePickerDemoController</string>
-		<key>url</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>demo_name</key>
-		<string>Kingfisher</string>
-		<key>controller_name</key>
-		<string>KingfisherListViewController</string>
-		<key>url</key>
-		<string></string>
 	</dict>
 </array>
 </plist>

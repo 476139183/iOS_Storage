@@ -16,7 +16,7 @@ class YYDemoListViewController: JumpListViewController {
         // Do any additional setup after loading the view.
         
         self.dataArray = [ItemModel(title: "YYText", targetVC: YYTextDemoViewController()),
-                          ItemModel(title: "YYText", targetVC: YYTextViewDemoController())]
+                          ItemModel(title: "YYTextView", targetVC: YYTextViewDemoController())]
         
     }
 
