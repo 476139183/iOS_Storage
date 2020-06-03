@@ -24,7 +24,8 @@ class SwiftGrammarViewController: JumpListViewController {
                           ItemModel(title: "Date", targetVC: DatePracticeViewController()),
                           ItemModel(title: "Data", targetVC: DataPracticeViewController()),
                           ItemModel(title: "流程控制", targetVC: ControlFlowViewConroller()),
-                          ItemModel(title: "枚举", targetVC: EnumPracticeViewController())]
+                          ItemModel(title: "枚举", targetVC: EnumPracticeViewController()),
+                          ItemModel(title: "泛型", targetVC: GenericsViewController())]
         
     }
     

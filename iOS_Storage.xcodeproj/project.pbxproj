@@ -322,6 +322,8 @@
 		D97246F2237E82B6001671AD /* MaxCellSpacingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246F1237E82B6001671AD /* MaxCellSpacingViewController.swift */; };
 		D97246F4237E8D47001671AD /* MaxCellSpacingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246F3237E8D47001671AD /* MaxCellSpacingLayout.swift */; };
 		D97246FA237EB11D001671AD /* LeftSideCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246F9237EB11D001671AD /* LeftSideCellViewController.swift */; };
+		D973CD102487A6E000C67FB9 /* 泛型.md in Resources */ = {isa = PBXBuildFile; fileRef = D973CD0F2487A6E000C67FB9 /* 泛型.md */; };
+		D973CD122487A72700C67FB9 /* GenericsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973CD112487A72700C67FB9 /* GenericsViewController.swift */; };
 		D97420CC23A9BB160038AB38 /* UIScrollViewControlDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97420CB23A9BB160038AB38 /* UIScrollViewControlDemoController.swift */; };
 		D97420CE23A9BD5F0038AB38 /* LongImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97420CD23A9BD5F0038AB38 /* LongImageViewController.swift */; };
 		D97516882478B61800D45C92 /* IQKeyboardManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97516872478B61800D45C92 /* IQKeyboardManagerViewController.swift */; };
@@ -1027,6 +1029,8 @@
 		D97246F1237E82B6001671AD /* MaxCellSpacingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxCellSpacingViewController.swift; sourceTree = "<group>"; };
 		D97246F3237E8D47001671AD /* MaxCellSpacingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxCellSpacingLayout.swift; sourceTree = "<group>"; };
 		D97246F9237EB11D001671AD /* LeftSideCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideCellViewController.swift; sourceTree = "<group>"; };
+		D973CD0F2487A6E000C67FB9 /* 泛型.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "泛型.md"; sourceTree = "<group>"; };
+		D973CD112487A72700C67FB9 /* GenericsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsViewController.swift; sourceTree = "<group>"; };
 		D97420CB23A9BB160038AB38 /* UIScrollViewControlDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewControlDemoController.swift; sourceTree = "<group>"; };
 		D97420CD23A9BD5F0038AB38 /* LongImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongImageViewController.swift; sourceTree = "<group>"; };
 		D97516872478B61800D45C92 /* IQKeyboardManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerViewController.swift; sourceTree = "<group>"; };
@@ -2690,6 +2694,7 @@
 				D94016982361F04600580AAC /* Data */,
 				D940169E2361F1C400580AAC /* 流程控制 */,
 				D91453F9237A60090083FD19 /* 枚举 */,
+				D973CD0E2487A6CA00C67FB9 /* 泛型 */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -3541,6 +3546,15 @@
 				D97246F9237EB11D001671AD /* LeftSideCellViewController.swift */,
 			);
 			path = "让宽度自适应的cell靠左";
+			sourceTree = "<group>";
+		};
+		D973CD0E2487A6CA00C67FB9 /* 泛型 */ = {
+			isa = PBXGroup;
+			children = (
+				D973CD0F2487A6E000C67FB9 /* 泛型.md */,
+				D973CD112487A72700C67FB9 /* GenericsViewController.swift */,
+			);
+			path = "泛型";
 			sourceTree = "<group>";
 		};
 		D97516862478B5E900D45C92 /* IQKeyboardManager */ = {
@@ -5230,6 +5244,7 @@
 				D985E42023FD08B500CF7954 /* SF-Pro-Text-HeavyItalic.otf in Resources */,
 				D9402A892101E5B500BF792F /* interview_contents.plist in Resources */,
 				D9AC3CB622AFFDC2007DDBD0 /* 数据结构分类.md in Resources */,
+				D973CD102487A6E000C67FB9 /* 泛型.md in Resources */,
 				D96F416323BEE093008616F4 /* 优雅的Swift.md in Resources */,
 				D9E30C36236D5FC50042BC74 /* img_0.png in Resources */,
 				D94016932361EE9C00580AAC /* accumulate_contents.plist in Resources */,
@@ -5685,6 +5700,7 @@
 				D9012A0C23927237008D5EF5 /* TextureDemoViewController.swift in Sources */,
 				D93AB58424875F3500E79EAB /* MyFrameworkViewController.swift in Sources */,
 				D9AA680A237F8E1000A14C37 /* CQLeftSideLayout.m in Sources */,
+				D973CD122487A72700C67FB9 /* GenericsViewController.swift in Sources */,
 				D9237DC923FEBD8E0021F876 /* UIView+Status.swift in Sources */,
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
 				D930957523B3527000837CA6 /* FPViewController.swift in Sources */,
