@@ -15,7 +15,10 @@ class GenericsViewController: CQBaseViewController {
 
         // Do any additional setup after loading the view.
         
+        self.detailUrl = "https://www.runoob.com/swift/swift-generics.html"
+        
         let arr = [1, 2, 3, 3.3]
+        print(arr)
         
         var a = 1
         var b = 2
