@@ -88,7 +88,7 @@ static NSString * const CQContentCellReuseID = @"CQContentCellReuseID";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CQContentCellReuseID];
     CQContentModel *model = self.dataArray[indexPath.row];
     cell.textLabel.text = [NSString stringWithFormat:@"%.2ld - %@", (long)indexPath.row, model.demo_name];
-    cell.textLabel.font = [UIFont monospacedDigitSystemFontOfSize:16 weight:UIFontWeightSemibold];
+    cell.textLabel.font = [UIFont monospacedDigitSystemFontOfSize:16 weight:UIFontWeightRegular];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
