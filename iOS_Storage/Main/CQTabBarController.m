@@ -40,13 +40,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSArray<CQTabBarItemModel *> *items = @[[CQTabBarItemModel modelWithContents:@"frequently_used_contents" title:@"常用的"],
-                                            [CQTabBarItemModel modelWithContents:@"demo_contents" title:@"demo"],
-                                            [CQTabBarItemModel modelWithContents:@"third_part_contents" title:@"三方库"],
-                                            [CQTabBarItemModel modelWithContents:@"framework_contents" title:@"个人框架"],
-                                            [CQTabBarItemModel modelWithContents:@"architecture_contents" title:@"架构/设计模式"],
-                                            [CQTabBarItemModel modelWithContents:@"arithmetic_contents" title:@"算法/数据结构"],
-                                            [CQTabBarItemModel modelWithContents:@"tips_contents" title:@"tips"]];
+    NSArray<CQTabBarItemModel *> *items = @[[CQTabBarItemModel modelWithContents:@"accumulate_contents" title:@"积累"],
+                                            [CQTabBarItemModel modelWithContents:@"third_part_contents" title:@"三方"],
+                                            [CQTabBarItemModel modelWithContents:@"interview_contents" title:@"面试"],
+                                            [CQTabBarItemModel modelWithContents:@"architecture_contents" title:@"架构"],
+                                            [CQTabBarItemModel modelWithContents:@"arithmetic_contents" title:@"算法"]];
     
     // controllers
     NSMutableArray *controllers = [NSMutableArray array];
