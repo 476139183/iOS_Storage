@@ -324,6 +324,9 @@
 		D97246FA237EB11D001671AD /* LeftSideCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97246F9237EB11D001671AD /* LeftSideCellViewController.swift */; };
 		D973CD102487A6E000C67FB9 /* 泛型.md in Resources */ = {isa = PBXBuildFile; fileRef = D973CD0F2487A6E000C67FB9 /* 泛型.md */; };
 		D973CD122487A72700C67FB9 /* GenericsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973CD112487A72700C67FB9 /* GenericsViewController.swift */; };
+		D973CD1424888E9000C67FB9 /* GenericsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973CD1324888E9000C67FB9 /* GenericsTableViewController.swift */; };
+		D973CD182488A26800C67FB9 /* GenericsPersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973CD172488A26800C67FB9 /* GenericsPersonTableViewController.swift */; };
+		D973CD1A2488A88300C67FB9 /* GenericsCatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973CD192488A88300C67FB9 /* GenericsCatTableViewController.swift */; };
 		D97420CC23A9BB160038AB38 /* UIScrollViewControlDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97420CB23A9BB160038AB38 /* UIScrollViewControlDemoController.swift */; };
 		D97420CE23A9BD5F0038AB38 /* LongImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97420CD23A9BD5F0038AB38 /* LongImageViewController.swift */; };
 		D97516882478B61800D45C92 /* IQKeyboardManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97516872478B61800D45C92 /* IQKeyboardManagerViewController.swift */; };
@@ -1031,6 +1034,9 @@
 		D97246F9237EB11D001671AD /* LeftSideCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideCellViewController.swift; sourceTree = "<group>"; };
 		D973CD0F2487A6E000C67FB9 /* 泛型.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "泛型.md"; sourceTree = "<group>"; };
 		D973CD112487A72700C67FB9 /* GenericsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsViewController.swift; sourceTree = "<group>"; };
+		D973CD1324888E9000C67FB9 /* GenericsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsTableViewController.swift; sourceTree = "<group>"; };
+		D973CD172488A26800C67FB9 /* GenericsPersonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsPersonTableViewController.swift; sourceTree = "<group>"; };
+		D973CD192488A88300C67FB9 /* GenericsCatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsCatTableViewController.swift; sourceTree = "<group>"; };
 		D97420CB23A9BB160038AB38 /* UIScrollViewControlDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewControlDemoController.swift; sourceTree = "<group>"; };
 		D97420CD23A9BD5F0038AB38 /* LongImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongImageViewController.swift; sourceTree = "<group>"; };
 		D97516872478B61800D45C92 /* IQKeyboardManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerViewController.swift; sourceTree = "<group>"; };
@@ -3553,8 +3559,19 @@
 			children = (
 				D973CD0F2487A6E000C67FB9 /* 泛型.md */,
 				D973CD112487A72700C67FB9 /* GenericsViewController.swift */,
+				D973CD1524889A2100C67FB9 /* 泛型tableView */,
 			);
 			path = "泛型";
+			sourceTree = "<group>";
+		};
+		D973CD1524889A2100C67FB9 /* 泛型tableView */ = {
+			isa = PBXGroup;
+			children = (
+				D973CD1324888E9000C67FB9 /* GenericsTableViewController.swift */,
+				D973CD172488A26800C67FB9 /* GenericsPersonTableViewController.swift */,
+				D973CD192488A88300C67FB9 /* GenericsCatTableViewController.swift */,
+			);
+			path = "泛型tableView";
 			sourceTree = "<group>";
 		};
 		D97516862478B5E900D45C92 /* IQKeyboardManager */ = {
@@ -5475,6 +5492,7 @@
 				D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */,
 				D944B6C0246290B10077F58B /* ClosureReturnViewController.swift in Sources */,
 				D926BDC722C487CB00A2DD3E /* CQAbstractFactoryViewController.m in Sources */,
+				D973CD1424888E9000C67FB9 /* GenericsTableViewController.swift in Sources */,
 				D95885BE245282B400CD9FDD /* AVPlayerViewControllerVC.swift in Sources */,
 				D9C5E5EA2349CD4E00D101F1 /* LinkedListViewController.swift in Sources */,
 				D9D11E2723717EC60047AD7C /* WKWebViewDemoViewController.swift in Sources */,
@@ -5528,6 +5546,7 @@
 				D97246EC237E4989001671AD /* NSMutableAttributedString+Extension.swift in Sources */,
 				D9A0091423725A8B00ECF98F /* JXCustomViewController.swift in Sources */,
 				D99B98F8246CF0BB001E6369 /* NaviBarProtocol.swift in Sources */,
+				D973CD182488A26800C67FB9 /* GenericsPersonTableViewController.swift in Sources */,
 				D9C5E5CA23424D5000D101F1 /* YYDemoListViewController.swift in Sources */,
 				D92D69BC20DE3295002BA9C0 /* CQCategoryView.m in Sources */,
 				D9C5B44C233DAE3500299AFB /* MyCellNode7.swift in Sources */,
@@ -5878,6 +5897,7 @@
 				D91453FB237A606A0083FD19 /* EnumPracticeViewController.swift in Sources */,
 				D9D14510229917ED003B594C /* CQRunLoop.m in Sources */,
 				D9608BFA2369899B0053BD3E /* EnlargeActionViewController.swift in Sources */,
+				D973CD1A2488A88300C67FB9 /* GenericsCatTableViewController.swift in Sources */,
 				D93A0BF3233C700E00554EF6 /* ASTableDemoController.swift in Sources */,
 				D926BDDC22C497BA00A2DD3E /* Work.m in Sources */,
 				D994A6E023A65E050032E540 /* IconFontButton.swift in Sources */,

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GenericsViewController: CQBaseViewController {
+class GenericsViewController: JumpListViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +26,9 @@ class GenericsViewController: CQBaseViewController {
         swapTwoValue(&a, &b)
         
         print(a, b)
+        
+        self.dataArray = [ItemModel(title: "泛型tableView person", targetVC: GenericsPersonTableViewController()),
+                          ItemModel(title: "泛型 cat tableView", targetVC: GenericsCatTableViewController())]
         
     }
     
