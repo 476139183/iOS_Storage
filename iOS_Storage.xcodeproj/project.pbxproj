@@ -207,6 +207,9 @@
 		D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43C20E4B3BC0012C370 /* CQContentModel.m */; };
 		D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */; };
 		D94CDEE62484F660000D9D04 /* ScreenShotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CDEE52484F660000D9D04 /* ScreenShotViewController.swift */; };
+		D94F0566248A0DF5007B0165 /* CQTaggedPointerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F0565248A0DF5007B0165 /* CQTaggedPointerViewController.m */; };
+		D94F0569248A0E27007B0165 /* CQAutoReleasePoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F0568248A0E27007B0165 /* CQAutoReleasePoolViewController.m */; };
+		D94F0578248A4807007B0165 /* tabbar_find.json in Resources */ = {isa = PBXBuildFile; fileRef = D94F0577248A4807007B0165 /* tabbar_find.json */; };
 		D94F6A8F20FEE337006BCC6B /* CQFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F6A8E20FEE337006BCC6B /* CQFilterViewController.m */; };
 		D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F6A9220FEE52E006BCC6B /* CQFilterRequest.m */; };
 		D95199E722BDCC0200E3036B /* 代理模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D95199E622BDCC0200E3036B /* 代理模式.md */; };
@@ -328,6 +331,10 @@
 		D973CD182488A26800C67FB9 /* GenericsPersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973CD172488A26800C67FB9 /* GenericsPersonTableViewController.swift */; };
 		D973CD1A2488A88300C67FB9 /* GenericsCatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973CD192488A88300C67FB9 /* GenericsCatTableViewController.swift */; };
 		D973CD1C2488AC7C00C67FB9 /* dsData.json in Resources */ = {isa = PBXBuildFile; fileRef = D973CD1B2488AC7C00C67FB9 /* dsData.json */; };
+		D973CD222489E1F900C67FB9 /* MemoryManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D973CD212489E1F900C67FB9 /* MemoryManagerViewController.swift */; };
+		D973CD292489E4C300C67FB9 /* CQMemoryLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D973CD282489E4C300C67FB9 /* CQMemoryLayoutViewController.m */; };
+		D973CD2F2489E70400C67FB9 /* CQMRCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D973CD2E2489E70400C67FB9 /* CQMRCViewController.m */; };
+		D973CD322489E71400C67FB9 /* CQARCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D973CD312489E71400C67FB9 /* CQARCViewController.m */; };
 		D97420CC23A9BB160038AB38 /* UIScrollViewControlDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97420CB23A9BB160038AB38 /* UIScrollViewControlDemoController.swift */; };
 		D97420CE23A9BD5F0038AB38 /* LongImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97420CD23A9BD5F0038AB38 /* LongImageViewController.swift */; };
 		D97516882478B61800D45C92 /* IQKeyboardManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97516872478B61800D45C92 /* IQKeyboardManagerViewController.swift */; };
@@ -887,6 +894,11 @@
 		D94BF44020E4BCBF0012C370 /* CQDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQDetailViewController.h; sourceTree = "<group>"; };
 		D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQDetailViewController.m; sourceTree = "<group>"; };
 		D94CDEE52484F660000D9D04 /* ScreenShotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShotViewController.swift; sourceTree = "<group>"; };
+		D94F0564248A0DF5007B0165 /* CQTaggedPointerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTaggedPointerViewController.h; sourceTree = "<group>"; };
+		D94F0565248A0DF5007B0165 /* CQTaggedPointerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTaggedPointerViewController.m; sourceTree = "<group>"; };
+		D94F0567248A0E27007B0165 /* CQAutoReleasePoolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQAutoReleasePoolViewController.h; sourceTree = "<group>"; };
+		D94F0568248A0E27007B0165 /* CQAutoReleasePoolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQAutoReleasePoolViewController.m; sourceTree = "<group>"; };
+		D94F0577248A4807007B0165 /* tabbar_find.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tabbar_find.json; sourceTree = "<group>"; };
 		D94F6A8D20FEE337006BCC6B /* CQFilterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQFilterViewController.h; sourceTree = "<group>"; };
 		D94F6A8E20FEE337006BCC6B /* CQFilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFilterViewController.m; sourceTree = "<group>"; };
 		D94F6A9120FEE52E006BCC6B /* CQFilterRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQFilterRequest.h; sourceTree = "<group>"; };
@@ -1039,6 +1051,13 @@
 		D973CD172488A26800C67FB9 /* GenericsPersonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsPersonTableViewController.swift; sourceTree = "<group>"; };
 		D973CD192488A88300C67FB9 /* GenericsCatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsCatTableViewController.swift; sourceTree = "<group>"; };
 		D973CD1B2488AC7C00C67FB9 /* dsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dsData.json; sourceTree = "<group>"; };
+		D973CD212489E1F900C67FB9 /* MemoryManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryManagerViewController.swift; sourceTree = "<group>"; };
+		D973CD272489E4C300C67FB9 /* CQMemoryLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMemoryLayoutViewController.h; sourceTree = "<group>"; };
+		D973CD282489E4C300C67FB9 /* CQMemoryLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMemoryLayoutViewController.m; sourceTree = "<group>"; };
+		D973CD2D2489E70400C67FB9 /* CQMRCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMRCViewController.h; sourceTree = "<group>"; };
+		D973CD2E2489E70400C67FB9 /* CQMRCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMRCViewController.m; sourceTree = "<group>"; };
+		D973CD302489E71400C67FB9 /* CQARCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQARCViewController.h; sourceTree = "<group>"; };
+		D973CD312489E71400C67FB9 /* CQARCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQARCViewController.m; sourceTree = "<group>"; };
 		D97420CB23A9BB160038AB38 /* UIScrollViewControlDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewControlDemoController.swift; sourceTree = "<group>"; };
 		D97420CD23A9BD5F0038AB38 /* LongImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongImageViewController.swift; sourceTree = "<group>"; };
 		D97516872478B61800D45C92 /* IQKeyboardManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerViewController.swift; sourceTree = "<group>"; };
@@ -1836,6 +1855,7 @@
 			isa = PBXGroup;
 			children = (
 				D920ED1F22E870A800C5A43F /* LottieViewController.swift */,
+				D94F0577248A4807007B0165 /* tabbar_find.json */,
 				D973CD1B2488AC7C00C67FB9 /* dsData.json */,
 				D9E30C2E236D5FC50042BC74 /* 转 */,
 				D920ED2122E87F2900C5A43F /* LottieLogo1.json */,
@@ -3577,6 +3597,88 @@
 			path = "泛型tableView";
 			sourceTree = "<group>";
 		};
+		D973CD1D2489E01F00C67FB9 /* 内存管理 */ = {
+			isa = PBXGroup;
+			children = (
+				D973CD212489E1F900C67FB9 /* MemoryManagerViewController.swift */,
+				D973CD1E2489E02A00C67FB9 /* 内存分布 */,
+				D973CD1F2489E03700C67FB9 /* MRC */,
+				D973CD202489E03E00C67FB9 /* ARC */,
+				D973CD232489E3A200C67FB9 /* TaggedPointer */,
+				D973CD242489E3CD00C67FB9 /* 自动释放池 */,
+				D973CD2A2489E5F500C67FB9 /* 内存泄漏 */,
+			);
+			path = "内存管理";
+			sourceTree = "<group>";
+		};
+		D973CD1E2489E02A00C67FB9 /* 内存分布 */ = {
+			isa = PBXGroup;
+			children = (
+				D973CD272489E4C300C67FB9 /* CQMemoryLayoutViewController.h */,
+				D973CD282489E4C300C67FB9 /* CQMemoryLayoutViewController.m */,
+			);
+			path = "内存分布";
+			sourceTree = "<group>";
+		};
+		D973CD1F2489E03700C67FB9 /* MRC */ = {
+			isa = PBXGroup;
+			children = (
+				D973CD2D2489E70400C67FB9 /* CQMRCViewController.h */,
+				D973CD2E2489E70400C67FB9 /* CQMRCViewController.m */,
+			);
+			path = MRC;
+			sourceTree = "<group>";
+		};
+		D973CD202489E03E00C67FB9 /* ARC */ = {
+			isa = PBXGroup;
+			children = (
+				D973CD302489E71400C67FB9 /* CQARCViewController.h */,
+				D973CD312489E71400C67FB9 /* CQARCViewController.m */,
+			);
+			path = ARC;
+			sourceTree = "<group>";
+		};
+		D973CD232489E3A200C67FB9 /* TaggedPointer */ = {
+			isa = PBXGroup;
+			children = (
+				D94F0564248A0DF5007B0165 /* CQTaggedPointerViewController.h */,
+				D94F0565248A0DF5007B0165 /* CQTaggedPointerViewController.m */,
+			);
+			path = TaggedPointer;
+			sourceTree = "<group>";
+		};
+		D973CD242489E3CD00C67FB9 /* 自动释放池 */ = {
+			isa = PBXGroup;
+			children = (
+				D94F0567248A0E27007B0165 /* CQAutoReleasePoolViewController.h */,
+				D94F0568248A0E27007B0165 /* CQAutoReleasePoolViewController.m */,
+			);
+			path = "自动释放池";
+			sourceTree = "<group>";
+		};
+		D973CD2A2489E5F500C67FB9 /* 内存泄漏 */ = {
+			isa = PBXGroup;
+			children = (
+				D973CD2C2489E6E000C67FB9 /* 野指针与僵尸 */,
+				D973CD2B2489E6CC00C67FB9 /* 检测内存泄漏 */,
+			);
+			path = "内存泄漏";
+			sourceTree = "<group>";
+		};
+		D973CD2B2489E6CC00C67FB9 /* 检测内存泄漏 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "检测内存泄漏";
+			sourceTree = "<group>";
+		};
+		D973CD2C2489E6E000C67FB9 /* 野指针与僵尸 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "野指针与僵尸";
+			sourceTree = "<group>";
+		};
 		D97516862478B5E900D45C92 /* IQKeyboardManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -5043,6 +5145,7 @@
 			isa = PBXGroup;
 			children = (
 				D9402A882101E50800BF792F /* interview_contents.plist */,
+				D973CD1D2489E01F00C67FB9 /* 内存管理 */,
 				D9545B2322930645008B6355 /* runtime */,
 				D9545B242293064E008B6355 /* runloop */,
 				D9545B322293A631008B6355 /* KVC */,
@@ -5230,6 +5333,7 @@
 			files = (
 				D9EF0EA72110396300755E11 /* class_cluster_data.json in Resources */,
 				D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */,
+				D94F0578248A4807007B0165 /* tabbar_find.json in Resources */,
 				D95A3DB22482063800F0166C /* LocalGifCell.xib in Resources */,
 				D9A39F6E22B4C90900FEA5F5 /* 策略设计模式.md in Resources */,
 				D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */,
@@ -5495,6 +5599,7 @@
 				D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */,
 				D92D69CB20DE36C8002BA9C0 /* UIView+FrameHelper.m in Sources */,
 				D944B6C0246290B10077F58B /* ClosureReturnViewController.swift in Sources */,
+				D973CD2F2489E70400C67FB9 /* CQMRCViewController.m in Sources */,
 				D926BDC722C487CB00A2DD3E /* CQAbstractFactoryViewController.m in Sources */,
 				D973CD1424888E9000C67FB9 /* GenericsTableViewController.swift in Sources */,
 				D95885BE245282B400CD9FDD /* AVPlayerViewControllerVC.swift in Sources */,
@@ -5663,6 +5768,7 @@
 				D98CBB372453D95200A2E32A /* CollectionViewDemosViewController.swift in Sources */,
 				D9F9336E229D7CEB00C7B2E0 /* CQPthreadController.m in Sources */,
 				D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */,
+				D973CD322489E71400C67FB9 /* CQARCViewController.m in Sources */,
 				D91F97EA245A822200865DEA /* DataDriveTableViewViewController.swift in Sources */,
 				D9C5E5D823473E4F00D101F1 /* CQLeetCodeTwoSumViewController.m in Sources */,
 				D984AD122154F06C00610B27 /* CQSortButton.m in Sources */,
@@ -5788,6 +5894,7 @@
 				D93AB558248745C800E79EAB /* NetworkFrameworkViewController.swift in Sources */,
 				D9536EF5244AB55700FD3964 /* TTTLabelViewController3.swift in Sources */,
 				D99B98EF246BA132001E6369 /* MyStackNode.swift in Sources */,
+				D94F0569248A0E27007B0165 /* CQAutoReleasePoolViewController.m in Sources */,
 				D9C5E5E62349AB1A00D101F1 /* CQEasyButton.m in Sources */,
 				D9A32B66247D121900295E2F /* TalkCellNode.swift in Sources */,
 				D9237DCC23FEC8200021F876 /* ChangeViewStateViewController.swift in Sources */,
@@ -5822,6 +5929,7 @@
 				D91E1D22233E4E9800B1C772 /* GradientView.swift in Sources */,
 				D95A3DB12482063800F0166C /* LocalGifCell.swift in Sources */,
 				D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */,
+				D973CD292489E4C300C67FB9 /* CQMemoryLayoutViewController.m in Sources */,
 				D96778BC23A13CEF00D19554 /* PullDownLargeViewController.swift in Sources */,
 				D9519A0022BF2FE700E3036B /* AdidasFactory.m in Sources */,
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
@@ -5908,6 +6016,8 @@
 				D93AB586248768E900E79EAB /* AlertDemoViewController.swift in Sources */,
 				D93AB55A248745DA00E79EAB /* UIFrameworkViewController.swift in Sources */,
 				D9AC507723B0770C00CB4DF2 /* AOPViewController.swift in Sources */,
+				D973CD222489E1F900C67FB9 /* MemoryManagerViewController.swift in Sources */,
+				D94F0566248A0DF5007B0165 /* CQTaggedPointerViewController.m in Sources */,
 				D92BB28824694BFA008610DB /* NotificationManager.swift in Sources */,
 				D941A125245EDF3000844787 /* WebViewDemosViewController.swift in Sources */,
 				D9ED81E02458095500726E49 /* SeekPerfectViewController.swift in Sources */,
