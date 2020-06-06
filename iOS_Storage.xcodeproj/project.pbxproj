@@ -210,6 +210,14 @@
 		D94F0566248A0DF5007B0165 /* CQTaggedPointerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F0565248A0DF5007B0165 /* CQTaggedPointerViewController.m */; };
 		D94F0569248A0E27007B0165 /* CQAutoReleasePoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F0568248A0E27007B0165 /* CQAutoReleasePoolViewController.m */; };
 		D94F0578248A4807007B0165 /* tabbar_find.json in Resources */ = {isa = PBXBuildFile; fileRef = D94F0577248A4807007B0165 /* tabbar_find.json */; };
+		D94F057B248B3FF4007B0165 /* JSAndWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94F057A248B3FF3007B0165 /* JSAndWebViewController.swift */; };
+		D94F0581248B423E007B0165 /* InterceptUrlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94F0580248B423E007B0165 /* InterceptUrlViewController.swift */; };
+		D94F0583248B4282007B0165 /* WKScriptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94F0582248B4282007B0165 /* WKScriptViewController.swift */; };
+		D94F0585248B44DB007B0165 /* ds_monitor.json in Resources */ = {isa = PBXBuildFile; fileRef = D94F0584248B44DB007B0165 /* ds_monitor.json */; };
+		D94F0589248B4C7B007B0165 /* kq.html in Resources */ = {isa = PBXBuildFile; fileRef = D94F0588248B4C7B007B0165 /* kq.html */; };
+		D94F058B248B6F45007B0165 /* WKScriptViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94F058A248B6F45007B0165 /* WKScriptViewController2.swift */; };
+		D94F058D248B7669007B0165 /* compose.json in Resources */ = {isa = PBXBuildFile; fileRef = D94F058C248B7669007B0165 /* compose.json */; };
+		D94F058F248B7837007B0165 /* kq2.html in Resources */ = {isa = PBXBuildFile; fileRef = D94F058E248B7837007B0165 /* kq2.html */; };
 		D94F6A8F20FEE337006BCC6B /* CQFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F6A8E20FEE337006BCC6B /* CQFilterViewController.m */; };
 		D94F6A9320FEE52E006BCC6B /* CQFilterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F6A9220FEE52E006BCC6B /* CQFilterRequest.m */; };
 		D95199E722BDCC0200E3036B /* 代理模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D95199E622BDCC0200E3036B /* 代理模式.md */; };
@@ -899,6 +907,14 @@
 		D94F0567248A0E27007B0165 /* CQAutoReleasePoolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQAutoReleasePoolViewController.h; sourceTree = "<group>"; };
 		D94F0568248A0E27007B0165 /* CQAutoReleasePoolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQAutoReleasePoolViewController.m; sourceTree = "<group>"; };
 		D94F0577248A4807007B0165 /* tabbar_find.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tabbar_find.json; sourceTree = "<group>"; };
+		D94F057A248B3FF3007B0165 /* JSAndWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSAndWebViewController.swift; sourceTree = "<group>"; };
+		D94F0580248B423E007B0165 /* InterceptUrlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterceptUrlViewController.swift; sourceTree = "<group>"; };
+		D94F0582248B4282007B0165 /* WKScriptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKScriptViewController.swift; sourceTree = "<group>"; };
+		D94F0584248B44DB007B0165 /* ds_monitor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ds_monitor.json; sourceTree = "<group>"; };
+		D94F0588248B4C7B007B0165 /* kq.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = kq.html; sourceTree = "<group>"; };
+		D94F058A248B6F45007B0165 /* WKScriptViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKScriptViewController2.swift; sourceTree = "<group>"; };
+		D94F058C248B7669007B0165 /* compose.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = compose.json; sourceTree = "<group>"; };
+		D94F058E248B7837007B0165 /* kq2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = kq2.html; sourceTree = "<group>"; };
 		D94F6A8D20FEE337006BCC6B /* CQFilterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQFilterViewController.h; sourceTree = "<group>"; };
 		D94F6A8E20FEE337006BCC6B /* CQFilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFilterViewController.m; sourceTree = "<group>"; };
 		D94F6A9120FEE52E006BCC6B /* CQFilterRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQFilterRequest.h; sourceTree = "<group>"; };
@@ -1855,7 +1871,9 @@
 			isa = PBXGroup;
 			children = (
 				D920ED1F22E870A800C5A43F /* LottieViewController.swift */,
+				D94F0584248B44DB007B0165 /* ds_monitor.json */,
 				D94F0577248A4807007B0165 /* tabbar_find.json */,
+				D94F058C248B7669007B0165 /* compose.json */,
 				D973CD1B2488AC7C00C67FB9 /* dsData.json */,
 				D9E30C2E236D5FC50042BC74 /* 转 */,
 				D920ED2122E87F2900C5A43F /* LottieLogo1.json */,
@@ -2630,6 +2648,7 @@
 			children = (
 				D941A124245EDF3000844787 /* WebViewDemosViewController.swift */,
 				D9D11E2523717E500047AD7C /* WKWebViewDemo */,
+				D94F0579248B3EE7007B0165 /* JS与原生交互 */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
@@ -2819,6 +2838,35 @@
 				D94CDEE52484F660000D9D04 /* ScreenShotViewController.swift */,
 			);
 			path = "监听用户截屏";
+			sourceTree = "<group>";
+		};
+		D94F0579248B3EE7007B0165 /* JS与原生交互 */ = {
+			isa = PBXGroup;
+			children = (
+				D94F0588248B4C7B007B0165 /* kq.html */,
+				D94F058E248B7837007B0165 /* kq2.html */,
+				D94F057A248B3FF3007B0165 /* JSAndWebViewController.swift */,
+				D94F057C248B4002007B0165 /* 拦截URL(适用于UIWebView和WKWebView) */,
+				D94F057D248B40EA007B0165 /* WKScriptMessageHandler(只适用于WKWebView) */,
+			);
+			path = "JS与原生交互";
+			sourceTree = "<group>";
+		};
+		D94F057C248B4002007B0165 /* 拦截URL(适用于UIWebView和WKWebView) */ = {
+			isa = PBXGroup;
+			children = (
+				D94F0580248B423E007B0165 /* InterceptUrlViewController.swift */,
+			);
+			path = "拦截URL(适用于UIWebView和WKWebView)";
+			sourceTree = "<group>";
+		};
+		D94F057D248B40EA007B0165 /* WKScriptMessageHandler(只适用于WKWebView) */ = {
+			isa = PBXGroup;
+			children = (
+				D94F0582248B4282007B0165 /* WKScriptViewController.swift */,
+				D94F058A248B6F45007B0165 /* WKScriptViewController2.swift */,
+			);
+			path = "WKScriptMessageHandler(只适用于WKWebView)";
 			sourceTree = "<group>";
 		};
 		D94F6A8820FEDCD9006BCC6B /* 模态Controller弹窗 */ = {
@@ -5345,6 +5393,7 @@
 				D9E86CCF24483C00009CCBB8 /* 正则表达式.md in Resources */,
 				D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */,
 				D9179CDE22B7C04F002FCCA0 /* 装饰模式.md in Resources */,
+				D94F0585248B44DB007B0165 /* ds_monitor.json in Resources */,
 				D94BCDEC22E9D91B0080584F /* 标准CollectionView OC版.md in Resources */,
 				D9019B7C22B13F670039B25D /* 链表.md in Resources */,
 				D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */,
@@ -5407,10 +5456,12 @@
 				D985E41F23FD08B500CF7954 /* SF-Pro-Text-Semibold.otf in Resources */,
 				D9CFC805229CCA0F009B8399 /* 消息发送.md in Resources */,
 				D9CFC807229CCAB7009B8399 /* 消息转发.md in Resources */,
+				D94F0589248B4C7B007B0165 /* kq.html in Resources */,
 				D95A3DB82482443300F0166C /* gif在列表中.md in Resources */,
 				D926BDBE22C349B100A2DD3E /* 观察者模式.md in Resources */,
 				D9A32B882480ADDB00295E2F /* BlurEffectViewController.xib in Resources */,
 				D926BDB222C2F52B00A2DD3E /* 外观模式.md in Resources */,
+				D94F058D248B7669007B0165 /* compose.json in Resources */,
 				D9C7021122EB546300DDC44F /* RxSwiftDemo.md in Resources */,
 				D9B2FDED233314EA00755653 /* cache.md in Resources */,
 				D9E30C40236D686B0042BC74 /* 加载中.gif in Resources */,
@@ -5438,6 +5489,7 @@
 				D92D69C620DE35B2002BA9C0 /* Main.storyboard in Resources */,
 				D926BDAC22C273E800A2DD3E /* 模板方法模式.md in Resources */,
 				D95199E722BDCC0200E3036B /* 代理模式.md in Resources */,
+				D94F058F248B7837007B0165 /* kq2.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5752,6 +5804,7 @@
 				D975168A2478B8B600D45C92 /* IQKeyboardManagerViewController2.swift in Sources */,
 				D9C7CC0322E9927F0038FD34 /* StandardSwiftCollectionViewViewController.swift in Sources */,
 				D9D1450D2298F1F5003B594C /* CQRunLoopLifeController.m in Sources */,
+				D94F0583248B4282007B0165 /* WKScriptViewController.swift in Sources */,
 				D93A0BFF233CBE6B00554EF6 /* MyCellNode2.swift in Sources */,
 				D90D9FAF233218300007C25C /* CQFPSViewController.m in Sources */,
 				D95A3DC82484AE7500F0166C /* KVODemosViewController.swift in Sources */,
@@ -5785,6 +5838,7 @@
 				D9AEB65622F56747006F8995 /* AlamofireDemoViewController.swift in Sources */,
 				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
 				D9BFEAD124581AF200E25133 /* DisplayListViewController.swift in Sources */,
+				D94F0581248B423E007B0165 /* InterceptUrlViewController.swift in Sources */,
 				D913F93F2109C08200366887 /* CQContentViewController.m in Sources */,
 				D9A32B76247E6A3700295E2F /* KingfisherCornerViewController.swift in Sources */,
 				D9BF690F233F4B2A00E602A4 /* CQGradientOCDemoViewController.m in Sources */,
@@ -5792,6 +5846,7 @@
 				D9BF6913233F578900E602A4 /* GradientControl.swift in Sources */,
 				D95A3DAD2481F32F00F0166C /* WebGifCell.swift in Sources */,
 				D95A3DA22480F32300F0166C /* KingfisherLoadGifViewController.swift in Sources */,
+				D94F057B248B3FF4007B0165 /* JSAndWebViewController.swift in Sources */,
 				D95A3DCB2484AF5C00F0166C /* ObserPropertyViewController.swift in Sources */,
 				D9BC6F65238E58CD0085E4E0 /* NestedItemTableView.swift in Sources */,
 				D95A3D9F2480E2A500F0166C /* UILabelDemosViewController.swift in Sources */,
@@ -5834,6 +5889,7 @@
 				D9AE0CE920DD02AC00A31D62 /* main.m in Sources */,
 				D930957523B3527000837CA6 /* FPViewController.swift in Sources */,
 				D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */,
+				D94F058B248B6F45007B0165 /* WKScriptViewController2.swift in Sources */,
 				D9B2FDE9233314BA00755653 /* CQCacheDemoViewController.m in Sources */,
 				D92DA5CC22C1BAAD00E91212 /* UIColor+Util.m in Sources */,
 				D9BE258723B886C9001F4D71 /* AbstractClassBaseCell.swift in Sources */,

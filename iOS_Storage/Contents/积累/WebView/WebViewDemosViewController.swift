@@ -15,7 +15,8 @@ class WebViewDemosViewController: JumpListViewController {
 
         // Do any additional setup after loading the view.
         
-        self.dataArray = [ItemModel.init(title: "WKWebView", targetVC: WKWebViewDemoViewController())]
+        self.dataArray = [ItemModel.init(title: "WKWebView", targetVC: WKWebViewDemoViewController()),
+                          ItemModel.init(title: "JS与原生交互", targetVC: JSAndWebViewController())]
         
     }
 
