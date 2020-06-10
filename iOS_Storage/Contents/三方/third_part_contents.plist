@@ -68,6 +68,14 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
+		<string>路由</string>
+		<key>controller_name</key>
+		<string>RouterViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
 		<string>YY</string>
 		<key>controller_name</key>
 		<string>YYDemoListViewController</string>

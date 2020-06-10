@@ -132,6 +132,7 @@
 		D930957B23B3582700837CA6 /* RP.md in Resources */ = {isa = PBXBuildFile; fileRef = D930957A23B3582700837CA6 /* RP.md */; };
 		D932D24C2338B39E00662E05 /* ASViewControllerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D932D24B2338B39E00662E05 /* ASViewControllerDemoController.swift */; };
 		D933CBDC23ADD68D00AFDF1B /* UIPresentationControllerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D933CBDB23ADD68D00AFDF1B /* UIPresentationControllerDemoController.swift */; };
+		D9347FB32490D43300944E61 /* pullDown.json in Resources */ = {isa = PBXBuildFile; fileRef = D9347FB22490D43300944E61 /* pullDown.json */; };
 		D9376886235809B900515315 /* CollectionViewVerticalFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9376885235809B900515315 /* CollectionViewVerticalFlowLayout.swift */; };
 		D9376888235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9376887235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift */; };
 		D937688A23580A3300515315 /* CollectionViewLayoutDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937688923580A3300515315 /* CollectionViewLayoutDemoViewController.swift */; };
@@ -605,6 +606,8 @@
 		D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E420E2322E00C3090D /* IrregularLabel.m */; };
 		D9E9F4E820E232E200C3090D /* CQIrregularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */; };
 		D9E9F4EC20E235D500C3090D /* ArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E9F4EB20E235D400C3090D /* ArrowLabel.m */; };
+		D9EBF1D12490BEFB00793E01 /* RouterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EBF1D02490BEFB00793E01 /* RouterViewController.swift */; };
+		D9EBF1D32490C04300793E01 /* CTMediatorDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EBF1D22490C04300793E01 /* CTMediatorDemoViewController.swift */; };
 		D9EC2EAF24343DA800C1E4E4 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC2EAE24343DA800C1E4E4 /* SideMenuViewController.swift */; };
 		D9ED81E02458095500726E49 /* SeekPerfectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ED81DF2458095500726E49 /* SeekPerfectViewController.swift */; };
 		D9ED81E224580A4600726E49 /* JumpListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ED81E124580A4600726E49 /* JumpListViewController.swift */; };
@@ -808,6 +811,7 @@
 		D930957A23B3582700837CA6 /* RP.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RP.md; sourceTree = "<group>"; };
 		D932D24B2338B39E00662E05 /* ASViewControllerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASViewControllerDemoController.swift; sourceTree = "<group>"; };
 		D933CBDB23ADD68D00AFDF1B /* UIPresentationControllerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPresentationControllerDemoController.swift; sourceTree = "<group>"; };
+		D9347FB22490D43300944E61 /* pullDown.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pullDown.json; sourceTree = "<group>"; };
 		D9376885235809B900515315 /* CollectionViewVerticalFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewVerticalFlowLayout.swift; sourceTree = "<group>"; };
 		D9376887235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHorizontalFlowLayout.swift; sourceTree = "<group>"; };
 		D937688923580A3300515315 /* CollectionViewLayoutDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLayoutDemoViewController.swift; sourceTree = "<group>"; };
@@ -1410,6 +1414,8 @@
 		D9E9F4E720E232E200C3090D /* CQIrregularViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQIrregularViewController.m; sourceTree = "<group>"; };
 		D9E9F4EA20E235D400C3090D /* ArrowLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrowLabel.h; sourceTree = "<group>"; };
 		D9E9F4EB20E235D400C3090D /* ArrowLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrowLabel.m; sourceTree = "<group>"; };
+		D9EBF1D02490BEFB00793E01 /* RouterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterViewController.swift; sourceTree = "<group>"; };
+		D9EBF1D22490C04300793E01 /* CTMediatorDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTMediatorDemoViewController.swift; sourceTree = "<group>"; };
 		D9EC2EAE24343DA800C1E4E4 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		D9ED81DF2458095500726E49 /* SeekPerfectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekPerfectViewController.swift; sourceTree = "<group>"; };
 		D9ED81E124580A4600726E49 /* JumpListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpListViewController.swift; sourceTree = "<group>"; };
@@ -1880,6 +1886,7 @@
 				D94F0577248A4807007B0165 /* tabbar_find.json */,
 				D94F058C248B7669007B0165 /* compose.json */,
 				D973CD1B2488AC7C00C67FB9 /* dsData.json */,
+				D9347FB22490D43300944E61 /* pullDown.json */,
 				D9E30C2E236D5FC50042BC74 /* 转 */,
 				D920ED2122E87F2900C5A43F /* LottieLogo1.json */,
 				D920ED1D22E8706400C5A43F /* wordsanime.json */,
@@ -4393,6 +4400,7 @@
 				D93AB54424864DA700E79EAB /* 动画框架 */,
 				D93AB56C24874B9A00E79EAB /* 相机相册框架 */,
 				D93AB56D24874C7D00E79EAB /* 键盘框架 */,
+				D9EBF1CD2490BE1000793E01 /* 路由 */,
 				D920ED2322E9358900C5A43F /* YY */,
 				D9C7020D22EB53E600DDC44F /* RxSwift */,
 			);
@@ -5079,6 +5087,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D9EBF1CD2490BE1000793E01 /* 路由 */ = {
+			isa = PBXGroup;
+			children = (
+				D9EBF1D02490BEFB00793E01 /* RouterViewController.swift */,
+				D9EBF1CE2490BE3F00793E01 /* CTMediator */,
+			);
+			path = "路由";
+			sourceTree = "<group>";
+		};
+		D9EBF1CE2490BE3F00793E01 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				D9EBF1D22490C04300793E01 /* CTMediatorDemoViewController.swift */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
 		D9EC2EAD24343D6B00C1E4E4 /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -5471,6 +5496,7 @@
 				D9CFC805229CCA0F009B8399 /* 消息发送.md in Resources */,
 				D9CFC807229CCAB7009B8399 /* 消息转发.md in Resources */,
 				D94F0589248B4C7B007B0165 /* kq.html in Resources */,
+				D9347FB32490D43300944E61 /* pullDown.json in Resources */,
 				D95A3DB82482443300F0166C /* gif在列表中.md in Resources */,
 				D926BDBE22C349B100A2DD3E /* 观察者模式.md in Resources */,
 				D9A32B882480ADDB00295E2F /* BlurEffectViewController.xib in Resources */,
@@ -5557,6 +5583,7 @@
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/CameraManager/CameraManager.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
@@ -5591,6 +5618,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CameraManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
@@ -5753,6 +5781,7 @@
 				D9683C9223B3C65C00F5A87A /* CPViewController.swift in Sources */,
 				D944B6B8245AD6CE0077F58B /* OCGrammarViewController.swift in Sources */,
 				D920CE8822B37E91000962C0 /* CheckPricacyViewController.swift in Sources */,
+				D9EBF1D32490C04300793E01 /* CTMediatorDemoViewController.swift in Sources */,
 				D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */,
 				D9CFC803229CC9CA009B8399 /* CQMessageSendController.m in Sources */,
 				D941B86C235F237E00AEB48E /* JXSegmentedChildController1.swift in Sources */,
@@ -5831,6 +5860,7 @@
 				D9751698247BB3C900D45C92 /* StackThreeTitlesViewController.swift in Sources */,
 				D98E4DF723828A250082EED4 /* WaterfallViewController.swift in Sources */,
 				D9F7E010237026E200BE1285 /* JXImageOrTextViewController.swift in Sources */,
+				D9EBF1D12490BEFB00793E01 /* RouterViewController.swift in Sources */,
 				D93AB5822487541600E79EAB /* KeyboardFrameworkViewController.swift in Sources */,
 				D95199EA22BDCC6100E3036B /* CQDelegateViewController.m in Sources */,
 				D98CBB372453D95200A2E32A /* CollectionViewDemosViewController.swift in Sources */,

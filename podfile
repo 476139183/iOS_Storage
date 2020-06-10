@@ -36,6 +36,7 @@ pod 'ZFPlayer/AVPlayer', '~> 3.0'
 pod 'IQKeyboardManagerSwift'
 pod 'TZImagePickerController'
 pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
+pod "CTMediator"
 
 end
 
