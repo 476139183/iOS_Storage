@@ -12,7 +12,7 @@ import Lottie
 class LottieViewController: CQBaseViewController {
     
     private lazy var lotView: AnimationView = {
-        let view = AnimationView(name: "pullDown")
+        let view = AnimationView(name: "empty")
         // lottie 不支持3D
         //let view = AnimationView(name: "tabbar_find")
         view.loopMode = .loop
