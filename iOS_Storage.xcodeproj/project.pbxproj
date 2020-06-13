@@ -125,6 +125,7 @@
 		D92DA5CC22C1BAAD00E91212 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D92DA5CA22C1BAAC00E91212 /* UIColor+Util.m */; };
 		D92DA5CE22C1CCE200E91212 /* runtime.md in Resources */ = {isa = PBXBuildFile; fileRef = D92DA5CD22C1CCE200E91212 /* runtime.md */; };
 		D930300A2494CEB8002F4ADF /* 闭包.md in Resources */ = {isa = PBXBuildFile; fileRef = D93030092494CEB8002F4ADF /* 闭包.md */; };
+		D930300C2494DB58002F4ADF /* CPPGrammarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D930300B2494DB58002F4ADF /* CPPGrammarViewController.swift */; };
 		D930956D23B2F3D100837CA6 /* StaticTableViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D930956C23B2F3D100837CA6 /* StaticTableViewStoryboard.storyboard */; };
 		D930957023B2FDFD00837CA6 /* StaticMyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D930956E23B2FDFD00837CA6 /* StaticMyTableViewController.swift */; };
 		D930957323B30A0400837CA6 /* StaticMyTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D930957223B30A0400837CA6 /* StaticMyTableView.storyboard */; };
@@ -194,7 +195,6 @@
 		D942531E2366D5CA0031356C /* TableViewAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942531D2366D5CA0031356C /* TableViewAnimationViewController.swift */; };
 		D944B6B2245AD5F70077F58B /* GrammarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944B6B1245AD5F70077F58B /* GrammarListViewController.swift */; };
 		D944B6B4245AD69B0077F58B /* CGrammarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944B6B3245AD69B0077F58B /* CGrammarViewController.swift */; };
-		D944B6B6245AD6B30077F58B /* CPlusGrammarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944B6B5245AD6B30077F58B /* CPlusGrammarViewController.swift */; };
 		D944B6B8245AD6CE0077F58B /* OCGrammarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944B6B7245AD6CE0077F58B /* OCGrammarViewController.swift */; };
 		D944B6BA245AD6F80077F58B /* SwiftGrammarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944B6B9245AD6F80077F58B /* SwiftGrammarViewController.swift */; };
 		D944B6C0246290B10077F58B /* ClosureReturnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944B6BF246290B10077F58B /* ClosureReturnViewController.swift */; };
@@ -809,6 +809,7 @@
 		D92DA5CB22C1BAAC00E91212 /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
 		D92DA5CD22C1CCE200E91212 /* runtime.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = runtime.md; sourceTree = "<group>"; };
 		D93030092494CEB8002F4ADF /* 闭包.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "闭包.md"; sourceTree = "<group>"; };
+		D930300B2494DB58002F4ADF /* CPPGrammarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPPGrammarViewController.swift; sourceTree = "<group>"; };
 		D930956C23B2F3D100837CA6 /* StaticTableViewStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StaticTableViewStoryboard.storyboard; sourceTree = "<group>"; };
 		D930956E23B2FDFD00837CA6 /* StaticMyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticMyTableViewController.swift; sourceTree = "<group>"; };
 		D930957223B30A0400837CA6 /* StaticMyTableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StaticMyTableView.storyboard; sourceTree = "<group>"; };
@@ -890,7 +891,6 @@
 		D942531D2366D5CA0031356C /* TableViewAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAnimationViewController.swift; sourceTree = "<group>"; };
 		D944B6B1245AD5F70077F58B /* GrammarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarListViewController.swift; sourceTree = "<group>"; };
 		D944B6B3245AD69B0077F58B /* CGrammarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGrammarViewController.swift; sourceTree = "<group>"; };
-		D944B6B5245AD6B30077F58B /* CPlusGrammarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPlusGrammarViewController.swift; sourceTree = "<group>"; };
 		D944B6B7245AD6CE0077F58B /* OCGrammarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCGrammarViewController.swift; sourceTree = "<group>"; };
 		D944B6B9245AD6F80077F58B /* SwiftGrammarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGrammarViewController.swift; sourceTree = "<group>"; };
 		D944B6BF246290B10077F58B /* ClosureReturnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureReturnViewController.swift; sourceTree = "<group>"; };
@@ -2739,7 +2739,7 @@
 		D944B6AE245AD1920077F58B /* C++ */ = {
 			isa = PBXGroup;
 			children = (
-				D944B6B5245AD6B30077F58B /* CPlusGrammarViewController.swift */,
+				D930300B2494DB58002F4ADF /* CPPGrammarViewController.swift */,
 			);
 			path = "C++";
 			sourceTree = "<group>";
@@ -6097,7 +6097,6 @@
 				D9F37C6A248BFB72008B6F14 /* HTMLGrammerViewController.swift in Sources */,
 				D9E86CC32447EE4A009CCBB8 /* SwipeGestureViewController.swift in Sources */,
 				D9D64FD72105DDA300379FF2 /* CQThreadViewController.m in Sources */,
-				D944B6B6245AD6B30077F58B /* CPlusGrammarViewController.swift in Sources */,
 				D9751692247B61B300D45C92 /* RxSwiftAddHiddenViewController.swift in Sources */,
 				D9B6313F23BB3111003D95D9 /* DatePracticeViewController.swift in Sources */,
 				D9FE875C23C5EADF000E94CB /* DSActionSheetController.swift in Sources */,
@@ -6216,6 +6215,7 @@
 				D9BE258023B8711E001F4D71 /* QuickTableViewController.swift in Sources */,
 				D9928EA6243345CB0082999F /* SimpleTableViewHelper.swift in Sources */,
 				D9A39F7B22B4D2DC00FEA5F5 /* CQMVPViewController.m in Sources */,
+				D930300C2494DB58002F4ADF /* CPPGrammarViewController.swift in Sources */,
 				D941A128245EE1C900844787 /* UIButtonDemosViewController.swift in Sources */,
 				D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */,
 				D9C3D0E7246DA1E300D3DF7B /* AnimationHudViewController.swift in Sources */,

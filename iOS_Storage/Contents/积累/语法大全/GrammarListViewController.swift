@@ -16,7 +16,7 @@ class GrammarListViewController: JumpListViewController {
         // Do any additional setup after loading the view.
         
         self.dataArray = [ItemModel.init(title: "C", targetVC: CGrammarViewController()),
-                          ItemModel.init(title: "C++", targetVC: CPlusGrammarViewController()),
+                          ItemModel.init(title: "C++", targetVC: CPPGrammarViewController()),
                           ItemModel.init(title: "Objective-C", targetVC: OCGrammarViewController()),
                           ItemModel.init(title: "Swift", targetVC: SwiftGrammarViewController()),
                           ItemModel.init(title: "HTML", targetVC: HTMLGrammerViewController())]
