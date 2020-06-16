@@ -17,6 +17,18 @@ enum ViewStatus {
 
 class FlatTableViewController<T>: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
     
+    var dataArray: [T] = [] {
+        didSet {
+            handleDataArrayChanged()
+        }
+    }
+    
+    var viewStatus: ViewStatus = .normal {
+        didSet {
+            handleViewStatus()
+        }
+    }
+    
     /// 是否支持下拉刷新
     var enableRefresh = true {
         didSet {
@@ -36,18 +48,6 @@ class FlatTableViewController<T>: CQBaseViewController, UITableViewDataSource, U
             } else {
                 self.tableView.mj_footer = nil
             }
-        }
-    }
-    
-    var dataArray: [T] = [] {
-        didSet {
-            handleDataArrayChanged()
-        }
-    }
-    
-    var viewStatus: ViewStatus = .normal {
-        didSet {
-            handleViewStatus()
         }
     }
     

@@ -28,7 +28,8 @@ class GenericsViewController: JumpListViewController {
         print(a, b)
         
         self.dataArray = [ItemModel(title: "泛型tableView person", targetVC: GenericsPersonTableViewController()),
-                          ItemModel(title: "泛型 cat tableView", targetVC: GenericsCatTableViewController())]
+                          ItemModel(title: "泛型 cat tableView", targetVC: GenericsCatTableViewController()),
+                          ItemModel(title: "泛型 tableView 2", targetVC: GenericsTableViewController2())]
         
     }
     
