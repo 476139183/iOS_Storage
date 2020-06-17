@@ -373,6 +373,12 @@
 		D97667BF2499CE9D00A8BEDD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D97667BE2499CE9D00A8BEDD /* README.md */; };
 		D97667C12499CF9400A8BEDD /* SwiftInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667C02499CF9400A8BEDD /* SwiftInitViewController.swift */; };
 		D97667C32499F23600A8BEDD /* Swift 协议.md in Resources */ = {isa = PBXBuildFile; fileRef = D97667C22499F23600A8BEDD /* Swift 协议.md */; };
+		D97667C6249A138700A8BEDD /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667C5249A138700A8BEDD /* SectionModel.swift */; };
+		D97667C8249A145E00A8BEDD /* BaseGenericsTableViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667C7249A145E00A8BEDD /* BaseGenericsTableViewController3.swift */; };
+		D97667CC249A168F00A8BEDD /* BaseCellModel3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667CB249A168F00A8BEDD /* BaseCellModel3.swift */; };
+		D97667CE249A16B600A8BEDD /* BaseHeaderModel3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667CD249A16B600A8BEDD /* BaseHeaderModel3.swift */; };
+		D97667D0249A186300A8BEDD /* BaseCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667CF249A186300A8BEDD /* BaseCell3.swift */; };
+		D97667D2249A188C00A8BEDD /* BaseHeader3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667D1249A188C00A8BEDD /* BaseHeader3.swift */; };
 		D97D0CAF23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D0CAE23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift */; };
 		D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */; };
 		D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97D50FF2350AE3800A0F570 /* trade_rule.txt */; };
@@ -1137,6 +1143,12 @@
 		D97667BE2499CE9D00A8BEDD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D97667C02499CF9400A8BEDD /* SwiftInitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftInitViewController.swift; sourceTree = "<group>"; };
 		D97667C22499F23600A8BEDD /* Swift 协议.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Swift 协议.md"; sourceTree = "<group>"; };
+		D97667C5249A138700A8BEDD /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		D97667C7249A145E00A8BEDD /* BaseGenericsTableViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseGenericsTableViewController3.swift; sourceTree = "<group>"; };
+		D97667CB249A168F00A8BEDD /* BaseCellModel3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCellModel3.swift; sourceTree = "<group>"; };
+		D97667CD249A16B600A8BEDD /* BaseHeaderModel3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseHeaderModel3.swift; sourceTree = "<group>"; };
+		D97667CF249A186300A8BEDD /* BaseCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell3.swift; sourceTree = "<group>"; };
+		D97667D1249A188C00A8BEDD /* BaseHeader3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseHeader3.swift; sourceTree = "<group>"; };
 		D97D0CAE23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSectionHeaderPositionViewController.swift; sourceTree = "<group>"; };
 		D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleView.swift; sourceTree = "<group>"; };
 		D97D50FF2350AE3800A0F570 /* trade_rule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trade_rule.txt; sourceTree = "<group>"; };
@@ -3743,6 +3755,7 @@
 				D97667B22499B18900A8BEDD /* 泛型基础 */,
 				D973CD1524889A2100C67FB9 /* 泛型tableView */,
 				D944FD2C24986F9100C8DB52 /* 泛型tableView+泛型cell */,
+				D97667C4249A12B100A8BEDD /* 泛型tableView3 */,
 			);
 			path = "泛型";
 			sourceTree = "<group>";
@@ -3899,6 +3912,19 @@
 				D97667C02499CF9400A8BEDD /* SwiftInitViewController.swift */,
 			);
 			path = "init 与 deinit";
+			sourceTree = "<group>";
+		};
+		D97667C4249A12B100A8BEDD /* 泛型tableView3 */ = {
+			isa = PBXGroup;
+			children = (
+				D97667C7249A145E00A8BEDD /* BaseGenericsTableViewController3.swift */,
+				D97667C5249A138700A8BEDD /* SectionModel.swift */,
+				D97667CB249A168F00A8BEDD /* BaseCellModel3.swift */,
+				D97667CD249A16B600A8BEDD /* BaseHeaderModel3.swift */,
+				D97667CF249A186300A8BEDD /* BaseCell3.swift */,
+				D97667D1249A188C00A8BEDD /* BaseHeader3.swift */,
+			);
+			path = "泛型tableView3";
 			sourceTree = "<group>";
 		};
 		D97D0CAD23B5FF1B001E6FB7 /* 修改组头悬停位置 */ = {
@@ -5856,6 +5882,7 @@
 				D96773AF2400D9E300829BCB /* SneakersCalendarSegmentView.swift in Sources */,
 				D98E4DE6238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift in Sources */,
 				D926BDD922C496B800A2DD3E /* AfternoonState.m in Sources */,
+				D97667D0249A186300A8BEDD /* BaseCell3.swift in Sources */,
 				D98E4DE423810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift in Sources */,
 				D99BD9C02398AEC40072A784 /* CQBaseNavigationController.m in Sources */,
 				D93AB5602487467600E79EAB /* ImageFrameworkViewController.swift in Sources */,
@@ -5988,6 +6015,7 @@
 				D9F93371229D7D2400C7B2E0 /* CQOperationController.m in Sources */,
 				D916DA2923A24B2000CB0CFA /* CheckViewMemoryLeakViewController.swift in Sources */,
 				D954D5C124456BBF00F02DCF /* PushTranslucenceViewController.swift in Sources */,
+				D97667D2249A188C00A8BEDD /* BaseHeader3.swift in Sources */,
 				D94F6A8F20FEE337006BCC6B /* CQFilterViewController.m in Sources */,
 				D9E4248D212D4E3900283CFC /* CQSortModel.m in Sources */,
 				D9AE922D2477B51C00B11A74 /* CustomNodeViewController.swift in Sources */,
@@ -6031,6 +6059,7 @@
 				D95A3DC82484AE7500F0166C /* KVODemosViewController.swift in Sources */,
 				D96FE2C4239642DF00949006 /* ASStackLayoutController.swift in Sources */,
 				D9BC6F63238E30590085E4E0 /* NestedTableHeaderView.swift in Sources */,
+				D97667CE249A16B600A8BEDD /* BaseHeaderModel3.swift in Sources */,
 				D9AC507923B0777C00CB4DF2 /* POPViewController.swift in Sources */,
 				D9A39F8A22B4D8AF00FEA5F5 /* CQStrategyManager.m in Sources */,
 				D9A39F7822B4D2CA00FEA5F5 /* CQMVCViewController.m in Sources */,
@@ -6043,6 +6072,7 @@
 				D98CBB372453D95200A2E32A /* CollectionViewDemosViewController.swift in Sources */,
 				D944FD34249879F500C8DB52 /* FlowerCell.swift in Sources */,
 				D9F9336E229D7CEB00C7B2E0 /* CQPthreadController.m in Sources */,
+				D97667C8249A145E00A8BEDD /* BaseGenericsTableViewController3.swift in Sources */,
 				D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */,
 				D973CD322489E71400C67FB9 /* CQARCViewController.m in Sources */,
 				D91F97EA245A822200865DEA /* DataDriveTableViewViewController.swift in Sources */,
@@ -6075,6 +6105,7 @@
 				D95A3DCB2484AF5C00F0166C /* ObserPropertyViewController.swift in Sources */,
 				D9BC6F65238E58CD0085E4E0 /* NestedItemTableView.swift in Sources */,
 				D944FD30249873CE00C8DB52 /* BaseGenericsCell.swift in Sources */,
+				D97667C6249A138700A8BEDD /* SectionModel.swift in Sources */,
 				D95A3D9F2480E2A500F0166C /* UILabelDemosViewController.swift in Sources */,
 				D9519A0622BFAE5D00E3036B /* Nick.m in Sources */,
 				D93AB57324874DD400E79EAB /* CQYYImageViewController.m in Sources */,
@@ -6271,6 +6302,7 @@
 				D9A32B69247E038F00295E2F /* TZImagePickerDemoController.swift in Sources */,
 				D9545B3B2293AB48008B6355 /* CQThread.m in Sources */,
 				D91E1D25233E4EB600B1C772 /* CQGradientView.m in Sources */,
+				D97667CC249A168F00A8BEDD /* BaseCellModel3.swift in Sources */,
 				D93AB58B24876AF000E79EAB /* KVOControllerTheoryViewController.m in Sources */,
 				D9697FED22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift in Sources */,
 				D9BF6908233EF61300E602A4 /* CQGradientButton.m in Sources */,
