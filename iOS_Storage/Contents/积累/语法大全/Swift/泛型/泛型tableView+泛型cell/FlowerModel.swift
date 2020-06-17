@@ -8,7 +8,7 @@
 
 import Foundation
 
-class FlowerModel {
+class FlowerModel: BaseModel {
     
     var name: String
     var image: UIImage

@@ -9,7 +9,7 @@
 import UIKit
 
 /// M 表示 model，C 表示 cell
-class BaseGenericsTableViewController<M, C: BaseGenericsCell<M>>: CQBaseViewController, UITableViewDataSource, UITableViewDelegate where M: BaseModel{
+class BaseGenericsTableViewController<M, C: BaseGenericsCell<M>>: CQBaseViewController, UITableViewDataSource, UITableViewDelegate where M: BaseModel {
     
     var dataArray: [M] = [] {
         didSet {
