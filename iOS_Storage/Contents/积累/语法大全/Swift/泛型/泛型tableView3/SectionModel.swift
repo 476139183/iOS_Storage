@@ -16,4 +16,9 @@ class SectionModel<HM: BaseHeaderModel3, CM: BaseCellModel3> {
     /// cell 数据
     var cellModels: [CM]?
     
+    init(headerModel: HM?, cellModels: [CM]?) {
+        self.headerModel = headerModel
+        self.cellModels = cellModels
+    }
+    
 }

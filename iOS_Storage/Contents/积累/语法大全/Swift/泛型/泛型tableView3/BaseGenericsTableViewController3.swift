@@ -20,6 +20,7 @@ class BaseGenericsTableViewController3<CM: BaseCellModel3, C: BaseCell3<CM>, HM:
         let tableView = UITableView()
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.estimatedRowHeight = 0
         //tableView.register(, forCellReuseIdentifier: c)
         tableView.register(C.self, forCellReuseIdentifier: C.className())
         return tableView
@@ -65,5 +66,8 @@ class BaseGenericsTableViewController3<CM: BaseCellModel3, C: BaseCell3<CM>, HM:
         return header ?? UIView()
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
 
 }

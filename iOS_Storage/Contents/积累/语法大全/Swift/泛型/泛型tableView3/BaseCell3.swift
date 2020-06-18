@@ -19,10 +19,12 @@ class BaseCell3<M: BaseCellModel3>: UITableViewCell {
         }
     }
     
+    /// override in subclass
     func configModel(_ model: M) {
         
     }
     
+    /// override in subclass
     func configUI() {
         
     }
