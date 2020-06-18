@@ -8,9 +8,9 @@
 
 import UIKit
 
-class BaseGenericsTableViewController3<CM: BaseModel3, C: BaseCell3<CM>, HM: BaseModel3, H: BaseHeader3<HM>, S: SectionModel<HM, CM>>: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
+class BaseGenericsTableViewController3<CM: BaseModel3, C: BaseCell3<CM>, HM: BaseModel3, H: BaseHeader3<HM>>: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var dataArray: [S] = [] {
+    var dataArray: [SectionModel<HM, CM>] = [] {
         didSet {
             tableView.reloadData()
         }
@@ -75,3 +75,4 @@ class BaseGenericsTableViewController3<CM: BaseModel3, C: BaseCell3<CM>, HM: Bas
     }
 
 }
+

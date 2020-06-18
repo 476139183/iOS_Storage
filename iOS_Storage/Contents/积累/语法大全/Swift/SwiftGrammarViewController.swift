@@ -16,6 +16,7 @@ class SwiftGrammarViewController: JumpListViewController {
         // Do any additional setup after loading the view.
         
         self.dataArray = [ItemModel(title: "class与struct", targetVC: ClassAndStructViewController()),
+                          ItemModel(title: "Swift操作符", targetVC: SwiftOperatorViewController()),
                           ItemModel(title: "init与deinit", targetVC: SwiftInitViewController()),
                           ItemModel(title: "getter与setter", targetVC: GetterSetterViewController()),
                           ItemModel(title: "String", targetVC: StringPracticeViewController()),

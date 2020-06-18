@@ -382,8 +382,8 @@
 		D97667D8249B009600A8BEDD /* ShoeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667D7249B009600A8BEDD /* ShoeCell.swift */; };
 		D97667DA249B03B900A8BEDD /* ShoeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667D9249B03B900A8BEDD /* ShoeHeader.swift */; };
 		D97667DC249B040400A8BEDD /* ShoeHeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667DB249B040400A8BEDD /* ShoeHeaderModel.swift */; };
-		D97667DE249B057800A8BEDD /* ShoeSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667DD249B057800A8BEDD /* ShoeSectionModel.swift */; };
 		D97667E0249B155300A8BEDD /* BaseModel3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667DF249B155300A8BEDD /* BaseModel3.swift */; };
+		D97667E3249B525100A8BEDD /* SwiftOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667E2249B525100A8BEDD /* SwiftOperatorViewController.swift */; };
 		D97D0CAF23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D0CAE23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift */; };
 		D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */; };
 		D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97D50FF2350AE3800A0F570 /* trade_rule.txt */; };
@@ -1157,8 +1157,8 @@
 		D97667D7249B009600A8BEDD /* ShoeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeCell.swift; sourceTree = "<group>"; };
 		D97667D9249B03B900A8BEDD /* ShoeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeHeader.swift; sourceTree = "<group>"; };
 		D97667DB249B040400A8BEDD /* ShoeHeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeHeaderModel.swift; sourceTree = "<group>"; };
-		D97667DD249B057800A8BEDD /* ShoeSectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeSectionModel.swift; sourceTree = "<group>"; };
 		D97667DF249B155300A8BEDD /* BaseModel3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel3.swift; sourceTree = "<group>"; };
+		D97667E2249B525100A8BEDD /* SwiftOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOperatorViewController.swift; sourceTree = "<group>"; };
 		D97D0CAE23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSectionHeaderPositionViewController.swift; sourceTree = "<group>"; };
 		D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleView.swift; sourceTree = "<group>"; };
 		D97D50FF2350AE3800A0F570 /* trade_rule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trade_rule.txt; sourceTree = "<group>"; };
@@ -2847,6 +2847,7 @@
 			children = (
 				D944B6B9245AD6F80077F58B /* SwiftGrammarViewController.swift */,
 				D9CD7BEE24738027000B7EB4 /* class 与 struct */,
+				D97667E1249B511400A8BEDD /* Swift操作符 */,
 				D97667BD2499CE7200A8BEDD /* init 与 deinit */,
 				D9B5499023A4936300E8E6B6 /* getter与setter */,
 				D94016942361EF6B00580AAC /* String */,
@@ -3937,9 +3938,16 @@
 				D97667D7249B009600A8BEDD /* ShoeCell.swift */,
 				D97667DB249B040400A8BEDD /* ShoeHeaderModel.swift */,
 				D97667D9249B03B900A8BEDD /* ShoeHeader.swift */,
-				D97667DD249B057800A8BEDD /* ShoeSectionModel.swift */,
 			);
 			path = "泛型tableView3";
+			sourceTree = "<group>";
+		};
+		D97667E1249B511400A8BEDD /* Swift操作符 */ = {
+			isa = PBXGroup;
+			children = (
+				D97667E2249B525100A8BEDD /* SwiftOperatorViewController.swift */,
+			);
+			path = "Swift操作符";
 			sourceTree = "<group>";
 		};
 		D97D0CAD23B5FF1B001E6FB7 /* 修改组头悬停位置 */ = {
@@ -5925,6 +5933,7 @@
 				D96FE2C62396437800949006 /* ASInsetLayoutController.swift in Sources */,
 				D9545B382293AA4B008B6355 /* CQPermanentThreadController.m in Sources */,
 				D9C7CC1622E9A3AE0038FD34 /* CQStandardTableSectionFooterView.m in Sources */,
+				D97667E3249B525100A8BEDD /* SwiftOperatorViewController.swift in Sources */,
 				D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */,
 				D930957723B3528D00837CA6 /* RPViewController.swift in Sources */,
 				D99B98FE246CF8BA001E6369 /* OCTextureTableController.m in Sources */,
@@ -6010,7 +6019,6 @@
 				D926BDD622C4963B00A2DD3E /* NoonState.m in Sources */,
 				D94BCDF322E9DB0C0080584F /* CQStandardOCCollectionSectionFooterView.m in Sources */,
 				D98665312371555400AA60B2 /* ImageTextConvertViewController.swift in Sources */,
-				D97667DE249B057800A8BEDD /* ShoeSectionModel.swift in Sources */,
 				D9C5E5E12348820A00D101F1 /* EasyButtonViewController.swift in Sources */,
 				D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */,
 				D9C5B448233D967500299AFB /* MyCellNode5.swift in Sources */,
