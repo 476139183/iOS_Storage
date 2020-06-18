@@ -8,11 +8,11 @@
 
 import UIKit
 
-class BaseGenericsTableViewController3<CM: BaseCellModel3, C: BaseCell3<CM>, HM: BaseHeaderModel3, H: BaseHeader3<HM>, S: SectionModel<HM, CM>>: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
+class BaseGenericsTableViewController3<CM: BaseModel3, C: BaseCell3<CM>, HM: BaseModel3, H: BaseHeader3<HM>, S: SectionModel<HM, CM>>: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
     
     var dataArray: [S] = [] {
         didSet {
-            
+            tableView.reloadData()
         }
     }
     
@@ -21,8 +21,8 @@ class BaseGenericsTableViewController3<CM: BaseCellModel3, C: BaseCell3<CM>, HM:
         tableView.dataSource = self
         tableView.delegate = self
         tableView.estimatedRowHeight = 0
-        //tableView.register(, forCellReuseIdentifier: c)
-        tableView.register(C.self, forCellReuseIdentifier: C.className())
+        tableView.estimatedSectionHeaderHeight = 0
+        tableView.estimatedSectionFooterHeight = 0
         return tableView
     }()
 
@@ -51,7 +51,11 @@ class BaseGenericsTableViewController3<CM: BaseCellModel3, C: BaseCell3<CM>, HM:
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: C.className(), for: indexPath) as? C
+        let cellReuseID = "cellReuseID"
+        var cell = tableView.dequeueReusableCell(withIdentifier: cellReuseID) as? C
+        if cell == nil {
+            cell = C.init(style: .default, reuseIdentifier: cellReuseID)
+        }
         cell?.model = dataArray[indexPath.section].cellModels?[indexPath.row]
         return cell ?? UITableViewCell()
     }

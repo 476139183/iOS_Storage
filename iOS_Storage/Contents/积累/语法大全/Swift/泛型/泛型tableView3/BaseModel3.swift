@@ -1,13 +1,13 @@
 //
-//  BaseHeaderModel3.swift
+//  BaseModel3.swift
 //  iOS_Storage
 //
-//  Created by caiqiang on 2020/6/17.
+//  Created by caiqiang on 2020/6/18.
 //  Copyright © 2020 蔡强. All rights reserved.
 //
 
 import Foundation
 
-class BaseHeaderModel3 {
+class BaseModel3 {
     
 }

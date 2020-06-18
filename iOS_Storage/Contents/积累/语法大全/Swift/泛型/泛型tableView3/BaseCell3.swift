@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BaseCell3<M: BaseCellModel3>: UITableViewCell {
+class BaseCell3<M: BaseModel3>: UITableViewCell {
     
     var model: M? {
         didSet {

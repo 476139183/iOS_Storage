@@ -8,8 +8,8 @@
 
 import UIKit
 
-class ShoeModel: BaseCellModel3 {
-
+class ShoeModel: BaseModel3 {
+    
     var name: String = ""
     var image: String = ""
     
