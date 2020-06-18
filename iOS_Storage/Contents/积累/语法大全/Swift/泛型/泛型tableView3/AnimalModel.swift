@@ -1,13 +1,13 @@
 //
-//  BaseModel3.swift
+//  AnimalModel.swift
 //  iOS_Storage
 //
-//  Created by caiqiang on 2020/6/18.
+//  Created by caiqiang on 2020/6/19.
 //  Copyright © 2020 蔡强. All rights reserved.
 //
 
 import Foundation
 
-class BaseModel3 {
+class AnimalModel {
     
 }

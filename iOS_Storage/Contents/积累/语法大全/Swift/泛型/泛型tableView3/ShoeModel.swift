@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ShoeModel: BaseModel3 {
+class ShoeModel {
     
     var name: String = ""
     var image: String = ""

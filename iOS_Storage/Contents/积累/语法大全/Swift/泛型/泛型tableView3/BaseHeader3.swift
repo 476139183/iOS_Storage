@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BaseHeader3<M: BaseModel3>: UITableViewHeaderFooterView {
+class BaseHeader3<M: Any>: UITableViewHeaderFooterView {
     
     var model: M? {
         didSet {

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ShoeHeaderModel: BaseModel3 {
+class ShoeHeaderModel {
     
     var title: String = ""
     

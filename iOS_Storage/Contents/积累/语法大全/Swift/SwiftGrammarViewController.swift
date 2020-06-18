@@ -19,6 +19,7 @@ class SwiftGrammarViewController: JumpListViewController {
                           ItemModel(title: "Swift操作符", targetVC: SwiftOperatorViewController()),
                           ItemModel(title: "init与deinit", targetVC: SwiftInitViewController()),
                           ItemModel(title: "getter与setter", targetVC: GetterSetterViewController()),
+                          ItemModel(title: "Any与AnyObject", targetVC: SwiftAnyViewController()),
                           ItemModel(title: "String", targetVC: StringPracticeViewController()),
                           ItemModel(title: "Array", targetVC: ArrayPracticeViewController()),
                           ItemModel(title: "Dict", targetVC: DictPracticeViewController()),

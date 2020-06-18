@@ -9,7 +9,7 @@
 import Foundation
 
 /// HM 表示 HeaderModel，CM 表示 CellModel
-class SectionModel<HM: BaseModel3, CM: BaseModel3> {
+class SectionModel<HM: Any, CM: Any> {
     
     /// header 数据
     var headerModel: HM?
