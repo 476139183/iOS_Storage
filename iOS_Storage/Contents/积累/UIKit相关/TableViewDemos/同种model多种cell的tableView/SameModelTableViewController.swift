@@ -8,51 +8,14 @@
 
 import UIKit
 
-class SameModelTableViewController: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
-    
-    private let dataArray: [Model] = [Model(title: "抽象基类", targetVC: AbstractClassTableViewController())]
-    
-    private lazy var tableView: UITableView = {
-        let tableView = UITableView()
-        tableView.dataSource = self
-        tableView.delegate = self
-        return tableView
-    }()
+class SameModelTableViewController: JumpListViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
-        
-        view.addSubview(tableView)
-        tableView.frame = .init(x: 0, y: kNavigationBarHeight, width: kScreenWidth, height: screenHeight-kNavigationBarHeight)
-        
+        self.dataArray = [ItemModel(title: "基于抽象基类", targetVC: AbstractClassTableViewController()),
+                          ItemModel(title: "基于协议", targetVC: ProtocolTableViewController()),
+                          ItemModel(title: "基于baseCell", targetVC: BaseCellTableViewController<Any, BaseCell<Any>>())]
     }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dataArray.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let reuseID = "reuseID"
-        var cell = tableView.dequeueReusableCell(withIdentifier: reuseID)
-        if cell == nil {
-            cell = UITableViewCell(style: .default, reuseIdentifier: reuseID)
-        }
-        cell?.textLabel?.text = dataArray[indexPath.row].title
-        return cell!
-    }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        navigationController?.pushViewController(dataArray[indexPath.row].targetVC, animated: true)
-    }
-    
-}
-
-
-fileprivate struct Model {
-    
-    var title: String
-    var targetVC: UIViewController
     
 }

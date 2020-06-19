@@ -51,13 +51,8 @@ class BaseGenericsTableViewController3<CM: Any, C: BaseCell3<CM>, HM: Any, H: Ba
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cellReuseID = "cellReuseID"
-        var cell = tableView.dequeueReusableCell(withIdentifier: cellReuseID) as? C
-        if cell == nil {
-            cell = C.init(style: .default, reuseIdentifier: cellReuseID)
-        }
-        cell?.model = dataArray[indexPath.section].cellModels?[indexPath.row]
-        return cell ?? UITableViewCell()
+        let model = (dataArray[indexPath.section].cellModels?[indexPath.row])!
+        return C.cellWith(model: model, tableView: tableView)
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {

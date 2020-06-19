@@ -10,6 +10,18 @@ import UIKit
 
 class BaseCell3<M: Any>: UITableViewCell {
     
+    class func cellWith(model: M, tableView: UITableView) -> BaseCell3 {
+        let reuseID = "reuseID"
+        var cell = tableView.dequeueReusableCell(withIdentifier: reuseID)
+        if cell == nil {
+            cell = self.init(style: .default, reuseIdentifier: reuseID)
+        }
+        if let curCell = cell! as? BaseCell3 {
+            curCell.model = model
+        }
+        return cell! as! BaseCell3<M>
+    }
+    
     var model: M? {
         didSet {
             guard let model = self.model else {

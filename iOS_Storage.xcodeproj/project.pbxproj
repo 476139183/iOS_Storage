@@ -30,6 +30,9 @@
 		D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D91420AB216B50DD0034ACEA /* CQRippleView.m */; };
 		D91453FB237A606A0083FD19 /* EnumPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91453FA237A606A0083FD19 /* EnumPracticeViewController.swift */; };
 		D9145403237A894B0083FD19 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9145402237A894B0083FD19 /* Tool.swift */; };
+		D9146DA3249C595F002862AB /* BaseCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DA2249C595F002862AB /* BaseCellTableViewController.swift */; };
+		D9146DA5249C9211002862AB /* AnimalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DA4249C9211002862AB /* AnimalHeader.swift */; };
+		D9146DA7249C958A002862AB /* GenericsTableViewController31.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DA6249C958A002862AB /* GenericsTableViewController31.swift */; };
 		D9146DE423920450002EA395 /* GestureScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DE323920450002EA395 /* GestureScrollViewController.swift */; };
 		D9146DE62392046C002EA395 /* NestedTableDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DE52392046C002EA395 /* NestedTableDemoViewController.swift */; };
 		D9146DE8239213B5002EA395 /* GestureMainScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DE7239213B5002EA395 /* GestureMainScrollView.swift */; };
@@ -710,6 +713,9 @@
 		D91420AB216B50DD0034ACEA /* CQRippleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRippleView.m; sourceTree = "<group>"; };
 		D91453FA237A606A0083FD19 /* EnumPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumPracticeViewController.swift; sourceTree = "<group>"; };
 		D9145402237A894B0083FD19 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		D9146DA2249C595F002862AB /* BaseCellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCellTableViewController.swift; sourceTree = "<group>"; };
+		D9146DA4249C9211002862AB /* AnimalHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalHeader.swift; sourceTree = "<group>"; };
+		D9146DA6249C958A002862AB /* GenericsTableViewController31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsTableViewController31.swift; sourceTree = "<group>"; };
 		D9146DE323920450002EA395 /* GestureScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureScrollViewController.swift; sourceTree = "<group>"; };
 		D9146DE52392046C002EA395 /* NestedTableDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableDemoViewController.swift; sourceTree = "<group>"; };
 		D9146DE7239213B5002EA395 /* GestureMainScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureMainScrollView.swift; sourceTree = "<group>"; };
@@ -1689,6 +1695,48 @@
 				D91453FA237A606A0083FD19 /* EnumPracticeViewController.swift */,
 			);
 			path = "枚举";
+			sourceTree = "<group>";
+		};
+		D9146DA1249C58FC002862AB /* 基于baseCell */ = {
+			isa = PBXGroup;
+			children = (
+				D9146DA2249C595F002862AB /* BaseCellTableViewController.swift */,
+			);
+			path = "基于baseCell";
+			sourceTree = "<group>";
+		};
+		D9146DA8249C95B5002862AB /* 一种cell */ = {
+			isa = PBXGroup;
+			children = (
+				D97667D3249AFD5900A8BEDD /* GenericsTableViewController3.swift */,
+				D97667D5249AFF6400A8BEDD /* ShoeModel.swift */,
+				D97667D7249B009600A8BEDD /* ShoeCell.swift */,
+				D97667DB249B040400A8BEDD /* ShoeHeaderModel.swift */,
+				D97667D9249B03B900A8BEDD /* ShoeHeader.swift */,
+			);
+			path = "一种cell";
+			sourceTree = "<group>";
+		};
+		D9146DA9249C95D5002862AB /* 多种cell */ = {
+			isa = PBXGroup;
+			children = (
+				D9146DA6249C958A002862AB /* GenericsTableViewController31.swift */,
+				D9F53193249BD8B3005BD556 /* AnimalModel.swift */,
+				D9F53191249BD877005BD556 /* AnimalCell.swift */,
+				D9146DA4249C9211002862AB /* AnimalHeader.swift */,
+			);
+			path = "多种cell";
+			sourceTree = "<group>";
+		};
+		D9146DAA249C95FB002862AB /* base */ = {
+			isa = PBXGroup;
+			children = (
+				D97667C7249A145E00A8BEDD /* BaseGenericsTableViewController3.swift */,
+				D97667C5249A138700A8BEDD /* SectionModel.swift */,
+				D97667CF249A186300A8BEDD /* BaseCell3.swift */,
+				D97667D1249A188C00A8BEDD /* BaseHeader3.swift */,
+			);
+			path = base;
 			sourceTree = "<group>";
 		};
 		D9146DE1239202B2002EA395 /* tableView嵌套 */ = {
@@ -3933,17 +3981,9 @@
 		D97667C4249A12B100A8BEDD /* 泛型tableView3 */ = {
 			isa = PBXGroup;
 			children = (
-				D97667D3249AFD5900A8BEDD /* GenericsTableViewController3.swift */,
-				D97667C7249A145E00A8BEDD /* BaseGenericsTableViewController3.swift */,
-				D97667C5249A138700A8BEDD /* SectionModel.swift */,
-				D97667CF249A186300A8BEDD /* BaseCell3.swift */,
-				D97667D1249A188C00A8BEDD /* BaseHeader3.swift */,
-				D97667D5249AFF6400A8BEDD /* ShoeModel.swift */,
-				D97667D7249B009600A8BEDD /* ShoeCell.swift */,
-				D97667DB249B040400A8BEDD /* ShoeHeaderModel.swift */,
-				D97667D9249B03B900A8BEDD /* ShoeHeader.swift */,
-				D9F53191249BD877005BD556 /* AnimalCell.swift */,
-				D9F53193249BD8B3005BD556 /* AnimalModel.swift */,
+				D9146DAA249C95FB002862AB /* base */,
+				D9146DA8249C95B5002862AB /* 一种cell */,
+				D9146DA9249C95D5002862AB /* 多种cell */,
 			);
 			path = "泛型tableView3";
 			sourceTree = "<group>";
@@ -4649,6 +4689,7 @@
 				D9BE257923B86F1C001F4D71 /* SameModelTableViewController.swift */,
 				D9BE258523B88665001F4D71 /* 基于抽象基类 */,
 				D9BE258823B8890E001F4D71 /* 基于协议 */,
+				D9146DA1249C58FC002862AB /* 基于baseCell */,
 			);
 			path = "同种model多种cell的tableView";
 			sourceTree = "<group>";
@@ -5988,6 +6029,7 @@
 				D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */,
 				D9C7CC0C22E9998B0038FD34 /* CQStandardTableFooterView.m in Sources */,
 				D98E4DF0238284AC0082EED4 /* IconFont.swift in Sources */,
+				D9146DA7249C958A002862AB /* GenericsTableViewController31.swift in Sources */,
 				D97246EC237E4989001671AD /* NSMutableAttributedString+Extension.swift in Sources */,
 				D9A0091423725A8B00ECF98F /* JXCustomViewController.swift in Sources */,
 				D99B98F8246CF0BB001E6369 /* NaviBarProtocol.swift in Sources */,
@@ -6275,6 +6317,7 @@
 				D9E21A8E210FF92500407599 /* CQClassClusterCellC.m in Sources */,
 				D982964B23976A42001C05AE /* NavigationJumpViewController.swift in Sources */,
 				D9DA5CF020E291550098EC68 /* UIView+Util.m in Sources */,
+				D9146DA5249C9211002862AB /* AnimalHeader.swift in Sources */,
 				D95A3D9C2480DF7700F0166C /* BlurEffectListViewController.swift in Sources */,
 				D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */,
 				D9F72DDB243D83AF007BBB05 /* CompressImageViewController.swift in Sources */,
@@ -6378,6 +6421,7 @@
 				D93A0BF3233C700E00554EF6 /* ASTableDemoController.swift in Sources */,
 				D926BDDC22C497BA00A2DD3E /* Work.m in Sources */,
 				D994A6E023A65E050032E540 /* IconFontButton.swift in Sources */,
+				D9146DA3249C595F002862AB /* BaseCellTableViewController.swift in Sources */,
 				D93AB586248768E900E79EAB /* AlertDemoViewController.swift in Sources */,
 				D93AB55A248745DA00E79EAB /* UIFrameworkViewController.swift in Sources */,
 				D9AC507723B0770C00CB4DF2 /* AOPViewController.swift in Sources */,
