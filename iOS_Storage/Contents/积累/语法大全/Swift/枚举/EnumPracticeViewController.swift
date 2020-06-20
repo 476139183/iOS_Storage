@@ -78,6 +78,14 @@ class EnumPracticeViewController: CQBaseViewController {
             break
         }
         
+        let type2 = UserType.official(isTop: true, remindEnabled: true)
+        switch type2 {
+        case .official(isTop: true, remindEnabled: true):
+            print("都是true")
+        default:
+            print("不都是")
+        }
+        
         let alertController = UIAlertController(title: "选择球鞋成色", message: nil, preferredStyle: .actionSheet)
         let array: [ShoesQuality] = [.new, .flaw, .dressed, .secondHand]
         array.forEach { (quality) in
@@ -138,7 +146,68 @@ class EnumPracticeViewController: CQBaseViewController {
             print("订阅ID:\(subscribeID)")
         }
         
+        let testButton = UIButton(type: .system)
+        view.addSubview(testButton)
+        testButton.setTitle("test", for: .normal)
+        testButton.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
+        testButton.snp.makeConstraints { (make) in
+            make.center.equalToSuperview()
+            make.width.equalTo(200)
+            make.height.equalTo(40)
+        }
+    }
+    
+    @objc private func buttonClicked() {
+        test2()
     }
     
 }
 
+
+// MARK: - 枚举值
+
+// Swift 枚举中支持以下四种关联值类型：
+// - 整形(Integer)
+// - 浮点数(Float Point)
+// - 字符串(String)
+// - 布尔类型(Boolean)
+
+extension EnumPracticeViewController {
+    
+    private enum PlayState: String {
+        case start
+        case stop
+    }
+    
+    private func test1() {
+        print(PlayState.start.rawValue)
+        print(PlayState.stop.rawValue)
+        
+        // 关联值的枚举通过 rawValue 构造一个枚举
+        let state1 = PlayState.init(rawValue: "ddd")
+        print(state1) // nil
+        
+        let state2 = PlayState.init(rawValue: "stop")
+        print(state2) // stop
+    }
+    
+}
+
+
+// MARK: - 枚举比较
+
+extension EnumPracticeViewController {
+    
+    private enum ShoeType {
+        case nike
+        case adidas
+    }
+    
+    private func test2() {
+        let type1 = ShoeType.nike
+        if type1 == ShoeType.nike {
+            print("equal")
+        }
+    }
+    
+}
