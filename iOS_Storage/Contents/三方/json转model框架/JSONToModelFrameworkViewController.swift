@@ -18,7 +18,8 @@ class JSONToModelFrameworkViewController: JumpListViewController {
         self.dataArray = [ItemModel(title: "ObjectMapper", targetVC: ObjectMapperDemoViewController()),
                           ItemModel(title: "JSONModel", targetVC: CQJSONModelViewController()),
                           ItemModel(title: "SwiftyJSON", targetVC: SwiftyJSONViewController()),
-                          ItemModel(title: "YYModel", targetVC: CQYYModelViewController())]
+                          ItemModel(title: "YYModel", targetVC: CQYYModelViewController()),
+                          ItemModel(title: "HandyJSON", targetVC: HandyJSONViewController())]
         
     }
 

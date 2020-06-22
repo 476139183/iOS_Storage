@@ -37,6 +37,7 @@ pod 'IQKeyboardManagerSwift'
 pod 'TZImagePickerController'
 pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
 pod "CTMediator"
+pod 'HandyJSON', '~> 5.0.1'
 
 end
 

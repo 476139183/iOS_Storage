@@ -20,6 +20,7 @@ PODS:
   - Alamofire (5.0.0)
   - CameraManager (4.4.0)
   - CTMediator (28)
+  - HandyJSON (5.0.1)
   - Hero (1.5.0)
   - IQKeyboardManagerSwift (6.5.5)
   - JSONModel (1.8.0)
@@ -103,6 +104,7 @@ DEPENDENCIES:
   - Alamofire (= 5.0.0)
   - CameraManager (~> 4.4)
   - CTMediator
+  - HandyJSON (~> 5.0.1)
   - Hero
   - IQKeyboardManagerSwift
   - JSONModel
@@ -137,6 +139,7 @@ SPEC REPOS:
     - Alamofire
     - CameraManager
     - CTMediator
+    - HandyJSON
     - Hero
     - IQKeyboardManagerSwift
     - JSONModel
@@ -180,6 +183,7 @@ SPEC CHECKSUMS:
   Alamofire: 58ff2bfb8daaacaa233d5c36e37b10a5248f59b1
   CameraManager: 583710502c42178d12ef046d9d4f7893feff8354
   CTMediator: 6a05e9f1098b2d2fbc9d19cc7f28e94c3a08b5d2
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
   Hero: b7385b75e7259da62f4f85462f59a5082d66b058
   IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
@@ -209,6 +213,6 @@ SPEC CHECKSUMS:
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZFPlayer: 8a6021a3c45e281f2abd24dca5c88915af770a7e
 
-PODFILE CHECKSUM: 219a0da9c0efc12e0040904307834d211cc4c085
+PODFILE CHECKSUM: 217c5db4a875c58d9ef74ee40b95dc42a4194b89
 
 COCOAPODS: 1.8.4

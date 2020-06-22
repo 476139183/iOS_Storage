@@ -537,6 +537,9 @@
 		D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352B23853059008C0D59 /* RefreshViewController.swift */; };
 		D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */; };
 		D9C2807024A05C7400C66F61 /* json_demo.json in Resources */ = {isa = PBXBuildFile; fileRef = D9C2806F24A05C7400C66F61 /* json_demo.json */; };
+		D9C2807324A08E9700C66F61 /* Swift异常处理.md in Resources */ = {isa = PBXBuildFile; fileRef = D9C2807224A08E9700C66F61 /* Swift异常处理.md */; };
+		D9C2807524A0921100C66F61 /* ErrorHandleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2807424A0921100C66F61 /* ErrorHandleViewController.swift */; };
+		D9C2807924A09A6800C66F61 /* HandyJSONViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2807824A09A6800C66F61 /* HandyJSONViewController.swift */; };
 		D9C2AA9F236928F900EBB9E1 /* UIViewAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2AA9E236928F900EBB9E1 /* UIViewAnimationViewController.swift */; };
 		D9C3D0E7246DA1E300D3DF7B /* AnimationHudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C3D0E6246DA1E300D3DF7B /* AnimationHudViewController.swift */; };
 		D9C3D0E9246DA27200D3DF7B /* AnimationHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C3D0E8246DA27200D3DF7B /* AnimationHud.swift */; };
@@ -1347,6 +1350,9 @@
 		D9C2352B23853059008C0D59 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
 		D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRefreshHeader.swift; sourceTree = "<group>"; };
 		D9C2806F24A05C7400C66F61 /* json_demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json_demo.json; sourceTree = "<group>"; };
+		D9C2807224A08E9700C66F61 /* Swift异常处理.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Swift异常处理.md"; sourceTree = "<group>"; };
+		D9C2807424A0921100C66F61 /* ErrorHandleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandleViewController.swift; sourceTree = "<group>"; };
+		D9C2807824A09A6800C66F61 /* HandyJSONViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyJSONViewController.swift; sourceTree = "<group>"; };
 		D9C2AA9E236928F900EBB9E1 /* UIViewAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAnimationViewController.swift; sourceTree = "<group>"; };
 		D9C3D0E6246DA1E300D3DF7B /* AnimationHudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHudViewController.swift; sourceTree = "<group>"; };
 		D9C3D0E8246DA27200D3DF7B /* AnimationHud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHud.swift; sourceTree = "<group>"; };
@@ -2568,6 +2574,7 @@
 				D93AB57424874EC100E79EAB /* JSONModel */,
 				D93AB57524874ED100E79EAB /* SwiftyJSON */,
 				D93AB57624874EFB00E79EAB /* YYModel */,
+				D9C2807724A09A4400C66F61 /* HandyJSON */,
 			);
 			path = "json转model框架";
 			sourceTree = "<group>";
@@ -2906,6 +2913,7 @@
 				D97667BD2499CE7200A8BEDD /* init 与 deinit */,
 				D9B5499023A4936300E8E6B6 /* getter与setter */,
 				D9F5318E249BC3C9005BD556 /* Any与AnyObject */,
+				D9C2807124A08E3100C66F61 /* 异常处理 */,
 				D94016942361EF6B00580AAC /* String */,
 				D940169A2361F15300580AAC /* Array */,
 				D940169D2361F1A400580AAC /* Dictionary */,
@@ -4751,6 +4759,23 @@
 			path = "基于MJRefresh的下拉刷新";
 			sourceTree = "<group>";
 		};
+		D9C2807124A08E3100C66F61 /* 异常处理 */ = {
+			isa = PBXGroup;
+			children = (
+				D9C2807224A08E9700C66F61 /* Swift异常处理.md */,
+				D9C2807424A0921100C66F61 /* ErrorHandleViewController.swift */,
+			);
+			path = "异常处理";
+			sourceTree = "<group>";
+		};
+		D9C2807724A09A4400C66F61 /* HandyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				D9C2807824A09A6800C66F61 /* HandyJSONViewController.swift */,
+			);
+			path = HandyJSON;
+			sourceTree = "<group>";
+		};
 		D9C2AA9D2369275800EBB9E1 /* UIView动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -5716,6 +5741,7 @@
 				D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */,
 				D95A3DCD2484B7F300F0166C /* 它是怎么观察到属性有变化的？.md in Resources */,
 				D91A9F8122B482B1008F87F1 /* README.md in Resources */,
+				D9C2807324A08E9700C66F61 /* Swift异常处理.md in Resources */,
 				D985E41D23FD08B500CF7954 /* SF-Pro-Text-BoldItalic.otf in Resources */,
 				D967A81A23ACB9E20000C00D /* 编程思想.md in Resources */,
 				D9B2FDF5233877BE00755653 /* texture.md in Resources */,
@@ -5867,6 +5893,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/CameraManager/CameraManager.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
@@ -5902,6 +5929,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CameraManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
@@ -6477,6 +6505,7 @@
 				D97420CE23A9BD5F0038AB38 /* LongImageViewController.swift in Sources */,
 				D920ED2522E935D800C5A43F /* YYTextDemoViewController.swift in Sources */,
 				D93A0BF7233C735500554EF6 /* TextureLabelView.swift in Sources */,
+				D9C2807524A0921100C66F61 /* ErrorHandleViewController.swift in Sources */,
 				D9700D73245ED8A900168FE0 /* UIKitDemosViewController.swift in Sources */,
 				D9866539237164DF00AA60B2 /* CQSegmentedDataSource.swift in Sources */,
 				D986652C23710FB500AA60B2 /* String+Extension.swift in Sources */,
@@ -6500,6 +6529,7 @@
 				D9DE775623AA2BE000E902A5 /* CQStandardOCCollectionFooterView.m in Sources */,
 				D9BF6911233F4B6600E602A4 /* GradientSwiftDemoViewController.swift in Sources */,
 				D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */,
+				D9C2807924A09A6800C66F61 /* HandyJSONViewController.swift in Sources */,
 				D92D105A23066A42002203A1 /* CQCheckDeallocViewController.m in Sources */,
 				D95A3DD22484DCBF00F0166C /* KVOBasicViewController.m in Sources */,
 				D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */,
