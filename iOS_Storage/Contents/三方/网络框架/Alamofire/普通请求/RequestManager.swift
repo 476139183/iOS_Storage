@@ -8,25 +8,72 @@
 
 import Foundation
 import Alamofire
+import SwiftyJSON
 
-// Alamofire.request(urlString, method: .get, parameters: paraDict, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
-
-class RequestManager {
+struct RequestManager {
     
-    static func request(url: String, method: HTTPMethod, parameters :Parameters? = nil, success: ((HTTPURLResponse?) -> ())?, failure: ((String) -> ())?) {
-        // 业务的 heders
-        var headers: HTTPHeaders = [:]
-        AF.request(url, method: method, parameters: parameters, encoding: URLEncoding.default, headers: headers).responseJSON { (response) in
-            
+    /// 请求JSON
+    static func requestJSON(
+        url: String,
+        method: HTTPMethod,
+        parameters: Parameters? = nil,
+        encoding: ParameterEncoding = URLEncoding.default,
+        headers: HTTPHeaders? = nil,
+        success: ((JSON) -> ())?,
+        failure: ((String) -> ())?) {
+        
+        commonRequest(url: url, method: method, parameters: parameters, encoding: encoding, headers: headers, failure: failure)?.responseJSON { (response) in
             switch response.result {
-            case .success(_): // 与服务器交互成功
-                success?(response.response)
-            case .failure(_):
-                failure?(response.error?.localizedDescription ?? "网络不给力")
+            case .success(let json):
+                success?(JSON(json))
+            case .failure(let error):
+                failure?(error.localizedDescription)
             }
-            
         }
+        
+    }
+    
+    
+    /// 请求String
+    static func requestString(
+        url: String,
+        method: HTTPMethod,
+        parameters: Parameters? = nil,
+        encoding: ParameterEncoding = URLEncoding.default,
+        headers: HTTPHeaders? = nil,
+        success: ((String) -> ())?,
+        failure: ((String) -> ())?) {
+        
+        commonRequest(url: url, method: method, parameters: parameters, encoding: encoding, headers: headers, failure: failure)?.responseString { (response) in
+            switch response.result {
+            case .success(let resultString):
+                success?(resultString)
+            case .failure(let error):
+                failure?(error.localizedDescription)
+            }
+        }
+        
+    }
+    
+    
+    // 构建request，通用方法
+    private static func commonRequest(
+        url: String,
+        method: HTTPMethod,
+        parameters: Parameters? = nil,
+        encoding: ParameterEncoding = URLEncoding.default,
+        headers: HTTPHeaders? = nil,
+        failure: ((String) -> ())?)
+        -> DataRequest? {
+            
+            guard let url: URL = URL(string: url) else {
+                failure?("url解析错误")
+                return nil
+            }
+            return AF.request(url, method: method, parameters: parameters, encoding: encoding, headers: headers)
+            
     }
     
     
 }
+

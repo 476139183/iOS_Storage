@@ -99,37 +99,14 @@ class AlamofireRequestViewController: CQBaseViewController {
         paraDict["key"] = "66864d74d580156ac49d63e1487a578a"
         
         // 请求
-//        RequestManager.request(url: urlString, method: .get, parameters: paraDict, success: { (response) in
-//
-//        }) { (errorInfo) in
-//
-//        }
-        
-        AF.request(urlString, method: .get, parameters: paraDict, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
-            
-            switch response.result {
-            case .success(_):
-                let json = response.result
-                
-                let model = InfoModel()
-                
-                // SwiftyJSON
-                let dict = JSON(json)
-                model.province = dict["error_code"].stringValue
-                
-                self.provinceLabel.text = model.province
-                
-                print("请求成功")
-            case .failure(_):
-                print("请求失败")
-            }
-
-            debugPrint(response)
-
-        }
-        
+        RequestManager.requestJSON(url: urlString, method: .get, success: { (json) in
+            let model = InfoModel()
+            model.province = json["error_code"].stringValue
+            self.provinceLabel.text = model.province
+        }, failure: { (info) in
+            print(info)
+        })
     }
-    
     
 }
 
