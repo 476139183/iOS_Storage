@@ -536,6 +536,7 @@
 		D9C0EFBD23A0A29B0053EEAC /* GradientNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */; };
 		D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352B23853059008C0D59 /* RefreshViewController.swift */; };
 		D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */; };
+		D9C2807024A05C7400C66F61 /* json_demo.json in Resources */ = {isa = PBXBuildFile; fileRef = D9C2806F24A05C7400C66F61 /* json_demo.json */; };
 		D9C2AA9F236928F900EBB9E1 /* UIViewAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2AA9E236928F900EBB9E1 /* UIViewAnimationViewController.swift */; };
 		D9C3D0E7246DA1E300D3DF7B /* AnimationHudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C3D0E6246DA1E300D3DF7B /* AnimationHudViewController.swift */; };
 		D9C3D0E9246DA27200D3DF7B /* AnimationHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C3D0E8246DA27200D3DF7B /* AnimationHud.swift */; };
@@ -1345,6 +1346,7 @@
 		D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientNaviViewController.swift; sourceTree = "<group>"; };
 		D9C2352B23853059008C0D59 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
 		D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRefreshHeader.swift; sourceTree = "<group>"; };
+		D9C2806F24A05C7400C66F61 /* json_demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json_demo.json; sourceTree = "<group>"; };
 		D9C2AA9E236928F900EBB9E1 /* UIViewAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAnimationViewController.swift; sourceTree = "<group>"; };
 		D9C3D0E6246DA1E300D3DF7B /* AnimationHudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHudViewController.swift; sourceTree = "<group>"; };
 		D9C3D0E8246DA27200D3DF7B /* AnimationHud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHud.swift; sourceTree = "<group>"; };
@@ -2560,6 +2562,7 @@
 		D93AB5552487440700E79EAB /* json转model框架 */ = {
 			isa = PBXGroup;
 			children = (
+				D9C2806F24A05C7400C66F61 /* json_demo.json */,
 				D93AB55B248745FC00E79EAB /* JSONToModelFrameworkViewController.swift */,
 				D9C7CBF122E9545E0038FD34 /* ObjectMapper */,
 				D93AB57424874EC100E79EAB /* JSONModel */,
@@ -5776,6 +5779,7 @@
 				D926BDBE22C349B100A2DD3E /* 观察者模式.md in Resources */,
 				D9A32B882480ADDB00295E2F /* BlurEffectViewController.xib in Resources */,
 				D926BDB222C2F52B00A2DD3E /* 外观模式.md in Resources */,
+				D9C2807024A05C7400C66F61 /* json_demo.json in Resources */,
 				D94F058D248B7669007B0165 /* compose.json in Resources */,
 				D9C7021122EB546300DDC44F /* RxSwiftDemo.md in Resources */,
 				D9B2FDED233314EA00755653 /* cache.md in Resources */,
