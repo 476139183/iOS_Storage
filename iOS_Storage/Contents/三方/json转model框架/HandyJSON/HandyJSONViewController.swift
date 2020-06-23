@@ -21,7 +21,8 @@ class HandyJSONViewController: CQBaseViewController {
         
         //test1()
         //testWithAlamofire()
-        testWithArrayJSON()
+        //testWithArrayJSON()
+        testStructModel()
         
     }
     
@@ -142,5 +143,54 @@ extension HandyJSONViewController {
         }
     }
     
+    
+}
+
+// MARK: - 使用纯 struct 类型的 model
+
+private protocol BaseResponseModel: HandyJSON {
+    var result: Bool { get set }
+    var msg: String { get set }
+    var code: Int { get set }
+}
+
+private struct CartoonModel: HandyJSON {
+    var name: String = ""
+    var sale_amount: Int = 0
+    var gross_margin_ratio: Float = 0.0
+}
+
+private struct CartoonResponseModel: BaseResponseModel {
+    var result: Bool = true
+    var msg: String = ""
+    var code: Int = 0
+    
+    var items: [CartoonModel] = []
+}
+
+extension HandyJSONViewController {
+    
+    private func testStructModel() {
+        
+        if let path = Bundle.main.path(forResource: "handy_json", ofType: "json") {
+            do {
+                // 读取json
+                let jsonStr = try String(contentsOfFile: path)
+                print(jsonStr)
+                
+                if let model = CartoonResponseModel.deserialize(from: jsonStr) {
+                    print(model.result)
+                    print(model.items.count)
+                    let first = model.items.first
+                    print(first!.name)
+                }
+            } catch {
+                print("出错了")
+            }
+        } else {
+            print("文件未找到")
+        }
+        
+    }
     
 }
