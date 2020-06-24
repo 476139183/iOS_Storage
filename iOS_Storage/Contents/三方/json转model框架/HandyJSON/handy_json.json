@@ -1,6 +1,6 @@
 {
     "result": true,
-    "items": [ {
+    "data": [ {
         "name": "fade",
         "sale_amount": 1,
         "gross_margin_ratio": 0.22

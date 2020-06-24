@@ -667,6 +667,7 @@
 		D9F53190249BC3FE005BD556 /* SwiftAnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5318F249BC3FD005BD556 /* SwiftAnyViewController.swift */; };
 		D9F53192249BD877005BD556 /* AnimalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F53191249BD877005BD556 /* AnimalCell.swift */; };
 		D9F53194249BD8B3005BD556 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F53193249BD8B3005BD556 /* AnimalModel.swift */; };
+		D9F53196249D194C005BD556 /* 内存分布.md in Resources */ = {isa = PBXBuildFile; fileRef = D9F53195249D194C005BD556 /* 内存分布.md */; };
 		D9F72DDB243D83AF007BBB05 /* CompressImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F72DDA243D83AF007BBB05 /* CompressImageViewController.swift */; };
 		D9F72DDE243D83D2007BBB05 /* UIImage+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F72DDD243D83D2007BBB05 /* UIImage+Compress.m */; };
 		D9F72DE12440545E007BBB05 /* RegularExpressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F72DE02440545E007BBB05 /* RegularExpressionViewController.swift */; };
@@ -1525,6 +1526,7 @@
 		D9F5318F249BC3FD005BD556 /* SwiftAnyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAnyViewController.swift; sourceTree = "<group>"; };
 		D9F53191249BD877005BD556 /* AnimalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCell.swift; sourceTree = "<group>"; };
 		D9F53193249BD8B3005BD556 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		D9F53195249D194C005BD556 /* 内存分布.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "内存分布.md"; sourceTree = "<group>"; };
 		D9F72DDA243D83AF007BBB05 /* CompressImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressImageViewController.swift; sourceTree = "<group>"; };
 		D9F72DDC243D83D2007BBB05 /* UIImage+Compress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compress.h"; sourceTree = "<group>"; };
 		D9F72DDD243D83D2007BBB05 /* UIImage+Compress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compress.m"; sourceTree = "<group>"; };
@@ -3864,6 +3866,7 @@
 		D973CD1E2489E02A00C67FB9 /* 内存分布 */ = {
 			isa = PBXGroup;
 			children = (
+				D9F53195249D194C005BD556 /* 内存分布.md */,
 				D973CD272489E4C300C67FB9 /* CQMemoryLayoutViewController.h */,
 				D973CD282489E4C300C67FB9 /* CQMemoryLayoutViewController.m */,
 			);
@@ -5738,6 +5741,7 @@
 				D94BCDEC22E9D91B0080584F /* 标准CollectionView OC版.md in Resources */,
 				D9E51E2724972D9A00DC1C04 /* AA7B1DCA-308D-4D51-869D-2D951642C348@4x.png in Resources */,
 				D9019B7C22B13F670039B25D /* 链表.md in Resources */,
+				D9F53196249D194C005BD556 /* 内存分布.md in Resources */,
 				D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */,
 				D926BDB822C33EB600A2DD3E /* 建造者模式.md in Resources */,
 				D930956D23B2F3D100837CA6 /* StaticTableViewStoryboard.storyboard in Resources */,

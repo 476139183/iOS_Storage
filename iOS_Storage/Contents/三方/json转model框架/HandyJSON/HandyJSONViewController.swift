@@ -22,8 +22,8 @@ class HandyJSONViewController: CQBaseViewController {
         //test1()
         //testWithAlamofire()
         //testWithArrayJSON()
-        testStructModel()
-        
+        //testStructModel()
+        testStructModel2()
     }
     
 }
@@ -148,16 +148,16 @@ extension HandyJSONViewController {
 
 // MARK: - 使用纯 struct 类型的 model
 
-private protocol BaseResponseModel: HandyJSON {
-    var result: Bool { get set }
-    var msg: String { get set }
-    var code: Int { get set }
-}
-
 private struct CartoonModel: HandyJSON {
     var name: String = ""
     var sale_amount: Int = 0
     var gross_margin_ratio: Float = 0.0
+}
+
+private protocol BaseResponseModel: HandyJSON {
+    var result: Bool { get set }
+    var msg: String { get set }
+    var code: Int { get set }
 }
 
 private struct CartoonResponseModel: BaseResponseModel {
@@ -165,7 +165,7 @@ private struct CartoonResponseModel: BaseResponseModel {
     var msg: String = ""
     var code: Int = 0
     
-    var items: [CartoonModel] = []
+    var data: [CartoonModel] = []
 }
 
 extension HandyJSONViewController {
@@ -180,10 +180,63 @@ extension HandyJSONViewController {
                 
                 if let model = CartoonResponseModel.deserialize(from: jsonStr) {
                     print(model.result)
-                    print(model.items.count)
-                    let first = model.items.first
+                    print(model.data.count)
+                    let first = model.data.first
                     print(first!.name)
                 }
+                
+            } catch {
+                print("出错了")
+            }
+        } else {
+            print("文件未找到")
+        }
+        
+    }
+    
+}
+
+
+// MARK: - 使用纯 struct 的 model，升级版
+
+private struct Response<T: HandyJSON>: HandyJSON {
+    var result: Bool = true
+    var msg: String?
+    var code: Int = 0
+    
+    var data: T?
+}
+
+// 限制遵循HandyJSON的数组，它的元素也必须遵循HandyJSON
+extension Array: HandyJSON where Element: HandyJSON {
+    
+}
+
+extension Array: _ExtendCustomModelType where Element: _ExtendCustomModelType {
+    
+}
+
+private struct Cartoon: HandyJSON {
+    var name: String = ""
+    var sale_amount: Int = 0
+    var gross_margin_ratio: Float = 0.0
+}
+
+extension HandyJSONViewController {
+    
+    private func testStructModel2() {
+        
+        if let path = Bundle.main.path(forResource: "handy_json", ofType: "json") {
+            do {
+                // 读取json
+                let jsonStr = try String(contentsOfFile: path)
+                print(jsonStr)
+                
+                // json 转 model
+                if let model = Response<[Cartoon]>.deserialize(from: jsonStr) {
+                    print(model.data?.count ?? 0)
+                }
+                
             } catch {
                 print("出错了")
             }
