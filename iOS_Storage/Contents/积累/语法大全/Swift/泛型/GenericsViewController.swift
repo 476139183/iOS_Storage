@@ -17,12 +17,7 @@ class GenericsViewController: JumpListViewController {
         
         self.detailUrl = "https://www.runoob.com/swift/swift-generics.html"
         
-        self.dataArray = [ItemModel(title: "泛型基础", targetVC: GenericsBasicViewController()),
-                          ItemModel(title: "泛型tableView person", targetVC: GenericsPersonTableViewController()),
-                          ItemModel(title: "泛型 cat tableView", targetVC: GenericsCatTableViewController()),
-                          ItemModel(title: "泛型 tableView 2", targetVC: GenericsTableViewController2()),
-                          ItemModel(title: "泛型 tableView 3", targetVC: GenericsTableViewController3()),
-                          ItemModel(title: "泛型 tableView 3.1，多种cell", targetVC: GenericsTableViewController31())]
+        self.dataArray = [ItemModel(title: "泛型基础", targetVC: GenericsBasicViewController())]
         
     }
 

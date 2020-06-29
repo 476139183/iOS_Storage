@@ -31,6 +31,7 @@ class TableViewDemosViewController: JumpListViewController {
                           ItemModel.init(title: "导航栏渐变的TableView", targetVC: GradientNaviViewController()),
                           ItemModel.init(title: "含timer的cell", targetVC: CQTimerCellController()),
                           ItemModel.init(title: "PNChart与tableView的联动", targetVC: CQChartController(title: nil, url: "https://www.jianshu.com/p/759ea22a2a0f")),
+                          ItemModel.init(title: "泛型tableView", targetVC: GenericsTableDemoViewController()),
                           ItemModel.init(title: "终极tableView", targetVC: UltimateTableViewController())]
         
     }

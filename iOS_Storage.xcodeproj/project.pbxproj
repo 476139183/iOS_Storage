@@ -321,6 +321,7 @@
 		D9697FEF22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9697FEE22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift */; };
 		D9697FF122F097D800220938 /* StandardSwiftCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9697FF022F097D800220938 /* StandardSwiftCollectionViewCell.swift */; };
 		D96A17E7237EFDF90018E7F1 /* LeftSideLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A17E6237EFDF90018E7F1 /* LeftSideLayout.swift */; };
+		D96D561424A9C82D008DD9CF /* GenericsTableDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D561324A9C82D008DD9CF /* GenericsTableDemoViewController.swift */; };
 		D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */; };
 		D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */; };
 		D96F415C23BEDFA2008616F4 /* PerfectAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96F415B23BEDFA2008616F4 /* PerfectAppViewController.swift */; };
@@ -1102,6 +1103,7 @@
 		D9697FEE22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftCollectionViewSectionFooterView.swift; sourceTree = "<group>"; };
 		D9697FF022F097D800220938 /* StandardSwiftCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftCollectionViewCell.swift; sourceTree = "<group>"; };
 		D96A17E6237EFDF90018E7F1 /* LeftSideLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideLayout.swift; sourceTree = "<group>"; };
+		D96D561324A9C82D008DD9CF /* GenericsTableDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsTableDemoViewController.swift; sourceTree = "<group>"; };
 		D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftLoginViewController.swift; sourceTree = "<group>"; };
 		D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftLoginViewController.xib; sourceTree = "<group>"; };
 		D96F415B23BEDFA2008616F4 /* PerfectAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectAppViewController.swift; sourceTree = "<group>"; };
@@ -3429,6 +3431,7 @@
 				D9C0EFBB23A0A20D0053EEAC /* 导航栏渐变tableView */,
 				D9FF65D0212AC09F00B06371 /* 含timer的cell */,
 				D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */,
+				D9D6487724A9C3F500674EA1 /* 泛型tableView */,
 				D9442A7A24970D3000CA4464 /* 终极 tableView */,
 			);
 			path = TableViewDemos;
@@ -3832,9 +3835,6 @@
 				D973CD0F2487A6E000C67FB9 /* 泛型.md */,
 				D973CD112487A72700C67FB9 /* GenericsViewController.swift */,
 				D97667B22499B18900A8BEDD /* 泛型基础 */,
-				D973CD1524889A2100C67FB9 /* 泛型tableView */,
-				D944FD2C24986F9100C8DB52 /* 泛型tableView+泛型cell */,
-				D97667C4249A12B100A8BEDD /* 泛型tableView3 */,
 			);
 			path = "泛型";
 			sourceTree = "<group>";
@@ -5156,6 +5156,17 @@
 			path = WKWebViewDemo;
 			sourceTree = "<group>";
 		};
+		D9D6487724A9C3F500674EA1 /* 泛型tableView */ = {
+			isa = PBXGroup;
+			children = (
+				D96D561324A9C82D008DD9CF /* GenericsTableDemoViewController.swift */,
+				D973CD1524889A2100C67FB9 /* 泛型tableView */,
+				D944FD2C24986F9100C8DB52 /* 泛型tableView+泛型cell */,
+				D97667C4249A12B100A8BEDD /* 泛型tableView3 */,
+			);
+			path = "泛型tableView";
+			sourceTree = "<group>";
+		};
 		D9D64FD32105DD4200379FF2 /* NSThread */ = {
 			isa = PBXGroup;
 			children = (
@@ -6336,6 +6347,7 @@
 				D9536EF5244AB55700FD3964 /* TTTLabelViewController3.swift in Sources */,
 				D99B98EF246BA132001E6369 /* MyStackNode.swift in Sources */,
 				D94F0569248A0E27007B0165 /* CQAutoReleasePoolViewController.m in Sources */,
+				D96D561424A9C82D008DD9CF /* GenericsTableDemoViewController.swift in Sources */,
 				D9C5E5E62349AB1A00D101F1 /* CQEasyButton.m in Sources */,
 				D9A32B66247D121900295E2F /* TalkCellNode.swift in Sources */,
 				D9237DCC23FEC8200021F876 /* ChangeViewStateViewController.swift in Sources */,

@@ -48,7 +48,7 @@ extension GenericsBasicViewController {
 // Swift 的 Array 就是一个泛型类型
 extension Array {
     
-    func secondValur() -> Any {
+    func secondValue() -> Any {
         return self[1]
     }
     
