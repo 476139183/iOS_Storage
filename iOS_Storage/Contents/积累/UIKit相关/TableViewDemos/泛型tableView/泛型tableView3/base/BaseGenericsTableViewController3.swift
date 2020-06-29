@@ -8,9 +8,9 @@
 
 import UIKit
 
-class BaseGenericsTableViewController3<CM: Any, C: BaseCell3<CM>, HM: Any, H: BaseHeader3<HM>>: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
+class BaseGenericsTableViewController3<CM: Any, C: BaseCell3<CM>, HM: Any, H: BaseHeader3<HM>, FM: Any, F: BaseFooter3<FM> >: CQBaseViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var dataArray: [SectionModel<HM, CM>] = [] {
+    var dataArray: [SectionModel<HM, FM, CM>] = [] {
         didSet {
             tableView.reloadData()
         }
@@ -63,6 +63,16 @@ class BaseGenericsTableViewController3<CM: Any, C: BaseCell3<CM>, HM: Any, H: Ba
         }
         header?.model = dataArray[section].headerModel
         return header ?? UIView()
+    }
+    
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        let footerReuseID = "footerReuseID"
+        var footer = tableView.dequeueReusableHeaderFooterView(withIdentifier: footerReuseID) as? F
+        if footer == nil {
+            footer = F.init(reuseIdentifier: footerReuseID)
+        }
+        footer?.model = dataArray[section].footerModel
+        return footer ?? UIView()
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

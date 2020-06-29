@@ -322,6 +322,8 @@
 		D9697FF122F097D800220938 /* StandardSwiftCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9697FF022F097D800220938 /* StandardSwiftCollectionViewCell.swift */; };
 		D96A17E7237EFDF90018E7F1 /* LeftSideLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A17E6237EFDF90018E7F1 /* LeftSideLayout.swift */; };
 		D96D561424A9C82D008DD9CF /* GenericsTableDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D561324A9C82D008DD9CF /* GenericsTableDemoViewController.swift */; };
+		D96D561624A9CE3F008DD9CF /* BaseFooter3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D561524A9CE3F008DD9CF /* BaseFooter3.swift */; };
+		D96D561824A9D945008DD9CF /* ShoeFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D561724A9D945008DD9CF /* ShoeFooter.swift */; };
 		D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */; };
 		D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */; };
 		D96F415C23BEDFA2008616F4 /* PerfectAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96F415B23BEDFA2008616F4 /* PerfectAppViewController.swift */; };
@@ -1104,6 +1106,8 @@
 		D9697FF022F097D800220938 /* StandardSwiftCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSwiftCollectionViewCell.swift; sourceTree = "<group>"; };
 		D96A17E6237EFDF90018E7F1 /* LeftSideLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideLayout.swift; sourceTree = "<group>"; };
 		D96D561324A9C82D008DD9CF /* GenericsTableDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsTableDemoViewController.swift; sourceTree = "<group>"; };
+		D96D561524A9CE3F008DD9CF /* BaseFooter3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFooter3.swift; sourceTree = "<group>"; };
+		D96D561724A9D945008DD9CF /* ShoeFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeFooter.swift; sourceTree = "<group>"; };
 		D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftLoginViewController.swift; sourceTree = "<group>"; };
 		D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftLoginViewController.xib; sourceTree = "<group>"; };
 		D96F415B23BEDFA2008616F4 /* PerfectAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectAppViewController.swift; sourceTree = "<group>"; };
@@ -1727,6 +1731,7 @@
 				D97667D7249B009600A8BEDD /* ShoeCell.swift */,
 				D97667DB249B040400A8BEDD /* ShoeHeaderModel.swift */,
 				D97667D9249B03B900A8BEDD /* ShoeHeader.swift */,
+				D96D561724A9D945008DD9CF /* ShoeFooter.swift */,
 			);
 			path = "一种cell";
 			sourceTree = "<group>";
@@ -1749,6 +1754,7 @@
 				D97667C5249A138700A8BEDD /* SectionModel.swift */,
 				D97667CF249A186300A8BEDD /* BaseCell3.swift */,
 				D97667D1249A188C00A8BEDD /* BaseHeader3.swift */,
+				D96D561524A9CE3F008DD9CF /* BaseFooter3.swift */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -6164,6 +6170,7 @@
 				D95885C52452BE1700CD9FDD /* CQBaseNaviBar.m in Sources */,
 				D93A0BFB233CA51D00554EF6 /* Utilities.swift in Sources */,
 				D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */,
+				D96D561824A9D945008DD9CF /* ShoeFooter.swift in Sources */,
 				D93AB5652487479D00E79EAB /* CQMasonryViewController.m in Sources */,
 				D96773A92400D12500829BCB /* VerticalCollectionViewController.swift in Sources */,
 				D9E86CC52447EE6C009CCBB8 /* PanGestureViewController.swift in Sources */,
@@ -6452,6 +6459,7 @@
 				D98E4DF5238289C60082EED4 /* WaterfallLayout.swift in Sources */,
 				D974BCE62494C3FE00942ED2 /* OCBlockViewController.m in Sources */,
 				D94BCDF022E9DA1B0080584F /* CQStandardOCCollectionSectionHeaderView.m in Sources */,
+				D96D561624A9CE3F008DD9CF /* BaseFooter3.swift in Sources */,
 				D92DA5C922C1B4D000E91212 /* PrototypePerson.m in Sources */,
 				D9DE6CC920FEE9C000C8D4FE /* CQFilterCell.m in Sources */,
 				D944B6BA245AD6F80077F58B /* SwiftGrammarViewController.swift in Sources */,
