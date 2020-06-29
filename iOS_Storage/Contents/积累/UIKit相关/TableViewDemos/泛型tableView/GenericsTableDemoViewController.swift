@@ -20,7 +20,8 @@ class GenericsTableDemoViewController: JumpListViewController {
                           ItemModel(title: "泛型 tableView 2", targetVC: GenericsTableViewController2()),
                           ItemModel(title: "泛型 tableView 3，一种cell", targetVC: GenericsTableViewController3()),
                           ItemModel(title: "泛型 tableView 3.1，多种cell", targetVC: GenericsTableViewController31()),
-                          ItemModel(title: "泛型 tableView 3.2，只有cell", targetVC: GenericsOnlyCellTableControllerViewController())]
+                          ItemModel(title: "只有cell", targetVC: GenericsOnlyCellTableControllerViewController()),
+                          ItemModel(title: "有cell和header", targetVC: GenericsCellAndHeaderViewController())]
         
     }
     
