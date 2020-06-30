@@ -326,6 +326,7 @@
 		D96D561824A9D945008DD9CF /* ShoeFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D561724A9D945008DD9CF /* ShoeFooter.swift */; };
 		D96D561C24A9E1BB008DD9CF /* GenericsOnlyCellTableControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D561B24A9E1BB008DD9CF /* GenericsOnlyCellTableControllerViewController.swift */; };
 		D96D561F24A9E59E008DD9CF /* GenericsCellAndHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D561E24A9E59E008DD9CF /* GenericsCellAndHeaderViewController.swift */; };
+		D96D562224A9E82F008DD9CF /* GenericsCellAndFooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D562124A9E82F008DD9CF /* GenericsCellAndFooterViewController.swift */; };
 		D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */; };
 		D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */; };
 		D96F415C23BEDFA2008616F4 /* PerfectAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96F415B23BEDFA2008616F4 /* PerfectAppViewController.swift */; };
@@ -1112,6 +1113,7 @@
 		D96D561724A9D945008DD9CF /* ShoeFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeFooter.swift; sourceTree = "<group>"; };
 		D96D561B24A9E1BB008DD9CF /* GenericsOnlyCellTableControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsOnlyCellTableControllerViewController.swift; sourceTree = "<group>"; };
 		D96D561E24A9E59E008DD9CF /* GenericsCellAndHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsCellAndHeaderViewController.swift; sourceTree = "<group>"; };
+		D96D562124A9E82F008DD9CF /* GenericsCellAndFooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsCellAndFooterViewController.swift; sourceTree = "<group>"; };
 		D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftLoginViewController.swift; sourceTree = "<group>"; };
 		D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftLoginViewController.xib; sourceTree = "<group>"; };
 		D96F415B23BEDFA2008616F4 /* PerfectAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectAppViewController.swift; sourceTree = "<group>"; };
@@ -3740,6 +3742,14 @@
 			path = "有cell和header";
 			sourceTree = "<group>";
 		};
+		D96D562024A9E806008DD9CF /* 有cell和footer */ = {
+			isa = PBXGroup;
+			children = (
+				D96D562124A9E82F008DD9CF /* GenericsCellAndFooterViewController.swift */,
+			);
+			path = "有cell和footer";
+			sourceTree = "<group>";
+		};
 		D96F415823BEDEC8008616F4 /* 完美APP */ = {
 			isa = PBXGroup;
 			children = (
@@ -4028,6 +4038,7 @@
 				D9146DA9249C95D5002862AB /* 多种cell */,
 				D96D561A24A9E12D008DD9CF /* 只有cell */,
 				D96D561D24A9E55D008DD9CF /* 有cell和header */,
+				D96D562024A9E806008DD9CF /* 有cell和footer */,
 			);
 			path = "泛型tableView3";
 			sourceTree = "<group>";
@@ -6136,6 +6147,7 @@
 				D991C921236C492300CB290C /* Loading.swift in Sources */,
 				D9751696247BB34B00D45C92 /* UIStackViewDemoListController.swift in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
+				D96D562224A9E82F008DD9CF /* GenericsCellAndFooterViewController.swift in Sources */,
 				D926BDCD22C4934900A2DD3E /* CQStateViewController.m in Sources */,
 				D9AEB68C22F6AB24006F8995 /* CQMVVMCellModel.m in Sources */,
 				D9BC6F67238E58F30085E4E0 /* NestedItemWebView.swift in Sources */,
