@@ -13,9 +13,8 @@ class GifViewController: CQBaseViewController {
     
     private lazy var imageView2: UIImageView = {
         let imageView = UIImageView()
-        let path = Bundle.main.path(forResource: "加载中", ofType: "gif")!
-        // 加载gif会耗时，所以可能会空白1秒钟
-        let resource = ImageResource(downloadURL: URL(fileURLWithPath: path))
+        let path = Bundle.main.url(forResource: "加载中", withExtension: "gif")
+        let resource = LocalFileImageDataProvider(fileURL: path!)
         imageView.kf.setImage(with: resource)
         imageView.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
         imageView.layer.shadowOffset = CGSize(width: 0, height: 0)

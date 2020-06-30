@@ -48,7 +48,7 @@ class KingfisherLoadGifViewController: CQBaseViewController {
     }
     
     private func loadLocalGif() {
-        let path = Bundle.main.url(forResource: "ding", withExtension: "gif")
+        let path = Bundle.main.url(forResource: "ding2", withExtension: "gif")
         let resource = LocalFileImageDataProvider(fileURL: path!)
         localGifImageView.kf.setImage(with: resource)
     }

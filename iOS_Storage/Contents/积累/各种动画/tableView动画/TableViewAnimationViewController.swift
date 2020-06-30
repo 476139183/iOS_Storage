@@ -40,7 +40,8 @@ class TableViewAnimationViewController: CQBaseViewController, UITableViewDataSou
         
         view.addSubview(tableView)
         tableView.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
+            make.left.right.bottom.equalToSuperview()
+            make.top.equalTo(kNavigationBarHeight)
         }
         
         let footerView = UIView.init(frame: .init(x: 0, y: 0, width: 90, height: 100))
@@ -68,7 +69,7 @@ class TableViewAnimationViewController: CQBaseViewController, UITableViewDataSou
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "点击"
+        return "点击我"
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
@@ -77,7 +78,7 @@ class TableViewAnimationViewController: CQBaseViewController, UITableViewDataSou
         if header == nil {
             header = UITableViewHeaderFooterView(reuseIdentifier: reuseID)
         }
-        header?.contentView.backgroundColor = .red
+        header?.contentView.backgroundColor = .yellow
         let tap = UITapGestureRecognizer()
         header?.addGestureRecognizer(tap)
         tap.rx.event.subscribe(onNext: { (tap) in
