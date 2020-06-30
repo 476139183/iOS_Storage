@@ -8,8 +8,7 @@
 
 import UIKit
 
-class GenericsTableViewController31: BaseGenericsTableViewController3<AnimalModel, AnimalCell, String, AnimalHeader, Any, BaseFooter3<Any>> {
-    
+class GenericsTableViewController31: BaseGenericsTableViewController3<AnimalModel, AnimalCell, String, AnimalHeader, DefaultTableFooterModel, DefaultTableFooter> {
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,8 +22,8 @@ class GenericsTableViewController31: BaseGenericsTableViewController3<AnimalMode
         let cellModel3 = AnimalModel.init(type: .dog, name: "秋田")
         let cellModel4 = AnimalModel.init(type: .dog, name: "土狗")
         
-        let section1 = SectionModel<String, Any, AnimalModel>.init(headerModel: headerModel1, cellModels: [cellModel1, cellModel2])
-        let section2 = SectionModel<String, Any, AnimalModel>.init(headerModel: headerModel2, cellModels: [cellModel3, cellModel4])
+        let section1 = SectionModel<String, DefaultTableFooterModel, AnimalModel>.init(headerModel: headerModel1, cellModels: [cellModel1, cellModel2])
+        let section2 = SectionModel<String, DefaultTableFooterModel, AnimalModel>.init(headerModel: headerModel2, cellModels: [cellModel3, cellModel4])
         
         self.dataArray = [section1, section2]
         

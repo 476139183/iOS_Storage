@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GenericsOnlyCellTableControllerViewController: BaseGenericsTableViewController3<ShoeModel, ShoeCell, Any, BaseHeader3<Any>, Any, BaseFooter3<Any>> {
+class GenericsOnlyCellTableControllerViewController: BaseGenericsTableViewController3<ShoeModel, ShoeCell, DefaultTableHeaderModel, DefaultTableHeader, DefaultTableFooterModel, DefaultTableFooter> {
 
     override func viewDidLoad() {
         super.viewDidLoad()

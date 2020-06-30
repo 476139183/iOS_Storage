@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GenericsCellAndFooterViewController: BaseGenericsTableViewController3<ShoeModel, ShoeCell, Any, BaseHeader3<Any>, String, ShoeFooter> {
+class GenericsCellAndFooterViewController: BaseGenericsTableViewController3<ShoeModel, ShoeCell, DefaultTableHeaderModel, DefaultTableHeader, String, ShoeFooter> {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,8 +23,8 @@ class GenericsCellAndFooterViewController: BaseGenericsTableViewController3<Shoe
         let cellModel3 = ShoeModel.init(name: "满天星", image: "满天星")
         let cellModel4 = ShoeModel.init(name: "白斑马", image: "白斑马")
         
-        let section1 = SectionModel<Any, String, ShoeModel>.init(footerModel: footerModel1, cellModels: [cellModel1, cellModel2])
-        let section2 = SectionModel<Any, String, ShoeModel>.init(footerModel: footerModel2, cellModels: [cellModel3, cellModel4])
+        let section1 = SectionModel<DefaultTableHeaderModel, String, ShoeModel>.init(footerModel: footerModel1, cellModels: [cellModel1, cellModel2])
+        let section2 = SectionModel<DefaultTableHeaderModel, String, ShoeModel>.init(footerModel: footerModel2, cellModels: [cellModel3, cellModel4])
         
         self.dataArray = [section1, section2]
         
