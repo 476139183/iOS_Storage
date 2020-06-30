@@ -24,8 +24,8 @@ class GenericsCellAndHeaderViewController: BaseGenericsTableViewController3<Shoe
         let cellModel3 = ShoeModel.init(name: "满天星", image: "满天星")
         let cellModel4 = ShoeModel.init(name: "白斑马", image: "白斑马")
         
-        let section1 = SectionModel<ShoeHeaderModel, DefaultTableFooterModel, ShoeModel>.init(headerModel: headerModel1, cellModels: [cellModel1, cellModel2])
-        let section2 = SectionModel<ShoeHeaderModel, DefaultTableFooterModel, ShoeModel>.init(headerModel: headerModel2, cellModels: [cellModel3, cellModel4])
+        let section1 = SectionModel<ShoeHeaderModel, DefaultTableFooterModel, ShoeModel>.init(cellModels: [cellModel1, cellModel2], headerModel: headerModel1)
+        let section2 = SectionModel<ShoeHeaderModel, DefaultTableFooterModel, ShoeModel>.init(cellModels: [cellModel3, cellModel4], headerModel: headerModel2)
         
         self.dataArray = [section1, section2]
         

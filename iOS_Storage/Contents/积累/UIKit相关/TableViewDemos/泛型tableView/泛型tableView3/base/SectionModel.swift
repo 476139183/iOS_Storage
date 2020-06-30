@@ -8,20 +8,22 @@
 
 import Foundation
 
-/// HM 表示 HeaderModel，FM 表示 FooterModel，CM 表示 CellModel
+/// 一个 section 所对应的 model。
+/// 每个 section 包含三部分：cell、组头、组尾。
+/// CM 表示 CellModel，HM 表示 HeaderModel，FM 表示 FooterModel
 class SectionModel<HM: Any, FM: Any, CM: Any> {
     
+    /// cell 数据
+    var cellModels: [CM]?
     /// header 数据
     var headerModel: HM?
     /// footer 数据
     var footerModel: FM?
-    /// cell 数据
-    var cellModels: [CM]?
     
-    init(headerModel: HM? = nil, footerModel: FM? = nil, cellModels: [CM]? = nil) {
+    init(cellModels: [CM]? = nil, headerModel: HM? = nil, footerModel: FM? = nil) {
+        self.cellModels = cellModels
         self.headerModel = headerModel
         self.footerModel = footerModel
-        self.cellModels = cellModels
     }
     
 }

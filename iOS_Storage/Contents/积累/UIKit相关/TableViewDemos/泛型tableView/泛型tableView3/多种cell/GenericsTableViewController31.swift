@@ -22,8 +22,8 @@ class GenericsTableViewController31: BaseGenericsTableViewController3<AnimalMode
         let cellModel3 = AnimalModel.init(type: .dog, name: "秋田")
         let cellModel4 = AnimalModel.init(type: .dog, name: "土狗")
         
-        let section1 = SectionModel<String, DefaultTableFooterModel, AnimalModel>.init(headerModel: headerModel1, cellModels: [cellModel1, cellModel2])
-        let section2 = SectionModel<String, DefaultTableFooterModel, AnimalModel>.init(headerModel: headerModel2, cellModels: [cellModel3, cellModel4])
+        let section1 = SectionModel<String, DefaultTableFooterModel, AnimalModel>.init(cellModels: [cellModel1, cellModel2], headerModel: headerModel1)
+        let section2 = SectionModel<String, DefaultTableFooterModel, AnimalModel>.init(cellModels: [cellModel3, cellModel4], headerModel: headerModel2)
         
         self.dataArray = [section1, section2]
         
