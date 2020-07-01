@@ -28,6 +28,14 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
+		<string>本地存储框架</string>
+		<key>controller_name</key>
+		<string>LocalStorageFrameworkViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
 		<string>UI框架</string>
 		<key>controller_name</key>
 		<string>UIFrameworkViewController</string>

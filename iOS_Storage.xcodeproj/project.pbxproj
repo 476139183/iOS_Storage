@@ -331,6 +331,8 @@
 		D96D562624AAD513008DD9CF /* DefaultTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D562524AAD513008DD9CF /* DefaultTableHeader.swift */; };
 		D96D562824AAD5B5008DD9CF /* DefaultTableFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D562724AAD5B5008DD9CF /* DefaultTableFooter.swift */; };
 		D96D562A24AAD5E0008DD9CF /* DefaultTableFooterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D562924AAD5E0008DD9CF /* DefaultTableFooterModel.swift */; };
+		D96D563124AC2DD6008DD9CF /* LocalStorageFrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D563024AC2DD6008DD9CF /* LocalStorageFrameworkViewController.swift */; };
+		D96D563424AC2EA1008DD9CF /* MMKVDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D563324AC2EA1008DD9CF /* MMKVDemoViewController.swift */; };
 		D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */; };
 		D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */; };
 		D96F415C23BEDFA2008616F4 /* PerfectAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96F415B23BEDFA2008616F4 /* PerfectAppViewController.swift */; };
@@ -1122,6 +1124,8 @@
 		D96D562524AAD513008DD9CF /* DefaultTableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTableHeader.swift; sourceTree = "<group>"; };
 		D96D562724AAD5B5008DD9CF /* DefaultTableFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTableFooter.swift; sourceTree = "<group>"; };
 		D96D562924AAD5E0008DD9CF /* DefaultTableFooterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTableFooterModel.swift; sourceTree = "<group>"; };
+		D96D563024AC2DD6008DD9CF /* LocalStorageFrameworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageFrameworkViewController.swift; sourceTree = "<group>"; };
+		D96D563324AC2EA1008DD9CF /* MMKVDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMKVDemoViewController.swift; sourceTree = "<group>"; };
 		D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftLoginViewController.swift; sourceTree = "<group>"; };
 		D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftLoginViewController.xib; sourceTree = "<group>"; };
 		D96F415B23BEDFA2008616F4 /* PerfectAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectAppViewController.swift; sourceTree = "<group>"; };
@@ -3762,6 +3766,23 @@
 			path = "有cell和footer";
 			sourceTree = "<group>";
 		};
+		D96D562F24AC2CF4008DD9CF /* 本地存储框架 */ = {
+			isa = PBXGroup;
+			children = (
+				D96D563024AC2DD6008DD9CF /* LocalStorageFrameworkViewController.swift */,
+				D96D563224AC2E28008DD9CF /* MMKV */,
+			);
+			path = "本地存储框架";
+			sourceTree = "<group>";
+		};
+		D96D563224AC2E28008DD9CF /* MMKV */ = {
+			isa = PBXGroup;
+			children = (
+				D96D563324AC2EA1008DD9CF /* MMKVDemoViewController.swift */,
+			);
+			path = MMKV;
+			sourceTree = "<group>";
+		};
 		D96F415823BEDEC8008616F4 /* 完美APP */ = {
 			isa = PBXGroup;
 			children = (
@@ -4711,6 +4732,7 @@
 				D93AB552248743EC00E79EAB /* 网络框架 */,
 				D93AB553248743F600E79EAB /* 图片框架 */,
 				D93AB5552487440700E79EAB /* json转model框架 */,
+				D96D562F24AC2CF4008DD9CF /* 本地存储框架 */,
 				D93AB5562487450B00E79EAB /* UI框架 */,
 				D93AB554248743FF00E79EAB /* 布局框架 */,
 				D93AB54424864DA700E79EAB /* 动画框架 */,
@@ -5970,6 +5992,8 @@
 				"${BUILT_PRODUCTS_DIR}/JXSegmentedView/JXSegmentedView.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MMKV/MMKV.framework",
+				"${BUILT_PRODUCTS_DIR}/MMKVCore/MMKVCore.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
@@ -6006,6 +6030,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXSegmentedView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMKV.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMKVCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
@@ -6121,6 +6147,7 @@
 				D9E86CBF2447EE00009CCBB8 /* TapGestureViewController.swift in Sources */,
 				D93A0BF9233CA0D300554EF6 /* MyCellNode.swift in Sources */,
 				D9C7CC1D22E9AA210038FD34 /* StandardSwiftTableViewCell.swift in Sources */,
+				D96D563424AC2EA1008DD9CF /* MMKVDemoViewController.swift in Sources */,
 				D93AB55E2487465C00E79EAB /* LayoutFrameworkViewController.swift in Sources */,
 				D9BC6F5E238E2E050085E4E0 /* JXPagingMainTableView.swift in Sources */,
 				D937689423585DB000515315 /* MapDemoViewController.swift in Sources */,
@@ -6491,6 +6518,7 @@
 				D9AA680F237FB32600A14C37 /* UIPageViewControllerDemoController.swift in Sources */,
 				D95A3DA62481F2ED00F0166C /* GifInTableViewController.swift in Sources */,
 				D9CB1EC42342053900CEB752 /* RxSwiftDynamicTableViewController.swift in Sources */,
+				D96D563124AC2DD6008DD9CF /* LocalStorageFrameworkViewController.swift in Sources */,
 				D97246F4237E8D47001671AD /* MaxCellSpacingLayout.swift in Sources */,
 				D96773A72400D07D00829BCB /* HorizonCollectionViewController.swift in Sources */,
 				D9AE922A24777D6F00B11A74 /* PureTextureTableController.swift in Sources */,

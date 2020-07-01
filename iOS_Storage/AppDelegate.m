@@ -32,6 +32,8 @@
     [SVProgressHUD setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0.7]];
     [SVProgressHUD setForegroundColor:[UIColor whiteColor]];
     
+    [MMKV initializeMMKV:nil];
+    
     return YES;
 }
 

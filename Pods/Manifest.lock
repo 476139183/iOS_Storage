@@ -29,6 +29,9 @@ PODS:
   - lottie-ios (3.1.6)
   - Masonry (1.1.0)
   - MJRefresh (3.3.1)
+  - MMKV (1.1.0):
+    - MMKVCore (~> 1.1.0)
+  - MMKVCore (1.1.0)
   - Moya (14.0.0):
     - Moya/Core (= 14.0.0)
   - Moya/Core (14.0.0):
@@ -113,6 +116,7 @@ DEPENDENCIES:
   - lottie-ios
   - Masonry
   - MJRefresh
+  - MMKV
   - Moya
   - "NSObject+Rx"
   - ObjectMapper (~> 3.4)
@@ -148,6 +152,8 @@ SPEC REPOS:
     - lottie-ios
     - Masonry
     - MJRefresh
+    - MMKV
+    - MMKVCore
     - Moya
     - "NSObject+Rx"
     - ObjectMapper
@@ -192,6 +198,8 @@ SPEC CHECKSUMS:
   lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  MMKV: 7bb6c30f9ff2ea45bc2398c86e66dd1cb63cfe20
+  MMKVCore: f1e0aad4fc330e7cbfbdff16720017bf0973db5a
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   "NSObject+Rx": 2eb2cf51fd1c554118449a7fbc36e4cd620b9e94
   ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
@@ -213,6 +221,6 @@ SPEC CHECKSUMS:
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZFPlayer: 8a6021a3c45e281f2abd24dca5c88915af770a7e
 
-PODFILE CHECKSUM: 217c5db4a875c58d9ef74ee40b95dc42a4194b89
+PODFILE CHECKSUM: bc172f1d96f6ac4e8cc1ff3461641027cd98cb81
 
 COCOAPODS: 1.8.4
