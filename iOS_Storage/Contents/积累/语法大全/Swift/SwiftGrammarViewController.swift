@@ -32,7 +32,8 @@ class SwiftGrammarViewController: JumpListViewController {
                           ItemModel(title: "扩展", targetVC: SwiftExtensionViewController()),
                           ItemModel(title: "协议", targetVC: SwiftProtocolViewController()),
                           ItemModel(title: "泛型", targetVC: GenericsViewController()),
-                          ItemModel(title: "闭包", targetVC: ClosureDemoViewController())]
+                          ItemModel(title: "闭包", targetVC: ClosureDemoViewController()),
+                          ItemModel(title: "Codable", targetVC: CodableDemoViewController())]
         
     }
     
