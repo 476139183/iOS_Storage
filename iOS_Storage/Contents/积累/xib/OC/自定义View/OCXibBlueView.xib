@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" interfaceStyle="light" id="iN0-l3-epB" customClass="OCXibBlueView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AJ1" translatesAutoresizingMaskIntoConstraints="NO" id="YKW-b1-yY2">
+                    <rect key="frame" x="5" y="5" width="90" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="YKW-b1-yY2" secondAttribute="height" multiplier="1:1" id="JJ8-4E-Gfz"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AJ1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="82Z-2N-jp5">
+                    <rect key="frame" x="124" y="39.5" width="28" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="YKW-b1-yY2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="85d-ys-ucX"/>
+                <constraint firstAttribute="bottom" secondItem="YKW-b1-yY2" secondAttribute="bottom" constant="5" id="K6U-CE-wLi"/>
+                <constraint firstItem="YKW-b1-yY2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="LVl-KE-V16"/>
+                <constraint firstItem="82Z-2N-jp5" firstAttribute="centerY" secondItem="YKW-b1-yY2" secondAttribute="centerY" id="QiP-9i-6Ps"/>
+                <constraint firstItem="82Z-2N-jp5" firstAttribute="leading" secondItem="YKW-b1-yY2" secondAttribute="trailing" constant="29" id="bG2-Cn-Lqf"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="126.81159420289856" y="145.98214285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AJ1" width="800" height="800"/>
+    </resources>
+</document>

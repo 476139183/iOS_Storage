@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" interfaceStyle="light" id="iN0-l3-epB" customClass="SwiftXibRedView" customModule="iOS_Storage" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AJ5" translatesAutoresizingMaskIntoConstraints="NO" id="AM1-B2-L4z">
+                    <rect key="frame" x="5" y="5" width="90" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="AM1-B2-L4z" secondAttribute="height" multiplier="1:1" id="C5w-Yt-Vtg"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AJ5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGu-4R-AiC">
+                    <rect key="frame" x="115" y="39.5" width="30" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="JGu-4R-AiC" firstAttribute="centerY" secondItem="AM1-B2-L4z" secondAttribute="centerY" id="LXC-bA-NtS"/>
+                <constraint firstItem="JGu-4R-AiC" firstAttribute="leading" secondItem="AM1-B2-L4z" secondAttribute="trailing" constant="20" id="Y5H-7q-1L6"/>
+                <constraint firstAttribute="bottom" secondItem="AM1-B2-L4z" secondAttribute="bottom" constant="5" id="Yno-Xo-4ze"/>
+                <constraint firstItem="AM1-B2-L4z" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="cTP-bs-4ph"/>
+                <constraint firstItem="AM1-B2-L4z" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="jUX-BN-hsv"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="109.42028985507247" y="271.875"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AJ5" width="900" height="636"/>
+    </resources>
+</document>

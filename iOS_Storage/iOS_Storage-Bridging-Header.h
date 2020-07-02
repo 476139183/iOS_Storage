@@ -72,3 +72,4 @@
 #import "CQCheckDeallocViewController.h"
 #import "CQFPSViewController.h"
 #import "CQCacheDemoViewController.h"
+#import "OCXibCustomViewController.h"
