@@ -17,7 +17,9 @@ class ShadowCornerListViewController: JumpListViewController {
         
         self.dataArray = [ItemModel(title: "圆角和阴影", targetVC: ShadowCornerListViewController()),
                           ItemModel(title: "模糊", targetVC: BlurEffectViewController()),
-                          ItemModel(title: "毛玻璃2", targetVC: BlurEffectViewController2())]
+                          ItemModel(title: "毛玻璃2", targetVC: BlurEffectViewController2()),
+                          ItemModel(title: "渐变", targetVC: GradientDemoViewController()),
+                          ItemModel(title: "虚线", targetVC: ImaginaryLineViewController())]
         
     }
 

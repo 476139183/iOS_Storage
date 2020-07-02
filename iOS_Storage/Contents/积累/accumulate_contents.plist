@@ -52,7 +52,7 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>圆角、阴影、模糊与渐变</string>
+		<string>圆角、阴影、模糊、渐变、虚线</string>
 		<key>controller_name</key>
 		<string>ShadowCornerListViewController</string>
 		<key>url</key>

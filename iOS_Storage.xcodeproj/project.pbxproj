@@ -346,6 +346,7 @@
 		D96D566024AD8AA4008DD9CF /* OCXibBlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96D565F24AD8AA4008DD9CF /* OCXibBlueView.xib */; };
 		D96D566224AD9058008DD9CF /* SwiftXibRedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D566124AD9058008DD9CF /* SwiftXibRedView.swift */; };
 		D96D566424AD90D3008DD9CF /* SwiftXibRedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96D566324AD90D3008DD9CF /* SwiftXibRedView.xib */; };
+		D96D566C24ADB3C2008DD9CF /* ImaginaryLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D566B24ADB3C2008DD9CF /* ImaginaryLineViewController.swift */; };
 		D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */; };
 		D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */; };
 		D96F415C23BEDFA2008616F4 /* PerfectAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96F415B23BEDFA2008616F4 /* PerfectAppViewController.swift */; };
@@ -1154,6 +1155,7 @@
 		D96D565F24AD8AA4008DD9CF /* OCXibBlueView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OCXibBlueView.xib; sourceTree = "<group>"; };
 		D96D566124AD9058008DD9CF /* SwiftXibRedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftXibRedView.swift; sourceTree = "<group>"; };
 		D96D566324AD90D3008DD9CF /* SwiftXibRedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftXibRedView.xib; sourceTree = "<group>"; };
+		D96D566B24ADB3C2008DD9CF /* ImaginaryLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImaginaryLineViewController.swift; sourceTree = "<group>"; };
 		D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftLoginViewController.swift; sourceTree = "<group>"; };
 		D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftLoginViewController.xib; sourceTree = "<group>"; };
 		D96F415B23BEDFA2008616F4 /* PerfectAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectAppViewController.swift; sourceTree = "<group>"; };
@@ -2772,7 +2774,7 @@
 				D9ED81DE2458087C00726E49 /* 要优雅 */,
 				D9700D71245ED84F00168FE0 /* UIKit相关 */,
 				D941A123245EDD2200844787 /* WebView */,
-				D9F523082362D23300ABBEF7 /* 圆角、阴影、渐变与模糊 */,
+				D9F523082362D23300ABBEF7 /* 圆角、阴影、渐变、模糊、虚线 */,
 				D94253192366D2EA0031356C /* 各种动画 */,
 				D982964923976966001C05AE /* 各种跳转 */,
 				D92CBD6C23F78A8E003A6EDC /* 各种字体 */,
@@ -3928,6 +3930,14 @@
 			children = (
 			);
 			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		D96D566A24ADB350008DD9CF /* 虚线 */ = {
+			isa = PBXGroup;
+			children = (
+				D96D566B24ADB3C2008DD9CF /* ImaginaryLineViewController.swift */,
+			);
+			path = "虚线";
 			sourceTree = "<group>";
 		};
 		D96F415823BEDEC8008616F4 /* 完美APP */ = {
@@ -5674,7 +5684,7 @@
 			path = GCD;
 			sourceTree = "<group>";
 		};
-		D9F523082362D23300ABBEF7 /* 圆角、阴影、渐变与模糊 */ = {
+		D9F523082362D23300ABBEF7 /* 圆角、阴影、渐变、模糊、虚线 */ = {
 			isa = PBXGroup;
 			children = (
 				D9A32B892480AE1A00295E2F /* ShadowCornerListViewController.swift */,
@@ -5682,8 +5692,9 @@
 				D95A3D982480C67400F0166C /* 阴影 */,
 				D95A3D9A2480C6C500F0166C /* 模糊 */,
 				D95A3D992480C68000F0166C /* 渐变 */,
+				D96D566A24ADB350008DD9CF /* 虚线 */,
 			);
-			path = "圆角、阴影、渐变与模糊";
+			path = "圆角、阴影、渐变、模糊、虚线";
 			sourceTree = "<group>";
 		};
 		D9F5318E249BC3C9005BD556 /* Any与AnyObject */ = {
@@ -6624,6 +6635,7 @@
 				D9C5E5D22345879000D101F1 /* LeetCodeViewController.swift in Sources */,
 				D99B98F1246BEAE7001E6369 /* VoteCellNode.swift in Sources */,
 				D91E1D22233E4E9800B1C772 /* GradientView.swift in Sources */,
+				D96D566C24ADB3C2008DD9CF /* ImaginaryLineViewController.swift in Sources */,
 				D95A3DB12482063800F0166C /* LocalGifCell.swift in Sources */,
 				D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */,
 				D973CD292489E4C300C67FB9 /* CQMemoryLayoutViewController.m in Sources */,
