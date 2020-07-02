@@ -334,6 +334,8 @@
 		D96D563124AC2DD6008DD9CF /* LocalStorageFrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D563024AC2DD6008DD9CF /* LocalStorageFrameworkViewController.swift */; };
 		D96D563424AC2EA1008DD9CF /* MMKVDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D563324AC2EA1008DD9CF /* MMKVDemoViewController.swift */; };
 		D96D563724AC653A008DD9CF /* CodableDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D563624AC653A008DD9CF /* CodableDemoViewController.swift */; };
+		D96D563F24AC9CE2008DD9CF /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D563E24AC9CE2008DD9CF /* BaseCollectionViewController.swift */; };
+		D96D564124AC9D6D008DD9CF /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D564024AC9D6D008DD9CF /* BaseCollectionViewCell.swift */; };
 		D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */; };
 		D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */; };
 		D96F415C23BEDFA2008616F4 /* PerfectAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96F415B23BEDFA2008616F4 /* PerfectAppViewController.swift */; };
@@ -1128,6 +1130,8 @@
 		D96D563024AC2DD6008DD9CF /* LocalStorageFrameworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageFrameworkViewController.swift; sourceTree = "<group>"; };
 		D96D563324AC2EA1008DD9CF /* MMKVDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMKVDemoViewController.swift; sourceTree = "<group>"; };
 		D96D563624AC653A008DD9CF /* CodableDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableDemoViewController.swift; sourceTree = "<group>"; };
+		D96D563E24AC9CE2008DD9CF /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
+		D96D564024AC9D6D008DD9CF /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		D96E3A7922EDE45A009C14E2 /* RxSwiftLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftLoginViewController.swift; sourceTree = "<group>"; };
 		D96E3A7A22EDE45A009C14E2 /* RxSwiftLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftLoginViewController.xib; sourceTree = "<group>"; };
 		D96F415B23BEDFA2008616F4 /* PerfectAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectAppViewController.swift; sourceTree = "<group>"; };
@@ -1656,6 +1660,7 @@
 				D937687C2357FD7200515315 /* 常用CollectionViewLayout */,
 				D97246ED237E5F76001671AD /* 自定义UICollectionViewLayout */,
 				D92D69A320DE2DAA002BA9C0 /* 比例拼图 */,
+				D96D563D24AC9C6B008DD9CF /* 泛型collectionView */,
 			);
 			path = CollectionViewDemos;
 			sourceTree = "<group>";
@@ -3792,6 +3797,15 @@
 				D96D563624AC653A008DD9CF /* CodableDemoViewController.swift */,
 			);
 			path = Codable;
+			sourceTree = "<group>";
+		};
+		D96D563D24AC9C6B008DD9CF /* 泛型collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				D96D564024AC9D6D008DD9CF /* BaseCollectionViewCell.swift */,
+				D96D563E24AC9CE2008DD9CF /* BaseCollectionViewController.swift */,
+			);
+			path = "泛型collectionView";
 			sourceTree = "<group>";
 		};
 		D96F415823BEDEC8008616F4 /* 完美APP */ = {
@@ -6356,6 +6370,7 @@
 				D944FD32249878CE00C8DB52 /* FlowerModel.swift in Sources */,
 				D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */,
 				D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */,
+				D96D563F24AC9CE2008DD9CF /* BaseCollectionViewController.swift in Sources */,
 				D9F12E432467E84800B3D597 /* FloatingLayerDemoViewController.swift in Sources */,
 				D9E30C3C236D62560042BC74 /* GifViewController.swift in Sources */,
 				D9C7CC0922E998520038FD34 /* CQStandardTableHeaderView.m in Sources */,
@@ -6483,6 +6498,7 @@
 				D95A3DB12482063800F0166C /* LocalGifCell.swift in Sources */,
 				D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */,
 				D973CD292489E4C300C67FB9 /* CQMemoryLayoutViewController.m in Sources */,
+				D96D564124AC9D6D008DD9CF /* BaseCollectionViewCell.swift in Sources */,
 				D96778BC23A13CEF00D19554 /* PullDownLargeViewController.swift in Sources */,
 				D9519A0022BF2FE700E3036B /* AdidasFactory.m in Sources */,
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
