@@ -9,14 +9,17 @@
 import UIKit
 
 class SwiftXibDemosViewController: JumpListViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
-        self.dataArray = [ItemModel(title: "自定义view", targetVC: SwiftXibCustomViewController())]
+        self.dataArray = [ItemModel(title: "自定义view", targetVC: SwiftXibCustomViewController()),
+                          ItemModel(title: "scrollView", targetVC: SwiftXibScrollViewController()),
+                          ItemModel(title: "tableView", targetVC: SwiftXibTableViewController()),
+                          ItemModel(title: "collectionView", targetVC: SwiftXibCollectionViewController())]
         
     }
-
+    
 }
