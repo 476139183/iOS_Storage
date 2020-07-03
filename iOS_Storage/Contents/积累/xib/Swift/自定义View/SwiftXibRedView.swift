@@ -10,4 +10,7 @@ import UIKit
 
 class SwiftXibRedView: UIView {
 
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet var leftConstraint: NSLayoutConstraint!
+    
 }
