@@ -14,4 +14,10 @@ class SwiftXibRedView: UIView {
     @IBOutlet var leftConstraint: NSLayoutConstraint!
     @IBOutlet var imageHeightConstraint: NSLayoutConstraint!
     
+    @IBOutlet weak var collectionView: UICollectionView!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+    
 }

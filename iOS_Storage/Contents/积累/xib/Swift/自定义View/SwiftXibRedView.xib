@@ -26,19 +26,35 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="mxD-7K-lvp">
+                    <rect key="frame" x="153" y="8" width="214" height="84"/>
+                    <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="0.65206145910000002" green="1" blue="0.41305503370000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="SBt-4A-f8T">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
             </subviews>
             <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="mxD-7K-lvp" secondAttribute="bottom" constant="8" id="3Gs-5u-Ob6"/>
+                <constraint firstItem="mxD-7K-lvp" firstAttribute="leading" secondItem="JGu-4R-AiC" secondAttribute="trailing" constant="8" id="77G-LA-dZZ"/>
                 <constraint firstItem="JGu-4R-AiC" firstAttribute="centerY" secondItem="AM1-B2-L4z" secondAttribute="centerY" id="LXC-bA-NtS"/>
+                <constraint firstAttribute="trailing" secondItem="mxD-7K-lvp" secondAttribute="trailing" constant="8" id="Ohi-EJ-gud"/>
                 <constraint firstItem="JGu-4R-AiC" firstAttribute="leading" secondItem="AM1-B2-L4z" secondAttribute="trailing" constant="20" id="Y5H-7q-1L6"/>
                 <constraint firstAttribute="bottom" secondItem="AM1-B2-L4z" secondAttribute="bottom" constant="5" id="Yno-Xo-4ze"/>
                 <constraint firstItem="AM1-B2-L4z" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="cTP-bs-4ph"/>
                 <constraint firstItem="AM1-B2-L4z" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="jUX-BN-hsv"/>
+                <constraint firstItem="mxD-7K-lvp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="tyH-EB-wL2"/>
             </constraints>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="collectionView" destination="mxD-7K-lvp" id="bA0-zJ-1no"/>
                 <outlet property="imageHeightConstraint" destination="LV9-fY-FXO" id="DdE-5c-duK"/>
                 <outlet property="imageView" destination="jUX-BN-hsv" id="uq4-LA-aTy"/>
                 <outlet property="leftConstraint" destination="cTP-bs-4ph" id="hZB-ua-wLB"/>
