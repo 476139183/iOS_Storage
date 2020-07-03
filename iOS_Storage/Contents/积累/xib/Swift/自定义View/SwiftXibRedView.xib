@@ -17,6 +17,7 @@
                     <rect key="frame" x="5" y="5" width="90" height="90"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="AM1-B2-L4z" secondAttribute="height" multiplier="1:1" id="C5w-Yt-Vtg"/>
+                        <constraint firstAttribute="height" constant="90" id="LV9-fY-FXO"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AJ5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGu-4R-AiC">
@@ -38,6 +39,7 @@
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="imageHeightConstraint" destination="LV9-fY-FXO" id="DdE-5c-duK"/>
                 <outlet property="imageView" destination="jUX-BN-hsv" id="uq4-LA-aTy"/>
                 <outlet property="leftConstraint" destination="cTP-bs-4ph" id="hZB-ua-wLB"/>
             </connections>

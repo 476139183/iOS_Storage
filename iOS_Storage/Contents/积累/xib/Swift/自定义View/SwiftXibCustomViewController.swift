@@ -27,6 +27,7 @@ class SwiftXibCustomViewController: CQBaseViewController {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.redView.leftConstraint.constant = 100
+        self.redView.imageHeightConstraint.constant = 150
     }
     
 

@@ -12,5 +12,6 @@ class SwiftXibRedView: UIView {
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet var leftConstraint: NSLayoutConstraint!
+    @IBOutlet var imageHeightConstraint: NSLayoutConstraint!
     
 }
