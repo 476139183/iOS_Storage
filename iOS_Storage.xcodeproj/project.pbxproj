@@ -694,6 +694,8 @@
 		D9F53192249BD877005BD556 /* AnimalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F53191249BD877005BD556 /* AnimalCell.swift */; };
 		D9F53194249BD8B3005BD556 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F53193249BD8B3005BD556 /* AnimalModel.swift */; };
 		D9F53196249D194C005BD556 /* 内存分布.md in Resources */ = {isa = PBXBuildFile; fileRef = D9F53195249D194C005BD556 /* 内存分布.md */; };
+		D9F5319924AE10D3005BD556 /* SwiftXibScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5319724AE10D3005BD556 /* SwiftXibScrollViewController.swift */; };
+		D9F5319A24AE10D3005BD556 /* SwiftXibScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F5319824AE10D3005BD556 /* SwiftXibScrollViewController.xib */; };
 		D9F72DDB243D83AF007BBB05 /* CompressImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F72DDA243D83AF007BBB05 /* CompressImageViewController.swift */; };
 		D9F72DDE243D83D2007BBB05 /* UIImage+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F72DDD243D83D2007BBB05 /* UIImage+Compress.m */; };
 		D9F72DE12440545E007BBB05 /* RegularExpressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F72DE02440545E007BBB05 /* RegularExpressionViewController.swift */; };
@@ -1581,6 +1583,8 @@
 		D9F53191249BD877005BD556 /* AnimalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCell.swift; sourceTree = "<group>"; };
 		D9F53193249BD8B3005BD556 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		D9F53195249D194C005BD556 /* 内存分布.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "内存分布.md"; sourceTree = "<group>"; };
+		D9F5319724AE10D3005BD556 /* SwiftXibScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftXibScrollViewController.swift; path = "iOS_Storage/Contents/面试/内存管理/内存分布/SwiftXibScrollViewController.swift"; sourceTree = SOURCE_ROOT; };
+		D9F5319824AE10D3005BD556 /* SwiftXibScrollViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SwiftXibScrollViewController.xib; path = "iOS_Storage/Contents/面试/内存管理/内存分布/SwiftXibScrollViewController.xib"; sourceTree = SOURCE_ROOT; };
 		D9F72DDA243D83AF007BBB05 /* CompressImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressImageViewController.swift; sourceTree = "<group>"; };
 		D9F72DDC243D83D2007BBB05 /* UIImage+Compress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compress.h"; sourceTree = "<group>"; };
 		D9F72DDD243D83D2007BBB05 /* UIImage+Compress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compress.m"; sourceTree = "<group>"; };
@@ -3900,6 +3904,8 @@
 		D96D564E24AD8615008DD9CF /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				D9F5319724AE10D3005BD556 /* SwiftXibScrollViewController.swift */,
+				D9F5319824AE10D3005BD556 /* SwiftXibScrollViewController.xib */,
 			);
 			path = ScrollView;
 			sourceTree = "<group>";
@@ -6027,6 +6033,7 @@
 				D9E30C35236D5FC50042BC74 /* img_1.png in Resources */,
 				D91A9F8422B490F7008F87F1 /* logo商标识别.md in Resources */,
 				D96F416723BEE35A008616F4 /* 完美APP.md in Resources */,
+				D9F5319A24AE10D3005BD556 /* SwiftXibScrollViewController.xib in Resources */,
 				D9E30C38236D5FC50042BC74 /* img_3.png in Resources */,
 				D973CD1C2488AC7C00C67FB9 /* dsData.json in Resources */,
 				D967A81C23ACD0C50000C00D /* POP.md in Resources */,
@@ -6626,6 +6633,7 @@
 				D96D565A24AD87C8008DD9CF /* OCXibBlueView.m in Sources */,
 				D9F72DDB243D83AF007BBB05 /* CompressImageViewController.swift in Sources */,
 				D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */,
+				D9F5319924AE10D3005BD556 /* SwiftXibScrollViewController.swift in Sources */,
 				D9C7CC2522E9B8C10038FD34 /* StandardSwiftSectionHeaderView.swift in Sources */,
 				D9160F9923BDF3570089E864 /* GitInfoViewController.swift in Sources */,
 				D965A2BB234E37D400041D69 /* IconFontViewController.swift in Sources */,
