@@ -14,6 +14,8 @@
 		D9019B7C22B13F670039B25D /* 链表.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7B22B13F670039B25D /* 链表.md */; };
 		D904C515234C9C00002DD939 /* PopMenuButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904C514234C9C00002DD939 /* PopMenuButtonViewController.swift */; };
 		D904C517234CA273002DD939 /* PopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904C516234CA273002DD939 /* PopMenuView.swift */; };
+		D904EABD24B0734D0006C928 /* CaptureScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904EABC24B0734D0006C928 /* CaptureScrollViewController.swift */; };
+		D904EAC324B074BD0006C928 /* UIScrollView+Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = D904EAC224B074BD0006C928 /* UIScrollView+Capture.m */; };
 		D90A9AFF238F80D500C84424 /* NestedItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A9AFE238F80D500C84424 /* NestedItemController.swift */; };
 		D90A9B05238FAB2500C84424 /* NestedItemTextureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A9B04238FAB2500C84424 /* NestedItemTextureController.swift */; };
 		D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7821098B4D00C48E72 /* CQTransitionController.m */; };
@@ -730,6 +732,9 @@
 		D9019B7B22B13F670039B25D /* 链表.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "链表.md"; sourceTree = "<group>"; };
 		D904C514234C9C00002DD939 /* PopMenuButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopMenuButtonViewController.swift; sourceTree = "<group>"; };
 		D904C516234CA273002DD939 /* PopMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopMenuView.swift; sourceTree = "<group>"; };
+		D904EABC24B0734D0006C928 /* CaptureScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureScrollViewController.swift; sourceTree = "<group>"; };
+		D904EAC124B074BD0006C928 /* UIScrollView+Capture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Capture.h"; sourceTree = "<group>"; };
+		D904EAC224B074BD0006C928 /* UIScrollView+Capture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Capture.m"; sourceTree = "<group>"; };
 		D90A9AFE238F80D500C84424 /* NestedItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedItemController.swift; sourceTree = "<group>"; };
 		D90A9B04238FAB2500C84424 /* NestedItemTextureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedItemTextureController.swift; sourceTree = "<group>"; };
 		D90C4E7721098B4D00C48E72 /* CQTransitionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTransitionController.h; sourceTree = "<group>"; };
@@ -1689,6 +1694,14 @@
 				D965A2BA234E37D400041D69 /* IconFontViewController.swift */,
 			);
 			path = IconFontDemo;
+			sourceTree = "<group>";
+		};
+		D904EABB24B073030006C928 /* ScrollView截图 */ = {
+			isa = PBXGroup;
+			children = (
+				D904EABC24B0734D0006C928 /* CaptureScrollViewController.swift */,
+			);
+			path = "ScrollView截图";
 			sourceTree = "<group>";
 		};
 		D90C33FB2453CB2F00BB9D29 /* CollectionViewDemos */ = {
@@ -3414,6 +3427,7 @@
 				D916DA2723A24AB100CB0CFA /* 检测view是否释放 */,
 				D90D9FAC233217A10007C25C /* 计算帧率 */,
 				D90D9FB5233306780007C25C /* cache */,
+				D904EABB24B073030006C928 /* ScrollView截图 */,
 			);
 			path = "杂七杂八";
 			sourceTree = "<group>";
@@ -5457,6 +5471,8 @@
 				D95328472399EA4F00C15136 /* UIAlertController+Util.m */,
 				D95A3DB9248245F000F0166C /* UIView+XibCorner.h */,
 				D95A3DBA248245F000F0166C /* UIView+XibCorner.m */,
+				D904EAC124B074BD0006C928 /* UIScrollView+Capture.h */,
+				D904EAC224B074BD0006C928 /* UIScrollView+Capture.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -6337,6 +6353,7 @@
 				D9BE258E23B88B7E001F4D71 /* PersonCellModel.swift in Sources */,
 				D9E86CBF2447EE00009CCBB8 /* TapGestureViewController.swift in Sources */,
 				D93A0BF9233CA0D300554EF6 /* MyCellNode.swift in Sources */,
+				D904EABD24B0734D0006C928 /* CaptureScrollViewController.swift in Sources */,
 				D9C7CC1D22E9AA210038FD34 /* StandardSwiftTableViewCell.swift in Sources */,
 				D96D563424AC2EA1008DD9CF /* MMKVDemoViewController.swift in Sources */,
 				D93AB55E2487465C00E79EAB /* LayoutFrameworkViewController.swift in Sources */,
@@ -6808,6 +6825,7 @@
 				D926BDE222C4B5B300A2DD3E /* CQAdapterViewController.m in Sources */,
 				D9B157D1246D2C9C00854606 /* NSAttributedString+Extension.swift in Sources */,
 				D92769F0236AE88700A6D846 /* PlaceholderViewController.swift in Sources */,
+				D904EAC324B074BD0006C928 /* UIScrollView+Capture.m in Sources */,
 				D9146DE8239213B5002EA395 /* GestureMainScrollView.swift in Sources */,
 				D92CBD7923F7A685003A6EDC /* AlamofireDownloadViewController.swift in Sources */,
 				D944FD2E24986FCD00C8DB52 /* GenericsTableViewController2.swift in Sources */,

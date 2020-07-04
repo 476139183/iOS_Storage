@@ -21,7 +21,8 @@ class Z7Z8ViewController: JumpListViewController {
                           ItemModel(title: "检测controller是否释放", targetVC: CQCheckDeallocViewController()),
                           ItemModel(title: "检测view是否释放", targetVC: CheckViewMemoryLeakViewController()),
                           ItemModel(title: "计算帧率", targetVC: CQFPSViewController()),
-                          ItemModel(title: "cache", targetVC: CQCacheDemoViewController())]
+                          ItemModel(title: "cache", targetVC: CQCacheDemoViewController()),
+                          ItemModel(title: "scrollView截图", targetVC: CaptureScrollViewController())]
         
     }
     
