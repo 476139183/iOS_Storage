@@ -9,8 +9,14 @@
 import SwiftUI
 
 struct SwiftUIListView: View {
+    
     var body: some View {
-        Text("H恩恩额d!")
+        VStack {
+            Text("ss")
+            Text("ss")
+            Text("ss")
+                .padding(.init(top: 20, leading: 0, bottom: 0, trailing: 0))
+        }
     }
 }
 
