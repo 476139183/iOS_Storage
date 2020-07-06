@@ -10,7 +10,10 @@ import SwiftUI
 
 struct SwiftUIBasicView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image(systemName: "back")
+            Text("因缺思厅233, World!")
+        }
     }
 }
 

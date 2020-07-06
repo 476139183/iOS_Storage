@@ -50,7 +50,7 @@
 		D91A9F7C22B3D89E008F87F1 /* CQCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F7922B3D89D008F87F1 /* CQCountDownButton.m */; };
 		D91A9F7D22B3D89E008F87F1 /* NSTimer+CQBlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F7A22B3D89D008F87F1 /* NSTimer+CQBlockSupport.m */; };
 		D91A9F7F22B3D912008F87F1 /* CountDownButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F7E22B3D912008F87F1 /* CountDownButtonViewController.swift */; };
-		D91A9F8122B482B1008F87F1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D91A9F8022B482B1008F87F1 /* README.md */; };
+		D91A9F8122B482B1008F87F1 /* SixButton.md in Resources */ = {isa = PBXBuildFile; fileRef = D91A9F8022B482B1008F87F1 /* SixButton.md */; };
 		D91A9F8422B490F7008F87F1 /* logo商标识别.md in Resources */ = {isa = PBXBuildFile; fileRef = D91A9F8322B490F7008F87F1 /* logo商标识别.md */; };
 		D91A9F8B22B49390008F87F1 /* CQRecognitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F8A22B49390008F87F1 /* CQRecognitionManager.m */; };
 		D91A9F8E22B49B36008F87F1 /* CQRecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F8D22B49B36008F87F1 /* CQRecognitionViewController.m */; };
@@ -408,7 +408,7 @@
 		D97667B82499C12200A8BEDD /* SwiftExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667B72499C12200A8BEDD /* SwiftExtensionViewController.swift */; };
 		D97667BA2499C18D00A8BEDD /* SwiftProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667B92499C18D00A8BEDD /* SwiftProtocolViewController.swift */; };
 		D97667BC2499C1F900A8BEDD /* Swift 扩展.md in Resources */ = {isa = PBXBuildFile; fileRef = D97667BB2499C1F900A8BEDD /* Swift 扩展.md */; };
-		D97667BF2499CE9D00A8BEDD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D97667BE2499CE9D00A8BEDD /* README.md */; };
+		D97667BF2499CE9D00A8BEDD /* init&deinit.md in Resources */ = {isa = PBXBuildFile; fileRef = D97667BE2499CE9D00A8BEDD /* init&deinit.md */; };
 		D97667C12499CF9400A8BEDD /* SwiftInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667C02499CF9400A8BEDD /* SwiftInitViewController.swift */; };
 		D97667C32499F23600A8BEDD /* Swift 协议.md in Resources */ = {isa = PBXBuildFile; fileRef = D97667C22499F23600A8BEDD /* Swift 协议.md */; };
 		D97667C6249A138700A8BEDD /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667C5249A138700A8BEDD /* SectionModel.swift */; };
@@ -501,6 +501,7 @@
 		D9A39F8422B4D36A00FEA5F5 /* CQComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F8322B4D36A00FEA5F5 /* CQComponentViewController.m */; };
 		D9A39F8722B4D51900FEA5F5 /* CQStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F8622B4D51900FEA5F5 /* CQStrategyViewController.m */; };
 		D9A39F8A22B4D8AF00FEA5F5 /* CQStrategyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A39F8922B4D8AF00FEA5F5 /* CQStrategyManager.m */; };
+		D9A6363E24B3537500900A8F /* SwiftUIListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6363D24B3537500900A8F /* SwiftUIListView.swift */; };
 		D9A65EED235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A65EEC235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift */; };
 		D9AA680A237F8E1000A14C37 /* CQLeftSideLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AA6809237F8E1000A14C37 /* CQLeftSideLayout.m */; };
 		D9AA680F237FB32600A14C37 /* UIPageViewControllerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA680E237FB32600A14C37 /* UIPageViewControllerDemoController.swift */; };
@@ -783,7 +784,7 @@
 		D91A9F7A22B3D89D008F87F1 /* NSTimer+CQBlockSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+CQBlockSupport.m"; sourceTree = "<group>"; };
 		D91A9F7B22B3D89D008F87F1 /* CQCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQCountDownButton.h; sourceTree = "<group>"; };
 		D91A9F7E22B3D912008F87F1 /* CountDownButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownButtonViewController.swift; sourceTree = "<group>"; };
-		D91A9F8022B482B1008F87F1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D91A9F8022B482B1008F87F1 /* SixButton.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = SixButton.md; sourceTree = "<group>"; };
 		D91A9F8322B490F7008F87F1 /* logo商标识别.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "logo商标识别.md"; sourceTree = "<group>"; };
 		D91A9F8922B49390008F87F1 /* CQRecognitionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRecognitionManager.h; sourceTree = "<group>"; };
 		D91A9F8A22B49390008F87F1 /* CQRecognitionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRecognitionManager.m; sourceTree = "<group>"; };
@@ -1236,7 +1237,7 @@
 		D97667B72499C12200A8BEDD /* SwiftExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtensionViewController.swift; sourceTree = "<group>"; };
 		D97667B92499C18D00A8BEDD /* SwiftProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProtocolViewController.swift; sourceTree = "<group>"; };
 		D97667BB2499C1F900A8BEDD /* Swift 扩展.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Swift 扩展.md"; sourceTree = "<group>"; };
-		D97667BE2499CE9D00A8BEDD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D97667BE2499CE9D00A8BEDD /* init&deinit.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "init&deinit.md"; sourceTree = "<group>"; };
 		D97667C02499CF9400A8BEDD /* SwiftInitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftInitViewController.swift; sourceTree = "<group>"; };
 		D97667C22499F23600A8BEDD /* Swift 协议.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Swift 协议.md"; sourceTree = "<group>"; };
 		D97667C5249A138700A8BEDD /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
@@ -1343,6 +1344,7 @@
 		D9A39F8622B4D51900FEA5F5 /* CQStrategyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQStrategyViewController.m; sourceTree = "<group>"; };
 		D9A39F8822B4D8AF00FEA5F5 /* CQStrategyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQStrategyManager.h; sourceTree = "<group>"; };
 		D9A39F8922B4D8AF00FEA5F5 /* CQStrategyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQStrategyManager.m; sourceTree = "<group>"; };
+		D9A6363D24B3537500900A8F /* SwiftUIListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListView.swift; sourceTree = "<group>"; };
 		D9A65EEC235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedViewDemoViewController.swift; sourceTree = "<group>"; };
 		D9AA6808237F8E1000A14C37 /* CQLeftSideLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQLeftSideLayout.h; sourceTree = "<group>"; };
 		D9AA6809237F8E1000A14C37 /* CQLeftSideLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQLeftSideLayout.m; sourceTree = "<group>"; };
@@ -1924,7 +1926,7 @@
 		D91A9F7622B3D801008F87F1 /* 一个很6的倒计时button */ = {
 			isa = PBXGroup;
 			children = (
-				D91A9F8022B482B1008F87F1 /* README.md */,
+				D91A9F8022B482B1008F87F1 /* SixButton.md */,
 				D91A9F7E22B3D912008F87F1 /* CountDownButtonViewController.swift */,
 				D91A9F7722B3D89D008F87F1 /* CQCountDownButton */,
 			);
@@ -4260,7 +4262,7 @@
 		D97667BD2499CE7200A8BEDD /* init 与 deinit */ = {
 			isa = PBXGroup;
 			children = (
-				D97667BE2499CE9D00A8BEDD /* README.md */,
+				D97667BE2499CE9D00A8BEDD /* init&deinit.md */,
 				D97667C02499CF9400A8BEDD /* SwiftInitViewController.swift */,
 			);
 			path = "init 与 deinit";
@@ -4697,6 +4699,14 @@
 			path = "组件化";
 			sourceTree = "<group>";
 		};
+		D9A6363C24B3533D00900A8F /* List */ = {
+			isa = PBXGroup;
+			children = (
+				D9A6363D24B3537500900A8F /* SwiftUIListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		D9A65EEB235AA23D00D55A6F /* JXSegmentedView */ = {
 			isa = PBXGroup;
 			children = (
@@ -5071,6 +5081,7 @@
 			children = (
 				D9C3BE6724B21FAA00873786 /* SwiftUIDemosViewController.swift */,
 				D9C3BE6924B2206400873786 /* 基础控件 */,
+				D9A6363C24B3533D00900A8F /* List */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -6056,7 +6067,7 @@
 				D95199F022BDF26100E3036B /* 工厂方法模式.html in Resources */,
 				D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */,
 				D95A3DCD2484B7F300F0166C /* 它是怎么观察到属性有变化的？.md in Resources */,
-				D91A9F8122B482B1008F87F1 /* README.md in Resources */,
+				D91A9F8122B482B1008F87F1 /* SixButton.md in Resources */,
 				D9C2807324A08E9700C66F61 /* Swift异常处理.md in Resources */,
 				D985E41D23FD08B500CF7954 /* SF-Pro-Text-BoldItalic.otf in Resources */,
 				D967A81A23ACB9E20000C00D /* 编程思想.md in Resources */,
@@ -6069,7 +6080,7 @@
 				D985E41E23FD08B500CF7954 /* SF-Pro-Text-RegularItalic.otf in Resources */,
 				D9BBF970235F4885009342EC /* third_part_contents.plist in Resources */,
 				D9AEB65B22F58B1E006F8995 /* person_info.json in Resources */,
-				D97667BF2499CE9D00A8BEDD /* README.md in Resources */,
+				D97667BF2499CE9D00A8BEDD /* init&deinit.md in Resources */,
 				D985E42023FD08B500CF7954 /* SF-Pro-Text-HeavyItalic.otf in Resources */,
 				D96D569A24AF0C25008DD9CF /* SwiftXibTableViewController.xib in Resources */,
 				D9402A892101E5B500BF792F /* interview_contents.plist in Resources */,
@@ -6169,7 +6180,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		3337EDAFBA98D036C28D0E22 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -6744,6 +6755,7 @@
 				D96FE2D22396453D00949006 /* ASAbsoluteLayoutController.swift in Sources */,
 				D94016902361BF1400580AAC /* UIView+Extension.swift in Sources */,
 				D96D562424AAD3CD008DD9CF /* DefaultTableHeaderModel.swift in Sources */,
+				D9A6363E24B3537500900A8F /* SwiftUIListView.swift in Sources */,
 				D9F37C6A248BFB72008B6F14 /* HTMLGrammerViewController.swift in Sources */,
 				D9E86CC32447EE4A009CCBB8 /* SwipeGestureViewController.swift in Sources */,
 				D9D64FD72105DDA300379FF2 /* CQThreadViewController.m in Sources */,
