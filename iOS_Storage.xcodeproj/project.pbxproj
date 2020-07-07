@@ -2826,6 +2826,7 @@
 				D95885BA24519D9C00CD9FDD /* 视频播放器 */,
 				D96D564224AD8303008DD9CF /* xib */,
 				D9C3BE6624B21F6B00873786 /* SwiftUI */,
+				D9A6364524B3FC0600900A8F /* App Clips */,
 				D9551E5124762DAF00E7E494 /* 杂七杂八 */,
 			);
 			path = "积累";
@@ -4725,6 +4726,13 @@
 				D9A6364324B3EF8800900A8F /* SFSymbolsView.swift */,
 			);
 			path = "SF Symbols";
+			sourceTree = "<group>";
+		};
+		D9A6364524B3FC0600900A8F /* App Clips */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "App Clips";
 			sourceTree = "<group>";
 		};
 		D9A65EEB235AA23D00D55A6F /* JXSegmentedView */ = {
