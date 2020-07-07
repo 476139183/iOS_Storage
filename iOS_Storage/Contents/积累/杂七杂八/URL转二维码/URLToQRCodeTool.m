@@ -7,7 +7,6 @@
 //
 
 #import "URLToQRCodeTool.h"
-#import <UIKit/UIKit.h>
 
 @implementation URLToQRCodeTool
 
