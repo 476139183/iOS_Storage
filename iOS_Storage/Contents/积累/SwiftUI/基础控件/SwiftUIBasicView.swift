@@ -11,7 +11,9 @@ import SwiftUI
 struct SwiftUIBasicView: View {
     var body: some View {
         VStack {
-            Image(systemName: "back")
+            Image(systemName: "bolt")
+                .resizable()
+                .frame(width: 40, height: 40)
             Text("因缺思厅233, World!")
         }
     }

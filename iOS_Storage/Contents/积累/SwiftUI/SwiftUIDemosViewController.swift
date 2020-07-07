@@ -16,7 +16,8 @@ class SwiftUIDemosViewController: JumpListViewController {
         
         // Do any additional setup after loading the view.
         
-        self.dataArray = [ItemModel(title: "基础控件", targetVC: BaseHostingController(rootView: SwiftUIBasicView())),
+        self.dataArray = [ItemModel(title: "SF Symbols", targetVC: BaseHostingController(rootView: SFSymbolsView())),
+                          ItemModel(title: "基础控件", targetVC: BaseHostingController(rootView: SwiftUIBasicView())),
                           ItemModel(title: "List", targetVC: BaseHostingController(rootView: SwiftUIListView())),
                           ItemModel(title: "Landmarks", targetVC: BaseHostingController(rootView: LandmarksView()))]
         
