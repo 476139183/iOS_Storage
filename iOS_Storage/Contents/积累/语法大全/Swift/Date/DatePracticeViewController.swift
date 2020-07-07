@@ -16,6 +16,9 @@ class DatePracticeViewController: CQBaseViewController {
         // Do any additional setup after loading the view.
         
         let date = Date()
+        let dateFormat = DateFormatter()
+        dateFormat.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        print(dateFormat.string(from: date))
         
     }
 
