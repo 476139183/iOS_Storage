@@ -73,3 +73,4 @@
 #import "CQFPSViewController.h"
 #import "CQCacheDemoViewController.h"
 #import "OCXibCustomViewController.h"
+#import "URLToQRCodeTool.h"

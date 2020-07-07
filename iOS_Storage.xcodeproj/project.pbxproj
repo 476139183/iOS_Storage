@@ -446,6 +446,8 @@
 		D986653723715E8800AA60B2 /* JXMixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986653623715E8800AA60B2 /* JXMixViewController.swift */; };
 		D9866539237164DF00AA60B2 /* CQSegmentedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9866538237164DF00AA60B2 /* CQSegmentedDataSource.swift */; };
 		D98CBB372453D95200A2E32A /* CollectionViewDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CBB362453D95200A2E32A /* CollectionViewDemosViewController.swift */; };
+		D98DF5B224B417C9001B9EC9 /* URLToQRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D98DF5B124B417C9001B9EC9 /* URLToQRCodeTool.m */; };
+		D98DF5B424B42198001B9EC9 /* URLToQRCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98DF5B324B42198001B9EC9 /* URLToQRCodeController.swift */; };
 		D98E4DE423810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DE323810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift */; };
 		D98E4DE6238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */; };
 		D98E4DF0238284AC0082EED4 /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DEF238284AC0082EED4 /* IconFont.swift */; };
@@ -1279,6 +1281,9 @@
 		D986653623715E8800AA60B2 /* JXMixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXMixViewController.swift; sourceTree = "<group>"; };
 		D9866538237164DF00AA60B2 /* CQSegmentedDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQSegmentedDataSource.swift; sourceTree = "<group>"; };
 		D98CBB362453D95200A2E32A /* CollectionViewDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDemosViewController.swift; sourceTree = "<group>"; };
+		D98DF5B024B417C9001B9EC9 /* URLToQRCodeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLToQRCodeTool.h; sourceTree = "<group>"; };
+		D98DF5B124B417C9001B9EC9 /* URLToQRCodeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLToQRCodeTool.m; sourceTree = "<group>"; };
+		D98DF5B324B42198001B9EC9 /* URLToQRCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLToQRCodeController.swift; sourceTree = "<group>"; };
 		D98E4DE323810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideMaxCellSpacingViewController.swift; sourceTree = "<group>"; };
 		D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideMaxCellSpacingLayout.swift; sourceTree = "<group>"; };
 		D98E4DEF238284AC0082EED4 /* IconFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
@@ -3443,6 +3448,7 @@
 				D90D9FAC233217A10007C25C /* 计算帧率 */,
 				D90D9FB5233306780007C25C /* cache */,
 				D904EABB24B073030006C928 /* ScrollView截图 */,
+				D98DF5AF24B4172D001B9EC9 /* URL转二维码 */,
 			);
 			path = "杂七杂八";
 			sourceTree = "<group>";
@@ -4425,6 +4431,16 @@
 				D9866538237164DF00AA60B2 /* CQSegmentedDataSource.swift */,
 			);
 			path = "混合型title";
+			sourceTree = "<group>";
+		};
+		D98DF5AF24B4172D001B9EC9 /* URL转二维码 */ = {
+			isa = PBXGroup;
+			children = (
+				D98DF5B324B42198001B9EC9 /* URLToQRCodeController.swift */,
+				D98DF5B024B417C9001B9EC9 /* URLToQRCodeTool.h */,
+				D98DF5B124B417C9001B9EC9 /* URLToQRCodeTool.m */,
+			);
+			path = "URL转二维码";
 			sourceTree = "<group>";
 		};
 		D98E4DE223810F360082EED4 /* 设置cell间距并且靠左 */ = {
@@ -6401,6 +6417,7 @@
 				D97667DC249B040400A8BEDD /* ShoeHeaderModel.swift in Sources */,
 				D9BF691A233F5F0B00E602A4 /* CQGradientLabel.m in Sources */,
 				D9DE6CC320FEE7CE00C8D4FE /* CQHouseModel.m in Sources */,
+				D98DF5B424B42198001B9EC9 /* URLToQRCodeController.swift in Sources */,
 				D944FD362498823100C8DB52 /* BaseGenericsTableViewController.swift in Sources */,
 				D9CB1EC22341FDA900CEB752 /* RxSwiftDemoListViewController.swift in Sources */,
 				D9E21A8B210FF91100407599 /* CQClassClusterCellB.m in Sources */,
@@ -6523,6 +6540,7 @@
 				D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */,
 				D96D561824A9D945008DD9CF /* ShoeFooter.swift in Sources */,
 				D93AB5652487479D00E79EAB /* CQMasonryViewController.m in Sources */,
+				D98DF5B224B417C9001B9EC9 /* URLToQRCodeTool.m in Sources */,
 				D96773A92400D12500829BCB /* VerticalCollectionViewController.swift in Sources */,
 				D9E86CC52447EE6C009CCBB8 /* PanGestureViewController.swift in Sources */,
 				D9A32B72247E68D000295E2F /* KingfisherLoadImageViewController.swift in Sources */,
