@@ -18,6 +18,7 @@ class SwiftUIDemosViewController: JumpListViewController {
         
         self.dataArray = [ItemModel(title: "SF Symbols", targetVC: BaseHostingController(rootView: SFSymbolsView())),
                           ItemModel(title: "基础控件", targetVC: BaseHostingController(rootView: SwiftUIBasicView())),
+                          ItemModel(title: "Form", targetVC: BaseHostingController(rootView: SwiftUIFormView())),
                           ItemModel(title: "List", targetVC: BaseHostingController(rootView: SwiftUIListView())),
                           ItemModel(title: "Landmarks", targetVC: BaseHostingController(rootView: LandmarksView()))]
         

@@ -506,6 +506,7 @@
 		D9A6363E24B3537500900A8F /* SwiftUIListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6363D24B3537500900A8F /* SwiftUIListView.swift */; };
 		D9A6364124B3894B00900A8F /* LandmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6364024B3894B00900A8F /* LandmarksView.swift */; };
 		D9A6364424B3EF8800900A8F /* SFSymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6364324B3EF8800900A8F /* SFSymbolsView.swift */; };
+		D9A6364824B4811B00900A8F /* SwiftUIFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6364724B4811B00900A8F /* SwiftUIFormView.swift */; };
 		D9A65EED235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A65EEC235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift */; };
 		D9AA680A237F8E1000A14C37 /* CQLeftSideLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AA6809237F8E1000A14C37 /* CQLeftSideLayout.m */; };
 		D9AA680F237FB32600A14C37 /* UIPageViewControllerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA680E237FB32600A14C37 /* UIPageViewControllerDemoController.swift */; };
@@ -1354,6 +1355,7 @@
 		D9A6363D24B3537500900A8F /* SwiftUIListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListView.swift; sourceTree = "<group>"; };
 		D9A6364024B3894B00900A8F /* LandmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksView.swift; sourceTree = "<group>"; };
 		D9A6364324B3EF8800900A8F /* SFSymbolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsView.swift; sourceTree = "<group>"; };
+		D9A6364724B4811B00900A8F /* SwiftUIFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFormView.swift; sourceTree = "<group>"; };
 		D9A65EEC235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedViewDemoViewController.swift; sourceTree = "<group>"; };
 		D9AA6808237F8E1000A14C37 /* CQLeftSideLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQLeftSideLayout.h; sourceTree = "<group>"; };
 		D9AA6809237F8E1000A14C37 /* CQLeftSideLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQLeftSideLayout.m; sourceTree = "<group>"; };
@@ -4751,6 +4753,14 @@
 			path = "App Clips";
 			sourceTree = "<group>";
 		};
+		D9A6364624B480F100900A8F /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				D9A6364724B4811B00900A8F /* SwiftUIFormView.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
 		D9A65EEB235AA23D00D55A6F /* JXSegmentedView */ = {
 			isa = PBXGroup;
 			children = (
@@ -5126,6 +5136,7 @@
 				D9C3BE6724B21FAA00873786 /* SwiftUIDemosViewController.swift */,
 				D9A6364224B3EF4E00900A8F /* SF Symbols */,
 				D9C3BE6924B2206400873786 /* 基础控件 */,
+				D9A6364624B480F100900A8F /* Form */,
 				D9A6363C24B3533D00900A8F /* List */,
 				D9A6363F24B3891600900A8F /* Landmarks */,
 			);
@@ -6405,6 +6416,7 @@
 				D9545B382293AA4B008B6355 /* CQPermanentThreadController.m in Sources */,
 				D9C7CC1622E9A3AE0038FD34 /* CQStandardTableSectionFooterView.m in Sources */,
 				D97667E3249B525100A8BEDD /* SwiftOperatorViewController.swift in Sources */,
+				D9A6364824B4811B00900A8F /* SwiftUIFormView.swift in Sources */,
 				D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */,
 				D930957723B3528D00837CA6 /* RPViewController.swift in Sources */,
 				D99B98FE246CF8BA001E6369 /* OCTextureTableController.m in Sources */,
