@@ -469,6 +469,7 @@
 		D98DF5E624B717B4001B9EC9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98DF5E524B717B4001B9EC9 /* MapView.swift */; };
 		D98DF5E824B717F1001B9EC9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98DF5E724B717F1001B9EC9 /* CircleImage.swift */; };
 		D98DF5EB24B72A2E001B9EC9 /* SwiftUI中用UIKit.md in Resources */ = {isa = PBXBuildFile; fileRef = D98DF5EA24B72A2E001B9EC9 /* SwiftUI中用UIKit.md */; };
+		D98DF5ED24B80D49001B9EC9 /* SimpleTextRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98DF5EC24B80D49001B9EC9 /* SimpleTextRow.swift */; };
 		D98E4DE423810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DE323810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift */; };
 		D98E4DE6238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */; };
 		D98E4DF0238284AC0082EED4 /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DEF238284AC0082EED4 /* IconFont.swift */; };
@@ -1326,6 +1327,7 @@
 		D98DF5E524B717B4001B9EC9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		D98DF5E724B717F1001B9EC9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		D98DF5EA24B72A2E001B9EC9 /* SwiftUI中用UIKit.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "SwiftUI中用UIKit.md"; sourceTree = "<group>"; };
+		D98DF5EC24B80D49001B9EC9 /* SimpleTextRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTextRow.swift; sourceTree = "<group>"; };
 		D98E4DE323810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideMaxCellSpacingViewController.swift; sourceTree = "<group>"; };
 		D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideMaxCellSpacingLayout.swift; sourceTree = "<group>"; };
 		D98E4DEF238284AC0082EED4 /* IconFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
@@ -4794,6 +4796,7 @@
 			isa = PBXGroup;
 			children = (
 				D9A6363D24B3537500900A8F /* SwiftUIListView.swift */,
+				D98DF5EC24B80D49001B9EC9 /* SimpleTextRow.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -6685,6 +6688,7 @@
 				D9F9336E229D7CEB00C7B2E0 /* CQPthreadController.m in Sources */,
 				D98DF5E624B717B4001B9EC9 /* MapView.swift in Sources */,
 				D97667C8249A145E00A8BEDD /* BaseGenericsTableViewController3.swift in Sources */,
+				D98DF5ED24B80D49001B9EC9 /* SimpleTextRow.swift in Sources */,
 				D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */,
 				D973CD322489E71400C67FB9 /* CQARCViewController.m in Sources */,
 				D91F97EA245A822200865DEA /* DataDriveTableViewViewController.swift in Sources */,
