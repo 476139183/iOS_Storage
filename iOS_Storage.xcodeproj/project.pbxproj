@@ -16,6 +16,7 @@
 		D904C517234CA273002DD939 /* PopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904C516234CA273002DD939 /* PopMenuView.swift */; };
 		D904EABD24B0734D0006C928 /* CaptureScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904EABC24B0734D0006C928 /* CaptureScrollViewController.swift */; };
 		D904EAC324B074BD0006C928 /* UIScrollView+Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = D904EAC224B074BD0006C928 /* UIScrollView+Capture.m */; };
+		D907480424B8264D00744A9A /* SwiftUIBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907480324B8264D00744A9A /* SwiftUIBindingView.swift */; };
 		D90A9AFF238F80D500C84424 /* NestedItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A9AFE238F80D500C84424 /* NestedItemController.swift */; };
 		D90A9B05238FAB2500C84424 /* NestedItemTextureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A9B04238FAB2500C84424 /* NestedItemTextureController.swift */; };
 		D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7821098B4D00C48E72 /* CQTransitionController.m */; };
@@ -765,6 +766,7 @@
 		D904EABC24B0734D0006C928 /* CaptureScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureScrollViewController.swift; sourceTree = "<group>"; };
 		D904EAC124B074BD0006C928 /* UIScrollView+Capture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Capture.h"; sourceTree = "<group>"; };
 		D904EAC224B074BD0006C928 /* UIScrollView+Capture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Capture.m"; sourceTree = "<group>"; };
+		D907480324B8264D00744A9A /* SwiftUIBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBindingView.swift; sourceTree = "<group>"; };
 		D90A9AFE238F80D500C84424 /* NestedItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedItemController.swift; sourceTree = "<group>"; };
 		D90A9B04238FAB2500C84424 /* NestedItemTextureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedItemTextureController.swift; sourceTree = "<group>"; };
 		D90C4E7721098B4D00C48E72 /* CQTransitionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTransitionController.h; sourceTree = "<group>"; };
@@ -1763,6 +1765,14 @@
 				D904EABC24B0734D0006C928 /* CaptureScrollViewController.swift */,
 			);
 			path = "ScrollView截图";
+			sourceTree = "<group>";
+		};
+		D907480224B8259E00744A9A /* 多重绑定 */ = {
+			isa = PBXGroup;
+			children = (
+				D907480324B8264D00744A9A /* SwiftUIBindingView.swift */,
+			);
+			path = "多重绑定";
 			sourceTree = "<group>";
 		};
 		D90C33FB2453CB2F00BB9D29 /* CollectionViewDemos */ = {
@@ -5217,6 +5227,7 @@
 				D9C3BE6924B2206400873786 /* 基础控件 */,
 				D9A6364624B480F100900A8F /* Form */,
 				D9A6363C24B3533D00900A8F /* List */,
+				D907480224B8259E00744A9A /* 多重绑定 */,
 				D9A6363F24B3891600900A8F /* Landmarks */,
 			);
 			path = SwiftUI;
@@ -6590,6 +6601,7 @@
 				D94B650221537A0900F2FD84 /* CQPlaceholderDemoViewController.m in Sources */,
 				D9683C9223B3C65C00F5A87A /* CPViewController.swift in Sources */,
 				D944B6B8245AD6CE0077F58B /* OCGrammarViewController.swift in Sources */,
+				D907480424B8264D00744A9A /* SwiftUIBindingView.swift in Sources */,
 				D920CE8822B37E91000962C0 /* CheckPricacyViewController.swift in Sources */,
 				D9EBF1D32490C04300793E01 /* CTMediatorDemoViewController.swift in Sources */,
 				D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */,

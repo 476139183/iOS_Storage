@@ -67,12 +67,26 @@ struct SwiftUIBasicView: View {
                 
                 VStack {
                     // 图片按钮
-                    Button(action: {
-                        print("image button clicked")
-                    }) {
-                        Text("button")
+                    Button(action: {}) {
+                        HStack {
+                            Image(systemName: "rectangle.grid.1x2.fill")
+                            Text("按钮2")
+                        }
+                        .padding()
+                        .background(Color.yellow)
                     }
-                    .background(Color.red)
+                    
+                    // 图片按钮
+                    Button(action: {}) {
+                        HStack {
+                            Image("iu")
+                                .resizable()
+                                .frame(width: 30, height: 30)
+                            Text("按钮2")
+                        }
+                        .padding()
+                        .background(Color.yellow)
+                    }
                     
                     Text("label")
                 }
