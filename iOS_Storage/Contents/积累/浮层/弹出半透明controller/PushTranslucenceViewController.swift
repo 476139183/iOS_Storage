@@ -9,7 +9,7 @@
 import UIKit
 
 class PushTranslucenceViewController: CQBaseViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,7 +22,7 @@ class PushTranslucenceViewController: CQBaseViewController {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let vc = TranslucenceViewController()
-        present(vc, animated: true, completion: nil)
+        present(vc, animated: false, completion: nil)
     }
     
 }
@@ -41,13 +41,32 @@ fileprivate class TranslucenceViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
+    /// 用来做动画的view
+    private lazy var contentView: UIView = {
+        let view = UIView()
+        view.backgroundColor = .white
+        return view
+    }()
+    
+    private lazy var backButton: UIButton = {
+        let button = UIButton.init(type: .system)
+        button.setTitle("back", for: .normal)
+        button.addTarget(self, action: #selector(bacKButtonClicked), for: .touchUpInside)
+        return button
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor.black.withAlphaComponent(0.3)
+        view.addSubview(contentView)
+        contentView.addSubview(backButton)
+        backButton.snp.makeConstraints { (make) in
+            make.left.top.equalToSuperview()
+            make.width.height.equalTo(40)
+        }
         
         let label = UILabel()
-        view.addSubview(label)
+        contentView.addSubview(label)
         label.text = "这个是半透明VC"
         label.textColor = .red
         label.font = .systemFont(ofSize: 15)
@@ -57,8 +76,27 @@ fileprivate class TranslucenceViewController: UIViewController {
         
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        dismiss(animated: true, completion: nil)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        contentView.frame = .init(x: 0, y: kScreenHeight, width: screenWidth, height: 0)
+        // 入场动画
+        view.backgroundColor = UIColor.black.withAlphaComponent(0)
+        
+        UIView.animate(withDuration: 0.3, animations: {
+            self.view.backgroundColor = UIColor.black.withAlphaComponent(0.3)
+            self.contentView.frame = .init(x: 0, y: kNavigationBarHeight, width: screenWidth, height: kScreenHeight-kNavigationBarHeight)
+        })
+    }
+    
+    
+    @objc private func bacKButtonClicked() {
+        UIView.animate(withDuration: 0.3, animations: {
+            self.view.backgroundColor = UIColor.black.withAlphaComponent(0)
+            self.contentView.y = screenHeight
+        }) { (finished) in
+            self.dismiss(animated: false, completion: nil)
+        }
     }
     
 }
