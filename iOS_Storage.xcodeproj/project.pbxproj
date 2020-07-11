@@ -17,6 +17,7 @@
 		D904EABD24B0734D0006C928 /* CaptureScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904EABC24B0734D0006C928 /* CaptureScrollViewController.swift */; };
 		D904EAC324B074BD0006C928 /* UIScrollView+Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = D904EAC224B074BD0006C928 /* UIScrollView+Capture.m */; };
 		D907480424B8264D00744A9A /* SwiftUIBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907480324B8264D00744A9A /* SwiftUIBindingView.swift */; };
+		D907480924B997C700744A9A /* SystemLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907480824B997C700744A9A /* SystemLoadingViewController.swift */; };
 		D90A9AFF238F80D500C84424 /* NestedItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A9AFE238F80D500C84424 /* NestedItemController.swift */; };
 		D90A9B05238FAB2500C84424 /* NestedItemTextureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A9B04238FAB2500C84424 /* NestedItemTextureController.swift */; };
 		D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7821098B4D00C48E72 /* CQTransitionController.m */; };
@@ -767,6 +768,7 @@
 		D904EAC124B074BD0006C928 /* UIScrollView+Capture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Capture.h"; sourceTree = "<group>"; };
 		D904EAC224B074BD0006C928 /* UIScrollView+Capture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Capture.m"; sourceTree = "<group>"; };
 		D907480324B8264D00744A9A /* SwiftUIBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBindingView.swift; sourceTree = "<group>"; };
+		D907480824B997C700744A9A /* SystemLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemLoadingViewController.swift; sourceTree = "<group>"; };
 		D90A9AFE238F80D500C84424 /* NestedItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedItemController.swift; sourceTree = "<group>"; };
 		D90A9B04238FAB2500C84424 /* NestedItemTextureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedItemTextureController.swift; sourceTree = "<group>"; };
 		D90C4E7721098B4D00C48E72 /* CQTransitionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTransitionController.h; sourceTree = "<group>"; };
@@ -1773,6 +1775,14 @@
 				D907480324B8264D00744A9A /* SwiftUIBindingView.swift */,
 			);
 			path = "多重绑定";
+			sourceTree = "<group>";
+		};
+		D907480724B996E000744A9A /* 下拉显示菊花loading */ = {
+			isa = PBXGroup;
+			children = (
+				D907480824B997C700744A9A /* SystemLoadingViewController.swift */,
+			);
+			path = "下拉显示菊花loading";
 			sourceTree = "<group>";
 		};
 		D90C33FB2453CB2F00BB9D29 /* CollectionViewDemos */ = {
@@ -5894,6 +5904,7 @@
 				D9F12E422467E84800B3D597 /* FloatingLayerDemoViewController.swift */,
 				D954D5BA24454AB200F02DCF /* 浮层 Controller */,
 				D954D5BF24456A9900F02DCF /* 弹出半透明controller */,
+				D907480724B996E000744A9A /* 下拉显示菊花loading */,
 			);
 			path = "浮层";
 			sourceTree = "<group>";
@@ -7002,6 +7013,7 @@
 				D92BB28824694BFA008610DB /* NotificationManager.swift in Sources */,
 				D941A125245EDF3000844787 /* WebViewDemosViewController.swift in Sources */,
 				D9ED81E02458095500726E49 /* SeekPerfectViewController.swift in Sources */,
+				D907480924B997C700744A9A /* SystemLoadingViewController.swift in Sources */,
 				D96A17E7237EFDF90018E7F1 /* LeftSideLayout.swift in Sources */,
 				D9BE259023B88E80001F4D71 /* ProtocolPersonCell.swift in Sources */,
 				D9AEB68922F6AA56006F8995 /* CQMVVMViewModel.m in Sources */,

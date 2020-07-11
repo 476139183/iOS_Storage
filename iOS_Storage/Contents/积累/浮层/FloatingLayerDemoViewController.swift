@@ -16,7 +16,8 @@ class FloatingLayerDemoViewController: JumpListViewController {
         // Do any additional setup after loading the view.
         
         self.dataArray = [ItemModel.init(title: "浮层Controller", targetVC: SupernatantViewController()),
-                          ItemModel.init(title: "弹出半透明Controller", targetVC: PushTranslucenceViewController())]
+                          ItemModel.init(title: "弹出半透明Controller", targetVC: PushTranslucenceViewController()),
+                          ItemModel.init(title: "菊花loading", targetVC: SystemLoadingViewController())]
         
     }
 
