@@ -16,7 +16,8 @@ class TTTLabelDemosViewController: JumpListViewController {
         // Do any additional setup after loading the view.
         
         self.dataArray = [ItemModel(title: "基本操作", targetVC: TTTBasicViewController()),
-                          ItemModel(title: "正则", targetVC: TTTLabelViewController())]
+                          ItemModel(title: "正则", targetVC: TTTLabelViewController()),
+                          ItemModel(title: "修改点击链接颜色", targetVC: TTTChangeLinkColorViewController())]
         
     }
     

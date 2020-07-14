@@ -30,17 +30,16 @@ class TTTLabelViewController: CQBaseViewController {
             make.height.equalTo(30)
         }
         
+        let attString = NSMutableAttributedString.init(string: ttLabel1.text as! String)
+        // 要在这里设置foregroundColor
+        attString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.blue, range: NSRange.init(location: 0, length: 2))
+        ttLabel1.text = attString
+        
         // 添加链接
         ttLabel1.addLink(with: NSTextCheckingResult.linkCheckingResult(range: NSRange.init(location: 0, length: 2), url: URL.init(string: "https://www.baidu.com")!), attributes: [
             NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 20),
             NSAttributedString.Key.backgroundColor: UIColor.black,
             NSAttributedString.Key.foregroundColor: UIColor.blue]) // 这里设置foregroundColor没效果
-        
-        
-        let attString = NSMutableAttributedString.init(string: ttLabel1.text as! String)
-        // 要在这里设置foregroundColor
-        attString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.blue, range: NSRange.init(location: 0, length: 2))
-        ttLabel1.attributedText = attString
         
         
         

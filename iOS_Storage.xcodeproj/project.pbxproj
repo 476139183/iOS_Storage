@@ -28,6 +28,7 @@
 		D90D9FB1233218510007C25C /* FPS.md in Resources */ = {isa = PBXBuildFile; fileRef = D90D9FB0233218510007C25C /* FPS.md */; };
 		D90D9FB4233219680007C25C /* CQFPSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D90D9FB3233219680007C25C /* CQFPSCell.m */; };
 		D90E085724921A8900F772AF /* empty.json in Resources */ = {isa = PBXBuildFile; fileRef = D90E085624921A8900F772AF /* empty.json */; };
+		D90F480024BDAAC900B81C79 /* TTTChangeLinkColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F47FF24BDAAC900B81C79 /* TTTChangeLinkColorViewController.swift */; };
 		D91245D623A90AD800E3775A /* UIScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91245D523A90AD800E3775A /* UIScrollViewController.swift */; };
 		D913F93F2109C08200366887 /* CQContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D913F93E2109C08200366887 /* CQContentViewController.m */; };
 		D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9412109CDC400366887 /* architecture_contents.plist */; };
@@ -796,6 +797,7 @@
 		D90D9FB2233219680007C25C /* CQFPSCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQFPSCell.h; sourceTree = "<group>"; };
 		D90D9FB3233219680007C25C /* CQFPSCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFPSCell.m; sourceTree = "<group>"; };
 		D90E085624921A8900F772AF /* empty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty.json; sourceTree = "<group>"; };
+		D90F47FF24BDAAC900B81C79 /* TTTChangeLinkColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTChangeLinkColorViewController.swift; sourceTree = "<group>"; };
 		D91245D523A90AD800E3775A /* UIScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewController.swift; sourceTree = "<group>"; };
 		D913F93D2109C08200366887 /* CQContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQContentViewController.h; sourceTree = "<group>"; };
 		D913F93E2109C08200366887 /* CQContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQContentViewController.m; sourceTree = "<group>"; };
@@ -1883,6 +1885,14 @@
 				D9B2FDE8233314BA00755653 /* CQCacheDemoViewController.m */,
 			);
 			path = cache;
+			sourceTree = "<group>";
+		};
+		D90F47FE24BDAAA000B81C79 /* 改变点击颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				D90F47FF24BDAAC900B81C79 /* TTTChangeLinkColorViewController.swift */,
+			);
+			path = "改变点击颜色";
 			sourceTree = "<group>";
 		};
 		D91245D423A90A3E00E3775A /* UIScrollViewDemo */ = {
@@ -6132,6 +6142,7 @@
 				D9D814B424BD683C00D0685A /* TTTLabelDemosViewController.swift */,
 				D9D814B724BD689F00D0685A /* 基本操作 */,
 				D9D814B624BD688E00D0685A /* 正则 */,
+				D90F47FE24BDAAA000B81C79 /* 改变点击颜色 */,
 			);
 			path = TTTAttributedLabel;
 			sourceTree = "<group>";
@@ -6616,6 +6627,7 @@
 				D95885BE245282B400CD9FDD /* AVPlayerViewControllerVC.swift in Sources */,
 				D9C5E5EA2349CD4E00D101F1 /* LinkedListViewController.swift in Sources */,
 				D9D11E2723717EC60047AD7C /* WKWebViewDemoViewController.swift in Sources */,
+				D90F480024BDAAC900B81C79 /* TTTChangeLinkColorViewController.swift in Sources */,
 				D9697FF122F097D800220938 /* StandardSwiftCollectionViewCell.swift in Sources */,
 				D96D563724AC653A008DD9CF /* CodableDemoViewController.swift in Sources */,
 				D97246EF237E6056001671AD /* CustomLayoutViewController.swift in Sources */,

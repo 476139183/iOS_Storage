@@ -35,3 +35,11 @@ extension String {
     }
     
 }
+
+
+extension String {
+    /// Range 转换为 NSRange
+    func nsRange(from range: Range<String.Index>) -> NSRange {
+        return NSRange(range, in: self)
+    }
+}
