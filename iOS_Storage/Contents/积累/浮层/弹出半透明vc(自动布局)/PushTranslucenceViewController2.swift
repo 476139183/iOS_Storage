@@ -21,6 +21,12 @@ class PushTranslucenceViewController2: CQBaseViewController {
         label.snp.makeConstraints { (make) in
             make.center.equalToSuperview()
         }
+        
+        DispatchQueue.main.asyncAfter(deadline: .now()+0.5) {
+            let vc = TranslucenceViewController()
+            self.present(vc, animated: false, completion: nil)
+        }
+        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
