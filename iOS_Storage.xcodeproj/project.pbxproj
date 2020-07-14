@@ -566,6 +566,15 @@
 		D9B6313F23BB3111003D95D9 /* DatePracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6313E23BB3111003D95D9 /* DatePracticeViewController.swift */; };
 		D9B6314123BB312D003D95D9 /* DataPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6314023BB312D003D95D9 /* DataPracticeViewController.swift */; };
 		D9B6314423BB328D003D95D9 /* HandleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6314323BB328D003D95D9 /* HandleTableViewController.swift */; };
+		D9B760AB24BC5B900037A7A1 /* BannersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B760AA24BC5B900037A7A1 /* BannersViewController.swift */; };
+		D9B760B124BC5CCA0037A7A1 /* GKCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B760AE24BC5CCA0037A7A1 /* GKCycleScrollView.m */; };
+		D9B760B224BC5CCA0037A7A1 /* GKCycleScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B760B024BC5CCA0037A7A1 /* GKCycleScrollViewCell.m */; };
+		D9B760B424BC5D380037A7A1 /* GKCycleScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B760B324BC5D380037A7A1 /* GKCycleScrollViewController.swift */; };
+		D9B760BC24BC62E70037A7A1 /* TYCyclePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B760B624BC62E60037A7A1 /* TYCyclePagerView.m */; };
+		D9B760BD24BC62E70037A7A1 /* TYCyclePagerTransformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B760B724BC62E60037A7A1 /* TYCyclePagerTransformLayout.m */; };
+		D9B760BE24BC62E70037A7A1 /* TYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B760BB24BC62E70037A7A1 /* TYPageControl.m */; };
+		D9B760C024BC63BC0037A7A1 /* TYCycleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B760BF24BC63BC0037A7A1 /* TYCycleController.swift */; };
+		D9B760C324BC64420037A7A1 /* TYCyclePagerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B760C224BC64420037A7A1 /* TYCyclePagerViewCell.m */; };
 		D9BBF96D235F2F4A009342EC /* JXSegmentedDemoBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BBF96C235F2F4A009342EC /* JXSegmentedDemoBaseController.swift */; };
 		D9BBF970235F4885009342EC /* third_part_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9BBF96F235F4885009342EC /* third_part_contents.plist */; };
 		D9BC6F5E238E2E050085E4E0 /* JXPagingMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BC6F5A238E2E050085E4E0 /* JXPagingMainTableView.swift */; };
@@ -1449,6 +1458,21 @@
 		D9B6313E23BB3111003D95D9 /* DatePracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePracticeViewController.swift; sourceTree = "<group>"; };
 		D9B6314023BB312D003D95D9 /* DataPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPracticeViewController.swift; sourceTree = "<group>"; };
 		D9B6314323BB328D003D95D9 /* HandleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleTableViewController.swift; sourceTree = "<group>"; };
+		D9B760AA24BC5B900037A7A1 /* BannersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannersViewController.swift; sourceTree = "<group>"; };
+		D9B760AD24BC5CCA0037A7A1 /* GKCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKCycleScrollView.h; sourceTree = "<group>"; };
+		D9B760AE24BC5CCA0037A7A1 /* GKCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKCycleScrollView.m; sourceTree = "<group>"; };
+		D9B760AF24BC5CCA0037A7A1 /* GKCycleScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKCycleScrollViewCell.h; sourceTree = "<group>"; };
+		D9B760B024BC5CCA0037A7A1 /* GKCycleScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKCycleScrollViewCell.m; sourceTree = "<group>"; };
+		D9B760B324BC5D380037A7A1 /* GKCycleScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKCycleScrollViewController.swift; sourceTree = "<group>"; };
+		D9B760B624BC62E60037A7A1 /* TYCyclePagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerView.m; sourceTree = "<group>"; };
+		D9B760B724BC62E60037A7A1 /* TYCyclePagerTransformLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerTransformLayout.m; sourceTree = "<group>"; };
+		D9B760B824BC62E60037A7A1 /* TYCyclePagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCyclePagerView.h; sourceTree = "<group>"; };
+		D9B760B924BC62E70037A7A1 /* TYCyclePagerTransformLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCyclePagerTransformLayout.h; sourceTree = "<group>"; };
+		D9B760BA24BC62E70037A7A1 /* TYPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPageControl.h; sourceTree = "<group>"; };
+		D9B760BB24BC62E70037A7A1 /* TYPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPageControl.m; sourceTree = "<group>"; };
+		D9B760BF24BC63BC0037A7A1 /* TYCycleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYCycleController.swift; sourceTree = "<group>"; };
+		D9B760C124BC64410037A7A1 /* TYCyclePagerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCyclePagerViewCell.h; sourceTree = "<group>"; };
+		D9B760C224BC64420037A7A1 /* TYCyclePagerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerViewCell.m; sourceTree = "<group>"; };
 		D9BBF96C235F2F4A009342EC /* JXSegmentedDemoBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedDemoBaseController.swift; sourceTree = "<group>"; };
 		D9BBF96F235F4885009342EC /* third_part_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = third_part_contents.plist; sourceTree = "<group>"; };
 		D9BC6F5A238E2E050085E4E0 /* JXPagingMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXPagingMainTableView.swift; sourceTree = "<group>"; };
@@ -2885,6 +2909,7 @@
 				D9700D71245ED84F00168FE0 /* UIKit相关 */,
 				D941A123245EDD2200844787 /* WebView */,
 				D9F523082362D23300ABBEF7 /* 圆角、阴影、渐变、模糊、虚线 */,
+				D9B760A924BC5B620037A7A1 /* 各种banner */,
 				D94253192366D2EA0031356C /* 各种动画 */,
 				D982964923976966001C05AE /* 各种跳转 */,
 				D92CBD6C23F78A8E003A6EDC /* 各种字体 */,
@@ -5090,6 +5115,44 @@
 			path = "tableView的各种操作";
 			sourceTree = "<group>";
 		};
+		D9B760A924BC5B620037A7A1 /* 各种banner */ = {
+			isa = PBXGroup;
+			children = (
+				D9B760AA24BC5B900037A7A1 /* BannersViewController.swift */,
+				D9B760AC24BC5CB50037A7A1 /* GKCycleScrollView */,
+				D9B760B524BC622E0037A7A1 /* TYCyclePagerView */,
+			);
+			path = "各种banner";
+			sourceTree = "<group>";
+		};
+		D9B760AC24BC5CB50037A7A1 /* GKCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D9B760AD24BC5CCA0037A7A1 /* GKCycleScrollView.h */,
+				D9B760AE24BC5CCA0037A7A1 /* GKCycleScrollView.m */,
+				D9B760AF24BC5CCA0037A7A1 /* GKCycleScrollViewCell.h */,
+				D9B760B024BC5CCA0037A7A1 /* GKCycleScrollViewCell.m */,
+				D9B760B324BC5D380037A7A1 /* GKCycleScrollViewController.swift */,
+			);
+			path = GKCycleScrollView;
+			sourceTree = "<group>";
+		};
+		D9B760B524BC622E0037A7A1 /* TYCyclePagerView */ = {
+			isa = PBXGroup;
+			children = (
+				D9B760B924BC62E70037A7A1 /* TYCyclePagerTransformLayout.h */,
+				D9B760B724BC62E60037A7A1 /* TYCyclePagerTransformLayout.m */,
+				D9B760B824BC62E60037A7A1 /* TYCyclePagerView.h */,
+				D9B760B624BC62E60037A7A1 /* TYCyclePagerView.m */,
+				D9B760BA24BC62E70037A7A1 /* TYPageControl.h */,
+				D9B760BB24BC62E70037A7A1 /* TYPageControl.m */,
+				D9B760C124BC64410037A7A1 /* TYCyclePagerViewCell.h */,
+				D9B760C224BC64420037A7A1 /* TYCyclePagerViewCell.m */,
+				D9B760BF24BC63BC0037A7A1 /* TYCycleController.swift */,
+			);
+			path = TYCyclePagerView;
+			sourceTree = "<group>";
+		};
 		D9BBF96E235F4832009342EC /* 三方 */ = {
 			isa = PBXGroup;
 			children = (
@@ -6554,6 +6617,7 @@
 				D90D9FB4233219680007C25C /* CQFPSCell.m in Sources */,
 				D96D564624AD8382008DD9CF /* XibDemosViewController.swift in Sources */,
 				D926BDEC22C5ECC100A2DD3E /* CQMementoViewController.m in Sources */,
+				D9B760BC24BC62E70037A7A1 /* TYCyclePagerView.m in Sources */,
 				D91A9F8E22B49B36008F87F1 /* CQRecognitionViewController.m in Sources */,
 				D9519A1022BFB41000E3036B /* CQPrototypeViewController.m in Sources */,
 				D9A32B8A2480AE1A00295E2F /* ShadowCornerListViewController.swift in Sources */,
@@ -6578,6 +6642,7 @@
 				D9C7CC0C22E9998B0038FD34 /* CQStandardTableFooterView.m in Sources */,
 				D98E4DF0238284AC0082EED4 /* IconFont.swift in Sources */,
 				D9146DA7249C958A002862AB /* GenericsTableViewController31.swift in Sources */,
+				D9B760AB24BC5B900037A7A1 /* BannersViewController.swift in Sources */,
 				D97246EC237E4989001671AD /* NSMutableAttributedString+Extension.swift in Sources */,
 				D9A0091423725A8B00ECF98F /* JXCustomViewController.swift in Sources */,
 				D99B98F8246CF0BB001E6369 /* NaviBarProtocol.swift in Sources */,
@@ -6712,6 +6777,8 @@
 				D98DF5E624B717B4001B9EC9 /* MapView.swift in Sources */,
 				D97667C8249A145E00A8BEDD /* BaseGenericsTableViewController3.swift in Sources */,
 				D98DF5ED24B80D49001B9EC9 /* SimpleTextRow.swift in Sources */,
+				D9B760C024BC63BC0037A7A1 /* TYCycleController.swift in Sources */,
+				D9B760B424BC5D380037A7A1 /* GKCycleScrollViewController.swift in Sources */,
 				D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */,
 				D973CD322489E71400C67FB9 /* CQARCViewController.m in Sources */,
 				D91F97EA245A822200865DEA /* DataDriveTableViewViewController.swift in Sources */,
@@ -6734,6 +6801,7 @@
 				D9BFEAD124581AF200E25133 /* DisplayListViewController.swift in Sources */,
 				D94F0581248B423E007B0165 /* InterceptUrlViewController.swift in Sources */,
 				D913F93F2109C08200366887 /* CQContentViewController.m in Sources */,
+				D9B760B124BC5CCA0037A7A1 /* GKCycleScrollView.m in Sources */,
 				D9A32B76247E6A3700295E2F /* KingfisherCornerViewController.swift in Sources */,
 				D9BF690F233F4B2A00E602A4 /* CQGradientOCDemoViewController.m in Sources */,
 				D93B7198245967E10022657C /* ZFNoramlViewController.m in Sources */,
@@ -6851,6 +6919,7 @@
 				D9C7CC2122E9ACD20038FD34 /* StandardSwiftTableHeaderView.swift in Sources */,
 				D93AB580248753DC00E79EAB /* CameraFrameworkViewController.swift in Sources */,
 				D9AEB68022F6A437006F8995 /* CQMVVMCell.m in Sources */,
+				D9B760BD24BC62E70037A7A1 /* TYCyclePagerTransformLayout.m in Sources */,
 				D953284E239A06F900C15136 /* CQMemoryLeakView.m in Sources */,
 				D97667DA249B03B900A8BEDD /* ShoeHeader.swift in Sources */,
 				D9BE258423B8831D001F4D71 /* AbstractClassTableViewController.swift in Sources */,
@@ -6950,6 +7019,7 @@
 				D96F415C23BEDFA2008616F4 /* PerfectAppViewController.swift in Sources */,
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
 				D9DE775323AA22C400E902A5 /* CQStandardOCCollectionHeaderView.m in Sources */,
+				D9B760BE24BC62E70037A7A1 /* TYPageControl.m in Sources */,
 				D9BF6917233F587300E602A4 /* GradientLabel.swift in Sources */,
 				D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */,
 				D9C3BE6824B21FAA00873786 /* SwiftUIDemosViewController.swift in Sources */,
@@ -6990,6 +7060,7 @@
 				D9BE257A23B86F1C001F4D71 /* SameModelTableViewController.swift in Sources */,
 				D9536EF3244A9D4400FD3964 /* TTTLabelViewController2.swift in Sources */,
 				D96D565524AD86B9008DD9CF /* OCXibCustomViewController.m in Sources */,
+				D9B760C324BC64420037A7A1 /* TYCyclePagerViewCell.m in Sources */,
 				D98E8EEC24775F9700A2D01A /* RuntimeDemoViewController.swift in Sources */,
 				D9376888235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift in Sources */,
 				D97129E0239E300C00AEAD3C /* UITextViewDemoController.swift in Sources */,
@@ -7014,6 +7085,7 @@
 				D941A125245EDF3000844787 /* WebViewDemosViewController.swift in Sources */,
 				D9ED81E02458095500726E49 /* SeekPerfectViewController.swift in Sources */,
 				D907480924B997C700744A9A /* SystemLoadingViewController.swift in Sources */,
+				D9B760B224BC5CCA0037A7A1 /* GKCycleScrollViewCell.m in Sources */,
 				D96A17E7237EFDF90018E7F1 /* LeftSideLayout.swift in Sources */,
 				D9BE259023B88E80001F4D71 /* ProtocolPersonCell.swift in Sources */,
 				D9AEB68922F6AA56006F8995 /* CQMVVMViewModel.m in Sources */,

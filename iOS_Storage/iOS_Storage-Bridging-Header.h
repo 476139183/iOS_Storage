@@ -74,3 +74,9 @@
 #import "CQCacheDemoViewController.h"
 #import "OCXibCustomViewController.h"
 #import "URLToQRCodeTool.h"
+#import "GKCycleScrollView.h"
+
+#import "TYCyclePagerTransformLayout.h"
+#import "TYCyclePagerView.h"
+#import "TYPageControl.h"
+#import "TYCyclePagerViewCell.h"
