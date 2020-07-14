@@ -13,11 +13,9 @@ import TTTAttributedLabel
 
 class TTTLabelViewController: CQBaseViewController {
     
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
         let ttLabel1 = TTTAttributedLabel.init(frame: .zero)
@@ -82,7 +80,7 @@ class TTTLabelViewController: CQBaseViewController {
         let vc = TTTLabelViewController3()
         navigationController?.pushViewController(vc, animated: true)
     }
-
+    
 }
 
 

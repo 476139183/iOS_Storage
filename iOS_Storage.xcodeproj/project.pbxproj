@@ -682,6 +682,8 @@
 		D9D56B0523B488C9005EEA9A /* CQShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D56B0423B488C9005EEA9A /* CQShadowView.m */; };
 		D9D56B0823B490C3005EEA9A /* CQShadowImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D56B0723B490C3005EEA9A /* CQShadowImageView.m */; };
 		D9D64FD72105DDA300379FF2 /* CQThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D64FD62105DDA300379FF2 /* CQThreadViewController.m */; };
+		D9D814B524BD683C00D0685A /* TTTLabelDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D814B424BD683C00D0685A /* TTTLabelDemosViewController.swift */; };
+		D9D814B924BD68B500D0685A /* TTTBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D814B824BD68B500D0685A /* TTTBasicViewController.swift */; };
 		D9DA5CF020E291550098EC68 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA5CEF20E291550098EC68 /* UIView+Util.m */; };
 		D9DC05E720DE418A00149124 /* jigsaw_list.json in Resources */ = {isa = PBXBuildFile; fileRef = D92D69CE20DE3A34002BA9C0 /* jigsaw_list.json */; };
 		D9DE6CBD20FEE78100C8D4FE /* CQRegionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DE6CBC20FEE78100C8D4FE /* CQRegionModel.m */; };
@@ -1605,6 +1607,8 @@
 		D9D56B0723B490C3005EEA9A /* CQShadowImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQShadowImageView.m; sourceTree = "<group>"; };
 		D9D64FD52105DDA300379FF2 /* CQThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQThreadViewController.h; sourceTree = "<group>"; };
 		D9D64FD62105DDA300379FF2 /* CQThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQThreadViewController.m; sourceTree = "<group>"; };
+		D9D814B424BD683C00D0685A /* TTTLabelDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTLabelDemosViewController.swift; sourceTree = "<group>"; };
+		D9D814B824BD68B500D0685A /* TTTBasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTBasicViewController.swift; sourceTree = "<group>"; };
 		D9DA5CEC20E290D80098EC68 /* Categories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
 		D9DA5CEE20E291550098EC68 /* UIView+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
 		D9DA5CEF20E291550098EC68 /* UIView+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
@@ -5710,6 +5714,24 @@
 			path = NSThread;
 			sourceTree = "<group>";
 		};
+		D9D814B624BD688E00D0685A /* 正则 */ = {
+			isa = PBXGroup;
+			children = (
+				D9F7DEFD2449655600A63632 /* TTTLabelViewController.swift */,
+				D9536EF2244A9D4400FD3964 /* TTTLabelViewController2.swift */,
+				D9536EF4244AB55700FD3964 /* TTTLabelViewController3.swift */,
+			);
+			path = "正则";
+			sourceTree = "<group>";
+		};
+		D9D814B724BD689F00D0685A /* 基本操作 */ = {
+			isa = PBXGroup;
+			children = (
+				D9D814B824BD68B500D0685A /* TTTBasicViewController.swift */,
+			);
+			path = "基本操作";
+			sourceTree = "<group>";
+		};
 		D9D90632248BF8BF000952A1 /* HTML */ = {
 			isa = PBXGroup;
 			children = (
@@ -6107,9 +6129,9 @@
 		D9F7DEFC2449653200A63632 /* TTTAttributedLabel */ = {
 			isa = PBXGroup;
 			children = (
-				D9F7DEFD2449655600A63632 /* TTTLabelViewController.swift */,
-				D9536EF2244A9D4400FD3964 /* TTTLabelViewController2.swift */,
-				D9536EF4244AB55700FD3964 /* TTTLabelViewController3.swift */,
+				D9D814B424BD683C00D0685A /* TTTLabelDemosViewController.swift */,
+				D9D814B724BD689F00D0685A /* 基本操作 */,
+				D9D814B624BD688E00D0685A /* 正则 */,
 			);
 			path = TTTAttributedLabel;
 			sourceTree = "<group>";
@@ -7015,6 +7037,7 @@
 				D9A00920237271F400ECF98F /* HomeSegmentedCell.swift in Sources */,
 				D9F53194249BD8B3005BD556 /* AnimalModel.swift in Sources */,
 				D96FE2D22396453D00949006 /* ASAbsoluteLayoutController.swift in Sources */,
+				D9D814B924BD68B500D0685A /* TTTBasicViewController.swift in Sources */,
 				D94016902361BF1400580AAC /* UIView+Extension.swift in Sources */,
 				D96D562424AAD3CD008DD9CF /* DefaultTableHeaderModel.swift in Sources */,
 				D9A6363E24B3537500900A8F /* SwiftUIListView.swift in Sources */,
@@ -7160,6 +7183,7 @@
 				D9928EA6243345CB0082999F /* SimpleTableViewHelper.swift in Sources */,
 				D9A39F7B22B4D2DC00FEA5F5 /* CQMVPViewController.m in Sources */,
 				D930300C2494DB58002F4ADF /* CPPGrammarViewController.swift in Sources */,
+				D9D814B524BD683C00D0685A /* TTTLabelDemosViewController.swift in Sources */,
 				D98DF5C124B7110B001B9EC9 /* Landmark.swift in Sources */,
 				D941A128245EE1C900844787 /* UIButtonDemosViewController.swift in Sources */,
 				D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */,
