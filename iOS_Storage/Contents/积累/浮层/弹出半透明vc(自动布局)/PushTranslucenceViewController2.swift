@@ -116,7 +116,6 @@ fileprivate class TranslucenceViewController: UIViewController {
         
         self.contentView.layoutIfNeeded()
         self.view.layoutIfNeeded()
-        self.view.superview?.layoutIfNeeded()
     }
     
     /// 开启动画
