@@ -44,6 +44,14 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
+		<string>响应者链</string>
+		<key>controller_name</key>
+		<string>ResponderChainDemosViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
 		<string>属性修饰符</string>
 		<key>controller_name</key>
 		<string></string>

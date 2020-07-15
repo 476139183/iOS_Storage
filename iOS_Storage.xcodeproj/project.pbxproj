@@ -29,6 +29,9 @@
 		D90D9FB4233219680007C25C /* CQFPSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D90D9FB3233219680007C25C /* CQFPSCell.m */; };
 		D90E085724921A8900F772AF /* empty.json in Resources */ = {isa = PBXBuildFile; fileRef = D90E085624921A8900F772AF /* empty.json */; };
 		D90F480024BDAAC900B81C79 /* TTTChangeLinkColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F47FF24BDAAC900B81C79 /* TTTChangeLinkColorViewController.swift */; };
+		D90F480424BEDA8600B81C79 /* ResponderChainDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F480324BEDA8600B81C79 /* ResponderChainDemosViewController.swift */; };
+		D90F480724BEDB5800B81C79 /* GetVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F480624BEDB5800B81C79 /* GetVCViewController.swift */; };
+		D90F480924BEDC8B00B81C79 /* ClickButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F480824BEDC8B00B81C79 /* ClickButtonViewController.swift */; };
 		D91245D623A90AD800E3775A /* UIScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91245D523A90AD800E3775A /* UIScrollViewController.swift */; };
 		D913F93F2109C08200366887 /* CQContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D913F93E2109C08200366887 /* CQContentViewController.m */; };
 		D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9412109CDC400366887 /* architecture_contents.plist */; };
@@ -798,6 +801,9 @@
 		D90D9FB3233219680007C25C /* CQFPSCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFPSCell.m; sourceTree = "<group>"; };
 		D90E085624921A8900F772AF /* empty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty.json; sourceTree = "<group>"; };
 		D90F47FF24BDAAC900B81C79 /* TTTChangeLinkColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTChangeLinkColorViewController.swift; sourceTree = "<group>"; };
+		D90F480324BEDA8600B81C79 /* ResponderChainDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponderChainDemosViewController.swift; sourceTree = "<group>"; };
+		D90F480624BEDB5800B81C79 /* GetVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetVCViewController.swift; sourceTree = "<group>"; };
+		D90F480824BEDC8B00B81C79 /* ClickButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickButtonViewController.swift; sourceTree = "<group>"; };
 		D91245D523A90AD800E3775A /* UIScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewController.swift; sourceTree = "<group>"; };
 		D913F93D2109C08200366887 /* CQContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQContentViewController.h; sourceTree = "<group>"; };
 		D913F93E2109C08200366887 /* CQContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQContentViewController.m; sourceTree = "<group>"; };
@@ -1893,6 +1899,29 @@
 				D90F47FF24BDAAC900B81C79 /* TTTChangeLinkColorViewController.swift */,
 			);
 			path = "改变点击颜色";
+			sourceTree = "<group>";
+		};
+		D90F480124BED90D00B81C79 /* 获取view所在的controller */ = {
+			isa = PBXGroup;
+			children = (
+				D90F480624BEDB5800B81C79 /* GetVCViewController.swift */,
+			);
+			path = "获取view所在的controller";
+			sourceTree = "<group>";
+		};
+		D90F480224BEDA6500B81C79 /* 点击一个按钮后发生了什么 */ = {
+			isa = PBXGroup;
+			children = (
+				D90F480824BEDC8B00B81C79 /* ClickButtonViewController.swift */,
+			);
+			path = "点击一个按钮后发生了什么";
+			sourceTree = "<group>";
+		};
+		D90F480524BEDAEC00B81C79 /* 扩大按钮响应区域 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "扩大按钮响应区域";
 			sourceTree = "<group>";
 		};
 		D91245D423A90A3E00E3775A /* UIScrollViewDemo */ = {
@@ -5778,6 +5807,10 @@
 		D9DE774D23AA0F8700E902A5 /* 响应者链 */ = {
 			isa = PBXGroup;
 			children = (
+				D90F480324BEDA8600B81C79 /* ResponderChainDemosViewController.swift */,
+				D90F480124BED90D00B81C79 /* 获取view所在的controller */,
+				D90F480224BEDA6500B81C79 /* 点击一个按钮后发生了什么 */,
+				D90F480524BEDAEC00B81C79 /* 扩大按钮响应区域 */,
 			);
 			path = "响应者链";
 			sourceTree = "<group>";
@@ -6714,6 +6747,7 @@
 				D991C921236C492300CB290C /* Loading.swift in Sources */,
 				D9751696247BB34B00D45C92 /* UIStackViewDemoListController.swift in Sources */,
 				D9E9F4E520E2322E00C3090D /* IrregularLabel.m in Sources */,
+				D90F480424BEDA8600B81C79 /* ResponderChainDemosViewController.swift in Sources */,
 				D96D562224A9E82F008DD9CF /* GenericsCellAndFooterViewController.swift in Sources */,
 				D926BDCD22C4934900A2DD3E /* CQStateViewController.m in Sources */,
 				D9AEB68C22F6AB24006F8995 /* CQMVVMCellModel.m in Sources */,
@@ -6769,6 +6803,7 @@
 				D9519A0922BFAE6C00E3036B /* Adidas.m in Sources */,
 				D9A32B7E247F67ED00295E2F /* EleganceDocuViewController.swift in Sources */,
 				D9A65EED235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift in Sources */,
+				D90F480724BEDB5800B81C79 /* GetVCViewController.swift in Sources */,
 				D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */,
 				D9C0EFBD23A0A29B0053EEAC /* GradientNaviViewController.swift in Sources */,
 				D92769F3236AE8C100A6D846 /* PlaceholderView.swift in Sources */,
@@ -7029,6 +7064,7 @@
 				D95A3DD52484DD1300F0166C /* KVOTheoryViewController.m in Sources */,
 				D9F53192249BD877005BD556 /* AnimalCell.swift in Sources */,
 				D9FF65D9212AC39800B06371 /* CQTimerModel.m in Sources */,
+				D90F480924BEDC8B00B81C79 /* ClickButtonViewController.swift in Sources */,
 				D9C74FE924727CD900ACE269 /* SimpleDataDriveViewController.swift in Sources */,
 				D96D569924AF0C25008DD9CF /* SwiftXibTableViewController.swift in Sources */,
 				D940168E2361BDD900580AAC /* StackViewDemoViewController.swift in Sources */,
