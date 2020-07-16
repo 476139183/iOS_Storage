@@ -25,7 +25,8 @@ class HandyJSONViewController: CQBaseViewController {
         //testWithArrayJSON()
         //testStructModel()
         //testStructModel2()
-        getTaobaoTimestamp()
+        //getTaobaoTimestamp()
+        test3()
     }
     
 }
@@ -350,32 +351,24 @@ private class Response3<T: BaseModel3>: BaseModel3 {
 }
 
 fileprivate class TaobaoModel3: BaseModel3 {
-    var data: TaobaoData3?
-}
-
-fileprivate class TaobaoData3: BaseModel3 {
     var t = ""
 }
 
-fileprivate typealias SuccessClosure = (BaseModel3)->Void
+fileprivate typealias SuccessClosure<T: BaseModel3> = (T)->Void
 fileprivate typealias FailureClosure = (String)->Void
 
 extension HandyJSONViewController {
     
-    private func getTaobaoT(success:(Response3<TaobaoData3>)->Void, failure:FailureClosure) {
-        
+    // 这是基于业务的封装
+    private func getTaobaoT(success: @escaping SuccessClosure<TaobaoModel3>, failure:@escaping FailureClosure) {
         let urlString = "http://api.m.taobao.com/rest/api3.do?api=mtop.common.getTimestamp"
-        RequestManager.requestString(url: urlString, method: .get, success: { (str) in
-            
-        }, failure: { (info) in
-            
-        })
-        
+        RequestManager.request(url: urlString, success: success, failure: failure)
     }
     
+    // 调用
     private func test3() {
-        getTaobaoT(success: { (res) in
-            print(res.data?.t)
+        getTaobaoT(success: { (model) in
+            print(model.t)
         }, failure: { (info) in
             print(info)
         })
@@ -385,8 +378,20 @@ extension HandyJSONViewController {
 
 extension RequestManager {
     
-    static func request(url: String, para: [AnyHashable : Any]? = nil, method: HTTPMethod = .get, success:()->Void) {
-        
+    // 这是基于三方的二次封装
+    fileprivate static func request<T: BaseModel3>(url: String, para: [String : Any]? = nil, method: HTTPMethod = .get, success: @escaping SuccessClosure<T>, failure: @escaping FailureClosure) {
+        AF.request(url, method: method, parameters: para).responseString { (response) in
+            switch response.result {
+            case .success(let resultString):
+                if let response = Response3<T>.deserialize(from: resultString) {
+                    success(response.data!)
+                }
+            case .failure(let error):
+                //failure?(error.localizedDescription)
+                failure(error.localizedDescription)
+                break
+            }
+        }
     }
     
 }
