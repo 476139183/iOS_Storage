@@ -32,6 +32,9 @@
 		D90F480424BEDA8600B81C79 /* ResponderChainDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F480324BEDA8600B81C79 /* ResponderChainDemosViewController.swift */; };
 		D90F480724BEDB5800B81C79 /* GetVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F480624BEDB5800B81C79 /* GetVCViewController.swift */; };
 		D90F480924BEDC8B00B81C79 /* ClickButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F480824BEDC8B00B81C79 /* ClickButtonViewController.swift */; };
+		D90F480D24BFF5DB00B81C79 /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F480C24BFF5DB00B81C79 /* NotificationNames.swift */; };
+		D90F480F24BFFFAE00B81C79 /* NotificationCenterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F480E24BFFFAE00B81C79 /* NotificationCenterManager.swift */; };
+		D90F481224C0023300B81C79 /* NotificationManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F481124C0023300B81C79 /* NotificationManagerViewController.swift */; };
 		D91245D623A90AD800E3775A /* UIScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91245D523A90AD800E3775A /* UIScrollViewController.swift */; };
 		D913F93F2109C08200366887 /* CQContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D913F93E2109C08200366887 /* CQContentViewController.m */; };
 		D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9412109CDC400366887 /* architecture_contents.plist */; };
@@ -804,6 +807,9 @@
 		D90F480324BEDA8600B81C79 /* ResponderChainDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponderChainDemosViewController.swift; sourceTree = "<group>"; };
 		D90F480624BEDB5800B81C79 /* GetVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetVCViewController.swift; sourceTree = "<group>"; };
 		D90F480824BEDC8B00B81C79 /* ClickButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickButtonViewController.swift; sourceTree = "<group>"; };
+		D90F480C24BFF5DB00B81C79 /* NotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
+		D90F480E24BFFFAE00B81C79 /* NotificationCenterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterManager.swift; sourceTree = "<group>"; };
+		D90F481124C0023300B81C79 /* NotificationManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManagerViewController.swift; sourceTree = "<group>"; };
 		D91245D523A90AD800E3775A /* UIScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewController.swift; sourceTree = "<group>"; };
 		D913F93D2109C08200366887 /* CQContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQContentViewController.h; sourceTree = "<group>"; };
 		D913F93E2109C08200366887 /* CQContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQContentViewController.m; sourceTree = "<group>"; };
@@ -1924,6 +1930,31 @@
 			path = "扩大按钮响应区域";
 			sourceTree = "<group>";
 		};
+		D90F480A24BFF59F00B81C79 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D90F480B24BFF5B500B81C79 /* NotificationCenterManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D90F480B24BFF5B500B81C79 /* NotificationCenterManager */ = {
+			isa = PBXGroup;
+			children = (
+				D90F480C24BFF5DB00B81C79 /* NotificationNames.swift */,
+				D90F480E24BFFFAE00B81C79 /* NotificationCenterManager.swift */,
+			);
+			path = NotificationCenterManager;
+			sourceTree = "<group>";
+		};
+		D90F481024C001FF00B81C79 /* NotificationManager */ = {
+			isa = PBXGroup;
+			children = (
+				D90F481124C0023300B81C79 /* NotificationManagerViewController.swift */,
+			);
+			path = NotificationManager;
+			sourceTree = "<group>";
+		};
 		D91245D423A90A3E00E3775A /* UIScrollViewDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -2649,6 +2680,7 @@
 				D9145402237A894B0083FD19 /* Tool.swift */,
 				D93A0BFA233CA51D00554EF6 /* Utilities.swift */,
 				D9AC507423B06C3800CB4DF2 /* ColorManager.swift */,
+				D90F480A24BFF59F00B81C79 /* Managers */,
 				D985E40B23FD08B500CF7954 /* Font */,
 				D9C5B451233DE83000299AFB /* Extensions */,
 				D9DA5CED20E290E00098EC68 /* Categories */,
@@ -3591,6 +3623,7 @@
 				D90D9FB5233306780007C25C /* cache */,
 				D904EABB24B073030006C928 /* ScrollView截图 */,
 				D98DF5AF24B4172D001B9EC9 /* URL转二维码 */,
+				D90F481024C001FF00B81C79 /* NotificationManager */,
 			);
 			path = "杂七杂八";
 			sourceTree = "<group>";
@@ -6834,6 +6867,7 @@
 				D975168A2478B8B600D45C92 /* IQKeyboardManagerViewController2.swift in Sources */,
 				D9C7CC0322E9927F0038FD34 /* StandardSwiftCollectionViewViewController.swift in Sources */,
 				D9D1450D2298F1F5003B594C /* CQRunLoopLifeController.m in Sources */,
+				D90F480F24BFFFAE00B81C79 /* NotificationCenterManager.swift in Sources */,
 				D94F0583248B4282007B0165 /* WKScriptViewController.swift in Sources */,
 				D93A0BFF233CBE6B00554EF6 /* MyCellNode2.swift in Sources */,
 				D90D9FAF233218300007C25C /* CQFPSViewController.m in Sources */,
@@ -7099,6 +7133,7 @@
 				D95328482399EA4F00C15136 /* UIAlertController+Util.m in Sources */,
 				D9CE54B8233D0B1100AB58C0 /* MyCellNode3.swift in Sources */,
 				D98DF5C324B711E1001B9EC9 /* Data.swift in Sources */,
+				D90F481224C0023300B81C79 /* NotificationManagerViewController.swift in Sources */,
 				D96F415C23BEDFA2008616F4 /* PerfectAppViewController.swift in Sources */,
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
 				D9DE775323AA22C400E902A5 /* CQStandardOCCollectionHeaderView.m in Sources */,
@@ -7134,6 +7169,7 @@
 				D974BCE62494C3FE00942ED2 /* OCBlockViewController.m in Sources */,
 				D94BCDF022E9DA1B0080584F /* CQStandardOCCollectionSectionHeaderView.m in Sources */,
 				D96D561624A9CE3F008DD9CF /* BaseFooter3.swift in Sources */,
+				D90F480D24BFF5DB00B81C79 /* NotificationNames.swift in Sources */,
 				D96D565724AD8706008DD9CF /* SwiftXibCustomViewController.swift in Sources */,
 				D92DA5C922C1B4D000E91212 /* PrototypePerson.m in Sources */,
 				D9DE6CC920FEE9C000C8D4FE /* CQFilterCell.m in Sources */,
