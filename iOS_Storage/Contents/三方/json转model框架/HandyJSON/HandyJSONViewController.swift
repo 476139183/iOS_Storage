@@ -8,6 +8,7 @@
 
 import UIKit
 import HandyJSON
+import Alamofire
 
 class HandyJSONViewController: CQBaseViewController {
     
@@ -23,7 +24,8 @@ class HandyJSONViewController: CQBaseViewController {
         //testWithAlamofire()
         //testWithArrayJSON()
         //testStructModel()
-        testStructModel2()
+        //testStructModel2()
+        getTaobaoTimestamp()
     }
     
 }
@@ -247,3 +249,89 @@ extension HandyJSONViewController {
     }
     
 }
+
+
+// MARK: - Alamofire + HandyJSON
+
+// 返回的 json
+/*
+{
+    "api":"mtop.common.getTimestamp",
+    "v":"*",
+    "ret":[
+        "SUCCESS::接口调用成功"
+    ],
+    "data":{
+        "t":"1594888185866"
+    }
+}
+*/
+
+private class BaseModel2<R: HandyJSON>: HandyJSON {
+    var err = false
+    var skip = 0
+    var res: R?
+    required init() {}
+}
+
+fileprivate class TaobaoModel: HandyJSON {
+    
+    var api = ""
+    var v = ""
+    var ret: [String] = []
+    var data: TaobaoData?
+    
+    required init() {}
+    
+}
+
+fileprivate class TaobaoData: HandyJSON {
+    var t = ""
+    required init() {}
+}
+
+extension HandyJSONViewController {
+    
+    // 获取淘宝timestamp（在closure里return一个方法）
+    private func getTaobaoTimestamp() -> String {
+        
+        let urlString = "http://api.m.taobao.com/rest/api3.do?api=mtop.common.getTimestamp"
+        
+        var t = ""
+        
+        let semaphore = DispatchSemaphore(value: 0)
+        
+        AF.request(urlString, method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil).responseString { (response) in
+            
+            switch response.result {
+            case .success(let jsonData):
+                let json = jsonData
+                
+                if let model = TaobaoModel.deserialize(from: json) {
+                    print(model.api)
+                    print(model.v)
+                    print(model.ret)
+                    print(model.data?.t)
+                    t = model.data?.t ?? ""
+                    SVProgressHUD.showInfo(withStatus: model.data?.t)
+                }
+                
+                print("请求成功")
+                semaphore.signal()
+                
+            case .failure(_):
+                print("请求失败")
+                semaphore.signal()
+            }
+
+            debugPrint(response)
+            semaphore.wait()
+
+        }
+        
+        return t
+        
+    }
+    
+}
+
