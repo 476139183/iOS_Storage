@@ -335,3 +335,58 @@ extension HandyJSONViewController {
     
 }
 
+
+// MARK: - 仿项目中的真实请求
+
+private class BaseModel3: HandyJSON {
+    required init() {}
+}
+
+private class Response3<T: BaseModel3>: BaseModel3 {
+    var api = ""
+    var v = ""
+    var ret: [String] = []
+    var data: T?
+}
+
+fileprivate class TaobaoModel3: BaseModel3 {
+    var data: TaobaoData3?
+}
+
+fileprivate class TaobaoData3: BaseModel3 {
+    var t = ""
+}
+
+fileprivate typealias SuccessClosure = (BaseModel3)->Void
+fileprivate typealias FailureClosure = (String)->Void
+
+extension HandyJSONViewController {
+    
+    private func getTaobaoT(success:(Response3<TaobaoData3>)->Void, failure:FailureClosure) {
+        
+        let urlString = "http://api.m.taobao.com/rest/api3.do?api=mtop.common.getTimestamp"
+        RequestManager.requestString(url: urlString, method: .get, success: { (str) in
+            
+        }, failure: { (info) in
+            
+        })
+        
+    }
+    
+    private func test3() {
+        getTaobaoT(success: { (res) in
+            print(res.data?.t)
+        }, failure: { (info) in
+            print(info)
+        })
+    }
+    
+}
+
+extension RequestManager {
+    
+    static func request(url: String, para: [AnyHashable : Any]? = nil, method: HTTPMethod = .get, success:()->Void) {
+        
+    }
+    
+}
