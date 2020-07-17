@@ -48,7 +48,6 @@
 		D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9442109CE0A00366887 /* arithmetic_contents.plist */; };
 		D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D91420AB216B50DD0034ACEA /* CQRippleView.m */; };
 		D91453FB237A606A0083FD19 /* EnumPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91453FA237A606A0083FD19 /* EnumPracticeViewController.swift */; };
-		D9145403237A894B0083FD19 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9145402237A894B0083FD19 /* Tool.swift */; };
 		D9146DA3249C595F002862AB /* BaseCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DA2249C595F002862AB /* BaseCellTableViewController.swift */; };
 		D9146DA5249C9211002862AB /* AnimalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DA4249C9211002862AB /* AnimalHeader.swift */; };
 		D9146DA7249C958A002862AB /* GenericsTableViewController31.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9146DA6249C958A002862AB /* GenericsTableViewController31.swift */; };
@@ -168,7 +167,6 @@
 		D93A0BF5233C72F900554EF6 /* TextureColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A0BF4233C72F900554EF6 /* TextureColorView.swift */; };
 		D93A0BF7233C735500554EF6 /* TextureLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A0BF6233C735500554EF6 /* TextureLabelView.swift */; };
 		D93A0BF9233CA0D300554EF6 /* MyCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A0BF8233CA0D300554EF6 /* MyCellNode.swift */; };
-		D93A0BFB233CA51D00554EF6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A0BFA233CA51D00554EF6 /* Utilities.swift */; };
 		D93A0BFF233CBE6B00554EF6 /* MyCellNode2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A0BFE233CBE6B00554EF6 /* MyCellNode2.swift */; };
 		D93AB53F24860A2800E79EAB /* SnapKitDemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AB53E24860A2800E79EAB /* SnapKitDemoListViewController.swift */; };
 		D93AB54324860AD100E79EAB /* SnapKitMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AB54224860AD100E79EAB /* SnapKitMoreViewController.swift */; };
@@ -832,7 +830,6 @@
 		D91420AA216B50DD0034ACEA /* CQRippleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRippleView.h; sourceTree = "<group>"; };
 		D91420AB216B50DD0034ACEA /* CQRippleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRippleView.m; sourceTree = "<group>"; };
 		D91453FA237A606A0083FD19 /* EnumPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumPracticeViewController.swift; sourceTree = "<group>"; };
-		D9145402237A894B0083FD19 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
 		D9146DA2249C595F002862AB /* BaseCellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCellTableViewController.swift; sourceTree = "<group>"; };
 		D9146DA4249C9211002862AB /* AnimalHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalHeader.swift; sourceTree = "<group>"; };
 		D9146DA6249C958A002862AB /* GenericsTableViewController31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsTableViewController31.swift; sourceTree = "<group>"; };
@@ -991,7 +988,6 @@
 		D93A0BF4233C72F900554EF6 /* TextureColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureColorView.swift; sourceTree = "<group>"; };
 		D93A0BF6233C735500554EF6 /* TextureLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureLabelView.swift; sourceTree = "<group>"; };
 		D93A0BF8233CA0D300554EF6 /* MyCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode.swift; sourceTree = "<group>"; };
-		D93A0BFA233CA51D00554EF6 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		D93A0BFE233CBE6B00554EF6 /* MyCellNode2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellNode2.swift; sourceTree = "<group>"; };
 		D93AB53E24860A2800E79EAB /* SnapKitDemoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitDemoListViewController.swift; sourceTree = "<group>"; };
 		D93AB54224860AD100E79EAB /* SnapKitMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitMoreViewController.swift; sourceTree = "<group>"; };
@@ -1947,6 +1943,7 @@
 		D90F480A24BFF59F00B81C79 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				D90F48A324C1A04C00B81C79 /* ColorManager */,
 				D90F480B24BFF5B500B81C79 /* NotificationCenterManager */,
 			);
 			path = Managers;
@@ -2098,6 +2095,22 @@
 				D97246EB237E4989001671AD /* NSMutableAttributedString+Extension.swift */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		D90F48A224C19FBF00B81C79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D985E40B23FD08B500CF7954 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D90F48A324C1A04C00B81C79 /* ColorManager */ = {
+			isa = PBXGroup;
+			children = (
+				D9AC507423B06C3800CB4DF2 /* ColorManager.swift */,
+			);
+			path = ColorManager;
 			sourceTree = "<group>";
 		};
 		D91245D423A90A3E00E3775A /* UIScrollViewDemo */ = {
@@ -2822,12 +2835,9 @@
 		D92D69C720DE3606002BA9C0 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				D9145402237A894B0083FD19 /* Tool.swift */,
-				D93A0BFA233CA51D00554EF6 /* Utilities.swift */,
-				D9AC507423B06C3800CB4DF2 /* ColorManager.swift */,
 				D90F480A24BFF59F00B81C79 /* Managers */,
-				D985E40B23FD08B500CF7954 /* Font */,
 				D9C5B451233DE83000299AFB /* Extensions */,
+				D90F48A224C19FBF00B81C79 /* Resources */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -6969,7 +6979,6 @@
 				D92769F3236AE8C100A6D846 /* PlaceholderView.swift in Sources */,
 				D9C2AA9F236928F900EBB9E1 /* UIViewAnimationViewController.swift in Sources */,
 				D95885C52452BE1700CD9FDD /* CQBaseNaviBar.m in Sources */,
-				D93A0BFB233CA51D00554EF6 /* Utilities.swift in Sources */,
 				D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */,
 				D96D561824A9D945008DD9CF /* ShoeFooter.swift in Sources */,
 				D93AB5652487479D00E79EAB /* CQMasonryViewController.m in Sources */,
@@ -6989,7 +6998,6 @@
 				D954D5BC24454B6000F02DCF /* SupernatantViewController.swift in Sources */,
 				D91A9F7C22B3D89E008F87F1 /* CQCountDownButton.m in Sources */,
 				D9E21A88210FF83D00407599 /* CQClassClusterCellA.m in Sources */,
-				D9145403237A894B0083FD19 /* Tool.swift in Sources */,
 				D9C5E5D523473E2000D101F1 /* LeetCodeTwoSumViewController.swift in Sources */,
 				D975168A2478B8B600D45C92 /* IQKeyboardManagerViewController2.swift in Sources */,
 				D9C7CC0322E9927F0038FD34 /* StandardSwiftCollectionViewViewController.swift in Sources */,

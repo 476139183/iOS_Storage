@@ -119,7 +119,7 @@ class EnumPracticeViewController: CQBaseViewController {
         label.font = .systemFont(ofSize: 13)
         label.text = "hehehhehheheheh"
         
-        let width = Tool.getLabelWidthWith(text: label.text!, font: label.font, maxWidth: 200)
+        let width = label.text!.getWidthWith(font: label.font, maxWidth: 200)
         
         label.width = width
         

@@ -43,3 +43,15 @@ extension String {
         return NSRange(range, in: self)
     }
 }
+
+extension String {
+    
+    /// 获取一段文本的宽度
+    func getWidthWith(font: UIFont, maxWidth: CGFloat) -> CGFloat {
+        let attributes = [NSAttributedString.Key.font : font]
+        let labelSize = NSString(string: self).boundingRect(with: CGSize(width: maxWidth, height: 1000), options: .usesLineFragmentOrigin, attributes: attributes, context: nil)
+        return labelSize.width
+    }
+    
+}
+
