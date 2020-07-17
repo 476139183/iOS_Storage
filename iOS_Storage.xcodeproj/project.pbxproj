@@ -38,6 +38,10 @@
 		D90F488724C14E6900B81C79 /* CornerDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F488624C14E6900B81C79 /* CornerDemosViewController.swift */; };
 		D90F488B24C1517200B81C79 /* CornerTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F488A24C1517200B81C79 /* CornerTestViewController.swift */; };
 		D90F488D24C1528A00B81C79 /* CornerRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F488C24C1528A00B81C79 /* CornerRadiusView.swift */; };
+		D90F488F24C17A2900B81C79 /* BlueCornerRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F488E24C17A2900B81C79 /* BlueCornerRadiusView.swift */; };
+		D90F489124C17A3900B81C79 /* BlueCornerRadiusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90F489024C17A3900B81C79 /* BlueCornerRadiusView.xib */; };
+		D90F489324C17EAE00B81C79 /* ShadowDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F489224C17EAE00B81C79 /* ShadowDemoViewController.swift */; };
+		D90F489524C185C200B81C79 /* UIView+XibInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F489424C185C200B81C79 /* UIView+XibInit.swift */; };
 		D91245D623A90AD800E3775A /* UIScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91245D523A90AD800E3775A /* UIScrollViewController.swift */; };
 		D913F93F2109C08200366887 /* CQContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D913F93E2109C08200366887 /* CQContentViewController.m */; };
 		D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9412109CDC400366887 /* architecture_contents.plist */; };
@@ -816,6 +820,10 @@
 		D90F488624C14E6900B81C79 /* CornerDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerDemosViewController.swift; sourceTree = "<group>"; };
 		D90F488A24C1517200B81C79 /* CornerTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerTestViewController.swift; sourceTree = "<group>"; };
 		D90F488C24C1528A00B81C79 /* CornerRadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusView.swift; sourceTree = "<group>"; };
+		D90F488E24C17A2900B81C79 /* BlueCornerRadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueCornerRadiusView.swift; sourceTree = "<group>"; };
+		D90F489024C17A3900B81C79 /* BlueCornerRadiusView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlueCornerRadiusView.xib; sourceTree = "<group>"; };
+		D90F489224C17EAE00B81C79 /* ShadowDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowDemoViewController.swift; sourceTree = "<group>"; };
+		D90F489424C185C200B81C79 /* UIView+XibInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+XibInit.swift"; sourceTree = "<group>"; };
 		D91245D523A90AD800E3775A /* UIScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewController.swift; sourceTree = "<group>"; };
 		D913F93D2109C08200366887 /* CQContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQContentViewController.h; sourceTree = "<group>"; };
 		D913F93E2109C08200366887 /* CQContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQContentViewController.m; sourceTree = "<group>"; };
@@ -1974,10 +1982,8 @@
 			children = (
 				D90F488A24C1517200B81C79 /* CornerTestViewController.swift */,
 				D90F488C24C1528A00B81C79 /* CornerRadiusView.swift */,
-				D9D56B0323B488C9005EEA9A /* CQShadowView.h */,
-				D9D56B0423B488C9005EEA9A /* CQShadowView.m */,
-				D9D56B0623B490C3005EEA9A /* CQShadowImageView.h */,
-				D9D56B0723B490C3005EEA9A /* CQShadowImageView.m */,
+				D90F488E24C17A2900B81C79 /* BlueCornerRadiusView.swift */,
+				D90F489024C17A3900B81C79 /* BlueCornerRadiusView.xib */,
 			);
 			path = "封装";
 			sourceTree = "<group>";
@@ -3762,6 +3768,11 @@
 		D95A3D982480C67400F0166C /* 阴影 */ = {
 			isa = PBXGroup;
 			children = (
+				D90F489224C17EAE00B81C79 /* ShadowDemoViewController.swift */,
+				D9D56B0323B488C9005EEA9A /* CQShadowView.h */,
+				D9D56B0423B488C9005EEA9A /* CQShadowView.m */,
+				D9D56B0623B490C3005EEA9A /* CQShadowImageView.h */,
+				D9D56B0723B490C3005EEA9A /* CQShadowImageView.m */,
 			);
 			path = "阴影";
 			sourceTree = "<group>";
@@ -5448,6 +5459,7 @@
 				D97246EB237E4989001671AD /* NSMutableAttributedString+Extension.swift */,
 				D975168F247B60E900D45C92 /* RxUIView+Extension.swift */,
 				D95A3DBC24825A9D00F0166C /* UITextField+MaxLength.swift */,
+				D90F489424C185C200B81C79 /* UIView+XibInit.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -6500,6 +6512,7 @@
 				D9347FB32490D43300944E61 /* pullDown.json in Resources */,
 				D95A3DB82482443300F0166C /* gif在列表中.md in Resources */,
 				D926BDBE22C349B100A2DD3E /* 观察者模式.md in Resources */,
+				D90F489124C17A3900B81C79 /* BlueCornerRadiusView.xib in Resources */,
 				D9A32B882480ADDB00295E2F /* BlurEffectViewController.xib in Resources */,
 				D926BDB222C2F52B00A2DD3E /* 外观模式.md in Resources */,
 				D9C2807024A05C7400C66F61 /* json_demo.json in Resources */,
@@ -6720,6 +6733,7 @@
 				D9D11E2723717EC60047AD7C /* WKWebViewDemoViewController.swift in Sources */,
 				D90F480024BDAAC900B81C79 /* TTTChangeLinkColorViewController.swift in Sources */,
 				D9697FF122F097D800220938 /* StandardSwiftCollectionViewCell.swift in Sources */,
+				D90F488F24C17A2900B81C79 /* BlueCornerRadiusView.swift in Sources */,
 				D96D563724AC653A008DD9CF /* CodableDemoViewController.swift in Sources */,
 				D97246EF237E6056001671AD /* CustomLayoutViewController.swift in Sources */,
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
@@ -6977,6 +6991,7 @@
 				D9442A7C24970DBB00CA4464 /* UltimateTableViewController.swift in Sources */,
 				D944FD32249878CE00C8DB52 /* FlowerModel.swift in Sources */,
 				D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */,
+				D90F489524C185C200B81C79 /* UIView+XibInit.swift in Sources */,
 				D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */,
 				D96D563F24AC9CE2008DD9CF /* BaseCollectionViewController.swift in Sources */,
 				D9F12E432467E84800B3D597 /* FloatingLayerDemoViewController.swift in Sources */,
@@ -7245,6 +7260,7 @@
 				D9BE257E23B870F2001F4D71 /* SimpleTableViewController.swift in Sources */,
 				D9A32B6C247E66DD00295E2F /* KingfisherListViewController.swift in Sources */,
 				D96773AB2400D80500829BCB /* HorizonCollectionViewController2.swift in Sources */,
+				D90F489324C17EAE00B81C79 /* ShadowDemoViewController.swift in Sources */,
 				D9608BF4236970350053BD3E /* Constants.swift in Sources */,
 				D98DF5E824B717F1001B9EC9 /* CircleImage.swift in Sources */,
 				D9545B3E2293B275008B6355 /* CQRunloopModeController.m in Sources */,

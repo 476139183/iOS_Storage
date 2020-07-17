@@ -10,6 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+IB_DESIGNABLE
+
 @interface UIView (XibCorner)
 
 @property(nonatomic,assign) IBInspectable CGFloat cornerRadius;
