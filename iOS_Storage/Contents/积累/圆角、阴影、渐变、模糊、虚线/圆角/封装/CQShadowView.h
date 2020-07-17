@@ -22,12 +22,12 @@ typedef enum :NSInteger{
 @interface CQShadowView : UIView
 
 - (void)customerShadowWithShadowColor:(UIColor *)shadowColor
-  shadowOpacity:(CGFloat)shadowOpacity
-   shadowRadius:(CGFloat)shadowRadius
-shadowPathWidth:(CGFloat)shadowPathWidth
-     viewRadius:(CGFloat)viewRadius
-     viewHeight:(CGFloat)height
-      viewWidth:(CGFloat)width
+                        shadowOpacity:(CGFloat)shadowOpacity
+                         shadowRadius:(CGFloat)shadowRadius
+                      shadowPathWidth:(CGFloat)shadowPathWidth
+                           viewRadius:(CGFloat)viewRadius
+                           viewHeight:(CGFloat)height
+                            viewWidth:(CGFloat)width
                            shadowSide:(CQShadowPathSide)shadowPathSide;
 
 @end

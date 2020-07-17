@@ -35,6 +35,9 @@
 		D90F480D24BFF5DB00B81C79 /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F480C24BFF5DB00B81C79 /* NotificationNames.swift */; };
 		D90F480F24BFFFAE00B81C79 /* NotificationCenterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F480E24BFFFAE00B81C79 /* NotificationCenterManager.swift */; };
 		D90F481224C0023300B81C79 /* NotificationManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F481124C0023300B81C79 /* NotificationManagerViewController.swift */; };
+		D90F488724C14E6900B81C79 /* CornerDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F488624C14E6900B81C79 /* CornerDemosViewController.swift */; };
+		D90F488B24C1517200B81C79 /* CornerTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F488A24C1517200B81C79 /* CornerTestViewController.swift */; };
+		D90F488D24C1528A00B81C79 /* CornerRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F488C24C1528A00B81C79 /* CornerRadiusView.swift */; };
 		D91245D623A90AD800E3775A /* UIScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91245D523A90AD800E3775A /* UIScrollViewController.swift */; };
 		D913F93F2109C08200366887 /* CQContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D913F93E2109C08200366887 /* CQContentViewController.m */; };
 		D913F9432109CDDA00366887 /* architecture_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D913F9412109CDC400366887 /* architecture_contents.plist */; };
@@ -810,6 +813,9 @@
 		D90F480C24BFF5DB00B81C79 /* NotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
 		D90F480E24BFFFAE00B81C79 /* NotificationCenterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterManager.swift; sourceTree = "<group>"; };
 		D90F481124C0023300B81C79 /* NotificationManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManagerViewController.swift; sourceTree = "<group>"; };
+		D90F488624C14E6900B81C79 /* CornerDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerDemosViewController.swift; sourceTree = "<group>"; };
+		D90F488A24C1517200B81C79 /* CornerTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerTestViewController.swift; sourceTree = "<group>"; };
+		D90F488C24C1528A00B81C79 /* CornerRadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusView.swift; sourceTree = "<group>"; };
 		D91245D523A90AD800E3775A /* UIScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewController.swift; sourceTree = "<group>"; };
 		D913F93D2109C08200366887 /* CQContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQContentViewController.h; sourceTree = "<group>"; };
 		D913F93E2109C08200366887 /* CQContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQContentViewController.m; sourceTree = "<group>"; };
@@ -1953,6 +1959,27 @@
 				D90F481124C0023300B81C79 /* NotificationManagerViewController.swift */,
 			);
 			path = NotificationManager;
+			sourceTree = "<group>";
+		};
+		D90F488824C14EBD00B81C79 /* 基本操作 */ = {
+			isa = PBXGroup;
+			children = (
+				D9F523092362DCB000ABBEF7 /* CornerAndShadowViewController.swift */,
+			);
+			path = "基本操作";
+			sourceTree = "<group>";
+		};
+		D90F488924C14ECF00B81C79 /* 封装 */ = {
+			isa = PBXGroup;
+			children = (
+				D90F488A24C1517200B81C79 /* CornerTestViewController.swift */,
+				D90F488C24C1528A00B81C79 /* CornerRadiusView.swift */,
+				D9D56B0323B488C9005EEA9A /* CQShadowView.h */,
+				D9D56B0423B488C9005EEA9A /* CQShadowView.m */,
+				D9D56B0623B490C3005EEA9A /* CQShadowImageView.h */,
+				D9D56B0723B490C3005EEA9A /* CQShadowImageView.m */,
+			);
+			path = "封装";
 			sourceTree = "<group>";
 		};
 		D91245D423A90A3E00E3775A /* UIScrollViewDemo */ = {
@@ -4855,11 +4882,9 @@
 		D9A32B8B2480AE2600295E2F /* 圆角 */ = {
 			isa = PBXGroup;
 			children = (
-				D9F523092362DCB000ABBEF7 /* CornerAndShadowViewController.swift */,
-				D9D56B0323B488C9005EEA9A /* CQShadowView.h */,
-				D9D56B0423B488C9005EEA9A /* CQShadowView.m */,
-				D9D56B0623B490C3005EEA9A /* CQShadowImageView.h */,
-				D9D56B0723B490C3005EEA9A /* CQShadowImageView.m */,
+				D90F488624C14E6900B81C79 /* CornerDemosViewController.swift */,
+				D90F488824C14EBD00B81C79 /* 基本操作 */,
+				D90F488924C14ECF00B81C79 /* 封装 */,
 			);
 			path = "圆角";
 			sourceTree = "<group>";
@@ -6910,6 +6935,7 @@
 				D93AB57E2487501100E79EAB /* CQYYModelViewController.m in Sources */,
 				D97667BA2499C18D00A8BEDD /* SwiftProtocolViewController.swift in Sources */,
 				D9AEB65622F56747006F8995 /* AlamofireDemoViewController.swift in Sources */,
+				D90F488724C14E6900B81C79 /* CornerDemosViewController.swift in Sources */,
 				D97667C12499CF9400A8BEDD /* SwiftInitViewController.swift in Sources */,
 				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
 				D9BFEAD124581AF200E25133 /* DisplayListViewController.swift in Sources */,
@@ -7122,6 +7148,7 @@
 				D9D814B924BD68B500D0685A /* TTTBasicViewController.swift in Sources */,
 				D94016902361BF1400580AAC /* UIView+Extension.swift in Sources */,
 				D96D562424AAD3CD008DD9CF /* DefaultTableHeaderModel.swift in Sources */,
+				D90F488D24C1528A00B81C79 /* CornerRadiusView.swift in Sources */,
 				D9A6363E24B3537500900A8F /* SwiftUIListView.swift in Sources */,
 				D9F37C6A248BFB72008B6F14 /* HTMLGrammerViewController.swift in Sources */,
 				D9E86CC32447EE4A009CCBB8 /* SwipeGestureViewController.swift in Sources */,
@@ -7264,6 +7291,7 @@
 				D930957023B2FDFD00837CA6 /* StaticMyTableViewController.swift in Sources */,
 				D9F72DE12440545E007BBB05 /* RegularExpressionViewController.swift in Sources */,
 				D9BE258023B8711E001F4D71 /* QuickTableViewController.swift in Sources */,
+				D90F488B24C1517200B81C79 /* CornerTestViewController.swift in Sources */,
 				D9928EA6243345CB0082999F /* SimpleTableViewHelper.swift in Sources */,
 				D9A39F7B22B4D2DC00FEA5F5 /* CQMVPViewController.m in Sources */,
 				D930300C2494DB58002F4ADF /* CPPGrammarViewController.swift in Sources */,
