@@ -1988,6 +1988,118 @@
 			path = "封装";
 			sourceTree = "<group>";
 		};
+		D90F489624C19C6B00B81C79 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				D90F489424C185C200B81C79 /* UIView+XibInit.swift */,
+				D95A3DB9248245F000F0166C /* UIView+XibCorner.h */,
+				D95A3DBA248245F000F0166C /* UIView+XibCorner.m */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		D90F489724C19C9700B81C79 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				D9CB1EBF2341FBDD00CEB752 /* NSObject+Extension.swift */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		D90F489824C19CC400B81C79 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				D96773B02400EEC900829BCB /* UIFont+Extension.swift */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		D90F489924C19CD600B81C79 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				D91FD952236A97EE00376D59 /* UIView+FrameHelper.swift */,
+				D940168F2361BF1400580AAC /* UIView+Extension.swift */,
+				D92D69C920DE36C8002BA9C0 /* UIView+FrameHelper.h */,
+				D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */,
+				D9DA5CEE20E291550098EC68 /* UIView+Util.h */,
+				D9DA5CEF20E291550098EC68 /* UIView+Util.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		D90F489A24C19D1500B81C79 /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				D95328462399EA4F00C15136 /* UIAlertController+Util.h */,
+				D95328472399EA4F00C15136 /* UIAlertController+Util.m */,
+			);
+			path = UIAlertController;
+			sourceTree = "<group>";
+		};
+		D90F489B24C19D3C00B81C79 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D904EAC124B074BD0006C928 /* UIScrollView+Capture.h */,
+				D904EAC224B074BD0006C928 /* UIScrollView+Capture.m */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		D90F489C24C19D6E00B81C79 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				D95A3DBC24825A9D00F0166C /* UITextField+MaxLength.swift */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		D90F489D24C19D8E00B81C79 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				D9608BF5236987940053BD3E /* UIButton+EnlargeTouchArea.h */,
+				D9608BF6236987940053BD3E /* UIButton+EnlargeTouchArea.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		D90F489E24C19DA100B81C79 /* RX */ = {
+			isa = PBXGroup;
+			children = (
+				D975168F247B60E900D45C92 /* RxUIView+Extension.swift */,
+			);
+			path = RX;
+			sourceTree = "<group>";
+		};
+		D90F489F24C19DBD00B81C79 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				D9CE605823518F3700D65107 /* UIImage+Extension.swift */,
+				D91E1D29233E585800B1C772 /* UIImage+Util.h */,
+				D91E1D2A233E585800B1C772 /* UIImage+Util.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		D90F48A024C19DD200B81C79 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				D9C5B452233DF3A200299AFB /* UIColor+Extension.swift */,
+				D92DA5CB22C1BAAC00E91212 /* UIColor+Util.h */,
+				D92DA5CA22C1BAAC00E91212 /* UIColor+Util.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		D90F48A124C19DE300B81C79 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				D986652B23710FB500AA60B2 /* String+Extension.swift */,
+				D9B157D0246D2C9C00854606 /* NSAttributedString+Extension.swift */,
+				D97246EB237E4989001671AD /* NSMutableAttributedString+Extension.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 		D91245D423A90A3E00E3775A /* UIScrollViewDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -2716,7 +2828,6 @@
 				D90F480A24BFF59F00B81C79 /* Managers */,
 				D985E40B23FD08B500CF7954 /* Font */,
 				D9C5B451233DE83000299AFB /* Extensions */,
-				D9DA5CED20E290E00098EC68 /* Categories */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -5448,18 +5559,19 @@
 		D9C5B451233DE83000299AFB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				D96773B02400EEC900829BCB /* UIFont+Extension.swift */,
-				D91FD952236A97EE00376D59 /* UIView+FrameHelper.swift */,
-				D9CB1EBF2341FBDD00CEB752 /* NSObject+Extension.swift */,
-				D9C5B452233DF3A200299AFB /* UIColor+Extension.swift */,
-				D9CE605823518F3700D65107 /* UIImage+Extension.swift */,
-				D940168F2361BF1400580AAC /* UIView+Extension.swift */,
-				D986652B23710FB500AA60B2 /* String+Extension.swift */,
-				D9B157D0246D2C9C00854606 /* NSAttributedString+Extension.swift */,
-				D97246EB237E4989001671AD /* NSMutableAttributedString+Extension.swift */,
-				D975168F247B60E900D45C92 /* RxUIView+Extension.swift */,
-				D95A3DBC24825A9D00F0166C /* UITextField+MaxLength.swift */,
-				D90F489424C185C200B81C79 /* UIView+XibInit.swift */,
+				D9DA5CEC20E290D80098EC68 /* Categories.h */,
+				D90F489724C19C9700B81C79 /* NSObject */,
+				D90F48A124C19DE300B81C79 /* String */,
+				D90F48A024C19DD200B81C79 /* UIColor */,
+				D90F489824C19CC400B81C79 /* UIFont */,
+				D90F489F24C19DBD00B81C79 /* UIImage */,
+				D90F489924C19CD600B81C79 /* UIView */,
+				D90F489D24C19D8E00B81C79 /* UIButton */,
+				D90F489C24C19D6E00B81C79 /* UITextField */,
+				D90F489B24C19D3C00B81C79 /* UIScrollView */,
+				D90F489A24C19D1500B81C79 /* UIAlertController */,
+				D90F489E24C19DA100B81C79 /* RX */,
+				D90F489624C19C6B00B81C79 /* xib */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -5848,30 +5960,6 @@
 				D9F37C69248BFB72008B6F14 /* HTMLGrammerViewController.swift */,
 			);
 			path = HTML;
-			sourceTree = "<group>";
-		};
-		D9DA5CED20E290E00098EC68 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				D9DA5CEC20E290D80098EC68 /* Categories.h */,
-				D9608BF5236987940053BD3E /* UIButton+EnlargeTouchArea.h */,
-				D9608BF6236987940053BD3E /* UIButton+EnlargeTouchArea.m */,
-				D92DA5CB22C1BAAC00E91212 /* UIColor+Util.h */,
-				D92DA5CA22C1BAAC00E91212 /* UIColor+Util.m */,
-				D92D69C920DE36C8002BA9C0 /* UIView+FrameHelper.h */,
-				D92D69CA20DE36C8002BA9C0 /* UIView+FrameHelper.m */,
-				D9DA5CEE20E291550098EC68 /* UIView+Util.h */,
-				D9DA5CEF20E291550098EC68 /* UIView+Util.m */,
-				D91E1D29233E585800B1C772 /* UIImage+Util.h */,
-				D91E1D2A233E585800B1C772 /* UIImage+Util.m */,
-				D95328462399EA4F00C15136 /* UIAlertController+Util.h */,
-				D95328472399EA4F00C15136 /* UIAlertController+Util.m */,
-				D95A3DB9248245F000F0166C /* UIView+XibCorner.h */,
-				D95A3DBA248245F000F0166C /* UIView+XibCorner.m */,
-				D904EAC124B074BD0006C928 /* UIScrollView+Capture.h */,
-				D904EAC224B074BD0006C928 /* UIScrollView+Capture.m */,
-			);
-			path = Categories;
 			sourceTree = "<group>";
 		};
 		D9DE774D23AA0F8700E902A5 /* 响应者链 */ = {
