@@ -12,7 +12,8 @@ class CornerTestViewController: CQBaseViewController {
     
     
     private lazy var redView: CornerRadiusView = {
-        let view = CornerRadiusView.init(radius: 10, corners: [.topRight, .topLeft])
+        let view = CornerRadiusView()
+        view.setCornerRadius(radius: 10, corners: [.topLeft, .topRight])
         view.backgroundColor = .red
         return view
     }()
