@@ -9,6 +9,7 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+#import "iOS_Storage-Swift.h"
 #import <JSONModel.h>
 #import <Masonry.h>
 #import <SVProgressHUD.h>
@@ -18,7 +19,6 @@
 #import "CQBaseNavigationController.h"
 #import <Masonry.h>
 #import "CQDetailViewController.h"
-#import "iOS_Storage-Swift.h"
 
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width

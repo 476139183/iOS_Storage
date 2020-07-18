@@ -14,6 +14,7 @@
 
 #import "AppDelegate.h"
 
+#import "CQTabBarController.h"
 #import "CQBaseViewController.h"
 #import "CQPthreadController.h"
 #import "CQThreadViewController.h"

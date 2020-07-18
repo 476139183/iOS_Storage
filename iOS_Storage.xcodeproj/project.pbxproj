@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2DD48D054A82B1FD0444D554 /* Pods_iOS_Storage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF420F59937B4D50D139806 /* Pods_iOS_Storage.framework */; };
+		D90073EE24C2E799004C9AD0 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90073ED24C2E799004C9AD0 /* UserDefaultsManager.swift */; };
+		D90073F224C2E950004C9AD0 /* LaunchGuideManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90073F124C2E950004C9AD0 /* LaunchGuideManager.swift */; };
+		D90073F524C2ED35004C9AD0 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90073F424C2ED35004C9AD0 /* AppManager.swift */; };
+		D90073F724C2FC43004C9AD0 /* LaunchGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90073F624C2FC43004C9AD0 /* LaunchGuideViewController.swift */; };
 		D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */; };
 		D9012A0C23927237008D5EF5 /* TextureDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9012A0B23927236008D5EF5 /* TextureDemoViewController.swift */; };
 		D9019B7922B121AC0039B25D /* 设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7822B121AC0039B25D /* 设计模式.md */; };
@@ -120,6 +124,8 @@
 		D92769F3236AE8C100A6D846 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92769F2236AE8C100A6D846 /* PlaceholderView.swift */; };
 		D928CED820EA63E100EE5C78 /* CQChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CED720EA63E100EE5C78 /* CQChartController.m */; };
 		D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */; };
+		D929B8DA24C2A40C000AB13D /* ESTabBarDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D929B8D924C2A40C000AB13D /* ESTabBarDemosViewController.swift */; };
+		D929B8E124C2AA92000AB13D /* SelectedTabBiggerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D929B8E024C2AA92000AB13D /* SelectedTabBiggerViewController.swift */; };
 		D92BB28624690A3E008610DB /* ElegantNotifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92BB28524690A3E008610DB /* ElegantNotifViewController.swift */; };
 		D92BB28824694BFA008610DB /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92BB28724694BFA008610DB /* NotificationManager.swift */; };
 		D92BB28B24694FAE008610DB /* ElegantStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92BB28A24694FAE008610DB /* ElegantStructViewController.swift */; };
@@ -744,6 +750,7 @@
 		D9EBF1D12490BEFB00793E01 /* RouterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EBF1D02490BEFB00793E01 /* RouterViewController.swift */; };
 		D9EBF1D32490C04300793E01 /* CTMediatorDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EBF1D22490C04300793E01 /* CTMediatorDemoViewController.swift */; };
 		D9EC2EAF24343DA800C1E4E4 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC2EAE24343DA800C1E4E4 /* SideMenuViewController.swift */; };
+		D9ED12A724C297EE00D29260 /* GetClassNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ED12A624C297EE00D29260 /* GetClassNameViewController.swift */; };
 		D9ED81E02458095500726E49 /* SeekPerfectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ED81DF2458095500726E49 /* SeekPerfectViewController.swift */; };
 		D9ED81E224580A4600726E49 /* JumpListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ED81E124580A4600726E49 /* JumpListViewController.swift */; };
 		D9ED907A2454310800FFABB5 /* ZFPlayerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ED90792454310800FFABB5 /* ZFPlayerDemoViewController.swift */; };
@@ -782,6 +789,10 @@
 		0C9CE1801881FD955922EE67 /* Pods-iOS_Storage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Storage.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage.release.xcconfig"; sourceTree = "<group>"; };
 		7DF420F59937B4D50D139806 /* Pods_iOS_Storage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Storage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF1E659C97B690A8019361A /* Pods-iOS_Storage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Storage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Storage/Pods-iOS_Storage.debug.xcconfig"; sourceTree = "<group>"; };
+		D90073ED24C2E799004C9AD0 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		D90073F124C2E950004C9AD0 /* LaunchGuideManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchGuideManager.swift; sourceTree = "<group>"; };
+		D90073F424C2ED35004C9AD0 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		D90073F624C2FC43004C9AD0 /* LaunchGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchGuideViewController.swift; sourceTree = "<group>"; };
 		D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitDemoViewController.swift; sourceTree = "<group>"; };
 		D9012A0B23927236008D5EF5 /* TextureDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureDemoViewController.swift; sourceTree = "<group>"; };
 		D9019B7822B121AC0039B25D /* 设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "设计模式.md"; sourceTree = "<group>"; };
@@ -929,6 +940,8 @@
 		D928CED720EA63E100EE5C78 /* CQChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQChartController.m; sourceTree = "<group>"; };
 		D928CEDA20EA663A00EE5C78 /* CQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTabBarController.h; sourceTree = "<group>"; };
 		D928CEDB20EA663A00EE5C78 /* CQTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTabBarController.m; sourceTree = "<group>"; };
+		D929B8D924C2A40C000AB13D /* ESTabBarDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESTabBarDemosViewController.swift; sourceTree = "<group>"; };
+		D929B8E024C2AA92000AB13D /* SelectedTabBiggerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedTabBiggerViewController.swift; sourceTree = "<group>"; };
 		D92BB28524690A3E008610DB /* ElegantNotifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegantNotifViewController.swift; sourceTree = "<group>"; };
 		D92BB28724694BFA008610DB /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		D92BB28A24694FAE008610DB /* ElegantStructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegantStructViewController.swift; sourceTree = "<group>"; };
@@ -1704,6 +1717,7 @@
 		D9EBF1D02490BEFB00793E01 /* RouterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterViewController.swift; sourceTree = "<group>"; };
 		D9EBF1D22490C04300793E01 /* CTMediatorDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTMediatorDemoViewController.swift; sourceTree = "<group>"; };
 		D9EC2EAE24343DA800C1E4E4 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		D9ED12A624C297EE00D29260 /* GetClassNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetClassNameViewController.swift; sourceTree = "<group>"; };
 		D9ED81DF2458095500726E49 /* SeekPerfectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekPerfectViewController.swift; sourceTree = "<group>"; };
 		D9ED81E124580A4600726E49 /* JumpListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpListViewController.swift; sourceTree = "<group>"; };
 		D9ED90792454310800FFABB5 /* ZFPlayerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFPlayerDemoViewController.swift; sourceTree = "<group>"; };
@@ -1774,6 +1788,31 @@
 				7DF420F59937B4D50D139806 /* Pods_iOS_Storage.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D90073EF24C2E7C7004C9AD0 /* UserDefaultsManager */ = {
+			isa = PBXGroup;
+			children = (
+				D90073ED24C2E799004C9AD0 /* UserDefaultsManager.swift */,
+			);
+			path = UserDefaultsManager;
+			sourceTree = "<group>";
+		};
+		D90073F024C2E8B9004C9AD0 /* LaunchGuideManager */ = {
+			isa = PBXGroup;
+			children = (
+				D90073F124C2E950004C9AD0 /* LaunchGuideManager.swift */,
+				D90073F624C2FC43004C9AD0 /* LaunchGuideViewController.swift */,
+			);
+			path = LaunchGuideManager;
+			sourceTree = "<group>";
+		};
+		D90073F324C2ECA3004C9AD0 /* AppManager */ = {
+			isa = PBXGroup;
+			children = (
+				D90073F424C2ED35004C9AD0 /* AppManager.swift */,
+			);
+			path = AppManager;
 			sourceTree = "<group>";
 		};
 		D900D9B122F40C63005C3DBE /* SnapKit */ = {
@@ -1943,6 +1982,9 @@
 		D90F480A24BFF59F00B81C79 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				D90073F324C2ECA3004C9AD0 /* AppManager */,
+				D90073F024C2E8B9004C9AD0 /* LaunchGuideManager */,
+				D90073EF24C2E7C7004C9AD0 /* UserDefaultsManager */,
 				D90F48A324C1A04C00B81C79 /* ColorManager */,
 				D90F480B24BFF5B500B81C79 /* NotificationCenterManager */,
 			);
@@ -2655,6 +2697,23 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		D929B8D824C2A37C000AB13D /* ESTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				D929B8D924C2A40C000AB13D /* ESTabBarDemosViewController.swift */,
+				D929B8DB24C2A411000AB13D /* 选中图片变大 */,
+			);
+			path = ESTabBarController;
+			sourceTree = "<group>";
+		};
+		D929B8DB24C2A411000AB13D /* 选中图片变大 */ = {
+			isa = PBXGroup;
+			children = (
+				D929B8E024C2AA92000AB13D /* SelectedTabBiggerViewController.swift */,
+			);
+			path = "选中图片变大";
+			sourceTree = "<group>";
+		};
 		D92BB284246908A7008610DB /* 优雅的通知 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3026,6 +3085,7 @@
 				D97F3765238BF36800D47F3C /* 嵌套tableView */,
 				D9EC2EAD24343D6B00C1E4E4 /* SideMenu */,
 				D9F7DEFC2449653200A63632 /* TTTAttributedLabel */,
+				D929B8D824C2A37C000AB13D /* ESTabBarController */,
 			);
 			path = "UI框架";
 			sourceTree = "<group>";
@@ -3778,6 +3838,7 @@
 				D904EABB24B073030006C928 /* ScrollView截图 */,
 				D98DF5AF24B4172D001B9EC9 /* URL转二维码 */,
 				D90F481024C001FF00B81C79 /* NotificationManager */,
+				D9ED12A524C2975D00D29260 /* 获取类名 */,
 			);
 			path = "杂七杂八";
 			sourceTree = "<group>";
@@ -6185,6 +6246,14 @@
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
+		D9ED12A524C2975D00D29260 /* 获取类名 */ = {
+			isa = PBXGroup;
+			children = (
+				D9ED12A624C297EE00D29260 /* GetClassNameViewController.swift */,
+			);
+			path = "获取类名";
+			sourceTree = "<group>";
+		};
 		D9ED81DD2458086000726E49 /* 追求完美 */ = {
 			isa = PBXGroup;
 			children = (
@@ -6707,6 +6776,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/CameraManager/CameraManager.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
@@ -6745,6 +6815,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CameraManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
@@ -6875,6 +6946,7 @@
 				D9BE258E23B88B7E001F4D71 /* PersonCellModel.swift in Sources */,
 				D9E86CBF2447EE00009CCBB8 /* TapGestureViewController.swift in Sources */,
 				D93A0BF9233CA0D300554EF6 /* MyCellNode.swift in Sources */,
+				D90073F224C2E950004C9AD0 /* LaunchGuideManager.swift in Sources */,
 				D904EABD24B0734D0006C928 /* CaptureScrollViewController.swift in Sources */,
 				D9C7CC1D22E9AA210038FD34 /* StandardSwiftTableViewCell.swift in Sources */,
 				D96D563424AC2EA1008DD9CF /* MMKVDemoViewController.swift in Sources */,
@@ -6951,6 +7023,7 @@
 				D96D569D24AF0C65008DD9CF /* SwiftXibCollectionViewController.swift in Sources */,
 				D96773B12400EEC900829BCB /* UIFont+Extension.swift in Sources */,
 				D9697FEF22F0959000220938 /* StandardSwiftCollectionViewSectionFooterView.swift in Sources */,
+				D90073EE24C2E799004C9AD0 /* UserDefaultsManager.swift in Sources */,
 				D9C7CBFC22E991570038FD34 /* CQStandardOCTableViewViewController.m in Sources */,
 				D926BDAF22C2782100A2DD3E /* CQTemplateMethodViewController.m in Sources */,
 				D9C5E5E82349AB3700D101F1 /* EasyButton.swift in Sources */,
@@ -7026,6 +7099,7 @@
 				D98DF5E624B717B4001B9EC9 /* MapView.swift in Sources */,
 				D97667C8249A145E00A8BEDD /* BaseGenericsTableViewController3.swift in Sources */,
 				D98DF5ED24B80D49001B9EC9 /* SimpleTextRow.swift in Sources */,
+				D9ED12A724C297EE00D29260 /* GetClassNameViewController.swift in Sources */,
 				D9B760C024BC63BC0037A7A1 /* TYCycleController.swift in Sources */,
 				D9B760B424BC5D380037A7A1 /* GKCycleScrollViewController.swift in Sources */,
 				D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */,
@@ -7216,6 +7290,7 @@
 				D9160F9923BDF3570089E864 /* GitInfoViewController.swift in Sources */,
 				D965A2BB234E37D400041D69 /* IconFontViewController.swift in Sources */,
 				D9E86CC92447EF31009CCBB8 /* RotationGestureViewController.swift in Sources */,
+				D90073F524C2ED35004C9AD0 /* AppManager.swift in Sources */,
 				D92CBD6923F693EE003A6EDC /* WebViewGifViewController.swift in Sources */,
 				D97667D6249AFF6400A8BEDD /* ShoeModel.swift in Sources */,
 				D9C5E5D22345879000D101F1 /* LeetCodeViewController.swift in Sources */,
@@ -7271,6 +7346,7 @@
 				D95328482399EA4F00C15136 /* UIAlertController+Util.m in Sources */,
 				D9CE54B8233D0B1100AB58C0 /* MyCellNode3.swift in Sources */,
 				D98DF5C324B711E1001B9EC9 /* Data.swift in Sources */,
+				D929B8DA24C2A40C000AB13D /* ESTabBarDemosViewController.swift in Sources */,
 				D90F481224C0023300B81C79 /* NotificationManagerViewController.swift in Sources */,
 				D96F415C23BEDFA2008616F4 /* PerfectAppViewController.swift in Sources */,
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
@@ -7315,6 +7391,7 @@
 				D97667D8249B009600A8BEDD /* ShoeCell.swift in Sources */,
 				D91A9F7F22B3D912008F87F1 /* CountDownButtonViewController.swift in Sources */,
 				D9BE257A23B86F1C001F4D71 /* SameModelTableViewController.swift in Sources */,
+				D90073F724C2FC43004C9AD0 /* LaunchGuideViewController.swift in Sources */,
 				D9536EF3244A9D4400FD3964 /* TTTLabelViewController2.swift in Sources */,
 				D96D565524AD86B9008DD9CF /* OCXibCustomViewController.m in Sources */,
 				D9B760C324BC64420037A7A1 /* TYCyclePagerViewCell.m in Sources */,
@@ -7383,6 +7460,7 @@
 				D904EAC324B074BD0006C928 /* UIScrollView+Capture.m in Sources */,
 				D9146DE8239213B5002EA395 /* GestureMainScrollView.swift in Sources */,
 				D92CBD7923F7A685003A6EDC /* AlamofireDownloadViewController.swift in Sources */,
+				D929B8E124C2AA92000AB13D /* SelectedTabBiggerViewController.swift in Sources */,
 				D944FD2E24986FCD00C8DB52 /* GenericsTableViewController2.swift in Sources */,
 				D9C5E5CC23436C2800D101F1 /* YYTextViewDemoController.swift in Sources */,
 				D9F53190249BC3FE005BD556 /* SwiftAnyViewController.swift in Sources */,

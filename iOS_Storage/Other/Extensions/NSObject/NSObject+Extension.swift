@@ -10,12 +10,12 @@ import Foundation
 
 extension NSObject {
     
-    /// 类名
+    /// 获取class的类名
     class var className: String {
         return NSStringFromClass(self).components(separatedBy: ".").last!
     }
     
-    /// 类名
+    /// 获取实例的类名
     var className: String {
         let name = type(of: self).description()
         if (name.contains(".")) {

@@ -23,7 +23,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     CQTabBarController *tabBarController = [[CQTabBarController alloc] init];
-    self.window.rootViewController = tabBarController;
+    //self.window.rootViewController = tabBarController;
+    
+    self.window.rootViewController = [LaunchGuideManager getFirstPage];
+    
+    
     [self.window makeKeyAndVisible];
     
     [SVProgressHUD setMinimumDismissTimeInterval:1];

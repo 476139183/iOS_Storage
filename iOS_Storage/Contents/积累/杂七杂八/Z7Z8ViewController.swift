@@ -24,7 +24,8 @@ class Z7Z8ViewController: JumpListViewController {
                           ItemModel(title: "cache", targetVC: CQCacheDemoViewController()),
                           ItemModel(title: "scrollView截图", targetVC: CaptureScrollViewController()),
                           ItemModel(title: "url转二维码", targetVC: URLToQRCodeController()),
-                          ItemModel(title: "NotificationManager", targetVC: NotificationManagerViewController())]
+                          ItemModel(title: "NotificationManager", targetVC: NotificationManagerViewController()),
+                          ItemModel(title: "获取类名", targetVC: GetClassNameViewController())]
         
     }
     
