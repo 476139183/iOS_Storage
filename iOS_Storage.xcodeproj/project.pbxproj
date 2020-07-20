@@ -447,6 +447,9 @@
 		D97667DA249B03B900A8BEDD /* ShoeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667D9249B03B900A8BEDD /* ShoeHeader.swift */; };
 		D97667DC249B040400A8BEDD /* ShoeHeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667DB249B040400A8BEDD /* ShoeHeaderModel.swift */; };
 		D97667E3249B525100A8BEDD /* SwiftOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97667E2249B525100A8BEDD /* SwiftOperatorViewController.swift */; };
+		D977FD7024C602AA00AE2C1E /* BaseXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977FD6F24C602AA00AE2C1E /* BaseXibView.swift */; };
+		D977FD7224C604A200AE2C1E /* BaseXibButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977FD7124C604A200AE2C1E /* BaseXibButton.swift */; };
+		D977FD7424C604F400AE2C1E /* BaseXibImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977FD7324C604F400AE2C1E /* BaseXibImageView.swift */; };
 		D97D0CAF23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D0CAE23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift */; };
 		D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */; };
 		D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97D50FF2350AE3800A0F570 /* trade_rule.txt */; };
@@ -1340,6 +1343,9 @@
 		D97667D9249B03B900A8BEDD /* ShoeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeHeader.swift; sourceTree = "<group>"; };
 		D97667DB249B040400A8BEDD /* ShoeHeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeHeaderModel.swift; sourceTree = "<group>"; };
 		D97667E2249B525100A8BEDD /* SwiftOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOperatorViewController.swift; sourceTree = "<group>"; };
+		D977FD6F24C602AA00AE2C1E /* BaseXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXibView.swift; sourceTree = "<group>"; };
+		D977FD7124C604A200AE2C1E /* BaseXibButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXibButton.swift; sourceTree = "<group>"; };
+		D977FD7324C604F400AE2C1E /* BaseXibImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXibImageView.swift; sourceTree = "<group>"; };
 		D97D0CAE23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSectionHeaderPositionViewController.swift; sourceTree = "<group>"; };
 		D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleView.swift; sourceTree = "<group>"; };
 		D97D50FF2350AE3800A0F570 /* trade_rule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trade_rule.txt; sourceTree = "<group>"; };
@@ -3541,6 +3547,7 @@
 		D94BF43420E48C4E0012C370 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				D977FD6E24C600C700AE2C1E /* Xib */,
 				D94BF43520E48C690012C370 /* CQBaseModel.h */,
 				D94BF43620E48C690012C370 /* CQBaseModel.m */,
 				D99B98F7246CF0BB001E6369 /* NaviBarProtocol.swift */,
@@ -4724,6 +4731,16 @@
 				D97667E2249B525100A8BEDD /* SwiftOperatorViewController.swift */,
 			);
 			path = "Swift操作符";
+			sourceTree = "<group>";
+		};
+		D977FD6E24C600C700AE2C1E /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				D977FD6F24C602AA00AE2C1E /* BaseXibView.swift */,
+				D977FD7124C604A200AE2C1E /* BaseXibButton.swift */,
+				D977FD7324C604F400AE2C1E /* BaseXibImageView.swift */,
+			);
+			path = Xib;
 			sourceTree = "<group>";
 		};
 		D97D0CAD23B5FF1B001E6FB7 /* 修改组头悬停位置 */ = {
@@ -6995,6 +7012,7 @@
 				D9C7CC0C22E9998B0038FD34 /* CQStandardTableFooterView.m in Sources */,
 				D98E4DF0238284AC0082EED4 /* IconFont.swift in Sources */,
 				D9146DA7249C958A002862AB /* GenericsTableViewController31.swift in Sources */,
+				D977FD7024C602AA00AE2C1E /* BaseXibView.swift in Sources */,
 				D9B760AB24BC5B900037A7A1 /* BannersViewController.swift in Sources */,
 				D97246EC237E4989001671AD /* NSMutableAttributedString+Extension.swift in Sources */,
 				D9A0091423725A8B00ECF98F /* JXCustomViewController.swift in Sources */,
@@ -7062,6 +7080,7 @@
 				D9C5E5E82349AB3700D101F1 /* EasyButton.swift in Sources */,
 				D92767C6237CF90400F9CED8 /* ChannelButton.swift in Sources */,
 				D967A80D23ACAE110000C00D /* OOPViewController.swift in Sources */,
+				D977FD7224C604A200AE2C1E /* BaseXibButton.swift in Sources */,
 				D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */,
 				D965A2BE234E3AFB00041D69 /* CameraManagerViewController.swift in Sources */,
 				D92CBD7423F7A44C003A6EDC /* AlamofireRequestViewController.swift in Sources */,
@@ -7443,6 +7462,7 @@
 				D9608BFA2369899B0053BD3E /* EnlargeActionViewController.swift in Sources */,
 				D973CD1A2488A88300C67FB9 /* GenericsCatTableViewController.swift in Sources */,
 				D93A0BF3233C700E00554EF6 /* ASTableDemoController.swift in Sources */,
+				D977FD7424C604F400AE2C1E /* BaseXibImageView.swift in Sources */,
 				D926BDDC22C497BA00A2DD3E /* Work.m in Sources */,
 				D994A6E023A65E050032E540 /* IconFontButton.swift in Sources */,
 				D9146DA3249C595F002862AB /* BaseCellTableViewController.swift in Sources */,

@@ -15,6 +15,8 @@ IB_DESIGNABLE
 @interface UIView (XibCorner)
 
 @property(nonatomic,assign) IBInspectable CGFloat cornerRadius;
+//@property(nonatomic,assign) IBInspectable UIColor *borderColor;
+//@property(nonatomic,assign) IBInspectable CGFloat borderWidth;
 
 @end
 

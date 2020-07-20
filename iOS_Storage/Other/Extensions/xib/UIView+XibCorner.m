@@ -19,4 +19,20 @@
     return self.layer.cornerRadius;
 }
 
+//- (void)setBorderColor:(UIColor *)borderColor {
+//    self.layer.borderColor = borderColor.CGColor;
+//}
+//
+//- (UIColor *)borderColor {
+//    return [[UIColor alloc] initWithCGColor:self.layer.borderColor];
+//}
+//
+//- (void)setBorderWidth:(CGFloat)borderWidth {
+//    self.layer.borderWidth = borderWidth;
+//}
+//
+//- (CGFloat)borderWidth {
+//    return self.layer.borderWidth;
+//}
+
 @end
