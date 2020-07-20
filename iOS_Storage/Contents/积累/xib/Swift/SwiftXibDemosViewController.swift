@@ -15,7 +15,9 @@ class SwiftXibDemosViewController: JumpListViewController {
         
         // Do any additional setup after loading the view.
         
-        self.dataArray = [ItemModel(title: "自定义view", targetVC: SwiftXibCustomViewController()),
+        self.dataArray = [ItemModel(title: "可视化圆角", targetVC: XibCornerViewController()),
+                          ItemModel(title: "动态修改约束", targetVC: DynamicConstraintViewController()),
+                          ItemModel(title: "自定义view", targetVC: SwiftXibCustomViewController()),
                           ItemModel(title: "scrollView", targetVC: SwiftXibScrollViewController()),
                           ItemModel(title: "tableView", targetVC: SwiftXibTableViewController()),
                           ItemModel(title: "collectionView", targetVC: SwiftXibCollectionViewController())]

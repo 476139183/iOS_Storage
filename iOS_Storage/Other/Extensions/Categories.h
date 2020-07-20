@@ -16,5 +16,6 @@
 #import "UIButton+EnlargeTouchArea.h"
 #import "UIAlertController+Util.h"
 #import "UIScrollView+Capture.h"
+#import "UIView+XibCorner.h"
 
 #endif /* Categories_h */

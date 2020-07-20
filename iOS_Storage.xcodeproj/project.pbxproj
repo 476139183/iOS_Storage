@@ -12,6 +12,8 @@
 		D90073F224C2E950004C9AD0 /* LaunchGuideManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90073F124C2E950004C9AD0 /* LaunchGuideManager.swift */; };
 		D90073F524C2ED35004C9AD0 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90073F424C2ED35004C9AD0 /* AppManager.swift */; };
 		D90073F724C2FC43004C9AD0 /* LaunchGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90073F624C2FC43004C9AD0 /* LaunchGuideViewController.swift */; };
+		D900740524C539B1004C9AD0 /* DynamicConstraintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900740324C539B1004C9AD0 /* DynamicConstraintViewController.swift */; };
+		D900740624C539B1004C9AD0 /* DynamicConstraintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D900740424C539B1004C9AD0 /* DynamicConstraintViewController.xib */; };
 		D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */; };
 		D9012A0C23927237008D5EF5 /* TextureDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9012A0B23927236008D5EF5 /* TextureDemoViewController.swift */; };
 		D9019B7922B121AC0039B25D /* 设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7822B121AC0039B25D /* 设计模式.md */; };
@@ -163,6 +165,9 @@
 		D932D24C2338B39E00662E05 /* ASViewControllerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D932D24B2338B39E00662E05 /* ASViewControllerDemoController.swift */; };
 		D933CBDC23ADD68D00AFDF1B /* UIPresentationControllerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D933CBDB23ADD68D00AFDF1B /* UIPresentationControllerDemoController.swift */; };
 		D9347FB32490D43300944E61 /* pullDown.json in Resources */ = {isa = PBXBuildFile; fileRef = D9347FB22490D43300944E61 /* pullDown.json */; };
+		D935A3E024C5707100B766BE /* XibCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935A3DF24C5707100B766BE /* XibCornerView.swift */; };
+		D935A3E524C571FF00B766BE /* XibCornerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935A3E324C571FF00B766BE /* XibCornerViewController.swift */; };
+		D935A3E624C571FF00B766BE /* XibCornerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D935A3E424C571FF00B766BE /* XibCornerViewController.xib */; };
 		D936ACB924A1E06700556EDD /* handy_json.json in Resources */ = {isa = PBXBuildFile; fileRef = D936ACB824A1E06600556EDD /* handy_json.json */; };
 		D9376886235809B900515315 /* CollectionViewVerticalFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9376885235809B900515315 /* CollectionViewVerticalFlowLayout.swift */; };
 		D9376888235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9376887235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift */; };
@@ -793,6 +798,8 @@
 		D90073F124C2E950004C9AD0 /* LaunchGuideManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchGuideManager.swift; sourceTree = "<group>"; };
 		D90073F424C2ED35004C9AD0 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		D90073F624C2FC43004C9AD0 /* LaunchGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchGuideViewController.swift; sourceTree = "<group>"; };
+		D900740324C539B1004C9AD0 /* DynamicConstraintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicConstraintViewController.swift; sourceTree = "<group>"; };
+		D900740424C539B1004C9AD0 /* DynamicConstraintViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicConstraintViewController.xib; sourceTree = "<group>"; };
 		D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitDemoViewController.swift; sourceTree = "<group>"; };
 		D9012A0B23927236008D5EF5 /* TextureDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureDemoViewController.swift; sourceTree = "<group>"; };
 		D9019B7822B121AC0039B25D /* 设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "设计模式.md"; sourceTree = "<group>"; };
@@ -991,6 +998,9 @@
 		D932D24B2338B39E00662E05 /* ASViewControllerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASViewControllerDemoController.swift; sourceTree = "<group>"; };
 		D933CBDB23ADD68D00AFDF1B /* UIPresentationControllerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPresentationControllerDemoController.swift; sourceTree = "<group>"; };
 		D9347FB22490D43300944E61 /* pullDown.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pullDown.json; sourceTree = "<group>"; };
+		D935A3DF24C5707100B766BE /* XibCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibCornerView.swift; sourceTree = "<group>"; };
+		D935A3E324C571FF00B766BE /* XibCornerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibCornerViewController.swift; sourceTree = "<group>"; };
+		D935A3E424C571FF00B766BE /* XibCornerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibCornerViewController.xib; sourceTree = "<group>"; };
 		D936ACB824A1E06600556EDD /* handy_json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = handy_json.json; sourceTree = "<group>"; };
 		D9376885235809B900515315 /* CollectionViewVerticalFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewVerticalFlowLayout.swift; sourceTree = "<group>"; };
 		D9376887235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHorizontalFlowLayout.swift; sourceTree = "<group>"; };
@@ -1813,6 +1823,15 @@
 				D90073F424C2ED35004C9AD0 /* AppManager.swift */,
 			);
 			path = AppManager;
+			sourceTree = "<group>";
+		};
+		D900740224C53948004C9AD0 /* 动态修改约束 */ = {
+			isa = PBXGroup;
+			children = (
+				D900740324C539B1004C9AD0 /* DynamicConstraintViewController.swift */,
+				D900740424C539B1004C9AD0 /* DynamicConstraintViewController.xib */,
+			);
+			path = "动态修改约束";
 			sourceTree = "<group>";
 		};
 		D900D9B122F40C63005C3DBE /* SnapKit */ = {
@@ -2907,6 +2926,16 @@
 				D933CBDB23ADD68D00AFDF1B /* UIPresentationControllerDemoController.swift */,
 			);
 			path = UIPresentationController;
+			sourceTree = "<group>";
+		};
+		D935A3DE24C5703300B766BE /* 可视化圆角 */ = {
+			isa = PBXGroup;
+			children = (
+				D935A3DF24C5707100B766BE /* XibCornerView.swift */,
+				D935A3E324C571FF00B766BE /* XibCornerViewController.swift */,
+				D935A3E424C571FF00B766BE /* XibCornerViewController.xib */,
+			);
+			path = "可视化圆角";
 			sourceTree = "<group>";
 		};
 		D937687C2357FD7200515315 /* 常用CollectionViewLayout */ = {
@@ -4306,6 +4335,8 @@
 			isa = PBXGroup;
 			children = (
 				D96D564924AD84A1008DD9CF /* SwiftXibDemosViewController.swift */,
+				D935A3DE24C5703300B766BE /* 可视化圆角 */,
+				D900740224C53948004C9AD0 /* 动态修改约束 */,
 				D96D564C24AD85E4008DD9CF /* 自定义View */,
 				D96D564E24AD8615008DD9CF /* ScrollView */,
 				D96D565024AD862F008DD9CF /* TableView */,
@@ -6619,6 +6650,7 @@
 				D920ED2222E87F2900C5A43F /* LottieLogo1.json in Resources */,
 				D9683C9423B3C6EB00F5A87A /* CP.md in Resources */,
 				D98DF5DC24B7127B001B9EC9 /* stmarylake.jpg in Resources */,
+				D900740624C539B1004C9AD0 /* DynamicConstraintViewController.xib in Resources */,
 				D9BE257323B860E0001F4D71 /* AOP.md in Resources */,
 				D985E41E23FD08B500CF7954 /* SF-Pro-Text-RegularItalic.otf in Resources */,
 				D9BBF970235F4885009342EC /* third_part_contents.plist in Resources */,
@@ -6650,6 +6682,7 @@
 				D91A9F8422B490F7008F87F1 /* logo商标识别.md in Resources */,
 				D96F416723BEE35A008616F4 /* 完美APP.md in Resources */,
 				D9F5319A24AE10D3005BD556 /* SwiftXibScrollViewController.xib in Resources */,
+				D935A3E624C571FF00B766BE /* XibCornerViewController.xib in Resources */,
 				D96D569E24AF0C65008DD9CF /* SwiftXibCollectionViewController.xib in Resources */,
 				D9E30C38236D5FC50042BC74 /* img_3.png in Resources */,
 				D973CD1C2488AC7C00C67FB9 /* dsData.json in Resources */,
@@ -7116,6 +7149,7 @@
 				D9B6314423BB328D003D95D9 /* HandleTableViewController.swift in Sources */,
 				D95A3D972480C2C500F0166C /* BlurEffectViewController2.swift in Sources */,
 				D99B98F6246CEE82001E6369 /* TextureTableDemo3Controller.swift in Sources */,
+				D935A3E024C5707100B766BE /* XibCornerView.swift in Sources */,
 				D93AB57E2487501100E79EAB /* CQYYModelViewController.m in Sources */,
 				D97667BA2499C18D00A8BEDD /* SwiftProtocolViewController.swift in Sources */,
 				D9AEB65622F56747006F8995 /* AlamofireDemoViewController.swift in Sources */,
@@ -7231,6 +7265,7 @@
 				D95A3DBB248245F000F0166C /* UIView+XibCorner.m in Sources */,
 				D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */,
 				D9442A802497149200CA4464 /* FlatTableViewController.swift in Sources */,
+				D935A3E524C571FF00B766BE /* XibCornerViewController.swift in Sources */,
 				D9DE6CBD20FEE78100C8D4FE /* CQRegionModel.m in Sources */,
 				D9D56B0523B488C9005EEA9A /* CQShadowView.m in Sources */,
 				D96F416123BEE074008616F4 /* ElegantSwiftViewController.swift in Sources */,
@@ -7369,6 +7404,7 @@
 				D9545B3B2293AB48008B6355 /* CQThread.m in Sources */,
 				D91E1D25233E4EB600B1C772 /* CQGradientView.m in Sources */,
 				D93AB58B24876AF000E79EAB /* KVOControllerTheoryViewController.m in Sources */,
+				D900740524C539B1004C9AD0 /* DynamicConstraintViewController.swift in Sources */,
 				D9697FED22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift in Sources */,
 				D9BF6908233EF61300E602A4 /* CQGradientButton.m in Sources */,
 				D926BDB522C3226C00A2DD3E /* CQFacadeViewController.m in Sources */,
