@@ -87,6 +87,10 @@
 		D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */; };
 		D91F258424C6EEBF0075B363 /* GradientXibController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F258224C6EEBF0075B363 /* GradientXibController.swift */; };
 		D91F258524C6EEBF0075B363 /* GradientXibController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D91F258324C6EEBF0075B363 /* GradientXibController.xib */; };
+		D91F258924C6F57B0075B363 /* XibInXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F258724C6F57B0075B363 /* XibInXibViewController.swift */; };
+		D91F258A24C6F57B0075B363 /* XibInXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D91F258824C6F57B0075B363 /* XibInXibViewController.xib */; };
+		D91F258C24C6F5F40075B363 /* XibInXibRedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F258B24C6F5F40075B363 /* XibInXibRedView.swift */; };
+		D91F258E24C6F6030075B363 /* XibInXibRedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D91F258D24C6F6030075B363 /* XibInXibRedView.xib */; };
 		D91F97EA245A822200865DEA /* DataDriveTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F97E9245A822200865DEA /* DataDriveTableViewViewController.swift */; };
 		D91FD953236A97EE00376D59 /* UIView+FrameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91FD952236A97EE00376D59 /* UIView+FrameHelper.swift */; };
 		D920CE8822B37E91000962C0 /* CheckPricacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D920CE8722B37E91000962C0 /* CheckPricacyViewController.swift */; };
@@ -899,6 +903,10 @@
 		D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQClassClusterRequest.m; sourceTree = "<group>"; };
 		D91F258224C6EEBF0075B363 /* GradientXibController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientXibController.swift; sourceTree = "<group>"; };
 		D91F258324C6EEBF0075B363 /* GradientXibController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GradientXibController.xib; sourceTree = "<group>"; };
+		D91F258724C6F57B0075B363 /* XibInXibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibInXibViewController.swift; sourceTree = "<group>"; };
+		D91F258824C6F57B0075B363 /* XibInXibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibInXibViewController.xib; sourceTree = "<group>"; };
+		D91F258B24C6F5F40075B363 /* XibInXibRedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibInXibRedView.swift; sourceTree = "<group>"; };
+		D91F258D24C6F6030075B363 /* XibInXibRedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibInXibRedView.xib; sourceTree = "<group>"; };
 		D91F97E9245A822200865DEA /* DataDriveTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDriveTableViewViewController.swift; sourceTree = "<group>"; };
 		D91FD952236A97EE00376D59 /* UIView+FrameHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FrameHelper.swift"; sourceTree = "<group>"; };
 		D920CE8722B37E91000962C0 /* CheckPricacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPricacyViewController.swift; sourceTree = "<group>"; };
@@ -2500,6 +2508,17 @@
 				D9E21A8D210FF92500407599 /* CQClassClusterCellC.m */,
 			);
 			path = "子类Cell C";
+			sourceTree = "<group>";
+		};
+		D91F258624C6F5570075B363 /* 嵌套xib */ = {
+			isa = PBXGroup;
+			children = (
+				D91F258724C6F57B0075B363 /* XibInXibViewController.swift */,
+				D91F258824C6F57B0075B363 /* XibInXibViewController.xib */,
+				D91F258B24C6F5F40075B363 /* XibInXibRedView.swift */,
+				D91F258D24C6F6030075B363 /* XibInXibRedView.xib */,
+			);
+			path = "嵌套xib";
 			sourceTree = "<group>";
 		};
 		D91F97E8245A81D800865DEA /* 数据驱动的tableView */ = {
@@ -4361,6 +4380,7 @@
 			isa = PBXGroup;
 			children = (
 				D96D564924AD84A1008DD9CF /* SwiftXibDemosViewController.swift */,
+				D91F258624C6F5570075B363 /* 嵌套xib */,
 				D90153F924C6AED800F6D06E /* 添加自定义属性 */,
 				D935A3DE24C5703300B766BE /* 可视化圆角 */,
 				D900740224C53948004C9AD0 /* 动态修改约束 */,
@@ -6671,6 +6691,7 @@
 				D9019B7C22B13F670039B25D /* 链表.md in Resources */,
 				D9F53196249D194C005BD556 /* 内存分布.md in Resources */,
 				D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */,
+				D91F258E24C6F6030075B363 /* XibInXibRedView.xib in Resources */,
 				D926BDB822C33EB600A2DD3E /* 建造者模式.md in Resources */,
 				D98DF5D824B7127B001B9EC9 /* umbagog.jpg in Resources */,
 				D930956D23B2F3D100837CA6 /* StaticTableViewStoryboard.storyboard in Resources */,
@@ -6778,6 +6799,7 @@
 				D9F37C6C248BFC4E008B6F14 /* HTMLGrammer.html in Resources */,
 				D92D69C420DE359C002BA9C0 /* LaunchScreen.storyboard in Resources */,
 				D9CD7BF22474E65E000B7EB4 /* class与struct.md in Resources */,
+				D91F258A24C6F57B0075B363 /* XibInXibViewController.xib in Resources */,
 				D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */,
 				D9E30C37236D5FC50042BC74 /* img_2.png in Resources */,
 				D974BCDF2493862A00942ED2 /* ding2.gif in Resources */,
@@ -7056,6 +7078,7 @@
 				D926BDF522C6152400A2DD3E /* RoleStateCaretaker.m in Sources */,
 				D9146DEA239219ED002EA395 /* GestureRedChildScrollView.swift in Sources */,
 				D97D51022350B0CA00A0F570 /* TradeRuleViewController.swift in Sources */,
+				D91F258C24C6F5F40075B363 /* XibInXibRedView.swift in Sources */,
 				D99B98FA246CF19F001E6369 /* BaseNaviBar.swift in Sources */,
 				D9170395245049EB00A588AD /* TextureTableDemo2Controller.swift in Sources */,
 				D926BDD022C4945800A2DD3E /* TimeState.m in Sources */,
@@ -7345,6 +7368,7 @@
 				D93AB57024874DB700E79EAB /* CQSDWebImageViewController.m in Sources */,
 				D9C7CBFF22E991CE0038FD34 /* CQStandardOCCollectionViewViewController.m in Sources */,
 				D93EFF402359B7C00028A730 /* ParkAnnotation.swift in Sources */,
+				D91F258924C6F57B0075B363 /* XibInXibViewController.swift in Sources */,
 				D96D564824AD847C008DD9CF /* OCXibDemosViewController.swift in Sources */,
 				D93A0BF5233C72F900554EF6 /* TextureColorView.swift in Sources */,
 				D9C3D0E9246DA27200D3DF7B /* AnimationHud.swift in Sources */,
