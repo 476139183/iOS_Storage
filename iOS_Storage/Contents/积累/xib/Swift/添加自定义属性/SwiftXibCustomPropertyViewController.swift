@@ -10,10 +10,14 @@ import UIKit
 
 class SwiftXibCustomPropertyViewController: CQBaseViewController {
 
+    @IBOutlet weak var navi1: XibCustomNaviView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        navi1.backgroundColor = .green
         
         let navi2 = XibCustomNaviView()
         view.addSubview(navi2)
@@ -26,5 +30,5 @@ class SwiftXibCustomPropertyViewController: CQBaseViewController {
         }
         
     }
-
+    
 }

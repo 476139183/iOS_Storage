@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SwiftXibCustomPropertyViewController" customModule="iOS_Storage" customModuleProvider="target">
             <connections>
+                <outlet property="navi1" destination="nbd-dy-2BE" id="n6W-B1-eR6"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
