@@ -19,7 +19,7 @@ class GradientView: UIView {
     }
     
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: aDecoder)
     }
     
     init(colors: [UIColor], direction: GradientDirection) {
@@ -27,6 +27,12 @@ class GradientView: UIView {
 
         self.colors = colors
         self.direction = direction
+    }
+    
+    func config(colors: [UIColor], direction: GradientDirection) {
+        self.colors = colors
+        self.direction = direction
+        self.setNeedsLayout()
     }
     
     /// xib或storyboard通过此方法配置

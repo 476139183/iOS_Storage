@@ -16,7 +16,8 @@ class GradientDemoViewController: JumpListViewController {
         // Do any additional setup after loading the view.
         
         self.dataArray = [ItemModel(title: "OC", targetVC: CQGradientOCDemoViewController()),
-                          ItemModel(title: "Swift", targetVC: GradientSwiftDemoViewController())]
+                          ItemModel(title: "Swift", targetVC: GradientSwiftDemoViewController()),
+                          ItemModel(title: "Xib", targetVC: GradientXibController())]
         
     }
     

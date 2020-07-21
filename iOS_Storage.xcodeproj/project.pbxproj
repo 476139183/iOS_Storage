@@ -85,6 +85,8 @@
 		D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E0221A90E400AC1DEA /* CQSearchController.m */; };
 		D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E53E3221A910500AC1DEA /* CQSearchModel.m */; };
 		D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */; };
+		D91F258424C6EEBF0075B363 /* GradientXibController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F258224C6EEBF0075B363 /* GradientXibController.swift */; };
+		D91F258524C6EEBF0075B363 /* GradientXibController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D91F258324C6EEBF0075B363 /* GradientXibController.xib */; };
 		D91F97EA245A822200865DEA /* DataDriveTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91F97E9245A822200865DEA /* DataDriveTableViewViewController.swift */; };
 		D91FD953236A97EE00376D59 /* UIView+FrameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91FD952236A97EE00376D59 /* UIView+FrameHelper.swift */; };
 		D920CE8822B37E91000962C0 /* CheckPricacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D920CE8722B37E91000962C0 /* CheckPricacyViewController.swift */; };
@@ -895,6 +897,8 @@
 		D91E53E3221A910500AC1DEA /* CQSearchModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSearchModel.m; sourceTree = "<group>"; };
 		D91EF56021100D2A000D0D43 /* CQClassClusterRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQClassClusterRequest.h; sourceTree = "<group>"; };
 		D91EF56121100D2A000D0D43 /* CQClassClusterRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQClassClusterRequest.m; sourceTree = "<group>"; };
+		D91F258224C6EEBF0075B363 /* GradientXibController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientXibController.swift; sourceTree = "<group>"; };
+		D91F258324C6EEBF0075B363 /* GradientXibController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GradientXibController.xib; sourceTree = "<group>"; };
 		D91F97E9245A822200865DEA /* DataDriveTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDriveTableViewViewController.swift; sourceTree = "<group>"; };
 		D91FD952236A97EE00376D59 /* UIView+FrameHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FrameHelper.swift"; sourceTree = "<group>"; };
 		D920CE8722B37E91000962C0 /* CheckPricacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPricacyViewController.swift; sourceTree = "<group>"; };
@@ -2391,6 +2395,8 @@
 				D9BF690D233F4B2A00E602A4 /* CQGradientOCDemoViewController.h */,
 				D9BF690E233F4B2A00E602A4 /* CQGradientOCDemoViewController.m */,
 				D9BF6910233F4B6600E602A4 /* GradientSwiftDemoViewController.swift */,
+				D91F258224C6EEBF0075B363 /* GradientXibController.swift */,
+				D91F258324C6EEBF0075B363 /* GradientXibController.xib */,
 				D91E1D20233E4DA500B1C772 /* OC */,
 				D91E1D1F233E4D9B00B1C772 /* Swift */,
 			);
@@ -6763,6 +6769,7 @@
 				D985E42223FD08B500CF7954 /* SF-Pro-Text-Medium.otf in Resources */,
 				D9A0091623725F7B00ECF98F /* JXSegment自定义cell.md in Resources */,
 				D926BDDF22C4AF7B00A2DD3E /* 适配器模式.md in Resources */,
+				D91F258524C6EEBF0075B363 /* GradientXibController.xib in Resources */,
 				D9C7CC1822E9A9090038FD34 /* 标准TableView Swift版.md in Resources */,
 				D98DF5D624B7127B001B9EC9 /* hiddenlake.jpg in Resources */,
 				D99FD93D246E90DC0095CEE6 /* iconfont.ttf in Resources */,
@@ -7369,6 +7376,7 @@
 				D95A3DB12482063800F0166C /* LocalGifCell.swift in Sources */,
 				D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */,
 				D973CD292489E4C300C67FB9 /* CQMemoryLayoutViewController.m in Sources */,
+				D91F258424C6EEBF0075B363 /* GradientXibController.swift in Sources */,
 				D96D564124AC9D6D008DD9CF /* BaseCollectionViewCell.swift in Sources */,
 				D96778BC23A13CEF00D19554 /* PullDownLargeViewController.swift in Sources */,
 				D9519A0022BF2FE700E3036B /* AdidasFactory.m in Sources */,

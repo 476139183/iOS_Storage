@@ -121,7 +121,9 @@ extension UIColor {
         guard let context = UIGraphicsGetCurrentContext() else { return .white }
         context.saveGState();
         let colorSpace = colors.last?.cgColor.colorSpace
-        let gradient = CGGradient.init(colorsSpace: colorSpace, colors: cgColorArray as CFArray, locations: nil)!
+        guard let gradient = CGGradient.init(colorsSpace: colorSpace, colors: cgColorArray as CFArray, locations: nil) else {
+            return .white
+        }
         
         var startPoint = CGPoint.zero
         var endPoint = CGPoint.zero
