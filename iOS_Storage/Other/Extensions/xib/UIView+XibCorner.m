@@ -10,14 +10,14 @@
 
 @implementation UIView (XibCorner)
 
-- (void)setCornerRadius:(CGFloat)cornerRadius {
-    self.layer.cornerRadius= cornerRadius;
-    self.layer.masksToBounds= cornerRadius >0;
-}
-
-- (CGFloat)cornerRadius {
-    return self.layer.cornerRadius;
-}
+//- (void)setCornerRadius:(CGFloat)cornerRadius {
+//    self.layer.cornerRadius= cornerRadius;
+//    self.layer.masksToBounds= cornerRadius >0;
+//}
+//
+//- (CGFloat)cornerRadius {
+//    return self.layer.cornerRadius;
+//}
 
 //- (void)setBorderColor:(UIColor *)borderColor {
 //    self.layer.borderColor = borderColor.CGColor;

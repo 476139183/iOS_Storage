@@ -13,7 +13,7 @@ import UIKit
 class BaseXibImageView: UIImageView {
     
     @IBInspectable
-    override var cornerRadius: CGFloat {
+    var cornerRadius: CGFloat {
         set { layer.cornerRadius = newValue }
         get { return layer.cornerRadius }
     }
@@ -28,6 +28,14 @@ class BaseXibImageView: UIImageView {
     var borderColor: UIColor {
         set { layer.borderColor = newValue.cgColor }
         get { return UIColor.init(cgColor: layer.borderColor ?? UIColor.clear.cgColor) }
+    }
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
     }
     
 }

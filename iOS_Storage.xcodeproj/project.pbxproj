@@ -165,7 +165,6 @@
 		D932D24C2338B39E00662E05 /* ASViewControllerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D932D24B2338B39E00662E05 /* ASViewControllerDemoController.swift */; };
 		D933CBDC23ADD68D00AFDF1B /* UIPresentationControllerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D933CBDB23ADD68D00AFDF1B /* UIPresentationControllerDemoController.swift */; };
 		D9347FB32490D43300944E61 /* pullDown.json in Resources */ = {isa = PBXBuildFile; fileRef = D9347FB22490D43300944E61 /* pullDown.json */; };
-		D935A3E024C5707100B766BE /* XibCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935A3DF24C5707100B766BE /* XibCornerView.swift */; };
 		D935A3E524C571FF00B766BE /* XibCornerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935A3E324C571FF00B766BE /* XibCornerViewController.swift */; };
 		D935A3E624C571FF00B766BE /* XibCornerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D935A3E424C571FF00B766BE /* XibCornerViewController.xib */; };
 		D936ACB924A1E06700556EDD /* handy_json.json in Resources */ = {isa = PBXBuildFile; fileRef = D936ACB824A1E06600556EDD /* handy_json.json */; };
@@ -1001,7 +1000,6 @@
 		D932D24B2338B39E00662E05 /* ASViewControllerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASViewControllerDemoController.swift; sourceTree = "<group>"; };
 		D933CBDB23ADD68D00AFDF1B /* UIPresentationControllerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPresentationControllerDemoController.swift; sourceTree = "<group>"; };
 		D9347FB22490D43300944E61 /* pullDown.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pullDown.json; sourceTree = "<group>"; };
-		D935A3DF24C5707100B766BE /* XibCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibCornerView.swift; sourceTree = "<group>"; };
 		D935A3E324C571FF00B766BE /* XibCornerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibCornerViewController.swift; sourceTree = "<group>"; };
 		D935A3E424C571FF00B766BE /* XibCornerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibCornerViewController.xib; sourceTree = "<group>"; };
 		D936ACB824A1E06600556EDD /* handy_json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = handy_json.json; sourceTree = "<group>"; };
@@ -2937,7 +2935,6 @@
 		D935A3DE24C5703300B766BE /* 可视化圆角 */ = {
 			isa = PBXGroup;
 			children = (
-				D935A3DF24C5707100B766BE /* XibCornerView.swift */,
 				D935A3E324C571FF00B766BE /* XibCornerViewController.swift */,
 				D935A3E424C571FF00B766BE /* XibCornerViewController.xib */,
 			);
@@ -6587,7 +6584,7 @@
 		D9AE0CCE20DD02AC00A31D62 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "蔡强";
 				TargetAttributes = {
 					D9AE0CD520DD02AC00A31D62 = {
@@ -7168,7 +7165,6 @@
 				D9B6314423BB328D003D95D9 /* HandleTableViewController.swift in Sources */,
 				D95A3D972480C2C500F0166C /* BlurEffectViewController2.swift in Sources */,
 				D99B98F6246CEE82001E6369 /* TextureTableDemo3Controller.swift in Sources */,
-				D935A3E024C5707100B766BE /* XibCornerView.swift in Sources */,
 				D93AB57E2487501100E79EAB /* CQYYModelViewController.m in Sources */,
 				D97667BA2499C18D00A8BEDD /* SwiftProtocolViewController.swift in Sources */,
 				D9AEB65622F56747006F8995 /* AlamofireDemoViewController.swift in Sources */,
@@ -7577,6 +7573,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -7584,6 +7581,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -7633,6 +7631,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -7640,6 +7639,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -7665,6 +7665,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
