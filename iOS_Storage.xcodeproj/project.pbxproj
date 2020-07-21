@@ -16,6 +16,9 @@
 		D900740624C539B1004C9AD0 /* DynamicConstraintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D900740424C539B1004C9AD0 /* DynamicConstraintViewController.xib */; };
 		D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */; };
 		D9012A0C23927237008D5EF5 /* TextureDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9012A0B23927236008D5EF5 /* TextureDemoViewController.swift */; };
+		D90153FC24C6AF1D00F6D06E /* SwiftXibCustomPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90153FA24C6AF1D00F6D06E /* SwiftXibCustomPropertyViewController.swift */; };
+		D90153FD24C6AF1D00F6D06E /* SwiftXibCustomPropertyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90153FB24C6AF1D00F6D06E /* SwiftXibCustomPropertyViewController.xib */; };
+		D90153FF24C6AF7800F6D06E /* XibCustomNaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90153FE24C6AF7700F6D06E /* XibCustomNaviView.swift */; };
 		D9019B7922B121AC0039B25D /* 设计模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7822B121AC0039B25D /* 设计模式.md */; };
 		D9019B7C22B13F670039B25D /* 链表.md in Resources */ = {isa = PBXBuildFile; fileRef = D9019B7B22B13F670039B25D /* 链表.md */; };
 		D904C515234C9C00002DD939 /* PopMenuButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904C514234C9C00002DD939 /* PopMenuButtonViewController.swift */; };
@@ -804,6 +807,9 @@
 		D900740424C539B1004C9AD0 /* DynamicConstraintViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicConstraintViewController.xib; sourceTree = "<group>"; };
 		D900D9B222F40CC3005C3DBE /* SnapKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitDemoViewController.swift; sourceTree = "<group>"; };
 		D9012A0B23927236008D5EF5 /* TextureDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureDemoViewController.swift; sourceTree = "<group>"; };
+		D90153FA24C6AF1D00F6D06E /* SwiftXibCustomPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftXibCustomPropertyViewController.swift; sourceTree = "<group>"; };
+		D90153FB24C6AF1D00F6D06E /* SwiftXibCustomPropertyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftXibCustomPropertyViewController.xib; sourceTree = "<group>"; };
+		D90153FE24C6AF7700F6D06E /* XibCustomNaviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibCustomNaviView.swift; sourceTree = "<group>"; };
 		D9019B7822B121AC0039B25D /* 设计模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "设计模式.md"; sourceTree = "<group>"; };
 		D9019B7B22B13F670039B25D /* 链表.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "链表.md"; sourceTree = "<group>"; };
 		D904C514234C9C00002DD939 /* PopMenuButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopMenuButtonViewController.swift; sourceTree = "<group>"; };
@@ -1846,6 +1852,16 @@
 				D93AB54124860A9E00E79EAB /* 更多功能 */,
 			);
 			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		D90153F924C6AED800F6D06E /* 添加自定义属性 */ = {
+			isa = PBXGroup;
+			children = (
+				D90153FA24C6AF1D00F6D06E /* SwiftXibCustomPropertyViewController.swift */,
+				D90153FB24C6AF1D00F6D06E /* SwiftXibCustomPropertyViewController.xib */,
+				D90153FE24C6AF7700F6D06E /* XibCustomNaviView.swift */,
+			);
+			path = "添加自定义属性";
 			sourceTree = "<group>";
 		};
 		D9019B7A22B13F450039B25D /* 链表 */ = {
@@ -4339,6 +4355,7 @@
 			isa = PBXGroup;
 			children = (
 				D96D564924AD84A1008DD9CF /* SwiftXibDemosViewController.swift */,
+				D90153F924C6AED800F6D06E /* 添加自定义属性 */,
 				D935A3DE24C5703300B766BE /* 可视化圆角 */,
 				D900740224C53948004C9AD0 /* 动态修改约束 */,
 				D96D564C24AD85E4008DD9CF /* 自定义View */,
@@ -6644,6 +6661,7 @@
 				D94BCDEC22E9D91B0080584F /* 标准CollectionView OC版.md in Resources */,
 				D9E51E2724972D9A00DC1C04 /* AA7B1DCA-308D-4D51-869D-2D951642C348@4x.png in Resources */,
 				D98DF5DE24B7127B001B9EC9 /* rainbowlake.jpg in Resources */,
+				D90153FD24C6AF1D00F6D06E /* SwiftXibCustomPropertyViewController.xib in Resources */,
 				D9019B7C22B13F670039B25D /* 链表.md in Resources */,
 				D9F53196249D194C005BD556 /* 内存分布.md in Resources */,
 				D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */,
@@ -7400,6 +7418,7 @@
 				D90F481224C0023300B81C79 /* NotificationManagerViewController.swift in Sources */,
 				D96F415C23BEDFA2008616F4 /* PerfectAppViewController.swift in Sources */,
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
+				D90153FC24C6AF1D00F6D06E /* SwiftXibCustomPropertyViewController.swift in Sources */,
 				D9DE775323AA22C400E902A5 /* CQStandardOCCollectionHeaderView.m in Sources */,
 				D9B760BE24BC62E70037A7A1 /* TYPageControl.m in Sources */,
 				D9BF6917233F587300E602A4 /* GradientLabel.swift in Sources */,
@@ -7473,6 +7492,7 @@
 				D907480924B997C700744A9A /* SystemLoadingViewController.swift in Sources */,
 				D9B760B224BC5CCA0037A7A1 /* GKCycleScrollViewCell.m in Sources */,
 				D96A17E7237EFDF90018E7F1 /* LeftSideLayout.swift in Sources */,
+				D90153FF24C6AF7800F6D06E /* XibCustomNaviView.swift in Sources */,
 				D9BE259023B88E80001F4D71 /* ProtocolPersonCell.swift in Sources */,
 				D9AEB68922F6AA56006F8995 /* CQMVVMViewModel.m in Sources */,
 				D91E1D2B233E585800B1C772 /* UIImage+Util.m in Sources */,
