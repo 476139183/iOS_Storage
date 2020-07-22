@@ -79,6 +79,10 @@
 		D91A9F8422B490F7008F87F1 /* logo商标识别.md in Resources */ = {isa = PBXBuildFile; fileRef = D91A9F8322B490F7008F87F1 /* logo商标识别.md */; };
 		D91A9F8B22B49390008F87F1 /* CQRecognitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F8A22B49390008F87F1 /* CQRecognitionManager.m */; };
 		D91A9F8E22B49B36008F87F1 /* CQRecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A9F8D22B49B36008F87F1 /* CQRecognitionViewController.m */; };
+		D91AB3A824C832AA007F78D1 /* SwiftXibStackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91AB3A624C832AA007F78D1 /* SwiftXibStackController.swift */; };
+		D91AB3A924C832AA007F78D1 /* SwiftXibStackController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D91AB3A724C832AA007F78D1 /* SwiftXibStackController.xib */; };
+		D91AB3AB24C83348007F78D1 /* XibStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91AB3AA24C83348007F78D1 /* XibStackView.swift */; };
+		D91AB3AD24C8338D007F78D1 /* XibStackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D91AB3AC24C8338D007F78D1 /* XibStackView.xib */; };
 		D91E1D22233E4E9800B1C772 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91E1D21233E4E9800B1C772 /* GradientView.swift */; };
 		D91E1D25233E4EB600B1C772 /* CQGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E1D24233E4EB600B1C772 /* CQGradientView.m */; };
 		D91E1D2B233E585800B1C772 /* UIImage+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D91E1D2A233E585800B1C772 /* UIImage+Util.m */; };
@@ -890,6 +894,10 @@
 		D91A9F8A22B49390008F87F1 /* CQRecognitionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRecognitionManager.m; sourceTree = "<group>"; };
 		D91A9F8C22B49B36008F87F1 /* CQRecognitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQRecognitionViewController.h; sourceTree = "<group>"; };
 		D91A9F8D22B49B36008F87F1 /* CQRecognitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRecognitionViewController.m; sourceTree = "<group>"; };
+		D91AB3A624C832AA007F78D1 /* SwiftXibStackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftXibStackController.swift; sourceTree = "<group>"; };
+		D91AB3A724C832AA007F78D1 /* SwiftXibStackController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftXibStackController.xib; sourceTree = "<group>"; };
+		D91AB3AA24C83348007F78D1 /* XibStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibStackView.swift; sourceTree = "<group>"; };
+		D91AB3AC24C8338D007F78D1 /* XibStackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibStackView.xib; sourceTree = "<group>"; };
 		D91E1D21233E4E9800B1C772 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		D91E1D23233E4EB600B1C772 /* CQGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientView.h; sourceTree = "<group>"; };
 		D91E1D24233E4EB600B1C772 /* CQGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientView.m; sourceTree = "<group>"; };
@@ -2394,6 +2402,17 @@
 				D91A9F8A22B49390008F87F1 /* CQRecognitionManager.m */,
 			);
 			path = CQRecognitionManager;
+			sourceTree = "<group>";
+		};
+		D91AB3A524C8325A007F78D1 /* UIStackView */ = {
+			isa = PBXGroup;
+			children = (
+				D91AB3A624C832AA007F78D1 /* SwiftXibStackController.swift */,
+				D91AB3A724C832AA007F78D1 /* SwiftXibStackController.xib */,
+				D91AB3AA24C83348007F78D1 /* XibStackView.swift */,
+				D91AB3AC24C8338D007F78D1 /* XibStackView.xib */,
+			);
+			path = UIStackView;
 			sourceTree = "<group>";
 		};
 		D91E1D1E233E4D4700B1C772 /* 颜色渐变view */ = {
@@ -4388,6 +4407,7 @@
 				D96D564E24AD8615008DD9CF /* ScrollView */,
 				D96D565024AD862F008DD9CF /* TableView */,
 				D96D565224AD8658008DD9CF /* CollectionView */,
+				D91AB3A524C8325A007F78D1 /* UIStackView */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -6676,6 +6696,7 @@
 				D98DF5EB24B72A2E001B9EC9 /* SwiftUI中用UIKit.md in Resources */,
 				D96FE2BD23960E0500949006 /* ASDisplayNode.md in Resources */,
 				D98DF5DB24B7127B001B9EC9 /* yukon_charleyrivers.jpg in Resources */,
+				D91AB3A924C832AA007F78D1 /* SwiftXibStackController.xib in Resources */,
 				D9BE258223B87B48001F4D71 /* 同种model多种cell的tableView.md in Resources */,
 				D985E41B23FD08B500CF7954 /* SF-Pro-Text-Regular.otf in Resources */,
 				D9E86CCF24483C00009CCBB8 /* 正则表达式.md in Resources */,
@@ -6792,6 +6813,7 @@
 				D926BDDF22C4AF7B00A2DD3E /* 适配器模式.md in Resources */,
 				D91F258524C6EEBF0075B363 /* GradientXibController.xib in Resources */,
 				D9C7CC1822E9A9090038FD34 /* 标准TableView Swift版.md in Resources */,
+				D91AB3AD24C8338D007F78D1 /* XibStackView.xib in Resources */,
 				D98DF5D624B7127B001B9EC9 /* hiddenlake.jpg in Resources */,
 				D99FD93D246E90DC0095CEE6 /* iconfont.ttf in Resources */,
 				D985E41823FD08B500CF7954 /* SF-Pro-Text-Heavy.otf in Resources */,
@@ -7372,6 +7394,7 @@
 				D96D564824AD847C008DD9CF /* OCXibDemosViewController.swift in Sources */,
 				D93A0BF5233C72F900554EF6 /* TextureColorView.swift in Sources */,
 				D9C3D0E9246DA27200D3DF7B /* AnimationHud.swift in Sources */,
+				D91AB3A824C832AA007F78D1 /* SwiftXibStackController.swift in Sources */,
 				D93AB53F24860A2800E79EAB /* SnapKitDemoListViewController.swift in Sources */,
 				D9E51E1F249716C600DC1C04 /* FlatTableDemoViewController.swift in Sources */,
 				D96FE2C2239642AE00949006 /* ASWrapperLayoutController.swift in Sources */,
@@ -7507,6 +7530,7 @@
 				D91453FB237A606A0083FD19 /* EnumPracticeViewController.swift in Sources */,
 				D9D14510229917ED003B594C /* CQRunLoop.m in Sources */,
 				D9608BFA2369899B0053BD3E /* EnlargeActionViewController.swift in Sources */,
+				D91AB3AB24C83348007F78D1 /* XibStackView.swift in Sources */,
 				D973CD1A2488A88300C67FB9 /* GenericsCatTableViewController.swift in Sources */,
 				D93A0BF3233C700E00554EF6 /* ASTableDemoController.swift in Sources */,
 				D977FD7424C604F400AE2C1E /* BaseXibImageView.swift in Sources */,

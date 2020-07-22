@@ -22,7 +22,8 @@ class SwiftXibDemosViewController: JumpListViewController {
                           ItemModel(title: "自定义view", targetVC: SwiftXibCustomViewController()),
                           ItemModel(title: "scrollView", targetVC: SwiftXibScrollViewController()),
                           ItemModel(title: "tableView", targetVC: SwiftXibTableViewController()),
-                          ItemModel(title: "collectionView", targetVC: SwiftXibCollectionViewController())]
+                          ItemModel(title: "collectionView", targetVC: SwiftXibCollectionViewController()),
+                          ItemModel(title: "stackView", targetVC: SwiftXibStackController())]
         
     }
     
