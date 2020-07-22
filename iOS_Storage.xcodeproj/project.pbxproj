@@ -462,6 +462,7 @@
 		D977FD7024C602AA00AE2C1E /* BaseXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977FD6F24C602AA00AE2C1E /* BaseXibView.swift */; };
 		D977FD7224C604A200AE2C1E /* BaseXibButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977FD7124C604A200AE2C1E /* BaseXibButton.swift */; };
 		D977FD7424C604F400AE2C1E /* BaseXibImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977FD7324C604F400AE2C1E /* BaseXibImageView.swift */; };
+		D9799C7424C87D92000D3AA8 /* QuestionStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9799C7324C87D92000D3AA8 /* QuestionStorageViewController.swift */; };
 		D97D0CAF23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D0CAE23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift */; };
 		D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */; };
 		D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97D50FF2350AE3800A0F570 /* trade_rule.txt */; };
@@ -1370,6 +1371,7 @@
 		D977FD6F24C602AA00AE2C1E /* BaseXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXibView.swift; sourceTree = "<group>"; };
 		D977FD7124C604A200AE2C1E /* BaseXibButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXibButton.swift; sourceTree = "<group>"; };
 		D977FD7324C604F400AE2C1E /* BaseXibImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXibImageView.swift; sourceTree = "<group>"; };
+		D9799C7324C87D92000D3AA8 /* QuestionStorageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStorageViewController.swift; sourceTree = "<group>"; };
 		D97D0CAE23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSectionHeaderPositionViewController.swift; sourceTree = "<group>"; };
 		D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleView.swift; sourceTree = "<group>"; };
 		D97D50FF2350AE3800A0F570 /* trade_rule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trade_rule.txt; sourceTree = "<group>"; };
@@ -4803,6 +4805,14 @@
 			path = Xib;
 			sourceTree = "<group>";
 		};
+		D9799C7224C87D1A000D3AA8 /* 收集 */ = {
+			isa = PBXGroup;
+			children = (
+				D9799C7324C87D92000D3AA8 /* QuestionStorageViewController.swift */,
+			);
+			path = "收集";
+			sourceTree = "<group>";
+		};
 		D97D0CAD23B5FF1B001E6FB7 /* 修改组头悬停位置 */ = {
 			isa = PBXGroup;
 			children = (
@@ -6493,6 +6503,7 @@
 			isa = PBXGroup;
 			children = (
 				D9402A882101E50800BF792F /* interview_contents.plist */,
+				D9799C7224C87D1A000D3AA8 /* 收集 */,
 				D973CD1D2489E01F00C67FB9 /* 内存管理 */,
 				D9545B2322930645008B6355 /* runtime */,
 				D9545B242293064E008B6355 /* runloop */,
@@ -7512,6 +7523,7 @@
 				D96D565724AD8706008DD9CF /* SwiftXibCustomViewController.swift in Sources */,
 				D92DA5C922C1B4D000E91212 /* PrototypePerson.m in Sources */,
 				D9DE6CC920FEE9C000C8D4FE /* CQFilterCell.m in Sources */,
+				D9799C7424C87D92000D3AA8 /* QuestionStorageViewController.swift in Sources */,
 				D944B6BA245AD6F80077F58B /* SwiftGrammarViewController.swift in Sources */,
 				D97667D8249B009600A8BEDD /* ShoeCell.swift in Sources */,
 				D91A9F7F22B3D912008F87F1 /* CountDownButtonViewController.swift in Sources */,
