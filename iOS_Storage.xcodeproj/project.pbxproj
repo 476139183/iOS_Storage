@@ -463,6 +463,7 @@
 		D977FD7224C604A200AE2C1E /* BaseXibButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977FD7124C604A200AE2C1E /* BaseXibButton.swift */; };
 		D977FD7424C604F400AE2C1E /* BaseXibImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977FD7324C604F400AE2C1E /* BaseXibImageView.swift */; };
 		D9799C7424C87D92000D3AA8 /* QuestionStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9799C7324C87D92000D3AA8 /* QuestionStorageViewController.swift */; };
+		D9799C7624C9C3F3000D3AA8 /* StackDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9799C7524C9C3F3000D3AA8 /* StackDemoViewController.swift */; };
 		D97D0CAF23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D0CAE23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift */; };
 		D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */; };
 		D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97D50FF2350AE3800A0F570 /* trade_rule.txt */; };
@@ -1372,6 +1373,7 @@
 		D977FD7124C604A200AE2C1E /* BaseXibButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXibButton.swift; sourceTree = "<group>"; };
 		D977FD7324C604F400AE2C1E /* BaseXibImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXibImageView.swift; sourceTree = "<group>"; };
 		D9799C7324C87D92000D3AA8 /* QuestionStorageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStorageViewController.swift; sourceTree = "<group>"; };
+		D9799C7524C9C3F3000D3AA8 /* StackDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StackDemoViewController.swift; path = "iOS_Storage/Contents/面试/收集/StackDemoViewController.swift"; sourceTree = SOURCE_ROOT; };
 		D97D0CAE23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSectionHeaderPositionViewController.swift; sourceTree = "<group>"; };
 		D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleView.swift; sourceTree = "<group>"; };
 		D97D50FF2350AE3800A0F570 /* trade_rule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trade_rule.txt; sourceTree = "<group>"; };
@@ -3941,6 +3943,7 @@
 		D957B5EE23F92A7900E569D0 /* 栈 */ = {
 			isa = PBXGroup;
 			children = (
+				D9799C7524C9C3F3000D3AA8 /* StackDemoViewController.swift */,
 			);
 			path = "栈";
 			sourceTree = "<group>";
@@ -7638,6 +7641,7 @@
 				D9C2807924A09A6800C66F61 /* HandyJSONViewController.swift in Sources */,
 				D92D105A23066A42002203A1 /* CQCheckDeallocViewController.m in Sources */,
 				D95A3DD22484DCBF00F0166C /* KVOBasicViewController.m in Sources */,
+				D9799C7624C9C3F3000D3AA8 /* StackDemoViewController.swift in Sources */,
 				D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */,
 				D92CBD6523F67901003A6EDC /* RedDotSegmentViewController.swift in Sources */,
 				D937688A23580A3300515315 /* CollectionViewLayoutDemoViewController.swift in Sources */,
