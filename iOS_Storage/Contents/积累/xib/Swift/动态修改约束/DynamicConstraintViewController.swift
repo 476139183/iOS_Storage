@@ -8,22 +8,43 @@
 
 import UIKit
 
+class DynamicConstraintViewController1: CQBaseViewController {
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let vc = DynamicConstraintViewController()
+        present(vc, animated: false, completion: nil)
+    }
+    
+}
+
 class DynamicConstraintViewController: CQBaseViewController {
     
-    @IBOutlet weak var topConstraint: NSLayoutConstraint!
-    
+    @IBOutlet weak var redViewHeight: NSLayoutConstraint!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
-        topConstraint.constant = 200
+        redViewHeight.constant = 0
         
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        topConstraint.constant += 20
+    override func awakeFromNib() {
+        super.awakeFromNib()
     }
-
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        
+        UIView.animate(withDuration: 0.2) {
+            self.redViewHeight.constant = 300
+            self.view.layoutIfNeeded()
+        }
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+    }
+    
 }

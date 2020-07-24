@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DynamicConstraintViewController" customModule="iOS_Storage" customModuleProvider="target">
             <connections>
-                <outlet property="topConstraint" destination="xI0-gL-q31" id="9V6-jd-Y5X"/>
+                <outlet property="redViewHeight" destination="7On-Th-Ovo" id="qdq-1d-uvL"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,12 +18,11 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P28-w2-ca8" customClass="BaseXibView" customModule="iOS_Storage" customModuleProvider="target">
-                    <rect key="frame" x="33" y="88" width="221" height="68"/>
+                <view clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P28-w2-ca8" customClass="BaseXibView" customModule="iOS_Storage" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="549" width="414" height="347"/>
                     <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="221" id="1Ar-cp-L0E"/>
-                        <constraint firstAttribute="height" constant="68" id="9L5-pf-kJ6"/>
+                        <constraint firstAttribute="height" constant="300" id="7On-Th-Ovo"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -40,11 +39,12 @@
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
-                <constraint firstItem="P28-w2-ca8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="33" id="nPQ-QO-d3a"/>
-                <constraint firstItem="P28-w2-ca8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="88" id="xI0-gL-q31"/>
+                <constraint firstItem="P28-w2-ca8" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="0D7-mu-Wse"/>
+                <constraint firstItem="P28-w2-ca8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Bg3-9l-usV"/>
+                <constraint firstAttribute="bottom" secondItem="P28-w2-ca8" secondAttribute="bottom" id="Hq7-7H-HnV"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="42" y="66"/>
+            <point key="canvasLocation" x="40.579710144927539" y="65.625"/>
         </view>
     </objects>
 </document>

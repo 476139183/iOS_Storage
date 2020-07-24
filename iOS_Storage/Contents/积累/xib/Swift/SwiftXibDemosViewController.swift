@@ -18,7 +18,7 @@ class SwiftXibDemosViewController: JumpListViewController {
         self.dataArray = [ItemModel(title: "xib中使用xib", targetVC: XibInXibViewController()),
                           ItemModel(title: "添加自定义属性", targetVC: SwiftXibCustomPropertyViewController()),
                           ItemModel(title: "可视化圆角", targetVC: XibCornerViewController()),
-                          ItemModel(title: "动态修改约束", targetVC: DynamicConstraintViewController()),
+                          ItemModel(title: "动态修改约束", targetVC: DynamicConstraintViewController1()),
                           ItemModel(title: "自定义view", targetVC: SwiftXibCustomViewController()),
                           ItemModel(title: "scrollView", targetVC: SwiftXibScrollViewController()),
                           ItemModel(title: "tableView", targetVC: SwiftXibTableViewController()),
