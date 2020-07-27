@@ -16,15 +16,11 @@ class CADisplayLinkDemoViewController: CQBaseViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let a: Double = 112345
+        let minute: Int = Int(a / 1000 / 60)
+        let second: Double = Double(a/1000.0) - Double(minute * 60)
+        print(second)
     }
-    */
 
 }
