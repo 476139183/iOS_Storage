@@ -23,6 +23,7 @@ class SwiftGrammarViewController: JumpListViewController {
                           ItemModel(title: "异常处理", targetVC: ErrorHandleViewController()),
                           ItemModel(title: "String", targetVC: StringPracticeViewController()),
                           ItemModel(title: "Array", targetVC: ArrayPracticeViewController()),
+                          ItemModel(title: "Set", targetVC: SetDemoViewController()),
                           ItemModel(title: "Dict", targetVC: DictPracticeViewController()),
                           ItemModel(title: "Number", targetVC: NumPracticeViewController()),
                           ItemModel(title: "Date", targetVC: DatePracticeViewController()),
