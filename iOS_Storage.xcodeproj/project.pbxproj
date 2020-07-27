@@ -656,6 +656,8 @@
 		D9C0E7A824CE8AFB00184C71 /* 各种timer比较.md in Resources */ = {isa = PBXBuildFile; fileRef = D9C0E7A724CE8AFB00184C71 /* 各种timer比较.md */; };
 		D9C0E7AB24CE8DC800184C71 /* CADisplayLinkDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0E7AA24CE8DC800184C71 /* CADisplayLinkDemoViewController.swift */; };
 		D9C0E7AE24CE8E4400184C71 /* GCDTimerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0E7AD24CE8E4400184C71 /* GCDTimerDemoViewController.swift */; };
+		D9C0E7B024CEB9C500184C71 /* GCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0E7AF24CEB9C500184C71 /* GCDTimer.swift */; };
+		D9C0E7B224CEBD9C00184C71 /* MCGCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0E7B124CEBD9C00184C71 /* MCGCDTimer.swift */; };
 		D9C0EFBD23A0A29B0053EEAC /* GradientNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */; };
 		D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352B23853059008C0D59 /* RefreshViewController.swift */; };
 		D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */; };
@@ -1611,6 +1613,8 @@
 		D9C0E7A724CE8AFB00184C71 /* 各种timer比较.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "各种timer比较.md"; sourceTree = "<group>"; };
 		D9C0E7AA24CE8DC800184C71 /* CADisplayLinkDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADisplayLinkDemoViewController.swift; sourceTree = "<group>"; };
 		D9C0E7AD24CE8E4400184C71 /* GCDTimerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDTimerDemoViewController.swift; sourceTree = "<group>"; };
+		D9C0E7AF24CEB9C500184C71 /* GCDTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDTimer.swift; sourceTree = "<group>"; };
+		D9C0E7B124CEBD9C00184C71 /* MCGCDTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCGCDTimer.swift; sourceTree = "<group>"; };
 		D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientNaviViewController.swift; sourceTree = "<group>"; };
 		D9C2352B23853059008C0D59 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
 		D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRefreshHeader.swift; sourceTree = "<group>"; };
@@ -5743,6 +5747,8 @@
 		D9C0E7AC24CE8DCD00184C71 /* GCDTimer */ = {
 			isa = PBXGroup;
 			children = (
+				D9C0E7B124CEBD9C00184C71 /* MCGCDTimer.swift */,
+				D9C0E7AF24CEB9C500184C71 /* GCDTimer.swift */,
 				D9C0E7AD24CE8E4400184C71 /* GCDTimerDemoViewController.swift */,
 			);
 			path = GCDTimer;
@@ -7176,6 +7182,7 @@
 				D973CD182488A26800C67FB9 /* GenericsPersonTableViewController.swift in Sources */,
 				D9C5E5CA23424D5000D101F1 /* YYDemoListViewController.swift in Sources */,
 				D92D69BC20DE3295002BA9C0 /* CQCategoryView.m in Sources */,
+				D9C0E7B024CEB9C500184C71 /* GCDTimer.swift in Sources */,
 				D9C5B44C233DAE3500299AFB /* MyCellNode7.swift in Sources */,
 				D9BFEAD324581F8F00E25133 /* ElegantViewController.swift in Sources */,
 				D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */,
@@ -7716,6 +7723,7 @@
 				D98DF5C124B7110B001B9EC9 /* Landmark.swift in Sources */,
 				D941A128245EE1C900844787 /* UIButtonDemosViewController.swift in Sources */,
 				D91E53E1221A90E400AC1DEA /* CQSearchController.m in Sources */,
+				D9C0E7B224CEBD9C00184C71 /* MCGCDTimer.swift in Sources */,
 				D9C3D0E7246DA1E300D3DF7B /* AnimationHudViewController.swift in Sources */,
 				D92CBD7023F78B8E003A6EDC /* FontTestViewController.swift in Sources */,
 				D9ED81E224580A4600726E49 /* JumpListViewController.swift in Sources */,

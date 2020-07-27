@@ -9,22 +9,33 @@
 import UIKit
 
 class GCDTimerDemoViewController: CQBaseViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    deinit {
+        MCGCDTimer.shared.cancleTimer(WithTimerName: "GCDTimer")
     }
-    */
-
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        let timer = GCDTimer(intervalInSecs: 1)
+//
+//        timer.Event = {
+//
+//            print("00")
+//            // Send some data to the server
+//        }
+//
+//        timer.start()
+        
+        MCGCDTimer.shared.scheduledDispatchTimer(WithTimerName: "GCDTimer", timeInterval: 0.001, queue: .main, repeats: true) {
+            //code need to be execute
+            NSLog("111")
+        }
+    }
+    
 }
