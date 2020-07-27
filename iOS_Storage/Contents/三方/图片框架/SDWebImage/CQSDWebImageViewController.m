@@ -7,8 +7,11 @@
 //
 
 #import "CQSDWebImageViewController.h"
+#import <UIImageView+WebCache.h>
 
 @interface CQSDWebImageViewController ()
+
+@property (nonatomic, strong) UIImageView *imageView;
 
 @end
 
@@ -17,16 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(90, 90, 260, 90)];
+    [self.view addSubview:self.imageView];
+    self.imageView.backgroundColor = [UIColor grayColor];
+    [self.imageView sd_setImageWithURL:[NSURL URLWithString:@"https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png"]];
+    
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
