@@ -651,6 +651,11 @@
 		D9BFEAD52458341C00E25133 /* SelectorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BFEAD42458341C00E25133 /* SelectorListViewController.swift */; };
 		D9C0E79E24CE756800184C71 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0E79D24CE756800184C71 /* Queue.swift */; };
 		D9C0E7A024CE7BB000184C71 /* QueueDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0E79F24CE7BB000184C71 /* QueueDemoViewController.swift */; };
+		D9C0E7A324CE8A2000184C71 /* TimerDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0E7A224CE8A2000184C71 /* TimerDemosViewController.swift */; };
+		D9C0E7A624CE8ADD00184C71 /* NSTimerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0E7A524CE8ADD00184C71 /* NSTimerDemoViewController.swift */; };
+		D9C0E7A824CE8AFB00184C71 /* 各种timer比较.md in Resources */ = {isa = PBXBuildFile; fileRef = D9C0E7A724CE8AFB00184C71 /* 各种timer比较.md */; };
+		D9C0E7AB24CE8DC800184C71 /* CADisplayLinkDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0E7AA24CE8DC800184C71 /* CADisplayLinkDemoViewController.swift */; };
+		D9C0E7AE24CE8E4400184C71 /* GCDTimerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0E7AD24CE8E4400184C71 /* GCDTimerDemoViewController.swift */; };
 		D9C0EFBD23A0A29B0053EEAC /* GradientNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */; };
 		D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352B23853059008C0D59 /* RefreshViewController.swift */; };
 		D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */; };
@@ -1601,6 +1606,11 @@
 		D9BFEAD42458341C00E25133 /* SelectorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorListViewController.swift; sourceTree = "<group>"; };
 		D9C0E79D24CE756800184C71 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		D9C0E79F24CE7BB000184C71 /* QueueDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueDemoViewController.swift; sourceTree = "<group>"; };
+		D9C0E7A224CE8A2000184C71 /* TimerDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDemosViewController.swift; sourceTree = "<group>"; };
+		D9C0E7A524CE8ADD00184C71 /* NSTimerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSTimerDemoViewController.swift; sourceTree = "<group>"; };
+		D9C0E7A724CE8AFB00184C71 /* 各种timer比较.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "各种timer比较.md"; sourceTree = "<group>"; };
+		D9C0E7AA24CE8DC800184C71 /* CADisplayLinkDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADisplayLinkDemoViewController.swift; sourceTree = "<group>"; };
+		D9C0E7AD24CE8E4400184C71 /* GCDTimerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDTimerDemoViewController.swift; sourceTree = "<group>"; };
 		D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientNaviViewController.swift; sourceTree = "<group>"; };
 		D9C2352B23853059008C0D59 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
 		D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRefreshHeader.swift; sourceTree = "<group>"; };
@@ -3318,6 +3328,7 @@
 				D92CBD6C23F78A8E003A6EDC /* 各种字体 */,
 				D9E86CBB2447EC06009CCBB8 /* 各种手势 */,
 				D940201224CC1DBA00934BA0 /* 各种picker */,
+				D9C0E7A124CE89FA00184C71 /* 各种timer */,
 				D9F72DDF244053C0007BBB05 /* 正则表达式 */,
 				D9F12E412467E7D500B3D597 /* 浮层 */,
 				D937689223585D2400515315 /* MapDemo */,
@@ -5701,6 +5712,42 @@
 			path = "基于协议";
 			sourceTree = "<group>";
 		};
+		D9C0E7A124CE89FA00184C71 /* 各种timer */ = {
+			isa = PBXGroup;
+			children = (
+				D9C0E7A224CE8A2000184C71 /* TimerDemosViewController.swift */,
+				D9C0E7A724CE8AFB00184C71 /* 各种timer比较.md */,
+				D9C0E7A424CE8A3800184C71 /* NSTimer */,
+				D9C0E7A924CE8BE800184C71 /* CADisplayLink */,
+				D9C0E7AC24CE8DCD00184C71 /* GCDTimer */,
+			);
+			path = "各种timer";
+			sourceTree = "<group>";
+		};
+		D9C0E7A424CE8A3800184C71 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				D9C0E7A524CE8ADD00184C71 /* NSTimerDemoViewController.swift */,
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		D9C0E7A924CE8BE800184C71 /* CADisplayLink */ = {
+			isa = PBXGroup;
+			children = (
+				D9C0E7AA24CE8DC800184C71 /* CADisplayLinkDemoViewController.swift */,
+			);
+			path = CADisplayLink;
+			sourceTree = "<group>";
+		};
+		D9C0E7AC24CE8DCD00184C71 /* GCDTimer */ = {
+			isa = PBXGroup;
+			children = (
+				D9C0E7AD24CE8E4400184C71 /* GCDTimerDemoViewController.swift */,
+			);
+			path = GCDTimer;
+			sourceTree = "<group>";
+		};
 		D9C0EFBB23A0A20D0053EEAC /* 导航栏渐变tableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -6864,6 +6911,7 @@
 				D92D69C420DE359C002BA9C0 /* LaunchScreen.storyboard in Resources */,
 				D9CD7BF22474E65E000B7EB4 /* class与struct.md in Resources */,
 				D91F258A24C6F57B0075B363 /* XibInXibViewController.xib in Resources */,
+				D9C0E7A824CE8AFB00184C71 /* 各种timer比较.md in Resources */,
 				D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */,
 				D9E30C37236D5FC50042BC74 /* img_2.png in Resources */,
 				D974BCDF2493862A00942ED2 /* ding2.gif in Resources */,
@@ -7194,6 +7242,7 @@
 				D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */,
 				D965A2BE234E3AFB00041D69 /* CameraManagerViewController.swift in Sources */,
 				D92CBD7423F7A44C003A6EDC /* AlamofireRequestViewController.swift in Sources */,
+				D9C0E7AB24CE8DC800184C71 /* CADisplayLinkDemoViewController.swift in Sources */,
 				D9751690247B60E900D45C92 /* RxUIView+Extension.swift in Sources */,
 				D9F93371229D7D2400C7B2E0 /* CQOperationController.m in Sources */,
 				D916DA2923A24B2000CB0CFA /* CheckViewMemoryLeakViewController.swift in Sources */,
@@ -7467,6 +7516,7 @@
 				D96D566C24ADB3C2008DD9CF /* ImaginaryLineViewController.swift in Sources */,
 				D95A3DB12482063800F0166C /* LocalGifCell.swift in Sources */,
 				D900D9B322F40CC3005C3DBE /* SnapKitDemoViewController.swift in Sources */,
+				D9C0E7A324CE8A2000184C71 /* TimerDemosViewController.swift in Sources */,
 				D973CD292489E4C300C67FB9 /* CQMemoryLayoutViewController.m in Sources */,
 				D91F258424C6EEBF0075B363 /* GradientXibController.swift in Sources */,
 				D96D564124AC9D6D008DD9CF /* BaseCollectionViewCell.swift in Sources */,
@@ -7542,6 +7592,7 @@
 				D9697FED22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift in Sources */,
 				D9BF6908233EF61300E602A4 /* CQGradientButton.m in Sources */,
 				D926BDB522C3226C00A2DD3E /* CQFacadeViewController.m in Sources */,
+				D9C0E7A624CE8ADD00184C71 /* NSTimerDemoViewController.swift in Sources */,
 				D9CEB46C2355D5080050E7AD /* PlaceholderTextView.swift in Sources */,
 				D96D566224AD9058008DD9CF /* SwiftXibRedView.swift in Sources */,
 				D926BDF222C6147E00A2DD3E /* RoleStateMemento.m in Sources */,
@@ -7654,6 +7705,7 @@
 				D91A9F7D22B3D89E008F87F1 /* NSTimer+CQBlockSupport.m in Sources */,
 				D97246FA237EB11D001671AD /* LeftSideCellViewController.swift in Sources */,
 				D930957023B2FDFD00837CA6 /* StaticMyTableViewController.swift in Sources */,
+				D9C0E7AE24CE8E4400184C71 /* GCDTimerDemoViewController.swift in Sources */,
 				D9F72DE12440545E007BBB05 /* RegularExpressionViewController.swift in Sources */,
 				D9BE258023B8711E001F4D71 /* QuickTableViewController.swift in Sources */,
 				D90F488B24C1517200B81C79 /* CornerTestViewController.swift in Sources */,
