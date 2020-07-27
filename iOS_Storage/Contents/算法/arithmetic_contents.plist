@@ -40,7 +40,15 @@
 		<key>controller_name</key>
 		<string>StackDemoViewController</string>
 		<key>url</key>
-		<string>链表.md</string>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>队列</string>
+		<key>controller_name</key>
+		<string>QueueDemoViewController</string>
+		<key>url</key>
+		<string></string>
 	</dict>
 </array>
 </plist>

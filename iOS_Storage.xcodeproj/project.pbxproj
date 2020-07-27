@@ -649,6 +649,8 @@
 		D9BFEAD124581AF200E25133 /* DisplayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BFEAD024581AF200E25133 /* DisplayListViewController.swift */; };
 		D9BFEAD324581F8F00E25133 /* ElegantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BFEAD224581F8F00E25133 /* ElegantViewController.swift */; };
 		D9BFEAD52458341C00E25133 /* SelectorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BFEAD42458341C00E25133 /* SelectorListViewController.swift */; };
+		D9C0E79E24CE756800184C71 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0E79D24CE756800184C71 /* Queue.swift */; };
+		D9C0E7A024CE7BB000184C71 /* QueueDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0E79F24CE7BB000184C71 /* QueueDemoViewController.swift */; };
 		D9C0EFBD23A0A29B0053EEAC /* GradientNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */; };
 		D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352B23853059008C0D59 /* RefreshViewController.swift */; };
 		D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */; };
@@ -1597,6 +1599,8 @@
 		D9BFEAD024581AF200E25133 /* DisplayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayListViewController.swift; sourceTree = "<group>"; };
 		D9BFEAD224581F8F00E25133 /* ElegantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegantViewController.swift; sourceTree = "<group>"; };
 		D9BFEAD42458341C00E25133 /* SelectorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorListViewController.swift; sourceTree = "<group>"; };
+		D9C0E79D24CE756800184C71 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		D9C0E79F24CE7BB000184C71 /* QueueDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueDemoViewController.swift; sourceTree = "<group>"; };
 		D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientNaviViewController.swift; sourceTree = "<group>"; };
 		D9C2352B23853059008C0D59 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
 		D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRefreshHeader.swift; sourceTree = "<group>"; };
@@ -3973,6 +3977,8 @@
 		D957B5EF23F962B100E569D0 /* 队列 */ = {
 			isa = PBXGroup;
 			children = (
+				D9C0E79D24CE756800184C71 /* Queue.swift */,
+				D9C0E79F24CE7BB000184C71 /* QueueDemoViewController.swift */,
 			);
 			path = "队列";
 			sourceTree = "<group>";
@@ -7202,6 +7208,7 @@
 				D9519A0922BFAE6C00E3036B /* Adidas.m in Sources */,
 				D9A32B7E247F67ED00295E2F /* EleganceDocuViewController.swift in Sources */,
 				D9A65EED235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift in Sources */,
+				D9C0E7A024CE7BB000184C71 /* QueueDemoViewController.swift in Sources */,
 				D90F480724BEDB5800B81C79 /* GetVCViewController.swift in Sources */,
 				D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */,
 				D9C0EFBD23A0A29B0053EEAC /* GradientNaviViewController.swift in Sources */,
@@ -7318,6 +7325,7 @@
 				D944FD32249878CE00C8DB52 /* FlowerModel.swift in Sources */,
 				D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */,
 				D90F489524C185C200B81C79 /* UIView+XibInit.swift in Sources */,
+				D9C0E79E24CE756800184C71 /* Queue.swift in Sources */,
 				D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */,
 				D96D563F24AC9CE2008DD9CF /* BaseCollectionViewController.swift in Sources */,
 				D9F12E432467E84800B3D597 /* FloatingLayerDemoViewController.swift in Sources */,
