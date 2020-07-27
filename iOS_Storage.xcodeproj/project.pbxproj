@@ -224,6 +224,8 @@
 		D94016932361EE9C00580AAC /* accumulate_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D94016922361EE9C00580AAC /* accumulate_contents.plist */; };
 		D94016962361F01500580AAC /* StringPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94016952361F01500580AAC /* StringPracticeViewController.swift */; };
 		D940169C2361F16F00580AAC /* ArrayPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D940169B2361F16F00580AAC /* ArrayPracticeViewController.swift */; };
+		D940201424CC1E3800934BA0 /* PickerDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D940201324CC1E3800934BA0 /* PickerDemosViewController.swift */; };
+		D940201724CC1F9500934BA0 /* DateTimePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D940201624CC1F9500934BA0 /* DateTimePickerViewController.swift */; };
 		D9402A892101E5B500BF792F /* interview_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9402A882101E50800BF792F /* interview_contents.plist */; };
 		D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */; };
 		D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9402A922101E7E400BF792F /* CQLockViewController.m */; };
@@ -1084,6 +1086,8 @@
 		D94016922361EE9C00580AAC /* accumulate_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = accumulate_contents.plist; sourceTree = "<group>"; };
 		D94016952361F01500580AAC /* StringPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPracticeViewController.swift; sourceTree = "<group>"; };
 		D940169B2361F16F00580AAC /* ArrayPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPracticeViewController.swift; sourceTree = "<group>"; };
+		D940201324CC1E3800934BA0 /* PickerDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerDemosViewController.swift; sourceTree = "<group>"; };
+		D940201624CC1F9500934BA0 /* DateTimePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimePickerViewController.swift; sourceTree = "<group>"; };
 		D9402A882101E50800BF792F /* interview_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = interview_contents.plist; sourceTree = "<group>"; };
 		D9402A8E2101E79D00BF792F /* CQMultiInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMultiInterfaceViewController.h; sourceTree = "<group>"; };
 		D9402A8F2101E79D00BF792F /* CQMultiInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMultiInterfaceViewController.m; sourceTree = "<group>"; };
@@ -3308,8 +3312,9 @@
 				D94253192366D2EA0031356C /* 各种动画 */,
 				D982964923976966001C05AE /* 各种跳转 */,
 				D92CBD6C23F78A8E003A6EDC /* 各种字体 */,
-				D9F72DDF244053C0007BBB05 /* 正则表达式 */,
 				D9E86CBB2447EC06009CCBB8 /* 各种手势 */,
+				D940201224CC1DBA00934BA0 /* 各种picker */,
+				D9F72DDF244053C0007BBB05 /* 正则表达式 */,
 				D9F12E412467E7D500B3D597 /* 浮层 */,
 				D937689223585D2400515315 /* MapDemo */,
 				D95885BA24519D9C00CD9FDD /* 视频播放器 */,
@@ -3377,6 +3382,23 @@
 				D994A6D923A5E4C10032E540 /* ControlFlowViewConroller.swift */,
 			);
 			path = "流程控制";
+			sourceTree = "<group>";
+		};
+		D940201224CC1DBA00934BA0 /* 各种picker */ = {
+			isa = PBXGroup;
+			children = (
+				D940201324CC1E3800934BA0 /* PickerDemosViewController.swift */,
+				D940201524CC1E9100934BA0 /* 日期与时间 */,
+			);
+			path = "各种picker";
+			sourceTree = "<group>";
+		};
+		D940201524CC1E9100934BA0 /* 日期与时间 */ = {
+			isa = PBXGroup;
+			children = (
+				D940201624CC1F9500934BA0 /* DateTimePickerViewController.swift */,
+			);
+			path = "日期与时间";
 			sourceTree = "<group>";
 		};
 		D9402A8A2101E5CB00BF792F /* 请求多个接口 */ = {
@@ -7106,6 +7128,7 @@
 				D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */,
 				D97D0CAF23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift in Sources */,
 				D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */,
+				D940201424CC1E3800934BA0 /* PickerDemosViewController.swift in Sources */,
 				D96F415F23BEE051008616F4 /* CQElegantOCViewController.m in Sources */,
 				D9D14515229920CB003B594C /* CQKVCController.m in Sources */,
 				D95885C024528DE200CD9FDD /* AVPlayerDemoViewController.swift in Sources */,
@@ -7585,6 +7608,7 @@
 				D9C7CBF322E9552A0038FD34 /* ObjectMapperDemoViewController.swift in Sources */,
 				D9B6313D23BB30CD003D95D9 /* NumPracticeViewController.swift in Sources */,
 				D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */,
+				D940201724CC1F9500934BA0 /* DateTimePickerViewController.swift in Sources */,
 				D95199F322BDF59A00E3036B /* CQFactoryViewController.m in Sources */,
 				D9F7DEFE2449655600A63632 /* TTTLabelViewController.swift in Sources */,
 				D98DF5E224B71612001B9EC9 /* LandmarkList.swift in Sources */,

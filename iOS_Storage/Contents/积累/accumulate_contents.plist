@@ -92,17 +92,25 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>正则表达式</string>
+		<string>各种手势</string>
 		<key>controller_name</key>
-		<string>RegularExpressionViewController</string>
+		<string>GestureViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>
 	<dict>
 		<key>demo_name</key>
-		<string>各种手势</string>
+		<string>各种picker</string>
 		<key>controller_name</key>
-		<string>GestureViewController</string>
+		<string>PickerDemosViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
+		<string>正则表达式</string>
+		<key>controller_name</key>
+		<string>RegularExpressionViewController</string>
 		<key>url</key>
 		<string></string>
 	</dict>
