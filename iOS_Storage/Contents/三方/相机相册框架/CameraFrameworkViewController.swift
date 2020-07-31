@@ -15,7 +15,8 @@ class CameraFrameworkViewController: JumpListViewController {
 
         // Do any additional setup after loading the view.
         
-        self.dataArray = [ItemModel(title: "TZImagePickerController", targetVC: TZImagePickerDemoController()),
+        self.dataArray = [ItemModel(title: "TZImagePickerController单张", targetVC: TZImagePickerDemoController()),
+                          ItemModel(title: "TZImagePickerController多张", targetVC: TZImagePickerDemoController2()),
                           ItemModel(title: "CameraManager", targetVC: CameraManagerViewController())]
         
     }

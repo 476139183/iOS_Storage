@@ -811,6 +811,7 @@
 		D9F9336E229D7CEB00C7B2E0 /* CQPthreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F9336D229D7CEB00C7B2E0 /* CQPthreadController.m */; };
 		D9F93371229D7D2400C7B2E0 /* CQOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F93370229D7D2400C7B2E0 /* CQOperationController.m */; };
 		D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F93373229D811B00C7B2E0 /* MultiThreadController.swift */; };
+		D9F957B724D3CD9F00D0925B /* TZImagePickerDemoController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F957B624D3CD9F00D0925B /* TZImagePickerDemoController2.swift */; };
 		D9FE875A23C5D3A1000E94CB /* DSActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FE875923C5D3A1000E94CB /* DSActionSheet.swift */; };
 		D9FE875C23C5EADF000E94CB /* DSActionSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FE875B23C5EADF000E94CB /* DSActionSheetController.swift */; };
 		D9FF65D4212AC0F200B06371 /* CQTimerCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF65D3212AC0F200B06371 /* CQTimerCellController.m */; };
@@ -1815,6 +1816,7 @@
 		D9F9336F229D7D2400C7B2E0 /* CQOperationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQOperationController.h; sourceTree = "<group>"; };
 		D9F93370229D7D2400C7B2E0 /* CQOperationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQOperationController.m; sourceTree = "<group>"; };
 		D9F93373229D811B00C7B2E0 /* MultiThreadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiThreadController.swift; sourceTree = "<group>"; };
+		D9F957B624D3CD9F00D0925B /* TZImagePickerDemoController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TZImagePickerDemoController2.swift; sourceTree = "<group>"; };
 		D9FE875923C5D3A1000E94CB /* DSActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSActionSheet.swift; sourceTree = "<group>"; };
 		D9FE875B23C5EADF000E94CB /* DSActionSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSActionSheetController.swift; sourceTree = "<group>"; };
 		D9FF65D2212AC0F200B06371 /* CQTimerCellController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTimerCellController.h; sourceTree = "<group>"; };
@@ -5158,7 +5160,8 @@
 		D9A32B67247E035E00295E2F /* TZImagePickerController */ = {
 			isa = PBXGroup;
 			children = (
-				D9A32B68247E038F00295E2F /* TZImagePickerDemoController.swift */,
+				D9F957B424D3CD6400D0925B /* 单张 */,
+				D9F957B524D3CD7700D0925B /* 多张 */,
 			);
 			path = TZImagePickerController;
 			sourceTree = "<group>";
@@ -6675,6 +6678,22 @@
 			path = "OC反射机制";
 			sourceTree = "<group>";
 		};
+		D9F957B424D3CD6400D0925B /* 单张 */ = {
+			isa = PBXGroup;
+			children = (
+				D9A32B68247E038F00295E2F /* TZImagePickerDemoController.swift */,
+			);
+			path = "单张";
+			sourceTree = "<group>";
+		};
+		D9F957B524D3CD7700D0925B /* 多张 */ = {
+			isa = PBXGroup;
+			children = (
+				D9F957B624D3CD9F00D0925B /* TZImagePickerDemoController2.swift */,
+			);
+			path = "多张";
+			sourceTree = "<group>";
+		};
 		D9FE875823C5D363000E94CB /* DSActionSheet */ = {
 			isa = PBXGroup;
 			children = (
@@ -7383,6 +7402,7 @@
 				D9C7CC1122E99DB60038FD34 /* CQStandardTableSectionHeaderView.m in Sources */,
 				D9AC3CAD22AFEDD3007DDBD0 /* CQRouteManager.m in Sources */,
 				D953284B2399EF4400C15136 /* CQMemoryLeakManager.m in Sources */,
+				D9F957B724D3CD9F00D0925B /* TZImagePickerDemoController2.swift in Sources */,
 				D9A39F8422B4D36A00FEA5F5 /* CQComponentViewController.m in Sources */,
 				D9E86CC72447EEA0009CCBB8 /* PinchGestureViewController.swift in Sources */,
 				D904C515234C9C00002DD939 /* PopMenuButtonViewController.swift in Sources */,
