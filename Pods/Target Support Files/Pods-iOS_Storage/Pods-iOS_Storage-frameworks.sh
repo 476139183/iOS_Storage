@@ -195,6 +195,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"
 fi
@@ -233,6 +234,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"
 fi

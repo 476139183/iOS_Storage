@@ -517,7 +517,6 @@
 		D98DF5EB24B72A2E001B9EC9 /* SwiftUI中用UIKit.md in Resources */ = {isa = PBXBuildFile; fileRef = D98DF5EA24B72A2E001B9EC9 /* SwiftUI中用UIKit.md */; };
 		D98DF5ED24B80D49001B9EC9 /* SimpleTextRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98DF5EC24B80D49001B9EC9 /* SimpleTextRow.swift */; };
 		D98E4DE423810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DE323810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift */; };
-		D98E4DE6238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */; };
 		D98E4DF0238284AC0082EED4 /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DEF238284AC0082EED4 /* IconFont.swift */; };
 		D98E4DF5238289C60082EED4 /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DF4238289C60082EED4 /* WaterfallLayout.swift */; };
 		D98E4DF723828A250082EED4 /* WaterfallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E4DF623828A250082EED4 /* WaterfallViewController.swift */; };
@@ -1442,7 +1441,6 @@
 		D98DF5EA24B72A2E001B9EC9 /* SwiftUI中用UIKit.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "SwiftUI中用UIKit.md"; sourceTree = "<group>"; };
 		D98DF5EC24B80D49001B9EC9 /* SimpleTextRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTextRow.swift; sourceTree = "<group>"; };
 		D98E4DE323810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideMaxCellSpacingViewController.swift; sourceTree = "<group>"; };
-		D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideMaxCellSpacingLayout.swift; sourceTree = "<group>"; };
 		D98E4DEF238284AC0082EED4 /* IconFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
 		D98E4DF4238289C60082EED4 /* WaterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
 		D98E4DF623828A250082EED4 /* WaterfallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallViewController.swift; sourceTree = "<group>"; };
@@ -5044,7 +5042,6 @@
 		D98E4DE223810F360082EED4 /* 设置cell间距并且靠左 */ = {
 			isa = PBXGroup;
 			children = (
-				D98E4DE5238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift */,
 				D98E4DE323810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift */,
 			);
 			path = "设置cell间距并且靠左";
@@ -7028,6 +7025,7 @@
 				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
 				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+				"${BUILT_PRODUCTS_DIR}/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
@@ -7067,6 +7065,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICollectionViewLeftAlignedLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
@@ -7102,7 +7101,6 @@
 			files = (
 				D95A3DBD24825A9D00F0166C /* UITextField+MaxLength.swift in Sources */,
 				D96773AF2400D9E300829BCB /* SneakersCalendarSegmentView.swift in Sources */,
-				D98E4DE6238110100082EED4 /* LeftSideMaxCellSpacingLayout.swift in Sources */,
 				D926BDD922C496B800A2DD3E /* AfternoonState.m in Sources */,
 				D97667D0249A186300A8BEDD /* BaseCell3.swift in Sources */,
 				D98E4DE423810FCA0082EED4 /* LeftSideMaxCellSpacingViewController.swift in Sources */,

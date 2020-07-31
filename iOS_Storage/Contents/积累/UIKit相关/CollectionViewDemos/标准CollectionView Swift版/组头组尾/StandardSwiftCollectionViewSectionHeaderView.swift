@@ -27,7 +27,7 @@ class StandardSwiftCollectionViewSectionHeaderView: UICollectionReusableView {
         label.textAlignment = .center
         label.textColor = .white
         label.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
+            make.top.bottom.left.equalToSuperview()
         }
     }
 }

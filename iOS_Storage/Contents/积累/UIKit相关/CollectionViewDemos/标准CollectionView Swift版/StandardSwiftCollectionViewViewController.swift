@@ -70,7 +70,7 @@ extension StandardSwiftCollectionViewViewController: UICollectionViewDataSource,
     
     // 组的inset
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets.init(top: 10, left: 12, bottom: 10, right: 12)
+        return UIEdgeInsets.init(top: 40, left: 32, bottom: 30, right: 12)
     }
     
     // 最小行距

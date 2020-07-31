@@ -8,6 +8,7 @@
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
 #import <UIImage+GIF.h>
 #import <MMKV/MMKV.h>
+#import <UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.h>
 
 #import <ZFPlayer/ZFPlayer.h>
 #import <ZFPlayer/ZFAVPlayerManager.h>

@@ -91,6 +91,7 @@ PODS:
     - Texture/Core
   - TTTAttributedLabel (2.0.0)
   - TZImagePickerController (3.3.1)
+  - UICollectionViewLeftAlignedLayout (1.0.2)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -133,6 +134,7 @@ DEPENDENCIES:
   - Texture
   - TTTAttributedLabel
   - TZImagePickerController
+  - UICollectionViewLeftAlignedLayout
   - YYKit
   - ZFPlayer (~> 3.0)
   - ZFPlayer/AVPlayer (~> 3.0)
@@ -174,6 +176,7 @@ SPEC REPOS:
     - Texture
     - TTTAttributedLabel
     - TZImagePickerController
+    - UICollectionViewLeftAlignedLayout
     - YYKit
     - ZFPlayer
 
@@ -222,9 +225,10 @@ SPEC CHECKSUMS:
   Texture: 8ecf6984065a1e54f06bf97b349ecca28582acd7
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   TZImagePickerController: 99f03b64145a8c92c55b9b1b931410967d9be4cb
+  UICollectionViewLeftAlignedLayout: 830bf6fa5bab9f9b464f62e3384f9d2e00b3c0f6
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZFPlayer: 8a6021a3c45e281f2abd24dca5c88915af770a7e
 
-PODFILE CHECKSUM: 0a9b19622a989c9c82f42716bfd62d31e4322457
+PODFILE CHECKSUM: 8a50f539cf49ec52d9958be918e93e7fc927c9df
 
 COCOAPODS: 1.8.4

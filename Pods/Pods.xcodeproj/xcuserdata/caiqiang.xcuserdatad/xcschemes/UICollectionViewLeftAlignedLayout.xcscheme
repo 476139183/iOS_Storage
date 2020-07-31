@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "10D88C24864319FF583AD6D156896F32"
-               BuildableName = "HandyJSON.framework"
-               BlueprintName = "HandyJSON"
+               BlueprintIdentifier = "CC855F6CF68A0E53B44765DF68F5A1BB"
+               BuildableName = "UICollectionViewLeftAlignedLayout.framework"
+               BlueprintName = "UICollectionViewLeftAlignedLayout"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
