@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,7 +16,36 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QgI-Oh-XUI">
+                    <rect key="frame" x="0.0" y="144" width="414" height="752"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cfk-Du-yDP">
+                            <rect key="frame" x="0.0" y="31" width="414" height="1888"/>
+                            <color key="backgroundColor" red="0.49803921569999998" green="0.52941176469999995" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="414" id="dy7-jh-aX0"/>
+                                <constraint firstAttribute="height" constant="1888" id="qq4-oa-5dH"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Cfk-Du-yDP" secondAttribute="trailing" id="6MR-t0-XMk"/>
+                        <constraint firstAttribute="bottom" secondItem="Cfk-Du-yDP" secondAttribute="bottom" id="8hz-pt-xXr"/>
+                        <constraint firstItem="Cfk-Du-yDP" firstAttribute="top" secondItem="QgI-Oh-XUI" secondAttribute="top" constant="31" id="Ld4-ic-d3l"/>
+                        <constraint firstItem="Cfk-Du-yDP" firstAttribute="leading" secondItem="QgI-Oh-XUI" secondAttribute="leading" id="PCl-dJ-gsV"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="1wV-IJ-h4l"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="Wth-eH-Wuo"/>
+                </scrollView>
+            </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="QgI-Oh-XUI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="VXK-U2-EXh"/>
+                <constraint firstItem="QgI-Oh-XUI" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="b2Y-ad-jjj"/>
+                <constraint firstItem="QgI-Oh-XUI" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="lrQ-hG-BNc"/>
+                <constraint firstAttribute="bottom" secondItem="QgI-Oh-XUI" secondAttribute="bottom" id="oSl-dw-dO9"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="5.7971014492753632" y="112.5"/>
         </view>
