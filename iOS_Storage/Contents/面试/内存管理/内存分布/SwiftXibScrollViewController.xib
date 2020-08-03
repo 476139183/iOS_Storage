@@ -9,7 +9,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SwiftXibScrollViewController" customModule="iOS_Storage" customModuleProvider="target">
             <connections>
-                <outlet property="contentWidth" destination="dy7-jh-aX0" id="8CQ-F5-edM"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -35,7 +34,6 @@
                             <constraints>
                                 <constraint firstItem="CKA-tD-F1h" firstAttribute="leading" secondItem="Cfk-Du-yDP" secondAttribute="leading" id="CtM-yi-Y48"/>
                                 <constraint firstItem="CKA-tD-F1h" firstAttribute="centerX" secondItem="Cfk-Du-yDP" secondAttribute="centerX" id="SeW-CE-f6G"/>
-                                <constraint firstAttribute="width" constant="414" id="dy7-jh-aX0"/>
                                 <constraint firstAttribute="bottom" secondItem="CKA-tD-F1h" secondAttribute="bottom" constant="500" id="eLB-Ii-vTb"/>
                                 <constraint firstAttribute="trailing" secondItem="CKA-tD-F1h" secondAttribute="trailing" id="fJ5-WG-sRc"/>
                                 <constraint firstItem="CKA-tD-F1h" firstAttribute="top" secondItem="Cfk-Du-yDP" secondAttribute="top" constant="500" id="qL7-nH-3oo"/>
@@ -54,6 +52,7 @@
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
+                <constraint firstItem="Cfk-Du-yDP" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="52l-Bj-iV1"/>
                 <constraint firstItem="QgI-Oh-XUI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="VXK-U2-EXh"/>
                 <constraint firstItem="QgI-Oh-XUI" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="b2Y-ad-jjj"/>
                 <constraint firstItem="QgI-Oh-XUI" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="lrQ-hG-BNc"/>

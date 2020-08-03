@@ -349,6 +349,8 @@
 		D9608BF4236970350053BD3E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF3236970350053BD3E /* Constants.swift */; };
 		D9608BF7236987940053BD3E /* UIButton+EnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF6236987940053BD3E /* UIButton+EnlargeTouchArea.m */; };
 		D9608BFA2369899B0053BD3E /* EnlargeActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9608BF92369899B0053BD3E /* EnlargeActionViewController.swift */; };
+		D96162B924D8190B00C47B70 /* SwiftXibScrollViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96162B724D8190B00C47B70 /* SwiftXibScrollViewController2.swift */; };
+		D96162BA24D8190B00C47B70 /* SwiftXibScrollViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96162B824D8190B00C47B70 /* SwiftXibScrollViewController2.xib */; };
 		D9626D5324CF1D5600D06B08 /* SetDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9626D5224CF1D5600D06B08 /* SetDemoViewController.swift */; };
 		D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38A21490A13001B3021 /* CQCarBenz.m */; };
 		D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38D21490A29001B3021 /* CQCarBMW.m */; };
@@ -1268,6 +1270,8 @@
 		D9608BF5236987940053BD3E /* UIButton+EnlargeTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeTouchArea.h"; sourceTree = "<group>"; };
 		D9608BF6236987940053BD3E /* UIButton+EnlargeTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeTouchArea.m"; sourceTree = "<group>"; };
 		D9608BF92369899B0053BD3E /* EnlargeActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnlargeActionViewController.swift; sourceTree = "<group>"; };
+		D96162B724D8190B00C47B70 /* SwiftXibScrollViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftXibScrollViewController2.swift; sourceTree = "<group>"; };
+		D96162B824D8190B00C47B70 /* SwiftXibScrollViewController2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftXibScrollViewController2.xib; sourceTree = "<group>"; };
 		D9626D5224CF1D5600D06B08 /* SetDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDemoViewController.swift; sourceTree = "<group>"; };
 		D963F38921490A13001B3021 /* CQCarBenz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarBenz.h; sourceTree = "<group>"; };
 		D963F38A21490A13001B3021 /* CQCarBenz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCarBenz.m; sourceTree = "<group>"; };
@@ -4531,6 +4535,8 @@
 			children = (
 				D9F5319724AE10D3005BD556 /* SwiftXibScrollViewController.swift */,
 				D9F5319824AE10D3005BD556 /* SwiftXibScrollViewController.xib */,
+				D96162B724D8190B00C47B70 /* SwiftXibScrollViewController2.swift */,
+				D96162B824D8190B00C47B70 /* SwiftXibScrollViewController2.xib */,
 			);
 			path = ScrollView;
 			sourceTree = "<group>";
@@ -6859,6 +6865,7 @@
 				D9E51E2724972D9A00DC1C04 /* AA7B1DCA-308D-4D51-869D-2D951642C348@4x.png in Resources */,
 				D98DF5DE24B7127B001B9EC9 /* rainbowlake.jpg in Resources */,
 				D90153FD24C6AF1D00F6D06E /* SwiftXibCustomPropertyViewController.xib in Resources */,
+				D96162BA24D8190B00C47B70 /* SwiftXibScrollViewController2.xib in Resources */,
 				D9019B7C22B13F670039B25D /* 链表.md in Resources */,
 				D9F53196249D194C005BD556 /* 内存分布.md in Resources */,
 				D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */,
@@ -7304,6 +7311,7 @@
 				D926BDAF22C2782100A2DD3E /* CQTemplateMethodViewController.m in Sources */,
 				D9C5E5E82349AB3700D101F1 /* EasyButton.swift in Sources */,
 				D92767C6237CF90400F9CED8 /* ChannelButton.swift in Sources */,
+				D96162B924D8190B00C47B70 /* SwiftXibScrollViewController2.swift in Sources */,
 				D967A80D23ACAE110000C00D /* OOPViewController.swift in Sources */,
 				D977FD7224C604A200AE2C1E /* BaseXibButton.swift in Sources */,
 				D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */,

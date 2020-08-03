@@ -22,6 +22,7 @@ class SwiftXibDemosViewController: JumpListViewController {
                           ItemModel(title: "动态修改约束", targetVC: DynamicConstraintViewController1()),
                           ItemModel(title: "自定义view", targetVC: SwiftXibCustomViewController()),
                           ItemModel(title: "scrollView", targetVC: SwiftXibScrollViewController()),
+                          ItemModel(title: "scrollView2", targetVC: SwiftXibScrollViewController2()),
                           ItemModel(title: "tableView", targetVC: SwiftXibTableViewController()),
                           ItemModel(title: "collectionView", targetVC: SwiftXibCollectionViewController()),
                           ItemModel(title: "stackView", targetVC: SwiftXibStackController())]

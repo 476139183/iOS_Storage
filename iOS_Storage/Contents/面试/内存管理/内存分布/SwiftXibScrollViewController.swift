@@ -17,7 +17,7 @@ class SwiftXibScrollViewController: CQBaseViewController {
 
         // Do any additional setup after loading the view.
         
-        self.contentWidth.constant = screenWidth
+        //self.contentWidth.constant = screenWidth
         
     }
 
