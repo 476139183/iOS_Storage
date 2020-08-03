@@ -10,12 +10,14 @@ import UIKit
 
 class SwiftXibScrollViewController: CQBaseViewController {
 
+    @IBOutlet weak var contentWidth: NSLayoutConstraint!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        
+        self.contentWidth.constant = screenWidth
         
     }
 

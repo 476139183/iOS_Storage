@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SwiftXibScrollViewController" customModule="iOS_Storage" customModuleProvider="target">
             <connections>
+                <outlet property="contentWidth" destination="dy7-jh-aX0" id="8CQ-F5-edM"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -21,11 +22,23 @@
                     <rect key="frame" x="0.0" y="144" width="414" height="752"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cfk-Du-yDP">
-                            <rect key="frame" x="0.0" y="31" width="414" height="1888"/>
+                            <rect key="frame" x="0.0" y="31" width="414" height="1020.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一个中间的label，通过上下约束，撑开contentView" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKA-tD-F1h">
+                                    <rect key="frame" x="0.0" y="500" width="414" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
                             <color key="backgroundColor" red="0.49803921569999998" green="0.52941176469999995" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
+                                <constraint firstItem="CKA-tD-F1h" firstAttribute="leading" secondItem="Cfk-Du-yDP" secondAttribute="leading" id="CtM-yi-Y48"/>
+                                <constraint firstItem="CKA-tD-F1h" firstAttribute="centerX" secondItem="Cfk-Du-yDP" secondAttribute="centerX" id="SeW-CE-f6G"/>
                                 <constraint firstAttribute="width" constant="414" id="dy7-jh-aX0"/>
-                                <constraint firstAttribute="height" constant="1888" id="qq4-oa-5dH"/>
+                                <constraint firstAttribute="bottom" secondItem="CKA-tD-F1h" secondAttribute="bottom" constant="500" id="eLB-Ii-vTb"/>
+                                <constraint firstAttribute="trailing" secondItem="CKA-tD-F1h" secondAttribute="trailing" id="fJ5-WG-sRc"/>
+                                <constraint firstItem="CKA-tD-F1h" firstAttribute="top" secondItem="Cfk-Du-yDP" secondAttribute="top" constant="500" id="qL7-nH-3oo"/>
                             </constraints>
                         </view>
                     </subviews>
