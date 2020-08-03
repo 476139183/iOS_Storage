@@ -15,7 +15,8 @@ class SwiftXibDemosViewController: JumpListViewController {
         
         // Do any additional setup after loading the view.
         
-        self.dataArray = [ItemModel(title: "xib中使用xib", targetVC: XibInXibViewController()),
+        self.dataArray = [ItemModel(title: "基于安全区的约束", targetVC: SafeAreaBasedViewController()),
+                          ItemModel(title: "xib中使用xib", targetVC: XibInXibViewController()),
                           ItemModel(title: "添加自定义属性", targetVC: SwiftXibCustomPropertyViewController()),
                           ItemModel(title: "可视化圆角", targetVC: XibCornerViewController()),
                           ItemModel(title: "动态修改约束", targetVC: DynamicConstraintViewController1()),

@@ -255,6 +255,10 @@
 		D944FD362498823100C8DB52 /* BaseGenericsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944FD352498823100C8DB52 /* BaseGenericsTableViewController.swift */; };
 		D944FD382498D84200C8DB52 /* BaseGenericsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944FD372498D84200C8DB52 /* BaseGenericsModel.swift */; };
 		D9458D2E247D108D004DFC55 /* TalkNodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9458D2D247D108D004DFC55 /* TalkNodeViewController.swift */; };
+		D947D38D24D7B68C00C667F6 /* SafeAreaBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D947D38B24D7B68C00C667F6 /* SafeAreaBasedViewController.swift */; };
+		D947D38E24D7B68C00C667F6 /* SafeAreaBasedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D947D38C24D7B68C00C667F6 /* SafeAreaBasedViewController.xib */; };
+		D947D39024D7BEE300C667F6 /* SafeAreaBasedBlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D947D38F24D7BEE300C667F6 /* SafeAreaBasedBlueView.swift */; };
+		D947D39224D7BEF700C667F6 /* SafeAreaBasedBlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D947D39124D7BEF700C667F6 /* SafeAreaBasedBlueView.xib */; };
 		D94B650221537A0900F2FD84 /* CQPlaceholderDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94B650121537A0900F2FD84 /* CQPlaceholderDemoViewController.m */; };
 		D94BCDEA22E9D4BD0080584F /* CQStandardOCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BCDE922E9D4BD0080584F /* CQStandardOCCollectionViewCell.m */; };
 		D94BCDEC22E9D91B0080584F /* 标准CollectionView OC版.md in Resources */ = {isa = PBXBuildFile; fileRef = D94BCDEB22E9D91B0080584F /* 标准CollectionView OC版.md */; };
@@ -1130,6 +1134,10 @@
 		D944FD352498823100C8DB52 /* BaseGenericsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseGenericsTableViewController.swift; sourceTree = "<group>"; };
 		D944FD372498D84200C8DB52 /* BaseGenericsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseGenericsModel.swift; sourceTree = "<group>"; };
 		D9458D2D247D108D004DFC55 /* TalkNodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkNodeViewController.swift; sourceTree = "<group>"; };
+		D947D38B24D7B68C00C667F6 /* SafeAreaBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBasedViewController.swift; sourceTree = "<group>"; };
+		D947D38C24D7B68C00C667F6 /* SafeAreaBasedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SafeAreaBasedViewController.xib; sourceTree = "<group>"; };
+		D947D38F24D7BEE300C667F6 /* SafeAreaBasedBlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBasedBlueView.swift; sourceTree = "<group>"; };
+		D947D39124D7BEF700C667F6 /* SafeAreaBasedBlueView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SafeAreaBasedBlueView.xib; sourceTree = "<group>"; };
 		D94B650021537A0900F2FD84 /* CQPlaceholderDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQPlaceholderDemoViewController.h; sourceTree = "<group>"; };
 		D94B650121537A0900F2FD84 /* CQPlaceholderDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQPlaceholderDemoViewController.m; sourceTree = "<group>"; };
 		D94BCDE822E9D4BD0080584F /* CQStandardOCCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQStandardOCCollectionViewCell.h; sourceTree = "<group>"; };
@@ -3612,6 +3620,17 @@
 			path = "话题Node";
 			sourceTree = "<group>";
 		};
+		D947D38A24D7B66300C667F6 /* 基于安全区的约束 */ = {
+			isa = PBXGroup;
+			children = (
+				D947D38B24D7B68C00C667F6 /* SafeAreaBasedViewController.swift */,
+				D947D38C24D7B68C00C667F6 /* SafeAreaBasedViewController.xib */,
+				D947D38F24D7BEE300C667F6 /* SafeAreaBasedBlueView.swift */,
+				D947D39124D7BEF700C667F6 /* SafeAreaBasedBlueView.xib */,
+			);
+			path = "基于安全区的约束";
+			sourceTree = "<group>";
+		};
 		D94B64FC2153798300F2FD84 /* 通用占位图 */ = {
 			isa = PBXGroup;
 			children = (
@@ -4458,6 +4477,7 @@
 			isa = PBXGroup;
 			children = (
 				D96D564924AD84A1008DD9CF /* SwiftXibDemosViewController.swift */,
+				D947D38A24D7B66300C667F6 /* 基于安全区的约束 */,
 				D91F258624C6F5570075B363 /* 嵌套xib */,
 				D90153F924C6AED800F6D06E /* 添加自定义属性 */,
 				D935A3DE24C5703300B766BE /* 可视化圆角 */,
@@ -6819,6 +6839,7 @@
 				D96FE2BD23960E0500949006 /* ASDisplayNode.md in Resources */,
 				D98DF5DB24B7127B001B9EC9 /* yukon_charleyrivers.jpg in Resources */,
 				D91AB3A924C832AA007F78D1 /* SwiftXibStackController.xib in Resources */,
+				D947D39224D7BEF700C667F6 /* SafeAreaBasedBlueView.xib in Resources */,
 				D9BE258223B87B48001F4D71 /* 同种model多种cell的tableView.md in Resources */,
 				D985E41B23FD08B500CF7954 /* SF-Pro-Text-Regular.otf in Resources */,
 				D9E86CCF24483C00009CCBB8 /* 正则表达式.md in Resources */,
@@ -6936,6 +6957,7 @@
 				D91F258524C6EEBF0075B363 /* GradientXibController.xib in Resources */,
 				D9C7CC1822E9A9090038FD34 /* 标准TableView Swift版.md in Resources */,
 				D91AB3AD24C8338D007F78D1 /* XibStackView.xib in Resources */,
+				D947D38E24D7B68C00C667F6 /* SafeAreaBasedViewController.xib in Resources */,
 				D98DF5D624B7127B001B9EC9 /* hiddenlake.jpg in Resources */,
 				D99FD93D246E90DC0095CEE6 /* iconfont.ttf in Resources */,
 				D985E41823FD08B500CF7954 /* SF-Pro-Text-Heavy.otf in Resources */,
@@ -7260,6 +7282,7 @@
 				D9C5E5E12348820A00D101F1 /* EasyButtonViewController.swift in Sources */,
 				D9402A902101E79D00BF792F /* CQMultiInterfaceViewController.m in Sources */,
 				D9C5B448233D967500299AFB /* MyCellNode5.swift in Sources */,
+				D947D39024D7BEE300C667F6 /* SafeAreaBasedBlueView.swift in Sources */,
 				D9E86CCB2447EF5C009CCBB8 /* ScreenEdgePanGestureViewController.swift in Sources */,
 				D96D564A24AD84A1008DD9CF /* SwiftXibDemosViewController.swift in Sources */,
 				D9E86CC12447EE33009CCBB8 /* LongPressGestureViewController.swift in Sources */,
@@ -7584,6 +7607,7 @@
 				D9C7CC2322E9B2A80038FD34 /* StandardSwiftTableFooterView.swift in Sources */,
 				D926BDD322C495F600A2DD3E /* ForenoonState.m in Sources */,
 				D9A00920237271F400ECF98F /* HomeSegmentedCell.swift in Sources */,
+				D947D38D24D7B68C00C667F6 /* SafeAreaBasedViewController.swift in Sources */,
 				D9F53194249BD8B3005BD556 /* AnimalModel.swift in Sources */,
 				D96FE2D22396453D00949006 /* ASAbsoluteLayoutController.swift in Sources */,
 				D9D814B924BD68B500D0685A /* TTTBasicViewController.swift in Sources */,
