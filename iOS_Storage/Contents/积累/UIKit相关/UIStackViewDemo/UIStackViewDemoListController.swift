@@ -16,7 +16,8 @@ class UIStackViewDemoListController: JumpListViewController {
         // Do any additional setup after loading the view.
         
         self.dataArray = [ItemModel(title: "各种demo", targetVC: StackViewDemoViewController()),
-                          ItemModel(title: "横向等间距3标题", targetVC: StackThreeTitlesViewController())]
+                          ItemModel(title: "横向等间距3标题", targetVC: StackThreeTitlesViewController()),
+                          ItemModel(title: "xib中使用UIStackView", targetVC: StackInXibViewController())]
         
     }
 

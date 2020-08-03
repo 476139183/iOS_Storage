@@ -259,6 +259,8 @@
 		D947D38E24D7B68C00C667F6 /* SafeAreaBasedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D947D38C24D7B68C00C667F6 /* SafeAreaBasedViewController.xib */; };
 		D947D39024D7BEE300C667F6 /* SafeAreaBasedBlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D947D38F24D7BEE300C667F6 /* SafeAreaBasedBlueView.swift */; };
 		D947D39224D7BEF700C667F6 /* SafeAreaBasedBlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D947D39124D7BEF700C667F6 /* SafeAreaBasedBlueView.xib */; };
+		D947D39724D7C56600C667F6 /* StackInXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D947D39524D7C56600C667F6 /* StackInXibViewController.swift */; };
+		D947D39824D7C56600C667F6 /* StackInXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D947D39624D7C56600C667F6 /* StackInXibViewController.xib */; };
 		D94B650221537A0900F2FD84 /* CQPlaceholderDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94B650121537A0900F2FD84 /* CQPlaceholderDemoViewController.m */; };
 		D94BCDEA22E9D4BD0080584F /* CQStandardOCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BCDE922E9D4BD0080584F /* CQStandardOCCollectionViewCell.m */; };
 		D94BCDEC22E9D91B0080584F /* 标准CollectionView OC版.md in Resources */ = {isa = PBXBuildFile; fileRef = D94BCDEB22E9D91B0080584F /* 标准CollectionView OC版.md */; };
@@ -1138,6 +1140,8 @@
 		D947D38C24D7B68C00C667F6 /* SafeAreaBasedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SafeAreaBasedViewController.xib; sourceTree = "<group>"; };
 		D947D38F24D7BEE300C667F6 /* SafeAreaBasedBlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBasedBlueView.swift; sourceTree = "<group>"; };
 		D947D39124D7BEF700C667F6 /* SafeAreaBasedBlueView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SafeAreaBasedBlueView.xib; sourceTree = "<group>"; };
+		D947D39524D7C56600C667F6 /* StackInXibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackInXibViewController.swift; sourceTree = "<group>"; };
+		D947D39624D7C56600C667F6 /* StackInXibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StackInXibViewController.xib; sourceTree = "<group>"; };
 		D94B650021537A0900F2FD84 /* CQPlaceholderDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQPlaceholderDemoViewController.h; sourceTree = "<group>"; };
 		D94B650121537A0900F2FD84 /* CQPlaceholderDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQPlaceholderDemoViewController.m; sourceTree = "<group>"; };
 		D94BCDE822E9D4BD0080584F /* CQStandardOCCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQStandardOCCollectionViewCell.h; sourceTree = "<group>"; };
@@ -3321,6 +3325,8 @@
 				D940168D2361BDD900580AAC /* StackViewDemoViewController.swift */,
 				D92767C5237CF90400F9CED8 /* ChannelButton.swift */,
 				D9751697247BB3C900D45C92 /* StackThreeTitlesViewController.swift */,
+				D947D39524D7C56600C667F6 /* StackInXibViewController.swift */,
+				D947D39624D7C56600C667F6 /* StackInXibViewController.xib */,
 			);
 			path = UIStackViewDemo;
 			sourceTree = "<group>";
@@ -6830,6 +6836,7 @@
 				D94F0578248A4807007B0165 /* tabbar_find.json in Resources */,
 				D95A3DB22482063800F0166C /* LocalGifCell.xib in Resources */,
 				D9A39F6E22B4C90900FEA5F5 /* 策略设计模式.md in Resources */,
+				D947D39824D7C56600C667F6 /* StackInXibViewController.xib in Resources */,
 				D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */,
 				D985E42323FD08B500CF7954 /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
 				D90E085724921A8900F772AF /* empty.json in Resources */,
@@ -7172,6 +7179,7 @@
 				D9CD7BF02473805F000B7EB4 /* ClassAndStructViewController.swift in Sources */,
 				D95A3DC024825B0300F0166C /* UITextFieldDemosViewController.swift in Sources */,
 				D96FE2C62396437800949006 /* ASInsetLayoutController.swift in Sources */,
+				D947D39724D7C56600C667F6 /* StackInXibViewController.swift in Sources */,
 				D9545B382293AA4B008B6355 /* CQPermanentThreadController.m in Sources */,
 				D9C7CC1622E9A3AE0038FD34 /* CQStandardTableSectionFooterView.m in Sources */,
 				D97667E3249B525100A8BEDD /* SwiftOperatorViewController.swift in Sources */,
