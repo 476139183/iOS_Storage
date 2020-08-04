@@ -19,7 +19,6 @@ PODS:
     - AFNetworking/NSURLSession
   - Alamofire (5.0.0)
   - CameraManager (4.4.0)
-  - CTMediator (28)
   - ESTabBarController-swift (2.8.0)
   - HandyJSON (5.0.1)
   - Hero (1.5.0)
@@ -108,7 +107,6 @@ DEPENDENCIES:
   - AFNetworking
   - Alamofire (= 5.0.0)
   - CameraManager (~> 4.4)
-  - CTMediator
   - ESTabBarController-swift
   - HandyJSON (~> 5.0.1)
   - Hero
@@ -146,7 +144,6 @@ SPEC REPOS:
     - AFNetworking
     - Alamofire
     - CameraManager
-    - CTMediator
     - ESTabBarController-swift
     - HandyJSON
     - Hero
@@ -194,7 +191,6 @@ SPEC CHECKSUMS:
   AFNetworking: d9fdf484a3c723ec3c558a41cc5754c7e845ee77
   Alamofire: 58ff2bfb8daaacaa233d5c36e37b10a5248f59b1
   CameraManager: 583710502c42178d12ef046d9d4f7893feff8354
-  CTMediator: 6a05e9f1098b2d2fbc9d19cc7f28e94c3a08b5d2
   ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
   HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
   Hero: b7385b75e7259da62f4f85462f59a5082d66b058
@@ -229,6 +225,6 @@ SPEC CHECKSUMS:
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZFPlayer: 8a6021a3c45e281f2abd24dca5c88915af770a7e
 
-PODFILE CHECKSUM: 8a50f539cf49ec52d9958be918e93e7fc927c9df
+PODFILE CHECKSUM: a7c319cf7e3be770cd93377a308f729fa283ac48
 
 COCOAPODS: 1.8.4

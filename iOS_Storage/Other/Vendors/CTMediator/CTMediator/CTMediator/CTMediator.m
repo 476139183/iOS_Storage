@@ -76,13 +76,15 @@ NSString * const kCTMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParams
     }
     
     NSString *swiftModuleName = params[kCTMediatorParamsKeySwiftTargetModuleName];
+    //NSString *swiftModuleName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"];
     
     // generate target
     NSString *targetClassString = nil;
     if (swiftModuleName.length > 0) {
         targetClassString = [NSString stringWithFormat:@"%@.Target_%@", swiftModuleName, targetName];
     } else {
-        targetClassString = [NSString stringWithFormat:@"Target_%@", targetName];
+        NSString *appName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"];
+        targetClassString = [NSString stringWithFormat:@"%@.Target_%@", appName, targetName];
     }
     NSObject *target = self.cachedTarget[targetClassString];
     if (target == nil) {

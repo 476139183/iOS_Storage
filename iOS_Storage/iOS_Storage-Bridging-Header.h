@@ -82,3 +82,6 @@
 #import "TYCyclePagerView.h"
 #import "TYPageControl.h"
 #import "TYCyclePagerViewCell.h"
+
+#import "CTMediator.h"
+#import "CTMediator+HandyTools.h"
