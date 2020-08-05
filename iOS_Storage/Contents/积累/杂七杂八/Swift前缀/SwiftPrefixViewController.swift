@@ -26,28 +26,23 @@ class SwiftPrefixViewController: CQBaseViewController {
             make.width.height.equalTo(100)
         }
         
+        // 带前缀的方法
         redView.ds.setBorder(color: .green, width: 3)
         
-    }
-
-}
-
-
-fileprivate class CQCPerson {
-    var name: String
-    var age: Int
-    init(name: String, age: Int) {
-        self.name = name
-        self.age = age
-    }
-    convenience init() {
-        self.init(name: "unknow", age: 1)
+        // 打印 实例和对象 的类名
+        print(redView.ds.className)
+        print(UIView.ds.className)
+        
+        let dog = Target_dog()
+        print(dog.ds.className)
+        print(Target_dog.ds.className)
+        
     }
     
-    func say() {
-        print("Hi, my name is \(name)")
-    }
 }
+
+
+// MARK: - UIView 的扩展
 
 extension UIView: DingStockWrappable {}
 extension DingStockWrapperProtocol where WrappedType: UIView {

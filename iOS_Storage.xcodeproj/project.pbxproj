@@ -355,6 +355,7 @@
 		D96162CE24D93D7B00C47B70 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = D96162C824D93D7B00C47B70 /* CTMediator.m */; };
 		D96162EE24DA5A7E00C47B70 /* SwiftPrefixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96162ED24DA5A7E00C47B70 /* SwiftPrefixViewController.swift */; };
 		D96162F024DA5D0C00C47B70 /* DingStockExtensionWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96162EF24DA5D0C00C47B70 /* DingStockExtensionWrapper.swift */; };
+		D96162F524DA676000C47B70 /* NSObject+PrefixExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96162F424DA676000C47B70 /* NSObject+PrefixExtension.swift */; };
 		D9626D5324CF1D5600D06B08 /* SetDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9626D5224CF1D5600D06B08 /* SetDemoViewController.swift */; };
 		D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38A21490A13001B3021 /* CQCarBenz.m */; };
 		D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38D21490A29001B3021 /* CQCarBMW.m */; };
@@ -1282,6 +1283,7 @@
 		D96162CA24D93D7B00C47B70 /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
 		D96162ED24DA5A7E00C47B70 /* SwiftPrefixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPrefixViewController.swift; sourceTree = "<group>"; };
 		D96162EF24DA5D0C00C47B70 /* DingStockExtensionWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingStockExtensionWrapper.swift; sourceTree = "<group>"; };
+		D96162F424DA676000C47B70 /* NSObject+PrefixExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+PrefixExtension.swift"; sourceTree = "<group>"; };
 		D9626D5224CF1D5600D06B08 /* SetDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDemoViewController.swift; sourceTree = "<group>"; };
 		D963F38921490A13001B3021 /* CQCarBenz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarBenz.h; sourceTree = "<group>"; };
 		D963F38A21490A13001B3021 /* CQCarBenz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCarBenz.m; sourceTree = "<group>"; };
@@ -4300,8 +4302,9 @@
 		D96162EC24DA5A2100C47B70 /* Swift前缀 */ = {
 			isa = PBXGroup;
 			children = (
-				D96162EF24DA5D0C00C47B70 /* DingStockExtensionWrapper.swift */,
 				D96162ED24DA5A7E00C47B70 /* SwiftPrefixViewController.swift */,
+				D96162EF24DA5D0C00C47B70 /* DingStockExtensionWrapper.swift */,
+				D96162F424DA676000C47B70 /* NSObject+PrefixExtension.swift */,
 			);
 			path = "Swift前缀";
 			sourceTree = "<group>";
@@ -7400,6 +7403,7 @@
 				D91A9F7C22B3D89E008F87F1 /* CQCountDownButton.m in Sources */,
 				D9E21A88210FF83D00407599 /* CQClassClusterCellA.m in Sources */,
 				D9C5E5D523473E2000D101F1 /* LeetCodeTwoSumViewController.swift in Sources */,
+				D96162F524DA676000C47B70 /* NSObject+PrefixExtension.swift in Sources */,
 				D975168A2478B8B600D45C92 /* IQKeyboardManagerViewController2.swift in Sources */,
 				D9C7CC0322E9927F0038FD34 /* StandardSwiftCollectionViewViewController.swift in Sources */,
 				D9D1450D2298F1F5003B594C /* CQRunLoopLifeController.m in Sources */,

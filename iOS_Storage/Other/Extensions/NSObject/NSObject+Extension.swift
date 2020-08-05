@@ -12,7 +12,12 @@ extension NSObject {
     
     /// 获取class的类名
     class var className: String {
-        return NSStringFromClass(self).components(separatedBy: ".").last!
+        let name = NSStringFromClass(self)
+        if (name.contains(".")) {
+            return name.components(separatedBy: ".").last!;
+        } else {
+            return name;
+        }
     }
     
     /// 获取实例的类名
