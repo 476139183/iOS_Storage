@@ -12,7 +12,20 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="508" height="179"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AJ1" translatesAutoresizingMaskIntoConstraints="NO" id="Zj6-cW-3aj">
+                    <rect key="frame" x="204" y="39.5" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="1LR-Pg-g2W"/>
+                        <constraint firstAttribute="width" constant="100" id="FlZ-cc-TwV"/>
+                    </constraints>
+                </imageView>
+            </subviews>
             <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Zj6-cW-3aj" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="LGs-IV-rkz"/>
+                <constraint firstItem="Zj6-cW-3aj" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="cCi-1d-okv"/>
+            </constraints>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -20,4 +33,7 @@
             <point key="canvasLocation" x="145" y="176"/>
         </view>
     </objects>
+    <resources>
+        <image name="AJ1" width="800" height="800"/>
+    </resources>
 </document>

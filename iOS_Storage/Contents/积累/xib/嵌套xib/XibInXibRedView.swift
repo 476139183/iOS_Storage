@@ -13,12 +13,12 @@ class XibInXibRedView: UIView {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         
-        let view = Bundle.main.loadNibNamed("XibInXibRedView", owner: self, options: nil)?.first as! XibInXibRedView
+        let view = Bundle.main.loadNibNamed("XibInXibRedView", owner: nil, options: nil)?.first as! UIView
         view.frame = self.bounds
         addSubview(view)
         view.snp.makeConstraints { (make) in
             make.edges.equalToSuperview()
         }
     }
-
+    
 }

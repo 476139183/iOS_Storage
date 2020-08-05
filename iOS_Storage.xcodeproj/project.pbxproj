@@ -396,13 +396,8 @@
 		D96D563F24AC9CE2008DD9CF /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D563E24AC9CE2008DD9CF /* BaseCollectionViewController.swift */; };
 		D96D564124AC9D6D008DD9CF /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D564024AC9D6D008DD9CF /* BaseCollectionViewCell.swift */; };
 		D96D564624AD8382008DD9CF /* XibDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D564524AD8382008DD9CF /* XibDemosViewController.swift */; };
-		D96D564824AD847C008DD9CF /* OCXibDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D564724AD847C008DD9CF /* OCXibDemosViewController.swift */; };
-		D96D564A24AD84A1008DD9CF /* SwiftXibDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D564924AD84A1008DD9CF /* SwiftXibDemosViewController.swift */; };
-		D96D565524AD86B9008DD9CF /* OCXibCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D96D565424AD86B9008DD9CF /* OCXibCustomViewController.m */; };
 		D96D565724AD8706008DD9CF /* SwiftXibCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D565624AD8706008DD9CF /* SwiftXibCustomViewController.swift */; };
-		D96D565A24AD87C8008DD9CF /* OCXibBlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96D565924AD87C8008DD9CF /* OCXibBlueView.m */; };
 		D96D565E24AD89FF008DD9CF /* Xib使用手册.md in Resources */ = {isa = PBXBuildFile; fileRef = D96D565D24AD89FF008DD9CF /* Xib使用手册.md */; };
-		D96D566024AD8AA4008DD9CF /* OCXibBlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96D565F24AD8AA4008DD9CF /* OCXibBlueView.xib */; };
 		D96D566224AD9058008DD9CF /* SwiftXibRedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D566124AD9058008DD9CF /* SwiftXibRedView.swift */; };
 		D96D566424AD90D3008DD9CF /* SwiftXibRedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96D566324AD90D3008DD9CF /* SwiftXibRedView.xib */; };
 		D96D566C24ADB3C2008DD9CF /* ImaginaryLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D566B24ADB3C2008DD9CF /* ImaginaryLineViewController.swift */; };
@@ -1329,15 +1324,8 @@
 		D96D563E24AC9CE2008DD9CF /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
 		D96D564024AC9D6D008DD9CF /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		D96D564524AD8382008DD9CF /* XibDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibDemosViewController.swift; sourceTree = "<group>"; };
-		D96D564724AD847C008DD9CF /* OCXibDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCXibDemosViewController.swift; sourceTree = "<group>"; };
-		D96D564924AD84A1008DD9CF /* SwiftXibDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftXibDemosViewController.swift; sourceTree = "<group>"; };
-		D96D565324AD86B9008DD9CF /* OCXibCustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCXibCustomViewController.h; sourceTree = "<group>"; };
-		D96D565424AD86B9008DD9CF /* OCXibCustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCXibCustomViewController.m; sourceTree = "<group>"; };
 		D96D565624AD8706008DD9CF /* SwiftXibCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftXibCustomViewController.swift; sourceTree = "<group>"; };
-		D96D565824AD87C8008DD9CF /* OCXibBlueView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCXibBlueView.h; sourceTree = "<group>"; };
-		D96D565924AD87C8008DD9CF /* OCXibBlueView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCXibBlueView.m; sourceTree = "<group>"; };
 		D96D565D24AD89FF008DD9CF /* Xib使用手册.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Xib使用手册.md"; sourceTree = "<group>"; };
-		D96D565F24AD8AA4008DD9CF /* OCXibBlueView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OCXibBlueView.xib; sourceTree = "<group>"; };
 		D96D566124AD9058008DD9CF /* SwiftXibRedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftXibRedView.swift; sourceTree = "<group>"; };
 		D96D566324AD90D3008DD9CF /* SwiftXibRedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftXibRedView.xib; sourceTree = "<group>"; };
 		D96D566B24ADB3C2008DD9CF /* ImaginaryLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImaginaryLineViewController.swift; sourceTree = "<group>"; };
@@ -4315,14 +4303,14 @@
 			path = "Swift前缀";
 			sourceTree = "<group>";
 		};
-		D96162FC24DA986C00C47B70 /* 高度固定的导航栏 */ = {
+		D96162FC24DA986C00C47B70 /* 动态高度导航栏 */ = {
 			isa = PBXGroup;
 			children = (
 				D96162FD24DA98FF00C47B70 /* ConstantNaviView.swift */,
 				D96162FF24DA9A5B00C47B70 /* ConstantNaviController.swift */,
 				D961630024DA9A5B00C47B70 /* ConstantNaviController.xib */,
 			);
-			path = "高度固定的导航栏";
+			path = "动态高度导航栏";
 			sourceTree = "<group>";
 		};
 		D9626D5124CF1D1F00D06B08 /* Set */ = {
@@ -4525,29 +4513,7 @@
 			children = (
 				D96D565D24AD89FF008DD9CF /* Xib使用手册.md */,
 				D96D564524AD8382008DD9CF /* XibDemosViewController.swift */,
-				D96D564324AD8315008DD9CF /* OC */,
-				D96D564424AD831E008DD9CF /* Swift */,
-			);
-			path = xib;
-			sourceTree = "<group>";
-		};
-		D96D564324AD8315008DD9CF /* OC */ = {
-			isa = PBXGroup;
-			children = (
-				D96D564724AD847C008DD9CF /* OCXibDemosViewController.swift */,
-				D96D564B24AD85C3008DD9CF /* 自定义View */,
-				D96D564D24AD8608008DD9CF /* ScrollView */,
-				D96D564F24AD8624008DD9CF /* TableView */,
-				D96D565124AD864B008DD9CF /* CollectionView */,
-			);
-			path = OC;
-			sourceTree = "<group>";
-		};
-		D96D564424AD831E008DD9CF /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				D96D564924AD84A1008DD9CF /* SwiftXibDemosViewController.swift */,
-				D96162FC24DA986C00C47B70 /* 高度固定的导航栏 */,
+				D96162FC24DA986C00C47B70 /* 动态高度导航栏 */,
 				D947D38A24D7B66300C667F6 /* 基于安全区的约束 */,
 				D91F258624C6F5570075B363 /* 嵌套xib */,
 				D90153F924C6AED800F6D06E /* 添加自定义属性 */,
@@ -4559,19 +4525,7 @@
 				D96D565224AD8658008DD9CF /* CollectionView */,
 				D91AB3A524C8325A007F78D1 /* UIStackView */,
 			);
-			path = Swift;
-			sourceTree = "<group>";
-		};
-		D96D564B24AD85C3008DD9CF /* 自定义View */ = {
-			isa = PBXGroup;
-			children = (
-				D96D565324AD86B9008DD9CF /* OCXibCustomViewController.h */,
-				D96D565424AD86B9008DD9CF /* OCXibCustomViewController.m */,
-				D96D565824AD87C8008DD9CF /* OCXibBlueView.h */,
-				D96D565924AD87C8008DD9CF /* OCXibBlueView.m */,
-				D96D565F24AD8AA4008DD9CF /* OCXibBlueView.xib */,
-			);
-			path = "自定义View";
+			path = xib;
 			sourceTree = "<group>";
 		};
 		D96D564C24AD85E4008DD9CF /* 自定义View */ = {
@@ -4582,13 +4536,6 @@
 				D96D565624AD8706008DD9CF /* SwiftXibCustomViewController.swift */,
 			);
 			path = "自定义View";
-			sourceTree = "<group>";
-		};
-		D96D564D24AD8608008DD9CF /* ScrollView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ScrollView;
 			sourceTree = "<group>";
 		};
 		D96D564E24AD8615008DD9CF /* ScrollView */ = {
@@ -4602,13 +4549,6 @@
 			path = ScrollView;
 			sourceTree = "<group>";
 		};
-		D96D564F24AD8624008DD9CF /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TableView;
-			sourceTree = "<group>";
-		};
 		D96D565024AD862F008DD9CF /* TableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -4616,13 +4556,6 @@
 				D96D569824AF0C25008DD9CF /* SwiftXibTableViewController.xib */,
 			);
 			path = TableView;
-			sourceTree = "<group>";
-		};
-		D96D565124AD864B008DD9CF /* CollectionView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CollectionView;
 			sourceTree = "<group>";
 		};
 		D96D565224AD8658008DD9CF /* CollectionView */ = {
@@ -6986,7 +6919,6 @@
 				D973CD1C2488AC7C00C67FB9 /* dsData.json in Resources */,
 				D967A81C23ACD0C50000C00D /* POP.md in Resources */,
 				D930957323B30A0400837CA6 /* StaticMyTableView.storyboard in Resources */,
-				D96D566024AD8AA4008DD9CF /* OCXibBlueView.xib in Resources */,
 				D98DF5D424B7127B001B9EC9 /* icybay.jpg in Resources */,
 				D926BDCA22C48E5200A2DD3E /* 状态模式.md in Resources */,
 				D920ED1E22E8706400C5A43F /* wordsanime.json in Resources */,
@@ -7360,7 +7292,6 @@
 				D9C5B448233D967500299AFB /* MyCellNode5.swift in Sources */,
 				D947D39024D7BEE300C667F6 /* SafeAreaBasedBlueView.swift in Sources */,
 				D9E86CCB2447EF5C009CCBB8 /* ScreenEdgePanGestureViewController.swift in Sources */,
-				D96D564A24AD84A1008DD9CF /* SwiftXibDemosViewController.swift in Sources */,
 				D9E86CC12447EE33009CCBB8 /* LongPressGestureViewController.swift in Sources */,
 				D9A32B81247FAE9400295E2F /* KingfisherHighResolutionViewController.swift in Sources */,
 				D91FD953236A97EE00376D59 /* UIView+FrameHelper.swift in Sources */,
@@ -7627,7 +7558,6 @@
 				D9C7CBFF22E991CE0038FD34 /* CQStandardOCCollectionViewViewController.m in Sources */,
 				D93EFF402359B7C00028A730 /* ParkAnnotation.swift in Sources */,
 				D91F258924C6F57B0075B363 /* XibInXibViewController.swift in Sources */,
-				D96D564824AD847C008DD9CF /* OCXibDemosViewController.swift in Sources */,
 				D93A0BF5233C72F900554EF6 /* TextureColorView.swift in Sources */,
 				D9C3D0E9246DA27200D3DF7B /* AnimationHud.swift in Sources */,
 				D91AB3A824C832AA007F78D1 /* SwiftXibStackController.swift in Sources */,
@@ -7640,7 +7570,6 @@
 				D9146DA5249C9211002862AB /* AnimalHeader.swift in Sources */,
 				D95A3D9C2480DF7700F0166C /* BlurEffectListViewController.swift in Sources */,
 				D91420AC216B50DD0034ACEA /* CQRippleView.m in Sources */,
-				D96D565A24AD87C8008DD9CF /* OCXibBlueView.m in Sources */,
 				D9F72DDB243D83AF007BBB05 /* CompressImageViewController.swift in Sources */,
 				D91E53E4221A910500AC1DEA /* CQSearchModel.m in Sources */,
 				D9F5319924AE10D3005BD556 /* SwiftXibScrollViewController.swift in Sources */,
@@ -7758,7 +7687,6 @@
 				D9BE257A23B86F1C001F4D71 /* SameModelTableViewController.swift in Sources */,
 				D90073F724C2FC43004C9AD0 /* LaunchGuideViewController.swift in Sources */,
 				D9536EF3244A9D4400FD3964 /* TTTLabelViewController2.swift in Sources */,
-				D96D565524AD86B9008DD9CF /* OCXibCustomViewController.m in Sources */,
 				D9B760C324BC64420037A7A1 /* TYCyclePagerViewCell.m in Sources */,
 				D98E8EEC24775F9700A2D01A /* RuntimeDemoViewController.swift in Sources */,
 				D9376888235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift in Sources */,
