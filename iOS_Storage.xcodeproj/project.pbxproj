@@ -356,6 +356,9 @@
 		D96162EE24DA5A7E00C47B70 /* SwiftPrefixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96162ED24DA5A7E00C47B70 /* SwiftPrefixViewController.swift */; };
 		D96162F024DA5D0C00C47B70 /* DingStockExtensionWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96162EF24DA5D0C00C47B70 /* DingStockExtensionWrapper.swift */; };
 		D96162F524DA676000C47B70 /* NSObject+PrefixExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96162F424DA676000C47B70 /* NSObject+PrefixExtension.swift */; };
+		D96162FE24DA98FF00C47B70 /* ConstantNaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96162FD24DA98FF00C47B70 /* ConstantNaviView.swift */; };
+		D961630124DA9A5B00C47B70 /* ConstantNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96162FF24DA9A5B00C47B70 /* ConstantNaviController.swift */; };
+		D961630224DA9A5B00C47B70 /* ConstantNaviController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D961630024DA9A5B00C47B70 /* ConstantNaviController.xib */; };
 		D9626D5324CF1D5600D06B08 /* SetDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9626D5224CF1D5600D06B08 /* SetDemoViewController.swift */; };
 		D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38A21490A13001B3021 /* CQCarBenz.m */; };
 		D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38D21490A29001B3021 /* CQCarBMW.m */; };
@@ -1284,6 +1287,9 @@
 		D96162ED24DA5A7E00C47B70 /* SwiftPrefixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPrefixViewController.swift; sourceTree = "<group>"; };
 		D96162EF24DA5D0C00C47B70 /* DingStockExtensionWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingStockExtensionWrapper.swift; sourceTree = "<group>"; };
 		D96162F424DA676000C47B70 /* NSObject+PrefixExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+PrefixExtension.swift"; sourceTree = "<group>"; };
+		D96162FD24DA98FF00C47B70 /* ConstantNaviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantNaviView.swift; sourceTree = "<group>"; };
+		D96162FF24DA9A5B00C47B70 /* ConstantNaviController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantNaviController.swift; sourceTree = "<group>"; };
+		D961630024DA9A5B00C47B70 /* ConstantNaviController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConstantNaviController.xib; sourceTree = "<group>"; };
 		D9626D5224CF1D5600D06B08 /* SetDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDemoViewController.swift; sourceTree = "<group>"; };
 		D963F38921490A13001B3021 /* CQCarBenz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarBenz.h; sourceTree = "<group>"; };
 		D963F38A21490A13001B3021 /* CQCarBenz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCarBenz.m; sourceTree = "<group>"; };
@@ -4309,6 +4315,16 @@
 			path = "Swift前缀";
 			sourceTree = "<group>";
 		};
+		D96162FC24DA986C00C47B70 /* 高度固定的导航栏 */ = {
+			isa = PBXGroup;
+			children = (
+				D96162FD24DA98FF00C47B70 /* ConstantNaviView.swift */,
+				D96162FF24DA9A5B00C47B70 /* ConstantNaviController.swift */,
+				D961630024DA9A5B00C47B70 /* ConstantNaviController.xib */,
+			);
+			path = "高度固定的导航栏";
+			sourceTree = "<group>";
+		};
 		D9626D5124CF1D1F00D06B08 /* Set */ = {
 			isa = PBXGroup;
 			children = (
@@ -4531,6 +4547,7 @@
 			isa = PBXGroup;
 			children = (
 				D96D564924AD84A1008DD9CF /* SwiftXibDemosViewController.swift */,
+				D96162FC24DA986C00C47B70 /* 高度固定的导航栏 */,
 				D947D38A24D7B66300C667F6 /* 基于安全区的约束 */,
 				D91F258624C6F5570075B363 /* 嵌套xib */,
 				D90153F924C6AED800F6D06E /* 添加自定义属性 */,
@@ -6977,6 +6994,7 @@
 				D95A3DAE2481F32F00F0166C /* WebGifCell.xib in Resources */,
 				D921F97220FF640B00712042 /* house_list.json in Resources */,
 				D9C84268239503F300DC5BCD /* TextureLayout.md in Resources */,
+				D961630224DA9A5B00C47B70 /* ConstantNaviController.xib in Resources */,
 				D95A3DB62482351E00F0166C /* KingfisherAnimatedCell.xib in Resources */,
 				D9D145122299205F003B594C /* KVC.md in Resources */,
 				D926BDC422C486F200A2DD3E /* 抽象工厂模式.md in Resources */,
@@ -7551,6 +7569,7 @@
 				D94016962361F01500580AAC /* StringPracticeViewController.swift in Sources */,
 				D906714C24BD471900CC485F /* PushTranslucenceViewController2.swift in Sources */,
 				D9E86CBD2447EC6E009CCBB8 /* GestureViewController.swift in Sources */,
+				D961630124DA9A5B00C47B70 /* ConstantNaviController.swift in Sources */,
 				D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */,
 				D95A3DC324825B7400F0166C /* MaxLengthTextfieldViewController.swift in Sources */,
 				D9A39F7E22B4D2EB00FEA5F5 /* CQMVVMViewController.m in Sources */,
@@ -7804,6 +7823,7 @@
 				D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */,
 				D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */,
 				D91245D623A90AD800E3775A /* UIScrollViewController.swift in Sources */,
+				D96162FE24DA98FF00C47B70 /* ConstantNaviView.swift in Sources */,
 				D926BDE222C4B5B300A2DD3E /* CQAdapterViewController.m in Sources */,
 				D9B157D1246D2C9C00854606 /* NSAttributedString+Extension.swift in Sources */,
 				D92769F0236AE88700A6D846 /* PlaceholderViewController.swift in Sources */,
