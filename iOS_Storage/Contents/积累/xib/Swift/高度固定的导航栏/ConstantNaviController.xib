@@ -25,6 +25,8 @@
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="isDefaultHeight" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="标题"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHideBackButton" value="YES"/>
                     </userDefinedRuntimeAttributes>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Anm-is-CnV">
