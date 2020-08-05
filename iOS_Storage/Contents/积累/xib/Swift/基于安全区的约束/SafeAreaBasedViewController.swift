@@ -21,7 +21,7 @@ class SafeAreaBasedViewController: CQBaseViewController {
     
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let blueView = Bundle.main.loadNibNamed("SafeAreaBasedBlueView", owner: nil, options: nil)?.first as! SafeAreaBasedBlueView
+        let blueView = SafeAreaBasedBlueView.loadNib()
         view.addSubview(blueView)
         blueView.snp.makeConstraints { (make) in
             make.left.right.bottom.equalToSuperview()
