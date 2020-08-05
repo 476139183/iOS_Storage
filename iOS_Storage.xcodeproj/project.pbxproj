@@ -629,6 +629,9 @@
 		D9B760BE24BC62E70037A7A1 /* TYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B760BB24BC62E70037A7A1 /* TYPageControl.m */; };
 		D9B760C024BC63BC0037A7A1 /* TYCycleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B760BF24BC63BC0037A7A1 /* TYCycleController.swift */; };
 		D9B760C324BC64420037A7A1 /* TYCyclePagerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B760C224BC64420037A7A1 /* TYCyclePagerViewCell.m */; };
+		D9BA7F4E24DB07BA0043F405 /* BaseXibEmbeddedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA7F4D24DB07BA0043F405 /* BaseXibEmbeddedView.swift */; };
+		D9BA7F5024DB0D200043F405 /* EmbeddedXibView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA7F4F24DB0D200043F405 /* EmbeddedXibView2.swift */; };
+		D9BA7F5224DB0D310043F405 /* EmbeddedXibView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9BA7F5124DB0D310043F405 /* EmbeddedXibView2.xib */; };
 		D9BBF96D235F2F4A009342EC /* JXSegmentedDemoBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BBF96C235F2F4A009342EC /* JXSegmentedDemoBaseController.swift */; };
 		D9BBF970235F4885009342EC /* third_part_contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9BBF96F235F4885009342EC /* third_part_contents.plist */; };
 		D9BC6F5E238E2E050085E4E0 /* JXPagingMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BC6F5A238E2E050085E4E0 /* JXPagingMainTableView.swift */; };
@@ -1594,6 +1597,9 @@
 		D9B760BF24BC63BC0037A7A1 /* TYCycleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYCycleController.swift; sourceTree = "<group>"; };
 		D9B760C124BC64410037A7A1 /* TYCyclePagerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCyclePagerViewCell.h; sourceTree = "<group>"; };
 		D9B760C224BC64420037A7A1 /* TYCyclePagerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerViewCell.m; sourceTree = "<group>"; };
+		D9BA7F4D24DB07BA0043F405 /* BaseXibEmbeddedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXibEmbeddedView.swift; sourceTree = "<group>"; };
+		D9BA7F4F24DB0D200043F405 /* EmbeddedXibView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedXibView2.swift; sourceTree = "<group>"; };
+		D9BA7F5124DB0D310043F405 /* EmbeddedXibView2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmbeddedXibView2.xib; sourceTree = "<group>"; };
 		D9BBF96C235F2F4A009342EC /* JXSegmentedDemoBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXSegmentedDemoBaseController.swift; sourceTree = "<group>"; };
 		D9BBF96F235F4885009342EC /* third_part_contents.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = third_part_contents.plist; sourceTree = "<group>"; };
 		D9BC6F5A238E2E050085E4E0 /* JXPagingMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXPagingMainTableView.swift; sourceTree = "<group>"; };
@@ -2586,6 +2592,9 @@
 				D91F258824C6F57B0075B363 /* XibInXibViewController.xib */,
 				D91F258B24C6F5F40075B363 /* XibInXibRedView.swift */,
 				D91F258D24C6F6030075B363 /* XibInXibRedView.xib */,
+				D9BA7F4D24DB07BA0043F405 /* BaseXibEmbeddedView.swift */,
+				D9BA7F4F24DB0D200043F405 /* EmbeddedXibView2.swift */,
+				D9BA7F5124DB0D310043F405 /* EmbeddedXibView2.xib */,
 			);
 			path = "嵌套xib";
 			sourceTree = "<group>";
@@ -6983,6 +6992,7 @@
 				D98DF5D524B7127B001B9EC9 /* lakemcdonald.jpg in Resources */,
 				D9E51E2824972D9A00DC1C04 /* 43CEB891-5C2F-4C15-944A-44494EA4E196@4x.png in Resources */,
 				D98DF5D924B7127B001B9EC9 /* landmarkData.json in Resources */,
+				D9BA7F5224DB0D310043F405 /* EmbeddedXibView2.xib in Resources */,
 				D985E41C23FD08B500CF7954 /* SF-Pro-Text-Bold.otf in Resources */,
 				D967A81523ACB0760000C00D /* OOP.md in Resources */,
 				D95A3DD72484DE0900F0166C /* KVO基本操作.md in Resources */,
@@ -7513,6 +7523,8 @@
 				D9E51E212497172400DC1C04 /* GroupedTableDemoViewController.swift in Sources */,
 				D9C5B44E233DBE9700299AFB /* CommunityMessagePKCell.swift in Sources */,
 				D92BB28624690A3E008610DB /* ElegantNotifViewController.swift in Sources */,
+				D9BA7F5024DB0D200043F405 /* EmbeddedXibView2.swift in Sources */,
+				D9BA7F4E24DB07BA0043F405 /* BaseXibEmbeddedView.swift in Sources */,
 				D9E86CCD2447FB3E009CCBB8 /* GaodeMapPanDemoViewController.swift in Sources */,
 				D95A3DBB248245F000F0166C /* UIView+XibCorner.m in Sources */,
 				D928CEDC20EA663A00EE5C78 /* CQTabBarController.m in Sources */,
