@@ -353,6 +353,8 @@
 		D96162BA24D8190B00C47B70 /* SwiftXibScrollViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96162B824D8190B00C47B70 /* SwiftXibScrollViewController2.xib */; };
 		D96162CD24D93D7B00C47B70 /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D96162C724D93D7B00C47B70 /* CTMediator+HandyTools.m */; };
 		D96162CE24D93D7B00C47B70 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = D96162C824D93D7B00C47B70 /* CTMediator.m */; };
+		D96162EE24DA5A7E00C47B70 /* SwiftPrefixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96162ED24DA5A7E00C47B70 /* SwiftPrefixViewController.swift */; };
+		D96162F024DA5D0C00C47B70 /* DingStockExtensionWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96162EF24DA5D0C00C47B70 /* DingStockExtensionWrapper.swift */; };
 		D9626D5324CF1D5600D06B08 /* SetDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9626D5224CF1D5600D06B08 /* SetDemoViewController.swift */; };
 		D963F38B21490A13001B3021 /* CQCarBenz.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38A21490A13001B3021 /* CQCarBenz.m */; };
 		D963F38E21490A29001B3021 /* CQCarBMW.m in Sources */ = {isa = PBXBuildFile; fileRef = D963F38D21490A29001B3021 /* CQCarBMW.m */; };
@@ -1278,6 +1280,8 @@
 		D96162C824D93D7B00C47B70 /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
 		D96162C924D93D7B00C47B70 /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+HandyTools.h"; sourceTree = "<group>"; };
 		D96162CA24D93D7B00C47B70 /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		D96162ED24DA5A7E00C47B70 /* SwiftPrefixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPrefixViewController.swift; sourceTree = "<group>"; };
+		D96162EF24DA5D0C00C47B70 /* DingStockExtensionWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DingStockExtensionWrapper.swift; sourceTree = "<group>"; };
 		D9626D5224CF1D5600D06B08 /* SetDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDemoViewController.swift; sourceTree = "<group>"; };
 		D963F38921490A13001B3021 /* CQCarBenz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQCarBenz.h; sourceTree = "<group>"; };
 		D963F38A21490A13001B3021 /* CQCarBenz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCarBenz.m; sourceTree = "<group>"; };
@@ -4016,6 +4020,7 @@
 				D98DF5AF24B4172D001B9EC9 /* URL转二维码 */,
 				D90F481024C001FF00B81C79 /* NotificationManager */,
 				D9ED12A524C2975D00D29260 /* 获取类名 */,
+				D96162EC24DA5A2100C47B70 /* Swift前缀 */,
 			);
 			path = "杂七杂八";
 			sourceTree = "<group>";
@@ -4290,6 +4295,15 @@
 			);
 			name = CTMediator;
 			path = CTMediator/CTMediator/CTMediator;
+			sourceTree = "<group>";
+		};
+		D96162EC24DA5A2100C47B70 /* Swift前缀 */ = {
+			isa = PBXGroup;
+			children = (
+				D96162EF24DA5D0C00C47B70 /* DingStockExtensionWrapper.swift */,
+				D96162ED24DA5A7E00C47B70 /* SwiftPrefixViewController.swift */,
+			);
+			path = "Swift前缀";
 			sourceTree = "<group>";
 		};
 		D9626D5124CF1D1F00D06B08 /* Set */ = {
@@ -7341,6 +7355,7 @@
 				D967A80D23ACAE110000C00D /* OOPViewController.swift in Sources */,
 				D977FD7224C604A200AE2C1E /* BaseXibButton.swift in Sources */,
 				D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */,
+				D96162F024DA5D0C00C47B70 /* DingStockExtensionWrapper.swift in Sources */,
 				D965A2BE234E3AFB00041D69 /* CameraManagerViewController.swift in Sources */,
 				D92CBD7423F7A44C003A6EDC /* AlamofireRequestViewController.swift in Sources */,
 				D9C0E7AB24CE8DC800184C71 /* CADisplayLinkDemoViewController.swift in Sources */,
@@ -7471,6 +7486,7 @@
 				D9F957B724D3CD9F00D0925B /* TZImagePickerDemoController2.swift in Sources */,
 				D9A39F8422B4D36A00FEA5F5 /* CQComponentViewController.m in Sources */,
 				D9E86CC72447EEA0009CCBB8 /* PinchGestureViewController.swift in Sources */,
+				D96162EE24DA5A7E00C47B70 /* SwiftPrefixViewController.swift in Sources */,
 				D904C515234C9C00002DD939 /* PopMenuButtonViewController.swift in Sources */,
 				D942531E2366D5CA0031356C /* TableViewAnimationViewController.swift in Sources */,
 				D9442A7C24970DBB00CA4464 /* UltimateTableViewController.swift in Sources */,
@@ -7965,7 +7981,7 @@
 				INFOPLIST_FILE = iOS_Storage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "CaiQiang.iOS-Storage.cq";
+				PRODUCT_BUNDLE_IDENTIFIER = "caiqiang.iOS-Storage.cq2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Storage/iOS_Storage-Bridging-Header.h";
@@ -7989,7 +8005,7 @@
 				INFOPLIST_FILE = iOS_Storage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "CaiQiang.iOS-Storage.cq";
+				PRODUCT_BUNDLE_IDENTIFIER = "caiqiang.iOS-Storage.cq2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Storage/iOS_Storage-Bridging-Header.h";
