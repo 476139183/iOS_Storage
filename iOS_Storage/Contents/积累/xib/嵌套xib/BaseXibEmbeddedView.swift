@@ -9,7 +9,7 @@
 import UIKit
 
 class BaseXibEmbeddedView: UIView {
-
+    
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         
@@ -22,5 +22,5 @@ class BaseXibEmbeddedView: UIView {
         }
         
     }
-
+    
 }

@@ -706,7 +706,6 @@
 		D9C7021122EB546300DDC44F /* RxSwiftDemo.md in Resources */ = {isa = PBXBuildFile; fileRef = D9C7021022EB546300DDC44F /* RxSwiftDemo.md */; };
 		D9C7021322EB5CF400DDC44F /* RxPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7021222EB5CF400DDC44F /* RxPerson.swift */; };
 		D9C74FE924727CD900ACE269 /* SimpleDataDriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74FE824727CD900ACE269 /* SimpleDataDriveViewController.swift */; };
-		D9C7893424DBE33F00D9609A /* BaseXibEmbeddedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C7893324DBE33F00D9609A /* BaseXibEmbeddedView.xib */; };
 		D9C7CBF322E9552A0038FD34 /* ObjectMapperDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7CBF222E9552A0038FD34 /* ObjectMapperDemoViewController.swift */; };
 		D9C7CBFC22E991570038FD34 /* CQStandardOCTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C7CBFB22E991570038FD34 /* CQStandardOCTableViewViewController.m */; };
 		D9C7CBFF22E991CE0038FD34 /* CQStandardOCCollectionViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C7CBFE22E991CE0038FD34 /* CQStandardOCCollectionViewViewController.m */; };
@@ -1685,7 +1684,6 @@
 		D9C7021022EB546300DDC44F /* RxSwiftDemo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RxSwiftDemo.md; sourceTree = "<group>"; };
 		D9C7021222EB5CF400DDC44F /* RxPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPerson.swift; sourceTree = "<group>"; };
 		D9C74FE824727CD900ACE269 /* SimpleDataDriveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDataDriveViewController.swift; sourceTree = "<group>"; };
-		D9C7893324DBE33F00D9609A /* BaseXibEmbeddedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseXibEmbeddedView.xib; sourceTree = "<group>"; };
 		D9C7CBF222E9552A0038FD34 /* ObjectMapperDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMapperDemoViewController.swift; sourceTree = "<group>"; };
 		D9C7CBFA22E991570038FD34 /* CQStandardOCTableViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQStandardOCTableViewViewController.h; sourceTree = "<group>"; };
 		D9C7CBFB22E991570038FD34 /* CQStandardOCTableViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQStandardOCTableViewViewController.m; sourceTree = "<group>"; };
@@ -2602,7 +2600,6 @@
 				D91F258B24C6F5F40075B363 /* XibInXibRedView.swift */,
 				D91F258D24C6F6030075B363 /* XibInXibRedView.xib */,
 				D9BA7F4D24DB07BA0043F405 /* BaseXibEmbeddedView.swift */,
-				D9C7893324DBE33F00D9609A /* BaseXibEmbeddedView.xib */,
 				D9BA7F4F24DB0D200043F405 /* EmbeddedXibView2.swift */,
 				D9BA7F5124DB0D310043F405 /* EmbeddedXibView2.xib */,
 				D9259E7A24DBEDC5004C1611 /* EmbeddedXibView3.swift */,
@@ -7012,7 +7009,6 @@
 				D95A3DD72484DE0900F0166C /* KVO基本操作.md in Resources */,
 				D92D69C620DE35B2002BA9C0 /* Main.storyboard in Resources */,
 				D926BDAC22C273E800A2DD3E /* 模板方法模式.md in Resources */,
-				D9C7893424DBE33F00D9609A /* BaseXibEmbeddedView.xib in Resources */,
 				D95199E722BDCC0200E3036B /* 代理模式.md in Resources */,
 				D94F058F248B7837007B0165 /* kq2.html in Resources */,
 				D96D565E24AD89FF008DD9CF /* Xib使用手册.md in Resources */,
