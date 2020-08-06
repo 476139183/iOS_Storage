@@ -15,7 +15,8 @@ class XibDemosViewController: JumpListViewController {
         
         // Do any additional setup after loading the view.
         
-        self.dataArray = [ItemModel(title: "高度固定的导航栏", targetVC: ConstantNaviController()),
+        self.dataArray = [ItemModel(title: "xib stack", targetVC: XibStackViewController()),
+                          ItemModel(title: "高度固定的导航栏", targetVC: ConstantNaviController()),
                           ItemModel(title: "基于安全区的约束", targetVC: SafeAreaBasedViewController()),
                           ItemModel(title: "嵌套xib", targetVC: XibInXibViewController()),
                           ItemModel(title: "添加自定义属性", targetVC: SwiftXibCustomPropertyViewController()),

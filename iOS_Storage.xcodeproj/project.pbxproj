@@ -112,6 +112,8 @@
 		D9259E7B24DBEDC5004C1611 /* EmbeddedXibView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9259E7A24DBEDC5004C1611 /* EmbeddedXibView3.swift */; };
 		D9259E7D24DBEDD5004C1611 /* EmbeddedXibView3.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9259E7C24DBEDD5004C1611 /* EmbeddedXibView3.xib */; };
 		D9259E7F24DBEE00004C1611 /* 嵌套xib.md in Resources */ = {isa = PBXBuildFile; fileRef = D9259E7E24DBEE00004C1611 /* 嵌套xib.md */; };
+		D9259E8924DC11D2004C1611 /* XibStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9259E8724DC11D2004C1611 /* XibStackViewController.swift */; };
+		D9259E8A24DC11D2004C1611 /* XibStackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9259E8824DC11D2004C1611 /* XibStackViewController.xib */; };
 		D926BDAC22C273E800A2DD3E /* 模板方法模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDAB22C273E800A2DD3E /* 模板方法模式.md */; };
 		D926BDAF22C2782100A2DD3E /* CQTemplateMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */; };
 		D926BDB222C2F52B00A2DD3E /* 外观模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDB122C2F52B00A2DD3E /* 外观模式.md */; };
@@ -961,6 +963,8 @@
 		D9259E7A24DBEDC5004C1611 /* EmbeddedXibView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedXibView3.swift; sourceTree = "<group>"; };
 		D9259E7C24DBEDD5004C1611 /* EmbeddedXibView3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmbeddedXibView3.xib; sourceTree = "<group>"; };
 		D9259E7E24DBEE00004C1611 /* 嵌套xib.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "嵌套xib.md"; sourceTree = "<group>"; };
+		D9259E8724DC11D2004C1611 /* XibStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibStackViewController.swift; sourceTree = "<group>"; };
+		D9259E8824DC11D2004C1611 /* XibStackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibStackViewController.xib; sourceTree = "<group>"; };
 		D926BDAB22C273E800A2DD3E /* 模板方法模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "模板方法模式.md"; sourceTree = "<group>"; };
 		D926BDAD22C2782100A2DD3E /* CQTemplateMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTemplateMethodViewController.h; sourceTree = "<group>"; };
 		D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTemplateMethodViewController.m; sourceTree = "<group>"; };
@@ -2695,6 +2699,15 @@
 				D9237DCE23FF71910021F876 /* SingleSegmentedViewController.swift */,
 			);
 			path = "单独使用SegmentedView";
+			sourceTree = "<group>";
+		};
+		D9259E8624DC11AB004C1611 /* xib stack */ = {
+			isa = PBXGroup;
+			children = (
+				D9259E8724DC11D2004C1611 /* XibStackViewController.swift */,
+				D9259E8824DC11D2004C1611 /* XibStackViewController.xib */,
+			);
+			path = "xib stack";
 			sourceTree = "<group>";
 		};
 		D926BDAA22C26E1D00A2DD3E /* 模板方法模式 */ = {
@@ -4531,6 +4544,7 @@
 			children = (
 				D96D565D24AD89FF008DD9CF /* Xib使用手册.md */,
 				D96D564524AD8382008DD9CF /* XibDemosViewController.swift */,
+				D9259E8624DC11AB004C1611 /* xib stack */,
 				D96162FC24DA986C00C47B70 /* 动态高度导航栏 */,
 				D947D38A24D7B66300C667F6 /* 基于安全区的约束 */,
 				D91F258624C6F5570075B363 /* 嵌套xib */,
@@ -6884,6 +6898,7 @@
 				D9F53196249D194C005BD556 /* 内存分布.md in Resources */,
 				D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */,
 				D91F258E24C6F6030075B363 /* XibInXibRedView.xib in Resources */,
+				D9259E8A24DC11D2004C1611 /* XibStackViewController.xib in Resources */,
 				D926BDB822C33EB600A2DD3E /* 建造者模式.md in Resources */,
 				D98DF5D824B7127B001B9EC9 /* umbagog.jpg in Resources */,
 				D930956D23B2F3D100837CA6 /* StaticTableViewStoryboard.storyboard in Resources */,
@@ -7198,6 +7213,7 @@
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
 				D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */,
 				D9CD7BF02473805F000B7EB4 /* ClassAndStructViewController.swift in Sources */,
+				D9259E8924DC11D2004C1611 /* XibStackViewController.swift in Sources */,
 				D95A3DC024825B0300F0166C /* UITextFieldDemosViewController.swift in Sources */,
 				D96FE2C62396437800949006 /* ASInsetLayoutController.swift in Sources */,
 				D947D39724D7C56600C667F6 /* StackInXibViewController.swift in Sources */,

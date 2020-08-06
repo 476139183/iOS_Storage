@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XibStackViewController" customModule="iOS_Storage" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="chr-vU-ARo" userLabel="OrangeView">
+                    <rect key="frame" x="0.0" y="760" width="138" height="50"/>
+                    <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xIz-1x-Cps" userLabel="BlueView">
+                    <rect key="frame" x="276" y="760" width="138" height="50"/>
+                    <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Rma-Yj-lDn"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kAI-ca-9bU" userLabel="GreenView">
+                    <rect key="frame" x="138" y="760" width="138" height="50"/>
+                    <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="xIz-1x-Cps" firstAttribute="leading" secondItem="kAI-ca-9bU" secondAttribute="trailing" id="3hq-Te-J1K"/>
+                <constraint firstItem="kAI-ca-9bU" firstAttribute="width" secondItem="chr-vU-ARo" secondAttribute="width" id="Ecu-N8-XyR"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="xIz-1x-Cps" secondAttribute="bottom" constant="52" id="PwL-K1-fxb"/>
+                <constraint firstItem="kAI-ca-9bU" firstAttribute="leading" secondItem="chr-vU-ARo" secondAttribute="trailing" id="V9b-x9-0fB"/>
+                <constraint firstItem="kAI-ca-9bU" firstAttribute="centerY" secondItem="chr-vU-ARo" secondAttribute="centerY" id="VKC-Fh-acv"/>
+                <constraint firstItem="chr-vU-ARo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="baw-Yy-80X"/>
+                <constraint firstItem="xIz-1x-Cps" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="jaY-fC-kUc"/>
+                <constraint firstItem="xIz-1x-Cps" firstAttribute="centerY" secondItem="chr-vU-ARo" secondAttribute="centerY" id="nvO-zF-LIo"/>
+                <constraint firstItem="xIz-1x-Cps" firstAttribute="width" secondItem="chr-vU-ARo" secondAttribute="width" id="qio-yQ-fDM"/>
+                <constraint firstItem="kAI-ca-9bU" firstAttribute="height" secondItem="chr-vU-ARo" secondAttribute="height" id="rgA-kB-IsN"/>
+                <constraint firstItem="xIz-1x-Cps" firstAttribute="height" secondItem="chr-vU-ARo" secondAttribute="height" id="sCv-RA-8Yq"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>
+        </view>
+    </objects>
+</document>
