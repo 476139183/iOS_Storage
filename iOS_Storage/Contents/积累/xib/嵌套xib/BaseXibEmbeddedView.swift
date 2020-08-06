@@ -14,7 +14,7 @@ class BaseXibEmbeddedView: UIView {
         super.init(coder: coder)
         
         let name = self.className
-        let view = Bundle.main.loadNibNamed(name, owner: nil, options: nil)?.first as! UIView
+        let view = Bundle.main.loadNibNamed(name, owner: self, options: nil)?.first as! UIView
         view.frame = self.bounds
         addSubview(view)
         view.snp.makeConstraints { (make) in
