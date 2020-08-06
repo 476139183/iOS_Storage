@@ -109,6 +109,9 @@
 		D9237DC923FEBD8E0021F876 /* UIView+Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9237DC823FEBD8E0021F876 /* UIView+Status.swift */; };
 		D9237DCC23FEC8200021F876 /* ChangeViewStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9237DCB23FEC8200021F876 /* ChangeViewStateViewController.swift */; };
 		D9237DCF23FF71910021F876 /* SingleSegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9237DCE23FF71910021F876 /* SingleSegmentedViewController.swift */; };
+		D9259E7B24DBEDC5004C1611 /* EmbeddedXibView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9259E7A24DBEDC5004C1611 /* EmbeddedXibView3.swift */; };
+		D9259E7D24DBEDD5004C1611 /* EmbeddedXibView3.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9259E7C24DBEDD5004C1611 /* EmbeddedXibView3.xib */; };
+		D9259E7F24DBEE00004C1611 /* 嵌套xib.md in Resources */ = {isa = PBXBuildFile; fileRef = D9259E7E24DBEE00004C1611 /* 嵌套xib.md */; };
 		D926BDAC22C273E800A2DD3E /* 模板方法模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDAB22C273E800A2DD3E /* 模板方法模式.md */; };
 		D926BDAF22C2782100A2DD3E /* CQTemplateMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */; };
 		D926BDB222C2F52B00A2DD3E /* 外观模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDB122C2F52B00A2DD3E /* 外观模式.md */; };
@@ -703,6 +706,7 @@
 		D9C7021122EB546300DDC44F /* RxSwiftDemo.md in Resources */ = {isa = PBXBuildFile; fileRef = D9C7021022EB546300DDC44F /* RxSwiftDemo.md */; };
 		D9C7021322EB5CF400DDC44F /* RxPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7021222EB5CF400DDC44F /* RxPerson.swift */; };
 		D9C74FE924727CD900ACE269 /* SimpleDataDriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C74FE824727CD900ACE269 /* SimpleDataDriveViewController.swift */; };
+		D9C7893424DBE33F00D9609A /* BaseXibEmbeddedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C7893324DBE33F00D9609A /* BaseXibEmbeddedView.xib */; };
 		D9C7CBF322E9552A0038FD34 /* ObjectMapperDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C7CBF222E9552A0038FD34 /* ObjectMapperDemoViewController.swift */; };
 		D9C7CBFC22E991570038FD34 /* CQStandardOCTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C7CBFB22E991570038FD34 /* CQStandardOCTableViewViewController.m */; };
 		D9C7CBFF22E991CE0038FD34 /* CQStandardOCCollectionViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C7CBFE22E991CE0038FD34 /* CQStandardOCCollectionViewViewController.m */; };
@@ -955,6 +959,9 @@
 		D9237DC823FEBD8E0021F876 /* UIView+Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Status.swift"; sourceTree = "<group>"; };
 		D9237DCB23FEC8200021F876 /* ChangeViewStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeViewStateViewController.swift; sourceTree = "<group>"; };
 		D9237DCE23FF71910021F876 /* SingleSegmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSegmentedViewController.swift; sourceTree = "<group>"; };
+		D9259E7A24DBEDC5004C1611 /* EmbeddedXibView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedXibView3.swift; sourceTree = "<group>"; };
+		D9259E7C24DBEDD5004C1611 /* EmbeddedXibView3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmbeddedXibView3.xib; sourceTree = "<group>"; };
+		D9259E7E24DBEE00004C1611 /* 嵌套xib.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "嵌套xib.md"; sourceTree = "<group>"; };
 		D926BDAB22C273E800A2DD3E /* 模板方法模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "模板方法模式.md"; sourceTree = "<group>"; };
 		D926BDAD22C2782100A2DD3E /* CQTemplateMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTemplateMethodViewController.h; sourceTree = "<group>"; };
 		D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTemplateMethodViewController.m; sourceTree = "<group>"; };
@@ -1678,6 +1685,7 @@
 		D9C7021022EB546300DDC44F /* RxSwiftDemo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RxSwiftDemo.md; sourceTree = "<group>"; };
 		D9C7021222EB5CF400DDC44F /* RxPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPerson.swift; sourceTree = "<group>"; };
 		D9C74FE824727CD900ACE269 /* SimpleDataDriveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDataDriveViewController.swift; sourceTree = "<group>"; };
+		D9C7893324DBE33F00D9609A /* BaseXibEmbeddedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseXibEmbeddedView.xib; sourceTree = "<group>"; };
 		D9C7CBF222E9552A0038FD34 /* ObjectMapperDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMapperDemoViewController.swift; sourceTree = "<group>"; };
 		D9C7CBFA22E991570038FD34 /* CQStandardOCTableViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQStandardOCTableViewViewController.h; sourceTree = "<group>"; };
 		D9C7CBFB22E991570038FD34 /* CQStandardOCTableViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQStandardOCTableViewViewController.m; sourceTree = "<group>"; };
@@ -2588,13 +2596,17 @@
 		D91F258624C6F5570075B363 /* 嵌套xib */ = {
 			isa = PBXGroup;
 			children = (
+				D9259E7E24DBEE00004C1611 /* 嵌套xib.md */,
 				D91F258724C6F57B0075B363 /* XibInXibViewController.swift */,
 				D91F258824C6F57B0075B363 /* XibInXibViewController.xib */,
 				D91F258B24C6F5F40075B363 /* XibInXibRedView.swift */,
 				D91F258D24C6F6030075B363 /* XibInXibRedView.xib */,
 				D9BA7F4D24DB07BA0043F405 /* BaseXibEmbeddedView.swift */,
+				D9C7893324DBE33F00D9609A /* BaseXibEmbeddedView.xib */,
 				D9BA7F4F24DB0D200043F405 /* EmbeddedXibView2.swift */,
 				D9BA7F5124DB0D310043F405 /* EmbeddedXibView2.xib */,
+				D9259E7A24DBEDC5004C1611 /* EmbeddedXibView3.swift */,
+				D9259E7C24DBEDD5004C1611 /* EmbeddedXibView3.xib */,
 			);
 			path = "嵌套xib";
 			sourceTree = "<group>";
@@ -6839,10 +6851,12 @@
 			files = (
 				D936ACB924A1E06700556EDD /* handy_json.json in Resources */,
 				D9EF0EA72110396300755E11 /* class_cluster_data.json in Resources */,
+				D9259E7F24DBEE00004C1611 /* 嵌套xib.md in Resources */,
 				D97667BC2499C1F900A8BEDD /* Swift 扩展.md in Resources */,
 				D96D56A224AF0C8F008DD9CF /* SwiftXibRedCell.xib in Resources */,
 				D913F9452109CE1D00366887 /* arithmetic_contents.plist in Resources */,
 				D94F0578248A4807007B0165 /* tabbar_find.json in Resources */,
+				D9259E7D24DBEDD5004C1611 /* EmbeddedXibView3.xib in Resources */,
 				D95A3DB22482063800F0166C /* LocalGifCell.xib in Resources */,
 				D9A39F6E22B4C90900FEA5F5 /* 策略设计模式.md in Resources */,
 				D947D39824D7C56600C667F6 /* StackInXibViewController.xib in Resources */,
@@ -6998,6 +7012,7 @@
 				D95A3DD72484DE0900F0166C /* KVO基本操作.md in Resources */,
 				D92D69C620DE35B2002BA9C0 /* Main.storyboard in Resources */,
 				D926BDAC22C273E800A2DD3E /* 模板方法模式.md in Resources */,
+				D9C7893424DBE33F00D9609A /* BaseXibEmbeddedView.xib in Resources */,
 				D95199E722BDCC0200E3036B /* 代理模式.md in Resources */,
 				D94F058F248B7837007B0165 /* kq2.html in Resources */,
 				D96D565E24AD89FF008DD9CF /* Xib使用手册.md in Resources */,
@@ -7532,6 +7547,7 @@
 				D935A3E524C571FF00B766BE /* XibCornerViewController.swift in Sources */,
 				D9DE6CBD20FEE78100C8D4FE /* CQRegionModel.m in Sources */,
 				D9D56B0523B488C9005EEA9A /* CQShadowView.m in Sources */,
+				D9259E7B24DBEDC5004C1611 /* EmbeddedXibView3.swift in Sources */,
 				D96F416123BEE074008616F4 /* ElegantSwiftViewController.swift in Sources */,
 				D9AEB65922F57955006F8995 /* MoyaDemoViewController.swift in Sources */,
 				D942531B2366D55C0031356C /* AnimationsViewController.swift in Sources */,
