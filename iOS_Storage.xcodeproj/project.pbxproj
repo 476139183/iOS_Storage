@@ -118,6 +118,10 @@
 		D9259E8F24DCF211004C1611 /* XibTTTLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9259E8D24DCF211004C1611 /* XibTTTLabelViewController.xib */; };
 		D9259E9224DD0238004C1611 /* MyBlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9259E9124DD0238004C1611 /* MyBlogViewController.swift */; };
 		D9259E9424DD0466004C1611 /* AlertDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9259E9324DD0466004C1611 /* AlertDemoViewController.swift */; };
+		D9259EA124DD296D004C1611 /* 静态tableView.md in Resources */ = {isa = PBXBuildFile; fileRef = D9259EA024DD296D004C1611 /* 静态tableView.md */; };
+		D9259EA324DD303A004C1611 /* StaticTableStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9259EA224DD303A004C1611 /* StaticTableStoryboard.storyboard */; };
+		D9259EA524DD341E004C1611 /* StaticTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9259EA424DD341E004C1611 /* StaticTableTableViewController.swift */; };
+		D9259EBB24DD57F1004C1611 /* StoryboardDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9259EBA24DD57F1004C1611 /* StoryboardDemosViewController.swift */; };
 		D926BDAC22C273E800A2DD3E /* 模板方法模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDAB22C273E800A2DD3E /* 模板方法模式.md */; };
 		D926BDAF22C2782100A2DD3E /* CQTemplateMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */; };
 		D926BDB222C2F52B00A2DD3E /* 外观模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDB122C2F52B00A2DD3E /* 外观模式.md */; };
@@ -972,6 +976,10 @@
 		D9259E8D24DCF211004C1611 /* XibTTTLabelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibTTTLabelViewController.xib; sourceTree = "<group>"; };
 		D9259E9124DD0238004C1611 /* MyBlogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBlogViewController.swift; sourceTree = "<group>"; };
 		D9259E9324DD0466004C1611 /* AlertDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertDemoViewController.swift; path = "iOS_Storage/Contents/积累/我的框架/AlertDemoViewController.swift"; sourceTree = SOURCE_ROOT; };
+		D9259EA024DD296D004C1611 /* 静态tableView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "静态tableView.md"; sourceTree = "<group>"; };
+		D9259EA224DD303A004C1611 /* StaticTableStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StaticTableStoryboard.storyboard; sourceTree = "<group>"; };
+		D9259EA424DD341E004C1611 /* StaticTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableTableViewController.swift; sourceTree = "<group>"; };
+		D9259EBA24DD57F1004C1611 /* StoryboardDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardDemosViewController.swift; sourceTree = "<group>"; };
 		D926BDAB22C273E800A2DD3E /* 模板方法模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "模板方法模式.md"; sourceTree = "<group>"; };
 		D926BDAD22C2782100A2DD3E /* CQTemplateMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTemplateMethodViewController.h; sourceTree = "<group>"; };
 		D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTemplateMethodViewController.m; sourceTree = "<group>"; };
@@ -2733,6 +2741,32 @@
 			path = "我的博客";
 			sourceTree = "<group>";
 		};
+		D9259E9B24DD0BC9004C1611 /* 静态tableView */ = {
+			isa = PBXGroup;
+			children = (
+				D9259EA024DD296D004C1611 /* 静态tableView.md */,
+				D9259EA424DD341E004C1611 /* StaticTableTableViewController.swift */,
+				D9259EA224DD303A004C1611 /* StaticTableStoryboard.storyboard */,
+			);
+			path = "静态tableView";
+			sourceTree = "<group>";
+		};
+		D9259EAA24DD365F004C1611 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D9259EBA24DD57F1004C1611 /* StoryboardDemosViewController.swift */,
+				D9259E9B24DD0BC9004C1611 /* 静态tableView */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		D9259EAB24DD3779004C1611 /* Widget(Today Extension) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Widget(Today Extension)";
+			sourceTree = "<group>";
+		};
 		D926BDAA22C26E1D00A2DD3E /* 模板方法模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3420,7 +3454,9 @@
 				D937689223585D2400515315 /* MapDemo */,
 				D95885BA24519D9C00CD9FDD /* 视频播放器 */,
 				D96D564224AD8303008DD9CF /* xib */,
+				D9259EAA24DD365F004C1611 /* storyboard */,
 				D9C3BE6624B21F6B00873786 /* SwiftUI */,
+				D9259EAB24DD3779004C1611 /* Widget(Today Extension) */,
 				D9A6364524B3FC0600900A8F /* App Clips */,
 				D9551E5124762DAF00E7E494 /* 杂七杂八 */,
 			);
@@ -6950,6 +6986,7 @@
 				D985E42023FD08B500CF7954 /* SF-Pro-Text-HeavyItalic.otf in Resources */,
 				D96D569A24AF0C25008DD9CF /* SwiftXibTableViewController.xib in Resources */,
 				D9402A892101E5B500BF792F /* interview_contents.plist in Resources */,
+				D9259EA124DD296D004C1611 /* 静态tableView.md in Resources */,
 				D9AC3CB622AFFDC2007DDBD0 /* 数据结构分类.md in Resources */,
 				D973CD102487A6E000C67FB9 /* 泛型.md in Resources */,
 				D96F416323BEE093008616F4 /* 优雅的Swift.md in Resources */,
@@ -6980,6 +7017,7 @@
 				D967A81C23ACD0C50000C00D /* POP.md in Resources */,
 				D930957323B30A0400837CA6 /* StaticMyTableView.storyboard in Resources */,
 				D98DF5D424B7127B001B9EC9 /* icybay.jpg in Resources */,
+				D9259EA324DD303A004C1611 /* StaticTableStoryboard.storyboard in Resources */,
 				D926BDCA22C48E5200A2DD3E /* 状态模式.md in Resources */,
 				D920ED1E22E8706400C5A43F /* wordsanime.json in Resources */,
 				D91A9F7522B3CF65008F87F1 /* pthread.md in Resources */,
@@ -7242,6 +7280,7 @@
 				D9CD7BF02473805F000B7EB4 /* ClassAndStructViewController.swift in Sources */,
 				D9259E8924DC11D2004C1611 /* XibStackViewController.swift in Sources */,
 				D95A3DC024825B0300F0166C /* UITextFieldDemosViewController.swift in Sources */,
+				D9259EBB24DD57F1004C1611 /* StoryboardDemosViewController.swift in Sources */,
 				D96FE2C62396437800949006 /* ASInsetLayoutController.swift in Sources */,
 				D947D39724D7C56600C667F6 /* StackInXibViewController.swift in Sources */,
 				D9545B382293AA4B008B6355 /* CQPermanentThreadController.m in Sources */,
@@ -7757,6 +7796,7 @@
 				D9536EF3244A9D4400FD3964 /* TTTLabelViewController2.swift in Sources */,
 				D9B760C324BC64420037A7A1 /* TYCyclePagerViewCell.m in Sources */,
 				D98E8EEC24775F9700A2D01A /* RuntimeDemoViewController.swift in Sources */,
+				D9259EA524DD341E004C1611 /* StaticTableTableViewController.swift in Sources */,
 				D9376888235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift in Sources */,
 				D97129E0239E300C00AEAD3C /* UITextViewDemoController.swift in Sources */,
 				D9E21A85210FF7F500407599 /* CQClassClusterBaseCell.m in Sources */,

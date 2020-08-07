@@ -164,6 +164,14 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
+		<string>storyboard</string>
+		<key>controller_name</key>
+		<string>StoryboardDemosViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
 		<string>SwiftUI</string>
 		<key>controller_name</key>
 		<string>SwiftUIDemosViewController</string>
