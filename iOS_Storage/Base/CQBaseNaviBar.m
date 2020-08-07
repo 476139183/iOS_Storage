@@ -55,6 +55,7 @@
     [self.detailButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [self.detailButton.titleLabel setFont:[UIFont systemFontOfSize:16 weight:UIFontWeightMedium]];
     [self.detailButton setEnlargeEdgeWithTop:10 right:10 bottom:0 left:10];
+    self.detailButton.hidden = YES;
     [self.detailButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.height.mas_equalTo(self.titleLabel);
         make.right.mas_equalTo(self).offset(-20);
