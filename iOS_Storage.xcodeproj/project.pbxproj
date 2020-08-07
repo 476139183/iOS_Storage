@@ -116,6 +116,8 @@
 		D9259E8A24DC11D2004C1611 /* XibStackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9259E8824DC11D2004C1611 /* XibStackViewController.xib */; };
 		D9259E8E24DCF211004C1611 /* XibTTTLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9259E8C24DCF211004C1611 /* XibTTTLabelViewController.swift */; };
 		D9259E8F24DCF211004C1611 /* XibTTTLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9259E8D24DCF211004C1611 /* XibTTTLabelViewController.xib */; };
+		D9259E9224DD0238004C1611 /* MyBlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9259E9124DD0238004C1611 /* MyBlogViewController.swift */; };
+		D9259E9424DD0466004C1611 /* AlertDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9259E9324DD0466004C1611 /* AlertDemoViewController.swift */; };
 		D926BDAC22C273E800A2DD3E /* 模板方法模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDAB22C273E800A2DD3E /* 模板方法模式.md */; };
 		D926BDAF22C2782100A2DD3E /* CQTemplateMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */; };
 		D926BDB222C2F52B00A2DD3E /* 外观模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDB122C2F52B00A2DD3E /* 外观模式.md */; };
@@ -217,7 +219,6 @@
 		D93AB580248753DC00E79EAB /* CameraFrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AB57F248753DC00E79EAB /* CameraFrameworkViewController.swift */; };
 		D93AB5822487541600E79EAB /* KeyboardFrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AB5812487541600E79EAB /* KeyboardFrameworkViewController.swift */; };
 		D93AB58424875F3500E79EAB /* MyFrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AB58324875F3500E79EAB /* MyFrameworkViewController.swift */; };
-		D93AB586248768E900E79EAB /* AlertDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AB585248768E900E79EAB /* AlertDemoViewController.swift */; };
 		D93AB58B24876AF000E79EAB /* KVOControllerTheoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93AB58A24876AF000E79EAB /* KVOControllerTheoryViewController.m */; };
 		D93AB7172147A9F60024C76E /* CQSimpleFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93AB7162147A9F60024C76E /* CQSimpleFactoryViewController.m */; };
 		D93AB71B2147BE230024C76E /* CQCarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D93AB71A2147BE230024C76E /* CQCarFactory.m */; };
@@ -969,6 +970,8 @@
 		D9259E8824DC11D2004C1611 /* XibStackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibStackViewController.xib; sourceTree = "<group>"; };
 		D9259E8C24DCF211004C1611 /* XibTTTLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibTTTLabelViewController.swift; sourceTree = "<group>"; };
 		D9259E8D24DCF211004C1611 /* XibTTTLabelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibTTTLabelViewController.xib; sourceTree = "<group>"; };
+		D9259E9124DD0238004C1611 /* MyBlogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBlogViewController.swift; sourceTree = "<group>"; };
+		D9259E9324DD0466004C1611 /* AlertDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertDemoViewController.swift; path = "iOS_Storage/Contents/积累/我的框架/AlertDemoViewController.swift"; sourceTree = SOURCE_ROOT; };
 		D926BDAB22C273E800A2DD3E /* 模板方法模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "模板方法模式.md"; sourceTree = "<group>"; };
 		D926BDAD22C2782100A2DD3E /* CQTemplateMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTemplateMethodViewController.h; sourceTree = "<group>"; };
 		D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTemplateMethodViewController.m; sourceTree = "<group>"; };
@@ -1106,7 +1109,6 @@
 		D93AB57F248753DC00E79EAB /* CameraFrameworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFrameworkViewController.swift; sourceTree = "<group>"; };
 		D93AB5812487541600E79EAB /* KeyboardFrameworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardFrameworkViewController.swift; sourceTree = "<group>"; };
 		D93AB58324875F3500E79EAB /* MyFrameworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameworkViewController.swift; sourceTree = "<group>"; };
-		D93AB585248768E900E79EAB /* AlertDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlertDemoViewController.swift; path = "iOS_Storage/Contents/积累/自己的框架/AlertDemoViewController.swift"; sourceTree = SOURCE_ROOT; };
 		D93AB58924876AF000E79EAB /* KVOControllerTheoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOControllerTheoryViewController.h; sourceTree = "<group>"; };
 		D93AB58A24876AF000E79EAB /* KVOControllerTheoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOControllerTheoryViewController.m; sourceTree = "<group>"; };
 		D93AB7152147A9F60024C76E /* CQSimpleFactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSimpleFactoryViewController.h; sourceTree = "<group>"; };
@@ -2723,6 +2725,14 @@
 			path = "xib使用TTTLabel";
 			sourceTree = "<group>";
 		};
+		D9259E9024DD0135004C1611 /* 我的博客 */ = {
+			isa = PBXGroup;
+			children = (
+				D9259E9124DD0238004C1611 /* MyBlogViewController.swift */,
+			);
+			path = "我的博客";
+			sourceTree = "<group>";
+		};
 		D926BDAA22C26E1D00A2DD3E /* 模板方法模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3001,7 +3011,7 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D92D69A220DE2D95002BA9C0 /* 自己的框架 */ = {
+		D92D69A220DE2D95002BA9C0 /* 我的框架 */ = {
 			isa = PBXGroup;
 			children = (
 				D93AB58324875F3500E79EAB /* MyFrameworkViewController.swift */,
@@ -3023,7 +3033,7 @@
 				D9237DCA23FEC7B30021F876 /* 控制view的状态 */,
 				D9C3D0E5246DA11200D3DF7B /* 动画hud */,
 			);
-			path = "自己的框架";
+			path = "我的框架";
 			sourceTree = "<group>";
 		};
 		D92D69A320DE2DAA002BA9C0 /* 比例拼图 */ = {
@@ -3390,7 +3400,8 @@
 			isa = PBXGroup;
 			children = (
 				D94016922361EE9C00580AAC /* accumulate_contents.plist */,
-				D92D69A220DE2D95002BA9C0 /* 自己的框架 */,
+				D9259E9024DD0135004C1611 /* 我的博客 */,
+				D92D69A220DE2D95002BA9C0 /* 我的框架 */,
 				D91F97EB245ACC5400865DEA /* 语法大全 */,
 				D9ED81DD2458086000726E49 /* 追求完美 */,
 				D9ED81DE2458087C00726E49 /* 要优雅 */,
@@ -3703,8 +3714,8 @@
 		D94B64FD2153799000F2FD84 /* 弹窗 */ = {
 			isa = PBXGroup;
 			children = (
+				D9259E9324DD0466004C1611 /* AlertDemoViewController.swift */,
 				D94F6A8820FEDCD9006BCC6B /* 模态Controller弹窗 */,
-				D93AB585248768E900E79EAB /* AlertDemoViewController.swift */,
 			);
 			path = "弹窗";
 			sourceTree = "<group>";
@@ -7469,6 +7480,7 @@
 				D95A3DA22480F32300F0166C /* KingfisherLoadGifViewController.swift in Sources */,
 				D94F057B248B3FF4007B0165 /* JSAndWebViewController.swift in Sources */,
 				D95A3DCB2484AF5C00F0166C /* ObserPropertyViewController.swift in Sources */,
+				D9259E9224DD0238004C1611 /* MyBlogViewController.swift in Sources */,
 				D9BC6F65238E58CD0085E4E0 /* NestedItemTableView.swift in Sources */,
 				D944FD30249873CE00C8DB52 /* BaseGenericsCell.swift in Sources */,
 				D97667C6249A138700A8BEDD /* SectionModel.swift in Sources */,
@@ -7761,7 +7773,6 @@
 				D926BDDC22C497BA00A2DD3E /* Work.m in Sources */,
 				D994A6E023A65E050032E540 /* IconFontButton.swift in Sources */,
 				D9146DA3249C595F002862AB /* BaseCellTableViewController.swift in Sources */,
-				D93AB586248768E900E79EAB /* AlertDemoViewController.swift in Sources */,
 				D93AB55A248745DA00E79EAB /* UIFrameworkViewController.swift in Sources */,
 				D9AC507723B0770C00CB4DF2 /* AOPViewController.swift in Sources */,
 				D973CD222489E1F900C67FB9 /* MemoryManagerViewController.swift in Sources */,
@@ -7855,6 +7866,7 @@
 				D92D105A23066A42002203A1 /* CQCheckDeallocViewController.m in Sources */,
 				D95A3DD22484DCBF00F0166C /* KVOBasicViewController.m in Sources */,
 				D9799C7624C9C3F3000D3AA8 /* StackDemoViewController.swift in Sources */,
+				D9259E9424DD0466004C1611 /* AlertDemoViewController.swift in Sources */,
 				D94BF43A20E48C850012C370 /* CQBaseViewController.m in Sources */,
 				D92CBD6523F67901003A6EDC /* RedDotSegmentViewController.swift in Sources */,
 				D937688A23580A3300515315 /* CollectionViewLayoutDemoViewController.swift in Sources */,
