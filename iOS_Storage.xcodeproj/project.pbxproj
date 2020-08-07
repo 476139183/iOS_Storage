@@ -114,6 +114,8 @@
 		D9259E7F24DBEE00004C1611 /* 嵌套xib.md in Resources */ = {isa = PBXBuildFile; fileRef = D9259E7E24DBEE00004C1611 /* 嵌套xib.md */; };
 		D9259E8924DC11D2004C1611 /* XibStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9259E8724DC11D2004C1611 /* XibStackViewController.swift */; };
 		D9259E8A24DC11D2004C1611 /* XibStackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9259E8824DC11D2004C1611 /* XibStackViewController.xib */; };
+		D9259E8E24DCF211004C1611 /* XibTTTLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9259E8C24DCF211004C1611 /* XibTTTLabelViewController.swift */; };
+		D9259E8F24DCF211004C1611 /* XibTTTLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9259E8D24DCF211004C1611 /* XibTTTLabelViewController.xib */; };
 		D926BDAC22C273E800A2DD3E /* 模板方法模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDAB22C273E800A2DD3E /* 模板方法模式.md */; };
 		D926BDAF22C2782100A2DD3E /* CQTemplateMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */; };
 		D926BDB222C2F52B00A2DD3E /* 外观模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDB122C2F52B00A2DD3E /* 外观模式.md */; };
@@ -965,6 +967,8 @@
 		D9259E7E24DBEE00004C1611 /* 嵌套xib.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "嵌套xib.md"; sourceTree = "<group>"; };
 		D9259E8724DC11D2004C1611 /* XibStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibStackViewController.swift; sourceTree = "<group>"; };
 		D9259E8824DC11D2004C1611 /* XibStackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibStackViewController.xib; sourceTree = "<group>"; };
+		D9259E8C24DCF211004C1611 /* XibTTTLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibTTTLabelViewController.swift; sourceTree = "<group>"; };
+		D9259E8D24DCF211004C1611 /* XibTTTLabelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibTTTLabelViewController.xib; sourceTree = "<group>"; };
 		D926BDAB22C273E800A2DD3E /* 模板方法模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "模板方法模式.md"; sourceTree = "<group>"; };
 		D926BDAD22C2782100A2DD3E /* CQTemplateMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTemplateMethodViewController.h; sourceTree = "<group>"; };
 		D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTemplateMethodViewController.m; sourceTree = "<group>"; };
@@ -2708,6 +2712,15 @@
 				D9259E8824DC11D2004C1611 /* XibStackViewController.xib */,
 			);
 			path = "xib stack";
+			sourceTree = "<group>";
+		};
+		D9259E8B24DCF1E1004C1611 /* xib使用TTTLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D9259E8C24DCF211004C1611 /* XibTTTLabelViewController.swift */,
+				D9259E8D24DCF211004C1611 /* XibTTTLabelViewController.xib */,
+			);
+			path = "xib使用TTTLabel";
 			sourceTree = "<group>";
 		};
 		D926BDAA22C26E1D00A2DD3E /* 模板方法模式 */ = {
@@ -6685,6 +6698,7 @@
 				D9D814B724BD689F00D0685A /* 基本操作 */,
 				D9D814B624BD688E00D0685A /* 正则 */,
 				D90F47FE24BDAAA000B81C79 /* 改变点击颜色 */,
+				D9259E8B24DCF1E1004C1611 /* xib使用TTTLabel */,
 			);
 			path = TTTAttributedLabel;
 			sourceTree = "<group>";
@@ -6960,6 +6974,7 @@
 				D91A9F7522B3CF65008F87F1 /* pthread.md in Resources */,
 				D95A3DAE2481F32F00F0166C /* WebGifCell.xib in Resources */,
 				D921F97220FF640B00712042 /* house_list.json in Resources */,
+				D9259E8F24DCF211004C1611 /* XibTTTLabelViewController.xib in Resources */,
 				D9C84268239503F300DC5BCD /* TextureLayout.md in Resources */,
 				D961630224DA9A5B00C47B70 /* ConstantNaviController.xib in Resources */,
 				D95A3DB62482351E00F0166C /* KingfisherAnimatedCell.xib in Resources */,
@@ -7207,6 +7222,7 @@
 				D90F480024BDAAC900B81C79 /* TTTChangeLinkColorViewController.swift in Sources */,
 				D9697FF122F097D800220938 /* StandardSwiftCollectionViewCell.swift in Sources */,
 				D96162CE24D93D7B00C47B70 /* CTMediator.m in Sources */,
+				D9259E8E24DCF211004C1611 /* XibTTTLabelViewController.swift in Sources */,
 				D90F488F24C17A2900B81C79 /* BlueCornerRadiusView.swift in Sources */,
 				D96D563724AC653A008DD9CF /* CodableDemoViewController.swift in Sources */,
 				D97246EF237E6056001671AD /* CustomLayoutViewController.swift in Sources */,
