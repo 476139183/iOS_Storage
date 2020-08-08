@@ -120,7 +120,6 @@
 		D9259E9424DD0466004C1611 /* AlertDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9259E9324DD0466004C1611 /* AlertDemoViewController.swift */; };
 		D9259EA124DD296D004C1611 /* 静态tableView.md in Resources */ = {isa = PBXBuildFile; fileRef = D9259EA024DD296D004C1611 /* 静态tableView.md */; };
 		D9259EA324DD303A004C1611 /* StaticTableStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9259EA224DD303A004C1611 /* StaticTableStoryboard.storyboard */; };
-		D9259EA524DD341E004C1611 /* StaticTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9259EA424DD341E004C1611 /* StaticTableTableViewController.swift */; };
 		D9259EBB24DD57F1004C1611 /* StoryboardDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9259EBA24DD57F1004C1611 /* StoryboardDemosViewController.swift */; };
 		D926BDAC22C273E800A2DD3E /* 模板方法模式.md in Resources */ = {isa = PBXBuildFile; fileRef = D926BDAB22C273E800A2DD3E /* 模板方法模式.md */; };
 		D926BDAF22C2782100A2DD3E /* CQTemplateMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D926BDAE22C2782100A2DD3E /* CQTemplateMethodViewController.m */; };
@@ -514,6 +513,11 @@
 		D98665312371555400AA60B2 /* ImageTextConvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98665302371555400AA60B2 /* ImageTextConvertViewController.swift */; };
 		D986653723715E8800AA60B2 /* JXMixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986653623715E8800AA60B2 /* JXMixViewController.swift */; };
 		D9866539237164DF00AA60B2 /* CQSegmentedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9866538237164DF00AA60B2 /* CQSegmentedDataSource.swift */; };
+		D98A545C24DE47B6000CB8A9 /* StaticTableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A545B24DE47B6000CB8A9 /* StaticTableViewController1.swift */; };
+		D98A545F24DE7EE8000CB8A9 /* StaticTableController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A545D24DE7EE8000CB8A9 /* StaticTableController1.swift */; };
+		D98A546324DE8CD6000CB8A9 /* BlogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A546124DE8CD6000CB8A9 /* BlogCell.swift */; };
+		D98A546424DE8CD6000CB8A9 /* BlogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98A546224DE8CD6000CB8A9 /* BlogCell.xib */; };
+		D98A546624DE9B82000CB8A9 /* blog_detail.html in Resources */ = {isa = PBXBuildFile; fileRef = D98A546524DE9B82000CB8A9 /* blog_detail.html */; };
 		D98CBB372453D95200A2E32A /* CollectionViewDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CBB362453D95200A2E32A /* CollectionViewDemosViewController.swift */; };
 		D98DF5B224B417C9001B9EC9 /* URLToQRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D98DF5B124B417C9001B9EC9 /* URLToQRCodeTool.m */; };
 		D98DF5B424B42198001B9EC9 /* URLToQRCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98DF5B324B42198001B9EC9 /* URLToQRCodeController.swift */; };
@@ -978,7 +982,6 @@
 		D9259E9324DD0466004C1611 /* AlertDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertDemoViewController.swift; path = "iOS_Storage/Contents/积累/我的框架/AlertDemoViewController.swift"; sourceTree = SOURCE_ROOT; };
 		D9259EA024DD296D004C1611 /* 静态tableView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "静态tableView.md"; sourceTree = "<group>"; };
 		D9259EA224DD303A004C1611 /* StaticTableStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StaticTableStoryboard.storyboard; sourceTree = "<group>"; };
-		D9259EA424DD341E004C1611 /* StaticTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableTableViewController.swift; sourceTree = "<group>"; };
 		D9259EBA24DD57F1004C1611 /* StoryboardDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardDemosViewController.swift; sourceTree = "<group>"; };
 		D926BDAB22C273E800A2DD3E /* 模板方法模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "模板方法模式.md"; sourceTree = "<group>"; };
 		D926BDAD22C2782100A2DD3E /* CQTemplateMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTemplateMethodViewController.h; sourceTree = "<group>"; };
@@ -1464,6 +1467,11 @@
 		D98665302371555400AA60B2 /* ImageTextConvertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextConvertViewController.swift; sourceTree = "<group>"; };
 		D986653623715E8800AA60B2 /* JXMixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXMixViewController.swift; sourceTree = "<group>"; };
 		D9866538237164DF00AA60B2 /* CQSegmentedDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQSegmentedDataSource.swift; sourceTree = "<group>"; };
+		D98A545B24DE47B6000CB8A9 /* StaticTableViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableViewController1.swift; sourceTree = "<group>"; };
+		D98A545D24DE7EE8000CB8A9 /* StaticTableController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableController1.swift; sourceTree = "<group>"; };
+		D98A546124DE8CD6000CB8A9 /* BlogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogCell.swift; sourceTree = "<group>"; };
+		D98A546224DE8CD6000CB8A9 /* BlogCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlogCell.xib; sourceTree = "<group>"; };
+		D98A546524DE9B82000CB8A9 /* blog_detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = blog_detail.html; sourceTree = "<group>"; };
 		D98CBB362453D95200A2E32A /* CollectionViewDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDemosViewController.swift; sourceTree = "<group>"; };
 		D98DF5B024B417C9001B9EC9 /* URLToQRCodeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLToQRCodeTool.h; sourceTree = "<group>"; };
 		D98DF5B124B417C9001B9EC9 /* URLToQRCodeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLToQRCodeTool.m; sourceTree = "<group>"; };
@@ -2737,6 +2745,9 @@
 			isa = PBXGroup;
 			children = (
 				D9259E9124DD0238004C1611 /* MyBlogViewController.swift */,
+				D98A546124DE8CD6000CB8A9 /* BlogCell.swift */,
+				D98A546224DE8CD6000CB8A9 /* BlogCell.xib */,
+				D98A546524DE9B82000CB8A9 /* blog_detail.html */,
 			);
 			path = "我的博客";
 			sourceTree = "<group>";
@@ -2745,7 +2756,8 @@
 			isa = PBXGroup;
 			children = (
 				D9259EA024DD296D004C1611 /* 静态tableView.md */,
-				D9259EA424DD341E004C1611 /* StaticTableTableViewController.swift */,
+				D98A545D24DE7EE8000CB8A9 /* StaticTableController1.swift */,
+				D98A545B24DE47B6000CB8A9 /* StaticTableViewController1.swift */,
 				D9259EA224DD303A004C1611 /* StaticTableStoryboard.storyboard */,
 			);
 			path = "静态tableView";
@@ -6938,6 +6950,7 @@
 				D95A3DA32480F32300F0166C /* KingfisherLoadGifViewController.xib in Resources */,
 				D98DF5D324B7127B001B9EC9 /* silversalmoncreek.jpg in Resources */,
 				D98DF5EB24B72A2E001B9EC9 /* SwiftUI中用UIKit.md in Resources */,
+				D98A546424DE8CD6000CB8A9 /* BlogCell.xib in Resources */,
 				D96FE2BD23960E0500949006 /* ASDisplayNode.md in Resources */,
 				D98DF5DB24B7127B001B9EC9 /* yukon_charleyrivers.jpg in Resources */,
 				D91AB3A924C832AA007F78D1 /* SwiftXibStackController.xib in Resources */,
@@ -7029,6 +7042,7 @@
 				D95A3DB62482351E00F0166C /* KingfisherAnimatedCell.xib in Resources */,
 				D9D145122299205F003B594C /* KVC.md in Resources */,
 				D926BDC422C486F200A2DD3E /* 抽象工厂模式.md in Resources */,
+				D98A546624DE9B82000CB8A9 /* blog_detail.html in Resources */,
 				D96F416923BF3961008616F4 /* Array.md in Resources */,
 				D9F93367229D6BD000C7B2E0 /* 关联对象.md in Resources */,
 				D9E30C39236D5FC50042BC74 /* data.json in Resources */,
@@ -7386,6 +7400,7 @@
 				D9721592239B90ED007607B2 /* IrregularityViewController.swift in Sources */,
 				D9626D5324CF1D5600D06B08 /* SetDemoViewController.swift in Sources */,
 				D9608BF7236987940053BD3E /* UIButton+EnlargeTouchArea.m in Sources */,
+				D98A545C24DE47B6000CB8A9 /* StaticTableViewController1.swift in Sources */,
 				D9B6313B23BB29E1003D95D9 /* UIActivityViewControllerDemoViewController.swift in Sources */,
 				D926BDD622C4963B00A2DD3E /* NoonState.m in Sources */,
 				D94BCDF322E9DB0C0080584F /* CQStandardOCCollectionSectionFooterView.m in Sources */,
@@ -7477,6 +7492,7 @@
 				D9EBF1D12490BEFB00793E01 /* RouterViewController.swift in Sources */,
 				D93AB5822487541600E79EAB /* KeyboardFrameworkViewController.swift in Sources */,
 				D95199EA22BDCC6100E3036B /* CQDelegateViewController.m in Sources */,
+				D98A545F24DE7EE8000CB8A9 /* StaticTableController1.swift in Sources */,
 				D96D562624AAD513008DD9CF /* DefaultTableHeader.swift in Sources */,
 				D98CBB372453D95200A2E32A /* CollectionViewDemosViewController.swift in Sources */,
 				D944FD34249879F500C8DB52 /* FlowerCell.swift in Sources */,
@@ -7771,6 +7787,7 @@
 				D9697FED22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift in Sources */,
 				D9BF6908233EF61300E602A4 /* CQGradientButton.m in Sources */,
 				D926BDB522C3226C00A2DD3E /* CQFacadeViewController.m in Sources */,
+				D98A546324DE8CD6000CB8A9 /* BlogCell.swift in Sources */,
 				D9C0E7A624CE8ADD00184C71 /* NSTimerDemoViewController.swift in Sources */,
 				D9CEB46C2355D5080050E7AD /* PlaceholderTextView.swift in Sources */,
 				D96D566224AD9058008DD9CF /* SwiftXibRedView.swift in Sources */,
@@ -7796,7 +7813,6 @@
 				D9536EF3244A9D4400FD3964 /* TTTLabelViewController2.swift in Sources */,
 				D9B760C324BC64420037A7A1 /* TYCyclePagerViewCell.m in Sources */,
 				D98E8EEC24775F9700A2D01A /* RuntimeDemoViewController.swift in Sources */,
-				D9259EA524DD341E004C1611 /* StaticTableTableViewController.swift in Sources */,
 				D9376888235809EF00515315 /* CollectionViewHorizontalFlowLayout.swift in Sources */,
 				D97129E0239E300C00AEAD3C /* UITextViewDemoController.swift in Sources */,
 				D9E21A85210FF7F500407599 /* CQClassClusterBaseCell.m in Sources */,
