@@ -515,6 +515,9 @@
 		D9866539237164DF00AA60B2 /* CQSegmentedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9866538237164DF00AA60B2 /* CQSegmentedDataSource.swift */; };
 		D98A545C24DE47B6000CB8A9 /* StaticTableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A545B24DE47B6000CB8A9 /* StaticTableViewController1.swift */; };
 		D98A545F24DE7EE8000CB8A9 /* StaticTableController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A545D24DE7EE8000CB8A9 /* StaticTableController1.swift */; };
+		D98A546324DE8CD6000CB8A9 /* BlogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A546124DE8CD6000CB8A9 /* BlogCell.swift */; };
+		D98A546424DE8CD6000CB8A9 /* BlogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98A546224DE8CD6000CB8A9 /* BlogCell.xib */; };
+		D98A546624DE9B82000CB8A9 /* blog_detail.html in Resources */ = {isa = PBXBuildFile; fileRef = D98A546524DE9B82000CB8A9 /* blog_detail.html */; };
 		D98CBB372453D95200A2E32A /* CollectionViewDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CBB362453D95200A2E32A /* CollectionViewDemosViewController.swift */; };
 		D98DF5B224B417C9001B9EC9 /* URLToQRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D98DF5B124B417C9001B9EC9 /* URLToQRCodeTool.m */; };
 		D98DF5B424B42198001B9EC9 /* URLToQRCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98DF5B324B42198001B9EC9 /* URLToQRCodeController.swift */; };
@@ -1466,6 +1469,9 @@
 		D9866538237164DF00AA60B2 /* CQSegmentedDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQSegmentedDataSource.swift; sourceTree = "<group>"; };
 		D98A545B24DE47B6000CB8A9 /* StaticTableViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableViewController1.swift; sourceTree = "<group>"; };
 		D98A545D24DE7EE8000CB8A9 /* StaticTableController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableController1.swift; sourceTree = "<group>"; };
+		D98A546124DE8CD6000CB8A9 /* BlogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogCell.swift; sourceTree = "<group>"; };
+		D98A546224DE8CD6000CB8A9 /* BlogCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlogCell.xib; sourceTree = "<group>"; };
+		D98A546524DE9B82000CB8A9 /* blog_detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = blog_detail.html; sourceTree = "<group>"; };
 		D98CBB362453D95200A2E32A /* CollectionViewDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDemosViewController.swift; sourceTree = "<group>"; };
 		D98DF5B024B417C9001B9EC9 /* URLToQRCodeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLToQRCodeTool.h; sourceTree = "<group>"; };
 		D98DF5B124B417C9001B9EC9 /* URLToQRCodeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLToQRCodeTool.m; sourceTree = "<group>"; };
@@ -2739,6 +2745,9 @@
 			isa = PBXGroup;
 			children = (
 				D9259E9124DD0238004C1611 /* MyBlogViewController.swift */,
+				D98A546124DE8CD6000CB8A9 /* BlogCell.swift */,
+				D98A546224DE8CD6000CB8A9 /* BlogCell.xib */,
+				D98A546524DE9B82000CB8A9 /* blog_detail.html */,
 			);
 			path = "我的博客";
 			sourceTree = "<group>";
@@ -6941,6 +6950,7 @@
 				D95A3DA32480F32300F0166C /* KingfisherLoadGifViewController.xib in Resources */,
 				D98DF5D324B7127B001B9EC9 /* silversalmoncreek.jpg in Resources */,
 				D98DF5EB24B72A2E001B9EC9 /* SwiftUI中用UIKit.md in Resources */,
+				D98A546424DE8CD6000CB8A9 /* BlogCell.xib in Resources */,
 				D96FE2BD23960E0500949006 /* ASDisplayNode.md in Resources */,
 				D98DF5DB24B7127B001B9EC9 /* yukon_charleyrivers.jpg in Resources */,
 				D91AB3A924C832AA007F78D1 /* SwiftXibStackController.xib in Resources */,
@@ -7032,6 +7042,7 @@
 				D95A3DB62482351E00F0166C /* KingfisherAnimatedCell.xib in Resources */,
 				D9D145122299205F003B594C /* KVC.md in Resources */,
 				D926BDC422C486F200A2DD3E /* 抽象工厂模式.md in Resources */,
+				D98A546624DE9B82000CB8A9 /* blog_detail.html in Resources */,
 				D96F416923BF3961008616F4 /* Array.md in Resources */,
 				D9F93367229D6BD000C7B2E0 /* 关联对象.md in Resources */,
 				D9E30C39236D5FC50042BC74 /* data.json in Resources */,
@@ -7776,6 +7787,7 @@
 				D9697FED22F0952D00220938 /* StandardSwiftCollectionViewSectionHeaderView.swift in Sources */,
 				D9BF6908233EF61300E602A4 /* CQGradientButton.m in Sources */,
 				D926BDB522C3226C00A2DD3E /* CQFacadeViewController.m in Sources */,
+				D98A546324DE8CD6000CB8A9 /* BlogCell.swift in Sources */,
 				D9C0E7A624CE8ADD00184C71 /* NSTimerDemoViewController.swift in Sources */,
 				D9CEB46C2355D5080050E7AD /* PlaceholderTextView.swift in Sources */,
 				D96D566224AD9058008DD9CF /* SwiftXibRedView.swift in Sources */,
