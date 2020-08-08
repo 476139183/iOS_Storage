@@ -34,8 +34,13 @@ class StaticTableViewController1: UITableViewController {
 //        }
     }
     
+    @IBAction func footerButtonClicked(_ sender: UIButton) {
+        print("footer")
+    }
+    
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(indexPath.row)
+        print(indexPath)
     }
     
 //    override func viewDidLayoutSubviews() {

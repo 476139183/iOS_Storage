@@ -271,12 +271,27 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Jbh-r1-2vO">
-                                        <rect key="frame" x="0.0" y="1474.5" width="414" height="43.5"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="120" id="Jbh-r1-2vO">
+                                        <rect key="frame" x="0.0" y="1474.5" width="414" height="120"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jbh-r1-2vO" id="c0K-mQ-vxy">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzj-Go-SDF">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                                                    <connections>
+                                                        <action selector="footerButtonClicked:" destination="b4e-Cm-k3t" eventType="touchUpInside" id="eL0-zW-CTe"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.76590784879999996" green="1" blue="0.79222826940000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="yzj-Go-SDF" secondAttribute="trailing" id="7HZ-RU-A2V"/>
+                                                <constraint firstItem="yzj-Go-SDF" firstAttribute="leading" secondItem="c0K-mQ-vxy" secondAttribute="leading" id="LT7-h2-F7U"/>
+                                                <constraint firstAttribute="bottom" secondItem="yzj-Go-SDF" secondAttribute="bottom" id="Rdx-p6-qXB"/>
+                                                <constraint firstItem="yzj-Go-SDF" firstAttribute="top" secondItem="c0K-mQ-vxy" secondAttribute="top" id="rSP-qY-wYg"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
