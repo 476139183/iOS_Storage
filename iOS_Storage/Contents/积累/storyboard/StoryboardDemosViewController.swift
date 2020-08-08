@@ -20,7 +20,7 @@ class StoryboardDemosViewController: SelectorListViewController {
     }
     
     @objc private func gotoStaticTableView() {
-        let vc = UIStoryboard(name: "StaticTableStoryboard", bundle: Bundle.main).instantiateViewController(withIdentifier: "StaticTableController")
+        let vc = StaticTableController1()
         navigationController?.pushViewController(vc, animated: true)
     }
 
