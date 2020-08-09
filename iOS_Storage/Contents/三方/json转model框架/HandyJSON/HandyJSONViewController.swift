@@ -23,10 +23,10 @@ class HandyJSONViewController: CQBaseViewController {
         //test1()
         //testWithAlamofire()
         //testWithArrayJSON()
-        //testStructModel()
+        testStructModel()
         //testStructModel2()
         //getTaobaoTimestamp()
-        test3()
+        //test3()
     }
     
 }
