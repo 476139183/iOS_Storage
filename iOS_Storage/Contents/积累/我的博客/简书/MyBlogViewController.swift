@@ -49,6 +49,7 @@ class MyBlogViewController: CQBaseViewController {
 extension MyBlogViewController {
     
     @objc private func refresh() {
+        page = 1
         getBlogList(page: 1)
     }
     

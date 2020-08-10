@@ -513,11 +513,11 @@
 		D98665312371555400AA60B2 /* ImageTextConvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98665302371555400AA60B2 /* ImageTextConvertViewController.swift */; };
 		D986653723715E8800AA60B2 /* JXMixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986653623715E8800AA60B2 /* JXMixViewController.swift */; };
 		D9866539237164DF00AA60B2 /* CQSegmentedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9866538237164DF00AA60B2 /* CQSegmentedDataSource.swift */; };
+		D989BE6F24E12ABD0006B207 /* BlogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989BE6E24E12ABD0006B207 /* BlogListViewController.swift */; };
 		D98A545C24DE47B6000CB8A9 /* StaticTableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A545B24DE47B6000CB8A9 /* StaticTableViewController1.swift */; };
 		D98A545F24DE7EE8000CB8A9 /* StaticTableController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A545D24DE7EE8000CB8A9 /* StaticTableController1.swift */; };
 		D98A546324DE8CD6000CB8A9 /* BlogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A546124DE8CD6000CB8A9 /* BlogCell.swift */; };
 		D98A546424DE8CD6000CB8A9 /* BlogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98A546224DE8CD6000CB8A9 /* BlogCell.xib */; };
-		D98A546624DE9B82000CB8A9 /* blog_detail.html in Resources */ = {isa = PBXBuildFile; fileRef = D98A546524DE9B82000CB8A9 /* blog_detail.html */; };
 		D98A546824E0F6D0000CB8A9 /* BlogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A546724E0F6D0000CB8A9 /* BlogModel.swift */; };
 		D98A546A24E0FC35000CB8A9 /* BlogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A546924E0FC35000CB8A9 /* BlogDetailViewController.swift */; };
 		D98A546D24E101F9000CB8A9 /* WKWebView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A546C24E101F9000CB8A9 /* WKWebView+Extension.swift */; };
@@ -1470,11 +1470,11 @@
 		D98665302371555400AA60B2 /* ImageTextConvertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextConvertViewController.swift; sourceTree = "<group>"; };
 		D986653623715E8800AA60B2 /* JXMixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXMixViewController.swift; sourceTree = "<group>"; };
 		D9866538237164DF00AA60B2 /* CQSegmentedDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQSegmentedDataSource.swift; sourceTree = "<group>"; };
+		D989BE6E24E12ABD0006B207 /* BlogListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListViewController.swift; sourceTree = "<group>"; };
 		D98A545B24DE47B6000CB8A9 /* StaticTableViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableViewController1.swift; sourceTree = "<group>"; };
 		D98A545D24DE7EE8000CB8A9 /* StaticTableController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableController1.swift; sourceTree = "<group>"; };
 		D98A546124DE8CD6000CB8A9 /* BlogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogCell.swift; sourceTree = "<group>"; };
 		D98A546224DE8CD6000CB8A9 /* BlogCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlogCell.xib; sourceTree = "<group>"; };
-		D98A546524DE9B82000CB8A9 /* blog_detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = blog_detail.html; sourceTree = "<group>"; };
 		D98A546724E0F6D0000CB8A9 /* BlogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogModel.swift; sourceTree = "<group>"; };
 		D98A546924E0FC35000CB8A9 /* BlogDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogDetailViewController.swift; sourceTree = "<group>"; };
 		D98A546C24E101F9000CB8A9 /* WKWebView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebView+Extension.swift"; sourceTree = "<group>"; };
@@ -2750,12 +2750,16 @@
 		D9259E9024DD0135004C1611 /* 我的博客 */ = {
 			isa = PBXGroup;
 			children = (
-				D9259E9124DD0238004C1611 /* MyBlogViewController.swift */,
-				D98A546724E0F6D0000CB8A9 /* BlogModel.swift */,
-				D98A546124DE8CD6000CB8A9 /* BlogCell.swift */,
-				D98A546224DE8CD6000CB8A9 /* BlogCell.xib */,
-				D98A546524DE9B82000CB8A9 /* blog_detail.html */,
-				D98A546924E0FC35000CB8A9 /* BlogDetailViewController.swift */,
+				D989BE6E24E12ABD0006B207 /* BlogListViewController.swift */,
+				D989BE6D24E12A5C0006B207 /* 简书 */,
+				D9FF391F24E13CF700096984 /* 数据结构与算法 */,
+				D9FF391E24E13CD600096984 /* 离散数学 */,
+				D9FF391D24E13CBE00096984 /* 数字电路 */,
+				D9FF391C24E13C8B00096984 /* 汇编语言 */,
+				D989BE7224E12BB00006B207 /* 计算机网络 */,
+				D989BE7124E12BA60006B207 /* 计算机组成原理 */,
+				D9FF392024E13D1C00096984 /* 计算机编译原理 */,
+				D989BE7024E12B8F0006B207 /* 操作系统 */,
 			);
 			path = "我的博客";
 			sourceTree = "<group>";
@@ -5141,6 +5145,39 @@
 			path = "混合型title";
 			sourceTree = "<group>";
 		};
+		D989BE6D24E12A5C0006B207 /* 简书 */ = {
+			isa = PBXGroup;
+			children = (
+				D9259E9124DD0238004C1611 /* MyBlogViewController.swift */,
+				D98A546724E0F6D0000CB8A9 /* BlogModel.swift */,
+				D98A546124DE8CD6000CB8A9 /* BlogCell.swift */,
+				D98A546224DE8CD6000CB8A9 /* BlogCell.xib */,
+				D98A546924E0FC35000CB8A9 /* BlogDetailViewController.swift */,
+			);
+			path = "简书";
+			sourceTree = "<group>";
+		};
+		D989BE7024E12B8F0006B207 /* 操作系统 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "操作系统";
+			sourceTree = "<group>";
+		};
+		D989BE7124E12BA60006B207 /* 计算机组成原理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "计算机组成原理";
+			sourceTree = "<group>";
+		};
+		D989BE7224E12BB00006B207 /* 计算机网络 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "计算机网络";
+			sourceTree = "<group>";
+		};
 		D98A546B24E101D7000CB8A9 /* WKWebView */ = {
 			isa = PBXGroup;
 			children = (
@@ -6850,6 +6887,41 @@
 			path = DSActionSheet;
 			sourceTree = "<group>";
 		};
+		D9FF391C24E13C8B00096984 /* 汇编语言 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "汇编语言";
+			sourceTree = "<group>";
+		};
+		D9FF391D24E13CBE00096984 /* 数字电路 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "数字电路";
+			sourceTree = "<group>";
+		};
+		D9FF391E24E13CD600096984 /* 离散数学 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "离散数学";
+			sourceTree = "<group>";
+		};
+		D9FF391F24E13CF700096984 /* 数据结构与算法 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "数据结构与算法";
+			sourceTree = "<group>";
+		};
+		D9FF392024E13D1C00096984 /* 计算机编译原理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "计算机编译原理";
+			sourceTree = "<group>";
+		};
 		D9FF65D0212AC09F00B06371 /* 含timer的cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -7059,7 +7131,6 @@
 				D95A3DB62482351E00F0166C /* KingfisherAnimatedCell.xib in Resources */,
 				D9D145122299205F003B594C /* KVC.md in Resources */,
 				D926BDC422C486F200A2DD3E /* 抽象工厂模式.md in Resources */,
-				D98A546624DE9B82000CB8A9 /* blog_detail.html in Resources */,
 				D96F416923BF3961008616F4 /* Array.md in Resources */,
 				D9F93367229D6BD000C7B2E0 /* 关联对象.md in Resources */,
 				D9E30C39236D5FC50042BC74 /* data.json in Resources */,
@@ -7589,6 +7660,7 @@
 				D96D563F24AC9CE2008DD9CF /* BaseCollectionViewController.swift in Sources */,
 				D9F12E432467E84800B3D597 /* FloatingLayerDemoViewController.swift in Sources */,
 				D9E30C3C236D62560042BC74 /* GifViewController.swift in Sources */,
+				D989BE6F24E12ABD0006B207 /* BlogListViewController.swift in Sources */,
 				D9C7CC0922E998520038FD34 /* CQStandardTableHeaderView.m in Sources */,
 				D9C842642394F14500DC5BCD /* TextureLayoutDemoViewController.swift in Sources */,
 				D9C7021322EB5CF400DDC44F /* RxPerson.swift in Sources */,

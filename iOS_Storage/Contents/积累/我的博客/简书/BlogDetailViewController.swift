@@ -44,31 +44,8 @@ class BlogDetailViewController: CQBaseViewController {
     }
     
     private func loadData() {
-        let url = URL.init(string: "https://www.jianshu.com/asimov/p/\(self.slug)")!
-        AF.request(url, method: .get).responseString { (response) in
-            
-            switch response.result {
-                
-            case .success(let data):
-                
-                let model = BlogDetailModel.deserialize(from: data)
-                self.naviBar.titleLabel.text = model?.public_title
-                self.webView.loadHTMLStringWithMagic(content: model!.free_content, baseURL: nil)
-
-            case .failure(let error):
-
-                SVProgressHUD.showInfo(withStatus: error.errorDescription)
-                
-            }
-            
-        }
+        let url = URL.init(string: "https://www.jianshu.com/p/\(self.slug)")!
+        self.webView.load(.init(url: url))
     }
 
 }
-
-
-/**
-<div class="image-view" data-width="99" data-height="48">
- <img data-original-src="//upload-images.jianshu.io/upload_images/1692043-7b631ee8767f638d.png" data-original-width="99" data-original-height="48" data-original-format="image/png" data-original-filesize="4158"></div> </div>
-
- */
