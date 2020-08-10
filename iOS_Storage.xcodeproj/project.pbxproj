@@ -847,6 +847,9 @@
 		D9F957B724D3CD9F00D0925B /* TZImagePickerDemoController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F957B624D3CD9F00D0925B /* TZImagePickerDemoController2.swift */; };
 		D9FE875A23C5D3A1000E94CB /* DSActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FE875923C5D3A1000E94CB /* DSActionSheet.swift */; };
 		D9FE875C23C5EADF000E94CB /* DSActionSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FE875B23C5EADF000E94CB /* DSActionSheetController.swift */; };
+		D9FF392A24E146F700096984 /* BaseStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF392924E146F700096984 /* BaseStatusBar.swift */; };
+		D9FF392E24E1476000096984 /* StatusBarAdaptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF392C24E1476000096984 /* StatusBarAdaptionViewController.swift */; };
+		D9FF392F24E1476000096984 /* StatusBarAdaptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9FF392D24E1476000096984 /* StatusBarAdaptionViewController.xib */; };
 		D9FF65D4212AC0F200B06371 /* CQTimerCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF65D3212AC0F200B06371 /* CQTimerCellController.m */; };
 		D9FF65D9212AC39800B06371 /* CQTimerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF65D8212AC39800B06371 /* CQTimerModel.m */; };
 		D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF65DB212AC3FE00B06371 /* CQTimerCell.m */; };
@@ -1885,6 +1888,9 @@
 		D9F957B624D3CD9F00D0925B /* TZImagePickerDemoController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TZImagePickerDemoController2.swift; sourceTree = "<group>"; };
 		D9FE875923C5D3A1000E94CB /* DSActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSActionSheet.swift; sourceTree = "<group>"; };
 		D9FE875B23C5EADF000E94CB /* DSActionSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSActionSheetController.swift; sourceTree = "<group>"; };
+		D9FF392924E146F700096984 /* BaseStatusBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseStatusBar.swift; sourceTree = "<group>"; };
+		D9FF392C24E1476000096984 /* StatusBarAdaptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarAdaptionViewController.swift; sourceTree = "<group>"; };
+		D9FF392D24E1476000096984 /* StatusBarAdaptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusBarAdaptionViewController.xib; sourceTree = "<group>"; };
 		D9FF65D2212AC0F200B06371 /* CQTimerCellController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTimerCellController.h; sourceTree = "<group>"; };
 		D9FF65D3212AC0F200B06371 /* CQTimerCellController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTimerCellController.m; sourceTree = "<group>"; };
 		D9FF65D7212AC39800B06371 /* CQTimerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTimerModel.h; sourceTree = "<group>"; };
@@ -3807,6 +3813,7 @@
 				D94BF43520E48C690012C370 /* CQBaseModel.h */,
 				D94BF43620E48C690012C370 /* CQBaseModel.m */,
 				D99B98F7246CF0BB001E6369 /* NaviBarProtocol.swift */,
+				D9FF392924E146F700096984 /* BaseStatusBar.swift */,
 				D99B98F9246CF19F001E6369 /* BaseNaviBar.swift */,
 				D95885C32452BE1700CD9FDD /* CQBaseNaviBar.h */,
 				D95885C42452BE1700CD9FDD /* CQBaseNaviBar.m */,
@@ -4628,6 +4635,7 @@
 			children = (
 				D96D565D24AD89FF008DD9CF /* Xib使用手册.md */,
 				D96D564524AD8382008DD9CF /* XibDemosViewController.swift */,
+				D9FF392B24E1470600096984 /* 高度自适应系统的状态栏 */,
 				D9259E8624DC11AB004C1611 /* xib stack */,
 				D96162FC24DA986C00C47B70 /* 动态高度导航栏 */,
 				D947D38A24D7B66300C667F6 /* 基于安全区的约束 */,
@@ -6922,6 +6930,15 @@
 			path = "计算机编译原理";
 			sourceTree = "<group>";
 		};
+		D9FF392B24E1470600096984 /* 高度自适应系统的状态栏 */ = {
+			isa = PBXGroup;
+			children = (
+				D9FF392C24E1476000096984 /* StatusBarAdaptionViewController.swift */,
+				D9FF392D24E1476000096984 /* StatusBarAdaptionViewController.xib */,
+			);
+			path = "高度自适应系统的状态栏";
+			sourceTree = "<group>";
+		};
 		D9FF65D0212AC09F00B06371 /* 含timer的cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -7094,6 +7111,7 @@
 				D96F416323BEE093008616F4 /* 优雅的Swift.md in Resources */,
 				D9E30C36236D5FC50042BC74 /* img_0.png in Resources */,
 				D94016932361EE9C00580AAC /* accumulate_contents.plist in Resources */,
+				D9FF392F24E1476000096984 /* StatusBarAdaptionViewController.xib in Resources */,
 				D98DF5DD24B7127B001B9EC9 /* chilkoottrail.jpg in Resources */,
 				D930957923B3556E00837CA6 /* FP.md in Resources */,
 				D9519A0C22BFB36A00E3036B /* 原型模式.md in Resources */,
@@ -7452,6 +7470,7 @@
 				D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */,
 				D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */,
 				D97D0CAF23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift in Sources */,
+				D9FF392E24E1476000096984 /* StatusBarAdaptionViewController.swift in Sources */,
 				D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */,
 				D940201424CC1E3800934BA0 /* PickerDemosViewController.swift in Sources */,
 				D96F415F23BEE051008616F4 /* CQElegantOCViewController.m in Sources */,
@@ -7821,6 +7840,7 @@
 				D95199ED22BDD83C00E3036B /* CQDemoView.m in Sources */,
 				D93AB57B24874F9F00E79EAB /* SwiftyJSONViewController.swift in Sources */,
 				D94BCDEA22E9D4BD0080584F /* CQStandardOCCollectionViewCell.m in Sources */,
+				D9FF392A24E146F700096984 /* BaseStatusBar.swift in Sources */,
 				D944B6B4245AD69B0077F58B /* CGrammarViewController.swift in Sources */,
 				D9ED907A2454310800FFABB5 /* ZFPlayerDemoViewController.swift in Sources */,
 				D9F5230A2362DCB000ABBEF7 /* CornerAndShadowViewController.swift in Sources */,
