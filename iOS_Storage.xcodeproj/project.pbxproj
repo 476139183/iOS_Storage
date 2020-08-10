@@ -518,6 +518,9 @@
 		D98A546324DE8CD6000CB8A9 /* BlogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A546124DE8CD6000CB8A9 /* BlogCell.swift */; };
 		D98A546424DE8CD6000CB8A9 /* BlogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98A546224DE8CD6000CB8A9 /* BlogCell.xib */; };
 		D98A546624DE9B82000CB8A9 /* blog_detail.html in Resources */ = {isa = PBXBuildFile; fileRef = D98A546524DE9B82000CB8A9 /* blog_detail.html */; };
+		D98A546824E0F6D0000CB8A9 /* BlogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A546724E0F6D0000CB8A9 /* BlogModel.swift */; };
+		D98A546A24E0FC35000CB8A9 /* BlogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A546924E0FC35000CB8A9 /* BlogDetailViewController.swift */; };
+		D98A546D24E101F9000CB8A9 /* WKWebView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A546C24E101F9000CB8A9 /* WKWebView+Extension.swift */; };
 		D98CBB372453D95200A2E32A /* CollectionViewDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CBB362453D95200A2E32A /* CollectionViewDemosViewController.swift */; };
 		D98DF5B224B417C9001B9EC9 /* URLToQRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D98DF5B124B417C9001B9EC9 /* URLToQRCodeTool.m */; };
 		D98DF5B424B42198001B9EC9 /* URLToQRCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98DF5B324B42198001B9EC9 /* URLToQRCodeController.swift */; };
@@ -1472,6 +1475,9 @@
 		D98A546124DE8CD6000CB8A9 /* BlogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogCell.swift; sourceTree = "<group>"; };
 		D98A546224DE8CD6000CB8A9 /* BlogCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlogCell.xib; sourceTree = "<group>"; };
 		D98A546524DE9B82000CB8A9 /* blog_detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = blog_detail.html; sourceTree = "<group>"; };
+		D98A546724E0F6D0000CB8A9 /* BlogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogModel.swift; sourceTree = "<group>"; };
+		D98A546924E0FC35000CB8A9 /* BlogDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogDetailViewController.swift; sourceTree = "<group>"; };
+		D98A546C24E101F9000CB8A9 /* WKWebView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebView+Extension.swift"; sourceTree = "<group>"; };
 		D98CBB362453D95200A2E32A /* CollectionViewDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDemosViewController.swift; sourceTree = "<group>"; };
 		D98DF5B024B417C9001B9EC9 /* URLToQRCodeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLToQRCodeTool.h; sourceTree = "<group>"; };
 		D98DF5B124B417C9001B9EC9 /* URLToQRCodeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLToQRCodeTool.m; sourceTree = "<group>"; };
@@ -2745,9 +2751,11 @@
 			isa = PBXGroup;
 			children = (
 				D9259E9124DD0238004C1611 /* MyBlogViewController.swift */,
+				D98A546724E0F6D0000CB8A9 /* BlogModel.swift */,
 				D98A546124DE8CD6000CB8A9 /* BlogCell.swift */,
 				D98A546224DE8CD6000CB8A9 /* BlogCell.xib */,
 				D98A546524DE9B82000CB8A9 /* blog_detail.html */,
+				D98A546924E0FC35000CB8A9 /* BlogDetailViewController.swift */,
 			);
 			path = "我的博客";
 			sourceTree = "<group>";
@@ -5133,6 +5141,14 @@
 			path = "混合型title";
 			sourceTree = "<group>";
 		};
+		D98A546B24E101D7000CB8A9 /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				D98A546C24E101F9000CB8A9 /* WKWebView+Extension.swift */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
 		D98DF5AF24B4172D001B9EC9 /* URL转二维码 */ = {
 			isa = PBXGroup;
 			children = (
@@ -5986,6 +6002,7 @@
 				D90F489A24C19D1500B81C79 /* UIAlertController */,
 				D90F489E24C19DA100B81C79 /* RX */,
 				D90F489624C19C6B00B81C79 /* xib */,
+				D98A546B24E101D7000CB8A9 /* WKWebView */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -7279,6 +7296,7 @@
 				D973CD2F2489E70400C67FB9 /* CQMRCViewController.m in Sources */,
 				D926BDC722C487CB00A2DD3E /* CQAbstractFactoryViewController.m in Sources */,
 				D973CD1424888E9000C67FB9 /* GenericsTableViewController.swift in Sources */,
+				D98A546A24E0FC35000CB8A9 /* BlogDetailViewController.swift in Sources */,
 				D95885BE245282B400CD9FDD /* AVPlayerViewControllerVC.swift in Sources */,
 				D9C5E5EA2349CD4E00D101F1 /* LinkedListViewController.swift in Sources */,
 				D9D11E2723717EC60047AD7C /* WKWebViewDemoViewController.swift in Sources */,
@@ -7736,6 +7754,7 @@
 				D9F5230A2362DCB000ABBEF7 /* CornerAndShadowViewController.swift in Sources */,
 				D9928EA924334C4D0082999F /* HeroViewController.swift in Sources */,
 				D99B98F3246BF231001E6369 /* BaseNaviNode.swift in Sources */,
+				D98A546D24E101F9000CB8A9 /* WKWebView+Extension.swift in Sources */,
 				D920CE8F22B37F47000962C0 /* CQPrivacyManager.m in Sources */,
 				D93AB54624864DFC00E79EAB /* AnimationDemosViewController.swift in Sources */,
 				D9C7CC2322E9B2A80038FD34 /* StandardSwiftTableFooterView.swift in Sources */,
@@ -7839,6 +7858,7 @@
 				D907480924B997C700744A9A /* SystemLoadingViewController.swift in Sources */,
 				D9B760B224BC5CCA0037A7A1 /* GKCycleScrollViewCell.m in Sources */,
 				D96A17E7237EFDF90018E7F1 /* LeftSideLayout.swift in Sources */,
+				D98A546824E0F6D0000CB8A9 /* BlogModel.swift in Sources */,
 				D90153FF24C6AF7800F6D06E /* XibCustomNaviView.swift in Sources */,
 				D9BE259023B88E80001F4D71 /* ProtocolPersonCell.swift in Sources */,
 				D9AEB68922F6AA56006F8995 /* CQMVVMViewModel.m in Sources */,

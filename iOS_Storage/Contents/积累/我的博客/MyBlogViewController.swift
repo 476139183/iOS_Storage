@@ -9,10 +9,13 @@
 import UIKit
 import HandyJSON
 import Alamofire
+import MJRefresh
 
 class MyBlogViewController: CQBaseViewController {
     
-    private var dataArray: [BlogEntity] = []
+    private var page = 1
+    
+    private var dataArray: [BlogEntity?] = []
     
     private lazy var tableView: UITableView = {
         let table = UITableView()
@@ -20,6 +23,9 @@ class MyBlogViewController: CQBaseViewController {
         table.delegate = self
         table.rowHeight = 100
         table.register(.init(nibName: BlogCell.className, bundle: nil), forCellReuseIdentifier: BlogCell.className)
+        table.tableFooterView = UIView()
+        table.mj_header = MJRefreshStateHeader.init(refreshingTarget: self, refreshingAction: #selector(refresh))
+        table.mj_footer = MJRefreshAutoStateFooter.init(refreshingTarget: self, refreshingAction: #selector(loadMore))
         return table
     }()
     
@@ -34,7 +40,7 @@ class MyBlogViewController: CQBaseViewController {
             make.left.right.bottom.equalToSuperview()
         }
         
-        getBlogList()
+        refresh()
         
     }
     
@@ -42,43 +48,56 @@ class MyBlogViewController: CQBaseViewController {
 
 extension MyBlogViewController {
     
+    @objc private func refresh() {
+        getBlogList(page: 1)
+    }
+    
+    @objc private func loadMore() {
+        page = page + 1
+        getBlogList(page: page)
+    }
+    
     // uid: 4212f351f6b5
     // 文章列表: https://www.jianshu.com/asimov/users/slug/4212f351f6b5/public_notes
     // 文章内容: https://www.jianshu.com/asimov/p/f936bb30f105
     
-    func getBlogList() {
-        let url = URL.init(string: "https://www.jianshu.com/asimov/users/slug/4212f351f6b5/public_notes")!
-        AF.request(url, method: .get, parameters: nil).responseString { (response) in
+    func getBlogList(page: Int = 1) {
+        
+        let url = URL.init(string: "https://www.jianshu.com/asimov/users/slug/4212f351f6b5/public_notes?page=\(page)")!
+        AF.request(url, method: .get, parameters: nil).responseJSON { (response) in
+            
             switch response.result {
                 
             case .success(let data):
-
-                let json: AnyObject! = try? JSONSerialization.jsonObject(with: response.data!, options: .allowFragments) as AnyObject
-
-                if let array = json as? [AnyObject] {
-                    let arr = [BlogEntity].deserialize(from: array)!
-                    self.dataArray = arr as! [BlogEntity] ?? []
+                
+                if page == 1 {
+                    self.dataArray.removeAll()
+                }
+                
+                if let arr = data as? [[String:Any]] {
+                    if arr.count == 0 {
+                        self.tableView.mj_footer?.endRefreshingWithNoMoreData()
+                        return
+                    }
+                    let array = [BlogEntity].deserialize(from: arr)
+                    self.dataArray.append(contentsOf: array ?? [])
                     self.tableView.reloadData()
                 }
-
-//                print(data)
-//                self.dataArray = [BlogEntity].deserialize(from: data as? [String:Any])!
-//                break
+                
+                self.endRefreshing()
 
             case .failure(let error):
 
                 SVProgressHUD.showInfo(withStatus: error.errorDescription)
-                
-                
-//            case .success(let resultString):
-//                self.dataArray = [BlogEntity].deserialize(from: resultString)!
-//                self.tableView.reloadData()
-//            case .failure(let error):
-//                SVProgressHUD.showInfo(withStatus: error.errorDescription)
-                
-                
+                self.endRefreshing()
             }
+            
         }
+    }
+    
+    private func endRefreshing() {
+        self.tableView.mj_header?.endRefreshing()
+        self.tableView.mj_footer?.endRefreshing()
     }
     
 }
@@ -94,59 +113,14 @@ extension MyBlogViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: BlogCell.className, for: indexPath) as! BlogCell
-        cell.model = dataArray[indexPath.row].object?.data
+        cell.model = dataArray[indexPath.row]!.object?.data
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        let slug = dataArray[indexPath.row]!.object?.data?.slug
+        let detailVC = BlogDetailViewController(slug: slug!)
+        navigationController?.pushViewController(detailVC, animated: true)
     }
     
-}
-
-
-// MARK: - Model
-
-class BlogEntity: BlogBaseModel {
-    
-    var object: BlogObject?
-    
-}
-
-class BlogObject: BlogBaseModel {
-    
-    var type: Int = 0
-    var data: BlogModel?
-    
-}
-
-class BlogModel: BlogBaseModel {
-    
-    var id = 0
-    var title = ""
-    var slug = ""
-    var list_image_url = ""
-    var first_shared_at = ""
-    var public_abbr = ""
-    var paid = false
-    var commentable = false
-    var is_top = false
-    var total_fp_amount = 0
-    var public_comments_count = 0
-    var total_rewards_count = 0
-    var likes_count = 0
-    var views_count = 0
-    var user: BlogUser?
-    
-}
-
-class BlogUser: BlogBaseModel {
-    var id = 0
-    var nickname = ""
-    var slug = ""
-    var avatar = ""
-}
-
-class BlogBaseModel: HandyJSON {
-    required init() {}
 }

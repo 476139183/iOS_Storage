@@ -19,7 +19,8 @@ class BlogCell: UITableViewCell {
                 return
             }
             self.nameLabel.text = model.title
-            self.blogImageView.kf.setImage(with: URL.init(string: model.list_image_url))
+            //self.blogImageView.kf.setImage(with: URL.init(string: model.list_image_url))
+            self.blogImageView.kf.setImage(with: URL.init(string: model.list_image_url), placeholder: UIImage.init(named: "iu_header"))
         }
     }
     
