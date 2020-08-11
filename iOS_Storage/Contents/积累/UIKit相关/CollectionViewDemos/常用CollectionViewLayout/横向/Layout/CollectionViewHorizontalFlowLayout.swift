@@ -11,6 +11,11 @@ import UIKit
 /// 常规横向布局
 class CollectionViewHorizontalFlowLayout: UICollectionViewFlowLayout {
 
+    /// 构造方法
+    /// - Parameters:
+    ///   - cellSpacing: cell 间距
+    ///   - itemSize: cell 大小
+    ///   - inset: 组的 inset
     init(cellSpacing: CGFloat, itemSize: CGSize, inset: UIEdgeInsets) {
         super.init()
         

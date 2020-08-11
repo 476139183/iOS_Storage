@@ -12,7 +12,8 @@ class VerticalCollectionViewController: CQBaseViewController {
     
     /// 竖向collectionView
     private lazy var verticalFlowLayoutCollectionView: UICollectionView = {
-        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: CollectionViewVerticalFlowLayout.init(cellSpacing: 10, itemSize: CGSize(width: 100, height: 100), inset: UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)))
+        let layout = CollectionViewVerticalFlowLayout.init(cellSpacing: 10, lineSpacing: 5, itemSize: CGSize(width: 100, height: 100), inset: UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10))
+        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: UICollectionViewCell.className())
         collectionView.dataSource = self
         return collectionView
@@ -26,9 +27,8 @@ class VerticalCollectionViewController: CQBaseViewController {
         view.addSubview(verticalFlowLayoutCollectionView)
         
         verticalFlowLayoutCollectionView.snp.makeConstraints { (make) in
-            make.top.equalTo(90)
-            make.left.right.equalToSuperview()
-            make.height.equalTo(200)
+            make.top.equalTo(naviHeight)
+            make.left.right.bottom.equalToSuperview()
         }
         
     }
