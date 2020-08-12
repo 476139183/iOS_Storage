@@ -32,7 +32,7 @@ class SwiftXibTableViewController: CQBaseViewController, UITableViewDataSource, 
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        10
+        100
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -40,6 +40,9 @@ class SwiftXibTableViewController: CQBaseViewController, UITableViewDataSource, 
         var cell = tableView.dequeueReusableCell(withIdentifier: SwiftXibCell.className)
         
         if let _ = Bundle.main.path(forResource: SwiftXibCell.className, ofType: "nib") {
+            // xib
+            // 这种写法不需要注册cell
+            // 注意在xib中设置cell的复用id
             if cell == nil {
                 cell = Bundle.main.loadNibNamed(SwiftXibCell.className, owner: nil, options: nil)?.first as? UITableViewCell
             }
