@@ -826,6 +826,8 @@
 		D9F12E432467E84800B3D597 /* FloatingLayerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F12E422467E84800B3D597 /* FloatingLayerDemoViewController.swift */; };
 		D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */ = {isa = PBXBuildFile; fileRef = D9F29C9022B6257F002E10E4 /* 组件化.md */; };
 		D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F2D46D210B178F0088FB90 /* CQGCDController.m */; };
+		D9F3610C24E2C1160041FDBD /* SwiftXibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F3610A24E2C1160041FDBD /* SwiftXibCell.swift */; };
+		D9F3610D24E2C1160041FDBD /* SwiftXibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F3610B24E2C1160041FDBD /* SwiftXibCell.xib */; };
 		D9F37C6A248BFB72008B6F14 /* HTMLGrammerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F37C69248BFB72008B6F14 /* HTMLGrammerViewController.swift */; };
 		D9F37C6C248BFC4E008B6F14 /* HTMLGrammer.html in Resources */ = {isa = PBXBuildFile; fileRef = D9F37C6B248BFC4D008B6F14 /* HTMLGrammer.html */; };
 		D9F5230A2362DCB000ABBEF7 /* CornerAndShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F523092362DCB000ABBEF7 /* CornerAndShadowViewController.swift */; };
@@ -1866,6 +1868,8 @@
 		D9F29C9022B6257F002E10E4 /* 组件化.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "组件化.md"; sourceTree = "<group>"; };
 		D9F2D46C210B178F0088FB90 /* CQGCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGCDController.h; sourceTree = "<group>"; };
 		D9F2D46D210B178F0088FB90 /* CQGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGCDController.m; sourceTree = "<group>"; };
+		D9F3610A24E2C1160041FDBD /* SwiftXibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftXibCell.swift; sourceTree = "<group>"; };
+		D9F3610B24E2C1160041FDBD /* SwiftXibCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftXibCell.xib; sourceTree = "<group>"; };
 		D9F37C69248BFB72008B6F14 /* HTMLGrammerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLGrammerViewController.swift; sourceTree = "<group>"; };
 		D9F37C6B248BFC4D008B6F14 /* HTMLGrammer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = HTMLGrammer.html; sourceTree = "<group>"; };
 		D9F523092362DCB000ABBEF7 /* CornerAndShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerAndShadowViewController.swift; sourceTree = "<group>"; };
@@ -4683,6 +4687,8 @@
 			children = (
 				D96D569724AF0C25008DD9CF /* SwiftXibTableViewController.swift */,
 				D96D569824AF0C25008DD9CF /* SwiftXibTableViewController.xib */,
+				D9F3610A24E2C1160041FDBD /* SwiftXibCell.swift */,
+				D9F3610B24E2C1160041FDBD /* SwiftXibCell.xib */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -7064,6 +7070,7 @@
 				D9259E7D24DBEDD5004C1611 /* EmbeddedXibView3.xib in Resources */,
 				D95A3DB22482063800F0166C /* LocalGifCell.xib in Resources */,
 				D9A39F6E22B4C90900FEA5F5 /* 策略设计模式.md in Resources */,
+				D9F3610D24E2C1160041FDBD /* SwiftXibCell.xib in Resources */,
 				D947D39824D7C56600C667F6 /* StackInXibViewController.xib in Resources */,
 				D96E3A7C22EDE45A009C14E2 /* RxSwiftLoginViewController.xib in Resources */,
 				D985E42323FD08B500CF7954 /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
@@ -7848,6 +7855,7 @@
 				D9F53192249BD877005BD556 /* AnimalCell.swift in Sources */,
 				D9FF65D9212AC39800B06371 /* CQTimerModel.m in Sources */,
 				D90F480924BEDC8B00B81C79 /* ClickButtonViewController.swift in Sources */,
+				D9F3610C24E2C1160041FDBD /* SwiftXibCell.swift in Sources */,
 				D9C74FE924727CD900ACE269 /* SimpleDataDriveViewController.swift in Sources */,
 				D96D569924AF0C25008DD9CF /* SwiftXibTableViewController.swift in Sources */,
 				D940168E2361BDD900580AAC /* StackViewDemoViewController.swift in Sources */,
