@@ -15,7 +15,8 @@ class UITextFieldDemosViewController: JumpListViewController {
 
         // Do any additional setup after loading the view.
         
-        self.dataArray = [ItemModel(title: "限制输入长度", targetVC: MaxLengthTextfieldViewController()),
+        self.dataArray = [ItemModel(title: "监听输入内容变化", targetVC: MonitorTextFieldViewController()),
+                          ItemModel(title: "限制输入长度", targetVC: MaxLengthTextfieldViewController()),
                           ItemModel(title: "带警示效果的textField", targetVC: CQWarnTextFieldController())]
         
     }
