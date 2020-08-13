@@ -6105,11 +6105,11 @@
 		D9C5E5DB234881A700D101F1 /* 好用的button */ = {
 			isa = PBXGroup;
 			children = (
-				D90719DF24E54A8F002C4633 /* CQButton3.swift */,
 				D9E1A06B24E4F8A900A6F9D6 /* EasyButtonDemosController.swift */,
 				D9C5E5E02348820A00D101F1 /* EasyButtonViewController.swift */,
 				D9E1A06724E4F88100A6F9D6 /* XibEasyButtonViewController.swift */,
 				D9E1A06824E4F88100A6F9D6 /* XibEasyButtonViewController.xib */,
+				D90719DF24E54A8F002C4633 /* CQButton3.swift */,
 				D9C5E5E22349AABB00D101F1 /* CQEasyButton */,
 				D9C5E5E32349AAE100D101F1 /* EasyButton */,
 			);

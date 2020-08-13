@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -70,16 +70,48 @@
                         <constraint firstAttribute="height" constant="30" id="MZX-KW-Hrx"/>
                         <constraint firstAttribute="width" constant="46" id="gr9-Ta-Gz8"/>
                     </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                     <state key="normal" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="PingFangSC"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                            <real key="value" value="50"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H9r-JR-15L" customClass="MyCustomView" customModule="iOS_Storage" customModuleProvider="target">
+                    <rect key="frame" x="90" y="152" width="234" height="72"/>
+                    <color key="backgroundColor" red="0.98431372549999996" green="0.38431372549999998" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="72" id="8JA-ld-Eou"/>
+                        <constraint firstAttribute="width" constant="234" id="uJS-Yi-Vqd"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="HelveticaNeue-Medium"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                            <real key="value" value="50"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="text" value="Jack 牛逼"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jack牛逼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnk-zx-TX7">
+                    <rect key="frame" x="101.5" y="274" width="211.5" height="60"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
+                <constraint firstItem="vnk-zx-TX7" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="3h0-MK-BaW"/>
                 <constraint firstItem="3B8-xb-Ahm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="BLs-qp-YDU"/>
+                <constraint firstItem="H9r-JR-15L" firstAttribute="top" secondItem="3B8-xb-Ahm" secondAttribute="bottom" constant="29" id="EnS-cW-eOE"/>
                 <constraint firstItem="fhG-2F-8gz" firstAttribute="top" secondItem="YdN-HW-0BX" secondAttribute="bottom" constant="41" id="EuB-Uf-V47"/>
                 <constraint firstItem="YdN-HW-0BX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="GvQ-3N-NhN"/>
                 <constraint firstItem="fhG-2F-8gz" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="LTW-vR-UXB"/>
                 <constraint firstItem="YdN-HW-0BX" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="RoZ-GG-Cpl"/>
+                <constraint firstItem="H9r-JR-15L" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="ScM-Jd-xhB"/>
+                <constraint firstItem="vnk-zx-TX7" firstAttribute="top" secondItem="H9r-JR-15L" secondAttribute="bottom" constant="50" id="iOH-TC-IXa"/>
                 <constraint firstItem="3B8-xb-Ahm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="49" id="vXl-ME-8rq"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

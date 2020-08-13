@@ -8,15 +8,25 @@
 
 import UIKit
 
-class CQButton3: UIButton {
+@IBDesignable
 
-    @IBInspectable var labelFont: UIFont = UIFont.systemFont(ofSize: 12) {
+class CQButton3: UIButton {
+    
+    @IBInspectable var fontName: String = "PingFangSC" {
         didSet {
-            print("ss")
+            self.titleLabel?.font = UIFont.init(name: fontName, size: fontSize)
+        }
+    }
+    
+    @IBInspectable var fontSize: CGFloat = 12 {
+        didSet {
+            self.titleLabel?.font = UIFont.init(name: fontName, size: fontSize)
         }
     }
 
 }
+
+
 
 class MyView3: UIView {
     @IBInspectable var labelFont: UIFont = UIFont.systemFont(ofSize: 12) {
@@ -25,3 +35,51 @@ class MyView3: UIView {
         }
     }
 }
+
+
+class MyCustomView: UIView {
+    
+    private lazy var label: UILabel = {
+        let label = UILabel()
+        return label
+    }()
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        commonInit()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        commonInit()
+    }
+    
+    private func commonInit() {
+        addSubview(label)
+        label.snp.makeConstraints { (make) in
+            make.center.equalToSuperview()
+        }
+    }
+    
+    @IBInspectable var text: String = "" {
+        didSet {
+            label.text = text
+        }
+    }
+    
+@IBInspectable var fontName: String = "HelveticaNeue-Medium" {
+    didSet {
+        label.font = UIFont.init(name: fontName, size: fontSize)
+    }
+}
+
+@IBInspectable var fontSize: CGFloat = 12 {
+    didSet {
+        label.font = UIFont.init(name: fontName, size: fontSize)
+    }
+}
+
+}
+
+
+// AmericanTypewriter-Bold
