@@ -780,6 +780,10 @@
 		D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DE6CCE20FEEB8700C8D4FE /* CQFilterBaseModel.m */; };
 		D9DE775323AA22C400E902A5 /* CQStandardOCCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DE775223AA22C400E902A5 /* CQStandardOCCollectionHeaderView.m */; };
 		D9DE775623AA2BE000E902A5 /* CQStandardOCCollectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DE775523AA2BE000E902A5 /* CQStandardOCCollectionFooterView.m */; };
+		D9E1A05924E4D75200A6F9D6 /* FSPagerViewDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1A05824E4D75200A6F9D6 /* FSPagerViewDemoController.swift */; };
+		D9E1A05E24E4D83400A6F9D6 /* FSPagerBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1A05D24E4D83400A6F9D6 /* FSPagerBannerViewController.swift */; };
+		D9E1A06024E4D84A00A6F9D6 /* FSPagerTransformerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1A05F24E4D84A00A6F9D6 /* FSPagerTransformerController.swift */; };
+		D9E1A06224E4D86200A6F9D6 /* FSPageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1A06124E4D86200A6F9D6 /* FSPageControlViewController.swift */; };
 		D9E21A7F210F478B00407599 /* CQClassClusterController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E21A7E210F478B00407599 /* CQClassClusterController.m */; };
 		D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E21A81210F47F800407599 /* CQClassClusterModel.m */; };
 		D9E21A85210FF7F500407599 /* CQClassClusterBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E21A84210FF7F500407599 /* CQClassClusterBaseCell.m */; };
@@ -1810,6 +1814,10 @@
 		D9DE775223AA22C400E902A5 /* CQStandardOCCollectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQStandardOCCollectionHeaderView.m; sourceTree = "<group>"; };
 		D9DE775423AA2BE000E902A5 /* CQStandardOCCollectionFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQStandardOCCollectionFooterView.h; sourceTree = "<group>"; };
 		D9DE775523AA2BE000E902A5 /* CQStandardOCCollectionFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQStandardOCCollectionFooterView.m; sourceTree = "<group>"; };
+		D9E1A05824E4D75200A6F9D6 /* FSPagerViewDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPagerViewDemoController.swift; sourceTree = "<group>"; };
+		D9E1A05D24E4D83400A6F9D6 /* FSPagerBannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPagerBannerViewController.swift; sourceTree = "<group>"; };
+		D9E1A05F24E4D84A00A6F9D6 /* FSPagerTransformerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPagerTransformerController.swift; sourceTree = "<group>"; };
+		D9E1A06124E4D86200A6F9D6 /* FSPageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPageControlViewController.swift; sourceTree = "<group>"; };
 		D9E21A7D210F478B00407599 /* CQClassClusterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQClassClusterController.h; sourceTree = "<group>"; };
 		D9E21A7E210F478B00407599 /* CQClassClusterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQClassClusterController.m; sourceTree = "<group>"; };
 		D9E21A80210F47F800407599 /* CQClassClusterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQClassClusterModel.h; sourceTree = "<group>"; };
@@ -5800,6 +5808,7 @@
 			isa = PBXGroup;
 			children = (
 				D9B760AA24BC5B900037A7A1 /* BannersViewController.swift */,
+				D9E1A05724E4D72400A6F9D6 /* FSPagerView */,
 				D9B760AC24BC5CB50037A7A1 /* GKCycleScrollView */,
 				D9B760B524BC622E0037A7A1 /* TYCyclePagerView */,
 			);
@@ -6478,6 +6487,41 @@
 				D9DE775523AA2BE000E902A5 /* CQStandardOCCollectionFooterView.m */,
 			);
 			path = "表头表尾";
+			sourceTree = "<group>";
+		};
+		D9E1A05724E4D72400A6F9D6 /* FSPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				D9E1A05824E4D75200A6F9D6 /* FSPagerViewDemoController.swift */,
+				D9E1A05A24E4D7A400A6F9D6 /* Banner */,
+				D9E1A05B24E4D7BD00A6F9D6 /* Transformer */,
+				D9E1A05C24E4D7C900A6F9D6 /* PageControl */,
+			);
+			path = FSPagerView;
+			sourceTree = "<group>";
+		};
+		D9E1A05A24E4D7A400A6F9D6 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				D9E1A05D24E4D83400A6F9D6 /* FSPagerBannerViewController.swift */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		D9E1A05B24E4D7BD00A6F9D6 /* Transformer */ = {
+			isa = PBXGroup;
+			children = (
+				D9E1A05F24E4D84A00A6F9D6 /* FSPagerTransformerController.swift */,
+			);
+			path = Transformer;
+			sourceTree = "<group>";
+		};
+		D9E1A05C24E4D7C900A6F9D6 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				D9E1A06124E4D86200A6F9D6 /* FSPageControlViewController.swift */,
+			);
+			path = PageControl;
 			sourceTree = "<group>";
 		};
 		D9E21A79210F469900407599 /* 类族 */ = {
@@ -7287,6 +7331,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CameraManager/CameraManager.framework",
 				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
@@ -7326,6 +7371,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CameraManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
@@ -7622,6 +7668,7 @@
 				D9EBF1D12490BEFB00793E01 /* RouterViewController.swift in Sources */,
 				D93AB5822487541600E79EAB /* KeyboardFrameworkViewController.swift in Sources */,
 				D95199EA22BDCC6100E3036B /* CQDelegateViewController.m in Sources */,
+				D9E1A06224E4D86200A6F9D6 /* FSPageControlViewController.swift in Sources */,
 				D98A545F24DE7EE8000CB8A9 /* StaticTableController1.swift in Sources */,
 				D96D562624AAD513008DD9CF /* DefaultTableHeader.swift in Sources */,
 				D98CBB372453D95200A2E32A /* CollectionViewDemosViewController.swift in Sources */,
@@ -7879,6 +7926,7 @@
 				D947D38D24D7B68C00C667F6 /* SafeAreaBasedViewController.swift in Sources */,
 				D9F53194249BD8B3005BD556 /* AnimalModel.swift in Sources */,
 				D96FE2D22396453D00949006 /* ASAbsoluteLayoutController.swift in Sources */,
+				D9E1A05E24E4D83400A6F9D6 /* FSPagerBannerViewController.swift in Sources */,
 				D9D814B924BD68B500D0685A /* TTTBasicViewController.swift in Sources */,
 				D94016902361BF1400580AAC /* UIView+Extension.swift in Sources */,
 				D96D562424AAD3CD008DD9CF /* DefaultTableHeaderModel.swift in Sources */,
@@ -8007,6 +8055,7 @@
 				D9BE258A23B889CF001F4D71 /* ProtocolTableViewController.swift in Sources */,
 				D92D3062216B3D8700B57A2D /* CQRippleViewController.m in Sources */,
 				D9BE258C23B88A47001F4D71 /* CellProtocol.swift in Sources */,
+				D9E1A05924E4D75200A6F9D6 /* FSPagerViewDemoController.swift in Sources */,
 				D9B4E3D82148EFBB00E895F1 /* CQCar.m in Sources */,
 				D96E3A7B22EDE45A009C14E2 /* RxSwiftLoginViewController.swift in Sources */,
 				D91245D623A90AD800E3775A /* UIScrollViewController.swift in Sources */,
@@ -8040,6 +8089,7 @@
 				D9F72DE12440545E007BBB05 /* RegularExpressionViewController.swift in Sources */,
 				D9BE258023B8711E001F4D71 /* QuickTableViewController.swift in Sources */,
 				D90F488B24C1517200B81C79 /* CornerTestViewController.swift in Sources */,
+				D9E1A06024E4D84A00A6F9D6 /* FSPagerTransformerController.swift in Sources */,
 				D9928EA6243345CB0082999F /* SimpleTableViewHelper.swift in Sources */,
 				D9A39F7B22B4D2DC00FEA5F5 /* CQMVPViewController.m in Sources */,
 				D930300C2494DB58002F4ADF /* CPPGrammarViewController.swift in Sources */,

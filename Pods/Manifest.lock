@@ -20,6 +20,7 @@ PODS:
   - Alamofire (5.0.0)
   - CameraManager (4.4.0)
   - ESTabBarController-swift (2.8.0)
+  - FSPagerView (0.8.3)
   - HandyJSON (5.0.1)
   - Hero (1.5.0)
   - IQKeyboardManagerSwift (6.5.5)
@@ -108,6 +109,7 @@ DEPENDENCIES:
   - Alamofire (= 5.0.0)
   - CameraManager (~> 4.4)
   - ESTabBarController-swift
+  - FSPagerView
   - HandyJSON (~> 5.0.1)
   - Hero
   - IQKeyboardManagerSwift
@@ -145,6 +147,7 @@ SPEC REPOS:
     - Alamofire
     - CameraManager
     - ESTabBarController-swift
+    - FSPagerView
     - HandyJSON
     - Hero
     - IQKeyboardManagerSwift
@@ -192,6 +195,7 @@ SPEC CHECKSUMS:
   Alamofire: 58ff2bfb8daaacaa233d5c36e37b10a5248f59b1
   CameraManager: 583710502c42178d12ef046d9d4f7893feff8354
   ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
   HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
   Hero: b7385b75e7259da62f4f85462f59a5082d66b058
   IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
@@ -225,6 +229,6 @@ SPEC CHECKSUMS:
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZFPlayer: 8a6021a3c45e281f2abd24dca5c88915af770a7e
 
-PODFILE CHECKSUM: a7c319cf7e3be770cd93377a308f729fa283ac48
+PODFILE CHECKSUM: 517b158b46458383742a6abecac56b325f56a271
 
 COCOAPODS: 1.8.4

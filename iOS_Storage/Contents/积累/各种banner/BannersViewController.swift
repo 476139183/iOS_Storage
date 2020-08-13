@@ -15,7 +15,8 @@ class BannersViewController: JumpListViewController {
 
         // Do any additional setup after loading the view.
         
-        self.dataArray = [ItemModel(title: "GKCycleScrollView", targetVC: GKCycleScrollViewController()),
+        self.dataArray = [ItemModel(title: "FSPagerView", targetVC: FSPagerViewDemoController()),
+                          ItemModel(title: "GKCycleScrollView", targetVC: GKCycleScrollViewController()),
                           ItemModel(title: "TYCycle", targetVC: TYCycleController())]
         
     }
