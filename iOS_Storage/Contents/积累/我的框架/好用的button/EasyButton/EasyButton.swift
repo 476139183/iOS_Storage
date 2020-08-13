@@ -22,9 +22,36 @@ class EasyButton: UIButton {
         }
     }
     
-    @IBInspectable var labelFont: UIFont = .systemFont(ofSize: 12) {
+    
+    @IBInspectable var fontName: String = "HelveticaNeue-Medium" {
         didSet {
-            dsTitleLabel.font = labelFont
+            if !self.isSelected {
+                dsTitleLabel.font = UIFont.init(name: fontName, size: fontSize)
+            }
+        }
+    }
+    
+    @IBInspectable var fontSize: CGFloat = 12 {
+        didSet {
+            if !self.isSelected {
+                dsTitleLabel.font = UIFont.init(name: fontName, size: fontSize)
+            }
+        }
+    }
+    
+    @IBInspectable var selectedFontName: String = "HelveticaNeue-Medium" {
+        didSet {
+            if self.isSelected {
+                dsTitleLabel.font = UIFont.init(name: selectedFontName, size: selectedFontSize)
+            }
+        }
+    }
+    
+    @IBInspectable var selectedFontSize: CGFloat = 12 {
+        didSet {
+            if self.isSelected {
+                dsTitleLabel.font = UIFont.init(name: selectedFontName, size: selectedFontSize)
+            }
         }
     }
     
@@ -90,14 +117,23 @@ class EasyButton: UIButton {
         }
     }
     
+    /// 是否选中
+    @IBInspectable var isSelectedState: Bool = false {
+        didSet {
+            isSelected = isSelectedState
+        }
+    }
+    
     override var isSelected: Bool {
         didSet {
             if isSelected {
                 dsTitleLabel.textColor = selectedTextColor
                 dsImageView.image = selectedImage
+                dsTitleLabel.font = UIFont.init(name: selectedFontName, size: selectedFontSize)
             } else {
                 dsTitleLabel.textColor = textColor
                 dsImageView.image = image
+                dsTitleLabel.font = UIFont.init(name: fontName, size: fontSize)
             }
         }
     }

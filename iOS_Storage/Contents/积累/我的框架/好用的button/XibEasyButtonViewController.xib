@@ -31,7 +31,7 @@
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="image" keyPath="image" value="AJ1"/>
                         <userDefinedRuntimeAttribute type="size" keyPath="imageSize">
-                            <size key="value" width="20" height="30"/>
+                            <size key="value" width="30" height="20"/>
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="number" keyPath="spacing">
                             <real key="value" value="10"/>
@@ -41,6 +41,15 @@
                         <userDefinedRuntimeAttribute type="color" keyPath="selectedTextColor">
                             <color key="value" red="0.20000000000000001" green="0.52156862749999999" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                         </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                            <real key="value" value="13"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="HelveticaNeue-Medium"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="selectedFontName" value="HelveticaNeue"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="selectedFontSize">
+                            <real key="value" value="11"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSelectedState" value="YES"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <action selector="buttonClicked:" destination="-1" eventType="touchUpInside" id="CRY-FX-1ag"/>
