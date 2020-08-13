@@ -26,6 +26,8 @@
 		D904EABD24B0734D0006C928 /* CaptureScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904EABC24B0734D0006C928 /* CaptureScrollViewController.swift */; };
 		D904EAC324B074BD0006C928 /* UIScrollView+Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = D904EAC224B074BD0006C928 /* UIScrollView+Capture.m */; };
 		D906714C24BD471900CC485F /* PushTranslucenceViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D906714B24BD471900CC485F /* PushTranslucenceViewController2.swift */; };
+		D90719DA24E53802002C4633 /* UIImage+Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90719D924E53802002C4633 /* UIImage+Equal.swift */; };
+		D90719E024E54A8F002C4633 /* CQButton3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90719DF24E54A8F002C4633 /* CQButton3.swift */; };
 		D907480424B8264D00744A9A /* SwiftUIBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907480324B8264D00744A9A /* SwiftUIBindingView.swift */; };
 		D907480924B997C700744A9A /* SystemLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907480824B997C700744A9A /* SystemLoadingViewController.swift */; };
 		D90A9AFF238F80D500C84424 /* NestedItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A9AFE238F80D500C84424 /* NestedItemController.swift */; };
@@ -784,6 +786,9 @@
 		D9E1A05E24E4D83400A6F9D6 /* FSPagerBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1A05D24E4D83400A6F9D6 /* FSPagerBannerViewController.swift */; };
 		D9E1A06024E4D84A00A6F9D6 /* FSPagerTransformerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1A05F24E4D84A00A6F9D6 /* FSPagerTransformerController.swift */; };
 		D9E1A06224E4D86200A6F9D6 /* FSPageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1A06124E4D86200A6F9D6 /* FSPageControlViewController.swift */; };
+		D9E1A06924E4F88100A6F9D6 /* XibEasyButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1A06724E4F88100A6F9D6 /* XibEasyButtonViewController.swift */; };
+		D9E1A06A24E4F88100A6F9D6 /* XibEasyButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9E1A06824E4F88100A6F9D6 /* XibEasyButtonViewController.xib */; };
+		D9E1A06C24E4F8A900A6F9D6 /* EasyButtonDemosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1A06B24E4F8A900A6F9D6 /* EasyButtonDemosController.swift */; };
 		D9E21A7F210F478B00407599 /* CQClassClusterController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E21A7E210F478B00407599 /* CQClassClusterController.m */; };
 		D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E21A81210F47F800407599 /* CQClassClusterModel.m */; };
 		D9E21A85210FF7F500407599 /* CQClassClusterBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E21A84210FF7F500407599 /* CQClassClusterBaseCell.m */; };
@@ -886,6 +891,8 @@
 		D904EAC124B074BD0006C928 /* UIScrollView+Capture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Capture.h"; sourceTree = "<group>"; };
 		D904EAC224B074BD0006C928 /* UIScrollView+Capture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Capture.m"; sourceTree = "<group>"; };
 		D906714B24BD471900CC485F /* PushTranslucenceViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTranslucenceViewController2.swift; sourceTree = "<group>"; };
+		D90719D924E53802002C4633 /* UIImage+Equal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Equal.swift"; sourceTree = "<group>"; };
+		D90719DF24E54A8F002C4633 /* CQButton3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQButton3.swift; sourceTree = "<group>"; };
 		D907480324B8264D00744A9A /* SwiftUIBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBindingView.swift; sourceTree = "<group>"; };
 		D907480824B997C700744A9A /* SystemLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemLoadingViewController.swift; sourceTree = "<group>"; };
 		D90A9AFE238F80D500C84424 /* NestedItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedItemController.swift; sourceTree = "<group>"; };
@@ -1818,6 +1825,9 @@
 		D9E1A05D24E4D83400A6F9D6 /* FSPagerBannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPagerBannerViewController.swift; sourceTree = "<group>"; };
 		D9E1A05F24E4D84A00A6F9D6 /* FSPagerTransformerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPagerTransformerController.swift; sourceTree = "<group>"; };
 		D9E1A06124E4D86200A6F9D6 /* FSPageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPageControlViewController.swift; sourceTree = "<group>"; };
+		D9E1A06724E4F88100A6F9D6 /* XibEasyButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibEasyButtonViewController.swift; sourceTree = "<group>"; };
+		D9E1A06824E4F88100A6F9D6 /* XibEasyButtonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibEasyButtonViewController.xib; sourceTree = "<group>"; };
+		D9E1A06B24E4F8A900A6F9D6 /* EasyButtonDemosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyButtonDemosController.swift; sourceTree = "<group>"; };
 		D9E21A7D210F478B00407599 /* CQClassClusterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQClassClusterController.h; sourceTree = "<group>"; };
 		D9E21A7E210F478B00407599 /* CQClassClusterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQClassClusterController.m; sourceTree = "<group>"; };
 		D9E21A80210F47F800407599 /* CQClassClusterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQClassClusterModel.h; sourceTree = "<group>"; };
@@ -2288,6 +2298,7 @@
 			isa = PBXGroup;
 			children = (
 				D9CE605823518F3700D65107 /* UIImage+Extension.swift */,
+				D90719D924E53802002C4633 /* UIImage+Equal.swift */,
 				D91E1D29233E585800B1C772 /* UIImage+Util.h */,
 				D91E1D2A233E585800B1C772 /* UIImage+Util.m */,
 			);
@@ -6094,7 +6105,11 @@
 		D9C5E5DB234881A700D101F1 /* 好用的button */ = {
 			isa = PBXGroup;
 			children = (
+				D90719DF24E54A8F002C4633 /* CQButton3.swift */,
+				D9E1A06B24E4F8A900A6F9D6 /* EasyButtonDemosController.swift */,
 				D9C5E5E02348820A00D101F1 /* EasyButtonViewController.swift */,
+				D9E1A06724E4F88100A6F9D6 /* XibEasyButtonViewController.swift */,
+				D9E1A06824E4F88100A6F9D6 /* XibEasyButtonViewController.xib */,
 				D9C5E5E22349AABB00D101F1 /* CQEasyButton */,
 				D9C5E5E32349AAE100D101F1 /* EasyButton */,
 			);
@@ -7231,6 +7246,7 @@
 				D90F489124C17A3900B81C79 /* BlueCornerRadiusView.xib in Resources */,
 				D9A32B882480ADDB00295E2F /* BlurEffectViewController.xib in Resources */,
 				D926BDB222C2F52B00A2DD3E /* 外观模式.md in Resources */,
+				D9E1A06A24E4F88100A6F9D6 /* XibEasyButtonViewController.xib in Resources */,
 				D9C2807024A05C7400C66F61 /* json_demo.json in Resources */,
 				D98DF5D224B7127B001B9EC9 /* turtlerock.jpg in Resources */,
 				D94F058D248B7669007B0165 /* compose.json in Resources */,
@@ -7709,6 +7725,7 @@
 				D93B7198245967E10022657C /* ZFNoramlViewController.m in Sources */,
 				D9BF6913233F578900E602A4 /* GradientControl.swift in Sources */,
 				D95A3DAD2481F32F00F0166C /* WebGifCell.swift in Sources */,
+				D9E1A06924E4F88100A6F9D6 /* XibEasyButtonViewController.swift in Sources */,
 				D95A3DA22480F32300F0166C /* KingfisherLoadGifViewController.swift in Sources */,
 				D94F057B248B3FF4007B0165 /* JSAndWebViewController.swift in Sources */,
 				D95A3DCB2484AF5C00F0166C /* ObserPropertyViewController.swift in Sources */,
@@ -7944,6 +7961,7 @@
 				D98DF5C324B711E1001B9EC9 /* Data.swift in Sources */,
 				D929B8DA24C2A40C000AB13D /* ESTabBarDemosViewController.swift in Sources */,
 				D90F481224C0023300B81C79 /* NotificationManagerViewController.swift in Sources */,
+				D90719DA24E53802002C4633 /* UIImage+Equal.swift in Sources */,
 				D96F415C23BEDFA2008616F4 /* PerfectAppViewController.swift in Sources */,
 				D94BF43720E48C690012C370 /* CQBaseModel.m in Sources */,
 				D90153FC24C6AF1D00F6D06E /* SwiftXibCustomPropertyViewController.swift in Sources */,
@@ -8037,7 +8055,9 @@
 				D9A32B6C247E66DD00295E2F /* KingfisherListViewController.swift in Sources */,
 				D96773AB2400D80500829BCB /* HorizonCollectionViewController2.swift in Sources */,
 				D90F489324C17EAE00B81C79 /* ShadowDemoViewController.swift in Sources */,
+				D9E1A06C24E4F8A900A6F9D6 /* EasyButtonDemosController.swift in Sources */,
 				D9608BF4236970350053BD3E /* Constants.swift in Sources */,
+				D90719E024E54A8F002C4633 /* CQButton3.swift in Sources */,
 				D98DF5E824B717F1001B9EC9 /* CircleImage.swift in Sources */,
 				D9545B3E2293B275008B6355 /* CQRunloopModeController.m in Sources */,
 				D93EE5CC230A3F320016B6F1 /* CQBackgroundDownloadManager.swift in Sources */,

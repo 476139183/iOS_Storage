@@ -8,35 +8,160 @@
 
 import UIKit
 
-class EasyButton: UIControl {
+class EasyButton: UIButton {
+    
+    // MARK: - Xib 使用
+    
+    /// 是否只显示 label
+    @IBInspectable var isOnlyLabel: Bool = false {
+        didSet {
+            dsImageView.isHidden = isOnlyLabel
+            dsTitleLabel.snp.remakeConstraints { (make) in
+                make.center.equalToSuperview()
+            }
+        }
+    }
+    
+    @IBInspectable var labelFont: UIFont = .systemFont(ofSize: 12) {
+        didSet {
+            dsTitleLabel.font = labelFont
+        }
+    }
+    
+    @IBInspectable var title: String = "" {
+        didSet {
+            dsTitleLabel.text = title
+        }
+    }
+    
+    @IBInspectable var textColor: UIColor = .black {
+        didSet {
+            if !self.isSelected {
+                dsTitleLabel.textColor = textColor
+            }
+        }
+    }
+    
+    @IBInspectable var selectedTextColor: UIColor = .black {
+        didSet {
+            if self.isSelected {
+                dsTitleLabel.textColor = textColor
+            }
+        }
+    }
+    
+    @IBInspectable var image: UIImage = UIImage.init(named: "jia")! {
+        didSet {
+            if !isSelected {
+                dsImageView.image = image
+            }
+        }
+    }
+    
+    @IBInspectable var selectedImage: UIImage = UIImage.init(named: "jia")! {
+        didSet {
+            if isSelected {
+                dsImageView.image = image
+            }
+        }
+    }
+    
+    @IBInspectable var imageSize: CGSize = .zero {
+        didSet {
+            reLayout()
+        }
+    }
+    
+    @IBInspectable var spacing: CGFloat = 0 {
+        didSet {
+            reLayout()
+        }
+    }
+    
+    /// 重新布局
+    private func reLayout() {
+        dsTitleLabel.snp.remakeConstraints { (make) in
+            make.left.centerY.equalToSuperview()
+        }
+        dsImageView.snp.remakeConstraints { (make) in
+            make.size.equalTo(imageSize)
+            make.centerY.right.equalToSuperview()
+            make.left.equalTo(dsTitleLabel.snp.right).offset(spacing)
+        }
+    }
+    
+    override var isSelected: Bool {
+        didSet {
+            if isSelected {
+                dsTitleLabel.textColor = selectedTextColor
+                dsImageView.image = selectedImage
+            } else {
+                dsTitleLabel.textColor = textColor
+                dsImageView.image = image
+            }
+        }
+    }
+    
+    override var backgroundColor: UIColor? {
+        didSet {
+            self.contentView.backgroundColor = self.backgroundColor
+        }
+    }
+    
+    
+    // MARK: - 控件
 
-    lazy var imageView: UIImageView = {
+    lazy var dsImageView: UIImageView = {
         let imageView = UIImageView()
-        self.addSubview(imageView)
+        self.contentView.addSubview(imageView)
         return imageView
     }()
     
-    lazy var titleLabel: UILabel = {
+    lazy var dsTitleLabel: UILabel = {
         let label = UILabel()
-        self.addSubview(label)
+        self.contentView.addSubview(label)
         return label
     }()
+    
+    private lazy var contentView: UIView = {
+        let view = UIView()
+        addSubview(view)
+        view.backgroundColor = self.backgroundColor
+        view.isUserInteractionEnabled = false
+        view.snp.makeConstraints { (make) in
+            make.top.bottom.equalToSuperview()
+            make.centerX.equalToSuperview()
+        }
+        return view
+    }()
+    
+    
+    // MARK: - 便利方法
     
     init(image: UIImage, title: String, font: UIFont, titleColor: UIColor) {
         self.init()
         
-        self.imageView.image = image
-        self.titleLabel.text = title
-        self.titleLabel.font = font
-        self.titleLabel.textColor = titleColor
+        self.dsImageView.image = image
+        self.dsTitleLabel.text = title
+        self.dsTitleLabel.font = font
+        self.dsTitleLabel.textColor = titleColor
     }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        commonInit()
     }
 
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: aDecoder)
+        commonInit()
+    }
+    
+    private func commonInit() {
+        self.setTitleColor(.clear, for: .normal)
+        self.setTitleColor(.clear, for: .selected)
+        self.imageView?.isHidden = true
+        self.titleLabel?.isHidden = true
     }
     
 }

@@ -23,7 +23,7 @@ class MyFrameworkViewController: JumpListViewController {
                           ItemModel(title: "权限检测", targetVC: CheckPricacyViewController()),
                           ItemModel(title: "一个很6的倒计时button", targetVC: CountDownButtonViewController()),
                           ItemModel(title: "logo商标识别", targetVC: CQRecognitionViewController()),
-                          ItemModel(title: "好用的button", targetVC: EasyButtonViewController()),
+                          ItemModel(title: "好用的button", targetVC: EasyButtonDemosController()),
                           ItemModel(title: "弹出菜单按钮", targetVC: PopMenuButtonViewController()),
                           ItemModel(title: "交易发布规格view", targetVC: TradeRuleViewController()),
                           ItemModel(title: "带placeholder的textView", targetVC: PlaceholderTextViewController()),
