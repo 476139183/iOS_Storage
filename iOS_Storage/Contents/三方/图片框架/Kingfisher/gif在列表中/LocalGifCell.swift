@@ -17,7 +17,7 @@ class LocalGifCell: UITableViewCell {
         // Initialization code
         imgV.backgroundColor = .orange
         
-        let path = Bundle.main.url(forResource: "加载中", withExtension: "gif")
+        let path = Bundle.main.url(forResource: "yeezy_loading", withExtension: "gif")
         let resource = LocalFileImageDataProvider(fileURL: path!)
         imgV.kf.setImage(with: resource)
     }

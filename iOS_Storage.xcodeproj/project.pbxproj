@@ -28,6 +28,9 @@
 		D906714C24BD471900CC485F /* PushTranslucenceViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D906714B24BD471900CC485F /* PushTranslucenceViewController2.swift */; };
 		D90719DA24E53802002C4633 /* UIImage+Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90719D924E53802002C4633 /* UIImage+Equal.swift */; };
 		D90719E024E54A8F002C4633 /* CQButton3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90719DF24E54A8F002C4633 /* CQButton3.swift */; };
+		D90719EB24E64165002C4633 /* LoadingDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90719EA24E64165002C4633 /* LoadingDemosViewController.swift */; };
+		D90719ED24E641CD002C4633 /* BubbleLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90719EC24E641CD002C4633 /* BubbleLoadingViewController.swift */; };
+		D90719EF24E643F9002C4633 /* BubbleLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90719EE24E643F8002C4633 /* BubbleLoading.swift */; };
 		D907480424B8264D00744A9A /* SwiftUIBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907480324B8264D00744A9A /* SwiftUIBindingView.swift */; };
 		D907480924B997C700744A9A /* SystemLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907480824B997C700744A9A /* SystemLoadingViewController.swift */; };
 		D90A9AFF238F80D500C84424 /* NestedItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A9AFE238F80D500C84424 /* NestedItemController.swift */; };
@@ -556,7 +559,7 @@
 		D98E8EEC24775F9700A2D01A /* RuntimeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E8EEB24775F9700A2D01A /* RuntimeDemoViewController.swift */; };
 		D98E8EF12477691400A2D01A /* RunloopDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E8EF02477691400A2D01A /* RunloopDemoViewController.swift */; };
 		D98F492723FBA5C400B9C16C /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98F492623FBA5C400B9C16C /* RequestManager.swift */; };
-		D991C91E236C48D300CB290C /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991C91D236C48D300CB290C /* LoadingViewController.swift */; };
+		D991C91E236C48D300CB290C /* YeezyLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991C91D236C48D300CB290C /* YeezyLoadingViewController.swift */; };
 		D991C921236C492300CB290C /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991C920236C492300CB290C /* Loading.swift */; };
 		D9920CC120E6386800F328F9 /* CQWarnTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */; };
 		D9920CC420E6388300F328F9 /* CQWarnTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D9920CC320E6388300F328F9 /* CQWarnTextField.m */; };
@@ -801,7 +804,7 @@
 		D9E30C38236D5FC50042BC74 /* img_3.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E30C33236D5FC50042BC74 /* img_3.png */; };
 		D9E30C39236D5FC50042BC74 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9E30C34236D5FC50042BC74 /* data.json */; };
 		D9E30C3C236D62560042BC74 /* GifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E30C3B236D62560042BC74 /* GifViewController.swift */; };
-		D9E30C40236D686B0042BC74 /* 加载中.gif in Resources */ = {isa = PBXBuildFile; fileRef = D9E30C3F236D686B0042BC74 /* 加载中.gif */; };
+		D9E30C40236D686B0042BC74 /* yeezy_loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = D9E30C3F236D686B0042BC74 /* yeezy_loading.gif */; };
 		D9E42488212D0E9C00283CFC /* CQSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E42487212D0E9C00283CFC /* CQSortController.m */; };
 		D9E4248D212D4E3900283CFC /* CQSortModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E4248C212D4E3900283CFC /* CQSortModel.m */; };
 		D9E51E1F249716C600DC1C04 /* FlatTableDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E51E1E249716C600DC1C04 /* FlatTableDemoViewController.swift */; };
@@ -893,6 +896,9 @@
 		D906714B24BD471900CC485F /* PushTranslucenceViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTranslucenceViewController2.swift; sourceTree = "<group>"; };
 		D90719D924E53802002C4633 /* UIImage+Equal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Equal.swift"; sourceTree = "<group>"; };
 		D90719DF24E54A8F002C4633 /* CQButton3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQButton3.swift; sourceTree = "<group>"; };
+		D90719EA24E64165002C4633 /* LoadingDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDemosViewController.swift; sourceTree = "<group>"; };
+		D90719EC24E641CD002C4633 /* BubbleLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleLoadingViewController.swift; sourceTree = "<group>"; };
+		D90719EE24E643F8002C4633 /* BubbleLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleLoading.swift; sourceTree = "<group>"; };
 		D907480324B8264D00744A9A /* SwiftUIBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBindingView.swift; sourceTree = "<group>"; };
 		D907480824B997C700744A9A /* SystemLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemLoadingViewController.swift; sourceTree = "<group>"; };
 		D90A9AFE238F80D500C84424 /* NestedItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedItemController.swift; sourceTree = "<group>"; };
@@ -1530,7 +1536,7 @@
 		D98E8EEB24775F9700A2D01A /* RuntimeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeDemoViewController.swift; sourceTree = "<group>"; };
 		D98E8EF02477691400A2D01A /* RunloopDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunloopDemoViewController.swift; sourceTree = "<group>"; };
 		D98F492623FBA5C400B9C16C /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
-		D991C91D236C48D300CB290C /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		D991C91D236C48D300CB290C /* YeezyLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeezyLoadingViewController.swift; sourceTree = "<group>"; };
 		D991C920236C492300CB290C /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		D9920CBF20E6386800F328F9 /* CQWarnTextFieldController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWarnTextFieldController.h; sourceTree = "<group>"; };
 		D9920CC020E6386800F328F9 /* CQWarnTextFieldController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWarnTextFieldController.m; sourceTree = "<group>"; };
@@ -1846,7 +1852,7 @@
 		D9E30C33236D5FC50042BC74 /* img_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_3.png; sourceTree = "<group>"; };
 		D9E30C34236D5FC50042BC74 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		D9E30C3B236D62560042BC74 /* GifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifViewController.swift; sourceTree = "<group>"; };
-		D9E30C3F236D686B0042BC74 /* 加载中.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "加载中.gif"; sourceTree = "<group>"; };
+		D9E30C3F236D686B0042BC74 /* yeezy_loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = yeezy_loading.gif; sourceTree = "<group>"; };
 		D9E42486212D0E9C00283CFC /* CQSortController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSortController.h; sourceTree = "<group>"; };
 		D9E42487212D0E9C00283CFC /* CQSortController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQSortController.m; sourceTree = "<group>"; };
 		D9E4248B212D4E3900283CFC /* CQSortModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSortModel.h; sourceTree = "<group>"; };
@@ -2053,6 +2059,15 @@
 				D906714B24BD471900CC485F /* PushTranslucenceViewController2.swift */,
 			);
 			path = "弹出半透明vc(自动布局)";
+			sourceTree = "<group>";
+		};
+		D90719E924E6413B002C4633 /* 气泡Loading */ = {
+			isa = PBXGroup;
+			children = (
+				D90719EC24E641CD002C4633 /* BubbleLoadingViewController.swift */,
+				D90719EE24E643F8002C4633 /* BubbleLoading.swift */,
+			);
+			path = "气泡Loading";
 			sourceTree = "<group>";
 		};
 		D907480224B8259E00744A9A /* 多重绑定 */ = {
@@ -3107,7 +3122,7 @@
 			children = (
 				D93AB58324875F3500E79EAB /* MyFrameworkViewController.swift */,
 				D98665252370634800AA60B2 /* Swift ActionSheet */,
-				D991C91C236C489F00CB290C /* Swift Loading */,
+				D991C91C236C489F00CB290C /* 各种Loading */,
 				D92769EE236AE85600A6D846 /* Swift占位图 */,
 				D94B64FC2153798300F2FD84 /* 通用占位图 */,
 				D94B64FD2153799000F2FD84 /* 弹窗 */,
@@ -5296,22 +5311,24 @@
 			path = ASTableNode;
 			sourceTree = "<group>";
 		};
-		D991C91C236C489F00CB290C /* Swift Loading */ = {
+		D991C91C236C489F00CB290C /* 各种Loading */ = {
 			isa = PBXGroup;
 			children = (
-				D991C91F236C490F00CB290C /* Loading */,
-				D991C91D236C48D300CB290C /* LoadingViewController.swift */,
+				D90719EA24E64165002C4633 /* LoadingDemosViewController.swift */,
+				D90719E924E6413B002C4633 /* 气泡Loading */,
+				D991C91F236C490F00CB290C /* 椰子Loading */,
 			);
-			path = "Swift Loading";
+			path = "各种Loading";
 			sourceTree = "<group>";
 		};
-		D991C91F236C490F00CB290C /* Loading */ = {
+		D991C91F236C490F00CB290C /* 椰子Loading */ = {
 			isa = PBXGroup;
 			children = (
-				D9E30C3F236D686B0042BC74 /* 加载中.gif */,
+				D991C91D236C48D300CB290C /* YeezyLoadingViewController.swift */,
+				D9E30C3F236D686B0042BC74 /* yeezy_loading.gif */,
 				D991C920236C492300CB290C /* Loading.swift */,
 			);
-			path = Loading;
+			path = "椰子Loading";
 			sourceTree = "<group>";
 		};
 		D9920CBB20E6375E00F328F9 /* 带警示效果的textField */ = {
@@ -7252,7 +7269,7 @@
 				D94F058D248B7669007B0165 /* compose.json in Resources */,
 				D9C7021122EB546300DDC44F /* RxSwiftDemo.md in Resources */,
 				D9B2FDED233314EA00755653 /* cache.md in Resources */,
-				D9E30C40236D686B0042BC74 /* 加载中.gif in Resources */,
+				D9E30C40236D686B0042BC74 /* yeezy_loading.gif in Resources */,
 				D9519A1122BFB41000E3036B /* CQPrototypeViewController.xib in Resources */,
 				D9A39F7522B4D06400FEA5F5 /* 架构模式.md in Resources */,
 				D930957B23B3582700837CA6 /* RP.md in Resources */,
@@ -7360,6 +7377,7 @@
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
 				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
@@ -7400,6 +7418,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
@@ -7472,6 +7491,7 @@
 				D98A546A24E0FC35000CB8A9 /* BlogDetailViewController.swift in Sources */,
 				D95885BE245282B400CD9FDD /* AVPlayerViewControllerVC.swift in Sources */,
 				D9C5E5EA2349CD4E00D101F1 /* LinkedListViewController.swift in Sources */,
+				D90719EF24E643F9002C4633 /* BubbleLoading.swift in Sources */,
 				D9D11E2723717EC60047AD7C /* WKWebViewDemoViewController.swift in Sources */,
 				D90F480024BDAAC900B81C79 /* TTTChangeLinkColorViewController.swift in Sources */,
 				D9697FF122F097D800220938 /* StandardSwiftCollectionViewCell.swift in Sources */,
@@ -7535,7 +7555,7 @@
 				D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */,
 				D95885BC24519DC500CD9FDD /* VideoDemoViewController.swift in Sources */,
 				D97516882478B61800D45C92 /* IQKeyboardManagerViewController.swift in Sources */,
-				D991C91E236C48D300CB290C /* LoadingViewController.swift in Sources */,
+				D991C91E236C48D300CB290C /* YeezyLoadingViewController.swift in Sources */,
 				D9FF65DC212AC3FE00B06371 /* CQTimerCell.m in Sources */,
 				D9C7CC0C22E9998B0038FD34 /* CQStandardTableFooterView.m in Sources */,
 				D98E4DF0238284AC0082EED4 /* IconFont.swift in Sources */,
@@ -7643,11 +7663,13 @@
 				D9C2AA9F236928F900EBB9E1 /* UIViewAnimationViewController.swift in Sources */,
 				D95885C52452BE1700CD9FDD /* CQBaseNaviBar.m in Sources */,
 				D9DE6CC620FEE97700C8D4FE /* CQFilterAlertController.m in Sources */,
+				D90719EB24E64165002C4633 /* LoadingDemosViewController.swift in Sources */,
 				D96D561824A9D945008DD9CF /* ShoeFooter.swift in Sources */,
 				D93AB5652487479D00E79EAB /* CQMasonryViewController.m in Sources */,
 				D98DF5B224B417C9001B9EC9 /* URLToQRCodeTool.m in Sources */,
 				D96773A92400D12500829BCB /* VerticalCollectionViewController.swift in Sources */,
 				D9E86CC52447EE6C009CCBB8 /* PanGestureViewController.swift in Sources */,
+				D90719ED24E641CD002C4633 /* BubbleLoadingViewController.swift in Sources */,
 				D9A32B72247E68D000295E2F /* KingfisherLoadImageViewController.swift in Sources */,
 				D974BCE22494A9D600942ED2 /* ClosureDemoViewController.swift in Sources */,
 				D93AB57924874F8D00E79EAB /* CQJSONModelViewController.m in Sources */,

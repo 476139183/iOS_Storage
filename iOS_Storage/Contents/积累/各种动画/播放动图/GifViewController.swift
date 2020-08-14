@@ -13,7 +13,7 @@ class GifViewController: CQBaseViewController {
     
     private lazy var imageView2: UIImageView = {
         let imageView = UIImageView()
-        let path = Bundle.main.url(forResource: "加载中", withExtension: "gif")
+        let path = Bundle.main.url(forResource: "yeezy_loading", withExtension: "gif")
         let resource = LocalFileImageDataProvider(fileURL: path!)
         imageView.kf.setImage(with: resource)
         imageView.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor

@@ -20,7 +20,7 @@ class Loading: UIView {
     
     private lazy var imageView: UIImageView = {
         let imageView = UIImageView()
-        let path = Bundle.main.url(forResource: "加载中", withExtension: "gif")
+        let path = Bundle.main.url(forResource: "yeezy_loading", withExtension: "gif")
         let resource = LocalFileImageDataProvider(fileURL: path!)
         imageView.kf.setImage(with: resource)
 //        do {

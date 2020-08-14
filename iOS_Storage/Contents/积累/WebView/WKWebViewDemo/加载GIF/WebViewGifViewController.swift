@@ -13,7 +13,7 @@ class WebViewGifViewController: CQBaseViewController {
     
     private lazy var webView: WKWebView = {
         let webView = WKWebView()
-        let path = Bundle.main.path(forResource: "加载中", ofType: "gif")!
+        let path = Bundle.main.path(forResource: "yeezy_loading", ofType: "gif")!
         let url = URL.init(fileURLWithPath: path)
         //webView.loadFileURL(url, allowingReadAccessTo: nil)
         webView.load(URLRequest.init(url: url))

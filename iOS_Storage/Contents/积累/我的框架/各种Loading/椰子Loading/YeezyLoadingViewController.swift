@@ -9,7 +9,7 @@
 import UIKit
 import SnapKit
 
-class LoadingViewController: CQBaseViewController {
+class YeezyLoadingViewController: CQBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

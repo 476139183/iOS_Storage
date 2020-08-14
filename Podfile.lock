@@ -39,6 +39,9 @@ PODS:
     - Alamofire (~> 5.0)
   - "NSObject+Rx (5.0.2)":
     - RxSwift (~> 5.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
   - ObjectMapper (3.5.2)
   - PINCache (3.0.1-beta.6):
     - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
@@ -122,6 +125,7 @@ DEPENDENCIES:
   - MMKV
   - Moya
   - "NSObject+Rx"
+  - NVActivityIndicatorView
   - ObjectMapper (~> 3.4)
   - RxCocoa
   - RxSwift
@@ -161,6 +165,7 @@ SPEC REPOS:
     - MMKVCore
     - Moya
     - "NSObject+Rx"
+    - NVActivityIndicatorView
     - ObjectMapper
     - PINCache
     - PINOperation
@@ -209,6 +214,7 @@ SPEC CHECKSUMS:
   MMKVCore: f1e0aad4fc330e7cbfbdff16720017bf0973db5a
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   "NSObject+Rx": 2eb2cf51fd1c554118449a7fbc36e4cd620b9e94
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
   ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
   PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
   PINOperation: 24b774353ca248fcf87d67b2d61eef42087c125a
@@ -229,6 +235,6 @@ SPEC CHECKSUMS:
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZFPlayer: 8a6021a3c45e281f2abd24dca5c88915af770a7e
 
-PODFILE CHECKSUM: 517b158b46458383742a6abecac56b325f56a271
+PODFILE CHECKSUM: cbcf6ca2e2f025f34b6f9ee034416e1eb4980655
 
 COCOAPODS: 1.8.4

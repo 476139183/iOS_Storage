@@ -16,7 +16,7 @@ class MyFrameworkViewController: JumpListViewController {
         // Do any additional setup after loading the view.
         
         self.dataArray = [ItemModel(title: "Swift ActionSheet", targetVC: DSActionSheetController()),
-                          ItemModel(title: "Swift Loading", targetVC: LoadingViewController()),
+                          ItemModel(title: "各种 Loading", targetVC: LoadingDemosViewController()),
                           ItemModel(title: "Swift 占位图", targetVC: PlaceholderViewController()),
                           ItemModel(title: "弹窗", targetVC: AlertDemoViewController()),
                           ItemModel(title: "跳转到地图APP", targetVC: MapNaviViewController()),
