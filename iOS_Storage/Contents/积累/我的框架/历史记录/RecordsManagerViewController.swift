@@ -20,11 +20,11 @@ class RecordsManagerViewController: CQBaseViewController {
     }
     
     @IBAction func addButtonClicked(_ sender: Any) {
-        RecordsManager.addItem(textField.text!)
+        print(RecordsManager.addItem(textField.text!))
     }
     
     @IBAction func clearButtonClicked(_ sender: Any) {
-        RecordsManager.clear()
+        print(RecordsManager.clear())
     }
     
     @IBAction func printButtonClicked(_ sender: Any) {
