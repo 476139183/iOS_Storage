@@ -31,6 +31,9 @@
 		D90719EB24E64165002C4633 /* LoadingDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90719EA24E64165002C4633 /* LoadingDemosViewController.swift */; };
 		D90719ED24E641CD002C4633 /* BubbleLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90719EC24E641CD002C4633 /* BubbleLoadingViewController.swift */; };
 		D90719EF24E643F9002C4633 /* BubbleLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90719EE24E643F8002C4633 /* BubbleLoading.swift */; };
+		D9071A0824E7DC18002C4633 /* RecordsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9071A0724E7DC18002C4633 /* RecordsManager.swift */; };
+		D9071A0D24E7DEE5002C4633 /* RecordsManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9071A0B24E7DEE5002C4633 /* RecordsManagerViewController.swift */; };
+		D9071A0E24E7DEE5002C4633 /* RecordsManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9071A0C24E7DEE5002C4633 /* RecordsManagerViewController.xib */; };
 		D907480424B8264D00744A9A /* SwiftUIBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907480324B8264D00744A9A /* SwiftUIBindingView.swift */; };
 		D907480924B997C700744A9A /* SystemLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907480824B997C700744A9A /* SystemLoadingViewController.swift */; };
 		D90A9AFF238F80D500C84424 /* NestedItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A9AFE238F80D500C84424 /* NestedItemController.swift */; };
@@ -899,6 +902,9 @@
 		D90719EA24E64165002C4633 /* LoadingDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDemosViewController.swift; sourceTree = "<group>"; };
 		D90719EC24E641CD002C4633 /* BubbleLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleLoadingViewController.swift; sourceTree = "<group>"; };
 		D90719EE24E643F8002C4633 /* BubbleLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleLoading.swift; sourceTree = "<group>"; };
+		D9071A0724E7DC18002C4633 /* RecordsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsManager.swift; sourceTree = "<group>"; };
+		D9071A0B24E7DEE5002C4633 /* RecordsManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsManagerViewController.swift; sourceTree = "<group>"; };
+		D9071A0C24E7DEE5002C4633 /* RecordsManagerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordsManagerViewController.xib; sourceTree = "<group>"; };
 		D907480324B8264D00744A9A /* SwiftUIBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBindingView.swift; sourceTree = "<group>"; };
 		D907480824B997C700744A9A /* SystemLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemLoadingViewController.swift; sourceTree = "<group>"; };
 		D90A9AFE238F80D500C84424 /* NestedItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedItemController.swift; sourceTree = "<group>"; };
@@ -2070,6 +2076,16 @@
 			path = "气泡Loading";
 			sourceTree = "<group>";
 		};
+		D9071A0624E7DBA8002C4633 /* 历史记录 */ = {
+			isa = PBXGroup;
+			children = (
+				D9071A0724E7DC18002C4633 /* RecordsManager.swift */,
+				D9071A0B24E7DEE5002C4633 /* RecordsManagerViewController.swift */,
+				D9071A0C24E7DEE5002C4633 /* RecordsManagerViewController.xib */,
+			);
+			path = "历史记录";
+			sourceTree = "<group>";
+		};
 		D907480224B8259E00744A9A /* 多重绑定 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3138,6 +3154,7 @@
 				D9C2352A23853001008C0D59 /* 基于MJRefresh的下拉刷新 */,
 				D9237DCA23FEC7B30021F876 /* 控制view的状态 */,
 				D9C3D0E5246DA11200D3DF7B /* 动画hud */,
+				D9071A0624E7DBA8002C4633 /* 历史记录 */,
 			);
 			path = "我的框架";
 			sourceTree = "<group>";
@@ -7177,6 +7194,7 @@
 				D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */,
 				D91F258E24C6F6030075B363 /* XibInXibRedView.xib in Resources */,
 				D9259E8A24DC11D2004C1611 /* XibStackViewController.xib in Resources */,
+				D9071A0E24E7DEE5002C4633 /* RecordsManagerViewController.xib in Resources */,
 				D926BDB822C33EB600A2DD3E /* 建造者模式.md in Resources */,
 				D98DF5D824B7127B001B9EC9 /* umbagog.jpg in Resources */,
 				D930956D23B2F3D100837CA6 /* StaticTableViewStoryboard.storyboard in Resources */,
@@ -7667,6 +7685,7 @@
 				D96D561824A9D945008DD9CF /* ShoeFooter.swift in Sources */,
 				D93AB5652487479D00E79EAB /* CQMasonryViewController.m in Sources */,
 				D98DF5B224B417C9001B9EC9 /* URLToQRCodeTool.m in Sources */,
+				D9071A0824E7DC18002C4633 /* RecordsManager.swift in Sources */,
 				D96773A92400D12500829BCB /* VerticalCollectionViewController.swift in Sources */,
 				D9E86CC52447EE6C009CCBB8 /* PanGestureViewController.swift in Sources */,
 				D90719ED24E641CD002C4633 /* BubbleLoadingViewController.swift in Sources */,
@@ -7736,6 +7755,7 @@
 				D97667BA2499C18D00A8BEDD /* SwiftProtocolViewController.swift in Sources */,
 				D9AEB65622F56747006F8995 /* AlamofireDemoViewController.swift in Sources */,
 				D90F488724C14E6900B81C79 /* CornerDemosViewController.swift in Sources */,
+				D9071A0D24E7DEE5002C4633 /* RecordsManagerViewController.swift in Sources */,
 				D97667C12499CF9400A8BEDD /* SwiftInitViewController.swift in Sources */,
 				D9E21A82210F47F800407599 /* CQClassClusterModel.m in Sources */,
 				D9BFEAD124581AF200E25133 /* DisplayListViewController.swift in Sources */,

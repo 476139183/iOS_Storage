@@ -30,7 +30,8 @@ class MyFrameworkViewController: JumpListViewController {
                           ItemModel(title: "定位", targetVC: LocationManagerViewController()),
                           ItemModel(title: "基于MJRefresh的下拉刷新", targetVC: RefreshViewController()),
                           ItemModel(title: "控制view的状态", targetVC: ChangeViewStateViewController()),
-                          ItemModel(title: "动画hud", targetVC: AnimationHudViewController())]
+                          ItemModel(title: "动画hud", targetVC: AnimationHudViewController()),
+                          ItemModel(title: "历史记录", targetVC: RecordsManagerViewController())]
         
     }
 
