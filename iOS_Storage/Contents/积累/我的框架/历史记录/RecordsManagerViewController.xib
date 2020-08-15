@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -57,14 +57,26 @@
                         <action selector="printButtonClicked:" destination="-1" eventType="touchUpInside" id="qAR-Cg-XVe"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFq-Sj-xOU">
+                    <rect key="frame" x="176" y="571" width="62" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="VwY-Op-MAd"/>
+                    </constraints>
+                    <state key="normal" title="删除一条"/>
+                    <connections>
+                        <action selector="deleteButtonClicked:" destination="-1" eventType="touchUpInside" id="oRd-GQ-lao"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
                 <constraint firstItem="jel-e3-G8c" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-100" id="7o5-9S-Ma5"/>
+                <constraint firstItem="WFq-Sj-xOU" firstAttribute="centerX" secondItem="e5w-nH-E6M" secondAttribute="centerX" id="Hfq-44-6Cd"/>
                 <constraint firstItem="BCI-9T-sgF" firstAttribute="top" secondItem="2pk-bp-YHJ" secondAttribute="bottom" constant="33" id="LuX-mD-3Wy"/>
                 <constraint firstItem="2pk-bp-YHJ" firstAttribute="centerX" secondItem="jel-e3-G8c" secondAttribute="centerX" id="Nru-Cb-puu"/>
                 <constraint firstItem="e5w-nH-E6M" firstAttribute="centerX" secondItem="BCI-9T-sgF" secondAttribute="centerX" id="e1o-Zb-tmK"/>
                 <constraint firstItem="2pk-bp-YHJ" firstAttribute="top" secondItem="jel-e3-G8c" secondAttribute="bottom" constant="30" id="ezv-15-90S"/>
+                <constraint firstItem="WFq-Sj-xOU" firstAttribute="top" secondItem="e5w-nH-E6M" secondAttribute="bottom" constant="18" id="nWF-Ix-ZMe"/>
                 <constraint firstItem="e5w-nH-E6M" firstAttribute="top" secondItem="BCI-9T-sgF" secondAttribute="bottom" constant="35" id="rAa-eb-b40"/>
                 <constraint firstItem="BCI-9T-sgF" firstAttribute="centerX" secondItem="2pk-bp-YHJ" secondAttribute="centerX" id="zOj-qy-IcT"/>
                 <constraint firstItem="jel-e3-G8c" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zev-lj-W1r"/>

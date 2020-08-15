@@ -18,7 +18,7 @@ class RecordsManagerViewController: CQBaseViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+
     @IBAction func addButtonClicked(_ sender: Any) {
         print(RecordsManager.addItem(textField.text!))
     }
@@ -29,6 +29,10 @@ class RecordsManagerViewController: CQBaseViewController {
     
     @IBAction func printButtonClicked(_ sender: Any) {
         print(RecordsManager.getAll())
+    }
+    
+    @IBAction func deleteButtonClicked(_ sender: Any) {
+        print(RecordsManager.deleteItem(textField.text!))
     }
     
 }

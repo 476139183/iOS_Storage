@@ -11,7 +11,7 @@ import Foundation
 struct RecordsManager {
     
     private static let key = "records_key"
-    private static let maxRecordsNum = 10
+    private static let maxRecordsCount = 10
     private static var records: [String] {
         get {
             UserDefaults.standard.value(forKey: key) as? [String] ?? []
@@ -32,9 +32,18 @@ struct RecordsManager {
         // 添加到头部
         records.insert(item, at: 0)
         // 最多存10条
-        if records.count > maxRecordsNum {
+        if records.count > maxRecordsCount {
             records.removeLast()
         }
+        return records
+    }
+    
+    ///删除一条记录
+    @discardableResult
+    static func deleteItem(_ item: String) -> [String] {
+        records = records.filter({ (str) -> Bool in
+            str != item
+        })
         return records
     }
     
