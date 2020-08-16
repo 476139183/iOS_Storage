@@ -60,8 +60,18 @@ class FontTestViewController: CQBaseViewController {
         
         let label8 = UILabel.init(frame: .init(x: 0, y: 460, width: screenWidth, height: 50))
         view.addSubview(label8)
-        label8.text = "粗体HelveticaNeue-Medium"
+        label8.text = "HelveticaNeue-Medium"
         label8.font = UIFont(name: "HelveticaNeue-Medium", size: 30)
+        
+        let label9 = UILabel.init(frame: .init(x: 0, y: 510, width: screenWidth, height: 50))
+        view.addSubview(label9)
+        label9.text = "HelveticaNeue-Bold"
+        label9.font = UIFont(name: "HelveticaNeue-Bold", size: 30)
+        
+        let label10 = UILabel.init(frame: .init(x: 0, y: 560, width: screenWidth, height: 50))
+        view.addSubview(label10)
+        label10.text = "HelveticaNeue"
+        label10.font = UIFont(name: "HelveticaNeue", size: 30)
         
         
         print("====================")
