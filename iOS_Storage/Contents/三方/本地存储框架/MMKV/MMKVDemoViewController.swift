@@ -36,6 +36,10 @@ class MMKVDemoViewController: CQBaseViewController {
 
 extension MMKV {
     
+    func set(customObj: Any, forKey: String) {
+        
+    }
+    
     func setCustomObject(obj: Any) {
         
     }

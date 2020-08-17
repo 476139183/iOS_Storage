@@ -108,6 +108,14 @@
 	</dict>
 	<dict>
 		<key>demo_name</key>
+		<string>各种存储</string>
+		<key>controller_name</key>
+		<string>StoreDemosViewController</string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>demo_name</key>
 		<string>各种picker</string>
 		<key>controller_name</key>
 		<string>PickerDemosViewController</string>
