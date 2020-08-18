@@ -43,6 +43,16 @@ class StaticTableViewController1: UITableViewController {
         print(indexPath)
     }
     
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 200
+    }
+    
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let view = UIView()
+        view.backgroundColor = .orange
+        return view
+    }
+    
 //    override func viewDidLayoutSubviews() {
 //        super.viewDidLayoutSubviews()
 //

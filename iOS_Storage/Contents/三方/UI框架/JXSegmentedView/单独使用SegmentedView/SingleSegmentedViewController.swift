@@ -27,6 +27,11 @@ class SingleSegmentedViewController: CQBaseViewController, JXSegmentedViewDelega
         segmentedView.delegate = self
         segmentedView.dataSource = self.segmentedDataSource
         segmentedView.backgroundColor = .orange
+        
+        let indicator = JXSegmentedIndicatorBackgroundView()
+        indicator.indicatorHeight = 30
+        segmentedView.indicators = [indicator]
+        
         return segmentedView
     }()
     
@@ -39,6 +44,7 @@ class SingleSegmentedViewController: CQBaseViewController, JXSegmentedViewDelega
         segmentedDataSource.titleNormalFont = .systemFont(ofSize: 15)
         segmentedDataSource.titleSelectedColor = .black
         segmentedDataSource.titleNormalColor = .gray
+        segmentedDataSource.isTitleMaskEnabled = true
         return segmentedDataSource
     }()
     
