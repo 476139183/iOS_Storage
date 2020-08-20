@@ -51,8 +51,17 @@ class IQKeyboardManagerViewController2: CQBaseViewController {
         super.viewWillAppear(animated)
         
         IQKeyboardManager.shared.enable = true
+        
         // 禁用它的工具栏
-        IQKeyboardManager.shared.enableAutoToolbar = false
+        //IQKeyboardManager.shared.enableAutoToolbar = false
+        
+        IQKeyboardManager.shared.toolbarBarTintColor = .red
+        IQKeyboardManager.shared.toolbarTintColor = .green
+        IQKeyboardManager.shared.placeholderButtonColor = .blue
+        IQKeyboardManager.shared.placeholderColor = .orange
+        
+        UITextField.appearance().tintColor = .black // 光标颜色
+    
     }
     
     override func viewWillDisappear(_ animated: Bool) {
