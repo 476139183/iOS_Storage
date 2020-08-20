@@ -9,13 +9,15 @@
 import UIKit
 
 class StoryboardDemosViewController: SelectorListViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
-        self.dataArray = [SelectorModel(title: "静态tableView", selector: #selector(gotoStaticTableView))]
+        self.dataArray = [SelectorModel(title: "静态tableView", selector: #selector(gotoStaticTableView)),
+                          SelectorModel(title: "添加表头表尾", selector: #selector(staticTableWithHeaderFooter)),
+                          SelectorModel(title: "添加自定义导航栏", selector: #selector(staticTableWithNavi))]
         
     }
     
@@ -23,5 +25,15 @@ class StoryboardDemosViewController: SelectorListViewController {
         let vc = StaticTableController1()
         navigationController?.pushViewController(vc, animated: true)
     }
-
+    
+    @objc private func staticTableWithNavi() {
+        let vc = UIStoryboard(name: "StaticTableStoryboard", bundle: Bundle.main).instantiateViewController(withIdentifier: "StaticTableNaviViewController")
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func staticTableWithHeaderFooter() {
+        let vc = UIStoryboard(name: "StaticTableStoryboard", bundle: Bundle.main).instantiateViewController(withIdentifier: "StaticTableHeaderFooterController")
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }

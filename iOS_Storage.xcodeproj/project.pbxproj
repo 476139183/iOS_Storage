@@ -588,6 +588,8 @@
 		D99BD9C02398AEC40072A784 /* CQBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99BD9BF2398AEC40072A784 /* CQBaseNavigationController.m */; };
 		D99BD9C32398F6600072A784 /* CQMemoryLeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99BD9C22398F6600072A784 /* CQMemoryLeakViewController.m */; };
 		D99CAFFD24762E4100B01E72 /* Z7Z8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CAFFC24762E4100B01E72 /* Z7Z8ViewController.swift */; };
+		D99F036724EE0E5300D93775 /* StaticTableNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99F036624EE0E5300D93775 /* StaticTableNaviViewController.swift */; };
+		D99F036B24EE18B700D93775 /* StaticTableHeaderFooterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99F036A24EE18B700D93775 /* StaticTableHeaderFooterController.swift */; };
 		D99FD93D246E90DC0095CEE6 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99FD93C246E90DB0095CEE6 /* iconfont.ttf */; };
 		D9A0091423725A8B00ECF98F /* JXCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A0091323725A8B00ECF98F /* JXCustomViewController.swift */; };
 		D9A0091623725F7B00ECF98F /* JXSegment自定义cell.md in Resources */ = {isa = PBXBuildFile; fileRef = D9A0091523725F7B00ECF98F /* JXSegment自定义cell.md */; };
@@ -1580,6 +1582,10 @@
 		D99BD9C12398F6600072A784 /* CQMemoryLeakViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQMemoryLeakViewController.h; sourceTree = "<group>"; };
 		D99BD9C22398F6600072A784 /* CQMemoryLeakViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQMemoryLeakViewController.m; sourceTree = "<group>"; };
 		D99CAFFC24762E4100B01E72 /* Z7Z8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z7Z8ViewController.swift; sourceTree = "<group>"; };
+		D99F036624EE0E5300D93775 /* StaticTableNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableNaviViewController.swift; sourceTree = "<group>"; };
+		D99F036A24EE18B700D93775 /* StaticTableHeaderFooterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableHeaderFooterController.swift; sourceTree = "<group>"; };
+		D99F037024EE1ABC00D93775 /* Storyboard添加表头表尾.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Storyboard添加表头表尾.md"; sourceTree = "<group>"; };
+		D99F037124EE1F4800D93775 /* 使用ContainerView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "使用ContainerView.md"; sourceTree = "<group>"; };
 		D99FD93C246E90DB0095CEE6 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		D9A0091323725A8B00ECF98F /* JXCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXCustomViewController.swift; sourceTree = "<group>"; };
 		D9A0091523725F7B00ECF98F /* JXSegment自定义cell.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "JXSegment自定义cell.md"; sourceTree = "<group>"; };
@@ -2923,7 +2929,6 @@
 				D9259EA024DD296D004C1611 /* 静态tableView.md */,
 				D98A545D24DE7EE8000CB8A9 /* StaticTableController1.swift */,
 				D98A545B24DE47B6000CB8A9 /* StaticTableViewController1.swift */,
-				D9259EA224DD303A004C1611 /* StaticTableStoryboard.storyboard */,
 			);
 			path = "静态tableView";
 			sourceTree = "<group>";
@@ -2932,7 +2937,10 @@
 			isa = PBXGroup;
 			children = (
 				D9259EBA24DD57F1004C1611 /* StoryboardDemosViewController.swift */,
+				D9259EA224DD303A004C1611 /* StaticTableStoryboard.storyboard */,
 				D9259E9B24DD0BC9004C1611 /* 静态tableView */,
+				D99F036924EE186D00D93775 /* 添加表头表尾 */,
+				D99F036524EE0E1A00D93775 /* 添加自定义导航栏 */,
 			);
 			path = storyboard;
 			sourceTree = "<group>";
@@ -5501,6 +5509,24 @@
 			path = "TextureTable OC版";
 			sourceTree = "<group>";
 		};
+		D99F036524EE0E1A00D93775 /* 添加自定义导航栏 */ = {
+			isa = PBXGroup;
+			children = (
+				D99F037124EE1F4800D93775 /* 使用ContainerView.md */,
+				D99F036624EE0E5300D93775 /* StaticTableNaviViewController.swift */,
+			);
+			path = "添加自定义导航栏";
+			sourceTree = "<group>";
+		};
+		D99F036924EE186D00D93775 /* 添加表头表尾 */ = {
+			isa = PBXGroup;
+			children = (
+				D99F037024EE1ABC00D93775 /* Storyboard添加表头表尾.md */,
+				D99F036A24EE18B700D93775 /* StaticTableHeaderFooterController.swift */,
+			);
+			path = "添加表头表尾";
+			sourceTree = "<group>";
+		};
 		D9A0091223725A3100ECF98F /* 自定义cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -7656,6 +7682,7 @@
 				D926BDEC22C5ECC100A2DD3E /* CQMementoViewController.m in Sources */,
 				D9B760BC24BC62E70037A7A1 /* TYCyclePagerView.m in Sources */,
 				D91A9F8E22B49B36008F87F1 /* CQRecognitionViewController.m in Sources */,
+				D99F036724EE0E5300D93775 /* StaticTableNaviViewController.swift in Sources */,
 				D9519A1022BFB41000E3036B /* CQPrototypeViewController.m in Sources */,
 				D9A32B8A2480AE1A00295E2F /* ShadowCornerListViewController.swift in Sources */,
 				D9A39F8122B4D30200FEA5F5 /* CQVIPERViewController.m in Sources */,
@@ -7695,6 +7722,7 @@
 				D95F59202303E1F5004ECBD0 /* ResponseAreaTestViewController.swift in Sources */,
 				D97D0CAF23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift in Sources */,
 				D9FF392E24E1476000096984 /* StatusBarAdaptionViewController.swift in Sources */,
+				D99F036B24EE18B700D93775 /* StaticTableHeaderFooterController.swift in Sources */,
 				D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */,
 				D940201424CC1E3800934BA0 /* PickerDemosViewController.swift in Sources */,
 				D96F415F23BEE051008616F4 /* CQElegantOCViewController.m in Sources */,
