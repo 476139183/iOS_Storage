@@ -17,7 +17,9 @@ class StoryboardDemosViewController: SelectorListViewController {
         
         self.dataArray = [SelectorModel(title: "静态tableView", selector: #selector(gotoStaticTableView)),
                           SelectorModel(title: "添加表头表尾", selector: #selector(staticTableWithHeaderFooter)),
-                          SelectorModel(title: "添加自定义导航栏", selector: #selector(staticTableWithNavi))]
+                          SelectorModel(title: "添加自定义导航栏", selector: #selector(staticTableWithNavi)),
+                          SelectorModel(title: "perfect table vc", selector: #selector(perfectTableWithNavi)),
+                          SelectorModel(title: "perfect table vc2", selector: #selector(perfectTableWithNavi2))]
         
     }
     
@@ -26,13 +28,23 @@ class StoryboardDemosViewController: SelectorListViewController {
         navigationController?.pushViewController(vc, animated: true)
     }
     
+    @objc private func staticTableWithHeaderFooter() {
+        let vc = UIStoryboard(name: "StaticTableStoryboard", bundle: Bundle.main).instantiateViewController(withIdentifier: "StaticTableHeaderFooterController")
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
     @objc private func staticTableWithNavi() {
         let vc = UIStoryboard(name: "StaticTableStoryboard", bundle: Bundle.main).instantiateViewController(withIdentifier: "StaticTableNaviViewController")
         navigationController?.pushViewController(vc, animated: true)
     }
     
-    @objc private func staticTableWithHeaderFooter() {
-        let vc = UIStoryboard(name: "StaticTableStoryboard", bundle: Bundle.main).instantiateViewController(withIdentifier: "StaticTableHeaderFooterController")
+    @objc private func perfectTableWithNavi() {
+        let vc = UIStoryboard(name: "StaticTableStoryboard", bundle: Bundle.main).instantiateViewController(withIdentifier: "StaticTableNaviPerfectController")
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func perfectTableWithNavi2() {
+        let vc = UIStoryboard(name: "StaticTableStoryboard", bundle: Bundle.main).instantiateViewController(withIdentifier: "StaticTableNaviPerfectController2")
         navigationController?.pushViewController(vc, animated: true)
     }
     
