@@ -26,6 +26,8 @@ class FSPagerBannerViewController: CQBaseViewController, FSPagerViewDataSource, 
         let control = FSPageControl()
         control.numberOfPages = self.imageNames.count
         control.contentHorizontalAlignment = .center
+        control.setFillColor(.red, for: .selected)
+        control.setFillColor(.green, for: .normal)
         return control
     }()
 
