@@ -28,6 +28,7 @@ PODS:
   - JXSegmentedView (1.0.5)
   - Kingfisher (5.7.1)
   - lottie-ios (3.1.6)
+  - MarqueeLabel (4.0.2)
   - Masonry (1.1.0)
   - MJRefresh (3.3.1)
   - MMKV (1.1.0):
@@ -120,6 +121,7 @@ DEPENDENCIES:
   - JXSegmentedView
   - Kingfisher (= 5.7.1)
   - lottie-ios
+  - MarqueeLabel
   - Masonry
   - MJRefresh
   - MMKV
@@ -159,6 +161,7 @@ SPEC REPOS:
     - JXSegmentedView
     - Kingfisher
     - lottie-ios
+    - MarqueeLabel
     - Masonry
     - MJRefresh
     - MMKV
@@ -208,10 +211,11 @@ SPEC CHECKSUMS:
   JXSegmentedView: 46262e0ec86c951fd1be4a0b91de3d9b10cb9fff
   Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
   lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
+  MarqueeLabel: f762aa681ae201f66c1d511858b171f75d83013a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
   MMKV: 7bb6c30f9ff2ea45bc2398c86e66dd1cb63cfe20
-  MMKVCore: f1e0aad4fc330e7cbfbdff16720017bf0973db5a
+  MMKVCore: f455d4bf01bb5257511c1062fdbc3d7ebdec216b
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   "NSObject+Rx": 2eb2cf51fd1c554118449a7fbc36e4cd620b9e94
   NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
@@ -235,6 +239,6 @@ SPEC CHECKSUMS:
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZFPlayer: 8a6021a3c45e281f2abd24dca5c88915af770a7e
 
-PODFILE CHECKSUM: cbcf6ca2e2f025f34b6f9ee034416e1eb4980655
+PODFILE CHECKSUM: 590527efb44e2399d7b2463c31555500a84e993b
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.10.0.beta.2

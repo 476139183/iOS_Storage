@@ -296,6 +296,7 @@
 		D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF43C20E4B3BC0012C370 /* CQContentModel.m */; };
 		D94BF44220E4BCBF0012C370 /* CQDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */; };
 		D94CDEE62484F660000D9D04 /* ScreenShotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CDEE52484F660000D9D04 /* ScreenShotViewController.swift */; };
+		D94D2C1124FE38E600455FBD /* MarqueeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94D2C1024FE38E600455FBD /* MarqueeDemoViewController.swift */; };
 		D94F0566248A0DF5007B0165 /* CQTaggedPointerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F0565248A0DF5007B0165 /* CQTaggedPointerViewController.m */; };
 		D94F0569248A0E27007B0165 /* CQAutoReleasePoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F0568248A0E27007B0165 /* CQAutoReleasePoolViewController.m */; };
 		D94F0578248A4807007B0165 /* tabbar_find.json in Resources */ = {isa = PBXBuildFile; fileRef = D94F0577248A4807007B0165 /* tabbar_find.json */; };
@@ -1250,6 +1251,7 @@
 		D94BF44020E4BCBF0012C370 /* CQDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQDetailViewController.h; sourceTree = "<group>"; };
 		D94BF44120E4BCBF0012C370 /* CQDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQDetailViewController.m; sourceTree = "<group>"; };
 		D94CDEE52484F660000D9D04 /* ScreenShotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShotViewController.swift; sourceTree = "<group>"; };
+		D94D2C1024FE38E600455FBD /* MarqueeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarqueeDemoViewController.swift; sourceTree = "<group>"; };
 		D94F0564248A0DF5007B0165 /* CQTaggedPointerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQTaggedPointerViewController.h; sourceTree = "<group>"; };
 		D94F0565248A0DF5007B0165 /* CQTaggedPointerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTaggedPointerViewController.m; sourceTree = "<group>"; };
 		D94F0567248A0E27007B0165 /* CQAutoReleasePoolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQAutoReleasePoolViewController.h; sourceTree = "<group>"; };
@@ -3536,6 +3538,7 @@
 				D9EC2EAD24343D6B00C1E4E4 /* SideMenu */,
 				D9F7DEFC2449653200A63632 /* TTTAttributedLabel */,
 				D929B8D824C2A37C000AB13D /* ESTabBarController */,
+				D94D2C0F24FE388100455FBD /* 跑马灯Label */,
 			);
 			path = "UI框架";
 			sourceTree = "<group>";
@@ -4027,6 +4030,14 @@
 				D94CDEE52484F660000D9D04 /* ScreenShotViewController.swift */,
 			);
 			path = "监听用户截屏";
+			sourceTree = "<group>";
+		};
+		D94D2C0F24FE388100455FBD /* 跑马灯Label */ = {
+			isa = PBXGroup;
+			children = (
+				D94D2C1024FE38E600455FBD /* MarqueeDemoViewController.swift */,
+			);
+			path = "跑马灯Label";
 			sourceTree = "<group>";
 		};
 		D94F0579248B3EE7007B0165 /* JS与原生交互 */ = {
@@ -7566,6 +7577,7 @@
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/MMKV/MMKV.framework",
 				"${BUILT_PRODUCTS_DIR}/MMKVCore/MMKVCore.framework",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
@@ -7607,6 +7619,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMKV.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMKVCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
@@ -7679,6 +7692,7 @@
 				D944B6C0246290B10077F58B /* ClosureReturnViewController.swift in Sources */,
 				D973CD2F2489E70400C67FB9 /* CQMRCViewController.m in Sources */,
 				D926BDC722C487CB00A2DD3E /* CQAbstractFactoryViewController.m in Sources */,
+				D94D2C1124FE38E600455FBD /* MarqueeDemoViewController.swift in Sources */,
 				D973CD1424888E9000C67FB9 /* GenericsTableViewController.swift in Sources */,
 				D98A546A24E0FC35000CB8A9 /* BlogDetailViewController.swift in Sources */,
 				D95885BE245282B400CD9FDD /* AVPlayerViewControllerVC.swift in Sources */,

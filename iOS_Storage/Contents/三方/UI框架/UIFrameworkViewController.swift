@@ -19,7 +19,8 @@ class UIFrameworkViewController: JumpListViewController {
                           ItemModel(title: "JXSegmentedView", targetVC: JXDemoViewController()),
                           ItemModel(title: "嵌套tableView", targetVC: NestedTableDemoViewController()),
                           ItemModel(title: "SideMenu", targetVC: SideMenuViewController()),
-                          ItemModel(title: "TTTLabelDemosViewController", targetVC: TTTLabelDemosViewController())]
+                          ItemModel(title: "TTTLabelDemosViewController", targetVC: TTTLabelDemosViewController()),
+                          ItemModel(title: "跑马灯label", targetVC: MarqueeDemoViewController())]
         
     }
     
