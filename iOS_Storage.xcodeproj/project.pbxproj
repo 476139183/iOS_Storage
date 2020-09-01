@@ -878,6 +878,7 @@
 		D9F93371229D7D2400C7B2E0 /* CQOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F93370229D7D2400C7B2E0 /* CQOperationController.m */; };
 		D9F93374229D811C00C7B2E0 /* MultiThreadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F93373229D811B00C7B2E0 /* MultiThreadController.swift */; };
 		D9F957B724D3CD9F00D0925B /* TZImagePickerDemoController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F957B624D3CD9F00D0925B /* TZImagePickerDemoController2.swift */; };
+		D9FA3C4224FDF7DA00DA1B67 /* UIView+Capture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FA3C4124FDF7DA00DA1B67 /* UIView+Capture.swift */; };
 		D9FE875A23C5D3A1000E94CB /* DSActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FE875923C5D3A1000E94CB /* DSActionSheet.swift */; };
 		D9FE875C23C5EADF000E94CB /* DSActionSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FE875B23C5EADF000E94CB /* DSActionSheetController.swift */; };
 		D9FF392A24E146F700096984 /* BaseStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF392924E146F700096984 /* BaseStatusBar.swift */; };
@@ -1955,6 +1956,7 @@
 		D9F93370229D7D2400C7B2E0 /* CQOperationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQOperationController.m; sourceTree = "<group>"; };
 		D9F93373229D811B00C7B2E0 /* MultiThreadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiThreadController.swift; sourceTree = "<group>"; };
 		D9F957B624D3CD9F00D0925B /* TZImagePickerDemoController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TZImagePickerDemoController2.swift; sourceTree = "<group>"; };
+		D9FA3C4124FDF7DA00DA1B67 /* UIView+Capture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Capture.swift"; path = "../../../../../rebate-ios/rebate/Extension/UIView/UIView+Capture.swift"; sourceTree = "<group>"; };
 		D9FE875923C5D3A1000E94CB /* DSActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSActionSheet.swift; sourceTree = "<group>"; };
 		D9FE875B23C5EADF000E94CB /* DSActionSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSActionSheetController.swift; sourceTree = "<group>"; };
 		D9FF392924E146F700096984 /* BaseStatusBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseStatusBar.swift; sourceTree = "<group>"; };
@@ -2379,6 +2381,7 @@
 		D90F489924C19CD600B81C79 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				D9FA3C4124FDF7DA00DA1B67 /* UIView+Capture.swift */,
 				D91FD952236A97EE00376D59 /* UIView+FrameHelper.swift */,
 				D940168F2361BF1400580AAC /* UIView+Extension.swift */,
 				D92D69C920DE36C8002BA9C0 /* UIView+FrameHelper.h */,
@@ -7951,6 +7954,7 @@
 				D95A3DCB2484AF5C00F0166C /* ObserPropertyViewController.swift in Sources */,
 				D9259E9224DD0238004C1611 /* MyBlogViewController.swift in Sources */,
 				D9BC6F65238E58CD0085E4E0 /* NestedItemTableView.swift in Sources */,
+				D9FA3C4224FDF7DA00DA1B67 /* UIView+Capture.swift in Sources */,
 				D944FD30249873CE00C8DB52 /* BaseGenericsCell.swift in Sources */,
 				D97667C6249A138700A8BEDD /* SectionModel.swift in Sources */,
 				D95A3D9F2480E2A500F0166C /* UILabelDemosViewController.swift in Sources */,
