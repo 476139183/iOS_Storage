@@ -717,6 +717,7 @@
 		D9C0E7B024CEB9C500184C71 /* GCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0E7AF24CEB9C500184C71 /* GCDTimer.swift */; };
 		D9C0E7B224CEBD9C00184C71 /* MCGCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0E7B124CEBD9C00184C71 /* MCGCDTimer.swift */; };
 		D9C0EFBD23A0A29B0053EEAC /* GradientNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */; };
+		D9C227E52503425E00F74A48 /* CornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C227E42503425E00F74A48 /* CornerView.swift */; };
 		D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352B23853059008C0D59 /* RefreshViewController.swift */; };
 		D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */; };
 		D9C2807024A05C7400C66F61 /* json_demo.json in Resources */ = {isa = PBXBuildFile; fileRef = D9C2806F24A05C7400C66F61 /* json_demo.json */; };
@@ -1749,6 +1750,7 @@
 		D9C0E7AF24CEB9C500184C71 /* GCDTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDTimer.swift; sourceTree = "<group>"; };
 		D9C0E7B124CEBD9C00184C71 /* MCGCDTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCGCDTimer.swift; sourceTree = "<group>"; };
 		D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientNaviViewController.swift; sourceTree = "<group>"; };
+		D9C227E42503425E00F74A48 /* CornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerView.swift; sourceTree = "<group>"; };
 		D9C2352B23853059008C0D59 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
 		D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRefreshHeader.swift; sourceTree = "<group>"; };
 		D9C2806F24A05C7400C66F61 /* json_demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json_demo.json; sourceTree = "<group>"; };
@@ -2346,6 +2348,7 @@
 		D90F488924C14ECF00B81C79 /* 封装 */ = {
 			isa = PBXGroup;
 			children = (
+				D9C227E42503425E00F74A48 /* CornerView.swift */,
 				D90F488A24C1517200B81C79 /* CornerTestViewController.swift */,
 				D90F488C24C1528A00B81C79 /* CornerRadiusView.swift */,
 				D90F488E24C17A2900B81C79 /* BlueCornerRadiusView.swift */,
@@ -7970,6 +7973,7 @@
 				D9BC6F65238E58CD0085E4E0 /* NestedItemTableView.swift in Sources */,
 				D9FA3C4224FDF7DA00DA1B67 /* UIView+Capture.swift in Sources */,
 				D944FD30249873CE00C8DB52 /* BaseGenericsCell.swift in Sources */,
+				D9C227E52503425E00F74A48 /* CornerView.swift in Sources */,
 				D97667C6249A138700A8BEDD /* SectionModel.swift in Sources */,
 				D95A3D9F2480E2A500F0166C /* UILabelDemosViewController.swift in Sources */,
 				D9519A0622BFAE5D00E3036B /* Nick.m in Sources */,

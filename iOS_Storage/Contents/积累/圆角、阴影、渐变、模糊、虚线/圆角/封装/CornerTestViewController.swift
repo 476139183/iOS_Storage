@@ -76,6 +76,19 @@ class CornerTestViewController: CQBaseViewController {
             make.centerX.equalToSuperview()
         }
         
+        let yellowView = CornerView()
+        view.addSubview(yellowView)
+        yellowView.backgroundColor = .yellow
+        yellowView.topLeftCornerRadious = 60
+        yellowView.topRightCornerRadious = 60
+        yellowView.bottomLeftCornerRadious = 60
+        yellowView.bottomRightCornerRadious = 60
+        yellowView.snp.makeConstraints { (make) in
+            make.bottom.equalTo(-safeBottomHeight)
+            make.centerX.equalToSuperview()
+            make.height.equalTo(120)
+            make.width.equalTo(120)
+        }
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
