@@ -718,6 +718,16 @@
 		D9C0E7B224CEBD9C00184C71 /* MCGCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0E7B124CEBD9C00184C71 /* MCGCDTimer.swift */; };
 		D9C0EFBD23A0A29B0053EEAC /* GradientNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */; };
 		D9C227E52503425E00F74A48 /* CornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C227E42503425E00F74A48 /* CornerView.swift */; };
+		D9C227F425061C8D00F74A48 /* TestTableFooterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C227EA25061C8C00F74A48 /* TestTableFooterModel.swift */; };
+		D9C227F525061C8D00F74A48 /* TestTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C227EB25061C8C00F74A48 /* TestTableHeader.swift */; };
+		D9C227F625061C8D00F74A48 /* TestTableCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C227EC25061C8D00F74A48 /* TestTableCellModel.swift */; };
+		D9C227F725061C8D00F74A48 /* ModelBindedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C227ED25061C8D00F74A48 /* ModelBindedView.swift */; };
+		D9C227F825061C8D00F74A48 /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C227EE25061C8D00F74A48 /* DemoTableViewController.swift */; };
+		D9C227F925061C8D00F74A48 /* TestTableFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C227EF25061C8D00F74A48 /* TestTableFooter.swift */; };
+		D9C227FA25061C8D00F74A48 /* TestSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C227F025061C8D00F74A48 /* TestSectionModel.swift */; };
+		D9C227FB25061C8D00F74A48 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C227F125061C8D00F74A48 /* TestTableViewController.swift */; };
+		D9C227FC25061C8D00F74A48 /* TestTableHeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C227F225061C8D00F74A48 /* TestTableHeaderModel.swift */; };
+		D9C227FD25061C8D00F74A48 /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C227F325061C8D00F74A48 /* TestTableViewCell.swift */; };
 		D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352B23853059008C0D59 /* RefreshViewController.swift */; };
 		D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */; };
 		D9C2807024A05C7400C66F61 /* json_demo.json in Resources */ = {isa = PBXBuildFile; fileRef = D9C2806F24A05C7400C66F61 /* json_demo.json */; };
@@ -1751,6 +1761,16 @@
 		D9C0E7B124CEBD9C00184C71 /* MCGCDTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCGCDTimer.swift; sourceTree = "<group>"; };
 		D9C0EFBC23A0A29B0053EEAC /* GradientNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientNaviViewController.swift; sourceTree = "<group>"; };
 		D9C227E42503425E00F74A48 /* CornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerView.swift; sourceTree = "<group>"; };
+		D9C227EA25061C8C00F74A48 /* TestTableFooterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableFooterModel.swift; sourceTree = "<group>"; };
+		D9C227EB25061C8C00F74A48 /* TestTableHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableHeader.swift; sourceTree = "<group>"; };
+		D9C227EC25061C8D00F74A48 /* TestTableCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableCellModel.swift; sourceTree = "<group>"; };
+		D9C227ED25061C8D00F74A48 /* ModelBindedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelBindedView.swift; sourceTree = "<group>"; };
+		D9C227EE25061C8D00F74A48 /* DemoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
+		D9C227EF25061C8D00F74A48 /* TestTableFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableFooter.swift; sourceTree = "<group>"; };
+		D9C227F025061C8D00F74A48 /* TestSectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSectionModel.swift; sourceTree = "<group>"; };
+		D9C227F125061C8D00F74A48 /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
+		D9C227F225061C8D00F74A48 /* TestTableHeaderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableHeaderModel.swift; sourceTree = "<group>"; };
+		D9C227F325061C8D00F74A48 /* TestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
 		D9C2352B23853059008C0D59 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
 		D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRefreshHeader.swift; sourceTree = "<group>"; };
 		D9C2806F24A05C7400C66F61 /* json_demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json_demo.json; sourceTree = "<group>"; };
@@ -4442,6 +4462,7 @@
 				D928CED220EA61F900EE5C78 /* PNChart与tableView的联动 */,
 				D9D6487724A9C3F500674EA1 /* 泛型tableView */,
 				D9442A7A24970D3000CA4464 /* 终极 tableView */,
+				D9C227E925061C8C00F74A48 /* 精简版 */,
 			);
 			path = TableViewDemos;
 			sourceTree = "<group>";
@@ -6223,6 +6244,23 @@
 			path = "导航栏渐变tableView";
 			sourceTree = "<group>";
 		};
+		D9C227E925061C8C00F74A48 /* 精简版 */ = {
+			isa = PBXGroup;
+			children = (
+				D9C227F125061C8D00F74A48 /* TestTableViewController.swift */,
+				D9C227EE25061C8D00F74A48 /* DemoTableViewController.swift */,
+				D9C227EA25061C8C00F74A48 /* TestTableFooterModel.swift */,
+				D9C227EB25061C8C00F74A48 /* TestTableHeader.swift */,
+				D9C227EC25061C8D00F74A48 /* TestTableCellModel.swift */,
+				D9C227ED25061C8D00F74A48 /* ModelBindedView.swift */,
+				D9C227EF25061C8D00F74A48 /* TestTableFooter.swift */,
+				D9C227F025061C8D00F74A48 /* TestSectionModel.swift */,
+				D9C227F225061C8D00F74A48 /* TestTableHeaderModel.swift */,
+				D9C227F325061C8D00F74A48 /* TestTableViewCell.swift */,
+			);
+			path = "精简版";
+			sourceTree = "<group>";
+		};
 		D9C2352A23853001008C0D59 /* 基于MJRefresh的下拉刷新 */ = {
 			isa = PBXGroup;
 			children = (
@@ -7711,6 +7749,7 @@
 				D97246EF237E6056001671AD /* CustomLayoutViewController.swift in Sources */,
 				D95D95B524E9214B00DBD5CB /* MonitorReturnKeyViewController.swift in Sources */,
 				D92D69BF20DE32B8002BA9C0 /* CQCategoryItemCell.m in Sources */,
+				D9C227FB25061C8D00F74A48 /* TestTableViewController.swift in Sources */,
 				D9402A932101E7E400BF792F /* CQLockViewController.m in Sources */,
 				D9CD7BF02473805F000B7EB4 /* ClassAndStructViewController.swift in Sources */,
 				D9259E8924DC11D2004C1611 /* XibStackViewController.swift in Sources */,
@@ -7761,6 +7800,7 @@
 				D96D563424AC2EA1008DD9CF /* MMKVDemoViewController.swift in Sources */,
 				D93AB55E2487465C00E79EAB /* LayoutFrameworkViewController.swift in Sources */,
 				D9BC6F5E238E2E050085E4E0 /* JXPagingMainTableView.swift in Sources */,
+				D9C227FC25061C8D00F74A48 /* TestTableHeaderModel.swift in Sources */,
 				D937689423585DB000515315 /* MapDemoViewController.swift in Sources */,
 				D9E57A5923756E780013BC7D /* DictPracticeViewController.swift in Sources */,
 				D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */,
@@ -7824,6 +7864,7 @@
 				D96D562A24AAD5E0008DD9CF /* DefaultTableFooterModel.swift in Sources */,
 				D9721592239B90ED007607B2 /* IrregularityViewController.swift in Sources */,
 				D9626D5324CF1D5600D06B08 /* SetDemoViewController.swift in Sources */,
+				D9C227F725061C8D00F74A48 /* ModelBindedView.swift in Sources */,
 				D9608BF7236987940053BD3E /* UIButton+EnlargeTouchArea.m in Sources */,
 				D98A545C24DE47B6000CB8A9 /* StaticTableViewController1.swift in Sources */,
 				D9B6313B23BB29E1003D95D9 /* UIActivityViewControllerDemoViewController.swift in Sources */,
@@ -7901,6 +7942,7 @@
 				D9C5E5D523473E2000D101F1 /* LeetCodeTwoSumViewController.swift in Sources */,
 				D96162F524DA676000C47B70 /* NSObject+PrefixExtension.swift in Sources */,
 				D975168A2478B8B600D45C92 /* IQKeyboardManagerViewController2.swift in Sources */,
+				D9C227FD25061C8D00F74A48 /* TestTableViewCell.swift in Sources */,
 				D9C7CC0322E9927F0038FD34 /* StandardSwiftCollectionViewViewController.swift in Sources */,
 				D9D1450D2298F1F5003B594C /* CQRunLoopLifeController.m in Sources */,
 				D90F480F24BFFFAE00B81C79 /* NotificationCenterManager.swift in Sources */,
@@ -8119,6 +8161,7 @@
 				D9C7CBFF22E991CE0038FD34 /* CQStandardOCCollectionViewViewController.m in Sources */,
 				D93EFF402359B7C00028A730 /* ParkAnnotation.swift in Sources */,
 				D91F258924C6F57B0075B363 /* XibInXibViewController.swift in Sources */,
+				D9C227FA25061C8D00F74A48 /* TestSectionModel.swift in Sources */,
 				D93A0BF5233C72F900554EF6 /* TextureColorView.swift in Sources */,
 				D9C3D0E9246DA27200D3DF7B /* AnimationHud.swift in Sources */,
 				D91AB3A824C832AA007F78D1 /* SwiftXibStackController.swift in Sources */,
@@ -8142,6 +8185,7 @@
 				D90073F524C2ED35004C9AD0 /* AppManager.swift in Sources */,
 				D92CBD6923F693EE003A6EDC /* WebViewGifViewController.swift in Sources */,
 				D97667D6249AFF6400A8BEDD /* ShoeModel.swift in Sources */,
+				D9C227F425061C8D00F74A48 /* TestTableFooterModel.swift in Sources */,
 				D9C5E5D22345879000D101F1 /* LeetCodeViewController.swift in Sources */,
 				D99B98F1246BEAE7001E6369 /* VoteCellNode.swift in Sources */,
 				D9C3BE6B24B220AC00873786 /* SwiftUIBasicView.swift in Sources */,
@@ -8155,6 +8199,7 @@
 				D91F258424C6EEBF0075B363 /* GradientXibController.swift in Sources */,
 				D96D564124AC9D6D008DD9CF /* BaseCollectionViewCell.swift in Sources */,
 				D96778BC23A13CEF00D19554 /* PullDownLargeViewController.swift in Sources */,
+				D9C227F825061C8D00F74A48 /* DemoTableViewController.swift in Sources */,
 				D9519A0022BF2FE700E3036B /* AdidasFactory.m in Sources */,
 				D92D69C220DE3452002BA9C0 /* CQJigsawViewController.m in Sources */,
 				D9A32B7B247F503000295E2F /* StrengthModuleViewController.swift in Sources */,
@@ -8162,11 +8207,13 @@
 				D95A3DD52484DD1300F0166C /* KVOTheoryViewController.m in Sources */,
 				D9F53192249BD877005BD556 /* AnimalCell.swift in Sources */,
 				D9FF65D9212AC39800B06371 /* CQTimerModel.m in Sources */,
+				D9C227F525061C8D00F74A48 /* TestTableHeader.swift in Sources */,
 				D90F480924BEDC8B00B81C79 /* ClickButtonViewController.swift in Sources */,
 				D9F3610C24E2C1160041FDBD /* SwiftXibCell.swift in Sources */,
 				D9C74FE924727CD900ACE269 /* SimpleDataDriveViewController.swift in Sources */,
 				D96D569924AF0C25008DD9CF /* SwiftXibTableViewController.swift in Sources */,
 				D940168E2361BDD900580AAC /* StackViewDemoViewController.swift in Sources */,
+				D9C227F625061C8D00F74A48 /* TestTableCellModel.swift in Sources */,
 				D9B5499223A4939A00E8E6B6 /* GetterSetterViewController.swift in Sources */,
 				D926BDEF22C5EE2200A2DD3E /* GameRole.m in Sources */,
 				D95199ED22BDD83C00E3036B /* CQDemoView.m in Sources */,
@@ -8339,6 +8386,7 @@
 				D9146DEC23921A13002EA395 /* GestureGreenChildScrollView.swift in Sources */,
 				D97420CE23A9BD5F0038AB38 /* LongImageViewController.swift in Sources */,
 				D920ED2522E935D800C5A43F /* YYTextDemoViewController.swift in Sources */,
+				D9C227F925061C8D00F74A48 /* TestTableFooter.swift in Sources */,
 				D93A0BF7233C735500554EF6 /* TextureLabelView.swift in Sources */,
 				D9C2807524A0921100C66F61 /* ErrorHandleViewController.swift in Sources */,
 				D9700D73245ED8A900168FE0 /* UIKitDemosViewController.swift in Sources */,
