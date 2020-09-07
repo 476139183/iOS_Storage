@@ -32,6 +32,22 @@ static char leftNameKey;
     objc_setAssociatedObject(self, &leftNameKey, [NSNumber numberWithFloat:left], OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
+- (void)setTopTouch:(CGFloat)topTouch {
+    objc_setAssociatedObject(self, &topNameKey, [NSNumber numberWithFloat:topTouch], OBJC_ASSOCIATION_COPY_NONATOMIC);
+}
+
+- (void)setLeftTouch:(CGFloat)leftTouch {
+    objc_setAssociatedObject(self, &leftNameKey, [NSNumber numberWithFloat:leftTouch], OBJC_ASSOCIATION_COPY_NONATOMIC);
+}
+
+- (void)setBottomTouch:(CGFloat)bottomTouch {
+    objc_setAssociatedObject(self, &bottomNameKey, [NSNumber numberWithFloat:bottomTouch], OBJC_ASSOCIATION_COPY_NONATOMIC);
+}
+
+- (void)setRightTouch:(CGFloat)rightTouch {
+    objc_setAssociatedObject(self, &rightNameKey, [NSNumber numberWithFloat:rightTouch], OBJC_ASSOCIATION_COPY_NONATOMIC);
+}
+
 - (CGRect)enlargedRect
 {
     NSNumber* topEdge = objc_getAssociatedObject(self, &topNameKey);

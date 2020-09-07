@@ -14,4 +14,9 @@
 
 - (void)setEnlargeEdge:(CGFloat)size;
 
+@property (nonatomic, assign) IBInspectable CGFloat topTouch;
+@property (nonatomic, assign) IBInspectable CGFloat leftTouch;
+@property (nonatomic, assign) IBInspectable CGFloat bottomTouch;
+@property (nonatomic, assign) IBInspectable CGFloat rightTouch;
+
 @end
