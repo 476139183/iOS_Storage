@@ -31,7 +31,7 @@ class BaseStatusBar: UIView {
         if isDefaultHeight {
             self.snp.remakeConstraints { (make) in
                 make.left.right.top.equalToSuperview()
-                make.height.equalTo(statusBarHeight)
+                make.height.equalTo(statusBarHeight).priority(.required)
             }
         }
         
