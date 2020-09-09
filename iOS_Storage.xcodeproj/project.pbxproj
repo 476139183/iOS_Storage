@@ -728,6 +728,7 @@
 		D9C227FB25061C8D00F74A48 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C227F125061C8D00F74A48 /* TestTableViewController.swift */; };
 		D9C227FC25061C8D00F74A48 /* TestTableHeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C227F225061C8D00F74A48 /* TestTableHeaderModel.swift */; };
 		D9C227FD25061C8D00F74A48 /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C227F325061C8D00F74A48 /* TestTableViewCell.swift */; };
+		D9C228002508783900F74A48 /* AnimatedGradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C227FF2508783900F74A48 /* AnimatedGradientViewController.swift */; };
 		D9C2352C23853059008C0D59 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352B23853059008C0D59 /* RefreshViewController.swift */; };
 		D9C2352E23853B50008C0D59 /* DSRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */; };
 		D9C2807024A05C7400C66F61 /* json_demo.json in Resources */ = {isa = PBXBuildFile; fileRef = D9C2806F24A05C7400C66F61 /* json_demo.json */; };
@@ -1771,6 +1772,7 @@
 		D9C227F125061C8D00F74A48 /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
 		D9C227F225061C8D00F74A48 /* TestTableHeaderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableHeaderModel.swift; sourceTree = "<group>"; };
 		D9C227F325061C8D00F74A48 /* TestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		D9C227FF2508783900F74A48 /* AnimatedGradientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGradientViewController.swift; sourceTree = "<group>"; };
 		D9C2352B23853059008C0D59 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
 		D9C2352D23853B50008C0D59 /* DSRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRefreshHeader.swift; sourceTree = "<group>"; };
 		D9C2806F24A05C7400C66F61 /* json_demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json_demo.json; sourceTree = "<group>"; };
@@ -2717,6 +2719,7 @@
 				D9BF6910233F4B6600E602A4 /* GradientSwiftDemoViewController.swift */,
 				D91F258224C6EEBF0075B363 /* GradientXibController.swift */,
 				D91F258324C6EEBF0075B363 /* GradientXibController.xib */,
+				D9C227FE250877F700F74A48 /* AnimatedGradientView */,
 				D91E1D20233E4DA500B1C772 /* OC */,
 				D91E1D1F233E4D9B00B1C772 /* Swift */,
 			);
@@ -6261,6 +6264,14 @@
 			path = "精简版";
 			sourceTree = "<group>";
 		};
+		D9C227FE250877F700F74A48 /* AnimatedGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				D9C227FF2508783900F74A48 /* AnimatedGradientViewController.swift */,
+			);
+			path = AnimatedGradientView;
+			sourceTree = "<group>";
+		};
 		D9C2352A23853001008C0D59 /* 基于MJRefresh的下拉刷新 */ = {
 			isa = PBXGroup;
 			children = (
@@ -7606,6 +7617,7 @@
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AnimatedGradientView/AnimatedGradientView.framework",
 				"${BUILT_PRODUCTS_DIR}/CameraManager/CameraManager.framework",
 				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
@@ -7627,6 +7639,7 @@
 				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
 				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
 				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/QuickLayout/QuickLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -7635,6 +7648,7 @@
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftEntryKit/SwiftEntryKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
@@ -7648,6 +7662,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnimatedGradientView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CameraManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
@@ -7669,6 +7684,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QuickLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -7677,6 +7693,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftEntryKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
@@ -8010,6 +8027,7 @@
 				D9E1A06924E4F88100A6F9D6 /* XibEasyButtonViewController.swift in Sources */,
 				D95A3DA22480F32300F0166C /* KingfisherLoadGifViewController.swift in Sources */,
 				D94F057B248B3FF4007B0165 /* JSAndWebViewController.swift in Sources */,
+				D9C228002508783900F74A48 /* AnimatedGradientViewController.swift in Sources */,
 				D95A3DCB2484AF5C00F0166C /* ObserPropertyViewController.swift in Sources */,
 				D9259E9224DD0238004C1611 /* MyBlogViewController.swift in Sources */,
 				D9BC6F65238E58CD0085E4E0 /* NestedItemTableView.swift in Sources */,

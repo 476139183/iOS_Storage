@@ -10,6 +10,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GradientXibController" customModule="iOS_Storage" customModuleProvider="target">
             <connections>
                 <outlet property="gradientView" destination="rDO-8f-xlj" id="ZQD-1S-U6k"/>
+                <outlet property="leftToRightLabel" destination="Ka0-DK-Qty" id="vfH-jD-e1Z"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -25,8 +26,11 @@
                         <constraint firstAttribute="height" constant="200" id="pfs-9k-amo"/>
                     </constraints>
                 </view>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LeftToRight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ka0-DK-Qty">
-                    <rect key="frame" x="163" y="274" width="88" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LeftToRight" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ka0-DK-Qty" customClass="GradientLabel" customModule="iOS_Storage" customModuleProvider="target">
+                    <rect key="frame" x="107" y="274" width="200" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="ejD-Fm-STS"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>

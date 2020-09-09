@@ -43,6 +43,8 @@ pod 'UICollectionViewLeftAlignedLayout'
 pod 'FSPagerView'
 pod 'NVActivityIndicatorView'
 pod 'MarqueeLabel'
+pod 'SwiftEntryKit'
+pod "AnimatedGradientView"
 
 end
 
