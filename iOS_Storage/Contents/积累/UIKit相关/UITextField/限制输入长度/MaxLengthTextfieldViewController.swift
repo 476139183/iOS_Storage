@@ -48,7 +48,7 @@ class MaxLengthTextfieldViewController: CQBaseViewController, UITextFieldDelegat
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
-        
+        print("end editing")
     }
 
 }
