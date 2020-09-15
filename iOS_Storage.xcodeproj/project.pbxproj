@@ -537,6 +537,7 @@
 		D986653723715E8800AA60B2 /* JXMixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986653623715E8800AA60B2 /* JXMixViewController.swift */; };
 		D9866539237164DF00AA60B2 /* CQSegmentedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9866538237164DF00AA60B2 /* CQSegmentedDataSource.swift */; };
 		D989BE6F24E12ABD0006B207 /* BlogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989BE6E24E12ABD0006B207 /* BlogListViewController.swift */; };
+		D98A262725109BB200B1BEDC /* SwiftMethodSwizzlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A262625109BB200B1BEDC /* SwiftMethodSwizzlingViewController.swift */; };
 		D98A545C24DE47B6000CB8A9 /* StaticTableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A545B24DE47B6000CB8A9 /* StaticTableViewController1.swift */; };
 		D98A545F24DE7EE8000CB8A9 /* StaticTableController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A545D24DE7EE8000CB8A9 /* StaticTableController1.swift */; };
 		D98A546324DE8CD6000CB8A9 /* BlogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A546124DE8CD6000CB8A9 /* BlogCell.swift */; };
@@ -1547,6 +1548,7 @@
 		D986653623715E8800AA60B2 /* JXMixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXMixViewController.swift; sourceTree = "<group>"; };
 		D9866538237164DF00AA60B2 /* CQSegmentedDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQSegmentedDataSource.swift; sourceTree = "<group>"; };
 		D989BE6E24E12ABD0006B207 /* BlogListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListViewController.swift; sourceTree = "<group>"; };
+		D98A262625109BB200B1BEDC /* SwiftMethodSwizzlingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMethodSwizzlingViewController.swift; sourceTree = "<group>"; };
 		D98A545B24DE47B6000CB8A9 /* StaticTableViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableViewController1.swift; sourceTree = "<group>"; };
 		D98A545D24DE7EE8000CB8A9 /* StaticTableController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableController1.swift; sourceTree = "<group>"; };
 		D98A546124DE8CD6000CB8A9 /* BlogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogCell.swift; sourceTree = "<group>"; };
@@ -3948,6 +3950,7 @@
 				D973CD0E2487A6CA00C67FB9 /* 泛型 */,
 				D974BCE02494A96000942ED2 /* 闭包 */,
 				D96D563524AC650B008DD9CF /* Codable */,
+				D98A262525109B3500B1BEDC /* MethodSwizzling */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -5451,6 +5454,14 @@
 			children = (
 			);
 			path = "计算机网络";
+			sourceTree = "<group>";
+		};
+		D98A262525109B3500B1BEDC /* MethodSwizzling */ = {
+			isa = PBXGroup;
+			children = (
+				D98A262625109BB200B1BEDC /* SwiftMethodSwizzlingViewController.swift */,
+			);
+			path = MethodSwizzling;
 			sourceTree = "<group>";
 		};
 		D98A546B24E101D7000CB8A9 /* WKWebView */ = {
@@ -8247,6 +8258,7 @@
 				D96D569924AF0C25008DD9CF /* SwiftXibTableViewController.swift in Sources */,
 				D940168E2361BDD900580AAC /* StackViewDemoViewController.swift in Sources */,
 				D9C227F625061C8D00F74A48 /* TestTableCellModel.swift in Sources */,
+				D98A262725109BB200B1BEDC /* SwiftMethodSwizzlingViewController.swift in Sources */,
 				D9B5499223A4939A00E8E6B6 /* GetterSetterViewController.swift in Sources */,
 				D926BDEF22C5EE2200A2DD3E /* GameRole.m in Sources */,
 				D95199ED22BDD83C00E3036B /* CQDemoView.m in Sources */,
