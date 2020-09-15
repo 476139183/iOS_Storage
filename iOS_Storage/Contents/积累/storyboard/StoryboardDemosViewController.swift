@@ -15,12 +15,18 @@ class StoryboardDemosViewController: SelectorListViewController {
         
         // Do any additional setup after loading the view.
         
-        self.dataArray = [SelectorModel(title: "静态tableView", selector: #selector(gotoStaticTableView)),
+        self.dataArray = [SelectorModel(title: "封装静态tableView", selector: #selector(gotoNaviStaticTableVC)),
+                          SelectorModel(title: "静态tableView", selector: #selector(gotoStaticTableView)),
                           SelectorModel(title: "添加表头表尾", selector: #selector(staticTableWithHeaderFooter)),
                           SelectorModel(title: "添加自定义导航栏", selector: #selector(staticTableWithNavi)),
                           SelectorModel(title: "perfect table vc", selector: #selector(perfectTableWithNavi)),
                           SelectorModel(title: "perfect table vc2", selector: #selector(perfectTableWithNavi2))]
         
+    }
+    
+    @objc private func gotoNaviStaticTableVC() {
+        let vc = UIStoryboard(name: "StaticTableStoryboard", bundle: Bundle.main).instantiateViewController(withIdentifier: "BaseStaticTableDemoController")
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     @objc private func gotoStaticTableView() {

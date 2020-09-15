@@ -45,6 +45,7 @@
 		D90C4E7921098B4D00C48E72 /* CQTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7821098B4D00C48E72 /* CQTransitionController.m */; };
 		D90C4E7F21098CBE00C48E72 /* CQCustomButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C4E7E21098CBE00C48E72 /* CQCustomButtonController.m */; };
 		D90CDB1320F05EDA003B9617 /* RoundArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D90CDB1220F05EDA003B9617 /* RoundArrowLabel.m */; };
+		D90CFA4C25105BFB00556128 /* BaseStaticTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CFA4B25105BFB00556128 /* BaseStaticTableViewController.swift */; };
 		D90D9FAF233218300007C25C /* CQFPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90D9FAE233218300007C25C /* CQFPSViewController.m */; };
 		D90D9FB1233218510007C25C /* FPS.md in Resources */ = {isa = PBXBuildFile; fileRef = D90D9FB0233218510007C25C /* FPS.md */; };
 		D90D9FB4233219680007C25C /* CQFPSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D90D9FB3233219680007C25C /* CQFPSCell.m */; };
@@ -514,6 +515,7 @@
 		D97D50FE2350A0F800A0F570 /* TradeRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */; };
 		D97D51002350AE3800A0F570 /* trade_rule.txt in Resources */ = {isa = PBXBuildFile; fileRef = D97D50FF2350AE3800A0F570 /* trade_rule.txt */; };
 		D97D51022350B0CA00A0F570 /* TradeRuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D51012350B0CA00A0F570 /* TradeRuleViewController.swift */; };
+		D97E331525105DE800C1F842 /* BaseStaticTableDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E331425105DE800C1F842 /* BaseStaticTableDemoController.swift */; };
 		D97F3779238BF95500D47F3C /* NestedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97F3778238BF95500D47F3C /* NestedTableViewController.swift */; };
 		D982964B23976A42001C05AE /* NavigationJumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D982964A23976A42001C05AE /* NavigationJumpViewController.swift */; };
 		D984AD0F2154F05000610B27 /* CQSortButtonDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D984AD0E2154F05000610B27 /* CQSortButtonDemoController.m */; };
@@ -948,6 +950,7 @@
 		D90C4E7E21098CBE00C48E72 /* CQCustomButtonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQCustomButtonController.m; sourceTree = "<group>"; };
 		D90CDB1120F05EDA003B9617 /* RoundArrowLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundArrowLabel.h; sourceTree = "<group>"; };
 		D90CDB1220F05EDA003B9617 /* RoundArrowLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundArrowLabel.m; sourceTree = "<group>"; };
+		D90CFA4B25105BFB00556128 /* BaseStaticTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseStaticTableViewController.swift; sourceTree = "<group>"; };
 		D90D9FAD233218300007C25C /* CQFPSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQFPSViewController.h; sourceTree = "<group>"; };
 		D90D9FAE233218300007C25C /* CQFPSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQFPSViewController.m; sourceTree = "<group>"; };
 		D90D9FB0233218510007C25C /* FPS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FPS.md; sourceTree = "<group>"; };
@@ -1520,6 +1523,7 @@
 		D97D50FD2350A0F800A0F570 /* TradeRuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleView.swift; sourceTree = "<group>"; };
 		D97D50FF2350AE3800A0F570 /* trade_rule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trade_rule.txt; sourceTree = "<group>"; };
 		D97D51012350B0CA00A0F570 /* TradeRuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRuleViewController.swift; sourceTree = "<group>"; };
+		D97E331425105DE800C1F842 /* BaseStaticTableDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseStaticTableDemoController.swift; sourceTree = "<group>"; };
 		D97F3778238BF95500D47F3C /* NestedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableViewController.swift; sourceTree = "<group>"; };
 		D982964A23976A42001C05AE /* NavigationJumpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationJumpViewController.swift; sourceTree = "<group>"; };
 		D984AD0D2154F05000610B27 /* CQSortButtonDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQSortButtonDemoController.h; sourceTree = "<group>"; };
@@ -2277,6 +2281,15 @@
 			path = "自定义button";
 			sourceTree = "<group>";
 		};
+		D90CFA4A25105B9400556128 /* 封装静态tableView */ = {
+			isa = PBXGroup;
+			children = (
+				D90CFA4B25105BFB00556128 /* BaseStaticTableViewController.swift */,
+				D97E331425105DE800C1F842 /* BaseStaticTableDemoController.swift */,
+			);
+			path = "封装静态tableView";
+			sourceTree = "<group>";
+		};
 		D90D9FAC233217A10007C25C /* 计算帧率 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2981,6 +2994,7 @@
 			children = (
 				D9259EBA24DD57F1004C1611 /* StoryboardDemosViewController.swift */,
 				D9259EA224DD303A004C1611 /* StaticTableStoryboard.storyboard */,
+				D90CFA4A25105B9400556128 /* 封装静态tableView */,
 				D9259E9B24DD0BC9004C1611 /* 静态tableView */,
 				D99F036924EE186D00D93775 /* 添加表头表尾 */,
 				D99F036524EE0E1A00D93775 /* 添加自定义导航栏 */,
@@ -7926,6 +7940,7 @@
 				D9519A0922BFAE6C00E3036B /* Adidas.m in Sources */,
 				D9A32B7E247F67ED00295E2F /* EleganceDocuViewController.swift in Sources */,
 				D9A65EED235AA29800D55A6F /* JXSegmentedViewDemoViewController.swift in Sources */,
+				D97E331525105DE800C1F842 /* BaseStaticTableDemoController.swift in Sources */,
 				D9C0E7A024CE7BB000184C71 /* QueueDemoViewController.swift in Sources */,
 				D90F480724BEDB5800B81C79 /* GetVCViewController.swift in Sources */,
 				D91EF56221100D2A000D0D43 /* CQClassClusterRequest.m in Sources */,
@@ -8438,6 +8453,7 @@
 				D94BF43D20E4B3BC0012C370 /* CQContentModel.m in Sources */,
 				D9C2807924A09A6800C66F61 /* HandyJSONViewController.swift in Sources */,
 				D92D105A23066A42002203A1 /* CQCheckDeallocViewController.m in Sources */,
+				D90CFA4C25105BFB00556128 /* BaseStaticTableViewController.swift in Sources */,
 				D95A3DD22484DCBF00F0166C /* KVOBasicViewController.m in Sources */,
 				D9799C7624C9C3F3000D3AA8 /* StackDemoViewController.swift in Sources */,
 				D9259E9424DD0466004C1611 /* AlertDemoViewController.swift in Sources */,
