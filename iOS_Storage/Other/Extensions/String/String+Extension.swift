@@ -34,6 +34,44 @@ extension String {
         return String(temporaryString[...temporaryIndex])
     }
     
+    /// 344格式的电话号码，如 135-2222-3333
+    func phone344Formate() -> String {
+        let str: String = self
+        var arr: [String] = str.map { (c) -> String in
+            return String.init(c)
+        }
+        
+        arr.removeAll { (s) -> Bool in
+            s == "-"
+        }
+        
+        if arr.count > 7 {
+            arr.insert("-", at: 7)
+        }
+        
+        if arr.count > 3 {
+            arr.insert("-", at: 3)
+        }
+        
+        var result = arr.joined(separator: "")
+        // 11位号码 + 2个"-"
+        if result.count > 13 {
+            result = result.subStringTo(index: 13)
+        }
+        return result
+    }
+    
+    /// 普通格式的电话号码，如 13523422355
+    func phoneNormalFormate() -> String {
+        var arr = self.map { (c) -> String in
+            return String.init(c)
+        }
+        arr.removeAll { (str) -> Bool in
+            str == "-"
+        }
+        return arr.joined(separator: "")
+    }
+    
 }
 
 

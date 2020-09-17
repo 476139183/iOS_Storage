@@ -699,6 +699,8 @@
 		D9BE258C23B88A47001F4D71 /* CellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE258B23B88A47001F4D71 /* CellProtocol.swift */; };
 		D9BE258E23B88B7E001F4D71 /* PersonCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE258D23B88B7E001F4D71 /* PersonCellModel.swift */; };
 		D9BE259023B88E80001F4D71 /* ProtocolPersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE258F23B88E80001F4D71 /* ProtocolPersonCell.swift */; };
+		D9BE76BE2513070300CFFDE3 /* Phone344FormatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE76BC2513070300CFFDE3 /* Phone344FormatViewController.swift */; };
+		D9BE76BF2513070300CFFDE3 /* Phone344FormatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9BE76BD2513070300CFFDE3 /* Phone344FormatViewController.xib */; };
 		D9BF6905233EEF2300E602A4 /* CQGradientControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6904233EEF2300E602A4 /* CQGradientControl.m */; };
 		D9BF6908233EF61300E602A4 /* CQGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF6907233EF61300E602A4 /* CQGradientButton.m */; };
 		D9BF690F233F4B2A00E602A4 /* CQGradientOCDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF690E233F4B2A00E602A4 /* CQGradientOCDemoViewController.m */; };
@@ -1742,6 +1744,8 @@
 		D9BE258B23B88A47001F4D71 /* CellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellProtocol.swift; sourceTree = "<group>"; };
 		D9BE258D23B88B7E001F4D71 /* PersonCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCellModel.swift; sourceTree = "<group>"; };
 		D9BE258F23B88E80001F4D71 /* ProtocolPersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolPersonCell.swift; sourceTree = "<group>"; };
+		D9BE76BC2513070300CFFDE3 /* Phone344FormatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone344FormatViewController.swift; sourceTree = "<group>"; };
+		D9BE76BD2513070300CFFDE3 /* Phone344FormatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Phone344FormatViewController.xib; sourceTree = "<group>"; };
 		D9BF6903233EEF2300E602A4 /* CQGradientControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientControl.h; sourceTree = "<group>"; };
 		D9BF6904233EEF2300E602A4 /* CQGradientControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQGradientControl.m; sourceTree = "<group>"; };
 		D9BF6906233EF61300E602A4 /* CQGradientButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQGradientButton.h; sourceTree = "<group>"; };
@@ -4557,6 +4561,7 @@
 				D9B7E9C724E39944000C9FCE /* 监听输入内容变化 */,
 				D95A3DC124825B4300F0166C /* 限制输入长度 */,
 				D9920CBB20E6375E00F328F9 /* 带警示效果的textField */,
+				D9BE76BB251306BC00CFFDE3 /* 手机号344格式 */,
 			);
 			path = UITextField;
 			sourceTree = "<group>";
@@ -6226,6 +6231,15 @@
 			path = "基于协议";
 			sourceTree = "<group>";
 		};
+		D9BE76BB251306BC00CFFDE3 /* 手机号344格式 */ = {
+			isa = PBXGroup;
+			children = (
+				D9BE76BC2513070300CFFDE3 /* Phone344FormatViewController.swift */,
+				D9BE76BD2513070300CFFDE3 /* Phone344FormatViewController.xib */,
+			);
+			path = "手机号344格式";
+			sourceTree = "<group>";
+		};
 		D9C0E7A124CE89FA00184C71 /* 各种timer */ = {
 			isa = PBXGroup;
 			children = (
@@ -7571,6 +7585,7 @@
 				D9F37C6C248BFC4E008B6F14 /* HTMLGrammer.html in Resources */,
 				D92D69C420DE359C002BA9C0 /* LaunchScreen.storyboard in Resources */,
 				D9CD7BF22474E65E000B7EB4 /* class与struct.md in Resources */,
+				D9BE76BF2513070300CFFDE3 /* Phone344FormatViewController.xib in Resources */,
 				D91F258A24C6F57B0075B363 /* XibInXibViewController.xib in Resources */,
 				D9C0E7A824CE8AFB00184C71 /* 各种timer比较.md in Resources */,
 				D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */,
@@ -7855,6 +7870,7 @@
 				D9146DA7249C958A002862AB /* GenericsTableViewController31.swift in Sources */,
 				D977FD7024C602AA00AE2C1E /* BaseXibView.swift in Sources */,
 				D9B760AB24BC5B900037A7A1 /* BannersViewController.swift in Sources */,
+				D9BE76BE2513070300CFFDE3 /* Phone344FormatViewController.swift in Sources */,
 				D97246EC237E4989001671AD /* NSMutableAttributedString+Extension.swift in Sources */,
 				D9A0091423725A8B00ECF98F /* JXCustomViewController.swift in Sources */,
 				D99B98F8246CF0BB001E6369 /* NaviBarProtocol.swift in Sources */,
