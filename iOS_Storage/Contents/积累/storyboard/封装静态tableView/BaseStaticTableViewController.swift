@@ -14,6 +14,7 @@ class BaseStaticTableViewController: UITableViewController {
         let navi = CQBaseNaviBar()
         navi.titleLabel.text = "封装静态tableView"
         navi.backButton.addTarget(self, action: #selector(backButtonClicked), for: .touchUpInside)
+        navi.backgroundColor = .white
         return navi
     }()
 

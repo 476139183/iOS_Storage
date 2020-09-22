@@ -20,7 +20,8 @@ class StoryboardDemosViewController: SelectorListViewController {
                           SelectorModel(title: "添加表头表尾", selector: #selector(staticTableWithHeaderFooter)),
                           SelectorModel(title: "添加自定义导航栏", selector: #selector(staticTableWithNavi)),
                           SelectorModel(title: "perfect table vc", selector: #selector(perfectTableWithNavi)),
-                          SelectorModel(title: "perfect table vc2", selector: #selector(perfectTableWithNavi2))]
+                          SelectorModel(title: "perfect table vc2", selector: #selector(perfectTableWithNavi2)),
+                          SelectorModel(title: "使用xib的header和footer", selector: #selector(userXibHeaderFooter))]
         
     }
     
@@ -51,6 +52,11 @@ class StoryboardDemosViewController: SelectorListViewController {
     
     @objc private func perfectTableWithNavi2() {
         let vc = UIStoryboard(name: "StaticTableStoryboard", bundle: Bundle.main).instantiateViewController(withIdentifier: "StaticTableNaviPerfectController2")
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func userXibHeaderFooter() {
+        let vc = UIStoryboard(name: "StaticTableStoryboard", bundle: Bundle.main).instantiateViewController(withIdentifier: "StaticTableXibHeaderFooterController")
         navigationController?.pushViewController(vc, animated: true)
     }
     

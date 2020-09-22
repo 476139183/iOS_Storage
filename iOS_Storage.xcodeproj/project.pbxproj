@@ -171,6 +171,9 @@
 		D92BB28624690A3E008610DB /* ElegantNotifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92BB28524690A3E008610DB /* ElegantNotifViewController.swift */; };
 		D92BB28824694BFA008610DB /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92BB28724694BFA008610DB /* NotificationManager.swift */; };
 		D92BB28B24694FAE008610DB /* ElegantStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92BB28A24694FAE008610DB /* ElegantStructViewController.swift */; };
+		D92BBBEC2519E4D9005C3DA1 /* StaticTableXibHeaderFooterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92BBBEB2519E4D9005C3DA1 /* StaticTableXibHeaderFooterController.swift */; };
+		D92BBBEE2519E898005C3DA1 /* StaticTableXibHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92BBBED2519E898005C3DA1 /* StaticTableXibHeaderView.swift */; };
+		D92BBBF02519E8AB005C3DA1 /* StaticTableXibHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D92BBBEF2519E8AB005C3DA1 /* StaticTableXibHeaderView.xib */; };
 		D92C8E9221788ABE005D7606 /* CQAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */; };
 		D92CBD6523F67901003A6EDC /* RedDotSegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CBD6423F67901003A6EDC /* RedDotSegmentViewController.swift */; };
 		D92CBD6923F693EE003A6EDC /* WebViewGifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CBD6823F693ED003A6EDC /* WebViewGifViewController.swift */; };
@@ -545,6 +548,8 @@
 		D98A546824E0F6D0000CB8A9 /* BlogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A546724E0F6D0000CB8A9 /* BlogModel.swift */; };
 		D98A546A24E0FC35000CB8A9 /* BlogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A546924E0FC35000CB8A9 /* BlogDetailViewController.swift */; };
 		D98A546D24E101F9000CB8A9 /* WKWebView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A546C24E101F9000CB8A9 /* WKWebView+Extension.swift */; };
+		D98AE06C2519FD920075A0B0 /* StaticTableXibFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98AE06B2519FD920075A0B0 /* StaticTableXibFooterView.swift */; };
+		D98AE06E2519FDD50075A0B0 /* StaticTableXibFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98AE06D2519FDD50075A0B0 /* StaticTableXibFooterView.xib */; };
 		D98CBB372453D95200A2E32A /* CollectionViewDemosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CBB362453D95200A2E32A /* CollectionViewDemosViewController.swift */; };
 		D98DF5B224B417C9001B9EC9 /* URLToQRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D98DF5B124B417C9001B9EC9 /* URLToQRCodeTool.m */; };
 		D98DF5B424B42198001B9EC9 /* URLToQRCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98DF5B324B42198001B9EC9 /* URLToQRCodeController.swift */; };
@@ -1110,6 +1115,9 @@
 		D92BB28524690A3E008610DB /* ElegantNotifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegantNotifViewController.swift; sourceTree = "<group>"; };
 		D92BB28724694BFA008610DB /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		D92BB28A24694FAE008610DB /* ElegantStructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegantStructViewController.swift; sourceTree = "<group>"; };
+		D92BBBEB2519E4D9005C3DA1 /* StaticTableXibHeaderFooterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableXibHeaderFooterController.swift; sourceTree = "<group>"; };
+		D92BBBED2519E898005C3DA1 /* StaticTableXibHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableXibHeaderView.swift; sourceTree = "<group>"; };
+		D92BBBEF2519E8AB005C3DA1 /* StaticTableXibHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaticTableXibHeaderView.xib; sourceTree = "<group>"; };
 		D92C8E9021788ABE005D7606 /* CQAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQAnimationViewController.h; sourceTree = "<group>"; };
 		D92C8E9121788ABE005D7606 /* CQAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQAnimationViewController.m; sourceTree = "<group>"; };
 		D92CBD6423F67901003A6EDC /* RedDotSegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedDotSegmentViewController.swift; sourceTree = "<group>"; };
@@ -1558,6 +1566,8 @@
 		D98A546724E0F6D0000CB8A9 /* BlogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogModel.swift; sourceTree = "<group>"; };
 		D98A546924E0FC35000CB8A9 /* BlogDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogDetailViewController.swift; sourceTree = "<group>"; };
 		D98A546C24E101F9000CB8A9 /* WKWebView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebView+Extension.swift"; sourceTree = "<group>"; };
+		D98AE06B2519FD920075A0B0 /* StaticTableXibFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableXibFooterView.swift; sourceTree = "<group>"; };
+		D98AE06D2519FDD50075A0B0 /* StaticTableXibFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaticTableXibFooterView.xib; sourceTree = "<group>"; };
 		D98CBB362453D95200A2E32A /* CollectionViewDemosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDemosViewController.swift; sourceTree = "<group>"; };
 		D98DF5B024B417C9001B9EC9 /* URLToQRCodeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLToQRCodeTool.h; sourceTree = "<group>"; };
 		D98DF5B124B417C9001B9EC9 /* URLToQRCodeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLToQRCodeTool.m; sourceTree = "<group>"; };
@@ -3006,6 +3016,7 @@
 				D99F036524EE0E1A00D93775 /* 添加自定义导航栏 */,
 				D9264E8624F61013006D23BB /* 添加自定义导航栏完美版1 */,
 				D9264E8924F619AE006D23BB /* 添加自定义导航栏完美版2 */,
+				D92BBBEA2519E448005C3DA1 /* 使用xib header与footer */,
 			);
 			path = storyboard;
 			sourceTree = "<group>";
@@ -3216,6 +3227,18 @@
 				D92BB28A24694FAE008610DB /* ElegantStructViewController.swift */,
 			);
 			path = "优雅的结构体";
+			sourceTree = "<group>";
+		};
+		D92BBBEA2519E448005C3DA1 /* 使用xib header与footer */ = {
+			isa = PBXGroup;
+			children = (
+				D92BBBEB2519E4D9005C3DA1 /* StaticTableXibHeaderFooterController.swift */,
+				D92BBBED2519E898005C3DA1 /* StaticTableXibHeaderView.swift */,
+				D92BBBEF2519E8AB005C3DA1 /* StaticTableXibHeaderView.xib */,
+				D98AE06B2519FD920075A0B0 /* StaticTableXibFooterView.swift */,
+				D98AE06D2519FDD50075A0B0 /* StaticTableXibFooterView.xib */,
+			);
+			path = "使用xib header与footer";
 			sourceTree = "<group>";
 		};
 		D92C8E8E21788857005D7606 /* 显式动画与隐式动画 */ = {
@@ -7445,6 +7468,7 @@
 				D95A3DA32480F32300F0166C /* KingfisherLoadGifViewController.xib in Resources */,
 				D98DF5D324B7127B001B9EC9 /* silversalmoncreek.jpg in Resources */,
 				D98DF5EB24B72A2E001B9EC9 /* SwiftUI中用UIKit.md in Resources */,
+				D98AE06E2519FDD50075A0B0 /* StaticTableXibFooterView.xib in Resources */,
 				D98A546424DE8CD6000CB8A9 /* BlogCell.xib in Resources */,
 				D96FE2BD23960E0500949006 /* ASDisplayNode.md in Resources */,
 				D98DF5DB24B7127B001B9EC9 /* yukon_charleyrivers.jpg in Resources */,
@@ -7591,6 +7615,7 @@
 				D9AE0CE320DD02AC00A31D62 /* Assets.xcassets in Resources */,
 				D9E30C37236D5FC50042BC74 /* img_2.png in Resources */,
 				D974BCDF2493862A00942ED2 /* ding2.gif in Resources */,
+				D92BBBF02519E8AB005C3DA1 /* StaticTableXibHeaderView.xib in Resources */,
 				D96D566424AD90D3008DD9CF /* SwiftXibRedView.xib in Resources */,
 				D9B5499423A493CA00E8E6B6 /* getter与setter.md in Resources */,
 				D98DF5D524B7127B001B9EC9 /* lakemcdonald.jpg in Resources */,
@@ -7812,6 +7837,7 @@
 				D9259E8924DC11D2004C1611 /* XibStackViewController.swift in Sources */,
 				D95A3DC024825B0300F0166C /* UITextFieldDemosViewController.swift in Sources */,
 				D9259EBB24DD57F1004C1611 /* StoryboardDemosViewController.swift in Sources */,
+				D98AE06C2519FD920075A0B0 /* StaticTableXibFooterView.swift in Sources */,
 				D96FE2C62396437800949006 /* ASInsetLayoutController.swift in Sources */,
 				D947D39724D7C56600C667F6 /* StackInXibViewController.swift in Sources */,
 				D9545B382293AA4B008B6355 /* CQPermanentThreadController.m in Sources */,
@@ -7885,6 +7911,7 @@
 				D97D0CAF23B5FFCA001E6FB7 /* ChangeSectionHeaderPositionViewController.swift in Sources */,
 				D9264E8824F61082006D23BB /* StaticTableNaviPerfectController.swift in Sources */,
 				D9FF392E24E1476000096984 /* StatusBarAdaptionViewController.swift in Sources */,
+				D92BBBEC2519E4D9005C3DA1 /* StaticTableXibHeaderFooterController.swift in Sources */,
 				D99F036B24EE18B700D93775 /* StaticTableHeaderFooterController.swift in Sources */,
 				D9DE6CCF20FEEB8700C8D4FE /* CQFilterBaseModel.m in Sources */,
 				D940201424CC1E3800934BA0 /* PickerDemosViewController.swift in Sources */,
@@ -8241,6 +8268,7 @@
 				D9264E8B24F61A0A006D23BB /* StaticTableNaviPerfectController2.swift in Sources */,
 				D9160F9923BDF3570089E864 /* GitInfoViewController.swift in Sources */,
 				D965A2BB234E37D400041D69 /* IconFontViewController.swift in Sources */,
+				D92BBBEE2519E898005C3DA1 /* StaticTableXibHeaderView.swift in Sources */,
 				D9E86CC92447EF31009CCBB8 /* RotationGestureViewController.swift in Sources */,
 				D90073F524C2ED35004C9AD0 /* AppManager.swift in Sources */,
 				D92CBD6923F693EE003A6EDC /* WebViewGifViewController.swift in Sources */,
