@@ -375,6 +375,7 @@
 		D95A3DD72484DE0900F0166C /* KVO基本操作.md in Resources */ = {isa = PBXBuildFile; fileRef = D95A3DD62484DE0900F0166C /* KVO基本操作.md */; };
 		D95A3DDA2484DEC300F0166C /* MYKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95A3DD92484DEC300F0166C /* MYKVOViewController.m */; };
 		D95B2F3F23928AB9006F2FE2 /* TextureNodeDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */; };
+		D95B81FA251D9386006A0ACA /* PlaceholderTextView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B81F9251D9386006A0ACA /* PlaceholderTextView2.swift */; };
 		D95BC4EC24F0F05400884695 /* XibArrayPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95BC4EA24F0F05400884695 /* XibArrayPropertyViewController.swift */; };
 		D95BC4ED24F0F05400884695 /* XibArrayPropertyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95BC4EB24F0F05400884695 /* XibArrayPropertyViewController.xib */; };
 		D95BC4EF24F0F08200884695 /* XibArrayPropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95BC4EE24F0F08200884695 /* XibArrayPropertyView.swift */; };
@@ -1381,6 +1382,7 @@
 		D95A3DD82484DEC300F0166C /* MYKVOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYKVOViewController.h; sourceTree = "<group>"; };
 		D95A3DD92484DEC300F0166C /* MYKVOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYKVOViewController.m; sourceTree = "<group>"; };
 		D95B2F3E23928AB9006F2FE2 /* TextureNodeDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureNodeDemoViewController.swift; sourceTree = "<group>"; };
+		D95B81F9251D9386006A0ACA /* PlaceholderTextView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView2.swift; sourceTree = "<group>"; };
 		D95BC4EA24F0F05400884695 /* XibArrayPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibArrayPropertyViewController.swift; sourceTree = "<group>"; };
 		D95BC4EB24F0F05400884695 /* XibArrayPropertyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibArrayPropertyViewController.xib; sourceTree = "<group>"; };
 		D95BC4EE24F0F08200884695 /* XibArrayPropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibArrayPropertyView.swift; sourceTree = "<group>"; };
@@ -4644,6 +4646,14 @@
 			path = "Texture的各种node";
 			sourceTree = "<group>";
 		};
+		D95B81F8251D92CF006A0ACA /* 适配xib版本 */ = {
+			isa = PBXGroup;
+			children = (
+				D95B81F9251D9386006A0ACA /* PlaceholderTextView2.swift */,
+			);
+			path = "适配xib版本";
+			sourceTree = "<group>";
+		};
 		D95BC4E924F0F02200884695 /* 添加数组属性 */ = {
 			isa = PBXGroup;
 			children = (
@@ -5912,6 +5922,7 @@
 			children = (
 				D9CEB46B2355D5080050E7AD /* PlaceholderTextView.swift */,
 				D9AABADC2355B1160029F1C6 /* PlaceholderTextViewController.swift */,
+				D95B81F8251D92CF006A0ACA /* 适配xib版本 */,
 			);
 			path = "带placeholder的textView";
 			sourceTree = "<group>";
@@ -8191,6 +8202,7 @@
 				D9F2D46E210B178F0088FB90 /* CQGCDController.m in Sources */,
 				D95A3DC324825B7400F0166C /* MaxLengthTextfieldViewController.swift in Sources */,
 				D9A39F7E22B4D2EB00FEA5F5 /* CQMVVMViewController.m in Sources */,
+				D95B81FA251D9386006A0ACA /* PlaceholderTextView2.swift in Sources */,
 				D9C7020F22EB542200DDC44F /* RxSwiftDemoViewController.swift in Sources */,
 				D9519A0322BFACC600E3036B /* Clothes.m in Sources */,
 				D93AB54924864E9A00E79EAB /* SpringViewController.swift in Sources */,
