@@ -9,13 +9,19 @@
 import UIKit
 import WebKit
 
-class WKScriptViewController: CQBaseViewController {
+class WKScriptViewController: CQBaseViewController, WKUIDelegate {
     
     private var isInjected: Bool = false
     
     private lazy var webView: WKWebView = {
-        let webView = WKWebView()
+        let config = WKWebViewConfiguration()
+        config.allowsInlineMediaPlayback = true
+        let uc = WKUserContentController()
+        config.userContentController = uc
+        
+        let webView = WKWebView(frame: .zero, configuration: config)
         webView.navigationDelegate = self
+        webView.uiDelegate = self
         if let path = Bundle.main.path(forResource: "kq", ofType: ".html") {
             let url = URL.init(fileURLWithPath: path)
             webView.loadFileURL(url, allowingReadAccessTo: url)

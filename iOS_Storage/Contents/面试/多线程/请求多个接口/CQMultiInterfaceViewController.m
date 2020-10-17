@@ -39,6 +39,10 @@ static NSString * const CQMultiInterfaceCellReuseID = @"CQMultiInterfaceCellReus
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CQMultiInterfaceCellReuseID];
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.bottom.mas_equalTo(self.view);
+        make.top.mas_offset(NAVIGATION_BAR_HEIGHT);
+    }];
 }
 
 #pragma mark - 使用GCD_GROUP请求多个接口

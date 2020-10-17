@@ -36,4 +36,9 @@ class CheckPricacyViewController: SelectorListViewController {
         }
     }
     
+    /// 检查相册权限
+    @objc private func checkAlbum() {
+        
+    }
+    
 }

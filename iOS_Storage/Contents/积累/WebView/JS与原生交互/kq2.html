@@ -23,8 +23,10 @@ function changeColor() {
     
 var call = function()
 {
-    var callInfo = JSON.stringify({"jianshu": "http://www.jianshu.com/users/55c8fdc3c6e7/latest_articles"});
-    tianbai.getCall(callInfo);
+<!--    var callInfo = JSON.stringify({"jianshu": "http://www.jianshu.com/users/55c8fdc3c6e7/latest_articles"});-->
+<!--    tianbai.getCall(callInfo);-->
+alert('call');
+    window.webkit.messageHandlers.CallApp.postMessage(params);
 }
 
 var Callback = function(str)

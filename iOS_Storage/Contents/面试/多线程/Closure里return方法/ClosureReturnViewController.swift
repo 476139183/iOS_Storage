@@ -17,8 +17,21 @@ class ClosureReturnViewController: CQBaseViewController {
         
         // Do any additional setup after loading the view.
         
-        let a = returnInClosure()
-        print(a)
+        DispatchQueue.global().sync {
+//            let a = self.returnInClosure()
+//            print(a)
+//
+            print("111")
+        }
+        
+        DispatchQueue.global().sync {
+            sleep(2)
+            print(Thread.current)
+            print("global sync")
+            self.view.backgroundColor = self.getBgColor()
+        }
+        
+        print("viewDidLoad")
         
     }
     
@@ -29,7 +42,7 @@ class ClosureReturnViewController: CQBaseViewController {
     
     private func returnInClosure() -> String {
         
-        let queue = DispatchQueue.init(label: "myQueue")
+        let queue = DispatchQueue.global()
         
         var objectID = ""
         
@@ -40,11 +53,22 @@ class ClosureReturnViewController: CQBaseViewController {
             semaphore.signal()
         }
         
+        // 会卡住调用这句话的线程
         semaphore.wait()
         
         return objectID;
     }
     
+    private func getBgColor() -> UIColor {
+        
+        DispatchQueue.global().sync {
+            return UIColor.red
+        }
+        
+        
+        
+        //return .blue
+    }
     
     // 获取淘宝时间戳
     func getTaobaoTimeStamp() -> String {

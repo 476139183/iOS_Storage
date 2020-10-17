@@ -12,7 +12,7 @@ import Lottie
 class LottieViewController: CQBaseViewController {
     
     private lazy var lotView: AnimationView = {
-        let view = AnimationView(name: "监控")
+        let view = AnimationView(name: "白色")
         // lottie 不支持3D
         //let view = AnimationView(name: "tabbar_find")
         view.loopMode = .loop
@@ -24,7 +24,7 @@ class LottieViewController: CQBaseViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view.backgroundColor = .white
-        lotView.frame = .init(x: 0, y: kNavigationBarHeight, width: kScreenWidth, height: kScreenHeight-kNavigationBarHeight)
+        lotView.frame = .init(x: 0, y: kNavigationBarHeight, width: 100, height: 100)
         view.addSubview(lotView)
     }
     

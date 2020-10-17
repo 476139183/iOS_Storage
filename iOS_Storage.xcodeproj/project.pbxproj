@@ -875,6 +875,8 @@
 		D9ED81E02458095500726E49 /* SeekPerfectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ED81DF2458095500726E49 /* SeekPerfectViewController.swift */; };
 		D9ED81E224580A4600726E49 /* JumpListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ED81E124580A4600726E49 /* JumpListViewController.swift */; };
 		D9ED907A2454310800FFABB5 /* ZFPlayerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ED90792454310800FFABB5 /* ZFPlayerDemoViewController.swift */; };
+		D9EE27992536FF4600E745CE /* 深色.json in Resources */ = {isa = PBXBuildFile; fileRef = D9EE27972536FF4600E745CE /* 深色.json */; };
+		D9EE279A2536FF4600E745CE /* 白色.json in Resources */ = {isa = PBXBuildFile; fileRef = D9EE27982536FF4600E745CE /* 白色.json */; };
 		D9EF0EA72110396300755E11 /* class_cluster_data.json in Resources */ = {isa = PBXBuildFile; fileRef = D9EF0EA62110394E00755E11 /* class_cluster_data.json */; };
 		D9F12E432467E84800B3D597 /* FloatingLayerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F12E422467E84800B3D597 /* FloatingLayerDemoViewController.swift */; };
 		D9F29C9122B6257F002E10E4 /* 组件化.md in Resources */ = {isa = PBXBuildFile; fileRef = D9F29C9022B6257F002E10E4 /* 组件化.md */; };
@@ -1973,6 +1975,8 @@
 		D9ED81DF2458095500726E49 /* SeekPerfectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekPerfectViewController.swift; sourceTree = "<group>"; };
 		D9ED81E124580A4600726E49 /* JumpListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpListViewController.swift; sourceTree = "<group>"; };
 		D9ED90792454310800FFABB5 /* ZFPlayerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFPlayerDemoViewController.swift; sourceTree = "<group>"; };
+		D9EE27972536FF4600E745CE /* 深色.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "深色.json"; sourceTree = "<group>"; };
+		D9EE27982536FF4600E745CE /* 白色.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "白色.json"; sourceTree = "<group>"; };
 		D9EF0EA62110394E00755E11 /* class_cluster_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = class_cluster_data.json; sourceTree = "<group>"; };
 		D9F12E422467E84800B3D597 /* FloatingLayerDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingLayerDemoViewController.swift; sourceTree = "<group>"; };
 		D9F29C9022B6257F002E10E4 /* 组件化.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "组件化.md"; sourceTree = "<group>"; };
@@ -2918,6 +2922,8 @@
 			isa = PBXGroup;
 			children = (
 				D920ED1F22E870A800C5A43F /* LottieViewController.swift */,
+				D9EE27982536FF4600E745CE /* 白色.json */,
+				D9EE27972536FF4600E745CE /* 深色.json */,
 				D94F0584248B44DB007B0165 /* ds_monitor.json */,
 				D94F0577248A4807007B0165 /* tabbar_find.json */,
 				D94F058C248B7669007B0165 /* compose.json */,
@@ -7534,6 +7540,7 @@
 				D9AC3CB622AFFDC2007DDBD0 /* 数据结构分类.md in Resources */,
 				D973CD102487A6E000C67FB9 /* 泛型.md in Resources */,
 				D96F416323BEE093008616F4 /* 优雅的Swift.md in Resources */,
+				D9EE27992536FF4600E745CE /* 深色.json in Resources */,
 				D9E30C36236D5FC50042BC74 /* img_0.png in Resources */,
 				D94016932361EE9C00580AAC /* accumulate_contents.plist in Resources */,
 				D9FF392F24E1476000096984 /* StatusBarAdaptionViewController.xib in Resources */,
@@ -7584,6 +7591,7 @@
 				D96FE2BB239603DE00949006 /* ASViewController.md in Resources */,
 				D985E41F23FD08B500CF7954 /* SF-Pro-Text-Semibold.otf in Resources */,
 				D9CFC805229CCA0F009B8399 /* 消息发送.md in Resources */,
+				D9EE279A2536FF4600E745CE /* 白色.json in Resources */,
 				D9CFC807229CCAB7009B8399 /* 消息转发.md in Resources */,
 				D94F0589248B4C7B007B0165 /* kq.html in Resources */,
 				D9347FB32490D43300944E61 /* pullDown.json in Resources */,
@@ -8659,7 +8667,7 @@
 				INFOPLIST_FILE = iOS_Storage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "caiqiang.iOS-Storage.cq3";
+				PRODUCT_BUNDLE_IDENTIFIER = "caiqiang.iOS-Storage.cq5";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Storage/iOS_Storage-Bridging-Header.h";
@@ -8683,7 +8691,7 @@
 				INFOPLIST_FILE = iOS_Storage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "caiqiang.iOS-Storage.cq3";
+				PRODUCT_BUNDLE_IDENTIFIER = "caiqiang.iOS-Storage.cq5";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Storage/iOS_Storage-Bridging-Header.h";
